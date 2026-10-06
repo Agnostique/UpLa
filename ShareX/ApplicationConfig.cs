@@ -130,7 +130,8 @@ namespace ShareX
 
         #region Upload
 
-        public int UploadLimit = 0;
+        // upla.com.tr: at most 5 simultaneous uploads to the single upla.com.tr server (ShareX 21 defaults to unlimited).
+        public int UploadLimit = 5;
         public int BufferSizePower = 5;
         public List<ClipboardFormat> ClipboardContentFormats = new List<ClipboardFormat>();
 
@@ -148,7 +149,8 @@ namespace ShareX
         public bool HistoryCheckURL = false;
 
         public RecentTask[] RecentTasks = null;
-        public bool RecentTasksSave = false;
+        // upla.com.tr: keep the tray "Recent items" links and restore the upload list after a restart, as before.
+        public bool RecentTasksSave = true;
         public int RecentTasksMaxCount = 10;
         public bool RecentTasksShowInMainWindow = true;
         public bool RecentTasksShowInTrayMenu = true;
@@ -240,6 +242,11 @@ namespace ShareX
 
         [Category("Upload"), DefaultValue(true), Description("Ignore emojis while URL encoding upload results.")]
         public bool URLEncodeIgnoreEmoji { get; set; }
+
+        // upla.com.tr: same name as the setting ShareX removed in v19, so users who already answered it in the
+        // previous upla build are not asked again.
+        [Category("Upload"), DefaultValue(true), Description("Show first time upload warning.")]
+        public bool ShowUploadWarning { get; set; }
 
         [Category("Upload"), DefaultValue(true), Description("Show more than 10 files upload warning.")]
         public bool ShowMultiUploadWarning { get; set; }

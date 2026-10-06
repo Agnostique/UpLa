@@ -99,6 +99,11 @@ namespace ShareX.HelpersLib
         public static string ErrorRejected => T("upla.com.tr yüklemeyi kabul etmedi: {0}", "upla.com.tr rejected the upload: {0}");
         public static string ErrorUnexpectedResponse => T("upla.com.tr'den beklenmeyen bir yanıt alındı.", "Unexpected response from upla.com.tr.");
 
+        // First upload
+        public static string FirstUploadTitle => T("upla.com.tr'ye otomatik yükleme", "Automatic upload to upla.com.tr");
+        public static string FirstUploadText => T("Ekran görüntüleriniz ve kayıtlarınız yakalandıktan sonra otomatik olarak upla.com.tr'ye yüklenir ve linke sahip herkesin görebileceği bir bağlantı oluşturulur.\r\n\r\nOtomatik yükleme açık kalsın mı?\r\n\r\nHayır derseniz bu dosya yüklenmez ve otomatik yükleme kapatılır; daha sonra \"Yakalama sonrası görevler\" menüsünden tekrar açabilirsiniz.",
+            "Your screenshots and recordings are uploaded to upla.com.tr automatically after capture, and a link that anyone who has it can open is created.\r\n\r\nKeep automatic upload on?\r\n\r\nIf you choose No, this file is not uploaded and automatic upload is turned off; you can turn it back on from the \"After capture tasks\" menu.");
+
         // Deletion links
         public static string DeletionURLConfirmTitle => T("Silme linki", "Deletion link");
         public static string DeletionURLConfirmText => T("Silme linki açıldığında yüklenen dosya sunucudan hemen ve kalıcı olarak silinebilir. Devam etmek istiyor musunuz?",

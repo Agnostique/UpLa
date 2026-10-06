@@ -369,6 +369,11 @@ namespace ShareX
 
         private void DoUploadJob()
         {
+            if (!ConfirmUplaFirstUpload())
+            {
+                return;
+            }
+
             if (Program.Settings.ShowLargeFileSizeWarning > 0)
             {
                 long dataSize = Program.Settings.BinaryUnits ? Program.Settings.ShowLargeFileSizeWarning * 1024 * 1024 : Program.Settings.ShowLargeFileSizeWarning * 1000 * 1000;
@@ -430,6 +435,39 @@ namespace ShareX
             }
         }
 
+        // upla.com.tr: ask once before the first upload, like the previous upla build. ShareX 19 removed its first
+        // time upload warning together with automatic upload, which the upla build turns back on by default.
+        private bool ConfirmUplaFirstUpload()
+        {
+            if (!Program.Settings.ShowUploadWarning)
+            {
+                return true;
+            }
+
+            bool keepUploading = UplaHelpers.ConfirmFirstUpload();
+
+            Program.Settings.ShowUploadWarning = false;
+
+            if (!keepUploading)
+            {
+                Program.DefaultTaskSettings.AfterCaptureJob = Program.DefaultTaskSettings.AfterCaptureJob.Remove(AfterCaptureTasks.UploadImageToHost);
+
+                foreach (HotkeySettings hotkeySettings in Program.HotkeysConfig.Hotkeys)
+                {
+                    if (hotkeySettings.TaskSettings != null)
+                    {
+                        hotkeySettings.TaskSettings.AfterCaptureJob = hotkeySettings.TaskSettings.AfterCaptureJob.Remove(AfterCaptureTasks.UploadImageToHost);
+                    }
+                }
+
+                Info.TaskSettings.AfterCaptureJob = Info.TaskSettings.AfterCaptureJob.Remove(AfterCaptureTasks.UploadImageToHost);
+                Info.Result.IsURLExpected = false;
+                RequestSettingUpdate = true;
+            }
+
+            return keepUploading;
+        }
+
         private bool DoUpload(Stream data, string fileName, int retry = 0)
         {
             bool isError = false;
@@ -438,11 +476,26 @@ namespace ShareX
             {
                 if (Program.Settings.UseSecondaryUploaders)
                 {
-                    Info.TaskSettings.ImageDestination = Program.Settings.SecondaryImageUploaders[retry - 1];
-                    Info.TaskSettings.ImageFileDestination = Program.Settings.SecondaryFileUploaders[retry - 1];
-                    Info.TaskSettings.TextDestination = Program.Settings.SecondaryTextUploaders[retry - 1];
-                    Info.TaskSettings.TextFileDestination = Program.Settings.SecondaryFileUploaders[retry - 1];
-                    Info.TaskSettings.FileDestination = Program.Settings.SecondaryFileUploaders[retry - 1];
+                    // upla.com.tr: the upla build has fewer image destinations than the retry limit (up to 5),
+                    // so keep the current destination once a secondary list is exhausted instead of crashing.
+                    int index = retry - 1;
+
+                    if (Program.Settings.SecondaryImageUploaders.IsValidIndex(index))
+                    {
+                        Info.TaskSettings.ImageDestination = Program.Settings.SecondaryImageUploaders[index];
+                    }
+
+                    if (Program.Settings.SecondaryTextUploaders.IsValidIndex(index))
+                    {
+                        Info.TaskSettings.TextDestination = Program.Settings.SecondaryTextUploaders[index];
+                    }
+
+                    if (Program.Settings.SecondaryFileUploaders.IsValidIndex(index))
+                    {
+                        Info.TaskSettings.ImageFileDestination = Program.Settings.SecondaryFileUploaders[index];
+                        Info.TaskSettings.TextFileDestination = Program.Settings.SecondaryFileUploaders[index];
+                        Info.TaskSettings.FileDestination = Program.Settings.SecondaryFileUploaders[index];
+                    }
                 }
                 else
                 {

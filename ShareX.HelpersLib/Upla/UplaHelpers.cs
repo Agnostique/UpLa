@@ -35,5 +35,14 @@ namespace ShareX.HelpersLib
             return MessageBox.Show(UplaStrings.DeletionURLConfirmText, UplaStrings.DeletionURLConfirmTitle, MessageBoxButtons.YesNo, MessageBoxIcon.Warning,
                 MessageBoxDefaultButton.Button2) == DialogResult.Yes;
         }
+
+        // Shown from the upload task thread (STA), so a top most owner keeps it above other windows.
+        public static bool ConfirmFirstUpload()
+        {
+            using (Form owner = new Form() { TopMost = true })
+            {
+                return MessageBox.Show(owner, UplaStrings.FirstUploadText, UplaStrings.FirstUploadTitle, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes;
+            }
+        }
     }
 }
