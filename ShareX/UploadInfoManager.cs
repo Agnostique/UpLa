@@ -113,7 +113,7 @@ namespace ShareX
 
         public void OpenDeletionURL()
         {
-            if (IsItemSelected && SelectedItem.IsDeletionURLExist) URLHelpers.OpenURL(SelectedItem.Info.Result.DeletionURL);
+            if (IsItemSelected && SelectedItem.IsDeletionURLExist && UplaHelpers.ConfirmOpenDeletionURL()) URLHelpers.OpenURL(SelectedItem.Info.Result.DeletionURL);
         }
 
         public void OpenFile()

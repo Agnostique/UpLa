@@ -213,7 +213,7 @@ namespace ShareX.HistoryLib
 
         public void OpenDeletionURL()
         {
-            if (HistoryItem != null && IsDeletionURLExist) URLHelpers.OpenURL(HistoryItem.DeletionURL);
+            if (HistoryItem != null && IsDeletionURLExist && UplaHelpers.ConfirmOpenDeletionURL()) URLHelpers.OpenURL(HistoryItem.DeletionURL);
         }
 
         public void OpenFile()
