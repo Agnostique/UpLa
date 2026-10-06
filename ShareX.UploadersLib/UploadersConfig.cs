@@ -39,7 +39,7 @@ namespace ShareX.UploadersLib
         #region Chevereto
 
         public CheveretoUploader CheveretoUploader { get; set; } = new CheveretoUploader();
-        public bool CheveretoDirectURL { get; set; } = true;
+        public bool CheveretoDirectURL { get; set; } = false;
 
         #endregion Chevereto
 

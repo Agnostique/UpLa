@@ -39,14 +39,20 @@ namespace ShareX.UploadersLib.ImageUploaders
 
         public override Image ServiceImage => Resources.Chevereto;
 
+        // upla.com.tr: Chevereto uploads always go to upla.com.tr with the upla API key.
+        public const string UplaUploadURL = "https://upla.com.tr/api/1/upload";
+
         public override bool CheckConfig(UploadersConfig config)
         {
-            return config.CheveretoUploader != null && !string.IsNullOrEmpty(config.CheveretoUploader.UploadURL) &&
-                !string.IsNullOrEmpty(config.CheveretoUploader.APIKey);
+            ApplyUplaSettings(config);
+
+            return !string.IsNullOrEmpty(config.CheveretoUploader.APIKey);
         }
 
         public override GenericUploader CreateUploader(UploadersConfig config, TaskReferenceHelper taskInfo)
         {
+            ApplyUplaSettings(config);
+
             return new Chevereto(config.CheveretoUploader)
             {
                 DirectURL = config.CheveretoDirectURL
@@ -54,6 +60,13 @@ namespace ShareX.UploadersLib.ImageUploaders
         }
 
         public override TabPage GetUploadersConfigTabPage(UploadersConfigForm form) => form.tpChevereto;
+
+        private static void ApplyUplaSettings(UploadersConfig config)
+        {
+            config.CheveretoUploader ??= new CheveretoUploader();
+            config.CheveretoUploader.UploadURL = UplaUploadURL;
+            config.CheveretoUploader.APIKey = APIKeys.UplaAPIKey;
+        }
     }
 
     public sealed class Chevereto : ImageUploader

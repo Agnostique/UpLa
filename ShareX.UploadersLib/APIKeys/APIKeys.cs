@@ -27,6 +27,10 @@ namespace ShareX.UploadersLib
 {
     internal static partial class APIKeys
     {
+        // upla.com.tr Chevereto API key. Kept out of the repository: set it in APIKeysLocal.cs
+        // (git ignored) from a static constructor, e.g. static APIKeys() { UplaAPIKey = "..."; }
+        public static readonly string UplaAPIKey = "";
+
         // Text uploaders
         public static readonly string PastebinKey = "";
         public static readonly string GitHubID = "";
