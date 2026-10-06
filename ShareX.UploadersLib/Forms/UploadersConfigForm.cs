@@ -158,10 +158,8 @@ namespace ShareX.UploadersLib
         {
             #region Chevereto
 
-            if (Config.CheveretoUploader == null) Config.CheveretoUploader = new CheveretoUploader();
-            txtCheveretoUploadURL.Text = Config.CheveretoUploader.UploadURL;
-            txtCheveretoAPIKey.Text = Config.CheveretoUploader.APIKey;
-            cbCheveretoDirectURL.Checked = Config.CheveretoDirectURL;
+            // upla.com.tr: the Chevereto URL/API key fields are replaced by the upla account and upload options.
+            UplaSettingsControl.AttachTo(tpChevereto, Config);
 
             #endregion Chevereto
 

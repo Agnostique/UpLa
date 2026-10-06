@@ -41,6 +41,9 @@ namespace ShareX.UploadersLib
         public CheveretoUploader CheveretoUploader { get; set; } = new CheveretoUploader();
         public bool CheveretoDirectURL { get; set; } = false;
 
+        // upla.com.tr account and upload options. Null until first use, see Upla.GetSettings.
+        public UplaSettings UplaSettings { get; set; } = null;
+
         #endregion Chevereto
 
         #endregion Image uploaders
