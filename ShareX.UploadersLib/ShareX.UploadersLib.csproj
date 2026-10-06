@@ -16,4 +16,9 @@
   <ItemGroup>
     <Content Include="Resources\OAuthCallbackPage.html" />
   </ItemGroup>
+  <!-- upla.com.tr: Release builds need the upla.com.tr guest API key from the git ignored APIKeys\APIKeysLocal.cs
+       (see APIKeys.cs), otherwise every guest upload fails. -->
+  <Target Name="UplaRequireAPIKeys" BeforeTargets="CoreCompile" Condition="'$(Configuration)' == 'Release' And !Exists('$(MSBuildProjectDirectory)\APIKeys\APIKeysLocal.cs')">
+    <Error Text="APIKeys\APIKeysLocal.cs is missing. Release builds of the upla.com.tr app need it to set APIKeys.UplaAPIKey, otherwise guest uploads fail. Use the Debug configuration to build without it." />
+  </Target>
 </Project>
