@@ -232,6 +232,8 @@ namespace ShareX
             tsbDonate.Image = Resources.globe;
 #endif
 
+            ApplyUplaMainWindowCustomizations();
+
             HandleCreated += MainForm_HandleCreated;
         }
 
@@ -2440,5 +2442,39 @@ namespace ShareX
         #endregion UploadInfoMenu events
 
         #endregion Form events
+
+        #region upla
+
+        // upla.com.tr: main window menu items that the upla build does not show, same as the previous
+        // upla build. The items are only detached from the main window menus, so the code that updates
+        // them keeps working and the tray menu still offers these features.
+        private void ApplyUplaMainWindowCustomizations()
+        {
+            RemoveToolStripItems(
+                // Capture
+                tsmiScreenRecordingFFmpeg, tsmiScreenRecordingGIF,
+                // Upload
+                tsmiUploadClipboard, tsmiUploadText, tsmiUploadURL, tsmiShortenURL,
+                // Workflows
+                tsddbWorkflows,
+                // Tools
+                tsmiVideoConverter, tsmiVideoThumbnailer, tssTools3, tsmiIndexFolder,
+                // Destinations
+                tsmiTextUploaders, tsmiFileUploaders, tsmiURLShorteners, tsmiURLSharingServices, tsbCustomUploaderSettings,
+                // Debug
+                tsmiTestTextUpload, tsmiTestFileUpload, tsmiTestURLShortener, tsmiTestURLSharing,
+                // ShareX links
+                tsbDonate, tsbX, tsbDiscord);
+        }
+
+        private static void RemoveToolStripItems(params ToolStripItem[] items)
+        {
+            foreach (ToolStripItem item in items)
+            {
+                item.Owner?.Items.Remove(item);
+            }
+        }
+
+        #endregion upla
     }
 }
