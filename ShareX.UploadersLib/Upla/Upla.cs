@@ -69,12 +69,19 @@ namespace ShareX.UploadersLib
 
         public static bool HasPersonalAPIKey(UploadersConfig config)
         {
-            return !string.IsNullOrWhiteSpace(GetSettings(config).PersonalAPIKey);
+            return NormalizeAPIKey(GetSettings(config).PersonalAPIKey).Length > 0;
         }
 
         public static string GetAPIKey(UploadersConfig config)
         {
-            return HasPersonalAPIKey(config) ? GetSettings(config).PersonalAPIKey.Trim() : APIKeys.UplaAPIKey;
+            return HasPersonalAPIKey(config) ? NormalizeAPIKey(GetSettings(config).PersonalAPIKey) : APIKeys.UplaAPIKey;
+        }
+
+        // Keys never contain whitespace, but a key copied from a web page can carry spaces or line breaks,
+        // which would make the X-API-Key header invalid.
+        public static string NormalizeAPIKey(string key)
+        {
+            return string.IsNullOrEmpty(key) ? "" : new string(key.Where(c => !char.IsWhiteSpace(c) && !char.IsControl(c)).ToArray());
         }
 
         public static UplaUploader CreateUploader(UploadersConfig config)

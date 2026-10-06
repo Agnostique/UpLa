@@ -101,7 +101,7 @@ namespace ShareX.UploadersLib
             };
             txtAPIKey.TextChanged += (sender, e) =>
             {
-                settings.PersonalAPIKey = txtAPIKey.Text.Trim();
+                settings.PersonalAPIKey = Upla.NormalizeAPIKey(txtAPIKey.Text);
                 UpdateStatus();
             };
             AddRow(CreateLabel(UplaStrings.PersonalAPIKey), txtAPIKey);
@@ -227,7 +227,7 @@ namespace ShareX.UploadersLib
             btnVerify.Enabled = false;
             lblStatus.Text = UplaStrings.Verifying;
 
-            string personalKey = txtAPIKey.Text.Trim();
+            string personalKey = Upla.NormalizeAPIKey(txtAPIKey.Text);
             bool isMember = personalKey.Length > 0;
             string key = isMember ? personalKey : APIKeys.UplaAPIKey;
             string statusText;
@@ -273,7 +273,7 @@ namespace ShareX.UploadersLib
         {
             if (!isVerifying)
             {
-                lblStatus.Text = string.IsNullOrWhiteSpace(txtAPIKey.Text) ? UplaStrings.StatusGuest : UplaStrings.StatusMember;
+                lblStatus.Text = Upla.NormalizeAPIKey(txtAPIKey.Text).Length == 0 ? UplaStrings.StatusGuest : UplaStrings.StatusMember;
             }
         }
 
