@@ -61,10 +61,10 @@ namespace ShareX
 
         public bool UseDefaultDestinations = true;
         public ImageDestination ImageDestination = ImageDestination.Chevereto;
-        public FileDestination ImageFileDestination = FileDestination.Dropbox;
+        public FileDestination ImageFileDestination = FileDestination.Chevereto;
         public TextDestination TextDestination = TextDestination.Pastebin;
         public FileDestination TextFileDestination = FileDestination.Dropbox;
-        public FileDestination FileDestination = FileDestination.Dropbox;
+        public FileDestination FileDestination = FileDestination.Chevereto;
         public UrlShortenerType URLShortenerDestination = UrlShortenerType.BITLY;
         public URLSharingServices URLSharingServiceDestination = URLSharingServices.Email;
 

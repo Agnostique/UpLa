@@ -2445,14 +2445,12 @@ namespace ShareX
 
         #region upla
 
-        // upla.com.tr: main window menu items that the upla build does not show, same as the previous
-        // upla build. The items are only detached from the main window menus, so the code that updates
-        // them keeps working and the tray menu still offers these features.
+        // upla.com.tr: main window menu items that the upla build does not show. The items are only detached
+        // from the main window menus, so the code that updates them keeps working and the tray menu still
+        // offers these features. Screen recording stays visible because recordings are uploaded to upla.com.tr.
         private void ApplyUplaMainWindowCustomizations()
         {
             RemoveToolStripItems(
-                // Capture
-                tsmiScreenRecordingFFmpeg, tsmiScreenRecordingGIF,
                 // Upload
                 tsmiUploadClipboard, tsmiUploadText, tsmiUploadURL, tsmiShortenURL,
                 // Workflows

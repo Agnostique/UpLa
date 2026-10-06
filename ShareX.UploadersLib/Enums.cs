@@ -31,7 +31,7 @@ namespace ShareX.UploadersLib
     [Description("Image uploaders"), DefaultValue(Chevereto)]
     public enum ImageDestination
     {
-        [Description("Chevereto")]
+        [Description("upla.com.tr")]
         Chevereto,
         CustomImageUploader, // Localized
         FileUploader // Localized
@@ -64,9 +64,11 @@ namespace ShareX.UploadersLib
         FileUploader // Localized
     }
 
-    [Description("File uploaders"), DefaultValue(Dropbox)]
+    [Description("File uploaders"), DefaultValue(Chevereto)]
     public enum FileDestination
     {
+        [Description("upla.com.tr")]
+        Chevereto,
         [Description("Dropbox")]
         Dropbox,
         [Description("FTP")]
