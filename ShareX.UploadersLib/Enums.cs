@@ -28,21 +28,11 @@ using System.ComponentModel;
 
 namespace ShareX.UploadersLib
 {
-    [Description("Image uploaders"), DefaultValue(Imgur)]
+    [Description("Image uploaders"), DefaultValue(Chevereto)]
     public enum ImageDestination
     {
-        [Description("Imgur")]
-        Imgur,
-        [Description("ImageShack")]
-        ImageShack,
-        [Description("Flickr")]
-        Flickr,
-        [Description("Photobucket")]
-        Photobucket,
         [Description("Chevereto")]
         Chevereto,
-        [Description("vgy.me")]
-        Vgyme,
         CustomImageUploader, // Localized
         FileUploader // Localized
     }
