@@ -34,7 +34,6 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Windows.Forms;
-using System.Windows.Media.Imaging;
 
 namespace ShareX.HelpersLib
 {
@@ -81,36 +80,30 @@ namespace ShareX.HelpersLib
             return ScaleImageFast(bmp, scale, scale);
         }
 
+        // upla.com.tr: GDI+ instead of WPF (TransformedBitmap), so the app does not have to ship WPF just for this.
+        // Unlike ResizeImage, the source bitmap is not disposed.
         public static Bitmap ScaleImageFast(Bitmap bmp, double scaleX, double scaleY)
         {
-            using (MemoryStream memoryStream = new MemoryStream())
+            int width = Math.Max(1, (int)Math.Round(bmp.Width * scaleX));
+            int height = Math.Max(1, (int)Math.Round(bmp.Height * scaleY));
+
+            Bitmap bmpResult = new Bitmap(width, height, PixelFormat.Format32bppArgb);
+            bmpResult.SetResolution(bmp.HorizontalResolution, bmp.VerticalResolution);
+
+            using (Graphics g = Graphics.FromImage(bmpResult))
             {
-                bmp.Save(memoryStream, ImageFormat.Bmp);
-                memoryStream.Position = 0;
+                g.InterpolationMode = DefaultInterpolationMode;
+                g.PixelOffsetMode = PixelOffsetMode.HighQuality;
+                g.CompositingQuality = CompositingQuality.HighQuality;
 
-                BitmapImage bitmapImage = new BitmapImage();
-                bitmapImage.BeginInit();
-                bitmapImage.CacheOption = BitmapCacheOption.OnLoad;
-                bitmapImage.StreamSource = memoryStream;
-                bitmapImage.EndInit();
-
-                TransformedBitmap transformedBitmap = new TransformedBitmap();
-                transformedBitmap.BeginInit();
-                transformedBitmap.Source = bitmapImage;
-                transformedBitmap.Transform = new System.Windows.Media.ScaleTransform(scaleX, scaleY);
-                transformedBitmap.EndInit();
-
-                return GetBitmap(transformedBitmap);
+                using (ImageAttributes ia = new ImageAttributes())
+                {
+                    ia.SetWrapMode(WrapMode.TileFlipXY);
+                    g.DrawImage(bmp, new Rectangle(0, 0, width, height), 0, 0, bmp.Width, bmp.Height, GraphicsUnit.Pixel, ia);
+                }
             }
-        }
 
-        private static Bitmap GetBitmap(BitmapSource bitmapSource, PixelFormat pixelFormat = PixelFormat.Format32bppArgb)
-        {
-            Bitmap bmp = new Bitmap(bitmapSource.PixelWidth, bitmapSource.PixelHeight, pixelFormat);
-            BitmapData data = bmp.LockBits(new Rectangle(0, 0, bmp.Width, bmp.Height), ImageLockMode.WriteOnly, pixelFormat);
-            bitmapSource.CopyPixels(System.Windows.Int32Rect.Empty, data.Scan0, data.Height * data.Stride, data.Stride);
-            bmp.UnlockBits(data);
-            return bmp;
+            return bmpResult;
         }
 
         public static Bitmap ResizeImage(Bitmap bmp, Size size, bool allowEnlarge, bool centerImage = true)
