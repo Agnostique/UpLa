@@ -40,7 +40,9 @@ namespace ShareX
 
         public static void UpdateSystemOptions()
         {
-            DisableUpdateCheck = GetSystemOptionBoolean("DisableUpdateCheck");
+            // upla.com.tr: always disabled. The ShareX update checker polls github.com/ShareX/ShareX and its update
+            // would install the official ShareX over the upla build. Point it at an upla owned repository first.
+            DisableUpdateCheck = true;
             DisableUpload = GetSystemOptionBoolean("DisableUpload");
             DisableLogging = GetSystemOptionBoolean("DisableLogging");
             PersonalPath = GetSystemOptionString("PersonalPath");
