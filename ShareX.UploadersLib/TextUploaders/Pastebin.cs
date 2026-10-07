@@ -38,7 +38,9 @@ namespace ShareX.UploadersLib.TextUploaders
 
         public override Icon ServiceIcon => Resources.Pastebin;
 
-        public override bool CheckConfig(UploadersConfig config) => true;
+        // upla.com.tr: ShareX's Pastebin API key is not available to this build, so without it the text would still
+        // be sent to pastebin.com only to be rejected there. Treat Pastebin as not configured instead.
+        public override bool CheckConfig(UploadersConfig config) => !string.IsNullOrEmpty(APIKeys.PastebinKey);
 
         public override GenericUploader CreateUploader(UploadersConfig config, TaskReferenceHelper taskInfo)
         {

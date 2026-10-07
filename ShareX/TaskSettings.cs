@@ -62,8 +62,9 @@ namespace ShareX
         public bool UseDefaultDestinations = true;
         public ImageDestination ImageDestination = ImageDestination.Chevereto;
         public FileDestination ImageFileDestination = FileDestination.Chevereto;
-        public TextDestination TextDestination = TextDestination.Pastebin;
-        public FileDestination TextFileDestination = FileDestination.Dropbox;
+        // upla.com.tr: text goes to upla.com.tr (which rejects text files locally) instead of pastebin.com.
+        public TextDestination TextDestination = TextDestination.FileUploader;
+        public FileDestination TextFileDestination = FileDestination.Chevereto;
         public FileDestination FileDestination = FileDestination.Chevereto;
         public UrlShortenerType URLShortenerDestination = UrlShortenerType.BITLY;
         public URLSharingServices URLSharingServiceDestination = URLSharingServices.Email;
