@@ -331,12 +331,6 @@
   <data name="tsmiScrollingCapture.Text" xml:space="preserve">
     <value>Scrolling capture...</value>
   </data>
-  <data name="tsmiAutoCapture.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 22</value>
-  </data>
-  <data name="tsmiAutoCapture.Text" xml:space="preserve">
-    <value>Auto capture...</value>
-  </data>
   <data name="tssCapture1.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 6</value>
   </data>
@@ -1431,12 +1425,6 @@
   <data name="tsmiTrayScrollingCapture.Text" xml:space="preserve">
     <value>Scrolling capture...</value>
   </data>
-  <data name="tsmiTrayAutoCapture.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 22</value>
-  </data>
-  <data name="tsmiTrayAutoCapture.Text" xml:space="preserve">
-    <value>Auto capture...</value>
-  </data>
   <data name="tssTrayCapture1.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 6</value>
   </data>
@@ -2172,12 +2160,6 @@
     <value>tsmiScrollingCapture</value>
   </data>
   <data name="&gt;&gt;tsmiScrollingCapture.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiAutoCapture.Name" xml:space="preserve">
-    <value>tsmiAutoCapture</value>
-  </data>
-  <data name="&gt;&gt;tsmiAutoCapture.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tssCapture1.Name" xml:space="preserve">
@@ -3108,12 +3090,6 @@
     <value>tsmiTrayScrollingCapture</value>
   </data>
   <data name="&gt;&gt;tsmiTrayScrollingCapture.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayAutoCapture.Name" xml:space="preserve">
-    <value>tsmiTrayAutoCapture</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayAutoCapture.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tssTrayCapture1.Name" xml:space="preserve">

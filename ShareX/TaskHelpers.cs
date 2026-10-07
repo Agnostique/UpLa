@@ -142,15 +142,6 @@ namespace ShareX
                 case HotkeyType.ScrollingCapture:
                     await OpenScrollingCapture(safeTaskSettings);
                     break;
-                case HotkeyType.AutoCapture:
-                    OpenAutoCapture(safeTaskSettings);
-                    break;
-                case HotkeyType.StartAutoCapture:
-                    StartAutoCapture(safeTaskSettings);
-                    break;
-                case HotkeyType.StopAutoCapture:
-                    StopAutoCapture();
-                    break;
                 // Screen record
                 case HotkeyType.ScreenRecorder:
                     StartScreenRecording(ScreenRecordOutput.FFmpeg, ScreenRecordStartMethod.Region, safeTaskSettings);
@@ -798,36 +789,6 @@ namespace ShareX
             await ScrollingCaptureForm.StartStopScrollingCapture(taskSettings.CaptureSettingsReference.ScrollingCaptureOptions,
                 img => UploadManager.RunImageTask(img, taskSettings),
                 () => PlayNotificationSoundAsync(NotificationSound.ActionCompleted, taskSettings));
-        }
-
-        public static void OpenAutoCapture(TaskSettings taskSettings = null)
-        {
-            if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
-
-            AutoCaptureForm.Instance.TaskSettings = taskSettings;
-            AutoCaptureForm.Instance.ForceActivate();
-        }
-
-        public static void StartAutoCapture(TaskSettings taskSettings = null)
-        {
-            if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
-
-            if (!AutoCaptureForm.IsRunning)
-            {
-                AutoCaptureForm form = AutoCaptureForm.Instance;
-                form.TaskSettings = taskSettings;
-                form.Show();
-                form.Execute();
-            }
-        }
-
-        public static void StopAutoCapture()
-        {
-            if (AutoCaptureForm.IsRunning)
-            {
-                AutoCaptureForm form = AutoCaptureForm.Instance;
-                form.Execute();
-            }
         }
 
         public static void OpenScreenshotsFolder()
@@ -2152,9 +2113,6 @@ namespace ShareX
                     case HotkeyType.CustomWindow: return Resources.application__arrow;
                     case HotkeyType.LastRegion: return Resources.layers;
                     case HotkeyType.ScrollingCapture: return Resources.ui_scroll_pane_image;
-                    case HotkeyType.AutoCapture: return Resources.clock;
-                    case HotkeyType.StartAutoCapture: return Resources.clock__arrow;
-                    case HotkeyType.StopAutoCapture: return Resources.clock__minus;
                     // Screen record
                     case HotkeyType.ScreenRecorder: return Resources.camcorder_image;
                     case HotkeyType.ScreenRecorderActiveWindow: return Resources.camcorder__arrow;

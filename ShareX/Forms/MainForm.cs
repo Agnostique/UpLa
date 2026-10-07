@@ -1638,11 +1638,6 @@ namespace ShareX
             await TaskHelpers.OpenScrollingCapture();
         }
 
-        private void tsmiAutoCapture_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenAutoCapture();
-        }
-
         private void tsmiShowCursor_Click(object sender, EventArgs e)
         {
             Program.DefaultTaskSettings.CaptureSettings.ShowCursor = ((ToolStripMenuItem)sender).Checked;

@@ -55,7 +55,6 @@
             tsmiScreenRecordingFFmpeg = new System.Windows.Forms.ToolStripMenuItem();
             tsmiScreenRecordingGIF = new System.Windows.Forms.ToolStripMenuItem();
             tsmiScrollingCapture = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiAutoCapture = new System.Windows.Forms.ToolStripMenuItem();
             tssCapture1 = new System.Windows.Forms.ToolStripSeparator();
             tsmiShowCursor = new System.Windows.Forms.ToolStripMenuItem();
             tsmiScreenshotDelay = new System.Windows.Forms.ToolStripMenuItem();
@@ -213,7 +212,6 @@
             tsmiTrayScreenRecordingFFmpeg = new System.Windows.Forms.ToolStripMenuItem();
             tsmiTrayScreenRecordingGIF = new System.Windows.Forms.ToolStripMenuItem();
             tsmiTrayScrollingCapture = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiTrayAutoCapture = new System.Windows.Forms.ToolStripMenuItem();
             tssTrayCapture1 = new System.Windows.Forms.ToolStripSeparator();
             tsmiTrayShowCursor = new System.Windows.Forms.ToolStripMenuItem();
             tsmiTrayScreenshotDelay = new System.Windows.Forms.ToolStripMenuItem();
@@ -401,7 +399,7 @@
             // 
             // tsddbCapture
             // 
-            tsddbCapture.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmiFullscreen, tsmiWindow, tsmiMonitor, tsmiRectangle, tsmiRectangleLight, tsmiRectangleTransparent, tsmiLastRegion, tsmiScreenRecordingFFmpeg, tsmiScreenRecordingGIF, tsmiScrollingCapture, tsmiAutoCapture, tssCapture1, tsmiShowCursor, tsmiScreenshotDelay });
+            tsddbCapture.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmiFullscreen, tsmiWindow, tsmiMonitor, tsmiRectangle, tsmiRectangleLight, tsmiRectangleTransparent, tsmiLastRegion, tsmiScreenRecordingFFmpeg, tsmiScreenRecordingGIF, tsmiScrollingCapture, tssCapture1, tsmiShowCursor, tsmiScreenshotDelay });
             tsddbCapture.Image = Properties.Resources.camera;
             resources.ApplyResources(tsddbCapture, "tsddbCapture");
             tsddbCapture.Name = "tsddbCapture";
@@ -474,13 +472,6 @@
             tsmiScrollingCapture.Name = "tsmiScrollingCapture";
             resources.ApplyResources(tsmiScrollingCapture, "tsmiScrollingCapture");
             tsmiScrollingCapture.Click += tsmiScrollingCapture_Click;
-            // 
-            // tsmiAutoCapture
-            // 
-            tsmiAutoCapture.Image = Properties.Resources.clock;
-            tsmiAutoCapture.Name = "tsmiAutoCapture";
-            resources.ApplyResources(tsmiAutoCapture, "tsmiAutoCapture");
-            tsmiAutoCapture.Click += tsmiAutoCapture_Click;
             // 
             // tssCapture1
             // 
@@ -1432,7 +1423,7 @@
             // 
             // tsmiTrayCapture
             // 
-            tsmiTrayCapture.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmiTrayFullscreen, tsmiTrayWindow, tsmiTrayMonitor, tsmiTrayRectangle, tsmiTrayRectangleLight, tsmiTrayRectangleTransparent, tsmiTrayLastRegion, tsmiTrayScreenRecordingFFmpeg, tsmiTrayScreenRecordingGIF, tsmiTrayScrollingCapture, tsmiTrayAutoCapture, tssTrayCapture1, tsmiTrayShowCursor, tsmiTrayScreenshotDelay });
+            tsmiTrayCapture.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmiTrayFullscreen, tsmiTrayWindow, tsmiTrayMonitor, tsmiTrayRectangle, tsmiTrayRectangleLight, tsmiTrayRectangleTransparent, tsmiTrayLastRegion, tsmiTrayScreenRecordingFFmpeg, tsmiTrayScreenRecordingGIF, tsmiTrayScrollingCapture, tssTrayCapture1, tsmiTrayShowCursor, tsmiTrayScreenshotDelay });
             tsmiTrayCapture.Image = Properties.Resources.camera;
             tsmiTrayCapture.Name = "tsmiTrayCapture";
             resources.ApplyResources(tsmiTrayCapture, "tsmiTrayCapture");
@@ -1505,13 +1496,6 @@
             tsmiTrayScrollingCapture.Name = "tsmiTrayScrollingCapture";
             resources.ApplyResources(tsmiTrayScrollingCapture, "tsmiTrayScrollingCapture");
             tsmiTrayScrollingCapture.Click += tsmiScrollingCapture_Click;
-            // 
-            // tsmiTrayAutoCapture
-            // 
-            tsmiTrayAutoCapture.Image = Properties.Resources.clock;
-            tsmiTrayAutoCapture.Name = "tsmiTrayAutoCapture";
-            resources.ApplyResources(tsmiTrayAutoCapture, "tsmiTrayAutoCapture");
-            tsmiTrayAutoCapture.Click += tsmiAutoCapture_Click;
             // 
             // tssTrayCapture1
             // 
@@ -2240,8 +2224,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayHashChecker;
         private System.Windows.Forms.ToolStripMenuItem tsmiMonitor;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayMonitor;
-        private System.Windows.Forms.ToolStripMenuItem tsmiAutoCapture;
-        private System.Windows.Forms.ToolStripMenuItem tsmiTrayAutoCapture;
         private System.Windows.Forms.ToolStripDropDownButton tsddbDebug;
         private System.Windows.Forms.ToolStripMenuItem tsmiTestImageUpload;
         private System.Windows.Forms.ToolStripMenuItem tsmiTestTextUpload;

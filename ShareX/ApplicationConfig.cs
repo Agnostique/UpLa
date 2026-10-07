@@ -288,15 +288,6 @@ namespace ShareX
 
         #endregion Settings Form
 
-        #region AutoCapture Form
-
-        public Rectangle AutoCaptureRegion = Rectangle.Empty;
-        public decimal AutoCaptureRepeatTime = 60;
-        public bool AutoCaptureMinimizeToTray = true;
-        public bool AutoCaptureWaitUpload = true;
-
-        #endregion AutoCapture Form
-
         #region ScreenRecord Form
 
         public Rectangle ScreenRecordRegion = Rectangle.Empty;
