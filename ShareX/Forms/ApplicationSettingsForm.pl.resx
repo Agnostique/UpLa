@@ -159,9 +159,6 @@
   <data name="btnExport.Text" xml:space="preserve">
     <value>Eksportuj...</value>
   </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>Zainstaluj dodatek ShareX do Firefox...</value>
-  </data>
   <data name="btnOpenPersonalFolderPath.Text" xml:space="preserve">
     <value>Otwórz...</value>
   </data>
@@ -189,9 +186,6 @@
   <data name="btnCheckDevBuild.Text" xml:space="preserve">
     <value>Zainstaluj wersję deweloperską...</value>
   </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>Zainstaluj rozszerzenie ShareX do Chrome...</value>
-  </data>
   <data name="cbAutomaticallyCleanupLogFiles.Text" xml:space="preserve">
     <value>Automatycznie czyść stare pliki dziennika</value>
   </data>
@@ -212,12 +206,6 @@
   </data>
   <data name="chDescription.Text" xml:space="preserve">
     <value>Opis</value>
-  </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>Rozszerzenie do Chrome</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>Dodatek do Firefox</value>
   </data>
   <data name="gbHistory.Text" xml:space="preserve">
     <value>Historia</value>
@@ -342,17 +330,11 @@
   <data name="tpTheme.Text" xml:space="preserve">
     <value>Motyw</value>
   </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>Włącz obsługę rozszerzenia Chrome</value>
-  </data>
   <data name="cbDontShowPrintSettingDialog.Text" xml:space="preserve">
     <value>Nie pokazuj okna dialogowego ustawień drukowania obrazu</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
     <value>Pokaż przycisk "Edytuj za pomocą ShareX" w menu kontekstowym Eksploratora Windows</value>
-  </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>Włącz obsługę dodatku do Firefoksa</value>
   </data>
   <data name="lblBufferSize.Text" xml:space="preserve">
     <value>Rozmiar bufora:</value>

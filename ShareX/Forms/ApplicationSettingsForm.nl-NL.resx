@@ -252,23 +252,8 @@
   <data name="cbShellContextMenu.Text" xml:space="preserve">
     <value>Toon een "Upload met ShareX" knop in het context menu</value>
   </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>ShareX Firefox addon installeren...</value>
-  </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>Firefox addon ondersteuning inschakelen</value>
-  </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>Chrome extensie</value>
-  </data>
   <data name="gbHistory.Text" xml:space="preserve">
     <value>Geschiedenis</value>
-  </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>ShareX Chrome extensie installeren...</value>
-  </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>Chrome extensie ondersteuning inschakelen</value>
   </data>
   <data name="cbHistoryCheckURL.Text" xml:space="preserve">
     <value>Alleen opslaan als URL niet leeg is</value>
@@ -329,9 +314,6 @@
   </data>
   <data name="tpTheme.Text" xml:space="preserve">
     <value>Thema</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>Firefox-add-on</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
     <value>Knop "Bewerken met ShareX" weergeven in het contextmenu van Windows Verkenner</value>

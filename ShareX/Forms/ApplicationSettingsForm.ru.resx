@@ -300,26 +300,8 @@
   <data name="lblTrayLeftClickAction.Text" xml:space="preserve">
     <value>Клик левой кнопкой по иконке в трее:</value>
   </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>Установить дополнение ShareX для Firefox...</value>
-  </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>Включить поддержку дополнения для Firefox</value>
-  </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>Включить поддержку расширения для Chrome</value>
-  </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>Установить расширение ShareX для Chrome...</value>
-  </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>Расширение для Chrome</value>
-  </data>
   <data name="btnResetSettings.Text" xml:space="preserve">
     <value>Сбросить настройки...</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>Дополнение для Firefox</value>
   </data>
   <data name="btnCheckDevBuild.Text" xml:space="preserve">
     <value>Установить dev сборку...</value>

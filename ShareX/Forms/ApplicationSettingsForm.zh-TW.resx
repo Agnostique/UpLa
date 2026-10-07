@@ -299,21 +299,6 @@
   <data name="cbRecentTasksShowInMainWindow.Text" xml:space="preserve">
     <value>啟動時在主視窗中顯示最近的排程</value>
   </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>啟用 Firefox 附加元件支援</value>
-  </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>安裝 ShareX Firefox 附加元件...</value>
-  </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>啟用 Chrome 擴充功能支援</value>
-  </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>安裝 ShareX Chrome 擴充功能...</value>
-  </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>Chrome 擴充功能</value>
-  </data>
   <data name="cbUseWhiteShareXIcon.Text" xml:space="preserve">
     <value>使用白色 ShareX 圖示</value>
   </data>
@@ -331,9 +316,6 @@
   </data>
   <data name="tpTheme.Text" xml:space="preserve">
     <value>佈景主題</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>Firefox 附加元件</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
     <value>在檔案總管的右鍵選單中顯示「使用 ShareX 編輯」按鈕</value>

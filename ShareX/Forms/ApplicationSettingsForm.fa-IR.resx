@@ -214,30 +214,6 @@
   <data name="tpTheme.Text" xml:space="preserve">
     <value>تم</value>
   </data>
-  <data name="cbFirefoxAddonSupport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 17</value>
-  </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>افزونه فایرفاکس را فعال کن</value>
-  </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>نصب افزونه ShareX فایرفاکس ...</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>افزونه فایرفاکس</value>
-  </data>
-  <data name="cbChromeExtensionSupport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 17</value>
-  </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>افزونه کروم را فعال کن</value>
-  </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>نصب افزونه کروم شیرایکس ...</value>
-  </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>افزونه کروم</value>
-  </data>
   <data name="cbEditWithShareX.Size" type="System.Drawing.Size, System.Drawing">
     <value>341, 17</value>
   </data>

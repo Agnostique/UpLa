@@ -153,26 +153,8 @@
   <data name="tpGeneral.Text" xml:space="preserve">
     <value>General</value>
   </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>Habilitar soporte para complemento de Firefox</value>
-  </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>Instalar extensión de ShareX para Firefox...</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>Complemento de Firefox</value>
-  </data>
   <data name="cbSteamShowInApp.Text" xml:space="preserve">
     <value>Mientras ShareX esté abierto, mostrar "En aplicación" en el estado de Steam</value>
-  </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>Habilitar soporte para extensión de Chrome</value>
-  </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>Instalar extensión de ShareX para Chrome...</value>
-  </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>Extensión de Chrome</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
     <value>Mostrar botón de "Modificar con ShareX" en el menú contextual de Windows</value>

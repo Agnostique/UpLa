@@ -379,15 +379,6 @@ namespace ShareX
         ThumbnailView
     }
 
-    public enum NativeMessagingAction
-    {
-        None,
-        UploadImage,
-        UploadVideo,
-        UploadAudio,
-        UploadText
-    }
-
     public enum NotificationSound
     {
         Capture,

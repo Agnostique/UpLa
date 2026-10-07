@@ -297,26 +297,8 @@
   <data name="cbRecentTasksShowInMainWindow.Text" xml:space="preserve">
     <value>在启动主窗口时显示近期任务</value>
   </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>Chrome 扩展程序</value>
-  </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>安装 ShareX 的 Chrome 扩展程序...</value>
-  </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>启用 Chrome 扩展程序支持</value>
-  </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>启用 Firefox 扩展程序支持</value>
-  </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>安装 Sharex 的 Firefox 扩展支持...</value>
-  </data>
   <data name="btnResetSettings.Text" xml:space="preserve">
     <value>重置设置...</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>Firefox 扩展程序</value>
   </data>
   <data name="btnCheckDevBuild.Text" xml:space="preserve">
     <value>安装开发版本...</value>

@@ -126,15 +126,6 @@
   <data name="tpGeneral.Text" xml:space="preserve">
     <value>Umum</value>
   </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>Aktifkan dukungan pengaya Firefox</value>
-  </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>Instal pengaya Firefox ShareX...</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>Pengaya Firefox</value>
-  </data>
   <data name="cbTrayIconProgressEnabled.Text" xml:space="preserve">
     <value>Tampilkan kemajuan di ikon baki</value>
   </data>
@@ -164,15 +155,6 @@
   </data>
   <data name="cbSteamShowInApp.Text" xml:space="preserve">
     <value>Saat ShareX terbuka, tampilkan "In-App" di Steam</value>
-  </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>Aktifkan dukungan ekstensi Chrome</value>
-  </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>Instal ekstensi Chrome ShareX...</value>
-  </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>Ekstensi Chrome</value>
   </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>Integrasi</value>

@@ -150,9 +150,6 @@
   <data name="lblBufferSize.Text" xml:space="preserve">
     <value>حجم المخزن المؤقت:</value>
   </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>إضافة متصفح Chrome</value>
-  </data>
   <data name="tpClipboardFormats.Text" xml:space="preserve">
     <value>صيغة الحافظة</value>
   </data>
@@ -177,17 +174,8 @@
   <data name="btnClipboardFormatEdit.Text" xml:space="preserve">
     <value>تعديل...</value>
   </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>تفعيل دعم متصفح Goolge Chrome</value>
-  </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>تفعيل دعم متصفح Mozilla Firefox</value>
-  </data>
   <data name="btnExport.Text" xml:space="preserve">
     <value>تصدير...</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>إضافة Firefox</value>
   </data>
   <data name="chFormat.Text" xml:space="preserve">
     <value>الصيغة</value>
@@ -224,12 +212,6 @@
   </data>
   <data name="btnCheckDevBuild.Text" xml:space="preserve">
     <value>تثبيت إصدار التطوير...</value>
-  </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>تثبيت إضافة Chrome...</value>
-  </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>تثبيت إضافة Firefox...</value>
   </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>الاندماج مع النظام</value>

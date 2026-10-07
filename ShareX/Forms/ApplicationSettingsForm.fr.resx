@@ -300,26 +300,8 @@
   <data name="lblTrayMiddleClickAction.Text" xml:space="preserve">
     <value>Lors d'un clic de la molette sur l'icône dans la zone de notification :</value>
   </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>Installer l'extension ShareX pour Firefox...</value>
-  </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>Activer le support pour l'extension Firefox</value>
-  </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>Activer le support pour l'extension Chrome</value>
-  </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>Extension Chrome</value>
-  </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>Installer l'extension ShareX pour Chrome...</value>
-  </data>
   <data name="btnResetSettings.Text" xml:space="preserve">
     <value>Restaurer les paramètres...</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>Extension Firefox</value>
   </data>
   <data name="cbUseWhiteShareXIcon.Text" xml:space="preserve">
     <value>Utiliser une icône ShareX blanche</value>

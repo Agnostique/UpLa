@@ -261,12 +261,6 @@
   <data name="btnCheckDevBuild.Text" xml:space="preserve">
     <value>התקן את ה-dev build...</value>
   </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>התקן את תוסף ShareX ל-Firefox...</value>
-  </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>התקן את תוסף ShareX ל-Chrome...</value>
-  </data>
   <data name="lblSaveImageSubFolderPattern.Text" xml:space="preserve">
     <value>תבנית תיקיית משנה:</value>
   </data>
@@ -309,14 +303,8 @@
   <data name="lblListViewImagePreviewVisibility.Text" xml:space="preserve">
     <value>נראות התצוגה המקדימה של תמונה:</value>
   </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>הפעל תמיכה בתוסף Firefox</value>
-  </data>
   <data name="lblListViewImagePreviewLocation.Text" xml:space="preserve">
     <value>מיקום התצוגה המקדימה של תמונה:</value>
-  </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>הפעל תמיכה בתוסף Chrome</value>
   </data>
   <data name="lblUploadLimit.Text" xml:space="preserve">
     <value>מגבלת העלאה סימולטנית:</value>
@@ -398,12 +386,6 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - הגדרות יישום</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>תוסף Firefox</value>
-  </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>תוסף Chrome</value>
   </data>
   <data name="lblUploadLimitHint.Text" xml:space="preserve">
     <value>0 - 25 (0 משבית)</value>

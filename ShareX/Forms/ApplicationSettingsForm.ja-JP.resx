@@ -126,9 +126,6 @@
   <data name="btnBrowsePersonalFolderPath.Text" xml:space="preserve">
     <value>参照...</value>
   </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>Chrome 拡張機能をインストール...</value>
-  </data>
   <data name="btnCheckDevBuild.Text" xml:space="preserve">
     <value>開発版をインストール...</value>
   </data>
@@ -146,9 +143,6 @@
   </data>
   <data name="btnExport.Text" xml:space="preserve">
     <value>エクスポート...</value>
-  </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>Firefox アドオンをインストール...</value>
   </data>
   <data name="btnImport.Text" xml:space="preserve">
     <value>インポート...</value>
@@ -177,17 +171,11 @@
   <data name="btnThemeReset.Text" xml:space="preserve">
     <value>初期化...</value>
   </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>Chrome 拡張機能への対応を有効化</value>
-  </data>
   <data name="cbDontShowPrintSettingDialog.Text" xml:space="preserve">
     <value>画像の印刷設定ダイアログを表示しない</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
     <value>エクスプローラのコンテキストメニューに「ShareXで画像編集」を表示</value>
-  </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>Firefox アドオンへの対応を有効化</value>
   </data>
   <data name="cbHistoryCheckURL.Text" xml:space="preserve">
     <value>URLが空でない場合のみ保存</value>
@@ -248,12 +236,6 @@
   </data>
   <data name="chFormat.Text" xml:space="preserve">
     <value>書式</value>
-  </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>Chrome 拡張機能</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>Firefox アドオン</value>
   </data>
   <data name="gbHistory.Text" xml:space="preserve">
     <value>履歴</value>

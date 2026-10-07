@@ -156,26 +156,8 @@
   <data name="tpGeneral.Text" xml:space="preserve">
     <value>Generale</value>
   </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>Abilita Supporto all'Estensione per Firefox</value>
-  </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>Installa l'Estensione ShareX per Firefox</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>Estensione per Firefox</value>
-  </data>
   <data name="cbSteamShowInApp.Text" xml:space="preserve">
     <value>Mentre ShareX è aperto, mostra "In-App" su Steam</value>
-  </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>Abilita Supporto all'Estensione per Chrome</value>
-  </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>Installa l'Estensione ShareX per Chrome</value>
-  </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>Estensione per Chrome</value>
   </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
     <value>Mostra il Pulsante "Carica con ShareX" nel Menu Contestiale di Windows Explorer</value>

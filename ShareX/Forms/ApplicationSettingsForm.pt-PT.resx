@@ -129,9 +129,6 @@
   <data name="btnCheckDevBuild.Text" xml:space="preserve">
     <value>Instalar versão para programadores</value>
   </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>Instalar a extensão ShareX do Chrome</value>
-  </data>
   <data name="btnClipboardFormatAdd.Text" xml:space="preserve">
     <value>Adicionar...</value>
   </data>
@@ -146,9 +143,6 @@
   </data>
   <data name="btnExport.Text" xml:space="preserve">
     <value>Exportar...</value>
-  </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>Instalar a extensão Sharex do Firefox</value>
   </data>
   <data name="btnImport.Text" xml:space="preserve">
     <value>Importar...</value>
@@ -177,9 +171,6 @@
   <data name="btnThemeReset.Text" xml:space="preserve">
     <value>Repor</value>
   </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>Activar suporte para extensão do Chrome</value>
-  </data>
   <data name="cbDontShowPrintSettingDialog.Text" xml:space="preserve">
     <value>Não abrir janela de configuração de impressão de imagens</value>
   </data>
@@ -191,9 +182,6 @@
   </data>
   <data name="cbExportSettings.Text" xml:space="preserve">
     <value>Definições</value>
-  </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>Activar suporte para extensão do Firefox</value>
   </data>
   <data name="cbHistoryCheckURL.Text" xml:space="preserve">
     <value>Guardar apenas se existir hiperligação</value>
@@ -257,12 +245,6 @@
   </data>
   <data name="chFormat.Text" xml:space="preserve">
     <value>Formato</value>
-  </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>Extensão Chrome</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>Extensão Firefox</value>
   </data>
   <data name="gbHistory.Text" xml:space="preserve">
     <value>Histórico</value>

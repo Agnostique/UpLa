@@ -171,26 +171,8 @@
   <data name="tpTheme.Text" xml:space="preserve">
     <value>Tema</value>
   </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>Activați suportul pentru suplimentul Firefox</value>
-  </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>Instalați suplimentul ShareX Firefox...</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>Supliment Firefox</value>
-  </data>
   <data name="cbSteamShowInApp.Text" xml:space="preserve">
     <value>În timp ce ShareX este deschis, arată "În aplicație" pe Steam</value>
-  </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>Activați suportul pentru extensia Chrome</value>
-  </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>Instalați extensia ShareX Chrome...</value>
-  </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>Extensie Chrome</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
     <value>Afișați butonul "Editați cu ShareX" în meniul contextual al Windows Explorer</value>

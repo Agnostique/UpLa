@@ -252,23 +252,11 @@
   <data name="btnOpenPersonalFolderPath.Text" xml:space="preserve">
     <value>Mở...</value>
   </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>Tiện ích mở rộng Chrome</value>
-  </data>
   <data name="btnEditQuickTaskMenu.Text" xml:space="preserve">
     <value>Sửa menu tác vụ nhanh...</value>
   </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>Kích hoạt hỗ trợ tiện ích mở rộng cho Chrome</value>
-  </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>Kích hoạt hỗ trợ tiện ích mở rộng cho Firefox</value>
-  </data>
   <data name="btnExport.Text" xml:space="preserve">
     <value>Xuất ra các cài đặt...</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>Tiện ích mở rộng cho Firefox</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
     <value>Hiện nút "Chỉnh sửa với ShareX" trong menu ngữ cảnh của Windows Explorer</value>
@@ -281,12 +269,6 @@
   </data>
   <data name="btnCheckDevBuild.Text" xml:space="preserve">
     <value>Cài đặt phiên bản cho lập trình viên...</value>
-  </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>Cài đặt tiện ích mở rộng ShareX cho Chrome...</value>
-  </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>Cài đặt tiện ích mở rộng ShareX cho Firefox...</value>
   </data>
   <data name="cbRecentTasksSave.Text" xml:space="preserve">
     <value>Lưu các tác vụ gần đây</value>

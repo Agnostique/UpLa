@@ -171,26 +171,8 @@
   <data name="tpTheme.Text" xml:space="preserve">
     <value>Тема</value>
   </data>
-  <data name="cbFirefoxAddonSupport.Text" xml:space="preserve">
-    <value>Увімкнути підтримку додатку для Firefox</value>
-  </data>
-  <data name="btnFirefoxOpenAddonPage.Text" xml:space="preserve">
-    <value>Встановити додаток ShareX для Firefox...</value>
-  </data>
-  <data name="gbFirefox.Text" xml:space="preserve">
-    <value>Додаток для Firefox</value>
-  </data>
   <data name="cbSteamShowInApp.Text" xml:space="preserve">
     <value>При відкритому ShareX, показувати „У програмі“ у Steam</value>
-  </data>
-  <data name="cbChromeExtensionSupport.Text" xml:space="preserve">
-    <value>Увімкнути підтримку розширення для Chrome</value>
-  </data>
-  <data name="btnChromeOpenExtensionPage.Text" xml:space="preserve">
-    <value>Встановити розширення ShareX для Chrome...</value>
-  </data>
-  <data name="gbChrome.Text" xml:space="preserve">
-    <value>Розширення Chrome</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
     <value>Показувати кнопку „Змінити із ShareX“ у контекстному меню Провідника Windows</value>
