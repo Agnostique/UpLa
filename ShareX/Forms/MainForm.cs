@@ -281,6 +281,9 @@ namespace ShareX
 
             await InitHotkeys();
 
+            // The uploaders config is loaded before the hotkeys config, so it is available now.
+            UpdateUplaAccountMenus();
+
             IsReady = true;
         }
 
@@ -2269,6 +2272,58 @@ namespace ShareX
                 tsmiTestFileUpload, tsmiTestURLSharing,
                 // ShareX links
                 tsbDonate, tsbX, tsbDiscord);
+
+            InitializeUplaAccountMenus();
+        }
+
+        private ToolStripDropDownButton tsddbUplaAccount;
+        private ToolStripMenuItem tsmiTrayUplaAccount;
+
+        // "upla.com.tr account" in the main window toolbar and the tray menu: sign in, or the signed-in account's actions.
+        private void InitializeUplaAccountMenus()
+        {
+            tsddbUplaAccount = new ToolStripDropDownButton()
+            {
+                DisplayStyle = ToolStripItemDisplayStyle.ImageAndText,
+                ImageAlign = ContentAlignment.MiddleLeft,
+                TextImageRelation = TextImageRelation.ImageBeforeText,
+                Visible = !SystemOptions.DisableUpload
+            };
+            tsddbUplaAccount.DropDownOpening += UplaAccountMenu_DropDownOpening;
+            tsMain.Items.Insert(tsMain.Items.IndexOf(tsbDestinationSettings) + 1, tsddbUplaAccount);
+
+            tsmiTrayUplaAccount = new ToolStripMenuItem()
+            {
+                Visible = !SystemOptions.DisableUpload
+            };
+            tsmiTrayUplaAccount.DropDownOpening += UplaAccountMenu_DropDownOpening;
+            cmsTray.Items.Insert(cmsTray.Items.IndexOf(tsmiTrayDestinationSettings) + 1, tsmiTrayUplaAccount);
+
+            Upla.AccountChanged += UpdateUplaAccountMenus;
+            UpdateUplaAccountMenus();
+        }
+
+        private void UplaAccountMenu_DropDownOpening(object sender, EventArgs e)
+        {
+            SettingManager.WaitUploadersConfig();
+            UpdateUplaAccountMenus();
+        }
+
+        private void UpdateUplaAccountMenus()
+        {
+            if (IsDisposed)
+            {
+                return;
+            }
+
+            if (InvokeRequired)
+            {
+                BeginInvoke(new Action(UpdateUplaAccountMenus));
+                return;
+            }
+
+            UplaAccountMenu.Update(tsddbUplaAccount, Program.UploadersConfig, SettingManager.SaveUploadersConfigAsync, true);
+            UplaAccountMenu.Update(tsmiTrayUplaAccount, Program.UploadersConfig, SettingManager.SaveUploadersConfigAsync);
         }
 
         private static void RemoveToolStripItems(params ToolStripItem[] items)

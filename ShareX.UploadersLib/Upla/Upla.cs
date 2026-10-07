@@ -23,6 +23,7 @@
 
 #endregion License Information (GPL v3)
 
+using ShareX.HelpersLib;
 using System;
 using System.Linq;
 
@@ -35,6 +36,8 @@ namespace ShareX.UploadersLib
         public const string UploadURL = WebsiteURL + "/api/1/upload";
         public const string APIKeySettingsURL = WebsiteURL + "/settings/api";
         public const string SignUpURL = WebsiteURL + "/signup";
+        public const string PasswordForgotURL = WebsiteURL + "/account/password-forgot";
+        public const string ConnectedDevicesURL = WebsiteURL + "/upla-app/devices";
         public const string APIDocumentationURL = WebsiteURL + "/api-v1";
 
         // Guest uploads are limited to 20 MB on upla.com.tr. Member limits are decided by the server, but a
@@ -70,6 +73,100 @@ namespace ShareX.UploadersLib
         public static bool HasPersonalAPIKey(UploadersConfig config)
         {
             return NormalizeAPIKey(GetSettings(config).PersonalAPIKey).Length > 0;
+        }
+
+        // Raised when the account changes (sign in, sign out, expired sign-in). May be raised on an upload thread, so
+        // UI handlers must marshal to their own thread.
+        public static event Action AccountChanged;
+
+        // The server no longer accepts this computer's key (removed on "Connected devices", by the 10 key limit, or by an
+        // admin). Not saved: the next start checks again when an upload fails or the settings tab is opened.
+        public static bool SignInExpired { get; private set; }
+
+        // Signed in from the app (as opposed to a key entered by hand).
+        public static bool IsSignedIn(UplaSettings settings)
+        {
+            return NormalizeAPIKey(settings.PersonalAPIKey).Length > 0 && !string.IsNullOrEmpty(settings.AccountUsername);
+        }
+
+        // The account is remembered but its key could not be read (DPAPI only decrypts it for the same Windows user on
+        // the same computer, e.g. settings copied from another PC). Uploads must not silently become guest uploads.
+        public static bool IsSignInLost(UplaSettings settings)
+        {
+            return NormalizeAPIKey(settings.PersonalAPIKey).Length == 0 && !string.IsNullOrEmpty(settings.AccountUsername);
+        }
+
+        public static bool NeedsSignIn(UplaSettings settings)
+        {
+            return IsSignInLost(settings) || (IsSignedIn(settings) && SignInExpired);
+        }
+
+        public static void MarkSignInExpired()
+        {
+            if (!SignInExpired)
+            {
+                SignInExpired = true;
+                RaiseAccountChanged();
+            }
+        }
+
+        public static string GetInstallID(UplaSettings settings)
+        {
+            if (string.IsNullOrEmpty(settings.InstallID))
+            {
+                settings.InstallID = Guid.NewGuid().ToString("N");
+            }
+
+            return settings.InstallID;
+        }
+
+        public static void ApplySignIn(UplaSettings settings, UplaAccountResult result)
+        {
+            settings.PersonalAPIKey = NormalizeAPIKey(result.APIKey);
+            UpdateAccount(settings, result);
+        }
+
+        public static void UpdateAccount(UplaSettings settings, UplaAccountResult result)
+        {
+            settings.AccountUsername = result.Username ?? "";
+            settings.AccountName = result.Name ?? "";
+            settings.AccountURL = result.ProfileURL ?? "";
+            SignInExpired = false;
+            RaiseAccountChanged();
+        }
+
+        public static void ClearAccount(UplaSettings settings)
+        {
+            settings.PersonalAPIKey = "";
+            settings.AccountUsername = "";
+            settings.AccountName = "";
+            settings.AccountURL = "";
+            SignInExpired = false;
+            RaiseAccountChanged();
+        }
+
+        // The account change itself is done; a window that is closing and cannot be updated any more must not fail the
+        // upload or the sign-in that caused it, nor stop the other windows from updating.
+        private static void RaiseAccountChanged()
+        {
+            Action handlers = AccountChanged;
+
+            if (handlers == null)
+            {
+                return;
+            }
+
+            foreach (Action handler in handlers.GetInvocationList())
+            {
+                try
+                {
+                    handler();
+                }
+                catch (Exception e)
+                {
+                    DebugHelper.WriteException(e);
+                }
+            }
         }
 
         public static string GetAPIKey(UploadersConfig config)

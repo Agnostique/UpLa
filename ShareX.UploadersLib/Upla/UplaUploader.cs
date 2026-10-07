@@ -80,6 +80,12 @@ namespace ShareX.UploadersLib
 
         public override UploadResult Upload(Stream stream, string fileName)
         {
+            if (Upla.IsSignInLost(Settings))
+            {
+                Errors.Add(UplaStrings.SignInLost);
+                return new UploadResult();
+            }
+
             string fileError = CheckFile(stream, fileName);
 
             if (fileError != null)
@@ -112,6 +118,19 @@ namespace ShareX.UploadersLib
                 }
                 else if (!string.IsNullOrEmpty(response.ErrorMessage))
                 {
+                    if (IsMember && response.ErrorMessage == UplaStrings.ErrorInvalidKey)
+                    {
+                        if (Upla.IsSignedIn(Settings))
+                        {
+                            // Lets the account menu offer "Sign in again".
+                            Upla.MarkSignInExpired();
+                        }
+                        else
+                        {
+                            response.ErrorMessage = UplaStrings.ErrorInvalidManualKey;
+                        }
+                    }
+
                     Errors.AddFirst(response.ErrorMessage);
                 }
             }

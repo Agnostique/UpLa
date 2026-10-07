@@ -36,9 +36,18 @@ namespace ShareX.UploadersLib
 
     public class UplaSettings
     {
-        // Member's own key from upla.com.tr/settings/api. Empty means guest upload with the shared key.
+        // Upload key of the member: the per-computer key from the in-app sign-in, or a key entered by hand from
+        // upla.com.tr/settings/api. Empty means guest upload with the shared key.
         [JsonEncrypt]
         public string PersonalAPIKey { get; set; } = "";
+
+        // Account of the in-app sign-in; empty for guests and for a key entered by hand.
+        public string AccountUsername { get; set; } = "";
+        public string AccountName { get; set; } = "";
+        public string AccountURL { get; set; } = "";
+
+        // Random per installation; names this computer's key on the website's "Connected devices" page.
+        public string InstallID { get; set; } = "";
 
         public UplaLinkType LinkType { get; set; } = UplaLinkType.ViewerPage;
 

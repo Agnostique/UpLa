@@ -35,10 +35,76 @@ namespace ShareX.HelpersLib
 
         private static string T(string turkish, string english) => IsTurkish ? turkish : english;
 
+        // Account
+        public static string AccountMenu => T("upla.com.tr hesabı", "upla.com.tr account");
+        public static string AccountStatusGuest => T("Misafir olarak yüklüyorsunuz; dosyalar bir hesaba bağlanmaz. Hesabınızla yüklemek için giriş yapın.",
+            "You upload as a guest; files are not linked to an account. Sign in to upload to your account.");
+        public static string AccountStatusSignedIn => T("Giriş yapıldı: {0}. Dosyalar hesabınıza yüklenir.", "Signed in as {0}. Files are uploaded to your account.");
+        public static string AccountStatusManualKey => T("Elle girilen API anahtarı kullanılıyor; dosyalar anahtarın sahibi olan hesaba yüklenir.",
+            "Using an API key entered by hand; files are uploaded to the account that owns the key.");
+        public static string AccountChecking => T("Hesap kontrol ediliyor...", "Checking the account...");
+        public static string SignInButton => T("Giriş yap...", "Sign in...");
+        public static string SignOutButton => T("Çıkış yap", "Sign out");
+        public static string SignOutConfirm => T("upla.com.tr hesabınızdan çıkış yapılsın mı? Bu bilgisayarın bağlantısı sunucudan da silinir; sonraki yüklemeler misafir olarak yapılır.",
+            "Sign out of your upla.com.tr account? This computer's connection is removed from the server too; later uploads are made as a guest.");
+        public static string ManualKeyRemoveConfirm => T("Elle girilen API anahtarı bu bilgisayardan kaldırılsın mı? Sonraki yüklemeler misafir olarak yapılır.",
+            "Remove the API key entered by hand from this computer? Later uploads are made as a guest.");
+        public static string MyProfile => T("Profilim", "My profile");
+        public static string ConnectedDevices => T("Bağlı cihazlar", "Connected devices");
+        public static string ForgotPassword => T("Şifremi unuttum", "Forgot password");
+        public static string ManualAPIKey => T("API anahtarını elle gir (gelişmiş)", "Enter an API key by hand (advanced)");
+        public static string SignInAgain => T("Tekrar giriş yap...", "Sign in again...");
+        public static string ContinueAsGuest => T("Misafir olarak devam et", "Continue as a guest");
+        public static string AccountMenuNeedsSignIn => T("{0} (tekrar giriş yapın)", "{0} (sign in again)");
+        public static string AccountStatusLost => T("{0} hesabının oturumu bu bilgisayarda okunamadı (ayarlar başka bir bilgisayardan veya yedekten gelmiş olabilir). Tekrar giriş yapın veya misafir olarak devam edin.",
+            "The sign-in of {0} could not be read on this computer (the settings may come from another computer or a backup). Sign in again or continue as a guest.");
+        public static string SignOutServerFailed => T("Bu bilgisayarda çıkış yapıldı ancak bağlantısı upla.com.tr'den kaldırılamadı ({0}). Kaldırılana kadar bu bağlantı hesabınıza yükleme yapabilir. \"Bağlı cihazlar\" sayfası açılsın mı?",
+            "You are signed out on this computer, but its connection could not be removed from upla.com.tr ({0}). Until it is removed it can still upload to your account. Open the \"Connected devices\" page?");
+
+        // Sign-in window
+        public static string SignInTitle => T("upla.com.tr'ye giriş yap", "Sign in to upla.com.tr");
+        public static string UsernameOrEmail => T("Kullanıcı adı veya e-posta:", "Username or email:");
+        public static string Password => T("Şifre:", "Password:");
+        public static string TwoFactorCode => T("Doğrulama kodu:", "Verification code:");
+        public static string SignInSubmit => T("Giriş yap", "Sign in");
+        public static string Cancel => T("İptal", "Cancel");
+        public static string SigningIn => T("Giriş yapılıyor...", "Signing in...");
+        public static string SignInPrivacy => T("Şifreniz yalnızca upla.com.tr'ye gönderilir ve bu bilgisayarda saklanmaz. Hesabınızda bu bilgisayar için ayrı bir bağlantı oluşturulur; upla.com.tr/upla-app/devices adresindeki \"Bağlı cihazlar\" sayfasından kaldırabilirsiniz. Şifrenizi değiştirmek bu bağlantıyı kaldırmaz.",
+            "Your password is only sent to upla.com.tr and is not stored on this computer. A separate connection is created in your account for this computer; you can remove it on the \"Connected devices\" page at upla.com.tr/upla-app/devices. Changing your password does not remove it.");
+        public static string SignInFieldsRequired => T("Kullanıcı adınızı veya e-postanızı ve şifrenizi girin.", "Enter your username or email and your password.");
+        public static string SignInTwoFactorRequired => T("Hesabınızda iki adımlı doğrulama açık. Kimlik doğrulama uygulamanızdaki 6 haneli kodu girin.",
+            "Two-step verification is on for your account. Enter the 6-digit code from your authenticator app.");
+        public static string SignInInvalidCredentials => T("Kullanıcı adı/e-posta veya şifre hatalı. Hesabınızı bir sosyal ağ ile açtıysanız önce web sitesinde şifre oluşturun.",
+            "Wrong username/email or password. If you created your account with a social network, create a password on the website first.");
+        public static string SignInInvalidTwoFactorCode => T("Doğrulama kodu hatalı.", "Wrong verification code.");
+        public static string SignInTooManyAttemptsHour => T("Çok fazla hatalı deneme yapıldı. Bir saat sonra tekrar deneyin veya web sitesinden giriş yapın.",
+            "Too many failed attempts. Try again in an hour or sign in on the website.");
+        public static string SignInTooManyAttemptsDay => T("Çok fazla hatalı deneme yapıldı. 24 saat sonra tekrar deneyin veya web sitesinden giriş yapın.",
+            "Too many failed attempts. Try again in 24 hours or sign in on the website.");
+        public static string SignInTooManyRequests => T("upla.com.tr'ye çok fazla istek gönderildi. Biraz bekleyip tekrar deneyin.", "Too many requests to upla.com.tr. Wait a little and try again.");
+        public static string SignInUnexpectedPage => T("upla.com.tr giriş isteğine beklenmeyen bir sayfayla yanıt verdi (site bakımda olabilir). Daha sonra tekrar deneyin.",
+            "upla.com.tr answered the sign-in with an unexpected page (the site may be under maintenance). Try again later.");
+        public static string SignInLost => T("Bu bilgisayarda kayıtlı upla.com.tr oturumu okunamadığı için dosya yüklenmedi (ayarlar başka bir bilgisayardan veya yedekten gelmiş olabilir). \"upla.com.tr hesabı\" menüsünden tekrar giriş yapın veya misafir olarak devam edin.",
+            "The file was not uploaded because the upla.com.tr sign-in saved on this computer could not be read (the settings may come from another computer or a backup). Sign in again or continue as a guest from the \"upla.com.tr account\" menu.");
+        public static string SignInBlocked => T("upla.com.tr bu bilgisayardan gelen istekleri geçici olarak engelledi (çok fazla hatalı deneme olabilir). Daha sonra tekrar deneyin.",
+            "upla.com.tr is temporarily blocking requests from this computer (possibly too many failed attempts). Try again later.");
+        public static string SignInAccountBanned => T("Bu hesap engellenmiş.", "This account is banned.");
+        public static string SignInAccountAwaitingConfirmation => T("Hesabınız henüz onaylanmamış. E-postanıza gönderilen onay linkine tıklayın.",
+            "Your account is not confirmed yet. Click the confirmation link sent to your email.");
+        public static string SignInAccountAwaitingEmail => T("Hesabınızın bir e-posta adresine ihtiyacı var. upla.com.tr'de giriş yapıp e-posta adresinizi ekleyin.",
+            "Your account needs an email address. Sign in on upla.com.tr and add your email address.");
+        public static string SignInAccountNotValid => T("Bu hesapla giriş yapılamıyor.", "This account cannot sign in.");
+        public static string SignInDeviceSignedOut => T("Bu bilgisayarın bağlantısı kaldırılmış (web sitesindeki \"Bağlı cihazlar\" sayfasından silinmiş olabilir). Tekrar giriş yapın.",
+            "This computer's connection was removed (possibly from the website's \"Connected devices\" page). Sign in again.");
+        public static string SignInAPIDisabled => T("upla.com.tr üye yüklemelerini şu anda kabul etmiyor.", "upla.com.tr does not accept member uploads right now.");
+        public static string SignInNotSupported => T("upla.com.tr henüz uygulamadan girişi desteklemiyor. Gelişmiş seçenekten, upla.com.tr › Ayarlar › API sayfasından aldığınız anahtarı elle girebilirsiniz.",
+            "upla.com.tr does not support signing in from the app yet. In the advanced option you can enter the key from upla.com.tr › Settings › API by hand.");
+        public static string SignInFailed => T("Giriş yapılamadı: {0}", "Could not sign in: {0}");
+
         // Settings panel
-        public static string PersonalAPIKey => T("Kişisel API anahtarı:", "Personal API key:");
-        public static string PersonalAPIKeyHint => T("Boş bırakırsanız dosyalar misafir olarak (bir hesaba bağlanmadan) yüklenir. Anahtarınızı upla.com.tr › Ayarlar › API sayfasından alabilirsiniz.",
-            "Leave empty to upload as a guest (not linked to an account). Get your key at upla.com.tr › Settings › API.");
+        public static string PersonalAPIKey => T("API anahtarı:", "API key:");
+        public static string PersonalAPIKeyHint => T("Yalnızca uygulamadan giriş yapamıyorsanız gerekir. Anahtarı \"Bağlı cihazlar\" sayfasındaki \"Yeni API anahtarı oluştur\" düğmesiyle alın. Ayarlar › API sayfasındaki \"Regen key\" en yeni anahtarı siler; bu, giriş yaptığınız başka bir bilgisayarın bağlantısı olabilir.",
+            "Only needed if you cannot sign in from the app. Get a key with \"Create a new API key\" on the \"Connected devices\" page. \"Regen key\" on Settings › API deletes the newest key, which may be the connection of another computer you signed in on.");
         public static string ShowAPIKey => T("Göster", "Show");
         public static string VerifyAPIKey => T("Doğrula", "Verify");
         public static string GetAPIKey => T("Anahtar al", "Get key");
@@ -48,13 +114,13 @@ namespace ShareX.HelpersLib
         public static string StatusMember => T("Dosyalar bu anahtarın sahibi olan hesaba yüklenir.", "Files are uploaded to the account that owns this key.");
         public static string Verifying => T("Doğrulanıyor...", "Verifying...");
         public static string KeyValid => T("Anahtar geçerli; dosyalar hesabınıza yüklenecek.", "The key is valid; files will be uploaded to your account.");
-        public static string KeyInvalid => T("Anahtar geçersiz. upla.com.tr › Ayarlar › API sayfasından yeni bir anahtar oluşturun.",
-            "Invalid key. Create a new key at upla.com.tr › Settings › API.");
-        public static string KeyOldFormat => T("Bu anahtar eski formatta ve artık desteklenmiyor. upla.com.tr › Ayarlar › API sayfasından yeni bir anahtar oluşturun.",
-            "This key uses an old format that is no longer supported. Create a new key at upla.com.tr › Settings › API.");
+        public static string KeyInvalid => T("Anahtar geçersiz. Uygulamadan giriş yapın veya \"Bağlı cihazlar\" sayfasından yeni bir anahtar oluşturun.",
+            "Invalid key. Sign in from the app or create a new key on the \"Connected devices\" page.");
+        public static string KeyOldFormat => T("Bu anahtar eski formatta ve artık desteklenmiyor. Uygulamadan giriş yapın veya \"Bağlı cihazlar\" sayfasından yeni bir anahtar oluşturun.",
+            "This key uses an old format that is no longer supported. Sign in from the app or create a new key on the \"Connected devices\" page.");
         public static string KeyNoUploadPermission => T("Anahtar geçerli ancak bu hesabın yükleme izni yok.", "The key is valid but this account is not allowed to upload.");
         public static string GuestUploadAvailable => T("Misafir yükleme kullanılabilir.", "Guest upload is available.");
-        public static string GuestUploadUnavailable => T("Misafir yükleme şu anda kapalı. Kişisel API anahtarınızı girin.", "Guest upload is currently disabled. Enter your personal API key.");
+        public static string GuestUploadUnavailable => T("Misafir yükleme şu anda kapalı. Hesabınızla giriş yapın.", "Guest upload is currently disabled. Sign in with your account.");
         public static string KeyCheckFailed => T("Anahtar doğrulanamadı: {0}", "Could not verify the key: {0}");
         public static string LinkType => T("Kopyalanacak link:", "Link to copy:");
         public static string LinkTypeViewerPage => T("Sayfa linki (önerilen)", "Page link (recommended)");
@@ -69,21 +135,23 @@ namespace ShareX.HelpersLib
         public static string AutoDeleteNever => T("Kapalı", "Never");
         public static string NSFW => T("Hassas içerik (NSFW) olarak işaretle", "Mark as NSFW");
         public static string MaxWidth => T("Sunucuda en fazla genişlik (px, 0 = kapalı):", "Max width on server (px, 0 = off):");
-        public static string MemberOnlyNote => T("Albüm ve etiketler yalnızca kişisel anahtarla çalışır. Otomatik silme, upla.com.tr'de etkinse uygulanır.",
-            "Album and tags only work with a personal key. Auto delete is applied when it is enabled on upla.com.tr.");
+        public static string MemberOnlyNote => T("Albüm ve etiketler yalnızca giriş yaptığınızda çalışır. Otomatik silme, upla.com.tr'de etkinse uygulanır.",
+            "Album and tags only work when you are signed in. Auto delete is applied when it is enabled on upla.com.tr.");
         public static string VideoNote => T("Ekran kayıtları (MP4, WEBM, MOV) da upla.com.tr'ye yüklenir; bunun için sunucuda video yüklemenin açık olması gerekir.",
             "Screen recordings (MP4, WEBM, MOV) are uploaded to upla.com.tr too; video uploads must be enabled on the server.");
 
         // Upload errors
         public static string ErrorUnsupportedFileType => T("\"{0}\" türündeki dosyalar upla.com.tr'ye yüklenemez. Desteklenen türler: {1}.",
             "\"{0}\" files cannot be uploaded to upla.com.tr. Supported types: {1}.");
-        public static string ErrorFileTooLargeGuest => T("Dosya çok büyük ({0}). Misafir yüklemelerde sınır {1}; daha büyük dosyalar için kişisel API anahtarı kullanın.",
-            "The file is too large ({0}). Guest uploads are limited to {1}; use a personal API key for larger files.");
+        public static string ErrorFileTooLargeGuest => T("Dosya çok büyük ({0}). Misafir yüklemelerde sınır {1}; daha büyük dosyalar için hesabınızla giriş yapın.",
+            "The file is too large ({0}). Guest uploads are limited to {1}; sign in with your account for larger files.");
         public static string ErrorFileTooLargeMember => T("Dosya çok büyük ({0}); tek seferde en fazla {1} yüklenebilir.", "The file is too large ({0}); at most {1} can be uploaded at once.");
-        public static string ErrorInvalidKey => T("upla.com.tr API anahtarı geçersiz. Hedef ayarları › upla.com.tr bölümünden anahtarınızı kontrol edin.",
-            "The upla.com.tr API key is invalid. Check your key in Destination settings › upla.com.tr.");
-        public static string ErrorGuestUploadUnavailable => T("upla.com.tr'de misafir yükleme şu anda kapalı. Hedef ayarları › upla.com.tr bölümüne kişisel API anahtarınızı girin.",
-            "Guest upload is currently disabled on upla.com.tr. Enter your personal API key in Destination settings › upla.com.tr.");
+        public static string ErrorInvalidKey => T("upla.com.tr hesap bağlantınız artık geçerli değil (bu bilgisayarın bağlantısı kaldırılmış olabilir). \"upla.com.tr hesabı\" menüsünden \"Tekrar giriş yap\"ı seçin.",
+            "Your upla.com.tr account connection is no longer valid (this computer's connection may have been removed). Choose \"Sign in again\" in the \"upla.com.tr account\" menu.");
+        public static string ErrorInvalidManualKey => T("Elle girilen upla.com.tr API anahtarı geçersiz. Hedef ayarları › upla.com.tr bölümünden uygulamayla giriş yapın veya anahtarı kontrol edin.",
+            "The upla.com.tr API key entered by hand is invalid. Sign in with the app or check the key in Destination settings › upla.com.tr.");
+        public static string ErrorGuestUploadUnavailable => T("upla.com.tr'de misafir yükleme şu anda kapalı. \"upla.com.tr hesabı\" menüsünden hesabınızla giriş yapın.",
+            "Guest upload is currently disabled on upla.com.tr. Sign in with your account from the \"upla.com.tr account\" menu.");
         public static string ErrorDuplicate => T("Bu dosya kısa süre önce zaten yüklendi; upla.com.tr aynı dosyanın 24 saat içinde tekrar yüklenmesine izin vermiyor.",
             "This file was already uploaded recently; upla.com.tr does not accept the same file again within 24 hours.");
         public static string ErrorFlood => T("Çok kısa sürede çok fazla yükleme yapıldı. Lütfen biraz bekleyip tekrar deneyin.", "Too many uploads in a short time. Please wait a little and try again.");

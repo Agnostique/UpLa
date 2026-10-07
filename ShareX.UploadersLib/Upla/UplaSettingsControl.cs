@@ -37,12 +37,17 @@ namespace ShareX.UploadersLib
     [DesignerCategory("Code")]
     public class UplaSettingsControl : UserControl
     {
+        private readonly UploadersConfig config;
         private readonly UplaSettings settings;
         private readonly TableLayoutPanel tlpMain;
+        private Label lblAccount;
+        private Button btnSignIn, btnSignOut;
+        private LinkLabel llProfile, llDevices, llSignUp, llGuest, llManualKey;
+        private Control[] manualKeyControls;
         private TextBox txtAPIKey;
         private Button btnVerify;
         private Label lblStatus;
-        private bool isVerifying;
+        private bool isVerifying, isUpdatingAccountUI, showManualKey;
 
         public static void AttachTo(TabPage tabPage, UploadersConfig config)
         {
@@ -67,7 +72,9 @@ namespace ShareX.UploadersLib
 
         public UplaSettingsControl(UploadersConfig config)
         {
+            this.config = config;
             settings = Upla.GetSettings(config);
+            showManualKey = Upla.HasPersonalAPIKey(config) && !Upla.IsSignedIn(settings);
 
             AutoScroll = true;
             Padding = new Padding(6);
@@ -88,23 +95,133 @@ namespace ShareX.UploadersLib
             Controls.Add(tlpMain);
             ResumeLayout();
 
+            UpdateAccountUI();
             UpdateStatus();
+            Upla.AccountChanged += Upla_AccountChanged;
+            CheckAccountAsync();
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                Upla.AccountChanged -= Upla_AccountChanged;
+            }
+
+            base.Dispose(disposing);
+        }
+
+        private void Upla_AccountChanged()
+        {
+            if (IsDisposed)
+            {
+                return;
+            }
+
+            if (InvokeRequired)
+            {
+                BeginInvoke(Upla_AccountChanged);
+                return;
+            }
+
+            isUpdatingAccountUI = true;
+            txtAPIKey.Text = Upla.IsSignedIn(settings) ? "" : settings.PersonalAPIKey;
+            isUpdatingAccountUI = false;
+            UpdateAccountUI();
+            UpdateStatus();
+        }
+
+        // Refreshes the shown account (the username may have changed) and notices a computer that was removed on the website.
+        private async void CheckAccountAsync()
+        {
+            if (!Upla.IsSignedIn(settings))
+            {
+                return;
+            }
+
+            string key = settings.PersonalAPIKey;
+            UplaAccountResult result;
+
+            try
+            {
+                result = await new UplaAccountClient().GetAccountAsync(key);
+            }
+            catch (Exception e)
+            {
+                DebugHelper.WriteException(e);
+                return;
+            }
+
+            if (IsDisposed || key != settings.PersonalAPIKey)
+            {
+                return;
+            }
+
+            if (result.Status == UplaAccountStatus.Success)
+            {
+                Upla.UpdateAccount(settings, result);
+            }
+            else if (result.Status == UplaAccountStatus.InvalidKey)
+            {
+                // The key stays, so uploads fail with a clear message instead of silently becoming guest uploads.
+                Upla.MarkSignInExpired();
+            }
         }
 
         private void CreateAccountRows()
         {
+            lblAccount = CreateLabel("", true);
+            AddRow(CreateLabel(UplaStrings.AccountMenu + ":"), lblAccount);
+
+            btnSignIn = CreateButton(UplaStrings.SignInButton);
+            btnSignIn.Click += (sender, e) => UplaAccountMenu.ShowSignIn(config, null, FindForm());
+            btnSignOut = CreateButton(UplaStrings.SignOutButton);
+            btnSignOut.Click += (sender, e) => UplaAccountMenu.SignOut(config, null, FindForm());
+            llProfile = CreateLink(UplaStrings.MyProfile, null);
+            llProfile.LinkClicked += (sender, e) => URLHelpers.OpenURL(settings.AccountURL);
+            llDevices = CreateLink(UplaStrings.ConnectedDevices, Upla.ConnectedDevicesURL);
+            llSignUp = CreateLink(UplaStrings.SignUp, Upla.SignUpURL);
+            llGuest = CreateLink(UplaStrings.ContinueAsGuest, null);
+            llGuest.LinkClicked += (sender, e) => UplaAccountMenu.ContinueAsGuest(config, null);
+
+            FlowLayoutPanel flpAccount = CreateFlowPanel();
+            flpAccount.Controls.Add(btnSignIn);
+            flpAccount.Controls.Add(btnSignOut);
+            flpAccount.Controls.Add(llProfile);
+            flpAccount.Controls.Add(llDevices);
+            flpAccount.Controls.Add(llSignUp);
+            flpAccount.Controls.Add(llGuest);
+            AddRow(null, flpAccount);
+
+            llManualKey = CreateLink(UplaStrings.ManualAPIKey, null);
+            llManualKey.LinkClicked += (sender, e) =>
+            {
+                showManualKey = !showManualKey;
+                UpdateAccountUI();
+            };
+            AddRow(null, llManualKey);
+
             txtAPIKey = new TextBox()
             {
-                Text = settings.PersonalAPIKey,
+                Text = Upla.IsSignedIn(settings) ? "" : settings.PersonalAPIKey,
                 UseSystemPasswordChar = true,
                 Dock = DockStyle.Fill
             };
             txtAPIKey.TextChanged += (sender, e) =>
             {
+                if (isUpdatingAccountUI)
+                {
+                    return;
+                }
+
+                // A key entered by hand replaces the app sign-in.
                 settings.PersonalAPIKey = Upla.NormalizeAPIKey(txtAPIKey.Text);
+                settings.AccountUsername = settings.AccountName = settings.AccountURL = "";
+                UpdateAccountUI();
                 UpdateStatus();
             };
-            AddRow(CreateLabel(UplaStrings.PersonalAPIKey), txtAPIKey);
+            Label lblAPIKey = CreateLabel(UplaStrings.PersonalAPIKey);
+            AddRow(lblAPIKey, txtAPIKey);
 
             CheckBox cbShowAPIKey = new CheckBox()
             {
@@ -126,14 +243,53 @@ namespace ShareX.UploadersLib
             FlowLayoutPanel flpKeyActions = CreateFlowPanel();
             flpKeyActions.Controls.Add(cbShowAPIKey);
             flpKeyActions.Controls.Add(btnVerify);
-            flpKeyActions.Controls.Add(CreateLink(UplaStrings.GetAPIKey, Upla.APIKeySettingsURL));
-            flpKeyActions.Controls.Add(CreateLink(UplaStrings.SignUp, Upla.SignUpURL));
+            flpKeyActions.Controls.Add(CreateLink(UplaStrings.GetAPIKey, Upla.ConnectedDevicesURL));
             AddRow(null, flpKeyActions);
 
             lblStatus = CreateLabel("", true);
             AddRow(null, lblStatus);
 
-            AddRow(null, CreateLabel(UplaStrings.PersonalAPIKeyHint, true));
+            Label lblHint = CreateLabel(UplaStrings.PersonalAPIKeyHint, true);
+            AddRow(null, lblHint);
+
+            manualKeyControls = new Control[] { lblAPIKey, txtAPIKey, flpKeyActions, lblStatus, lblHint };
+        }
+
+        private void UpdateAccountUI()
+        {
+            bool signedIn = Upla.IsSignedIn(settings);
+            bool lost = Upla.IsSignInLost(settings);
+            bool expired = signedIn && Upla.SignInExpired;
+            bool manualKey = !signedIn && !lost && Upla.NormalizeAPIKey(settings.PersonalAPIKey).Length > 0;
+
+            if (lost)
+            {
+                lblAccount.Text = string.Format(UplaStrings.AccountStatusLost, settings.AccountUsername);
+            }
+            else if (signedIn)
+            {
+                string account = string.IsNullOrEmpty(settings.AccountName) || settings.AccountName == settings.AccountUsername ?
+                    settings.AccountUsername : $"{settings.AccountName} ({settings.AccountUsername})";
+                lblAccount.Text = expired ? UplaStrings.SignInDeviceSignedOut : string.Format(UplaStrings.AccountStatusSignedIn, account);
+            }
+            else
+            {
+                lblAccount.Text = manualKey ? UplaStrings.AccountStatusManualKey : UplaStrings.AccountStatusGuest;
+            }
+
+            btnSignIn.Text = lost || expired ? UplaStrings.SignInAgain : UplaStrings.SignInButton;
+            btnSignIn.Visible = !signedIn || expired;
+            btnSignOut.Visible = signedIn || manualKey;
+            llProfile.Visible = signedIn && !string.IsNullOrEmpty(settings.AccountURL);
+            llDevices.Visible = signedIn || lost;
+            llSignUp.Visible = !signedIn && !manualKey && !lost;
+            llGuest.Visible = lost;
+            llManualKey.Visible = !signedIn && !lost;
+
+            foreach (Control control in manualKeyControls)
+            {
+                control.Visible = !signedIn && !lost && (showManualKey || manualKey);
+            }
         }
 
         private void CreateOptionRows()
@@ -277,6 +433,17 @@ namespace ShareX.UploadersLib
             }
         }
 
+        private static Button CreateButton(string text)
+        {
+            return new Button()
+            {
+                Text = text,
+                AutoSize = true,
+                AutoSizeMode = AutoSizeMode.GrowAndShrink,
+                Padding = new Padding(6, 0, 6, 0)
+            };
+        }
+
         private void AddRow(Control left, Control right)
         {
             int row = tlpMain.RowCount++;
@@ -319,7 +486,11 @@ namespace ShareX.UploadersLib
                 AutoSize = true,
                 Margin = new Padding(6, 8, 3, 3)
             };
-            link.LinkClicked += (sender, e) => URLHelpers.OpenURL(url);
+            if (url != null)
+            {
+                link.LinkClicked += (sender, e) => URLHelpers.OpenURL(url);
+            }
+
             return link;
         }
 
