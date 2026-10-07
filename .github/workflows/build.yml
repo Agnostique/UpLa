@@ -39,8 +39,6 @@ jobs:
     env:
       SOLUTION_FILE_PATH: ShareX.sln
       ASSEMBLY_INFO_PATH: Directory.build.props
-      # upla.com.tr: opt out of Avalonia's anonymous build-time telemetry (Avalonia.BuildServices).
-      AVALONIA_TELEMETRY_OPTOUT: 1
 
     outputs:
       APP_VERSION: ${{ env.APP_VERSION }}

@@ -693,9 +693,6 @@
   <data name="tsmiTrayOCR.Text" xml:space="preserve">
     <value>OCR...</value>
   </data>
-  <data name="tsmiImageComparer.Text" xml:space="preserve">
-    <value>Trình so sánh ảnh...</value>
-  </data>
   <data name="tsmiImageBeautifier.Text" xml:space="preserve">
     <value>Ảnh beautifier...</value>
   </data>
@@ -720,9 +717,6 @@
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Phân tích ảnh...</value>
   </data>
-  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
-    <value>Trình so sánh ảnh...</value>
-  </data>
   <data name="tsmiTrayImageBeautifier.Text" xml:space="preserve">
     <value>Ảnh beautifier...</value>
   </data>
@@ -740,11 +734,5 @@
   </data>
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>Mô tả</value>
-  </data>
-  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
-    <value>Công cụ xóa nền...</value>
-  </data>
-  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
-    <value>Công cụ xóa nền...</value>
   </data>
 </root>

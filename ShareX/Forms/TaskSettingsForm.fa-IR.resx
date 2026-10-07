@@ -624,9 +624,6 @@
   <data name="lblNameFormatPattern.Text" xml:space="preserve">
     <value>Name pattern for ضبط or کلیپ‌بورد بارگذاری:</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>استفاده از ویرایشگر تصویر قدیمی</value>
-  </data>
   <data name="lblToolsScreenColorPickerFormatCtrl.Text" xml:space="preserve">
     <value>قالب انتخابگر رنگ صفحه (Ctrl + کلیک):</value>
   </data>

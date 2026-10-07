@@ -138,12 +138,6 @@
   <data name="EditorStartupForm_ClipboardDoesNotContainAnImage" xml:space="preserve">
     <value>Schowek nie zawiera obrazu.</value>
   </data>
-  <data name="WebpageCaptureForm_UpdateControls_Stop" xml:space="preserve">
-    <value>Zatrzymaj</value>
-  </data>
-  <data name="WebpageCaptureForm_UpdateControls_Capture" xml:space="preserve">
-    <value>Przechwyć</value>
-  </data>
   <data name="FPSLimit" xml:space="preserve">
     <value>Limit FPS:</value>
   </data>
@@ -159,20 +153,11 @@
   <data name="ScreenRecordForm_Stop" xml:space="preserve">
     <value>Zatrzymaj</value>
   </data>
-  <data name="ScrollingCaptureForm_StartCapture_Stop_capture" xml:space="preserve">
-    <value>Zatrzymaj przechwytywanie</value>
-  </data>
   <data name="ScreenRecordForm_StartRecording_Click_tray_icon_to_stop_recording_" xml:space="preserve">
     <value>Kliknij, aby zatrzymać nagrywanie.</value>
   </data>
-  <data name="ScreenRecordForm_Start" xml:space="preserve">
-    <value>Rozpocznij</value>
-  </data>
   <data name="ScreenRecordForm_StartRecording_Click_tray_icon_to_start_recording_" xml:space="preserve">
     <value>Kliknij, aby rozpocząć nagrywanie.</value>
-  </data>
-  <data name="ScrollingCaptureForm_StopCapture_Start_capture" xml:space="preserve">
-    <value>Rozpocznij przechwytywanie</value>
   </data>
   <data name="ShapeManager_CreateContextMenu_Options" xml:space="preserve">
     <value>Opcje</value>

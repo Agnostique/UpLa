@@ -651,7 +651,4 @@
   <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
     <value>הצג צלב מרכזי</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>השתמש בעורך התמונות הישן</value>
-  </data>
 </root>

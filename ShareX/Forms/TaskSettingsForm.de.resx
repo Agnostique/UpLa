@@ -651,7 +651,4 @@
   <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
     <value>Mittiges Fadenkreuz anzeigen</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>Alten Bildeditor verwenden</value>
-  </data>
 </root>

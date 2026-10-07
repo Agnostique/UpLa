@@ -6405,35 +6405,8 @@
   <data name="&gt;&gt;tpUpload.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 8</value>
-  </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 17</value>
-  </data>
-  <data name="cbImageEditorUseLegacyImageEditor.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>Use legacy image editor</value>
-  </data>
-  <data name="&gt;&gt;cbImageEditorUseLegacyImageEditor.Name" xml:space="preserve">
-    <value>cbImageEditorUseLegacyImageEditor</value>
-  </data>
-  <data name="&gt;&gt;cbImageEditorUseLegacyImageEditor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbImageEditorUseLegacyImageEditor.Parent" xml:space="preserve">
-    <value>pTools</value>
-  </data>
-  <data name="&gt;&gt;cbImageEditorUseLegacyImageEditor.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="txtToolsScreenColorPickerFormatCtrl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 95</value>
+    <value>8, 71</value>
   </data>
   <data name="txtToolsScreenColorPickerFormatCtrl.Size" type="System.Drawing.Size, System.Drawing">
     <value>288, 20</value>
@@ -6460,7 +6433,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblToolsScreenColorPickerFormatCtrl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 79</value>
+    <value>5, 55</value>
   </data>
   <data name="lblToolsScreenColorPickerFormatCtrl.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 13</value>
@@ -6484,7 +6457,7 @@
     <value>2</value>
   </data>
   <data name="txtToolsScreenColorPickerInfoText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 142</value>
+    <value>8, 118</value>
   </data>
   <data name="txtToolsScreenColorPickerInfoText.Size" type="System.Drawing.Size, System.Drawing">
     <value>288, 20</value>
@@ -6511,7 +6484,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblToolsScreenColorPickerInfoText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 126</value>
+    <value>5, 102</value>
   </data>
   <data name="lblToolsScreenColorPickerInfoText.Size" type="System.Drawing.Size, System.Drawing">
     <value>142, 13</value>
@@ -6535,7 +6508,7 @@
     <value>4</value>
   </data>
   <data name="txtToolsScreenColorPickerFormat.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 48</value>
+    <value>8, 24</value>
   </data>
   <data name="txtToolsScreenColorPickerFormat.Size" type="System.Drawing.Size, System.Drawing">
     <value>288, 20</value>
@@ -6562,7 +6535,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblToolsScreenColorPickerFormat.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 32</value>
+    <value>5, 8</value>
   </data>
   <data name="lblToolsScreenColorPickerFormat.Size" type="System.Drawing.Size, System.Drawing">
     <value>134, 13</value>

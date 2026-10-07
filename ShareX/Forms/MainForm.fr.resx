@@ -711,9 +711,6 @@
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>Description</value>
   </data>
-  <data name="tsmiImageComparer.Text" xml:space="preserve">
-    <value>Comparateur d’images...</value>
-  </data>
   <data name="tsmiAI.Text" xml:space="preserve">
     <value>Analyser l’image...</value>
   </data>
@@ -729,9 +726,6 @@
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Analyser l’image...</value>
   </data>
-  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
-    <value>Comparateur d’images...</value>
-  </data>
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>Analyser l’image...</value>
   </data>
@@ -740,11 +734,5 @@
   </data>
   <data name="tsmiTrayMetadata.Text" xml:space="preserve">
     <value>Métadonnées...</value>
-  </data>
-  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
-    <value>Suppresseur d’arrière-plan...</value>
-  </data>
-  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
-    <value>Suppresseur d’arrière-plan...</value>
   </data>
 </root>

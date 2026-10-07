@@ -126,9 +126,6 @@
   <data name="ExportImportControl_tsmiExportClipboard_Click_Settings_copied_to_your_clipboard_" xml:space="preserve">
     <value>Ayarlar panoya kopyalandı.</value>
   </data>
-  <data name="ImgurThumbnailType_Big_Square" xml:space="preserve">
-    <value>Büyük kare</value>
-  </data>
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>Güncel saniye</value>
   </data>
@@ -176,9 +173,6 @@
   </data>
   <data name="HotkeyType_Category_ScreenRecord" xml:space="preserve">
     <value>Ekran kaydetme</value>
-  </data>
-  <data name="PastebinExpiration_H1" xml:space="preserve">
-    <value>1 saat</value>
   </data>
   <data name="HotkeyType_ScrollingCapture" xml:space="preserve">
     <value>Kaydırarak yakalamayı başlat/durdur</value>
@@ -252,17 +246,11 @@
   <data name="ReplCodeMenuEntry_d_Current_day" xml:space="preserve">
     <value>Güncel gün</value>
   </data>
-  <data name="PastebinExpiration_D1" xml:space="preserve">
-    <value>1 gün</value>
-  </data>
   <data name="ShapeType_DrawingArrow" xml:space="preserve">
     <value>Ok (A)</value>
   </data>
   <data name="ShapeType_DrawingSmartEraser" xml:space="preserve">
     <value>Akıllı silgi</value>
-  </data>
-  <data name="PastebinPrivacy_Unlisted" xml:space="preserve">
-    <value>Listelenmemiş</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_update_is_available" xml:space="preserve">
     <value>Güncelleştirme mevcut</value>
@@ -300,9 +288,6 @@
   <data name="ReplCodeMenuCategory_Image" xml:space="preserve">
     <value>Resim</value>
   </data>
-  <data name="PastebinExpiration_M10" xml:space="preserve">
-    <value>10 dakika</value>
-  </data>
   <data name="RegionCaptureAction_SwapToolType" xml:space="preserve">
     <value>Araç tipini değiştir</value>
   </data>
@@ -327,9 +312,6 @@
   </data>
   <data name="RegionCaptureAction_CaptureActiveMonitor" xml:space="preserve">
     <value>Aktif ekranı yakala</value>
-  </data>
-  <data name="ImgurThumbnailType_Small_Thumbnail" xml:space="preserve">
-    <value>Küçük küçük resim</value>
   </data>
   <data name="PrintForm_LoadSettings_Print" xml:space="preserve">
     <value>Yazdır</value>
@@ -373,9 +355,6 @@
   <data name="HotkeyType_DragDropUpload" xml:space="preserve">
     <value>Sürükle bırak ile yükle</value>
   </data>
-  <data name="PastebinExpiration_N" xml:space="preserve">
-    <value>Hiçbir zaman</value>
-  </data>
   <data name="HotkeyType_StartScreenRecorder" xml:space="preserve">
     <value>Son bölgeyi kullanarak ekran kaydet</value>
   </data>
@@ -414,9 +393,6 @@
   </data>
   <data name="FileExistAction_UniqueName" xml:space="preserve">
     <value>Dosya adına numara ekle</value>
-  </data>
-  <data name="ImgurThumbnailType_Large_Thumbnail" xml:space="preserve">
-    <value>Büyük küçük resim</value>
   </data>
   <data name="ReplCodeMenuEntry_yy_Current_year__2_digits_" xml:space="preserve">
     <value>Güncel yıl (2 hane)</value>
@@ -460,9 +436,6 @@
   <data name="ShapeType_DrawingCursor" xml:space="preserve">
     <value>İmleç</value>
   </data>
-  <data name="ImgurThumbnailType_Huge_Thumbnail" xml:space="preserve">
-    <value>Devasa küçük resim</value>
-  </data>
   <data name="LinearGradientMode_Horizontal" xml:space="preserve">
     <value>Yatay</value>
   </data>
@@ -471,9 +444,6 @@
   </data>
   <data name="ReplCodeMenuEntry_y_Current_year" xml:space="preserve">
     <value>Güncel yıl</value>
-  </data>
-  <data name="PastebinExpiration_W2" xml:space="preserve">
-    <value>2 hafta</value>
   </data>
   <data name="ImageEditorStartMode_Fullscreen" xml:space="preserve">
     <value>Tam ekran</value>
@@ -593,9 +563,6 @@
   <data name="HotkeyType_QRCode" xml:space="preserve">
     <value>QR kod</value>
   </data>
-  <data name="PastebinExpiration_W1" xml:space="preserve">
-    <value>1 hafta</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>Vurgula (H)</value>
   </data>
@@ -607,9 +574,6 @@
   </data>
   <data name="ReplCodeMenuEntry_rx_Random_hexadecimal" xml:space="preserve">
     <value>Rastgele heksadesimal karakter ({n} haneli)</value>
-  </data>
-  <data name="PastebinPrivacy_Private" xml:space="preserve">
-    <value>Kişisel (üyeler sadece)</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Hata</value>
@@ -637,9 +601,6 @@
   </data>
   <data name="ReplCodeMenuEntry_ib_Auto_increment_base_alphanumeric" xml:space="preserve">
     <value>Otomatik artan {n} sayı tabanında alfanumerik (1 &lt; n &lt; 63)</value>
-  </data>
-  <data name="HotkeyType_CaptureWebpage" xml:space="preserve">
-    <value>Web sayfası yakala</value>
   </data>
   <data name="RegionCaptureAction_CancelCapture" xml:space="preserve">
     <value>Yakalamayı iptal et</value>
@@ -731,9 +692,6 @@
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>Son bölgeyi kullanarak ekran kaydet (GIF)</value>
   </data>
-  <data name="ImgurThumbnailType_Small_Square" xml:space="preserve">
-    <value>Küçük kare</value>
-  </data>
   <data name="HotkeyType_MonitorTest" xml:space="preserve">
     <value>Monitör testi</value>
   </data>
@@ -821,9 +779,6 @@
   <data name="PrintTextForm_LoadSettings_Name___0___Size___1_" xml:space="preserve">
     <value>İsim: {0}, Boyut: {1}</value>
   </data>
-  <data name="HotkeyType_AutoCapture" xml:space="preserve">
-    <value>Otomatik yakala</value>
-  </data>
   <data name="ShapeType_DrawingRectangle" xml:space="preserve">
     <value>Dikdörtgen (R)</value>
   </data>
@@ -842,17 +797,11 @@
   <data name="ReplCodeMenuEntry_height_Gets_image_height" xml:space="preserve">
     <value>Resim yüksekliği</value>
   </data>
-  <data name="PastebinExpiration_M1" xml:space="preserve">
-    <value>1 ay</value>
-  </data>
   <data name="ShapeType_DrawingTextBackground" xml:space="preserve">
     <value>Yazı (Arkaplanlı) (T)</value>
   </data>
   <data name="RandomNonAmbiguousAlphanumericCharRepeatUsingN" xml:space="preserve">
     <value>Rastgele belirsiz olmayan alfanumerik karakter ({n} haneli)</value>
-  </data>
-  <data name="PastebinPrivacy_Public" xml:space="preserve">
-    <value>Halka açık</value>
   </data>
   <data name="FileExistAction_Overwrite" xml:space="preserve">
     <value>Dosya üzerine yaz</value>
@@ -883,12 +832,6 @@
   </data>
   <data name="ReplCodeMenuEntry_cn_Computer_name" xml:space="preserve">
     <value>Bilgisayar adı</value>
-  </data>
-  <data name="HotkeyType_StartAutoCapture" xml:space="preserve">
-    <value>Son bölgeyi kullanarak otomatik yakala</value>
-  </data>
-  <data name="ImgurThumbnailType_Medium_Thumbnail" xml:space="preserve">
-    <value>Orta küçük resim</value>
   </data>
   <data name="Extensions_AddContextMenu_Undo" xml:space="preserve">
     <value>Geri al</value>
@@ -1211,55 +1154,10 @@
   <data name="ToastClickAction_DeleteFile" xml:space="preserve">
     <value>Yerel dosyayı sil</value>
   </data>
-  <data name="HotkeyType_StopAutoCapture" xml:space="preserve">
-    <value>Otomatik yakalamayı durdur</value>
-  </data>
-  <data name="AfterCaptureTasks_AnalyzeImage" xml:space="preserve">
-    <value>Görüntüyü analiz et</value>
-  </data>
-  <data name="HotkeyType_AnalyzeImage" xml:space="preserve">
-    <value>Görüntüyü analiz et</value>
-  </data>
   <data name="ShapeType_ToolSpotlight" xml:space="preserve">
     <value>Spot ışığı</value>
   </data>
-  <data name="PrivateBinExpiration_M5" xml:space="preserve">
-    <value>5 Dakika</value>
-  </data>
-  <data name="PrivateBinExpiration_M10" xml:space="preserve">
-    <value>10 Dakika</value>
-  </data>
-  <data name="PrivateBinExpiration_H1" xml:space="preserve">
-    <value>1 Saat</value>
-  </data>
-  <data name="PrivateBinExpiration_D1" xml:space="preserve">
-    <value>1 Gün</value>
-  </data>
-  <data name="PrivateBinExpiration_W1" xml:space="preserve">
-    <value>1 Hafta</value>
-  </data>
-  <data name="PrivateBinExpiration_M1" xml:space="preserve">
-    <value>1 Ay</value>
-  </data>
-  <data name="PrivateBinExpiration_Y1" xml:space="preserve">
-    <value>1 Yıl</value>
-  </data>
-  <data name="PrivateBinExpiration_N" xml:space="preserve">
-    <value>Asla</value>
-  </data>
-  <data name="PrivateBinFormat_PlainText" xml:space="preserve">
-    <value>Düz Metin</value>
-  </data>
-  <data name="PrivateBinFormat_SyntaxHighlighting" xml:space="preserve">
-    <value>Söz Dizimi Vurgulama</value>
-  </data>
-  <data name="PrivateBinFormat_Markdown" xml:space="preserve">
-    <value>Markdown</value>
-  </data>
   <data name="AfterCaptureTasks_CopyFolderPathToClipboard" xml:space="preserve">
     <value>Klasör yolunu panoya kopyala</value>
-  </data>
-  <data name="HotkeyType_ImageComparer" xml:space="preserve">
-    <value>Görsel karşılaştırıcı</value>
   </data>
 </root>

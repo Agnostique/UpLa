@@ -651,7 +651,4 @@
   <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
     <value>إظهار علامة التصويب المركزية</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>استخدام محرر الصور القديم</value>
-  </data>
 </root>

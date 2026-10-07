@@ -651,7 +651,4 @@
   <data name="cbCloseWindowAfterOpenServiceLink.Text" xml:space="preserve">
     <value>Close OCR okno after opening service link</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>Użyj starszego edytora obrazów</value>
-  </data>
 </root>

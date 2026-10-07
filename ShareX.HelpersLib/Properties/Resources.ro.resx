@@ -126,9 +126,6 @@
   <data name="ExportImportControl_tsmiExportClipboard_Click_Settings_copied_to_your_clipboard_" xml:space="preserve">
     <value>Setări copiate în clipboard.</value>
   </data>
-  <data name="ImgurThumbnailType_Big_Square" xml:space="preserve">
-    <value>Pătrat mare</value>
-  </data>
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>Al doilea</value>
   </data>
@@ -176,9 +173,6 @@
   </data>
   <data name="HotkeyType_Category_ScreenRecord" xml:space="preserve">
     <value>Înregistrare ecran</value>
-  </data>
-  <data name="PastebinExpiration_H1" xml:space="preserve">
-    <value>1 oră</value>
   </data>
   <data name="HotkeyType_ScrollingCapture" xml:space="preserve">
     <value>Captură cu derulare</value>
@@ -252,17 +246,11 @@
   <data name="ReplCodeMenuEntry_d_Current_day" xml:space="preserve">
     <value>Ziua</value>
   </data>
-  <data name="PastebinExpiration_D1" xml:space="preserve">
-    <value>1 zi</value>
-  </data>
   <data name="ShapeType_DrawingArrow" xml:space="preserve">
     <value>Săgeată (A)</value>
   </data>
   <data name="ShapeType_DrawingSmartEraser" xml:space="preserve">
     <value>Radieră inteligentă</value>
-  </data>
-  <data name="PastebinPrivacy_Unlisted" xml:space="preserve">
-    <value>Fără listă</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_update_is_available" xml:space="preserve">
     <value>Actualizare disponibilă</value>
@@ -300,9 +288,6 @@
   <data name="ReplCodeMenuCategory_Image" xml:space="preserve">
     <value>Imagine</value>
   </data>
-  <data name="PastebinExpiration_M10" xml:space="preserve">
-    <value>10 minute</value>
-  </data>
   <data name="RegionCaptureAction_SwapToolType" xml:space="preserve">
     <value>Schimbați tipul de instrument</value>
   </data>
@@ -327,9 +312,6 @@ Doriți să o descărcați?</value>
   </data>
   <data name="RegionCaptureAction_CaptureActiveMonitor" xml:space="preserve">
     <value>Capturarea monitorului activ</value>
-  </data>
-  <data name="ImgurThumbnailType_Small_Thumbnail" xml:space="preserve">
-    <value>Miniatură mică</value>
   </data>
   <data name="PrintForm_LoadSettings_Print" xml:space="preserve">
     <value>Imprimare</value>
@@ -373,9 +355,6 @@ Doriți să o descărcați?</value>
   <data name="HotkeyType_DragDropUpload" xml:space="preserve">
     <value>Încărcare prin tragere și fixare</value>
   </data>
-  <data name="PastebinExpiration_N" xml:space="preserve">
-    <value>Niciodată</value>
-  </data>
   <data name="HotkeyType_StartScreenRecorder" xml:space="preserve">
     <value>Începeți/opriți înregistrarea ecranului utilizând ultima regiune</value>
   </data>
@@ -414,9 +393,6 @@ Doriți să o descărcați?</value>
   </data>
   <data name="FileExistAction_UniqueName" xml:space="preserve">
     <value>Adăugați un număr la numele fișierului</value>
-  </data>
-  <data name="ImgurThumbnailType_Large_Thumbnail" xml:space="preserve">
-    <value>Miniatură mare</value>
   </data>
   <data name="ReplCodeMenuEntry_yy_Current_year__2_digits_" xml:space="preserve">
     <value>Anul (2 cifre)</value>
@@ -460,9 +436,6 @@ Doriți să o descărcați?</value>
   <data name="ShapeType_DrawingCursor" xml:space="preserve">
     <value>Cursor</value>
   </data>
-  <data name="ImgurThumbnailType_Huge_Thumbnail" xml:space="preserve">
-    <value>Miniatură uriașă</value>
-  </data>
   <data name="LinearGradientMode_Horizontal" xml:space="preserve">
     <value>Orizontal</value>
   </data>
@@ -471,9 +444,6 @@ Doriți să o descărcați?</value>
   </data>
   <data name="ReplCodeMenuEntry_y_Current_year" xml:space="preserve">
     <value>Anul</value>
-  </data>
-  <data name="PastebinExpiration_W2" xml:space="preserve">
-    <value>2 săptămâni</value>
   </data>
   <data name="ImageEditorStartMode_Fullscreen" xml:space="preserve">
     <value>Ecran complet</value>
@@ -593,9 +563,6 @@ Doriți să o descărcați și să o instalați?</value>
   <data name="HotkeyType_QRCode" xml:space="preserve">
     <value>Cod QR</value>
   </data>
-  <data name="PastebinExpiration_W1" xml:space="preserve">
-    <value>1 săptămână</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>Evidențiere (H)</value>
   </data>
@@ -607,9 +574,6 @@ Doriți să o descărcați și să o instalați?</value>
   </data>
   <data name="ReplCodeMenuEntry_rx_Random_hexadecimal" xml:space="preserve">
     <value>Caractere hexazecimale aleatorii (se repetă folosind {n})</value>
-  </data>
-  <data name="PastebinPrivacy_Private" xml:space="preserve">
-    <value>Privat (numai pentru membri)</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Eroare</value>
@@ -637,9 +601,6 @@ Doriți să o descărcați și să o instalați?</value>
   </data>
   <data name="ReplCodeMenuEntry_ib_Auto_increment_base_alphanumeric" xml:space="preserve">
     <value>Creștere automată cu baza {n} folosind alfanumeric (1 &lt; n &lt; 63)</value>
-  </data>
-  <data name="HotkeyType_CaptureWebpage" xml:space="preserve">
-    <value>Capturarea paginii web</value>
   </data>
   <data name="RegionCaptureAction_CancelCapture" xml:space="preserve">
     <value>Anulați captura</value>
@@ -731,9 +692,6 @@ Doriți să o descărcați și să o instalați?</value>
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>Porniți/opriți înregistrarea ecranului (GIF) utilizând ultima regiune</value>
   </data>
-  <data name="ImgurThumbnailType_Small_Square" xml:space="preserve">
-    <value>Pătrat mic</value>
-  </data>
   <data name="HotkeyType_MonitorTest" xml:space="preserve">
     <value>Test de monitor</value>
   </data>
@@ -821,9 +779,6 @@ Doriți să o descărcați și să o instalați?</value>
   <data name="PrintTextForm_LoadSettings_Name___0___Size___1_" xml:space="preserve">
     <value>Numele: {0}, Dimensiune: {1}</value>
   </data>
-  <data name="HotkeyType_AutoCapture" xml:space="preserve">
-    <value>Captură automată</value>
-  </data>
   <data name="ShapeType_DrawingRectangle" xml:space="preserve">
     <value>Dreptunghi (R)</value>
   </data>
@@ -842,17 +797,11 @@ Doriți să o descărcați și să o instalați?</value>
   <data name="ReplCodeMenuEntry_height_Gets_image_height" xml:space="preserve">
     <value>Înălțimea imaginii</value>
   </data>
-  <data name="PastebinExpiration_M1" xml:space="preserve">
-    <value>1 lună</value>
-  </data>
   <data name="ShapeType_DrawingTextBackground" xml:space="preserve">
     <value>Text (Cu fundal) (T)</value>
   </data>
   <data name="RandomNonAmbiguousAlphanumericCharRepeatUsingN" xml:space="preserve">
     <value>Caractere alfanumerice aleatorii și neambigue (se repetă folosind {n})</value>
-  </data>
-  <data name="PastebinPrivacy_Public" xml:space="preserve">
-    <value>Public</value>
   </data>
   <data name="FileExistAction_Overwrite" xml:space="preserve">
     <value>Suprascrieți fișierul</value>
@@ -883,12 +832,6 @@ Doriți să o descărcați și să o instalați?</value>
   </data>
   <data name="ReplCodeMenuEntry_cn_Computer_name" xml:space="preserve">
     <value>Numele calculatorului</value>
-  </data>
-  <data name="HotkeyType_StartAutoCapture" xml:space="preserve">
-    <value>Începeți captura automată utilizând ultima regiune</value>
-  </data>
-  <data name="ImgurThumbnailType_Medium_Thumbnail" xml:space="preserve">
-    <value>Miniatură medie</value>
   </data>
   <data name="Extensions_AddContextMenu_Undo" xml:space="preserve">
     <value>Refacere</value>
@@ -1094,9 +1037,6 @@ Doriți să o descărcați și să o instalați?</value>
   <data name="HotkeyType_Metadata" xml:space="preserve">
     <value>Metadate</value>
   </data>
-  <data name="HotkeyType_StopAutoCapture" xml:space="preserve">
-    <value>Oprește auto captură</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>Fixează pe ecran</value>
   </data>
@@ -1214,52 +1154,10 @@ Doriți să o descărcați și să o instalați?</value>
   <data name="ToastClickAction_DeleteFile" xml:space="preserve">
     <value>Șterge fișier locally</value>
   </data>
-  <data name="AfterCaptureTasks_AnalyzeImage" xml:space="preserve">
-    <value>Analizează imaginea</value>
-  </data>
-  <data name="HotkeyType_AnalyzeImage" xml:space="preserve">
-    <value>Analizează imaginea</value>
-  </data>
   <data name="ShapeType_ToolSpotlight" xml:space="preserve">
     <value>Reflector</value>
   </data>
-  <data name="PrivateBinExpiration_M5" xml:space="preserve">
-    <value>5 minute</value>
-  </data>
-  <data name="PrivateBinExpiration_M10" xml:space="preserve">
-    <value>10 minute</value>
-  </data>
-  <data name="PrivateBinExpiration_H1" xml:space="preserve">
-    <value>1 oră</value>
-  </data>
-  <data name="PrivateBinExpiration_D1" xml:space="preserve">
-    <value>1 zi</value>
-  </data>
-  <data name="PrivateBinExpiration_W1" xml:space="preserve">
-    <value>1 săptămână</value>
-  </data>
-  <data name="PrivateBinExpiration_M1" xml:space="preserve">
-    <value>1 lună</value>
-  </data>
-  <data name="PrivateBinExpiration_Y1" xml:space="preserve">
-    <value>1 an</value>
-  </data>
-  <data name="PrivateBinExpiration_N" xml:space="preserve">
-    <value>Niciodată</value>
-  </data>
-  <data name="PrivateBinFormat_PlainText" xml:space="preserve">
-    <value>Text simplu</value>
-  </data>
-  <data name="PrivateBinFormat_SyntaxHighlighting" xml:space="preserve">
-    <value>Evidențiere sintaxă</value>
-  </data>
-  <data name="PrivateBinFormat_Markdown" xml:space="preserve">
-    <value>Markdown</value>
-  </data>
   <data name="AfterCaptureTasks_CopyFolderPathToClipboard" xml:space="preserve">
     <value>Copiază cale folder to clipboard</value>
-  </data>
-  <data name="HotkeyType_ImageComparer" xml:space="preserve">
-    <value>Comparator de imagini</value>
   </data>
 </root>

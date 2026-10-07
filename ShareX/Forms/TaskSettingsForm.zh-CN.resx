@@ -645,9 +645,6 @@
   <data name="cbUseRandomImageEffect.Text" xml:space="preserve">
     <value>使用随机的图片效果</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>使用旧版图像编辑器</value>
-  </data>
   <data name="cbCaptureAutoHideDesktopIcons.Text" xml:space="preserve">
     <value>自动隐藏桌面图标</value>
   </data>

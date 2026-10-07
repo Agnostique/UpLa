@@ -630,9 +630,6 @@
   <data name="cbClipboardUploadURLContents.Text" xml:space="preserve">
     <value>Jika clipboard berisi URL file, unduh lalu unggah</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>Gunakan editor gambar lama</value>
-  </data>
   <data name="lblToolsScreenColorPickerFormatCtrl.Text" xml:space="preserve">
     <value>Format pemilih warna layar (Ctrl + klik):</value>
   </data>

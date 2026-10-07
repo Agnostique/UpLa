@@ -651,7 +651,4 @@
   <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
     <value>Показывать центральный прицел</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>Использовать устаревший редактор изображений</value>
-  </data>
 </root>

@@ -684,9 +684,6 @@
   <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
     <value>Conversor de vídeo...</value>
   </data>
-  <data name="tsmiImageComparer.Text" xml:space="preserve">
-    <value>Comparador de imagens...</value>
-  </data>
   <data name="tsmiImageBeautifier.Text" xml:space="preserve">
     <value>Imagem beautifier...</value>
   </data>
@@ -720,9 +717,6 @@
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Analisar imagem...</value>
   </data>
-  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
-    <value>Comparador de imagens...</value>
-  </data>
   <data name="tsmiTrayImageBeautifier.Text" xml:space="preserve">
     <value>Imagem beautifier...</value>
   </data>
@@ -740,11 +734,5 @@
   </data>
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>Descrição</value>
-  </data>
-  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
-    <value>Removedor de fundo...</value>
-  </data>
-  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
-    <value>Removedor de fundo...</value>
   </data>
 </root>

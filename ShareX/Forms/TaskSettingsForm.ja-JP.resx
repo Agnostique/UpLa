@@ -651,7 +651,4 @@
   <data name="tpOCR.Text" xml:space="preserve">
     <value>OCR</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>レガシー画像エディターを使用</value>
-  </data>
 </root>

@@ -717,9 +717,6 @@
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>תיאור</value>
   </data>
-  <data name="tsmiImageComparer.Text" xml:space="preserve">
-    <value>משווה תמונות...</value>
-  </data>
   <data name="tsmiAI.Text" xml:space="preserve">
     <value>נתח תמונה...</value>
   </data>
@@ -732,19 +729,10 @@
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>נתח תמונה...</value>
   </data>
-  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
-    <value>משווה תמונות...</value>
-  </data>
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>נתח תמונה...</value>
   </data>
   <data name="tsmiTrayMetadata.Text" xml:space="preserve">
     <value>מטא-נתונים...</value>
-  </data>
-  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
-    <value>מסיר רקע...</value>
-  </data>
-  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
-    <value>מסיר רקע...</value>
   </data>
 </root>

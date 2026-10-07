@@ -1071,36 +1071,6 @@ namespace ShareX.ScreenCaptureLib.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap layer_shape_round {
-            get {
-                object obj = ResourceManager.GetObject("layer_shape_round", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap layer_shape_round_region {
-            get {
-                object obj = ResourceManager.GetObject("layer_shape_round_region", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap layer_shape_text {
-            get {
-                object obj = ResourceManager.GetObject("layer_shape_text", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap layers {
             get {
                 object obj = ResourceManager.GetObject("layers", resourceCulture);
@@ -1515,15 +1485,6 @@ namespace ShareX.ScreenCaptureLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Start.
-        /// </summary>
-        internal static string ScreenRecordForm_Start {
-            get {
-                return ResourceManager.GetString("ScreenRecordForm_Start", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Click to start recording..
         /// </summary>
         internal static string ScreenRecordForm_StartRecording_Click_tray_icon_to_start_recording_ {
@@ -1565,24 +1526,6 @@ namespace ShareX.ScreenCaptureLib.Properties {
         internal static string ScreenRecordForm_Stop {
             get {
                 return ResourceManager.GetString("ScreenRecordForm_Stop", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Stop capture.
-        /// </summary>
-        internal static string ScrollingCaptureForm_StartCapture_Stop_capture {
-            get {
-                return ResourceManager.GetString("ScrollingCaptureForm_StartCapture_Stop_capture", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Start capture.
-        /// </summary>
-        internal static string ScrollingCaptureForm_StopCapture_Start_capture {
-            get {
-                return ResourceManager.GetString("ScrollingCaptureForm_StopCapture_Start_capture", resourceCulture);
             }
         }
         
@@ -2353,24 +2296,6 @@ namespace ShareX.ScreenCaptureLib.Properties {
             get {
                 object obj = ResourceManager.GetObject("tick", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Capture.
-        /// </summary>
-        internal static string WebpageCaptureForm_UpdateControls_Capture {
-            get {
-                return ResourceManager.GetString("WebpageCaptureForm_UpdateControls_Capture", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Stop.
-        /// </summary>
-        internal static string WebpageCaptureForm_UpdateControls_Stop {
-            get {
-                return ResourceManager.GetString("WebpageCaptureForm_UpdateControls_Stop", resourceCulture);
             }
         }
         

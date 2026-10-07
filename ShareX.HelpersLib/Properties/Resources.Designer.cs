@@ -155,15 +155,6 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Analyze image.
-        /// </summary>
-        internal static string AfterCaptureTasks_AnalyzeImage {
-            get {
-                return ResourceManager.GetString("AfterCaptureTasks_AnalyzeImage", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Open in image editor.
         /// </summary>
         internal static string AfterCaptureTasks_AnnotateImage {
@@ -1200,38 +1191,11 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Analyze image.
-        /// </summary>
-        internal static string HotkeyType_AnalyzeImage {
-            get {
-                return ResourceManager.GetString("HotkeyType_AnalyzeImage", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Auto capture.
-        /// </summary>
-        internal static string HotkeyType_AutoCapture {
-            get {
-                return ResourceManager.GetString("HotkeyType_AutoCapture", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Borderless window.
         /// </summary>
         internal static string HotkeyType_BorderlessWindow {
             get {
                 return ResourceManager.GetString("HotkeyType_BorderlessWindow", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Webpage capture.
-        /// </summary>
-        internal static string HotkeyType_CaptureWebpage {
-            get {
-                return ResourceManager.GetString("HotkeyType_CaptureWebpage", resourceCulture);
             }
         }
         
@@ -1403,15 +1367,6 @@ namespace ShareX.HelpersLib.Properties {
         internal static string HotkeyType_ImageCombiner {
             get {
                 return ResourceManager.GetString("HotkeyType_ImageCombiner", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Image comparer.
-        /// </summary>
-        internal static string HotkeyType_ImageComparer {
-            get {
-                return ResourceManager.GetString("HotkeyType_ImageComparer", resourceCulture);
             }
         }
         
@@ -1758,15 +1713,6 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Start auto capture using last region.
-        /// </summary>
-        internal static string HotkeyType_StartAutoCapture {
-            get {
-                return ResourceManager.GetString("HotkeyType_StartAutoCapture", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Start/Stop screen recording using last region.
         /// </summary>
         internal static string HotkeyType_StartScreenRecorder {
@@ -1781,15 +1727,6 @@ namespace ShareX.HelpersLib.Properties {
         internal static string HotkeyType_StartScreenRecorderGIF {
             get {
                 return ResourceManager.GetString("HotkeyType_StartScreenRecorderGIF", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Stop auto capture.
-        /// </summary>
-        internal static string HotkeyType_StopAutoCapture {
-            get {
-                return ResourceManager.GetString("HotkeyType_StopAutoCapture", resourceCulture);
             }
         }
         
@@ -2019,60 +1956,6 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Big square.
-        /// </summary>
-        internal static string ImgurThumbnailType_Big_Square {
-            get {
-                return ResourceManager.GetString("ImgurThumbnailType_Big_Square", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Huge thumbnail.
-        /// </summary>
-        internal static string ImgurThumbnailType_Huge_Thumbnail {
-            get {
-                return ResourceManager.GetString("ImgurThumbnailType_Huge_Thumbnail", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Large thumbnail.
-        /// </summary>
-        internal static string ImgurThumbnailType_Large_Thumbnail {
-            get {
-                return ResourceManager.GetString("ImgurThumbnailType_Large_Thumbnail", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Medium thumbnail.
-        /// </summary>
-        internal static string ImgurThumbnailType_Medium_Thumbnail {
-            get {
-                return ResourceManager.GetString("ImgurThumbnailType_Medium_Thumbnail", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Small square.
-        /// </summary>
-        internal static string ImgurThumbnailType_Small_Square {
-            get {
-                return ResourceManager.GetString("ImgurThumbnailType_Small_Square", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Small thumbnail.
-        /// </summary>
-        internal static string ImgurThumbnailType_Small_Thumbnail {
-            get {
-                return ResourceManager.GetString("ImgurThumbnailType_Small_Thumbnail", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Backward diagonal.
         /// </summary>
         internal static string LinearGradientMode_BackwardDiagonal {
@@ -2229,96 +2112,6 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 1 Day.
-        /// </summary>
-        internal static string PastebinExpiration_D1 {
-            get {
-                return ResourceManager.GetString("PastebinExpiration_D1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 1 Hour.
-        /// </summary>
-        internal static string PastebinExpiration_H1 {
-            get {
-                return ResourceManager.GetString("PastebinExpiration_H1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 1 Month.
-        /// </summary>
-        internal static string PastebinExpiration_M1 {
-            get {
-                return ResourceManager.GetString("PastebinExpiration_M1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 10 Minutes.
-        /// </summary>
-        internal static string PastebinExpiration_M10 {
-            get {
-                return ResourceManager.GetString("PastebinExpiration_M10", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Never.
-        /// </summary>
-        internal static string PastebinExpiration_N {
-            get {
-                return ResourceManager.GetString("PastebinExpiration_N", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 1 Week.
-        /// </summary>
-        internal static string PastebinExpiration_W1 {
-            get {
-                return ResourceManager.GetString("PastebinExpiration_W1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 2 Weeks.
-        /// </summary>
-        internal static string PastebinExpiration_W2 {
-            get {
-                return ResourceManager.GetString("PastebinExpiration_W2", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Private (members only).
-        /// </summary>
-        internal static string PastebinPrivacy_Private {
-            get {
-                return ResourceManager.GetString("PastebinPrivacy_Private", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Public.
-        /// </summary>
-        internal static string PastebinPrivacy_Public {
-            get {
-                return ResourceManager.GetString("PastebinPrivacy_Public", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Unlisted.
-        /// </summary>
-        internal static string PastebinPrivacy_Unlisted {
-            get {
-                return ResourceManager.GetString("PastebinPrivacy_Unlisted", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap pipette {
@@ -2379,105 +2172,6 @@ namespace ShareX.HelpersLib.Properties {
         internal static string PrintTextForm_LoadSettings_Name___0___Size___1_ {
             get {
                 return ResourceManager.GetString("PrintTextForm_LoadSettings_Name___0___Size___1_", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 1 Day.
-        /// </summary>
-        internal static string PrivateBinExpiration_D1 {
-            get {
-                return ResourceManager.GetString("PrivateBinExpiration_D1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 1 Hour.
-        /// </summary>
-        internal static string PrivateBinExpiration_H1 {
-            get {
-                return ResourceManager.GetString("PrivateBinExpiration_H1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 1 Month.
-        /// </summary>
-        internal static string PrivateBinExpiration_M1 {
-            get {
-                return ResourceManager.GetString("PrivateBinExpiration_M1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 10 Minutes.
-        /// </summary>
-        internal static string PrivateBinExpiration_M10 {
-            get {
-                return ResourceManager.GetString("PrivateBinExpiration_M10", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 5 Minutes.
-        /// </summary>
-        internal static string PrivateBinExpiration_M5 {
-            get {
-                return ResourceManager.GetString("PrivateBinExpiration_M5", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Never.
-        /// </summary>
-        internal static string PrivateBinExpiration_N {
-            get {
-                return ResourceManager.GetString("PrivateBinExpiration_N", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 1 Week.
-        /// </summary>
-        internal static string PrivateBinExpiration_W1 {
-            get {
-                return ResourceManager.GetString("PrivateBinExpiration_W1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 1 Year.
-        /// </summary>
-        internal static string PrivateBinExpiration_Y1 {
-            get {
-                return ResourceManager.GetString("PrivateBinExpiration_Y1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Markdown.
-        /// </summary>
-        internal static string PrivateBinFormat_Markdown {
-            get {
-                return ResourceManager.GetString("PrivateBinFormat_Markdown", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Plain Text.
-        /// </summary>
-        internal static string PrivateBinFormat_PlainText {
-            get {
-                return ResourceManager.GetString("PrivateBinFormat_PlainText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Syntax Highlighting.
-        /// </summary>
-        internal static string PrivateBinFormat_SyntaxHighlighting {
-            get {
-                return ResourceManager.GetString("PrivateBinFormat_SyntaxHighlighting", resourceCulture);
             }
         }
         

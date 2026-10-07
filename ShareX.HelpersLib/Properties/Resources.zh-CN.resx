@@ -126,9 +126,6 @@
   <data name="ExportImportControl_tsmiExportClipboard_Click_Settings_copied_to_your_clipboard_" xml:space="preserve">
     <value>设置已复制到剪贴板。</value>
   </data>
-  <data name="ImgurThumbnailType_Big_Square" xml:space="preserve">
-    <value>大正方形</value>
-  </data>
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>当前秒</value>
   </data>
@@ -176,9 +173,6 @@
   </data>
   <data name="HotkeyType_Category_ScreenRecord" xml:space="preserve">
     <value>屏幕录制</value>
-  </data>
-  <data name="PastebinExpiration_H1" xml:space="preserve">
-    <value>1 小时</value>
   </data>
   <data name="HotkeyType_ScrollingCapture" xml:space="preserve">
     <value>滚动截图</value>
@@ -252,17 +246,11 @@
   <data name="ReplCodeMenuEntry_d_Current_day" xml:space="preserve">
     <value>当前日</value>
   </data>
-  <data name="PastebinExpiration_D1" xml:space="preserve">
-    <value>1 天</value>
-  </data>
   <data name="ShapeType_DrawingArrow" xml:space="preserve">
     <value>绘图：箭头 (A)</value>
   </data>
   <data name="ShapeType_DrawingSmartEraser" xml:space="preserve">
     <value>智能擦除</value>
-  </data>
-  <data name="PastebinPrivacy_Unlisted" xml:space="preserve">
-    <value>非公开</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_update_is_available" xml:space="preserve">
     <value>更新可用</value>
@@ -300,9 +288,6 @@
   <data name="ReplCodeMenuCategory_Image" xml:space="preserve">
     <value>图像</value>
   </data>
-  <data name="PastebinExpiration_M10" xml:space="preserve">
-    <value>10 分钟</value>
-  </data>
   <data name="RegionCaptureAction_SwapToolType" xml:space="preserve">
     <value>互换工具类型</value>
   </data>
@@ -327,9 +312,6 @@
   </data>
   <data name="RegionCaptureAction_CaptureActiveMonitor" xml:space="preserve">
     <value>截图活动显示器</value>
-  </data>
-  <data name="ImgurThumbnailType_Small_Thumbnail" xml:space="preserve">
-    <value>小缩略图</value>
   </data>
   <data name="PrintForm_LoadSettings_Print" xml:space="preserve">
     <value>打印</value>
@@ -373,9 +355,6 @@
   <data name="HotkeyType_DragDropUpload" xml:space="preserve">
     <value>拖放上传</value>
   </data>
-  <data name="PastebinExpiration_N" xml:space="preserve">
-    <value>从不</value>
-  </data>
   <data name="HotkeyType_StartScreenRecorder" xml:space="preserve">
     <value>使用最后一个区域开始屏幕录制</value>
   </data>
@@ -414,9 +393,6 @@
   </data>
   <data name="FileExistAction_UniqueName" xml:space="preserve">
     <value>附加数字到文件名</value>
-  </data>
-  <data name="ImgurThumbnailType_Large_Thumbnail" xml:space="preserve">
-    <value>大缩略图</value>
   </data>
   <data name="ReplCodeMenuEntry_yy_Current_year__2_digits_" xml:space="preserve">
     <value>当前年（2 位数字）</value>
@@ -460,9 +436,6 @@
   <data name="ShapeType_DrawingCursor" xml:space="preserve">
     <value>绘图：指针</value>
   </data>
-  <data name="ImgurThumbnailType_Huge_Thumbnail" xml:space="preserve">
-    <value>巨大缩略图</value>
-  </data>
   <data name="LinearGradientMode_Horizontal" xml:space="preserve">
     <value>水平</value>
   </data>
@@ -471,9 +444,6 @@
   </data>
   <data name="ReplCodeMenuEntry_y_Current_year" xml:space="preserve">
     <value>当前年</value>
-  </data>
-  <data name="PastebinExpiration_W2" xml:space="preserve">
-    <value>2 周</value>
   </data>
   <data name="ImageEditorStartMode_Fullscreen" xml:space="preserve">
     <value>全屏</value>
@@ -593,9 +563,6 @@
   <data name="HotkeyType_QRCode" xml:space="preserve">
     <value>二维码</value>
   </data>
-  <data name="PastebinExpiration_W1" xml:space="preserve">
-    <value>1 周</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>效果：高亮 (H)</value>
   </data>
@@ -607,9 +574,6 @@
   </data>
   <data name="ReplCodeMenuEntry_rx_Random_hexadecimal" xml:space="preserve">
     <value>随机的十六进制字符。重复使用 {n}</value>
-  </data>
-  <data name="PastebinPrivacy_Private" xml:space="preserve">
-    <value>私有（仅成员）</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>错误</value>
@@ -637,9 +601,6 @@
   </data>
   <data name="ReplCodeMenuEntry_ib_Auto_increment_base_alphanumeric" xml:space="preserve">
     <value>使用字母数字 (1 &lt; n &lt; 63) 按基数 {n} 自动递增</value>
-  </data>
-  <data name="HotkeyType_CaptureWebpage" xml:space="preserve">
-    <value>网页截图</value>
   </data>
   <data name="RegionCaptureAction_CancelCapture" xml:space="preserve">
     <value>取消截图</value>
@@ -731,9 +692,6 @@
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>使用上一次的区域开始屏幕录制（GIF）</value>
   </data>
-  <data name="ImgurThumbnailType_Small_Square" xml:space="preserve">
-    <value>小正方形</value>
-  </data>
   <data name="HotkeyType_MonitorTest" xml:space="preserve">
     <value>显示器测试</value>
   </data>
@@ -821,9 +779,6 @@
   <data name="PrintTextForm_LoadSettings_Name___0___Size___1_" xml:space="preserve">
     <value>名称: {0}，大小: {1}</value>
   </data>
-  <data name="HotkeyType_AutoCapture" xml:space="preserve">
-    <value>自动截图</value>
-  </data>
   <data name="ShapeType_DrawingRectangle" xml:space="preserve">
     <value>绘图：矩形 (R)</value>
   </data>
@@ -842,17 +797,11 @@
   <data name="ReplCodeMenuEntry_height_Gets_image_height" xml:space="preserve">
     <value>图像高度</value>
   </data>
-  <data name="PastebinExpiration_M1" xml:space="preserve">
-    <value>1 月</value>
-  </data>
   <data name="ShapeType_DrawingTextBackground" xml:space="preserve">
     <value>绘图：文字（背景填充）(T)</value>
   </data>
   <data name="RandomNonAmbiguousAlphanumericCharRepeatUsingN" xml:space="preserve">
     <value>随机的非易混淆字母与数字字符。使用 {n} 表示重复次数</value>
-  </data>
-  <data name="PastebinPrivacy_Public" xml:space="preserve">
-    <value>公开</value>
   </data>
   <data name="FileExistAction_Overwrite" xml:space="preserve">
     <value>覆盖文件</value>
@@ -883,12 +832,6 @@
   </data>
   <data name="ReplCodeMenuEntry_cn_Computer_name" xml:space="preserve">
     <value>计算机名称</value>
-  </data>
-  <data name="HotkeyType_StartAutoCapture" xml:space="preserve">
-    <value>使用最后一个区域开始自动采集</value>
-  </data>
-  <data name="ImgurThumbnailType_Medium_Thumbnail" xml:space="preserve">
-    <value>中缩略图</value>
   </data>
   <data name="Extensions_AddContextMenu_Undo" xml:space="preserve">
     <value>撤销</value>
@@ -1172,9 +1115,6 @@
   <data name="ShareXImageViewer" xml:space="preserve">
     <value>ShareX - 图片浏览器</value>
   </data>
-  <data name="HotkeyType_StopAutoCapture" xml:space="preserve">
-    <value>停止自动捕获</value>
-  </data>
   <data name="ImageBeautifierBackgroundType_Color" xml:space="preserve">
     <value>颜色</value>
   </data>
@@ -1186,9 +1126,6 @@
   </data>
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>透明</value>
-  </data>
-  <data name="PrivateBinFormat_Markdown" xml:space="preserve">
-    <value>Markdown</value>
   </data>
   <data name="ScrollMethod_PageDown" xml:space="preserve">
     <value>下一页</value>
@@ -1202,47 +1139,11 @@
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>二维码（扫描区域）</value>
   </data>
-  <data name="AfterCaptureTasks_AnalyzeImage" xml:space="preserve">
-    <value>分析图片</value>
-  </data>
   <data name="HotkeyType_StripMetadata" xml:space="preserve">
     <value>移除元数据</value>
   </data>
-  <data name="HotkeyType_AnalyzeImage" xml:space="preserve">
-    <value>分析图片</value>
-  </data>
   <data name="ShapeType_ToolSpotlight" xml:space="preserve">
     <value>聚光灯</value>
-  </data>
-  <data name="PrivateBinExpiration_M5" xml:space="preserve">
-    <value>5 分钟</value>
-  </data>
-  <data name="PrivateBinExpiration_M10" xml:space="preserve">
-    <value>10 分钟</value>
-  </data>
-  <data name="PrivateBinExpiration_H1" xml:space="preserve">
-    <value>1 小时</value>
-  </data>
-  <data name="PrivateBinExpiration_D1" xml:space="preserve">
-    <value>1 天</value>
-  </data>
-  <data name="PrivateBinExpiration_W1" xml:space="preserve">
-    <value>1 周</value>
-  </data>
-  <data name="PrivateBinExpiration_M1" xml:space="preserve">
-    <value>1 月</value>
-  </data>
-  <data name="PrivateBinExpiration_Y1" xml:space="preserve">
-    <value>1 年</value>
-  </data>
-  <data name="PrivateBinExpiration_N" xml:space="preserve">
-    <value>从不</value>
-  </data>
-  <data name="PrivateBinFormat_PlainText" xml:space="preserve">
-    <value>文本</value>
-  </data>
-  <data name="PrivateBinFormat_SyntaxHighlighting" xml:space="preserve">
-    <value>语法高亮</value>
   </data>
   <data name="ScrollMethod_DownArrow" xml:space="preserve">
     <value>下箭头</value>
@@ -1258,8 +1159,5 @@
   </data>
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>文件大小</value>
-  </data>
-  <data name="HotkeyType_ImageComparer" xml:space="preserve">
-    <value>图像比较器</value>
   </data>
 </root>

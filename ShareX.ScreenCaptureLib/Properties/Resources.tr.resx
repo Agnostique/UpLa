@@ -132,18 +132,6 @@
   <data name="RectangleLight_InitializeComponent_Rectangle_capture_light" xml:space="preserve">
     <value>Dikdörtgen yakalama basit</value>
   </data>
-  <data name="WebpageCaptureForm_UpdateControls_Capture" xml:space="preserve">
-    <value>Yakala</value>
-  </data>
-  <data name="WebpageCaptureForm_UpdateControls_Stop" xml:space="preserve">
-    <value>Durdur</value>
-  </data>
-  <data name="ScrollingCaptureForm_StartCapture_Stop_capture" xml:space="preserve">
-    <value>Yakalamayı durdur</value>
-  </data>
-  <data name="ScrollingCaptureForm_StopCapture_Start_capture" xml:space="preserve">
-    <value>Yakalamayı başlat</value>
-  </data>
   <data name="ShapeManager_CreateContextMenu_Height_" xml:space="preserve">
     <value>Yükseklik:</value>
   </data>
@@ -248,9 +236,6 @@
   </data>
   <data name="ShapeManager_CreateToolbar_SaveImageAs" xml:space="preserve">
     <value>Resimi farklı kaydet... (Ctrl + Shift + S)</value>
-  </data>
-  <data name="ScreenRecordForm_Start" xml:space="preserve">
-    <value>Başlat</value>
   </data>
   <data name="ScreenRecordForm_Stop" xml:space="preserve">
     <value>Durdur</value>

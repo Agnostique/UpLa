@@ -651,7 +651,4 @@
   <data name="cbCloseWindowAfterOpenServiceLink.Text" xml:space="preserve">
     <value>Închide fereastra OCR după deschiderea linkului serviciului</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>Folosește editorul de imagini vechi</value>
-  </data>
 </root>

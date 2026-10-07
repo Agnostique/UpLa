@@ -32,8 +32,6 @@ jobs:
 
     env:
       SOLUTION_FILE_PATH: ShareX.sln
-      # upla.com.tr: opt out of Avalonia's anonymous build-time telemetry (Avalonia.BuildServices).
-      AVALONIA_TELEMETRY_OPTOUT: 1
 
     steps:
       - name: Checkout

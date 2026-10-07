@@ -582,9 +582,6 @@
   <data name="tsmiPinToScreen.Text" xml:space="preserve">
     <value>Aan scherm vastmaken...</value>
   </data>
-  <data name="tsmiImageComparer.Text" xml:space="preserve">
-    <value>Afbeeldingsvergelijker...</value>
-  </data>
   <data name="tsmiImageBeautifier.Text" xml:space="preserve">
     <value>Afbeelding verfraaien...</value>
   </data>
@@ -690,9 +687,6 @@
   <data name="tsmiTrayPinToScreen.Text" xml:space="preserve">
     <value>Aan scherm vastmaken...</value>
   </data>
-  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
-    <value>Afbeeldingsvergelijker...</value>
-  </data>
   <data name="tsmiTrayImageBeautifier.Text" xml:space="preserve">
     <value>Afbeelding verfraaien...</value>
   </data>
@@ -740,11 +734,5 @@
   </data>
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>Beschrijving</value>
-  </data>
-  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
-    <value>Achtergrondverwijderaar...</value>
-  </data>
-  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
-    <value>Achtergrondverwijderaar...</value>
   </data>
 </root>

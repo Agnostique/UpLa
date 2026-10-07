@@ -156,9 +156,6 @@
   <data name="ShapeManager_CreateToolbar_FlipHorizontal" xml:space="preserve">
     <value>Flip vízszintes</value>
   </data>
-  <data name="WebpageCaptureForm_UpdateControls_Stop" xml:space="preserve">
-    <value>Leállítás</value>
-  </data>
   <data name="ShapeManager_CreateContextMenu_Multi_region_mode" xml:space="preserve">
     <value>Multi terület mode</value>
   </data>
@@ -222,9 +219,6 @@
   <data name="ShapeManager_CreateToolbar_Rotate90CounterClockwise" xml:space="preserve">
     <value>Forgatás 90°-kal az óramutató járásával ellentétesen</value>
   </data>
-  <data name="ScrollingCaptureForm_StopCapture_Start_capture" xml:space="preserve">
-    <value>Indítás rögzítés</value>
-  </data>
   <data name="ShapeManager_CreateToolbar_InterpolationMode" xml:space="preserve">
     <value>Interpolációs mód:</value>
   </data>
@@ -266,9 +260,6 @@
   </data>
   <data name="ShapeManager_CreateToolbar_StartingStepValue" xml:space="preserve">
     <value>Érték of first step:</value>
-  </data>
-  <data name="WebpageCaptureForm_UpdateControls_Capture" xml:space="preserve">
-    <value>Rögzítés</value>
   </data>
   <data name="Highlight" xml:space="preserve">
     <value>Kiemelés</value>
@@ -434,12 +425,6 @@
   </data>
   <data name="ShapeManager_CreateContextMenu_Show_position_and_size_info" xml:space="preserve">
     <value>Pozíció- és méretinformációk megjelenítése</value>
-  </data>
-  <data name="ScreenRecordForm_Start" xml:space="preserve">
-    <value>Indítás</value>
-  </data>
-  <data name="ScrollingCaptureForm_StartCapture_Stop_capture" xml:space="preserve">
-    <value>Leállítás rögzítés</value>
   </data>
   <data name="ShapeManager_CreateToolbar_StepType" xml:space="preserve">
     <value>Lépéstípus:</value>

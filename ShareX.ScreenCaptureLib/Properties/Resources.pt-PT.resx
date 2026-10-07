@@ -129,9 +129,6 @@
   <data name="ShapeManager_CreateToolbar_FlipHorizontal" xml:space="preserve">
     <value>Inversão horizontal</value>
   </data>
-  <data name="WebpageCaptureForm_UpdateControls_Stop" xml:space="preserve">
-    <value>Parar</value>
-  </data>
   <data name="ShapeManager_CreateContextMenu_Multi_region_mode" xml:space="preserve">
     <value>Modo multi-região</value>
   </data>
@@ -207,9 +204,6 @@
   <data name="ShapeManager_CreateToolbar_Rotate90Clockwise" xml:space="preserve">
     <value>Rodar 90º</value>
   </data>
-  <data name="WebpageCaptureForm_UpdateControls_Capture" xml:space="preserve">
-    <value>Capturar</value>
-  </data>
   <data name="ShapeManager_CreateToolbar_CopyImageToClipboard" xml:space="preserve">
     <value>Copiar imagem para a área de transferência (Ctrl + C)</value>
   </data>
@@ -245,9 +239,6 @@
   </data>
   <data name="ShapeManager_CreateToolbar_CaptureRegions" xml:space="preserve">
     <value>Capturar regiões</value>
-  </data>
-  <data name="ScrollingCaptureForm_StopCapture_Start_capture" xml:space="preserve">
-    <value>Iniciar captura</value>
   </data>
   <data name="RectangleLight_InitializeComponent_Rectangle_capture_light" xml:space="preserve">
     <value>Captura de retângulo leve</value>
@@ -329,9 +320,6 @@
   </data>
   <data name="ShapeManager_CreateContextMenu_Show_position_and_size_info" xml:space="preserve">
     <value>Mostrar posição e tamanho</value>
-  </data>
-  <data name="ScrollingCaptureForm_StartCapture_Stop_capture" xml:space="preserve">
-    <value>Para captura</value>
   </data>
   <data name="ShapeManager_CreateContextMenu_Show_screen_wide_crosshair" xml:space="preserve">
     <value>Mostrar mira da largura do ecrã</value>
@@ -467,9 +455,6 @@
   </data>
   <data name="Pause" xml:space="preserve">
     <value>Pausa</value>
-  </data>
-  <data name="ScreenRecordForm_Start" xml:space="preserve">
-    <value>Iniciar</value>
   </data>
   <data name="ShapeManager_CreateToolbar_StepType" xml:space="preserve">
     <value>Tipo de passo:</value>

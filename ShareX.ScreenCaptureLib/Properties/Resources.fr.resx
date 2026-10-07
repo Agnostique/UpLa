@@ -132,18 +132,6 @@
   <data name="RectangleLight_InitializeComponent_Rectangle_capture_light" xml:space="preserve">
     <value>Capture rectangulaire simple</value>
   </data>
-  <data name="WebpageCaptureForm_UpdateControls_Capture" xml:space="preserve">
-    <value>Capturer</value>
-  </data>
-  <data name="WebpageCaptureForm_UpdateControls_Stop" xml:space="preserve">
-    <value>Arrêter</value>
-  </data>
-  <data name="ScrollingCaptureForm_StartCapture_Stop_capture" xml:space="preserve">
-    <value>Arrêter la capture</value>
-  </data>
-  <data name="ScrollingCaptureForm_StopCapture_Start_capture" xml:space="preserve">
-    <value>Démarrer la capture</value>
-  </data>
   <data name="ShapeManager_CreateContextMenu_Show_magnifier" xml:space="preserve">
     <value>Afficher la loupe</value>
   </data>
@@ -464,9 +452,6 @@
   </data>
   <data name="AutoCopyImageToClipboard" xml:space="preserve">
     <value>Copier automatiquement l'image du presse-papier</value>
-  </data>
-  <data name="ScreenRecordForm_Start" xml:space="preserve">
-    <value>Démarrer</value>
   </data>
   <data name="ShapeManager_CreateToolbar_StepType" xml:space="preserve">
     <value>Type de pas :</value>

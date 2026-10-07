@@ -726,25 +726,13 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Налаштування призначень...</value>
   </data>
-  <data name="tsmiImageComparer.Text" xml:space="preserve">
-    <value>Порівняння зображень...</value>
-  </data>
   <data name="tsmiAI.Text" xml:space="preserve">
     <value>Аналізувати зображення...</value>
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Аналізувати зображення...</value>
   </data>
-  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
-    <value>Порівняння зображень...</value>
-  </data>
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>Аналізувати зображення...</value>
-  </data>
-  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
-    <value>Видалення фону...</value>
-  </data>
-  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
-    <value>Видалення фону...</value>
   </data>
 </root>

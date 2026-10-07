@@ -628,9 +628,6 @@ groter zijn dan de afmetingen van een miniatuurversie</value>
   <data name="tpUploaderFilters.Text" xml:space="preserve">
     <value>Uploadener filters</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>Oude afbeeldingseditor gebruiken</value>
-  </data>
   <data name="lblToolsScreenColorPickerFormatCtrl.Text" xml:space="preserve">
     <value>Scherm kleur picker indeling (Ctrl + klik):</value>
   </data>

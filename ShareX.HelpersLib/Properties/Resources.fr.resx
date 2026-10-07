@@ -126,9 +126,6 @@
   <data name="ExportImportControl_tsmiExportClipboard_Click_Settings_copied_to_your_clipboard_" xml:space="preserve">
     <value>Paramètres copiés dans votre presse-papier.</value>
   </data>
-  <data name="ImgurThumbnailType_Big_Square" xml:space="preserve">
-    <value>Gros carré</value>
-  </data>
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>Seconde actuelle</value>
   </data>
@@ -176,9 +173,6 @@
   </data>
   <data name="HotkeyType_Category_ScreenRecord" xml:space="preserve">
     <value>Enregistrer l'écran</value>
-  </data>
-  <data name="PastebinExpiration_H1" xml:space="preserve">
-    <value>1 heure</value>
   </data>
   <data name="HotkeyType_ScrollingCapture" xml:space="preserve">
     <value>Capture avec défilement</value>
@@ -252,17 +246,11 @@
   <data name="ReplCodeMenuEntry_d_Current_day" xml:space="preserve">
     <value>Journée en cours</value>
   </data>
-  <data name="PastebinExpiration_D1" xml:space="preserve">
-    <value>1 jour</value>
-  </data>
   <data name="ShapeType_DrawingArrow" xml:space="preserve">
     <value>Dessin : Flèche</value>
   </data>
   <data name="ShapeType_DrawingSmartEraser" xml:space="preserve">
     <value>Gomme intelligente</value>
-  </data>
-  <data name="PastebinPrivacy_Unlisted" xml:space="preserve">
-    <value>Non listés</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_update_is_available" xml:space="preserve">
     <value>Mise à jour disponible</value>
@@ -300,9 +288,6 @@
   <data name="ReplCodeMenuCategory_Image" xml:space="preserve">
     <value>Image</value>
   </data>
-  <data name="PastebinExpiration_M10" xml:space="preserve">
-    <value>10 minutes</value>
-  </data>
   <data name="RegionCaptureAction_SwapToolType" xml:space="preserve">
     <value>Changer le type d'outil</value>
   </data>
@@ -327,9 +312,6 @@ Voulez-vous la télécharger ?</value>
   </data>
   <data name="RegionCaptureAction_CaptureActiveMonitor" xml:space="preserve">
     <value>Capturer l'écran actif</value>
-  </data>
-  <data name="ImgurThumbnailType_Small_Thumbnail" xml:space="preserve">
-    <value>Petites miniatures</value>
   </data>
   <data name="PrintForm_LoadSettings_Print" xml:space="preserve">
     <value>Imprimer</value>
@@ -373,9 +355,6 @@ Voulez-vous la télécharger ?</value>
   <data name="HotkeyType_DragDropUpload" xml:space="preserve">
     <value>Mise en ligne par glisser-déposer</value>
   </data>
-  <data name="PastebinExpiration_N" xml:space="preserve">
-    <value>Jamais</value>
-  </data>
   <data name="HotkeyType_StartScreenRecorder" xml:space="preserve">
     <value>Débuter l'enregistrement de l'écran en utilisant la dernière région</value>
   </data>
@@ -414,9 +393,6 @@ Voulez-vous la télécharger ?</value>
   </data>
   <data name="FileExistAction_UniqueName" xml:space="preserve">
     <value>Ajouter un numéro au nom de fichier</value>
-  </data>
-  <data name="ImgurThumbnailType_Large_Thumbnail" xml:space="preserve">
-    <value>Grandes miniatures</value>
   </data>
   <data name="ReplCodeMenuEntry_yy_Current_year__2_digits_" xml:space="preserve">
     <value>Année en cours (2 chiffres)</value>
@@ -457,9 +433,6 @@ Voulez-vous la télécharger ?</value>
   <data name="ShapeType_DrawingCursor" xml:space="preserve">
     <value>Dessin : Curseur</value>
   </data>
-  <data name="ImgurThumbnailType_Huge_Thumbnail" xml:space="preserve">
-    <value>Énormes miniatures</value>
-  </data>
   <data name="LinearGradientMode_Horizontal" xml:space="preserve">
     <value>Horizontal</value>
   </data>
@@ -468,9 +441,6 @@ Voulez-vous la télécharger ?</value>
   </data>
   <data name="ReplCodeMenuEntry_y_Current_year" xml:space="preserve">
     <value>Année en cours</value>
-  </data>
-  <data name="PastebinExpiration_W2" xml:space="preserve">
-    <value>2 semaines</value>
   </data>
   <data name="ImageEditorStartMode_Fullscreen" xml:space="preserve">
     <value>Plein écran</value>
@@ -590,9 +560,6 @@ Voulez-vous la télécharger et l'installer ?</value>
   <data name="HotkeyType_QRCode" xml:space="preserve">
     <value>Code QR</value>
   </data>
-  <data name="PastebinExpiration_W1" xml:space="preserve">
-    <value>1 semaine</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>Effet : Surligner</value>
   </data>
@@ -604,9 +571,6 @@ Voulez-vous la télécharger et l'installer ?</value>
   </data>
   <data name="ReplCodeMenuEntry_rx_Random_hexadecimal" xml:space="preserve">
     <value>Caractère hexadécimal aléatoire. Recommencez à l'aide de {n}</value>
-  </data>
-  <data name="PastebinPrivacy_Private" xml:space="preserve">
-    <value>Privé (membres uniquement)</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Erreur</value>
@@ -634,9 +598,6 @@ Voulez-vous la télécharger et l'installer ?</value>
   </data>
   <data name="ReplCodeMenuEntry_ib_Auto_increment_base_alphanumeric" xml:space="preserve">
     <value>Incrémentation automatique en base {n} (1 &lt; n &lt; 63)</value>
-  </data>
-  <data name="HotkeyType_CaptureWebpage" xml:space="preserve">
-    <value>Capturer une page Web</value>
   </data>
   <data name="RegionCaptureAction_CancelCapture" xml:space="preserve">
     <value>Annuler la capture</value>
@@ -728,9 +689,6 @@ Voulez-vous la télécharger et l'installer ?</value>
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>Débuter l'enregistrement de l'écran (GIF) en utilisant la dernière région</value>
   </data>
-  <data name="ImgurThumbnailType_Small_Square" xml:space="preserve">
-    <value>Petit carré</value>
-  </data>
   <data name="HotkeyType_MonitorTest" xml:space="preserve">
     <value>Test d'écran</value>
   </data>
@@ -818,9 +776,6 @@ Voulez-vous la télécharger et l'installer ?</value>
   <data name="PrintTextForm_LoadSettings_Name___0___Size___1_" xml:space="preserve">
     <value>Nom : {0}, taille : {1}</value>
   </data>
-  <data name="HotkeyType_AutoCapture" xml:space="preserve">
-    <value>Capture automatique</value>
-  </data>
   <data name="ShapeType_DrawingRectangle" xml:space="preserve">
     <value>Dessin : Rectangle</value>
   </data>
@@ -839,17 +794,11 @@ Voulez-vous la télécharger et l'installer ?</value>
   <data name="ReplCodeMenuEntry_height_Gets_image_height" xml:space="preserve">
     <value>Hauteur de l'image</value>
   </data>
-  <data name="PastebinExpiration_M1" xml:space="preserve">
-    <value>1 mois</value>
-  </data>
   <data name="ShapeType_DrawingTextBackground" xml:space="preserve">
     <value>Dessin : Texte (Arrière-plan)</value>
   </data>
   <data name="RandomNonAmbiguousAlphanumericCharRepeatUsingN" xml:space="preserve">
     <value>Caractères alphanumériques aléatoires non ambigus. Répéter en utilisant {n}</value>
-  </data>
-  <data name="PastebinPrivacy_Public" xml:space="preserve">
-    <value>Public</value>
   </data>
   <data name="FileExistAction_Overwrite" xml:space="preserve">
     <value>Écraser le fichier</value>
@@ -880,12 +829,6 @@ Voulez-vous la télécharger et l'installer ?</value>
   </data>
   <data name="ReplCodeMenuEntry_cn_Computer_name" xml:space="preserve">
     <value>Nom de l'ordinateur</value>
-  </data>
-  <data name="HotkeyType_StartAutoCapture" xml:space="preserve">
-    <value>Débuter la capture automatique en utilisant la dernière région</value>
-  </data>
-  <data name="ImgurThumbnailType_Medium_Thumbnail" xml:space="preserve">
-    <value>Moyennes miniatures</value>
   </data>
   <data name="Extensions_AddContextMenu_Undo" xml:space="preserve">
     <value>Annuler</value>
@@ -919,9 +862,6 @@ Voulez-vous la télécharger et l'installer ?</value>
   </data>
   <data name="ReplCodeMenuCategory_Window" xml:space="preserve">
     <value>Fenêtre</value>
-  </data>
-  <data name="HotkeyType_StopAutoCapture" xml:space="preserve">
-    <value>Arrêter la capture automatique</value>
   </data>
   <data name="StepType_LettersLowercase" xml:space="preserve">
     <value>Lettres (minuscules)</value>
@@ -1214,52 +1154,10 @@ Voulez-vous la télécharger et l'installer ?</value>
   <data name="ToastClickAction_DeleteFile" xml:space="preserve">
     <value>Supprimer le fichier localement</value>
   </data>
-  <data name="AfterCaptureTasks_AnalyzeImage" xml:space="preserve">
-    <value>Analyser l’image</value>
-  </data>
-  <data name="HotkeyType_AnalyzeImage" xml:space="preserve">
-    <value>Analyser l’image</value>
-  </data>
   <data name="ShapeType_ToolSpotlight" xml:space="preserve">
     <value>Projecteur</value>
   </data>
-  <data name="PrivateBinExpiration_M5" xml:space="preserve">
-    <value>5 minutes</value>
-  </data>
-  <data name="PrivateBinExpiration_M10" xml:space="preserve">
-    <value>10 minutes</value>
-  </data>
-  <data name="PrivateBinExpiration_H1" xml:space="preserve">
-    <value>1 heure</value>
-  </data>
-  <data name="PrivateBinExpiration_D1" xml:space="preserve">
-    <value>1 jour</value>
-  </data>
-  <data name="PrivateBinExpiration_W1" xml:space="preserve">
-    <value>1 semaine</value>
-  </data>
-  <data name="PrivateBinExpiration_M1" xml:space="preserve">
-    <value>1 mois</value>
-  </data>
-  <data name="PrivateBinExpiration_Y1" xml:space="preserve">
-    <value>1 an</value>
-  </data>
-  <data name="PrivateBinExpiration_N" xml:space="preserve">
-    <value>Jamais</value>
-  </data>
-  <data name="PrivateBinFormat_PlainText" xml:space="preserve">
-    <value>Texte brut</value>
-  </data>
-  <data name="PrivateBinFormat_SyntaxHighlighting" xml:space="preserve">
-    <value>Coloration syntaxique</value>
-  </data>
-  <data name="PrivateBinFormat_Markdown" xml:space="preserve">
-    <value>Markdown</value>
-  </data>
   <data name="AfterCaptureTasks_CopyFolderPathToClipboard" xml:space="preserve">
     <value>Copier le chemin du dossier dans le presse-papiers</value>
-  </data>
-  <data name="HotkeyType_ImageComparer" xml:space="preserve">
-    <value>Comparateur d'images</value>
   </data>
 </root>

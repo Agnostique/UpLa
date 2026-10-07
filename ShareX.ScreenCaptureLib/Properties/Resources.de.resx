@@ -129,15 +129,6 @@
   <data name="RectangleLight_InitializeComponent_Rectangle_capture_light" xml:space="preserve">
     <value>Rechteckaufnahme einfach</value>
   </data>
-  <data name="WebpageCaptureForm_UpdateControls_Capture" xml:space="preserve">
-    <value>Aufnahme</value>
-  </data>
-  <data name="ScrollingCaptureForm_StartCapture_Stop_capture" xml:space="preserve">
-    <value>Aufnahme Stoppen</value>
-  </data>
-  <data name="ScrollingCaptureForm_StopCapture_Start_capture" xml:space="preserve">
-    <value>Aufnahme Starten</value>
-  </data>
   <data name="RectangleTransparent_RectangleTransparent_Rectangle_capture_transparent" xml:space="preserve">
     <value>Rechteckaufnahme Transparent</value>
   </data>
@@ -491,17 +482,11 @@ Möchten Sie die Änderungen speichern, bevor Sie den Bildeditor schließen?</va
   <data name="CutOutBackgroundColor" xml:space="preserve">
     <value>Hintergrundfarbe ausschneiden...</value>
   </data>
-  <data name="WebpageCaptureForm_UpdateControls_Stop" xml:space="preserve">
-    <value>Stopp</value>
-  </data>
   <data name="Bitrate" xml:space="preserve">
     <value>Bitrate:</value>
   </data>
   <data name="Pause" xml:space="preserve">
     <value>Pause</value>
-  </data>
-  <data name="ScreenRecordForm_Start" xml:space="preserve">
-    <value>Start</value>
   </data>
   <data name="ShapeManager_CreateContextMenu_Show_center_crosshair" xml:space="preserve">
     <value>Mittiges Fadenkreuz anzeigen</value>

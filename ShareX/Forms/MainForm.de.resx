@@ -711,9 +711,6 @@
   <data name="cHotkey.HeaderText" xml:space="preserve">
     <value>Tastenkürzel</value>
   </data>
-  <data name="tsmiImageComparer.Text" xml:space="preserve">
-    <value>Bildvergleich...</value>
-  </data>
   <data name="tsmiAI.Text" xml:space="preserve">
     <value>Bild analysieren...</value>
   </data>
@@ -729,9 +726,6 @@
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Bild analysieren...</value>
   </data>
-  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
-    <value>Bildvergleich...</value>
-  </data>
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>Bild analysieren...</value>
   </data>
@@ -740,11 +734,5 @@
   </data>
   <data name="tsmiTrayMetadata.Text" xml:space="preserve">
     <value>Metadaten...</value>
-  </data>
-  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
-    <value>Hintergrundentferner...</value>
-  </data>
-  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
-    <value>Hintergrundentferner...</value>
   </data>
 </root>

@@ -650,7 +650,4 @@
   <data name="cbCaptureAutoHideDesktopIcons.Text" xml:space="preserve">
     <value>自動隱藏桌面圖示</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>使用舊版圖片編輯器</value>
-  </data>
 </root>

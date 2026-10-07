@@ -633,9 +633,6 @@
   <data name="cbURLRegexReplace.Text" xml:space="preserve">
     <value>Substituir URL de resultado usando substituições por expressão regular</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>Utilizar editor de imagens antigo</value>
-  </data>
   <data name="lblToolsScreenColorPickerFormatCtrl.Text" xml:space="preserve">
     <value>Formato do seletor de cor do ecrã (Ctrl + clique):</value>
   </data>

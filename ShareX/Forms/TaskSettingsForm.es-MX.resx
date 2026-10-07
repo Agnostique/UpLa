@@ -652,7 +652,4 @@ en el portapapeles</value>
   <data name="cbCloseWindowAfterOpenServiceLink.Text" xml:space="preserve">
     <value>Close OCR ventana after opening service link</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>Usar editor de imágenes heredado</value>
-  </data>
 </root>

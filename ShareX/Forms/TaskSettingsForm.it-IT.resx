@@ -627,9 +627,6 @@
   <data name="cbClipboardUploadURLContents.Text" xml:space="preserve">
     <value>Se gli appunti contengono un URL file, scaricalo e caricalo</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>Usa editor immagini legacy</value>
-  </data>
   <data name="lblToolsScreenColorPickerFormatCtrl.Text" xml:space="preserve">
     <value>Formato selettore colore schermo (Ctrl + clic):</value>
   </data>

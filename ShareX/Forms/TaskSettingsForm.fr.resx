@@ -648,9 +648,6 @@
   <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
     <value>Afficher le réticule central</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>Utiliser l’ancien éditeur d’images</value>
-  </data>
   <data name="btnActions.Text" xml:space="preserve">
     <value>Actions...</value>
   </data>

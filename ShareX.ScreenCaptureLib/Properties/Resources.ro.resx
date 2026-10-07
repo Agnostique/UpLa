@@ -204,9 +204,6 @@
   <data name="ShapeManager_CreateContextMenu_Capture" xml:space="preserve">
     <value>Capturați</value>
   </data>
-  <data name="WebpageCaptureForm_UpdateControls_Capture" xml:space="preserve">
-    <value>Capturați</value>
-  </data>
   <data name="ShapeManager_CreateContextMenu_Capture_fullscreen" xml:space="preserve">
     <value>Capturați tot ecarnul</value>
   </data>
@@ -420,23 +417,11 @@
   <data name="ShapeManager_CreateContextMenu_Square_shape_magnifier" xml:space="preserve">
     <value>Lupă în formă de pătrat</value>
   </data>
-  <data name="ScreenRecordForm_Start" xml:space="preserve">
-    <value>Start</value>
-  </data>
-  <data name="ScrollingCaptureForm_StopCapture_Start_capture" xml:space="preserve">
-    <value>Începeți captura</value>
-  </data>
   <data name="ShapeManager_CreateToolbar_StepType" xml:space="preserve">
     <value>Tip de pas:</value>
   </data>
-  <data name="WebpageCaptureForm_UpdateControls_Stop" xml:space="preserve">
-    <value>Stop</value>
-  </data>
   <data name="ScreenRecordForm_Stop" xml:space="preserve">
     <value>Stop</value>
-  </data>
-  <data name="ScrollingCaptureForm_StartCapture_Stop_capture" xml:space="preserve">
-    <value>Opriți captura</value>
   </data>
   <data name="ShapeManager_CreateContextMenu_SwitchToDrawingToolAfterSelection" xml:space="preserve">
     <value>Comutare la instrumentul de desen după selectarea formei</value>

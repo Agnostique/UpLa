@@ -642,9 +642,6 @@
   <data name="tsmiPinToScreen.Text" xml:space="preserve">
     <value>화면에 고정...</value>
   </data>
-  <data name="tsmiImageComparer.Text" xml:space="preserve">
-    <value>이미지 비교기...</value>
-  </data>
   <data name="tsmiImageBeautifier.Text" xml:space="preserve">
     <value>이미지 꾸미기...</value>
   </data>
@@ -702,9 +699,6 @@
   <data name="tsmiTrayPinToScreen.Text" xml:space="preserve">
     <value>화면에 고정...</value>
   </data>
-  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
-    <value>이미지 비교기...</value>
-  </data>
   <data name="tsmiTrayImageBeautifier.Text" xml:space="preserve">
     <value>이미지 꾸미기...</value>
   </data>
@@ -740,11 +734,5 @@
   </data>
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>설명</value>
-  </data>
-  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
-    <value>배경 제거 도구...</value>
-  </data>
-  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
-    <value>배경 제거 도구...</value>
   </data>
 </root>

@@ -271,7 +271,6 @@
             tcTools = new System.Windows.Forms.TabControl();
             tpToolsGeneral = new System.Windows.Forms.TabPage();
             pTools = new System.Windows.Forms.Panel();
-            cbImageEditorUseLegacyImageEditor = new System.Windows.Forms.CheckBox();
             txtToolsScreenColorPickerFormatCtrl = new System.Windows.Forms.TextBox();
             lblToolsScreenColorPickerFormatCtrl = new System.Windows.Forms.Label();
             txtToolsScreenColorPickerInfoText = new System.Windows.Forms.TextBox();
@@ -2161,7 +2160,6 @@
             // 
             // pTools
             // 
-            pTools.Controls.Add(cbImageEditorUseLegacyImageEditor);
             pTools.Controls.Add(txtToolsScreenColorPickerFormatCtrl);
             pTools.Controls.Add(lblToolsScreenColorPickerFormatCtrl);
             pTools.Controls.Add(txtToolsScreenColorPickerInfoText);
@@ -2170,13 +2168,6 @@
             pTools.Controls.Add(lblToolsScreenColorPickerFormat);
             resources.ApplyResources(pTools, "pTools");
             pTools.Name = "pTools";
-            // 
-            // cbImageEditorUseLegacyImageEditor
-            // 
-            resources.ApplyResources(cbImageEditorUseLegacyImageEditor, "cbImageEditorUseLegacyImageEditor");
-            cbImageEditorUseLegacyImageEditor.Name = "cbImageEditorUseLegacyImageEditor";
-            cbImageEditorUseLegacyImageEditor.UseVisualStyleBackColor = true;
-            cbImageEditorUseLegacyImageEditor.CheckedChanged += cbImageEditorUseLegacyImageEditor_CheckedChanged;
             // 
             // txtToolsScreenColorPickerFormatCtrl
             // 
@@ -2800,7 +2791,6 @@
         private System.Windows.Forms.TextBox txtCustomActionCompletedSoundPath;
         private System.Windows.Forms.CheckBox cbUseCustomActionCompletedSound;
         private System.Windows.Forms.CheckBox cbCaptureAutoHideDesktopIcons;
-        private System.Windows.Forms.CheckBox cbImageEditorUseLegacyImageEditor;
         private System.Windows.Forms.TabControl tcTools;
         private System.Windows.Forms.TabPage tpToolsGeneral;
     }

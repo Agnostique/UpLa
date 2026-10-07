@@ -651,7 +651,4 @@
   <data name="cbCloseWindowAfterOpenServiceLink.Text" xml:space="preserve">
     <value>Close OCR cửa sổ after opening service link</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>Dùng trình chỉnh sửa ảnh cũ</value>
-  </data>
 </root>

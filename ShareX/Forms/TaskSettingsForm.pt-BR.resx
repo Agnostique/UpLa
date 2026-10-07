@@ -651,7 +651,4 @@
   <data name="cbRegionCaptureShowCenterCrosshair.Text" xml:space="preserve">
     <value>Mostrar mira central</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>Usar editor de imagens legado</value>
-  </data>
 </root>

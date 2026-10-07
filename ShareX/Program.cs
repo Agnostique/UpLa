@@ -23,10 +23,8 @@
 
 #endregion License Information (GPL v3)
 
-using Avalonia.Win32.Interoperability;
 using ShareX.HelpersLib;
 using ShareX.HistoryLib;
-using ShareX.ImageEditor.Hosting;
 using ShareX.Properties;
 using ShareX.UploadersLib;
 using System;
@@ -259,7 +257,6 @@ namespace ShareX
         }
 
         public static string ImageEffectsFolder => Path.Combine(PersonalFolder, "ImageEffects");
-        public static string ModelsFolder => Path.Combine(PersonalFolder, "Models");
 
         private static string PersonalPathDetectionMethod;
 
@@ -350,11 +347,6 @@ namespace ShareX
             CreateParentFolders();
             RegisterExtensions();
             DebugWriteFlags();
-
-            DebugHelper.WriteLine("Avalonia init started.");
-            Application.AddMessageFilter(new WinFormsAvaloniaMessageFilter());
-            AvaloniaIntegration.Initialize();
-            DebugHelper.WriteLine("Avalonia init finished.");
 
             SettingManager.LoadInitialSettings();
 

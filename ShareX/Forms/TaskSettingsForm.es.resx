@@ -622,9 +622,6 @@ Agregar efectos de imagen".</value>
   <data name="tpUploaderFilters.Text" xml:space="preserve">
     <value>Filtros de cargador</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>Usar editor de imágenes heredado</value>
-  </data>
   <data name="lblToolsScreenColorPickerFormatCtrl.Text" xml:space="preserve">
     <value>Formato del selector de color de pantalla (Ctrl + clic):</value>
   </data>

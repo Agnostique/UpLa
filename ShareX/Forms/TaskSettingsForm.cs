@@ -453,7 +453,6 @@ namespace ShareX
 
             #region General
 
-            cbImageEditorUseLegacyImageEditor.Checked = TaskSettings.ToolsSettings.UseLegacyImageEditor;
 
             CodeMenu.Create<CodeMenuEntryPixelInfo>(txtToolsScreenColorPickerFormat);
             txtToolsScreenColorPickerFormat.Text = TaskSettings.ToolsSettings.ScreenColorPickerFormat;
@@ -1768,11 +1767,6 @@ namespace ShareX
         {
             TaskSettings.UseDefaultToolsSettings = !cbOverrideToolsSettings.Checked;
             UpdateDefaultSettingVisibility();
-        }
-
-        private void cbImageEditorUseLegacyImageEditor_CheckedChanged(object sender, EventArgs e)
-        {
-            TaskSettings.ToolsSettings.UseLegacyImageEditor = cbImageEditorUseLegacyImageEditor.Checked;
         }
 
         private void txtToolsScreenColorPickerFormat_TextChanged(object sender, EventArgs e)

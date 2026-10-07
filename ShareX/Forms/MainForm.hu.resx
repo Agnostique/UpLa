@@ -534,9 +534,6 @@
   <data name="tsmiImageEditor.Text" xml:space="preserve">
     <value>Képszerkesztő...</value>
   </data>
-  <data name="tsmiImageComparer.Text" xml:space="preserve">
-    <value>Kép comparer...</value>
-  </data>
   <data name="tsmiImageBeautifier.Text" xml:space="preserve">
     <value>Kép szépítése...</value>
   </data>
@@ -678,9 +675,6 @@
   <data name="tsmiTrayImageEditor.Text" xml:space="preserve">
     <value>Képszerkesztő...</value>
   </data>
-  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
-    <value>Kép comparer...</value>
-  </data>
   <data name="tsmiTrayImageBeautifier.Text" xml:space="preserve">
     <value>Kép szépítése...</value>
   </data>
@@ -740,11 +734,5 @@
   </data>
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>Leírás</value>
-  </data>
-  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
-    <value>Háttéreltávolító...</value>
-  </data>
-  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
-    <value>Háttéreltávolító...</value>
   </data>
 </root>

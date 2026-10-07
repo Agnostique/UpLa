@@ -630,9 +630,6 @@
   <data name="cbClipboardUploadURLContents.Text" xml:space="preserve">
     <value>클립보드에 파일 URL이 있으면 다운로드 후 업로드</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>기존 이미지 편집기 사용</value>
-  </data>
   <data name="lblToolsScreenColorPickerFormatCtrl.Text" xml:space="preserve">
     <value>화면 색상 선택기 형식(Ctrl + 클릭):</value>
   </data>

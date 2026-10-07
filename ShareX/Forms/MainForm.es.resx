@@ -543,9 +543,6 @@
   <data name="tsmiImageEditor.Text" xml:space="preserve">
     <value>Editor de imágenes...</value>
   </data>
-  <data name="tsmiImageComparer.Text" xml:space="preserve">
-    <value>Comparador de imágenes...</value>
-  </data>
   <data name="tsmiImageBeautifier.Text" xml:space="preserve">
     <value>Embellecedor de imágenes...</value>
   </data>
@@ -681,9 +678,6 @@
   <data name="tsmiTrayImageEditor.Text" xml:space="preserve">
     <value>Editor de imágenes...</value>
   </data>
-  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
-    <value>Comparador de imágenes...</value>
-  </data>
   <data name="tsmiTrayImageBeautifier.Text" xml:space="preserve">
     <value>Embellecedor de imágenes...</value>
   </data>
@@ -740,11 +734,5 @@
   </data>
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>Descripción</value>
-  </data>
-  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
-    <value>Eliminador de fondo...</value>
-  </data>
-  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
-    <value>Eliminador de fondo...</value>
   </data>
 </root>

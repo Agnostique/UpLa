@@ -279,18 +279,6 @@
   <data name="ShapeManager_CreateToolbar_CanvasSize" xml:space="preserve">
     <value>캔버스 크기...</value>
   </data>
-  <data name="WebpageCaptureForm_UpdateControls_Stop" xml:space="preserve">
-    <value>중지</value>
-  </data>
-  <data name="WebpageCaptureForm_UpdateControls_Capture" xml:space="preserve">
-    <value>촬영</value>
-  </data>
-  <data name="ScrollingCaptureForm_StopCapture_Start_capture" xml:space="preserve">
-    <value>촬영 시작하기</value>
-  </data>
-  <data name="ScrollingCaptureForm_StartCapture_Stop_capture" xml:space="preserve">
-    <value>촬영 중지</value>
-  </data>
   <data name="ShapeManager_CreateToolbar_Rotate90Clockwise" xml:space="preserve">
     <value>시계방향으로 90도 회전</value>
   </data>
@@ -467,9 +455,6 @@
   </data>
   <data name="ShapeManager_CreateContextMenu_SwitchToSelectionToolAfterDrawing" xml:space="preserve">
     <value>도형 그리기 후 선택 도구로 전환</value>
-  </data>
-  <data name="ScreenRecordForm_Start" xml:space="preserve">
-    <value>시작</value>
   </data>
   <data name="ShapeManager_CreateToolbar_StepType" xml:space="preserve">
     <value>단계 유형:</value>

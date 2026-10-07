@@ -621,9 +621,6 @@
   <data name="tpUploaderFilters.Text" xml:space="preserve">
     <value>Feltöltéser filters</value>
   </data>
-  <data name="cbImageEditorUseLegacyImageEditor.Text" xml:space="preserve">
-    <value>Régi képszerkesztő használata</value>
-  </data>
   <data name="lblToolsScreenColorPickerFormatCtrl.Text" xml:space="preserve">
     <value>Képernyő szín picker formátum (Ctrl + click):</value>
   </data>

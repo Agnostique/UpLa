@@ -129,9 +129,6 @@
   <data name="ShapeManager_CreateToolbar_FlipHorizontal" xml:space="preserve">
     <value>Віддзеркалити по горизонталі</value>
   </data>
-  <data name="WebpageCaptureForm_UpdateControls_Stop" xml:space="preserve">
-    <value>Зупинити</value>
-  </data>
   <data name="ShapeManager_CreateContextMenu_Multi_region_mode" xml:space="preserve">
     <value>Захоплення кількох областей</value>
   </data>
@@ -177,9 +174,6 @@
   <data name="ShapeManager_CreateToolbar_OpenImageFile" xml:space="preserve">
     <value>Відкрити файл зображення...</value>
   </data>
-  <data name="WebpageCaptureForm_UpdateControls_Capture" xml:space="preserve">
-    <value>Захопити</value>
-  </data>
   <data name="ShapeManager_CursorType" xml:space="preserve">
     <value>Тип курсора:</value>
   </data>
@@ -191,9 +185,6 @@
   </data>
   <data name="ShapeManager_CreateContextMenu_Capture_fullscreen" xml:space="preserve">
     <value>Захоплення всього екрану</value>
-  </data>
-  <data name="ScrollingCaptureForm_StopCapture_Start_capture" xml:space="preserve">
-    <value>Почати захоплення</value>
   </data>
   <data name="RectangleLight_InitializeComponent_Rectangle_capture_light" xml:space="preserve">
     <value>Прямокутне захоплення з підсвічуванням</value>
@@ -257,9 +248,6 @@
   </data>
   <data name="ShapeManager_CreateContextMenu_Show_position_and_size_info" xml:space="preserve">
     <value>Показувати інформацію про положення та розмір</value>
-  </data>
-  <data name="ScrollingCaptureForm_StartCapture_Stop_capture" xml:space="preserve">
-    <value>Зупинити захоплення</value>
   </data>
   <data name="ShapeManager_CreateContextMenu_Show_screen_wide_crosshair" xml:space="preserve">
     <value>Показувати широке перехрестя на екрані</value>
@@ -389,9 +377,6 @@
   </data>
   <data name="RulerWidth" xml:space="preserve">
     <value>Ширина</value>
-  </data>
-  <data name="ScreenRecordForm_Start" xml:space="preserve">
-    <value>Почати</value>
   </data>
   <data name="ScreenRecordForm_Stop" xml:space="preserve">
     <value>Зупинити</value>

@@ -123,9 +123,6 @@
   <data name="ExportImportControl_tsmiExportClipboard_Click_Settings_copied_to_your_clipboard_" xml:space="preserve">
     <value>تنظیمات به کلیپ بورد شما کپی شدند.</value>
   </data>
-  <data name="ImgurThumbnailType_Big_Square" xml:space="preserve">
-    <value>مربع بزرگ</value>
-  </data>
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>ثانیه جاری</value>
   </data>
@@ -164,9 +161,6 @@
   </data>
   <data name="HotkeyType_Category_ScreenRecord" xml:space="preserve">
     <value>ضبط فیلم صفحه</value>
-  </data>
-  <data name="PastebinExpiration_H1" xml:space="preserve">
-    <value>۱ ساعت</value>
   </data>
   <data name="HotkeyType_ScrollingCapture" xml:space="preserve">
     <value>ضبط تصویر با اسکرول...</value>
@@ -222,14 +216,8 @@
   <data name="ReplCodeMenuEntry_d_Current_day" xml:space="preserve">
     <value>روز جاری</value>
   </data>
-  <data name="PastebinExpiration_D1" xml:space="preserve">
-    <value>۱ روز</value>
-  </data>
   <data name="ShapeType_DrawingArrow" xml:space="preserve">
     <value>جهت نما (A)</value>
-  </data>
-  <data name="PastebinPrivacy_Unlisted" xml:space="preserve">
-    <value>لیست نشده</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_update_is_available" xml:space="preserve">
     <value>نسخه به روز موجود است</value>
@@ -263,9 +251,6 @@
   </data>
   <data name="ReplCodeMenuCategory_Image" xml:space="preserve">
     <value>عکس</value>
-  </data>
-  <data name="PastebinExpiration_M10" xml:space="preserve">
-    <value>۱۰ دقیقه</value>
   </data>
   <data name="HotkeyType_RectangleRegion" xml:space="preserve">
     <value>ضبط ناحیه</value>
@@ -312,9 +297,6 @@
   </data>
   <data name="HotkeyType_DragDropUpload" xml:space="preserve">
     <value>آپلود با کشیدن و رهاکردن</value>
-  </data>
-  <data name="PastebinExpiration_N" xml:space="preserve">
-    <value>هرگز</value>
   </data>
   <data name="HotkeyType_StartScreenRecorder" xml:space="preserve">
     <value>شروع/توقف ضبط فیلم صفحه با آخرین ناحیه</value>
@@ -375,9 +357,6 @@
   </data>
   <data name="ReplCodeMenuEntry_y_Current_year" xml:space="preserve">
     <value>سال جاری</value>
-  </data>
-  <data name="PastebinExpiration_W2" xml:space="preserve">
-    <value>۲ هفته</value>
   </data>
   <data name="ImageEditorStartMode_Fullscreen" xml:space="preserve">
     <value>تمام صفحه</value>
@@ -461,12 +440,6 @@
   <data name="HotkeyType_QRCode" xml:space="preserve">
     <value>کد QR</value>
   </data>
-  <data name="PastebinExpiration_W1" xml:space="preserve">
-    <value>۱ هفته</value>
-  </data>
-  <data name="PastebinPrivacy_Private" xml:space="preserve">
-    <value>خصوصی (فقط اعضا)</value>
-  </data>
   <data name="Error" xml:space="preserve">
     <value>خطا</value>
   </data>
@@ -487,9 +460,6 @@
   </data>
   <data name="ShapeType_ToolSelect" xml:space="preserve">
     <value>انتخاب کردن و حرکت دادن (M)</value>
-  </data>
-  <data name="HotkeyType_CaptureWebpage" xml:space="preserve">
-    <value>ضبط صفحه سایت</value>
   </data>
   <data name="RegionCaptureAction_CancelCapture" xml:space="preserve">
     <value>انصراف از ضبط</value>
@@ -566,9 +536,6 @@
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>شروع/توقف ضبط فیلم صفحه (GIF) با آخرین ناحیه</value>
   </data>
-  <data name="ImgurThumbnailType_Small_Square" xml:space="preserve">
-    <value>مربع کوچک</value>
-  </data>
   <data name="HotkeyType_MonitorTest" xml:space="preserve">
     <value>تست صفحه نمایش ...</value>
   </data>
@@ -635,9 +602,6 @@
   <data name="PrintTextForm_LoadSettings_Name___0___Size___1_" xml:space="preserve">
     <value>نام: {0}، سایز: {1}</value>
   </data>
-  <data name="HotkeyType_AutoCapture" xml:space="preserve">
-    <value>ضبط خودکار</value>
-  </data>
   <data name="ShapeType_DrawingRectangle" xml:space="preserve">
     <value>مستطیل (R)</value>
   </data>
@@ -650,14 +614,8 @@
   <data name="ReplCodeMenuEntry_height_Gets_image_height" xml:space="preserve">
     <value>ارتفاع تصویر</value>
   </data>
-  <data name="PastebinExpiration_M1" xml:space="preserve">
-    <value>۱ ماه</value>
-  </data>
   <data name="ShapeType_DrawingTextBackground" xml:space="preserve">
     <value>متن (پس زمینه) (T)</value>
-  </data>
-  <data name="PastebinPrivacy_Public" xml:space="preserve">
-    <value>عمومی</value>
   </data>
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>نشان دادن پنجره "بعد از ضبط"</value>
@@ -719,9 +677,6 @@
   <data name="ShapeType_DrawingTextOutline" xml:space="preserve">
     <value>متن (دورخط) (O)</value>
   </data>
-  <data name="ImgurThumbnailType_Small_Thumbnail" xml:space="preserve">
-    <value>Small بندانگشتی</value>
-  </data>
   <data name="GIFQuality_Bit4" xml:space="preserve">
     <value>Octree quantizer 16 رنگs</value>
   </data>
@@ -749,9 +704,6 @@
   <data name="FileExistAction_UniqueName" xml:space="preserve">
     <value>Append number to the فایلname</value>
   </data>
-  <data name="ImgurThumbnailType_Large_Thumbnail" xml:space="preserve">
-    <value>Large بندانگشتی</value>
-  </data>
   <data name="ObjectListView_ObjectListView_Name" xml:space="preserve">
     <value>نام</value>
   </data>
@@ -769,9 +721,6 @@
   </data>
   <data name="LinearGradientMode_BackwardDiagonal" xml:space="preserve">
     <value>مورب رو به عقب</value>
-  </data>
-  <data name="ImgurThumbnailType_Huge_Thumbnail" xml:space="preserve">
-    <value>Huge بندانگشتی</value>
   </data>
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>فایل مسیر with output فایل name extension</value>
@@ -863,9 +812,6 @@
   <data name="HotkeyType_VideoConverter" xml:space="preserve">
     <value>مبدل ویدئو</value>
   </data>
-  <data name="HotkeyType_StopAutoCapture" xml:space="preserve">
-    <value>توقف auto ضبط</value>
-  </data>
   <data name="ImageEditorStartMode_Maximized" xml:space="preserve">
     <value>بیشینه‌شده</value>
   </data>
@@ -892,12 +838,6 @@
   </data>
   <data name="HotkeyType_ImageSplitter" xml:space="preserve">
     <value>تقسیم‌کننده تصویر</value>
-  </data>
-  <data name="HotkeyType_StartAutoCapture" xml:space="preserve">
-    <value>شروع auto ضبط using last ناحیه</value>
-  </data>
-  <data name="ImgurThumbnailType_Medium_Thumbnail" xml:space="preserve">
-    <value>Medium بندانگشتی</value>
   </data>
   <data name="Extensions_AddContextMenu_Undo" xml:space="preserve">
     <value>واگرد</value>
@@ -1214,52 +1154,10 @@
   <data name="ToastClickAction_DeleteFile" xml:space="preserve">
     <value>حذف فایل locally</value>
   </data>
-  <data name="AfterCaptureTasks_AnalyzeImage" xml:space="preserve">
-    <value>تحلیل تصویر</value>
-  </data>
-  <data name="HotkeyType_AnalyzeImage" xml:space="preserve">
-    <value>تحلیل تصویر</value>
-  </data>
   <data name="ShapeType_ToolSpotlight" xml:space="preserve">
     <value>نورافکن</value>
   </data>
-  <data name="PrivateBinExpiration_M5" xml:space="preserve">
-    <value>۵ دقیقه</value>
-  </data>
-  <data name="PrivateBinExpiration_M10" xml:space="preserve">
-    <value>۱۰ دقیقه</value>
-  </data>
-  <data name="PrivateBinExpiration_H1" xml:space="preserve">
-    <value>۱ ساعت</value>
-  </data>
-  <data name="PrivateBinExpiration_D1" xml:space="preserve">
-    <value>۱ روز</value>
-  </data>
-  <data name="PrivateBinExpiration_W1" xml:space="preserve">
-    <value>۱ هفته</value>
-  </data>
-  <data name="PrivateBinExpiration_M1" xml:space="preserve">
-    <value>۱ ماه</value>
-  </data>
-  <data name="PrivateBinExpiration_Y1" xml:space="preserve">
-    <value>۱ سال</value>
-  </data>
-  <data name="PrivateBinExpiration_N" xml:space="preserve">
-    <value>هرگز</value>
-  </data>
-  <data name="PrivateBinFormat_PlainText" xml:space="preserve">
-    <value>متن ساده</value>
-  </data>
-  <data name="PrivateBinFormat_SyntaxHighlighting" xml:space="preserve">
-    <value>برجسته‌سازی نحو</value>
-  </data>
-  <data name="PrivateBinFormat_Markdown" xml:space="preserve">
-    <value>Markdown</value>
-  </data>
   <data name="AfterCaptureTasks_CopyFolderPathToClipboard" xml:space="preserve">
     <value>کپی پوشه مسیر to کلیپ‌بورد</value>
-  </data>
-  <data name="HotkeyType_ImageComparer" xml:space="preserve">
-    <value>مقایسه‌گر تصویر</value>
   </data>
 </root>

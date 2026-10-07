@@ -686,9 +686,6 @@
   <data name="tsmiPinToScreen.Text" xml:space="preserve">
     <value>سنجاق به صفحه...</value>
   </data>
-  <data name="tsmiImageComparer.Text" xml:space="preserve">
-    <value>مقایسه‌گر تصویر...</value>
-  </data>
   <data name="tsmiImageBeautifier.Text" xml:space="preserve">
     <value>زیباساز تصویر...</value>
   </data>
@@ -773,9 +770,6 @@
   <data name="tsmiTrayPinToScreen.Text" xml:space="preserve">
     <value>سنجاق به صفحه...</value>
   </data>
-  <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
-    <value>مقایسه‌گر تصویر...</value>
-  </data>
   <data name="tsmiTrayImageBeautifier.Text" xml:space="preserve">
     <value>زیباساز تصویر...</value>
   </data>
@@ -820,11 +814,5 @@
   </data>
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>توضیح</value>
-  </data>
-  <data name="tsmiBackgroundRemover.Text" xml:space="preserve">
-    <value>حذف‌کننده پس‌زمینه...</value>
-  </data>
-  <data name="tsmiTrayBackgroundRemover.Text" xml:space="preserve">
-    <value>حذف‌کننده پس‌زمینه...</value>
   </data>
 </root>

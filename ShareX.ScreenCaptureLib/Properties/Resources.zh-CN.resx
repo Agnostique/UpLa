@@ -126,12 +126,6 @@
   <data name="BaseRegionForm_InitializeComponent_Region_capture" xml:space="preserve">
     <value>区域捕捉</value>
   </data>
-  <data name="ScrollingCaptureForm_StopCapture_Start_capture" xml:space="preserve">
-    <value>开始捕捉</value>
-  </data>
-  <data name="ScrollingCaptureForm_StartCapture_Stop_capture" xml:space="preserve">
-    <value>停止捕捉</value>
-  </data>
   <data name="RectangleTransparent_RectangleTransparent_Rectangle_capture_transparent" xml:space="preserve">
     <value>透明矩形（ShareX 窗口透明）</value>
   </data>
@@ -203,12 +197,6 @@
   </data>
   <data name="ShapeManager_CreateContextMenu_Border_color___" xml:space="preserve">
     <value>边框颜色...</value>
-  </data>
-  <data name="WebpageCaptureForm_UpdateControls_Capture" xml:space="preserve">
-    <value>截图</value>
-  </data>
-  <data name="WebpageCaptureForm_UpdateControls_Stop" xml:space="preserve">
-    <value>停止</value>
   </data>
   <data name="ShapeManager_CreateContextMenu_RememberMenuState" xml:space="preserve">
     <value>记住菜单状态</value>
@@ -434,9 +422,6 @@
   </data>
   <data name="ScreenRecordForm_ConfirmCancel" xml:space="preserve">
     <value>确定终止此录制？</value>
-  </data>
-  <data name="ScreenRecordForm_Start" xml:space="preserve">
-    <value>开始</value>
   </data>
   <data name="ScreenRecordForm_StartRecording_Click_tray_icon_to_start_recording_" xml:space="preserve">
     <value>点击开始录制。</value>

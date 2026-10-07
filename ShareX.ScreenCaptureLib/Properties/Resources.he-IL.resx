@@ -222,9 +222,6 @@
   <data name="ScreenRecordForm_ConfirmCancel" xml:space="preserve">
     <value>האם אתה בטוח שברצונך לבטל את ההקלטה הזו?</value>
   </data>
-  <data name="ScreenRecordForm_Start" xml:space="preserve">
-    <value>התחל</value>
-  </data>
   <data name="ScreenRecordForm_StartRecording_Click_tray_icon_to_start_recording_" xml:space="preserve">
     <value>לחץ כדי להתחיל הקלטה.</value>
   </data>
@@ -239,12 +236,6 @@
   </data>
   <data name="ScreenRecordForm_Stop" xml:space="preserve">
     <value>עצור</value>
-  </data>
-  <data name="ScrollingCaptureForm_StartCapture_Stop_capture" xml:space="preserve">
-    <value>עצור צילום מסך</value>
-  </data>
-  <data name="ScrollingCaptureForm_StopCapture_Start_capture" xml:space="preserve">
-    <value>התחל צילום מסך</value>
   </data>
   <data name="ShapeManager_ArrowHeadDirection" xml:space="preserve">
     <value>כיוון ראש החץ:</value>
@@ -476,12 +467,6 @@
   </data>
   <data name="ThisWindowWillCloseBeforeOpeningKeybindsPageWantContinue" xml:space="preserve">
     <value>חלון זה ייסגר לפני פתיחת דף האינטרנט של המקשים. האם אתה רוצה להמשיך?</value>
-  </data>
-  <data name="WebpageCaptureForm_UpdateControls_Capture" xml:space="preserve">
-    <value>צלם מסך</value>
-  </data>
-  <data name="WebpageCaptureForm_UpdateControls_Stop" xml:space="preserve">
-    <value>עצור</value>
   </data>
   <data name="RectangleRegion_GetAreaText_Area" xml:space="preserve">
     <value>X: {0} Y: {1} W: {2} H: {3}</value>

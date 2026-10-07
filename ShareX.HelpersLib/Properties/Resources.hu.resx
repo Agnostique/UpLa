@@ -456,9 +456,6 @@
   <data name="PrintTextForm_LoadSettings_Name___0___Size___1_" xml:space="preserve">
     <value>Név: {0}, Méret: {1}</value>
   </data>
-  <data name="HotkeyType_AutoCapture" xml:space="preserve">
-    <value>Auto képlopás</value>
-  </data>
   <data name="ReplCodeMenuEntry_height_Gets_image_height" xml:space="preserve">
     <value>Kép magassága</value>
   </data>
@@ -477,9 +474,6 @@
   <data name="ReplCodeMenuEntry_cn_Computer_name" xml:space="preserve">
     <value>Számítógép neve</value>
   </data>
-  <data name="HotkeyType_StartAutoCapture" xml:space="preserve">
-    <value>Auto képlopás a legutóbbi régióval</value>
-  </data>
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>Fájl vágólapra helyezése</value>
   </data>
@@ -488,9 +482,6 @@
   </data>
   <data name="ShapeType_RegionFreehand" xml:space="preserve">
     <value>Freehand terület</value>
-  </data>
-  <data name="ImgurThumbnailType_Big_Square" xml:space="preserve">
-    <value>Nagy négyzet</value>
   </data>
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>Újra</value>
@@ -512,9 +503,6 @@
   </data>
   <data name="HotkeyType_Category_ScreenRecord" xml:space="preserve">
     <value>Képernyő record</value>
-  </data>
-  <data name="PastebinExpiration_H1" xml:space="preserve">
-    <value>1 óra</value>
   </data>
   <data name="HotkeyType_ScrollingCapture" xml:space="preserve">
     <value>Indítás/Leállítás scrolling rögzítés</value>
@@ -546,17 +534,11 @@
   <data name="ShapeType_EffectPixelate" xml:space="preserve">
     <value>Pixelesítés (P)</value>
   </data>
-  <data name="PastebinExpiration_D1" xml:space="preserve">
-    <value>1 nap</value>
-  </data>
   <data name="ShapeType_DrawingArrow" xml:space="preserve">
     <value>Nyíl (A)</value>
   </data>
   <data name="ShapeType_DrawingSmartEraser" xml:space="preserve">
     <value>Intelligens radír</value>
-  </data>
-  <data name="PastebinPrivacy_Unlisted" xml:space="preserve">
-    <value>Nem listázott</value>
   </data>
   <data name="HotkeyType_Category_Upload" xml:space="preserve">
     <value>Feltöltés</value>
@@ -579,9 +561,6 @@
   <data name="ReplCodeMenuCategory_Image" xml:space="preserve">
     <value>Kép</value>
   </data>
-  <data name="PastebinExpiration_M10" xml:space="preserve">
-    <value>10 perc</value>
-  </data>
   <data name="RegionCaptureAction_SwapToolType" xml:space="preserve">
     <value>Eszköztípus cseréje</value>
   </data>
@@ -601,9 +580,6 @@ Would you like to letöltés it?</value>
   <data name="RegionCaptureAction_CaptureActiveMonitor" xml:space="preserve">
     <value>Rögzítés active monitor</value>
   </data>
-  <data name="ImgurThumbnailType_Small_Thumbnail" xml:space="preserve">
-    <value>Small miniatűr</value>
-  </data>
   <data name="AfterUploadTasks_ShowAfterUploadWindow" xml:space="preserve">
     <value>"Feltöltés után" ablak megjelenítése</value>
   </data>
@@ -622,9 +598,6 @@ Would you like to letöltés it?</value>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>Indítás/Leállítás képernyőfelvétel using active ablak terület</value>
   </data>
-  <data name="PastebinExpiration_N" xml:space="preserve">
-    <value>Soha</value>
-  </data>
   <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
     <value>Kép miniatűrer</value>
   </data>
@@ -639,9 +612,6 @@ Would you like to letöltés it?</value>
   </data>
   <data name="ReplCodeMenuCategory_Computer" xml:space="preserve">
     <value>Számítógép</value>
-  </data>
-  <data name="ImgurThumbnailType_Large_Thumbnail" xml:space="preserve">
-    <value>Large miniatűr</value>
   </data>
   <data name="PNGBitDepth_Automatic" xml:space="preserve">
     <value>Automatikusally detect</value>
@@ -670,17 +640,11 @@ Would you like to letöltés it?</value>
   <data name="ShapeType_DrawingCursor" xml:space="preserve">
     <value>Kurzor</value>
   </data>
-  <data name="ImgurThumbnailType_Huge_Thumbnail" xml:space="preserve">
-    <value>Huge miniatűr</value>
-  </data>
   <data name="LinearGradientMode_Horizontal" xml:space="preserve">
     <value>Vízszintes</value>
   </data>
   <data name="HotkeyType_AbortScreenRecording" xml:space="preserve">
     <value>Megszakítás képernyőfelvétel</value>
-  </data>
-  <data name="PastebinExpiration_W2" xml:space="preserve">
-    <value>2 hét</value>
   </data>
   <data name="ImageEditorStartMode_Fullscreen" xml:space="preserve">
     <value>Fullképernyő</value>
@@ -739,17 +703,11 @@ Would you like to letöltés it?</value>
   <data name="ShapeType_DrawingSticker" xml:space="preserve">
     <value>Matrica</value>
   </data>
-  <data name="PastebinExpiration_W1" xml:space="preserve">
-    <value>1 hét</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>Kiemelés (H)</value>
   </data>
   <data name="ReplCodeMenuEntry_rx_Random_hexadecimal" xml:space="preserve">
     <value>Véletlen hexadecimal char (Repeat using {n})</value>
-  </data>
-  <data name="PastebinPrivacy_Private" xml:space="preserve">
-    <value>Privát (csak tagoknak)</value>
   </data>
   <data name="CodeMenuEntryFilename_RandomAnimal" xml:space="preserve">
     <value>Véletlen állat</value>
@@ -768,9 +726,6 @@ Would you like to letöltés it?</value>
   </data>
   <data name="ReplCodeMenuEntry_ib_Auto_increment_base_alphanumeric" xml:space="preserve">
     <value>Automatikus növelés by base {n} using alphanumeric (1 &lt; n &lt; 63)</value>
-  </data>
-  <data name="HotkeyType_CaptureWebpage" xml:space="preserve">
-    <value>Webpage rögzítés</value>
   </data>
   <data name="RegionCaptureAction_CancelCapture" xml:space="preserve">
     <value>Cancel rögzítés</value>
@@ -807,9 +762,6 @@ Would you like to letöltés it?</value>
   </data>
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>Indítás/Leállítás képernyőfelvétel (GIF) using last terület</value>
-  </data>
-  <data name="ImgurThumbnailType_Small_Square" xml:space="preserve">
-    <value>Kis négyzet</value>
   </data>
   <data name="HotkeyType_MonitorTest" xml:space="preserve">
     <value>Monitor teszt</value>
@@ -850,9 +802,6 @@ Would you like to letöltés it?</value>
   <data name="HotkeyType_OpenMainWindow" xml:space="preserve">
     <value>Megnyitás main ablak</value>
   </data>
-  <data name="HotkeyType_StopAutoCapture" xml:space="preserve">
-    <value>Leállítás auto rögzítés</value>
-  </data>
   <data name="ShapeType_DrawingRectangle" xml:space="preserve">
     <value>Rectszög (R)</value>
   </data>
@@ -868,17 +817,11 @@ Would you like to letöltés it?</value>
   <data name="Helpers_BrowseFile_Choose_file" xml:space="preserve">
     <value>Choose fájl</value>
   </data>
-  <data name="PastebinExpiration_M1" xml:space="preserve">
-    <value>1 hónap</value>
-  </data>
   <data name="ShapeType_DrawingTextBackground" xml:space="preserve">
     <value>Szöveg (Háttér) (T)</value>
   </data>
   <data name="RandomNonAmbiguousAlphanumericCharRepeatUsingN" xml:space="preserve">
     <value>Véletlen egyértelmű alfanumerikus karakter (ismétlés {n} használatával)</value>
-  </data>
-  <data name="PastebinPrivacy_Public" xml:space="preserve">
-    <value>Nyilvános</value>
   </data>
   <data name="DrawImageSizeMode_PercentageOfWatermark" xml:space="preserve">
     <value>Percentage of kép</value>
@@ -894,9 +837,6 @@ Would you like to letöltés it?</value>
   </data>
   <data name="HotkeyType_ImageSplitter" xml:space="preserve">
     <value>Kép splitter</value>
-  </data>
-  <data name="ImgurThumbnailType_Medium_Thumbnail" xml:space="preserve">
-    <value>Medium miniatűr</value>
   </data>
   <data name="Extensions_AddContextMenu_Undo" xml:space="preserve">
     <value>Visszavonás</value>
@@ -1213,52 +1153,10 @@ Would you like to letöltés it?</value>
   <data name="ToastClickAction_DeleteFile" xml:space="preserve">
     <value>Törlés fájl locally</value>
   </data>
-  <data name="AfterCaptureTasks_AnalyzeImage" xml:space="preserve">
-    <value>Analyze kép</value>
-  </data>
-  <data name="HotkeyType_AnalyzeImage" xml:space="preserve">
-    <value>Analyze kép</value>
-  </data>
   <data name="ShapeType_ToolSpotlight" xml:space="preserve">
     <value>Reflektorfény</value>
   </data>
-  <data name="PrivateBinExpiration_M5" xml:space="preserve">
-    <value>5 perc</value>
-  </data>
-  <data name="PrivateBinExpiration_M10" xml:space="preserve">
-    <value>10 perc</value>
-  </data>
-  <data name="PrivateBinExpiration_H1" xml:space="preserve">
-    <value>1 óra</value>
-  </data>
-  <data name="PrivateBinExpiration_D1" xml:space="preserve">
-    <value>1 nap</value>
-  </data>
-  <data name="PrivateBinExpiration_W1" xml:space="preserve">
-    <value>1 hét</value>
-  </data>
-  <data name="PrivateBinExpiration_M1" xml:space="preserve">
-    <value>1 hónap</value>
-  </data>
-  <data name="PrivateBinExpiration_Y1" xml:space="preserve">
-    <value>1 év</value>
-  </data>
-  <data name="PrivateBinExpiration_N" xml:space="preserve">
-    <value>Soha</value>
-  </data>
-  <data name="PrivateBinFormat_PlainText" xml:space="preserve">
-    <value>Egyszerű szöveg</value>
-  </data>
-  <data name="PrivateBinFormat_SyntaxHighlighting" xml:space="preserve">
-    <value>Szintaxiskiemelés</value>
-  </data>
-  <data name="PrivateBinFormat_Markdown" xml:space="preserve">
-    <value>Markdown</value>
-  </data>
   <data name="AfterCaptureTasks_CopyFolderPathToClipboard" xml:space="preserve">
     <value>Másolás mappa elérési útja to vágólap</value>
-  </data>
-  <data name="HotkeyType_ImageComparer" xml:space="preserve">
-    <value>Kép-összehasonlító</value>
   </data>
 </root>
