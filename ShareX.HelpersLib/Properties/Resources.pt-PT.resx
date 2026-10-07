@@ -361,9 +361,6 @@ Gostaria de transferí-la?</value>
   <data name="ShapeType_DrawingImage" xml:space="preserve">
     <value>Desenho: Imagem</value>
   </data>
-  <data name="ScreenRecordGIFEncoding_NET" xml:space="preserve">
-    <value>.NET (qualidade má)</value>
-  </data>
   <data name="ReplCodeMenuEntry_ia_Auto_increment_alphanumeric" xml:space="preserve">
     <value>Auto incrementar caracteres alfanuméricos maiúsculos e minúsculos. Acrescentar 0 à esquerda usando {n}</value>
   </data>
@@ -447,9 +444,6 @@ Gostaria de transferí-la?</value>
   </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Horário UNIX</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_FFmpeg" xml:space="preserve">
-    <value>FFmpeg (qualidade boa)</value>
   </data>
   <data name="HotkeyType_StopUploads" xml:space="preserve">
     <value>Parar todos os envios ativos</value>
@@ -748,9 +742,6 @@ Você gostaria de transferi-la e instalá-la?</value>
   </data>
   <data name="HotkeyType_ScreenRecorderCustomRegion" xml:space="preserve">
     <value>Iniciar/Parar gravação de ecrã utilizando uma região personalizada</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_OctreeQuantizer" xml:space="preserve">
-    <value>Octree quantizer (qualidade média)</value>
   </data>
   <data name="Helpers_BrowseFile_Choose_file" xml:space="preserve">
     <value>Escolher ficheiro</value>

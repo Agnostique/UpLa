@@ -364,9 +364,6 @@
   <data name="ShapeType_DrawingImage" xml:space="preserve">
     <value>Картинка из файла</value>
   </data>
-  <data name="ScreenRecordGIFEncoding_NET" xml:space="preserve">
-    <value>.NET (Плохое качество)</value>
-  </data>
   <data name="ReplCodeMenuEntry_ia_Auto_increment_alphanumeric" xml:space="preserve">
     <value>Алфавитно-цифровой счетчик. Нули слева, {n} задает длину</value>
   </data>
@@ -453,9 +450,6 @@
   </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Временная метка UNIX</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_FFmpeg" xml:space="preserve">
-    <value>FFmpeg (Хорошее качество)</value>
   </data>
   <data name="DrawImageSizeMode_DontResize" xml:space="preserve">
     <value>Не масштабировать</value>
@@ -763,9 +757,6 @@
   </data>
   <data name="HotkeyType_ScreenRecorderCustomRegion" xml:space="preserve">
     <value>Начать/Остановить запись подготовленной области экрана</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_OctreeQuantizer" xml:space="preserve">
-    <value>Octree quantizer (Среднее качество)</value>
   </data>
   <data name="Helpers_BrowseFile_Choose_file" xml:space="preserve">
     <value>Выберите файл</value>

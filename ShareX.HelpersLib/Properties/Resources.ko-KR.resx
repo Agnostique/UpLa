@@ -352,9 +352,6 @@
   <data name="ShapeType_DrawingImage" xml:space="preserve">
     <value>이미지 파일 그리기</value>
   </data>
-  <data name="ScreenRecordGIFEncoding_NET" xml:space="preserve">
-    <value>.NET (나쁜 품질)</value>
-  </data>
   <data name="ReplCodeMenuEntry_ia_Auto_increment_alphanumeric" xml:space="preserve">
     <value>자동 증가하는 소문자 영숫자 (대소문자 미구분). 0으로 {n}만큼 패딩</value>
   </data>
@@ -435,9 +432,6 @@
   </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>유닉스 타임스탬프</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_FFmpeg" xml:space="preserve">
-    <value>FFmpeg (좋은 품질)</value>
   </data>
   <data name="HotkeyType_StopUploads" xml:space="preserve">
     <value>현재 진행중인 모든 업로드 중단</value>
@@ -712,9 +706,6 @@
   </data>
   <data name="HotkeyType_ScreenRecorderCustomRegion" xml:space="preserve">
     <value>미리 지정된 영역에서 화면 녹화 시작/중단</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_OctreeQuantizer" xml:space="preserve">
-    <value>팔진트리 양자화 (보통 품질)</value>
   </data>
   <data name="Helpers_BrowseFile_Choose_file" xml:space="preserve">
     <value>파일 고르기</value>

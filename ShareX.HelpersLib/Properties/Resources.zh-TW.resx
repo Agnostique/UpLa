@@ -364,9 +364,6 @@
   <data name="ShapeType_DrawingImage" xml:space="preserve">
     <value>圖片 (檔案)</value>
   </data>
-  <data name="ScreenRecordGIFEncoding_NET" xml:space="preserve">
-    <value>.NET (低品質)</value>
-  </data>
   <data name="ReplCodeMenuEntry_ia_Auto_increment_alphanumeric" xml:space="preserve">
     <value>自動遞增不區分大小寫文數字元 (用 {n} 來在字元前補 0)</value>
   </data>
@@ -453,9 +450,6 @@
   </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Unix 時間戳記</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_FFmpeg" xml:space="preserve">
-    <value>FFmpeg (高品質)</value>
   </data>
   <data name="DrawImageSizeMode_DontResize" xml:space="preserve">
     <value>不調整大小</value>
@@ -763,9 +757,6 @@
   </data>
   <data name="HotkeyType_ScreenRecorderCustomRegion" xml:space="preserve">
     <value>開始/停止使用預先定義區域錄製螢幕</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_OctreeQuantizer" xml:space="preserve">
-    <value>八元樹量化 (中等品質)</value>
   </data>
   <data name="Helpers_BrowseFile_Choose_file" xml:space="preserve">
     <value>選擇檔案</value>

@@ -304,9 +304,6 @@
   <data name="ShapeType_DrawingImage" xml:space="preserve">
     <value>عکس (فایل)</value>
   </data>
-  <data name="ScreenRecordGIFEncoding_NET" xml:space="preserve">
-    <value>.NET (کیفیت بد)</value>
-  </data>
   <data name="AfterCaptureTasks_AddImageEffects" xml:space="preserve">
     <value>اضافه کردن افکت های عکس / واترمارک</value>
   </data>
@@ -363,9 +360,6 @@
   </data>
   <data name="AfterCaptureTasks_SaveImageToFile" xml:space="preserve">
     <value>عکس را در فایل ذخیره کن</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_FFmpeg" xml:space="preserve">
-    <value>FFmpeg (کیفیت خوب)</value>
   </data>
   <data name="HotkeyType_StopUploads" xml:space="preserve">
     <value>توقف تمام آپلودهای جاری</value>
@@ -787,9 +781,6 @@
   </data>
   <data name="ImageEditorStartMode_Maximized" xml:space="preserve">
     <value>بیشینه‌شده</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_OctreeQuantizer" xml:space="preserve">
-    <value>کوانتیزه‌کننده Octree (کیفیت متوسط)</value>
   </data>
   <data name="RandomNonAmbiguousAlphanumericCharRepeatUsingN" xml:space="preserve">
     <value>نویسه حرفی‌عددی تصادفی بدون ابهام (تکرار با {n})</value>

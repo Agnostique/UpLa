@@ -1793,17 +1793,6 @@ namespace ShareX.ScreenCaptureLib
             }
         }
 
-        public void RemoveOutsideShapes()
-        {
-            foreach (BaseShape shape in Shapes.ToArray())
-            {
-                if (!Form.CanvasRectangle.IntersectsWith(shape.Rectangle))
-                {
-                    shape.Remove();
-                }
-            }
-        }
-
         private bool IsShapeTypeRegion(ShapeType shapeType)
         {
             switch (shapeType)

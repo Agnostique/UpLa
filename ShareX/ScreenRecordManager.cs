@@ -274,11 +274,8 @@ namespace ShareX
                                 DrawCursor = taskSettings.CaptureSettings.ScreenRecordShowCursor
                             };
 
-                            Screenshot screenshot = TaskHelpers.GetScreenshot(taskSettings);
-                            screenshot.CaptureCursor = taskSettings.CaptureSettings.ScreenRecordShowCursor;
-
                             screenRecorder?.Dispose();
-                            screenRecorder = new ScreenRecorder(ScreenRecordOutput.FFmpeg, options, screenshot, captureRectangle);
+                            screenRecorder = new ScreenRecorder(options);
                             screenRecorder.RecordingStarted += ScreenRecorder_RecordingStarted;
                             screenRecorder.EncodingProgressChanged += ScreenRecorder_EncodingProgressChanged;
                             screenRecorder.StartRecording();

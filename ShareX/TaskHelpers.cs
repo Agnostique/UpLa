@@ -1662,20 +1662,6 @@ namespace ShareX
             }
         }
 
-        public static async Task DownloadAppVeyorBuild()
-        {
-            AppVeyorUpdateChecker updateChecker = new AppVeyorUpdateChecker()
-            {
-                IsDev = true,
-                IsPortable = Program.Portable,
-                Branch = "develop"
-            };
-
-            await updateChecker.CheckUpdateAsync();
-
-            UpdateMessageBox.Start(updateChecker);
-        }
-
         public static Image GenerateQRCode(string text, int size)
         {
             if (CheckQRCodeContent(text))

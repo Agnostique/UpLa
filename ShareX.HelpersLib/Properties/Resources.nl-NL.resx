@@ -295,9 +295,6 @@ Wil je deze downloaden?</value>
   <data name="GIFQuality_Bit8" xml:space="preserve">
     <value>Octree quantizer 256 kleuren (Trage conversie maar betere kwaliteit)</value>
   </data>
-  <data name="ScreenRecordGIFEncoding_NET" xml:space="preserve">
-    <value>.NET (Slechte kwaliteit)</value>
-  </data>
   <data name="ReplCodeMenuEntry_ia_Auto_increment_alphanumeric" xml:space="preserve">
     <value>Zelf ophogende alfa-numerieke sequentie, niet hoofdlettergevoelig. Voorloopnullen links met {n}</value>
   </data>
@@ -357,9 +354,6 @@ Wil je deze downloaden?</value>
   </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Unix timestamp</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_FFmpeg" xml:space="preserve">
-    <value>FFmpeg (Goede kwaliteit)</value>
   </data>
   <data name="HotkeyType_StopUploads" xml:space="preserve">
     <value>Stop alle actieve uploads</value>
@@ -556,9 +550,6 @@ Wil je deze downloaden en installeren?</value>
   </data>
   <data name="PrintTextForm_LoadSettings_Name___0___Size___1_" xml:space="preserve">
     <value>Naam: {0}, Grootte: {1}</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_OctreeQuantizer" xml:space="preserve">
-    <value>Octree quantizer (Matige kwaliteit)</value>
   </data>
   <data name="Helpers_BrowseFile_Choose_file" xml:space="preserve">
     <value>Kies bestand</value>

@@ -364,9 +364,6 @@
   <data name="ShapeType_DrawingImage" xml:space="preserve">
     <value>描画: 画像</value>
   </data>
-  <data name="ScreenRecordGIFEncoding_NET" xml:space="preserve">
-    <value>.NET (低画質)</value>
-  </data>
   <data name="ReplCodeMenuEntry_ia_Auto_increment_alphanumeric" xml:space="preserve">
     <value>英数字連番 (大/小文字の区別なし) {n}でn桁ゼロ詰め</value>
   </data>
@@ -453,9 +450,6 @@
   </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Unix時間</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_FFmpeg" xml:space="preserve">
-    <value>FFmpeg (高画質)</value>
   </data>
   <data name="DrawImageSizeMode_DontResize" xml:space="preserve">
     <value>変更しない</value>
@@ -763,9 +757,6 @@
   </data>
   <data name="HotkeyType_ScreenRecorderCustomRegion" xml:space="preserve">
     <value>構成済み領域の動画キャプチャーを開始/停止</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_OctreeQuantizer" xml:space="preserve">
-    <value>オクトリー量子化 (中間画質)</value>
   </data>
   <data name="Helpers_BrowseFile_Choose_file" xml:space="preserve">
     <value>ファイルの選択</value>

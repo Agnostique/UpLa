@@ -364,9 +364,6 @@ Soll sie heruntergeladen werden?</value>
   <data name="ShapeType_DrawingImage" xml:space="preserve">
     <value>Bild aus Datei hinzufügen</value>
   </data>
-  <data name="ScreenRecordGIFEncoding_NET" xml:space="preserve">
-    <value>.NET (Schlechte Qualität)</value>
-  </data>
   <data name="ReplCodeMenuEntry_ia_Auto_increment_alphanumeric" xml:space="preserve">
     <value>Automatisch alphanumerisch erhöhen. 0 pad left using {n}</value>
   </data>
@@ -450,9 +447,6 @@ Soll sie heruntergeladen werden?</value>
   </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Unix Zeitstempel</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_FFmpeg" xml:space="preserve">
-    <value>FFmpeg (Gute Qualität)</value>
   </data>
   <data name="DrawImageSizeMode_DontResize" xml:space="preserve">
     <value>Größe nicht ändern</value>
@@ -760,9 +754,6 @@ Soll sie heruntergeladen und installiert werden?</value>
   </data>
   <data name="HotkeyType_ScreenRecorderCustomRegion" xml:space="preserve">
     <value>Bildschirmaufzeichnung mit vordefiniertem Bereich starten/stoppen</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_OctreeQuantizer" xml:space="preserve">
-    <value>Octree quantizer (Mittlere Qualität)</value>
   </data>
   <data name="Helpers_BrowseFile_Choose_file" xml:space="preserve">
     <value>Datei auswählen</value>

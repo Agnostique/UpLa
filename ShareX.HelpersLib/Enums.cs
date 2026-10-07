@@ -191,13 +191,6 @@ namespace ShareX.HelpersLib
         Both
     }
 
-    public enum FFmpegArchitecture
-    {
-        win64,
-        win32,
-        macos64
-    }
-
     public enum StepType // Localized
     {
         Numbers,

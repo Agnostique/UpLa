@@ -35,13 +35,6 @@ namespace ShareX.ScreenCaptureLib
         GIF
     }
 
-    public enum ScreenRecordGIFEncoding // Localized
-    {
-        FFmpeg,
-        NET,
-        OctreeQuantizer
-    }
-
     public enum RegionResult
     {
         Close,

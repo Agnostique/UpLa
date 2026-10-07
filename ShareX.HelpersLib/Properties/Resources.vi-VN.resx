@@ -364,9 +364,6 @@ Bạn có muốn tải về không?</value>
   <data name="ShapeType_DrawingImage" xml:space="preserve">
     <value>Vẽ: Chèn ảnh (từ tệp)</value>
   </data>
-  <data name="ScreenRecordGIFEncoding_NET" xml:space="preserve">
-    <value>.NET (Chất lượng kém)</value>
-  </data>
   <data name="ReplCodeMenuEntry_ia_Auto_increment_alphanumeric" xml:space="preserve">
     <value>Tự tăng theo chữ và số không phân biệt chữ viết hoa/thường. Chèn 0 bên trái sử dụng {n}</value>
   </data>
@@ -453,9 +450,6 @@ Bạn có muốn tải về không?</value>
   </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Dấu thời gian của Unix</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_FFmpeg" xml:space="preserve">
-    <value>FFmpeg (Chất lượng tốt)</value>
   </data>
   <data name="DrawImageSizeMode_DontResize" xml:space="preserve">
     <value>Không thay đổi kích thước</value>
@@ -763,9 +757,6 @@ Bạn có muốn tải về và cài đặt không?</value>
   </data>
   <data name="HotkeyType_ScreenRecorderCustomRegion" xml:space="preserve">
     <value>Bắt đầu/Dừng ghi lại màn hình sử dụng vùng được thiết lập trước</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_OctreeQuantizer" xml:space="preserve">
-    <value>Bộ lượng tử octree (Chất lượng trung bình)</value>
   </data>
   <data name="Helpers_BrowseFile_Choose_file" xml:space="preserve">
     <value>Chọn tệp</value>

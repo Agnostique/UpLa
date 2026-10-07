@@ -346,9 +346,6 @@ Vuoi scaricarla ora?</value>
   <data name="ShapeType_DrawingImage" xml:space="preserve">
     <value>Disegna: Immagine (File)</value>
   </data>
-  <data name="ScreenRecordGIFEncoding_NET" xml:space="preserve">
-    <value>.NET (Qualità Cattiva)</value>
-  </data>
   <data name="ReplCodeMenuEntry_ia_Auto_increment_alphanumeric" xml:space="preserve">
     <value>Auto Incremento Alfanumerico (Case-Insensitive). Sarà aggiunto uno 0 davanti usando {n}</value>
   </data>
@@ -423,9 +420,6 @@ Vuoi scaricarla ora?</value>
   </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Orario Unix</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_FFmpeg" xml:space="preserve">
-    <value>FFmpeg (Qualità Buona)</value>
   </data>
   <data name="HotkeyType_StopUploads" xml:space="preserve">
     <value>Ferma Tutti i Caricamenti Attivi</value>
@@ -679,9 +673,6 @@ Vuoi scaricarla e installarla ora?</value>
   </data>
   <data name="HotkeyType_ScreenRecorderCustomRegion" xml:space="preserve">
     <value>Avvia/Ferma Registrazione Schermo usando la Regione Pre Configurata</value>
-  </data>
-  <data name="ScreenRecordGIFEncoding_OctreeQuantizer" xml:space="preserve">
-    <value>Quantizzatore Octree (Qualità Media)</value>
   </data>
   <data name="Helpers_BrowseFile_Choose_file" xml:space="preserve">
     <value>Scegli File</value>
