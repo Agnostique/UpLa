@@ -559,12 +559,6 @@
   <data name="tssTools3.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 6</value>
   </data>
-  <data name="tsmiAI.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiAI.Text" xml:space="preserve">
-    <value>Analyze image...</value>
-  </data>
   <data name="tsmiOCR.Size" type="System.Drawing.Size, System.Drawing">
     <value>194, 22</value>
   </data>
@@ -1281,12 +1275,6 @@
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>Share URL</value>
   </data>
-  <data name="tsmiAnalyzeImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 22</value>
-  </data>
-  <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
-    <value>Analyze image...</value>
-  </data>
   <data name="tsmiGoogleLens.Size" type="System.Drawing.Size, System.Drawing">
     <value>228, 22</value>
   </data>
@@ -1634,12 +1622,6 @@
   </data>
   <data name="tssTrayTools3.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 6</value>
-  </data>
-  <data name="tsmiTrayAI.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiTrayAI.Text" xml:space="preserve">
-    <value>Analyze image...</value>
   </data>
   <data name="tsmiTrayOCR.Size" type="System.Drawing.Size, System.Drawing">
     <value>194, 22</value>
@@ -2384,12 +2366,6 @@
   <data name="&gt;&gt;tssTools3.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tsmiAI.Name" xml:space="preserve">
-    <value>tsmiAI</value>
-  </data>
-  <data name="&gt;&gt;tsmiAI.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;tsmiOCR.Name" xml:space="preserve">
     <value>tsmiOCR</value>
   </data>
@@ -2948,12 +2924,6 @@
   <data name="&gt;&gt;tsmiShareSelectedURL.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tsmiAnalyzeImage.Name" xml:space="preserve">
-    <value>tsmiAnalyzeImage</value>
-  </data>
-  <data name="&gt;&gt;tsmiAnalyzeImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;tsmiGoogleLens.Name" xml:space="preserve">
     <value>tsmiGoogleLens</value>
   </data>
@@ -3313,12 +3283,6 @@
   </data>
   <data name="&gt;&gt;tssTrayTools3.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayAI.Name" xml:space="preserve">
-    <value>tsmiTrayAI</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayAI.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsmiTrayOCR.Name" xml:space="preserve">
     <value>tsmiTrayOCR</value>
