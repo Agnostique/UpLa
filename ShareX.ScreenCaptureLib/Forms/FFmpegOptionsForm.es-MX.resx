@@ -170,15 +170,9 @@ El preajuste debe ser el más rápido para codificación en tiempo real (ej. gra
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>Preajuste:</value>
   </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>Tasa de bits variable:</value>
-  </data>
   <data name="nudx264CRF.ToolTip" xml:space="preserve">
     <value>Factor de velocidad constante (CRF): el valor puede estar entre 0 y 51; 0 es sin pérdida, 30 es predefinido y 51 es el peor posible.
 Un valor alto produce un archivo de mala calidad pero menor tamaño.</value>
-  </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 es la calidad más alta y archivo más grande, 31 es la calidad más baja y archivo más pequeño.</value>
   </data>
   <data name="pbx264PresetWarning.ToolTip" xml:space="preserve">
     <value>Para la codificación en tiempo real, como la grabación de pantalla, se recomienda el preajuste más rápido.

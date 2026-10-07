@@ -139,9 +139,6 @@
     <value>항율 인자 (CRF): 값의 범위는 0부터 51까지이며, 0은 무손실, 30이 기본값, 그리고 51이 가능한 최저 품질입니다.
 값이 높아질수록 품질은 낮아지지만, 파일 크기 또한 줄어듭니다.</value>
   </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1이 최고 품질/최대 파일 크기, 31이 최소 품질/최소 파일 크기입니다.</value>
-  </data>
   <data name="cbGIFDither.ToolTip" xml:space="preserve">
     <value>기본값은 sierra2_4a입니다.</value>
   </data>
@@ -168,9 +165,6 @@
   </data>
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>프리셋:</value>
-  </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>가변 비트레이트:</value>
   </data>
   <data name="cbGIFStatsMode.ToolTip" xml:space="preserve">
     <value>기본값은 full입니다.</value>

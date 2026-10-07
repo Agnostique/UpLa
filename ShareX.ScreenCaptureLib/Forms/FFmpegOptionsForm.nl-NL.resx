@@ -181,12 +181,6 @@ Gelijkaardig kan er voor een constante kwaliteitsencoding een tragere preset gek
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>Voorkeur:</value>
   </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>Variabele bitrate:</value>
-  </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 is de hoogste kwaliteit/grootste bestandsgrootte en 31 is de laagste kwaliteit/kleinste bestandsgrootte.</value>
-  </data>
   <data name="pbx264PresetWarning.ToolTip" xml:space="preserve">
     <value>Voor realtime encoding (zoals schermopname) is het aangeraden om een zo snel mogelijke preset te kiezen.
 Anders kan het niet bijhouden met de opname en zullen er framedrops volgen.</value>

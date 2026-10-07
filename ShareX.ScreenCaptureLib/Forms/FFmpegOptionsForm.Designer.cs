@@ -34,7 +34,6 @@
             pbx264PresetWarning = new System.Windows.Forms.PictureBox();
             cbx264Preset = new System.Windows.Forms.ComboBox();
             nudx264CRF = new System.Windows.Forms.NumericUpDown();
-            nudXvidQscale = new System.Windows.Forms.NumericUpDown();
             nudGIFBayerScale = new System.Windows.Forms.NumericUpDown();
             cbGIFDither = new System.Windows.Forms.ComboBox();
             cbGIFStatsMode = new System.Windows.Forms.ComboBox();
@@ -82,8 +81,6 @@
             lblVP8BitrateK = new System.Windows.Forms.Label();
             nudVP8Bitrate = new System.Windows.Forms.NumericUpDown();
             lblVP8Bitrate = new System.Windows.Forms.Label();
-            tpXvid = new System.Windows.Forms.TabPage();
-            lblXvidQscale = new System.Windows.Forms.Label();
             tpNVENC = new System.Windows.Forms.TabPage();
             cbNVENCTune = new System.Windows.Forms.ComboBox();
             lblNVENCTune = new System.Windows.Forms.Label();
@@ -112,7 +109,6 @@
             btnResetOptions = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)pbx264PresetWarning).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudx264CRF).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)nudXvidQscale).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudGIFBayerScale).BeginInit();
             tcFFmpegAudioCodecs.SuspendLayout();
             tpAAC.SuspendLayout();
@@ -124,7 +120,6 @@
             ((System.ComponentModel.ISupportInitialize)nudx264Bitrate).BeginInit();
             tpVpx.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nudVP8Bitrate).BeginInit();
-            tpXvid.SuspendLayout();
             tpNVENC.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)nudNVENCBitrate).BeginInit();
             tpGIF.SuspendLayout();
@@ -169,16 +164,6 @@
             ttHelpTip.SetToolTip(nudx264CRF, resources.GetString("nudx264CRF.ToolTip"));
             nudx264CRF.Value = new decimal(new int[] { 23, 0, 0, 0 });
             nudx264CRF.ValueChanged += nudx264CRF_ValueChanged;
-            // 
-            // nudXvidQscale
-            // 
-            resources.ApplyResources(nudXvidQscale, "nudXvidQscale");
-            nudXvidQscale.Maximum = new decimal(new int[] { 31, 0, 0, 0 });
-            nudXvidQscale.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
-            nudXvidQscale.Name = "nudXvidQscale";
-            ttHelpTip.SetToolTip(nudXvidQscale, resources.GetString("nudXvidQscale.ToolTip"));
-            nudXvidQscale.Value = new decimal(new int[] { 3, 0, 0, 0 });
-            nudXvidQscale.ValueChanged += nudQscale_ValueChanged;
             // 
             // nudGIFBayerScale
             // 
@@ -436,7 +421,6 @@
             // 
             tcFFmpegVideoCodecs.Controls.Add(tpX264);
             tcFFmpegVideoCodecs.Controls.Add(tpVpx);
-            tcFFmpegVideoCodecs.Controls.Add(tpXvid);
             tcFFmpegVideoCodecs.Controls.Add(tpNVENC);
             tcFFmpegVideoCodecs.Controls.Add(tpGIF);
             tcFFmpegVideoCodecs.Controls.Add(tpAMF);
@@ -519,19 +503,6 @@
             // 
             resources.ApplyResources(lblVP8Bitrate, "lblVP8Bitrate");
             lblVP8Bitrate.Name = "lblVP8Bitrate";
-            // 
-            // tpXvid
-            // 
-            tpXvid.BackColor = System.Drawing.SystemColors.Window;
-            tpXvid.Controls.Add(nudXvidQscale);
-            tpXvid.Controls.Add(lblXvidQscale);
-            resources.ApplyResources(tpXvid, "tpXvid");
-            tpXvid.Name = "tpXvid";
-            // 
-            // lblXvidQscale
-            // 
-            resources.ApplyResources(lblXvidQscale, "lblXvidQscale");
-            lblXvidQscale.Name = "lblXvidQscale";
             // 
             // tpNVENC
             // 
@@ -754,7 +725,6 @@
             Load += FFmpegOptionsForm_Load;
             ((System.ComponentModel.ISupportInitialize)pbx264PresetWarning).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudx264CRF).EndInit();
-            ((System.ComponentModel.ISupportInitialize)nudXvidQscale).EndInit();
             ((System.ComponentModel.ISupportInitialize)nudGIFBayerScale).EndInit();
             tcFFmpegAudioCodecs.ResumeLayout(false);
             tpAAC.ResumeLayout(false);
@@ -772,8 +742,6 @@
             tpVpx.ResumeLayout(false);
             tpVpx.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)nudVP8Bitrate).EndInit();
-            tpXvid.ResumeLayout(false);
-            tpXvid.PerformLayout();
             tpNVENC.ResumeLayout(false);
             tpNVENC.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)nudNVENCBitrate).EndInit();
@@ -798,8 +766,6 @@
         private System.Windows.Forms.ComboBox cbVideoCodec;
         private System.Windows.Forms.ComboBox cbx264Preset;
         private System.Windows.Forms.Label lblx264Preset;
-        private System.Windows.Forms.NumericUpDown nudXvidQscale;
-        private System.Windows.Forms.Label lblXvidQscale;
         private System.Windows.Forms.Button btnFFmpegBrowse;
         private System.Windows.Forms.TextBox txtFFmpegPath;
         private System.Windows.Forms.TextBox txtCommandLinePreview;
@@ -807,7 +773,6 @@
         private HelpersLib.TablessControl tcFFmpegVideoCodecs;
         private System.Windows.Forms.TabPage tpX264;
         private System.Windows.Forms.TabPage tpVpx;
-        private System.Windows.Forms.TabPage tpXvid;
         private HelpersLib.TablessControl tcFFmpegAudioCodecs;
         private System.Windows.Forms.TabPage tpVorbis;
         private System.Windows.Forms.TabPage tpMP3;

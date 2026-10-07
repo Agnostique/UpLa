@@ -211,33 +211,6 @@ A higher value means bad quality, but a low file size.</value>
   <data name="&gt;&gt;nudx264CRF.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="nudXvidQscale.Location" type="System.Drawing.Point, System.Drawing">
-    <value>128, 4</value>
-  </data>
-  <data name="nudXvidQscale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 23</value>
-  </data>
-  <data name="nudXvidQscale.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="nudXvidQscale.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 being highest quality/largest filesize and 31 being the lowest quality/smallest filesize.</value>
-  </data>
-  <data name="&gt;&gt;nudXvidQscale.Name" xml:space="preserve">
-    <value>nudXvidQscale</value>
-  </data>
-  <data name="&gt;&gt;nudXvidQscale.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nudXvidQscale.Parent" xml:space="preserve">
-    <value>tpXvid</value>
-  </data>
-  <data name="&gt;&gt;nudXvidQscale.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="nudGIFBayerScale.Location" type="System.Drawing.Point, System.Drawing">
     <value>240, 28</value>
   </data>
@@ -1469,61 +1442,6 @@ A higher value means bad quality, but a low file size.</value>
   </data>
   <data name="&gt;&gt;tpVpx.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="lblXvidQscale.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblXvidQscale.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblXvidQscale.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 8</value>
-  </data>
-  <data name="lblXvidQscale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 15</value>
-  </data>
-  <data name="lblXvidQscale.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>Variable bitrate:</value>
-  </data>
-  <data name="&gt;&gt;lblXvidQscale.Name" xml:space="preserve">
-    <value>lblXvidQscale</value>
-  </data>
-  <data name="&gt;&gt;lblXvidQscale.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblXvidQscale.Parent" xml:space="preserve">
-    <value>tpXvid</value>
-  </data>
-  <data name="&gt;&gt;lblXvidQscale.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="tpXvid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 44</value>
-  </data>
-  <data name="tpXvid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>304, 32</value>
-  </data>
-  <data name="tpXvid.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="tpXvid.Text" xml:space="preserve">
-    <value>Xvid</value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="&gt;&gt;tpXvid.Name" xml:space="preserve">
-    <value>tpXvid</value>
-  </data>
-  <data name="&gt;&gt;tpXvid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tpXvid.Parent" xml:space="preserve">
-    <value>tcFFmpegVideoCodecs</value>
-  </data>
-  <data name="&gt;&gt;tpXvid.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="cbNVENCTune.Location" type="System.Drawing.Point, System.Drawing">
     <value>72, 52</value>

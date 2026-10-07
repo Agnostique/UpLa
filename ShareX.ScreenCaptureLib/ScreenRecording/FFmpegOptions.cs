@@ -30,6 +30,15 @@ namespace ShareX.ScreenCaptureLib
 {
     public class FFmpegOptions
     {
+        // upla.com.tr: video codecs whose output upla.com.tr accepts (mp4, webm, gif, webp). Xvid (.avi) and APNG (.apng) stay
+        // in FFmpegVideoCodec so older settings still load, but they are not offered and are replaced before recording.
+        public static readonly FFmpegVideoCodec[] UplaVideoCodecs =
+        {
+            FFmpegVideoCodec.libx264, FFmpegVideoCodec.libx265, FFmpegVideoCodec.libvpx, FFmpegVideoCodec.libvpx_vp9,
+            FFmpegVideoCodec.h264_nvenc, FFmpegVideoCodec.hevc_nvenc, FFmpegVideoCodec.h264_amf, FFmpegVideoCodec.hevc_amf,
+            FFmpegVideoCodec.h264_qsv, FFmpegVideoCodec.hevc_qsv, FFmpegVideoCodec.gif, FFmpegVideoCodec.libwebp
+        };
+
         // General
         public bool OverrideCLIPath { get; set; } = false;
         public string CLIPath { get; set; } = "";
@@ -129,6 +138,21 @@ namespace ShareX.ScreenCaptureLib
         }
 
         public bool IsSourceSelected => IsVideoSourceSelected || IsAudioSourceSelected;
+
+        // upla.com.tr: upla.com.tr only takes recordings it can show (no .avi, .apng or audio-only files), so settings saved by
+        // older versions are corrected before a recording starts.
+        public void ApplyUplaRestrictions()
+        {
+            if (Array.IndexOf(UplaVideoCodecs, VideoCodec) < 0)
+            {
+                VideoCodec = FFmpegVideoCodec.libx264;
+            }
+
+            if (string.IsNullOrEmpty(VideoSource))
+            {
+                VideoSource = FFmpegCaptureDevice.GDIGrab.Value;
+            }
+        }
 
         public bool IsVideoSourceSelected => !string.IsNullOrEmpty(VideoSource);
 

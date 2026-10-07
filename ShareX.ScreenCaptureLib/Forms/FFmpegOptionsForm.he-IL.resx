@@ -132,9 +132,6 @@
   <data name="lblVP8Bitrate.Text" xml:space="preserve">
     <value>קצב סיביות:</value>
   </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>קצב סיביות משתנה:</value>
-  </data>
   <data name="btnInstallHelperDevices.Text" xml:space="preserve">
     <value>התקן מכשירי הקלטה...</value>
   </data>
@@ -204,9 +201,6 @@
   <data name="nudx264CRF.ToolTip" xml:space="preserve">
     <value>מקדם קצב קבוע (CRF): הערך יכול להיות בין 0-51, כאשר 0 הוא ללא הפסדים, 30 הוא ברירת מחדל ו-51 הוא הגרוע ביותר האפשרי.
 ערך גבוה יותר פירושו איכות גרועה, אך גודל קובץ נמוך.</value>
-  </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 הוא האיכותי ביותר/גודל הקובץ הגדול ביותר ו-31 הוא האיכות הנמוכה ביותר/גודל הקובץ הקטן ביותר.</value>
   </data>
   <data name="lblVideoEncoder.Text" xml:space="preserve">
     <value>מקודד וידאו:</value>

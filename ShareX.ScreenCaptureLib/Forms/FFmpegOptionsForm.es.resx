@@ -152,9 +152,6 @@ Otherwise it can't keep up with recording and a lot of frame drops will happen.<
 Slower prestablecer = Slower encoding but lower archivo tamaño.
 For real time encoding (e.g. grabación de pantalla), the prestablecer must be as fast as possible.</value>
   </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 being highest calidad/largest archivotamaño and 31 being the lowest calidad/smallest archivotamaño.</value>
-  </data>
   <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
     <value>Controla el índice de escala Bayer; una escala más alta mostrará más bandas. El valor predeterminado es 2.</value>
   </data>
@@ -196,9 +193,6 @@ For real time encoding (e.g. grabación de pantalla), the prestablecer must be a
   </data>
   <data name="lblVP8Bitrate.Text" xml:space="preserve">
     <value>Tasa de bits:</value>
-  </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>Tasa de bits variable:</value>
   </data>
   <data name="lblNVENCTune.Text" xml:space="preserve">
     <value>Ajuste:</value>

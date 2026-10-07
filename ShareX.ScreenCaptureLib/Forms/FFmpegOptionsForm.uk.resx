@@ -121,9 +121,6 @@
     <value>Постійний коефіцієнт (CRF): можливий діапазон 0–51, де 0 — без втрат, 30 — типовий, а 51 — найгірший можливий.
 Більше значення означає гіршу якість, проте менший розмір файлу.</value>
   </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>При 1 буде найкраща якість і найбільший розмір файлу, при 31 — найгірша якість і найменший розмір.</value>
-  </data>
   <data name="cbx264Preset.ToolTip" xml:space="preserve">
     <value>Швидший шаблон = швидше кодування, проте більший розмір файлу.
 Повільніший шаблон = повільніше кодування, проте менший розмір файлу.
@@ -141,9 +138,6 @@
   </data>
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>Шаблон:</value>
-  </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>Змінний бітрейт:</value>
   </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Власні команди:</value>

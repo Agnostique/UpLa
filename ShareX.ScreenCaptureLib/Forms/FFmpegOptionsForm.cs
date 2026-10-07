@@ -48,7 +48,7 @@ namespace ShareX.ScreenCaptureLib
             InitializeComponent();
             ShareXResources.ApplyTheme(this, true);
 
-            cbVideoCodec.Items.AddRange(Helpers.GetEnumDescriptions<FFmpegVideoCodec>());
+            cbVideoCodec.Items.AddRange(FFmpegOptions.UplaVideoCodecs.Select(x => x.GetDescription()).ToArray());
             cbAudioCodec.Items.AddRange(Helpers.GetEnumDescriptions<FFmpegAudioCodec>());
             cbx264Preset.Items.AddRange(Helpers.GetEnumDescriptions<FFmpegPreset>());
             cbGIFStatsMode.Items.AddRange(Helpers.GetEnumDescriptions<FFmpegPaletteGenStatsMode>());
@@ -76,7 +76,7 @@ namespace ShareX.ScreenCaptureLib
 
             await RefreshSourcesAsync();
 
-            cbVideoCodec.SelectedIndex = (int)Options.FFmpeg.VideoCodec;
+            cbVideoCodec.SelectedIndex = Math.Max(Array.IndexOf(FFmpegOptions.UplaVideoCodecs, Options.FFmpeg.VideoCodec), 0);
             cbAudioCodec.SelectedIndex = (int)Options.FFmpeg.AudioCodec;
 
             txtUserArgs.Text = Options.FFmpeg.UserArgs;
@@ -89,9 +89,6 @@ namespace ShareX.ScreenCaptureLib
 
             // VPx
             nudVP8Bitrate.SetValue(Options.FFmpeg.VPx_Bitrate);
-
-            // Xvid
-            nudXvidQscale.SetValue(Options.FFmpeg.XviD_QScale);
 
             // NVENC
             nudNVENCBitrate.SetValue(Options.FFmpeg.NVENC_Bitrate);
@@ -190,7 +187,6 @@ namespace ShareX.ScreenCaptureLib
             if (!IsDisposed)
             {
                 cbVideoSource.Items.Clear();
-                cbVideoSource.Items.Add(FFmpegCaptureDevice.None);
                 cbVideoSource.Items.Add(FFmpegCaptureDevice.GDIGrab);
 
                 if (Helpers.IsWindows10OrGreater())
@@ -349,7 +345,7 @@ namespace ShareX.ScreenCaptureLib
 
         private void cbVideoCodec_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Options.FFmpeg.VideoCodec = (FFmpegVideoCodec)cbVideoCodec.SelectedIndex;
+            Options.FFmpeg.VideoCodec = FFmpegOptions.UplaVideoCodecs[Math.Max(cbVideoCodec.SelectedIndex, 0)];
 
             tcFFmpegVideoCodecs.Visible = Options.FFmpeg.VideoCodec != FFmpegVideoCodec.libwebp && Options.FFmpeg.VideoCodec != FFmpegVideoCodec.apng;
 
@@ -364,9 +360,6 @@ namespace ShareX.ScreenCaptureLib
                     case FFmpegVideoCodec.libvpx:
                     case FFmpegVideoCodec.libvpx_vp9:
                         tcFFmpegVideoCodecs.SelectTabWithoutFocus(tpVpx);
-                        break;
-                    case FFmpegVideoCodec.libxvid:
-                        tcFFmpegVideoCodecs.SelectTabWithoutFocus(tpXvid);
                         break;
                     case FFmpegVideoCodec.h264_nvenc:
                     case FFmpegVideoCodec.hevc_nvenc:
@@ -442,12 +435,6 @@ namespace ShareX.ScreenCaptureLib
         private void nudVP8Bitrate_ValueChanged(object sender, EventArgs e)
         {
             Options.FFmpeg.VPx_Bitrate = (int)nudVP8Bitrate.Value;
-            UpdateUI();
-        }
-
-        private void nudQscale_ValueChanged(object sender, EventArgs e)
-        {
-            Options.FFmpeg.XviD_QScale = (int)nudXvidQscale.Value;
             UpdateUI();
         }
 

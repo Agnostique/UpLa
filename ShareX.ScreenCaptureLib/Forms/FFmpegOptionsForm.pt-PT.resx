@@ -122,9 +122,6 @@
 
 Um valor mais alto significa pior qualidade, mas com um tamanho de ficheiro menor.</value>
   </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 sendo melhor qualidade/tamanho maior e 31 sendo pior qualidade/tamanho menor.</value>
-  </data>
   <data name="cbx264Preset.ToolTip" xml:space="preserve">
     <value>Preset rápido = Rápida codificação mas maior tamanho de ficheiro.
 Preset lento = Lenta codificação mas menos tamanho de ficheiro.
@@ -142,9 +139,6 @@ Caso contrário é impossível acompanhar a gravação e irão ocorrer muitas fa
   </data>
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>Predefinição:</value>
-  </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>Taxa de bitrate variável:</value>
   </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Utilizador comandos personalizados</value>

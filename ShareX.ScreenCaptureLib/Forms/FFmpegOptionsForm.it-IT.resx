@@ -120,9 +120,6 @@
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>Preset:</value>
   </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>Bitrate Variabile:</value>
-  </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Usa Comandi Personalizzati</value>
   </data>
@@ -165,10 +162,6 @@
   <data name="pbx264PresetWarning.ToolTip" xml:space="preserve">
     <value>Per la codifica in tempo reale (durante la registrazione) è consigliato selezionare il preset più veloce possibile.
 Altrimenti ci sarà una perdita considerevole di frame.</value>
-  </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>- 01: qualità maggiore (dimensione maggiore).
-- 31: qualità inferiore (dimensione minore).</value>
   </data>
   <data name="nudx264CRF.ToolTip" xml:space="preserve">
     <value>Constant Rate Factor (CRF)

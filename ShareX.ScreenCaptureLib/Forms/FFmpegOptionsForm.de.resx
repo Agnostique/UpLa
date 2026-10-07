@@ -164,14 +164,8 @@ Wenn der Output gut aussieht, dann versuche einen höheren Wert und wenn es dann
   <data name="lblVP8Bitrate.Text" xml:space="preserve">
     <value>Variable Bitrate:</value>
   </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>Variable Bitrate:</value>
-  </data>
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>Voreinstellung:</value>
-  </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 ist die höchste Qualität/Dateigröße und 31 die niedrigste Qualität/kleinste Dateigröße.</value>
   </data>
   <data name="cbx264Preset.ToolTip" xml:space="preserve">
     <value>Schnellere Voreinstellung = Schnelle Encodierung, aber größere Dateien.

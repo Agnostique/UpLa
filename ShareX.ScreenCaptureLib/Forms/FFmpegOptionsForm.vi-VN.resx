@@ -124,9 +124,6 @@
     <value>Nhân tố thừa số không đổi (Constant Rate Factor - CRF): Phạm vi của bộ lượng tử hóa là 0-51: trong đó 0 là lossless (không mất mát thông tin), 30 là mặc định, 51 là tồi nhất.
 Giá trị cao hơn cho kết quả tệ hơn nhưng kích thước tệp sẽ nhỏ hơn</value>
   </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 là chất lượng cao nhất/kích thước tệp lớn nhất và 31 là chất lượng kém nhất/kích thước tệp nhỏ nhất.</value>
-  </data>
   <data name="lblVideoSource.Text" xml:space="preserve">
     <value>Nguồn video:</value>
   </data>
@@ -147,9 +144,6 @@ Giá trị cao hơn cho kết quả tệ hơn nhưng kích thước tệp sẽ n
   </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Sử dụng các lệnh tùy chỉnh</value>
-  </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>Biến bitrate:</value>
   </data>
   <data name="lblVP8Bitrate.Text" xml:space="preserve">
     <value>Biến bitrate:</value>

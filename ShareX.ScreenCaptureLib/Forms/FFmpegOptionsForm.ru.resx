@@ -164,12 +164,6 @@
   <data name="lblVP8Bitrate.Text" xml:space="preserve">
     <value>Bitrate:</value>
   </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>Переменный битрейт:</value>
-  </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 = лучшее качество/наибольший размер файла, а 31 = наихудшее качество/наименьший размер файла.</value>
-  </data>
   <data name="nudx264CRF.ToolTip" xml:space="preserve">
     <value>Однопроходное сжатие (CRF): диапазон масштаба квантизации от 0 до 51, где 0 = без потерь, 23 по умолчанию, а 51 наихудшее из возможных.
 Низкие значения улучшают качество, разумный диапазон субъективно 18-28.

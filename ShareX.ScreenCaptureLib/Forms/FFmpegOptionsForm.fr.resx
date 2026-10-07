@@ -148,12 +148,6 @@ Une valeur élevée signifie une mauvaise qualité d'image mais un fichier lége
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>Préréglage :</value>
   </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>Bitrate variable :</value>
-  </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 étant la qualité la plus élevée/la taille du fichier la plus grande et 31 étant la qualité la plus faible/la taille du fichier la plus petite.</value>
-  </data>
   <data name="cbx264Preset.ToolTip" xml:space="preserve">
     <value>Préréglage rapide = encodage rapide mais fichier lourd.
 Préréglage lent = encodage lent mais fichier léger.

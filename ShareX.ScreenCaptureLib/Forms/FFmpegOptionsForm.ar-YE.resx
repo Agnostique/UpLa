@@ -123,9 +123,6 @@
   <data name="lblVideoEncoder.Text" xml:space="preserve">
     <value>مرمّز الفيديو:</value>
   </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>معدل البٍت:</value>
-  </data>
   <data name="lblCommandLineArgs.Text" xml:space="preserve">
     <value>إعدادات بدء أولية إضافيّة:</value>
   </data>
@@ -209,9 +206,6 @@
   <data name="pbx264PresetWarning.ToolTip" xml:space="preserve">
     <value>للترميز في الوقت الفعلي قم باختيار أسرع تفضيل ممكن حسب قدرات جهازك.
 ما عدا ذلك سيحدث هبوط وفقدان في الإطارات.</value>
-  </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>أعلى جودة قيمتها 1 وأقل جودة قيمتها 31.</value>
   </data>
   <data name="lblQSVBitrate.Text" xml:space="preserve">
     <value>معدل البِت:</value>

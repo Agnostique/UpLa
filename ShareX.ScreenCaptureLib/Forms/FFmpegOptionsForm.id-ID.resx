@@ -159,9 +159,6 @@
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>Pra-atur:</value>
   </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>Laju bit variabel:</value>
-  </data>
   <data name="cbGIFDither.ToolTip" xml:space="preserve">
     <value>Bawaannya adalah sierra2_4a.</value>
   </data>
@@ -175,9 +172,6 @@ Bila tidak, tidak bisa mengikuti rekaman dan banyak frame yang terbuang akan ter
   <data name="nudx264CRF.ToolTip" xml:space="preserve">
     <value>Faktor Laju Konstan (CRF): Nilai bisa antara 0-51, 0 (lossless), 30 (bawaan), dan 51 (terburuk).
 Nilai lebih tinggi berarti kualitas buruk, tetapi ukuran file kecil.</value>
-  </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1=kualitas tinggi/ukuran file besar dan 31=kualitas rendah/ukuran file kecil.</value>
   </data>
   <data name="cbx264Preset.ToolTip" xml:space="preserve">
     <value>Pra-atur cepat = Enkode lebih cepat tetapi ukuran file besar.

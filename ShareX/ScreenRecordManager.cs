@@ -83,6 +83,8 @@ namespace ShareX
 
         private static void StartRecording(ScreenRecordOutput outputType, TaskSettings taskSettings, ScreenRecordStartMethod startMethod = ScreenRecordStartMethod.Region)
         {
+            taskSettings.CaptureSettings.FFmpegOptions.ApplyUplaRestrictions();
+
             if (outputType == ScreenRecordOutput.GIF)
             {
                 taskSettings.CaptureSettings.FFmpegOptions.VideoCodec = FFmpegVideoCodec.gif;

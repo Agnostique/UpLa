@@ -143,14 +143,8 @@ Kaliteyi arttırmak dosya boyutunu arttırır.</value>
   <data name="lblVP8Bitrate.Text" xml:space="preserve">
     <value>Değişken bit hızı:</value>
   </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 en yüksek kalite / en büyük dosya boyutu ve 31 en küçük kalite / en küçük dosya boyutu.</value>
-  </data>
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>Ön ayar:</value>
-  </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>Değişken bit hızı:</value>
   </data>
   <data name="cbx264Preset.ToolTip" xml:space="preserve">
     <value>Hızlı ön ayar = Hızlı kodlama fakat yüksek dosya boyutu.

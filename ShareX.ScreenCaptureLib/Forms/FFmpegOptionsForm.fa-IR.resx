@@ -123,9 +123,6 @@
   <data name="lblVP8Bitrate.Text" xml:space="preserve">
     <value>نرخ بیت متغیر:</value>
   </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>نرخ بیت متغیر:</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>ShareX - تنظیمات ضبط فیلم صفحه</value>
   </data>
@@ -162,9 +159,6 @@ For real time encoding (e.g. ضبط صفحه), the pبازنشانی must be as 
   <data name="nudx264CRF.ToolTip" xml:space="preserve">
     <value>Constant Rate Factor (CRF): The value can be between 0-51, where 0 is lossless, 30 is default, and 51 is the worst possible.
 A higher value means bad quality, but a low فایل size.</value>
-  </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 being highest quality/largest فایلsize and 31 being the lowest quality/smallest فایلsize.</value>
   </data>
   <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
     <value>شاخص مقیاس Bayer را کنترل می‌کند؛ مقیاس بالاتر نواربندی بیشتری نشان می‌دهد. مقدار پیش‌فرض ۲ است.</value>

@@ -121,9 +121,6 @@
     <value>Factor de rată constantă (CRF): Valoarea poate fi cuprinsă între 0-51, unde 0 este fără pierderi, 30 este valoarea implicită, iar 51 este cea mai proastă valoare posibilă.
 O valoare mai mare înseamnă o calitate proastă, dar o dimensiune redusă a fișierului.</value>
   </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 fiind cea mai bună calitate/cea mai mare dimensiune a fișierului și 31 fiind cea mai mică calitate/cea mai mică dimensiune a fișierului.</value>
-  </data>
   <data name="lblCommandLineArgs.Text" xml:space="preserve">
     <value>Argumente suplimentare pentru linia de comandă:</value>
   </data>
@@ -198,9 +195,6 @@ Pentru codificarea în timp real (de exemplu, înregistrarea ecranului), preseta
   </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Utilizare comandă particularizată</value>
-  </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>Rată de biți variabilă:</value>
   </data>
   <data name="lblVideoSource.Text" xml:space="preserve">
     <value>Sursă video:</value>

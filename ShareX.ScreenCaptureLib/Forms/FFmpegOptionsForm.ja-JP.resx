@@ -121,9 +121,6 @@
     <value>CRF (Constant Rate Factor): 範囲は0-51、0 はロスレス、30 が既定、51 は最低画質。
 値が大きいほど画質は悪くなるが、ファイルサイズは小さくなる。</value>
   </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 が最高画質/最大容量、31 が最低画質/最少容量</value>
-  </data>
   <data name="cbx264Preset.ToolTip" xml:space="preserve">
     <value>速い設定 = エンコードは高速だが、ファイルサイズが大きい
 遅い設定 = エンコードは低速だが、ファイルサイズが小さい
@@ -141,9 +138,6 @@
   </data>
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>プリセット:</value>
-  </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>可変ビットレート:</value>
   </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>独自のコマンドラインを使用</value>

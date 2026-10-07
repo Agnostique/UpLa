@@ -149,9 +149,6 @@ Otherwise it can't keep up with felvétel and a lot of frame drops will happen.<
 Slower pvisszaállítás = Slower encoding but lower fájl méret.
 For real time encoding (e.g. képernyőfelvétel), the pvisszaállítás must be as fast as possible.</value>
   </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 being highest minőség/largest fájlméret and 31 being the lowest minőség/smallest fájlméret.</value>
-  </data>
   <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
     <value>Controls the Bayer Scale index, a higher scale will display more banding. Alapértelmezett is 2.</value>
   </data>
@@ -193,9 +190,6 @@ For real time encoding (e.g. képernyőfelvétel), the pvisszaállítás must be
   </data>
   <data name="lblVP8Bitrate.Text" xml:space="preserve">
     <value>Bitráta:</value>
-  </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>Változó bitráta:</value>
   </data>
   <data name="lblNVENCTune.Text" xml:space="preserve">
     <value>Hangolás:</value>

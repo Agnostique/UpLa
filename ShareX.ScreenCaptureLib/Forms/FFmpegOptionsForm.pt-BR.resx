@@ -144,12 +144,6 @@
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>Predefinição:</value>
   </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>Taxa de bits variável:</value>
-  </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 sendo o tamanho de arquivo maior e de melhor qualidade e 31 sendo o tamanho de arquivo menor e pior qualidade.</value>
-  </data>
   <data name="lblGIFStatsMode.Text" xml:space="preserve">
     <value>Modo da paleta:</value>
   </data>

@@ -141,9 +141,6 @@
   <data name="lblx264Preset.Text" xml:space="preserve">
     <value>預設：</value>
   </data>
-  <data name="lblXvidQscale.Text" xml:space="preserve">
-    <value>可變位元率：</value>
-  </data>
   <data name="lblVP8Bitrate.Text" xml:space="preserve">
     <value>可變位元率：</value>
   </data>
@@ -163,9 +160,6 @@
     <value>較快的預設 = 編碼時間較快但檔案較大。
 較慢的預設 = 編碼時間較慢但檔案較小。
 如要即時編碼（例如錄製螢幕），預設的速度越快越好。</value>
-  </data>
-  <data name="nudXvidQscale.ToolTip" xml:space="preserve">
-    <value>1 為最高品質/檔案最大；31 為最低品質/檔案最小。</value>
   </data>
   <data name="pbx264PresetWarning.ToolTip" xml:space="preserve">
     <value>如要即時編碼（例如錄製螢幕），建議選擇較快的預設。
