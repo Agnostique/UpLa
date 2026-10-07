@@ -213,9 +213,6 @@
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Servizi Caricamento File</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Servizi Accorciamento URL</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Servizi Condivisione URL</value>
   </data>
@@ -471,9 +468,6 @@
   <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
     <value>Se gli Appunti contengono un Percorso Cartella, Indicizzala e Carica l'Indice</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>Se gli Appunti contengono un URL, Accorcialo</value>
-  </data>
   <data name="cbWatchFolderEnabled.Text" xml:space="preserve">
     <value>Monitora Cartelle e Carica Nuovi File alla loro Creazione</value>
   </data>
@@ -485,12 +479,6 @@
   </data>
   <data name="cbOverrideScreenshotsFolder.Text" xml:space="preserve">
     <value>Sostituisci cartella screenshot</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>Sostituisci uploader personalizzato predefinito</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>Sostituisci account FTP predefinito</value>
   </data>
   <data name="cbOverrideGeneralSettings.Text" xml:space="preserve">
     <value>Sostituisci impostazioni generali</value>

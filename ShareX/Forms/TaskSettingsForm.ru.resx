@@ -225,9 +225,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>Дублировать</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>Если в буфере находится ссылка, использовать сокращение ссылок</value>
-  </data>
   <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
     <value>Если в буфере находится путь к папке, проиндексировать папку и загрузить индекс</value>
   </data>
@@ -332,9 +329,6 @@
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Сервисы отправки ссылок</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Сервисы коротких ссылок</value>
   </data>
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Сервисы загрузки файлов</value>
@@ -596,12 +590,6 @@
   </data>
   <data name="cbOverrideCaptureSettings.Text" xml:space="preserve">
     <value>Переопределить настройки захвата</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>Переопределить пользовательский сервис</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>Переопределить аккаунт FTP</value>
   </data>
   <data name="cbOverrideGeneralSettings.Text" xml:space="preserve">
     <value>Переопределить общие настройки</value>

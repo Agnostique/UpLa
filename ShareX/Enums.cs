@@ -108,7 +108,6 @@ namespace ShareX
         DataUpload,
         FileUpload,
         TextUpload,
-        ShortenURL,
         ShareURL,
         Download,
         DownloadUpload
@@ -158,7 +157,6 @@ namespace ShareX
     {
         None = 0,
         ShowAfterUploadWindow = 1,
-        UseURLShortener = 1 << 1,
         ShareURL = 1 << 2,
         CopyURLToClipboard = 1 << 3,
         OpenURL = 1 << 4,
@@ -198,13 +196,9 @@ namespace ShareX
         [Category(EnumExtensions.HotkeyType_Category_Upload)]
         ClipboardUploadWithContentViewer,
         [Category(EnumExtensions.HotkeyType_Category_Upload)]
-        UploadText,
-        [Category(EnumExtensions.HotkeyType_Category_Upload)]
         UploadURL,
         [Category(EnumExtensions.HotkeyType_Category_Upload)]
         DragDropUpload,
-        [Category(EnumExtensions.HotkeyType_Category_Upload)]
-        ShortenURL,
         [Category(EnumExtensions.HotkeyType_Category_Upload)]
         StopUploads,
         // Screen capture
@@ -430,8 +424,7 @@ namespace ShareX
         UploadImage,
         UploadVideo,
         UploadAudio,
-        UploadText,
-        ShortenURL
+        UploadText
     }
 
     public enum NotificationSound

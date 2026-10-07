@@ -405,24 +405,9 @@ namespace ShareX
             }
         }
 
-        public void ShortenURL(UrlShortenerType urlShortener)
-        {
-            if (IsItemSelected && SelectedItem.IsURLExist) UploadManager.ShortenURL(SelectedItem.Info.Result.ToString(), urlShortener);
-        }
-
         public void ShareURL(URLSharingServices urlSharingService)
         {
             if (IsItemSelected && SelectedItem.IsURLExist) UploadManager.ShareURL(SelectedItem.Info.Result.ToString(), urlSharingService);
-        }
-
-        public void SearchImageUsingGoogleLens()
-        {
-            if (IsItemSelected && SelectedItem.IsURLExist) TaskHelpers.SearchImageUsingGoogleLens(SelectedItem.Info.Result.URL);
-        }
-
-        public void SearchImageUsingBing()
-        {
-            if (IsItemSelected && SelectedItem.IsURLExist) TaskHelpers.SearchImageUsingBing(SelectedItem.Info.Result.URL);
         }
 
         public void ShowQRCode()

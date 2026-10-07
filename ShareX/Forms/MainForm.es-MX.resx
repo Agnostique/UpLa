@@ -186,17 +186,11 @@
   <data name="tsmiUploadClipboard.Text" xml:space="preserve">
     <value>Subir desde el portapapeles...</value>
   </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Subir texto...</value>
-  </data>
   <data name="tsmiUploadURL.Text" xml:space="preserve">
     <value>Subir desde enlace...</value>
   </data>
   <data name="tsmiUploadDragDrop.Text" xml:space="preserve">
     <value>Arrastrar y soltar para subir...</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>Acortar enlace...</value>
   </data>
   <data name="tsddbUpload.Text" xml:space="preserve">
     <value>Subir</value>
@@ -255,9 +249,6 @@
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Servidores para archivos</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Acortadores de enlaces</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Servicios para compartir enlaces</value>
   </data>
@@ -288,14 +279,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Prueba de subida de imagen</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Prueba de subida de texto</value>
-  </data>
   <data name="tsmiTestFileUpload.Text" xml:space="preserve">
     <value>Prueba de subida de archivo</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>Prueba de acortador de enlaces</value>
   </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>Prueba para compartir enlace</value>
@@ -423,9 +408,6 @@
   <data name="tsmiDeleteSelectedFile.Text" xml:space="preserve">
     <value>Eliminar archivo local...</value>
   </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>Acortar enlace</value>
-  </data>
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>Compartir enlace</value>
   </data>
@@ -492,17 +474,11 @@
   <data name="tsmiTrayUploadClipboard.Text" xml:space="preserve">
     <value>Subir desde el portapapeles...</value>
   </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Subir texto...</value>
-  </data>
   <data name="tsmiTrayUploadURL.Text" xml:space="preserve">
     <value>Subir desde enlace...</value>
   </data>
   <data name="tsmiTrayUploadDragDrop.Text" xml:space="preserve">
     <value>Arrastrar y soltar para subir...</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>Acortar enlace...</value>
   </data>
   <data name="tsmiTrayUpload.Text" xml:space="preserve">
     <value>Subir</value>
@@ -560,9 +536,6 @@
   </data>
   <data name="tsmiTrayFileUploaders.Text" xml:space="preserve">
     <value>Servidores para archivos</value>
-  </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>Acortadores de enlaces</value>
   </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>Servicios para compartir enlaces</value>
@@ -663,9 +636,6 @@
   <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
     <value>Separador de imágenes...</value>
   </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Configuración de servidor personalizado...</value>
-  </data>
   <data name="tsmiImageBeautifier.Text" xml:space="preserve">
     <value>Embellecedor de imágenes...</value>
   </data>
@@ -692,9 +662,6 @@
   </data>
   <data name="tsmiAddImageEffects.Text" xml:space="preserve">
     <value>Añadir efectos de imagen...</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Búsqueda visual de Bing (OCR)...</value>
   </data>
   <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
     <value>Combinar horizontalmente</value>
@@ -753,17 +720,11 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Configuración de destino...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Configuración del cargador personalizado...</value>
-  </data>
   <data name="tsbX.Text" xml:space="preserve">
     <value>Seguir a @ShareX...</value>
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Analizar imagen...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
   </data>
   <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
     <value>Comparador de imágenes...</value>

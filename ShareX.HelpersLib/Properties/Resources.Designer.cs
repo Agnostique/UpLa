@@ -389,15 +389,6 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Shorten URL.
-        /// </summary>
-        internal static string AfterUploadTasks_UseURLShortener {
-            get {
-                return ResourceManager.GetString("AfterUploadTasks_UseURLShortener", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to aardvark
         ///aardwolf
         ///abalone
@@ -683,51 +674,6 @@ namespace ShareX.HelpersLib.Properties {
         internal static string CssFileNameEditor_EditValue_Browse_for_a_Cascading_Style_Sheet___ {
             get {
                 return ResourceManager.GetString("CssFileNameEditor_EditValue_Browse_for_a_Cascading_Style_Sheet___", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to File uploader.
-        /// </summary>
-        internal static string CustomUploaderDestinationType_FileUploader {
-            get {
-                return ResourceManager.GetString("CustomUploaderDestinationType_FileUploader", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Image uploader.
-        /// </summary>
-        internal static string CustomUploaderDestinationType_ImageUploader {
-            get {
-                return ResourceManager.GetString("CustomUploaderDestinationType_ImageUploader", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Text uploader.
-        /// </summary>
-        internal static string CustomUploaderDestinationType_TextUploader {
-            get {
-                return ResourceManager.GetString("CustomUploaderDestinationType_TextUploader", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to URL sharing service.
-        /// </summary>
-        internal static string CustomUploaderDestinationType_URLSharingService {
-            get {
-                return ResourceManager.GetString("CustomUploaderDestinationType_URLSharingService", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to URL shortener.
-        /// </summary>
-        internal static string CustomUploaderDestinationType_URLShortener {
-            get {
-                return ResourceManager.GetString("CustomUploaderDestinationType_URLShortener", resourceCulture);
             }
         }
         
@@ -1070,33 +1016,6 @@ namespace ShareX.HelpersLib.Properties {
         internal static string Extensions_AddContextMenu_Undo {
             get {
                 return ResourceManager.GetString("Extensions_AddContextMenu_Undo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Custom file uploader.
-        /// </summary>
-        internal static string FileDestination_CustomFileUploader {
-            get {
-                return ResourceManager.GetString("FileDestination_CustomFileUploader", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Email.
-        /// </summary>
-        internal static string FileDestination_Email {
-            get {
-                return ResourceManager.GetString("FileDestination_Email", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Shared folder.
-        /// </summary>
-        internal static string FileDestination_SharedFolder {
-            get {
-                return ResourceManager.GetString("FileDestination_SharedFolder", resourceCulture);
             }
         }
         
@@ -1839,15 +1758,6 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Shorten URL.
-        /// </summary>
-        internal static string HotkeyType_ShortenURL {
-            get {
-                return ResourceManager.GetString("HotkeyType_ShortenURL", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Start auto capture using last region.
         /// </summary>
         internal static string HotkeyType_StartAutoCapture {
@@ -1929,15 +1839,6 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Upload text.
-        /// </summary>
-        internal static string HotkeyType_UploadText {
-            get {
-                return ResourceManager.GetString("HotkeyType_UploadText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Upload from URL.
         /// </summary>
         internal static string HotkeyType_UploadURL {
@@ -2015,15 +1916,6 @@ namespace ShareX.HelpersLib.Properties {
         internal static string ImageBeautifierBackgroundType_Transparent {
             get {
                 return ResourceManager.GetString("ImageBeautifierBackgroundType_Transparent", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Custom image uploader.
-        /// </summary>
-        internal static string ImageDestination_CustomImageUploader {
-            get {
-                return ResourceManager.GetString("ImageDestination_CustomImageUploader", resourceCulture);
             }
         }
         
@@ -3511,15 +3403,6 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Custom text uploader.
-        /// </summary>
-        internal static string TextDestination_CustomTextUploader {
-            get {
-                return ResourceManager.GetString("TextDestination_CustomTextUploader", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to File uploader.
         /// </summary>
         internal static string TextDestination_FileUploader {
@@ -3839,83 +3722,11 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Bing visual search.
-        /// </summary>
-        internal static string URLSharingServices_BingVisualSearch {
-            get {
-                return ResourceManager.GetString("URLSharingServices_BingVisualSearch", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Custom URL sharing service.
-        /// </summary>
-        internal static string URLSharingServices_CustomURLSharingService {
-            get {
-                return ResourceManager.GetString("URLSharingServices_CustomURLSharingService", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Email.
-        /// </summary>
-        internal static string URLSharingServices_Email {
-            get {
-                return ResourceManager.GetString("URLSharingServices_Email", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Google Lens.
-        /// </summary>
-        internal static string URLSharingServices_GoogleImageSearch {
-            get {
-                return ResourceManager.GetString("URLSharingServices_GoogleImageSearch", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Custom URL shortener.
-        /// </summary>
-        internal static string UrlShortenerType_CustomURLShortener {
-            get {
-                return ResourceManager.GetString("UrlShortenerType_CustomURLShortener", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Browse for a sound file....
         /// </summary>
         internal static string WavFileNameEditor_EditValue_Browse_for_a_sound_file___ {
             get {
                 return ResourceManager.GetString("WavFileNameEditor_EditValue_Browse_for_a_sound_file___", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Private.
-        /// </summary>
-        internal static string YouTubeVideoPrivacy_Private {
-            get {
-                return ResourceManager.GetString("YouTubeVideoPrivacy_Private", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Public.
-        /// </summary>
-        internal static string YouTubeVideoPrivacy_Public {
-            get {
-                return ResourceManager.GetString("YouTubeVideoPrivacy_Public", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Unlisted.
-        /// </summary>
-        internal static string YouTubeVideoPrivacy_Unlisted {
-            get {
-                return ResourceManager.GetString("YouTubeVideoPrivacy_Unlisted", resourceCulture);
             }
         }
     }

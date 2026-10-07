@@ -120,9 +120,6 @@
   <data name="ShareXIsMinimizedToTheSystemTray" xml:space="preserve">
     <value>ShareX este minimizat în bara de sistem.</value>
   </data>
-  <data name="AutoCaptureForm_UpdateStatus_Timeleft___0_s___1____Total___2_" xml:space="preserve">
-    <value>Timp rămas: {0}s ({1}%) Total: {2}</value>
-  </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>Variabile acceptate: {0} și alte variabile, cum ar fi {1} etc.</value>
   </data>
@@ -146,9 +143,6 @@
   </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>Anulare</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning" xml:space="preserve">
-    <value>Avertisment de încărcare pentru prima dată</value>
   </data>
   <data name="SwitchToThumbnailView" xml:space="preserve">
     <value>Comutați la vizualizare miniaturi</value>
@@ -191,9 +185,6 @@ Doriți să reporniți ShareX?</value>
   <data name="InspectWindow_ClassName" xml:space="preserve">
     <value>Numele clasei</value>
   </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>Scurtător URL: {0}</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>Istoric</value>
   </data>
@@ -212,15 +203,8 @@ Doriți să reporniți ShareX?</value>
   <data name="Program_Run_Unable_to_create_folder_" xml:space="preserve">
     <value>Nu s-a putut crea folderul:</value>
   </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning_text" xml:space="preserve">
-    <value>Sunteți sigur că doriți să încărcați această captură de ecran?
-Apăsați "Nu" pentru a anula încărcarea și pentru a dezactiva încărcarea automată a capturii de ecran.</value>
-  </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>Se încarcă</value>
-  </data>
-  <data name="BeforeUploadControl_AddDestination_Custom" xml:space="preserve">
-    <value>Personalizat</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm_Please_choose_a_destination_" xml:space="preserve">
     <value>Alegeți o destinație.</value>
@@ -254,9 +238,6 @@ Apăsați "Nu" pentru a anula încărcarea și pentru a dezactiva încărcarea a
   </data>
   <data name="InspectWindow_ProcessFileName" xml:space="preserve">
     <value>Numele fișierului de proces</value>
-  </data>
-  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
-    <value>X: {0}, Y: {1}, Lățime: {2}, Înălțime: {3}</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>Doriți să resetați setările ShareX?</value>
@@ -304,9 +285,6 @@ Sunteți sigur că doriți să continuați?</value>
   <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
     <value>Configurația {0} nu este validă sau lipsește. Vă rugăm să verificați fereastra "Setări destinație" pentru a o configura.</value>
   </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>Scurtare URL ({0})</value>
-  </data>
   <data name="ActionsToolbarEditForm_Separator" xml:space="preserve">
     <value>Separator</value>
   </data>
@@ -315,12 +293,6 @@ Sunteți sigur că doriți să continuați?</value>
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>Germană</value>
-  </data>
-  <data name="ChromeForm_btnUnregister_Click_Chrome_support_disabled_" xml:space="preserve">
-    <value>Suport pentru Chrome dezactivat.</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>Test de încărcare text</value>
   </data>
   <data name="InspectWindow_WindowRectangle" xml:space="preserve">
     <value>Dreptunghi fereastră</value>
@@ -363,12 +335,6 @@ Puteți să le dezactivați ulterior din meniul "Sarcini după captură".</value
   <data name="RecentManager_UpdateRecentMenu_Left_click_to_copy_URL_to_clipboard__Right_click_to_open_URL_" xml:space="preserve">
     <value>Click stânga pentru a copia URL-ul în clipboard. Click dreapta pentru a deschide URL-ul.</value>
   </data>
-  <data name="AutoCaptureForm_Execute_Start" xml:space="preserve">
-    <value>Pornire</value>
-  </data>
-  <data name="ChromeForm_btnRegister_Click_Chrome_support_enabled_" xml:space="preserve">
-    <value>Suport pentru Chrome activat.</value>
-  </data>
   <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>Sarcină finalizată</value>
   </data>
@@ -398,9 +364,6 @@ Puteți să le dezactivați ulterior din meniul "Sarcini după captură".</value
   </data>
   <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
     <value>Erori la încărcare</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Stop" xml:space="preserve">
-    <value>Oprire</value>
   </data>
   <data name="ActionsToolbar_Close" xml:space="preserve">
     <value>Închideți</value>
@@ -437,9 +400,6 @@ Doriți să reporniți ShareX?</value>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
     <value>Destinație text: {0}</value>
   </data>
-  <data name="UploadManager_ShowShortenURLDialog_Shorten" xml:space="preserve">
-    <value>Scurtați</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_In_queue" xml:space="preserve">
     <value>În coadă</value>
   </data>
@@ -463,9 +423,6 @@ Doriți să reporniți ShareX?</value>
   </data>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
     <value>Serviciul de distribuire a URL-urilor: {0}</value>
-  </data>
-  <data name="UploadManager_ShowShortenURLDialog_ShortenURL" xml:space="preserve">
-    <value>Scurtați URL-ul</value>
   </data>
   <data name="Confirmation" xml:space="preserve">
     <value>Confirmare</value>

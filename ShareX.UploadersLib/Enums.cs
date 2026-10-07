@@ -23,44 +23,24 @@
 
 #endregion License Information (GPL v3)
 
-using System;
 using System.ComponentModel;
 
 namespace ShareX.UploadersLib
 {
+    // upla.com.tr: upla.com.tr (Chevereto) is the only upload destination. Images can also be sent through the
+    // file uploader, which is upla.com.tr as well; text is sent to upla.com.tr as a file, which it rejects.
+
     [Description("Image uploaders"), DefaultValue(Chevereto)]
     public enum ImageDestination
     {
         [Description("upla.com.tr")]
         Chevereto,
-        CustomImageUploader, // Localized
         FileUploader // Localized
     }
 
-    [Description("Text uploaders"), DefaultValue(Pastebin)]
+    [Description("Text uploaders"), DefaultValue(FileUploader)]
     public enum TextDestination
     {
-        [Description("Pastebin")]
-        Pastebin,
-        [Description("Paste2")]
-        Paste2,
-        [Description("Slexy")]
-        Slexy,
-        [Description("Paste.ee")]
-        Paste_ee,
-        [Description("GitHub Gist")]
-        Gist,
-        [Description("uPaste")]
-        Upaste,
-        [Description("Hastebin")]
-        Hastebin,
-        [Description("OneTimeSecret")]
-        OneTimeSecret,
-        [Description("Pastie")]
-        Pastie,
-        [Description("PrivateBin")]
-        PrivateBin,
-        CustomTextUploader, // Localized
         FileUploader // Localized
     }
 
@@ -68,100 +48,12 @@ namespace ShareX.UploadersLib
     public enum FileDestination
     {
         [Description("upla.com.tr")]
-        Chevereto,
-        [Description("Dropbox")]
-        Dropbox,
-        [Description("FTP")]
-        FTP,
-        [Description("OneDrive")]
-        OneDrive,
-        [Description("Google Drive")]
-        GoogleDrive,
-        [Description("puush")]
-        Puush,
-        [Description("Box")]
-        Box,
-        [Description("Amazon S3")]
-        AmazonS3,
-        [Description("Google Cloud Storage")]
-        GoogleCloudStorage,
-        [Description("Azure Storage")]
-        AzureStorage,
-        [Description("Backblaze B2")]
-        BackblazeB2,
-        [Description("ownCloud / Nextcloud")]
-        OwnCloud,
-        [Description("MediaFire")]
-        MediaFire,
-        [Description("Pushbullet")]
-        Pushbullet,
-        [Description("SendSpace")]
-        SendSpace,
-        [Description("Hostr")]
-        Localhostr,
-        [Description("Lambda")]
-        Lambda,
-        [Description("Pomf")]
-        Pomf,
-        [Description("Uguu")]
-        Uguu,
-        [Description("Seafile")]
-        Seafile,
-        [Description("Streamable")]
-        Streamable,
-        [Description("s-ul")]
-        Sul,
-        [Description("LobFile")]
-        Lithiio,
-        [Description("transfer.sh")]
-        Transfersh,
-        [Description("Plik")]
-        Plik,
-        [Description("YouTube")]
-        YouTube,
-        [Description("Vault.ooo")]
-        Vault_ooo,
-        SharedFolder, // Localized
-        Email, // Localized
-        CustomFileUploader // Localized
+        Chevereto
     }
 
-    [Description("URL shorteners"), DefaultValue(BITLY)]
-    public enum UrlShortenerType
-    {
-        [Description("bit.ly")]
-        BITLY,
-        [Description("is.gd")]
-        ISGD,
-        [Description("v.gd")]
-        VGD,
-        [Description("tinyurl.com")]
-        TINYURL,
-        [Description("turl.ca")]
-        TURL,
-        [Description("yourls.org")]
-        YOURLS,
-        [Description("qr.net")]
-        QRnet,
-        [Description("vurl.com")]
-        VURL,
-        [Description("2.gp")]
-        TwoGP,
-        [Description("Polr")]
-        Polr,
-        [Description("Firebase Dynamic Links")]
-        FirebaseDynamicLinks,
-        [Description("Kutt")]
-        Kutt,
-        [Description("Zero Width Shortener")]
-        ZeroWidthShortener,
-        CustomURLShortener // Localized
-    }
-
-    [Description("URL sharing services"), DefaultValue(Email)]
+    [Description("URL sharing services"), DefaultValue(Facebook)]
     public enum URLSharingServices
     {
-        Email, // Localized
         [Description("Facebook")]
         Facebook,
         [Description("Reddit")]
@@ -172,17 +64,8 @@ namespace ShareX.UploadersLib
         Tumblr,
         [Description("LinkedIn")]
         LinkedIn,
-        [Description("StumbleUpon")]
-        StumbleUpon,
-        [Description("Delicious")]
-        Delicious,
         [Description("VK")]
-        VK,
-        [Description("Pushbullet")]
-        Pushbullet,
-        GoogleImageSearch, // Localized
-        BingVisualSearch, // Localized
-        CustomURLSharingService // Localized
+        VK
     }
 
     public enum HttpMethod
@@ -192,46 +75,6 @@ namespace ShareX.UploadersLib
         PUT,
         PATCH,
         DELETE
-    }
-
-    public enum FTPProtocol
-    {
-        [Description("FTP")]
-        FTP,
-        [Description("FTPS (FTP over SSL)")]
-        FTPS,
-        [Description("SFTP (SSH FTP)")]
-        SFTP
-    }
-
-    public enum BrowserProtocol
-    {
-        [Description("http://")]
-        http,
-        [Description("https://")]
-        https,
-        [Description("ftp://")]
-        ftp,
-        [Description("ftps://")]
-        ftps,
-        [Description("file://")]
-        file,
-        [Description("sftp://")]
-        sftp
-    }
-
-    public enum Privacy
-    {
-        Public,
-        Private
-    }
-
-    public enum AccountType
-    {
-        [Description("Anonymous")]
-        Anonymous,
-        [Description("User")]
-        User
     }
 
     public enum LinkFormatEnum
@@ -258,69 +101,5 @@ namespace ShareX.UploadersLib
         LocalFilePath,
         [Description("Local File path as URI")]
         LocalFilePathUri
-    }
-
-    public enum CustomUploaderBody
-    {
-        [Description("No body")]
-        None,
-        [Description("Form data (multipart/form-data)")]
-        MultipartFormData,
-        [Description("Form URL encoded (application/x-www-form-urlencoded)")]
-        FormURLEncoded,
-        [Description("JSON (application/json)")]
-        JSON,
-        [Description("XML (application/xml)")]
-        XML,
-        [Description("Binary")]
-        Binary
-    }
-
-    [Flags]
-    public enum CustomUploaderDestinationType
-    {
-        [Description("None")]
-        None = 0,
-        ImageUploader = 1, // Localized
-        TextUploader = 1 << 1, // Localized
-        FileUploader = 1 << 2, // Localized
-        URLShortener = 1 << 3, // Localized
-        URLSharingService = 1 << 4 // Localized
-    }
-
-    public enum FTPSEncryption
-    {
-        /// <summary>
-        /// Connection starts in plain text and encryption is enabled with the AUTH command immediately after the server greeting.
-        /// </summary>
-        Explicit,
-        /// <summary>
-        /// Encryption is used from the start of the connection, port 990
-        /// </summary>
-        Implicit
-    }
-
-    public enum OAuthLoginStatus
-    {
-        LoginRequired,
-        LoginSuccessful,
-        LoginFailed
-    }
-
-    public enum YouTubeVideoPrivacy // Localized
-    {
-        Public,
-        Unlisted,
-        Private
-    }
-
-    public enum BoxShareAccessLevel
-    {
-        [Description("Public - People with the link")]
-        Open,
-        [Description("Company - People in your company")]
-        Company,
-        [Description("Collaborators - Invited people only")]
-        Collaborators
     }
 }

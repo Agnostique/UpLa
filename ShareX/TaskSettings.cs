@@ -66,14 +66,7 @@ namespace ShareX
         public TextDestination TextDestination = TextDestination.FileUploader;
         public FileDestination TextFileDestination = FileDestination.Chevereto;
         public FileDestination FileDestination = FileDestination.Chevereto;
-        public UrlShortenerType URLShortenerDestination = UrlShortenerType.BITLY;
-        public URLSharingServices URLSharingServiceDestination = URLSharingServices.Email;
-
-        public bool OverrideFTP = false;
-        public int FTPIndex = 0;
-
-        public bool OverrideCustomUploader = false;
-        public int CustomUploaderIndex = 0;
+        public URLSharingServices URLSharingServiceDestination = URLSharingServices.Facebook;
 
         public bool OverrideScreenshotsFolder = false;
         public string ScreenshotsFolder = "";
@@ -153,7 +146,7 @@ namespace ShareX
         {
             get
             {
-                return UseDefaultAfterCaptureJob && UseDefaultAfterUploadJob && UseDefaultDestinations && !OverrideFTP && !OverrideCustomUploader &&
+                return UseDefaultAfterCaptureJob && UseDefaultAfterUploadJob && UseDefaultDestinations &&
                     !OverrideScreenshotsFolder && UseDefaultGeneralSettings && UseDefaultImageSettings && UseDefaultCaptureSettings && UseDefaultUploadSettings &&
                     UseDefaultActions && UseDefaultToolsSettings && UseDefaultAdvancedSettings && !WatchFolderEnabled;
             }
@@ -210,7 +203,6 @@ namespace ShareX
                     TextDestination = defaultTaskSettings.TextDestination;
                     TextFileDestination = defaultTaskSettings.TextFileDestination;
                     FileDestination = defaultTaskSettings.FileDestination;
-                    URLShortenerDestination = defaultTaskSettings.URLShortenerDestination;
                     URLSharingServiceDestination = defaultTaskSettings.URLSharingServiceDestination;
                 }
 
@@ -440,7 +432,6 @@ namespace ShareX
         #region Upload / Clipboard upload
 
         public bool ClipboardUploadURLContents = false;
-        public bool ClipboardUploadShortenURL = false;
         public bool ClipboardUploadShareURL = false;
         public bool ClipboardUploadAutoIndexFolder = false;
 
@@ -502,14 +493,8 @@ namespace ShareX
         Editor("System.Windows.Forms.Design.StringCollectionEditor,System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", typeof(UITypeEditor))]
         public List<string> TextExtensions { get; set; }
 
-        [Category("Upload"), DefaultValue(false), Description("Copy URL before start upload. Only works for FTP, FTPS, SFTP, Amazon S3, Google Cloud Storage and Azure Storage.")]
-        public bool EarlyCopyURL { get; set; }
-
         [Category("Upload text"), DefaultValue("txt"), Description("File extension when saving text to the local hard disk.")]
         public string TextFileExtension { get; set; }
-
-        [Category("Upload text"), DefaultValue("text"), Description("Text format e.g. csharp, cpp, etc.")]
-        public string TextFormat { get; set; }
 
         [Category("Upload text"), DefaultValue(""), Description("Custom text input. Use %input for text input. Example you can create web page with your text in it."),
         Editor(typeof(MultilineStringEditor), typeof(UITypeEditor))]
@@ -530,9 +515,6 @@ namespace ShareX
 
         [Category("After upload"), DefaultValue("$result"), Description("After upload task \"Open URL\" format. Supported variables: $result, $url, $shorturl, $thumbnailurl, $deletionurl, $filepath, $filename, $filenamenoext, $folderpath, $foldername, $uploadtime and other variables such as %y-%mo-%d etc.")]
         public string OpenURLFormat { get; set; }
-
-        [Category("After upload"), DefaultValue(0), Description("Automatically shorten URL if the URL is longer than the specified number of characters. 0 means automatic URL shortening is not active.")]
-        public int AutoShortenURLLength { get; set; }
 
         [Category("After upload"), DefaultValue(false), Description("After upload form will be automatically closed after 60 seconds.")]
         public bool AutoCloseAfterUploadForm { get; set; }

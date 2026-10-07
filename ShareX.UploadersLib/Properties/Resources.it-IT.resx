@@ -117,118 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="OAuthInfo_OAuthInfo_New_account" xml:space="preserve">
-    <value>Nuovo Account</value>
-  </data>
-  <data name="UploadersConfigForm_LoadSettings_Selected_folder_" xml:space="preserve">
-    <value>Sottocartella selezionata:</value>
-  </data>
-  <data name="UploadersConfigForm_Login_failed" xml:space="preserve">
-    <value>Accesso fallito.</value>
-  </data>
-  <data name="UploadersConfigForm_LoadSettings_Parent_album_path_e_g_" xml:space="preserve">
-    <value>Esempio di percorso album:</value>
-  </data>
-  <data name="UploadersConfigForm_TestCustomUploader_Error__Result_is_empty_" xml:space="preserve">
-    <value>Errore: Risultato vuoto.</value>
-  </data>
-  <data name="UploadersConfigForm_Error" xml:space="preserve">
-    <value>Errore</value>
-  </data>
-  <data name="UploadersConfigForm_TestFTPAccount_Connected_" xml:space="preserve">
-    <value>Connesso!</value>
-  </data>
-  <data name="UploadersConfigForm_PhotobucketCreateAlbum__0__successfully_created_" xml:space="preserve">
-    <value>{0} creato con successo.</value>
-  </data>
-  <data name="UploadersConfigForm_TestFTPAccount_Connected_Created_folders" xml:space="preserve">
-    <value>Connesso!
-
-Cartelle create:</value>
-  </data>
   <data name="CertFileNameEditor_EditValue_Browse_for_a_certificate_file___" xml:space="preserve">
     <value>Cerca un Certificato...</value>
   </data>
-  <data name="UploadersConfigForm_OneDriveAddFolder_Querying_folders___" xml:space="preserve">
-    <value>Consultazione cartelle...</value>
-  </data>
-  <data name="UploadersConfigForm_SendSpaceRegister_SendSpace_Registration___" xml:space="preserve">
-    <value>Registrazione SendSpace</value>
-  </data>
-  <data name="UploadersConfigForm_Login_successful" xml:space="preserve">
-    <value>Accesso eseguito.</value>
-  </data>
-  <data name="UploadersConfigForm_ListFolders_Authentication_required_" xml:space="preserve">
-    <value>Autenticazione richiesta.</value>
-  </data>
   <data name="KeyFileNameEditor_EditValue_Browse_for_a_key_file___" xml:space="preserve">
     <value>Cerca un File Chiave...</value>
-  </data>
-  <data name="UploadersConfigForm_FTPOpenClient_Unable_to_find_valid_FTP_account_" xml:space="preserve">
-    <value>Impossibile trovare una account FTP valido.</value>
-  </data>
-  <data name="TwitterTweetForm_SendTweet_Tweet_error" xml:space="preserve">
-    <value>Errore Tweet</value>
-  </data>
-  <data name="UploadersConfigForm_LoadSettings_Invalid_device_name" xml:space="preserve">
-    <value>Nome dispositivo non valido</value>
-  </data>
-  <data name="UploadersConfigForm_BoxListFolders_Box_refresh_folders_list_failed" xml:space="preserve">
-    <value>Aggiornamento lista cartelle fallito</value>
-  </data>
-  <data name="OneDrive_RootFolder_Root_folder" xml:space="preserve">
-    <value>Cartella Principale</value>
-  </data>
-  <data name="UploadersConfigForm_Remove_all_custom_uploaders_Confirmation" xml:space="preserve">
-    <value>Rimuovere tutti i servizi di caricamento personalizzati?</value>
-  </data>
-  <data name="OAuthControl_OAuthControl_PasteVerificationCodeHere" xml:space="preserve">
-    <value>Incolla Codice di Verifica</value>
-  </data>
-  <data name="UploadersConfigForm_ConnectSFTPAccount_Key_file_not_found" xml:space="preserve">
-    <value>Il file chiave non esiste.</value>
-  </data>
-  <data name="UploadersConfigForm_eiCustomUploaders_ExportRequested_RequestURLMustBeConfigured" xml:space="preserve">
-    <value>"URL Richiesta" deve essere configurato.</value>
-  </data>
-  <data name="UploadersConfigForm_eiCustomUploaders_ExportRequested_DestinationTypeMustBeConfigured" xml:space="preserve">
-    <value>"Tipo Destinazione" deve essere configurato.</value>
-  </data>
-  <data name="CustomUploaderItem_GetRequestURL_RequestURLMustBeConfigured" xml:space="preserve">
-    <value>"URL Richiesta" deve essere configurato.</value>
-  </data>
-  <data name="CustomUploaderItem_GetFileFormName_FileFormNameMustBeConfigured" xml:space="preserve">
-    <value>"Nome Modulo File" deve essere configurato.</value>
-  </data>
-  <data name="UploadersConfigForm_UpdatePastebinStatus_NotLoggedIn" xml:space="preserve">
-    <value>Accesso non effettuato.</value>
-  </data>
-  <data name="UploadersConfigForm_UpdatePastebinStatus_LoggedIn" xml:space="preserve">
-    <value>Accesso effettuato.</value>
-  </data>
-  <data name="OAuthControl_Status_NotLoggedIn" xml:space="preserve">
-    <value>Accesso non effettuato.</value>
-  </data>
-  <data name="OAuthControl_Status_LoggedIn" xml:space="preserve">
-    <value>Accesso effettuato.</value>
-  </data>
-  <data name="OAuthControl_Status_LoginFailed" xml:space="preserve">
-    <value>Accesso non riuscito.</value>
-  </data>
-  <data name="txtB2BucketWatermark" xml:space="preserve">
-    <value>(Opzionale) Usato solo se non hai impostato un bucket quando hai creato la chiave</value>
-  </data>
-  <data name="DuplicateNameNotAllowed" xml:space="preserve">
-    <value>Nome duplicato non consentito.</value>
-  </data>
-  <data name="GoogleDrive_MyDrive_My_drive" xml:space="preserve">
-    <value>Il mio Drive</value>
-  </data>
-  <data name="ExportFailed" xml:space="preserve">
-    <value>Esporta failed.</value>
-  </data>
-  <data name="LoggedInAs0" xml:space="preserve">
-    <value>Accesso effettuato come {0}.</value>
   </data>
   <data name="FormattingFailed_JSON" xml:space="preserve">
     <value>Formattazione non riuscita.</value>
@@ -262,11 +155,5 @@ Cartelle create:</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Errore</value>
-  </data>
-  <data name="Disconnect" xml:space="preserve">
-    <value>Disconnetti</value>
-  </data>
-  <data name="Connect" xml:space="preserve">
-    <value>Connetti...</value>
   </data>
 </root>

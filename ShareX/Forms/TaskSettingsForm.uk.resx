@@ -204,9 +204,6 @@
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Вивантажувачі файлів</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Скорочення посилань</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Служби обміну посиланнями</value>
   </data>
@@ -447,9 +444,6 @@
   <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
     <value>Якщо у буфері шлях до теки, то індексувати цю теку та вивантажити індекс</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>Якщо у буфері посилання, то використовувати скорочення посилань</value>
-  </data>
   <data name="tpUploaderFilters.Text" xml:space="preserve">
     <value>Фільтри вивантажувачів</value>
   </data>
@@ -539,12 +533,6 @@
   </data>
   <data name="cbOverrideUploadSettings.Text" xml:space="preserve">
     <value>Перевизначити налаштування вивантаження</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>Перевизначити власний вивантажувач</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>Перевизначити обліковий запис FTP за замовчуванням</value>
   </data>
   <data name="cbOverrideCaptureSettings.Text" xml:space="preserve">
     <value>Перевизначити налаштування захоплення</value>

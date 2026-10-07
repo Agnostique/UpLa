@@ -225,9 +225,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>Duplizieren</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>Wenn die Zwischenablage eine URL enthält, dann benutze den URL Kürzer</value>
-  </data>
   <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
     <value>Wenn die Zwischenablage einen Ordnerpfad enthält, teile diesen Ordner ein und dann lade die Teile hoch</value>
   </data>
@@ -332,9 +329,6 @@
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>URL-Freigabedienste</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>URL-Kürzer</value>
   </data>
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Dateiuploader</value>
@@ -611,12 +605,6 @@
   </data>
   <data name="lblTask.Text" xml:space="preserve">
     <value>Aufgabe:</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>Standard benutzerdefinierten Uploader überschreiben</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>Standard FTP Account überschreiben</value>
   </data>
   <data name="cbOverrideGeneralSettings.Text" xml:space="preserve">
     <value>Allgemeine Einstellungen überschreiben</value>

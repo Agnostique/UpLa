@@ -177,9 +177,6 @@
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>ファイル アップローダー</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>URL短縮サービス</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>URL共有サービス</value>
   </data>
@@ -393,9 +390,6 @@
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>クリップボードにURLがあれば、自動でURL共有サービスで共有する</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>クリップボードにURLがあれば、自動で短縮URLを作成する</value>
-  </data>
   <data name="tpUploaderFilters.Text" xml:space="preserve">
     <value>アップローダー フィルター</value>
   </data>
@@ -587,12 +581,6 @@
   </data>
   <data name="cbOverrideImageSettings.Text" xml:space="preserve">
     <value>「画像」の設定を上書きする</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>「デフォルトのアップローダー」を変更する</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>「デフォルトのFTPアカウント」を変更する</value>
   </data>
   <data name="cbOverrideToolsSettings.Text" xml:space="preserve">
     <value>「ツール」の設定を変更する</value>

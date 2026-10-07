@@ -210,9 +210,6 @@
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Dateiuploader</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>URL-Kürzer</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>URL-Freigabedienste</value>
   </data>
@@ -243,14 +240,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Bildupload testen</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Textupload testen</value>
-  </data>
   <data name="tsmiTestFileUpload.Text" xml:space="preserve">
     <value>Dateiupload testen</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>URL-Kürzer testen</value>
   </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>URL-Freigabedienst testen</value>
@@ -335,9 +326,6 @@
   </data>
   <data name="tsmiDeleteSelectedFile.Text" xml:space="preserve">
     <value>Datei lokal löschen...</value>
-  </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>URL kürzen</value>
   </data>
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>URL teilen</value>
@@ -428,9 +416,6 @@
   </data>
   <data name="tsmiTrayFileUploaders.Text" xml:space="preserve">
     <value>Dateiuploader</value>
-  </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>URL-Kürzer</value>
   </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>URL-Freigabedienste</value>
@@ -552,23 +537,11 @@
   <data name="tsbDonate.Text" xml:space="preserve">
     <value>Spenden...</value>
   </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>URL kürzen...</value>
-  </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Text hochladen...</value>
-  </data>
   <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
     <value>Bild-Thumbnailer...</value>
   </data>
   <data name="tsmiDeleteSelectedItem.Text" xml:space="preserve">
     <value>Aufgabe aus der Liste entfernen</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>URL kürzen...</value>
-  </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Text hochladen...</value>
   </data>
   <data name="tsmiOpenActionsToolbar.Text" xml:space="preserve">
     <value>Aktionsleiste umschalten</value>
@@ -605,9 +578,6 @@
   </data>
   <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
     <value>Bild-Thumbnailer...</value>
-  </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Benutzerdefinierte Uploader-Einstellungen...</value>
   </data>
   <data name="tsmiTrayScreenshotDelay.Text" xml:space="preserve">
     <value>Screenshot-Verzögerung</value>
@@ -684,9 +654,6 @@
   <data name="tsmiPinSelectedFile.Text" xml:space="preserve">
     <value>An Bildschirm anheften</value>
   </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Visuelle Bing-Suche...</value>
-  </data>
   <data name="tsmiBeautifyImage.Text" xml:space="preserve">
     <value>Bild verschönern...</value>
   </data>
@@ -759,14 +726,8 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Zieleinstellungen...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Benutzerdefinierte Uploader-Einstellungen...</value>
-  </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Bild analysieren...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
   </data>
   <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
     <value>Bildvergleich...</value>

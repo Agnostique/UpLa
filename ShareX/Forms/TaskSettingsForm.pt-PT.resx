@@ -207,9 +207,6 @@
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>Se a área de transferência possuir uma hiperligação então partilhe-a usando um serviço de partilhas de hiperligações</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>Se a área de transferência possuir uma hiperligação então use um encurtador de hiperligações</value>
-  </data>
   <data name="cbClipboardUploadURLContents.Text" xml:space="preserve">
     <value>Se a área de transferência possuir uma hiperligação então transfira-a e faça o envio</value>
   </data>
@@ -522,17 +519,8 @@
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Serviços de partilha de hiperligações</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Encurtador de hiperligações</value>
-  </data>
   <data name="lblTask.Text" xml:space="preserve">
     <value>Tarefa:</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>Substituir carregador personalizado predefinido</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>Substituir conta FTP predefinida</value>
   </data>
   <data name="cbOverrideGeneralSettings.Text" xml:space="preserve">
     <value>Substituir definições gerais</value>

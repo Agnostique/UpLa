@@ -132,9 +132,6 @@
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>当前秒</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>自定义文本上传器</value>
-  </data>
   <data name="ProxyMethod_None" xml:space="preserve">
     <value>无</value>
   </data>
@@ -155,9 +152,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>显示快速任务菜单</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>URL 短链</value>
   </data>
   <data name="ReplCodeMenuEntry_uln_User_login_name" xml:space="preserve">
     <value>用户登录名</value>
@@ -222,14 +216,8 @@
   <data name="DownloaderForm_fileDownloader_DownloadCompleted_Download_completed_" xml:space="preserve">
     <value>下载完成。</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Private" xml:space="preserve">
-    <value>私享</value>
-  </data>
   <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
     <value>分享 URL</value>
-  </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>文件上传</value>
   </data>
   <data name="ReplCodeMenuEntry_h_Current_hour" xml:space="preserve">
     <value>当前小时</value>
@@ -358,17 +346,11 @@
   <data name="Extensions_AddContextMenu_SelectAll" xml:space="preserve">
     <value>全选</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>自定义文件上传</value>
-  </data>
   <data name="LinearGradientMode_Vertical" xml:space="preserve">
     <value>垂直</value>
   </data>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>随机</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>图像上传</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>哈希（Hash）检查</value>
@@ -381,9 +363,6 @@
   </data>
   <data name="HotkeyType_ClipboardUploadWithContentViewer" xml:space="preserve">
     <value>从剪贴板内容查看器上传</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Public" xml:space="preserve">
-    <value>公开</value>
   </data>
   <data name="HSB_ToString_" xml:space="preserve">
     <value>色调: {0:0.0}度，饱和度: {1:0.0}%，亮度: {2:0.0}%</value>
@@ -454,9 +433,6 @@
   <data name="HotkeyType_ScreenRecorderGIF" xml:space="preserve">
     <value>开始/停止屏幕录制（GIF）</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Unlisted" xml:space="preserve">
-    <value>不公开</value>
-  </data>
   <data name="ObjectListView_ObjectListView_Name" xml:space="preserve">
     <value>名称</value>
   </data>
@@ -514,9 +490,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>无扩展名的路径 + "输出文件的扩展名"</value>
   </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Google 图片搜索</value>
-  </data>
   <data name="HotkeyType_IndexFolder" xml:space="preserve">
     <value>索引文件夹</value>
   </data>
@@ -549,9 +522,6 @@
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_CurrentVersion" xml:space="preserve">
     <value>当前版本</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>电子邮箱</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_" xml:space="preserve">
     <value>有一个新版本 {0} 可用.
@@ -626,9 +596,6 @@
   <data name="PastebinExpiration_W1" xml:space="preserve">
     <value>1 周</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>URL 分享服务</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>效果：高亮 (H)</value>
   </data>
@@ -650,9 +617,6 @@
   <data name="CodeMenuEntryFilename_RandomAnimal" xml:space="preserve">
     <value>随机动物</value>
   </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>自定义 URL 分享</value>
-  </data>
   <data name="RegionCaptureAction_CaptureFullscreen" xml:space="preserve">
     <value>截图全屏</value>
   </data>
@@ -664,9 +628,6 @@
   </data>
   <data name="HotkeyType_ImageEditor" xml:space="preserve">
     <value>图像编辑器</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>电子邮箱</value>
   </data>
   <data name="HotkeyType_OpenHistory" xml:space="preserve">
     <value>打开历史记录</value>
@@ -709,9 +670,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>在资源管理器中显示文件</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>自定义图像上传</value>
   </data>
   <data name="HotkeyType_Category_ScreenCapture" xml:space="preserve">
     <value>屏幕截图</value>
@@ -782,9 +740,6 @@
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>复制</value>
   </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>缩短 URL</value>
-  </data>
   <data name="ReplCodeMenuEntry_rf_Random_line_from_file" xml:space="preserve">
     <value>从文件产生随机线条，使用 {filepath} 选取文件</value>
   </data>
@@ -793,9 +748,6 @@
   </data>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>工具</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>共享文件夹</value>
   </data>
   <data name="HotkeyType_ActiveMonitor" xml:space="preserve">
     <value>截图活动显示器</value>
@@ -899,9 +851,6 @@
   <data name="RandomNonAmbiguousAlphanumericCharRepeatUsingN" xml:space="preserve">
     <value>随机的非易混淆字母与数字字符。使用 {n} 表示重复次数</value>
   </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>自定义网址缩短器</value>
-  </data>
   <data name="PastebinPrivacy_Public" xml:space="preserve">
     <value>公开</value>
   </data>
@@ -911,12 +860,6 @@
   <data name="DrawImageSizeMode_PercentageOfWatermark" xml:space="preserve">
     <value>图像百分比</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>缩短 URL</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>文本上传</value>
-  </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>询问</value>
   </data>
@@ -925,9 +868,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>显示"截图后"窗口</value>
-  </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>上传文本</value>
   </data>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>工具：图像裁剪 (C)</value>
@@ -1069,9 +1009,6 @@
   </data>
   <data name="ContentAlignment_BottomRight" xml:space="preserve">
     <value>右下</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>必应可视化搜索</value>
   </data>
   <data name="EDataType_Default" xml:space="preserve">
     <value>默认</value>

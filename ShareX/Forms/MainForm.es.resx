@@ -228,9 +228,6 @@
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Cargadores de archivos</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Acortadores de url</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Servicios para compartir URL</value>
   </data>
@@ -261,14 +258,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Prueba de subida de imágen</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Prueba de subida de texto</value>
-  </data>
   <data name="tsmiTestFileUpload.Text" xml:space="preserve">
     <value>Prueba de subida de archivo</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>Prueba de acortador de URL</value>
   </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>Prueba de compartir URL</value>
@@ -365,9 +356,6 @@
   </data>
   <data name="tsmiDeleteSelectedFile.Text" xml:space="preserve">
     <value>Eliminar archivo localmente</value>
-  </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>Acortar URL</value>
   </data>
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>Compartir URL</value>
@@ -474,9 +462,6 @@
   <data name="tsmiTrayFileUploaders.Text" xml:space="preserve">
     <value>Cargadores de archivos</value>
   </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>Acortadores de URL</value>
-  </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>Servicios para compartir URL</value>
   </data>
@@ -552,12 +537,6 @@
   <data name="tsmiScreenshotDelay.Text" xml:space="preserve">
     <value>Retraso de captura</value>
   </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Subir texto...</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>Acortar URL...</value>
-  </data>
   <data name="tsmiPinToScreen.Text" xml:space="preserve">
     <value>Anclar a la pantalla...</value>
   </data>
@@ -612,9 +591,6 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Configuración de destino...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Configuración del cargador personalizado...</value>
-  </data>
   <data name="tsbDonate.Text" xml:space="preserve">
     <value>Donar...</value>
   </data>
@@ -657,12 +633,6 @@
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Analizar imagen...</value>
   </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Búsqueda visual de Bing...</value>
-  </data>
   <data name="tsmiOCRImage.Text" xml:space="preserve">
     <value>Imagen OCR...</value>
   </data>
@@ -704,12 +674,6 @@
   </data>
   <data name="tsmiTrayScreenshotDelay.Text" xml:space="preserve">
     <value>Retraso de captura</value>
-  </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Subir texto...</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>Acortar URL...</value>
   </data>
   <data name="tsmiTrayPinToScreen.Text" xml:space="preserve">
     <value>Anclar a la pantalla...</value>
@@ -764,9 +728,6 @@
   </data>
   <data name="tsmiTrayToggleHotkeys.Text" xml:space="preserve">
     <value>Deshabilitar teclas de acceso rápido</value>
-  </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Configuración del cargador personalizado...</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>Reiniciar ShareX como administrador</value>

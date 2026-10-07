@@ -55,7 +55,6 @@ namespace ShareX
         public bool IsWorking => Status == TaskStatus.Preparing || Status == TaskStatus.Working || Status == TaskStatus.Stopping;
         public bool StopRequested { get; private set; }
         public bool RequestSettingUpdate { get; private set; }
-        public bool EarlyURLCopied { get; private set; }
         public Stream Data { get; private set; }
         public Bitmap Image { get; private set; }
         public bool KeepImage { get; set; }
@@ -155,16 +154,6 @@ namespace ShareX
             task.Info.DataType = EDataType.Text;
             task.Info.FileName = TaskHelpers.GetFileName(taskSettings, taskSettings.AdvancedSettings.TextFileExtension);
             task.Text = text;
-            return task;
-        }
-
-        public static WorkerTask CreateURLShortenerTask(string url, TaskSettings taskSettings)
-        {
-            WorkerTask task = new WorkerTask(taskSettings);
-            task.Info.Job = TaskJob.ShortenURL;
-            task.Info.DataType = EDataType.URL;
-            task.Info.FileName = string.Format(Resources.UploadTask_CreateURLShortenerTask_Shorten_URL___0__, taskSettings.URLShortenerDestination.GetLocalizedDescription());
-            task.Info.Result.URL = url;
             return task;
         }
 
@@ -329,11 +318,6 @@ namespace ShareX
 
                 Dispose();
 
-                if (EarlyURLCopied && (StopRequested || Info.Result == null || string.IsNullOrEmpty(Info.Result.URL)) && ClipboardHelpers.ContainsText())
-                {
-                    ClipboardHelpers.Clear();
-                }
-
                 if ((Info.Job == TaskJob.Job || (Info.Job == TaskJob.FileUpload && Info.TaskSettings.AdvancedSettings.UseAfterCaptureTasksDuringFileUpload))
                     && Info.TaskSettings.AfterCaptureJob.HasFlag(AfterCaptureTasks.DeleteFile) && !string.IsNullOrEmpty(Info.FilePath) && File.Exists(Info.FilePath))
                 {
@@ -358,12 +342,7 @@ namespace ShareX
         {
             taskReferenceHelper = new TaskReferenceHelper()
             {
-                DataType = Info.DataType,
-                OverrideFTP = Info.TaskSettings.OverrideFTP,
-                FTPIndex = Info.TaskSettings.FTPIndex,
-                OverrideCustomUploader = Info.TaskSettings.OverrideCustomUploader,
-                CustomUploaderIndex = Info.TaskSettings.CustomUploaderIndex,
-                TextFormat = Info.TaskSettings.AdvancedSettings.TextFormat
+                DataType = Info.DataType
             };
         }
 
@@ -871,19 +850,7 @@ namespace ShareX
                     Info.Result.ForceHTTPS();
                 }
 
-                if (Info.Job != TaskJob.ShareURL && (Info.TaskSettings.AfterUploadJob.HasFlag(AfterUploadTasks.UseURLShortener) || Info.Job == TaskJob.ShortenURL ||
-                    (Info.TaskSettings.AdvancedSettings.AutoShortenURLLength > 0 && Info.Result.URL.Length > Info.TaskSettings.AdvancedSettings.AutoShortenURLLength)))
-                {
-                    UploadResult result = ShortenURL(Info.Result.URL);
-
-                    if (result != null)
-                    {
-                        Info.Result.ShortenedURL = result.ShortenedURL;
-                        Info.Result.Errors.Add(result.Errors);
-                    }
-                }
-
-                if (Info.Job != TaskJob.ShortenURL && (Info.TaskSettings.AfterUploadJob.HasFlag(AfterUploadTasks.ShareURL) || Info.Job == TaskJob.ShareURL))
+                if (Info.TaskSettings.AfterUploadJob.HasFlag(AfterUploadTasks.ShareURL) || Info.Job == TaskJob.ShareURL)
                 {
                     UploadResult result = ShareURL(Info.Result.ToString());
 
@@ -960,15 +927,6 @@ namespace ShareX
                 uploader.BufferSize = (int)Math.Pow(2, Program.Settings.BufferSizePower) * 1024;
                 uploader.ProgressChanged += uploader_ProgressChanged;
 
-                if (Info.TaskSettings.AfterUploadJob.HasFlag(AfterUploadTasks.CopyURLToClipboard) && Info.TaskSettings.AdvancedSettings.EarlyCopyURL)
-                {
-                    uploader.EarlyURLCopyRequested += url =>
-                    {
-                        ClipboardHelpers.CopyText(url);
-                        EarlyURLCopied = true;
-                    };
-                }
-
                 fileName = URLHelpers.RemoveBidiControlCharacters(fileName);
 
                 if (Info.TaskSettings.UploadSettings.FileUploadReplaceProblematicCharacters)
@@ -1029,25 +987,6 @@ namespace ShareX
             FileUploaderService service = UploaderFactory.FileUploaderServices[Info.TaskSettings.GetFileDestinationByDataType(Info.DataType)];
 
             return UploadData(service, stream, fileName);
-        }
-
-        public UploadResult ShortenURL(string url)
-        {
-            URLShortenerService service = UploaderFactory.URLShortenerServices[Info.TaskSettings.URLShortenerDestination];
-
-            if (!service.CheckConfig(Program.UploadersConfig))
-            {
-                return GetInvalidConfigResult(service);
-            }
-
-            URLShortener urlShortener = service.CreateShortener(Program.UploadersConfig, taskReferenceHelper);
-
-            if (urlShortener != null)
-            {
-                return urlShortener.ShortenURL(url);
-            }
-
-            return null;
         }
 
         public UploadResult ShareURL(string url)

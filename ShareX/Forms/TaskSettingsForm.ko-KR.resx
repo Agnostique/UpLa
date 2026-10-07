@@ -216,9 +216,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>복제</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>클립보드가 URL을 포함하고 있으면 URL 단축기를 사용하기</value>
-  </data>
   <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
     <value>클립보드가 폴더 경로를 포함하고 있으면 폴더 색인을 생성하고 그 색인을 업로드하기</value>
   </data>
@@ -317,9 +314,6 @@
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>URL 공유 서비스</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>URL 단축기</value>
   </data>
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>파일 업로더</value>
@@ -506,12 +500,6 @@
   </data>
   <data name="cbOverrideScreenshotsFolder.Text" xml:space="preserve">
     <value>스크린샷 폴더 재정의</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>기본 사용자 지정 업로더 재정의</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>기본 FTP 계정 재정의</value>
   </data>
   <data name="cbOverrideGeneralSettings.Text" xml:space="preserve">
     <value>일반 설정 재정의</value>

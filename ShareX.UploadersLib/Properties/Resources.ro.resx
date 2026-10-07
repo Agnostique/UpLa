@@ -117,117 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="OAuthInfo_OAuthInfo_New_account" xml:space="preserve">
-    <value>Cont nou</value>
-  </data>
-  <data name="UploadersConfigForm_LoadSettings_Selected_folder_" xml:space="preserve">
-    <value>Folder selectat:</value>
-  </data>
-  <data name="UploadersConfigForm_Login_failed" xml:space="preserve">
-    <value>Autentificarea a eșuat.</value>
-  </data>
-  <data name="UploadersConfigForm_LoadSettings_Parent_album_path_e_g_" xml:space="preserve">
-    <value>Calea albumului părinte, de exemplu:</value>
-  </data>
-  <data name="UploadersConfigForm_TestCustomUploader_Error__Result_is_empty_" xml:space="preserve">
-    <value>Eroare: Rezultatul este gol.</value>
-  </data>
-  <data name="UploadersConfigForm_Error" xml:space="preserve">
-    <value>Eroare</value>
-  </data>
-  <data name="UploadersConfigForm_TestFTPAccount_Connected_" xml:space="preserve">
-    <value>Conectat!</value>
-  </data>
-  <data name="UploadersConfigForm_PhotobucketCreateAlbum__0__successfully_created_" xml:space="preserve">
-    <value>{0} a fost creat cu succes.</value>
-  </data>
-  <data name="UploadersConfigForm_TestFTPAccount_Connected_Created_folders" xml:space="preserve">
-    <value>Conectat!
-Foldere create:</value>
-  </data>
   <data name="CertFileNameEditor_EditValue_Browse_for_a_certificate_file___" xml:space="preserve">
     <value>Răsfoiți un fișier de certificat...</value>
   </data>
-  <data name="UploadersConfigForm_OneDriveAddFolder_Querying_folders___" xml:space="preserve">
-    <value>Interogare foldere...</value>
-  </data>
-  <data name="UploadersConfigForm_SendSpaceRegister_SendSpace_Registration___" xml:space="preserve">
-    <value>Înregistrare SendSpace</value>
-  </data>
-  <data name="UploadersConfigForm_Login_successful" xml:space="preserve">
-    <value>Autentificare reușită.</value>
-  </data>
-  <data name="UploadersConfigForm_ListFolders_Authentication_required_" xml:space="preserve">
-    <value>Este necesară autentificarea.</value>
-  </data>
   <data name="KeyFileNameEditor_EditValue_Browse_for_a_key_file___" xml:space="preserve">
     <value>Răsfoiți un fișier cheie...</value>
-  </data>
-  <data name="UploadersConfigForm_FTPOpenClient_Unable_to_find_valid_FTP_account_" xml:space="preserve">
-    <value>Nu se poate găsi un cont FTP valid.</value>
-  </data>
-  <data name="TwitterTweetForm_SendTweet_Tweet_error" xml:space="preserve">
-    <value>Eroare de Tweet</value>
-  </data>
-  <data name="UploadersConfigForm_LoadSettings_Invalid_device_name" xml:space="preserve">
-    <value>Nume dispozitiv invalid</value>
-  </data>
-  <data name="UploadersConfigForm_BoxListFolders_Box_refresh_folders_list_failed" xml:space="preserve">
-    <value>Reîmprospătarea folderelor Boc a eșuat</value>
-  </data>
-  <data name="OneDrive_RootFolder_Root_folder" xml:space="preserve">
-    <value>Folder rădăcină</value>
-  </data>
-  <data name="UploadersConfigForm_Remove_all_custom_uploaders_Confirmation" xml:space="preserve">
-    <value>Îndepărtați toate destinațiile personalizate?</value>
-  </data>
-  <data name="OAuthControl_OAuthControl_PasteVerificationCodeHere" xml:space="preserve">
-    <value>Lipiți codul de verificare aici</value>
-  </data>
-  <data name="UploadersConfigForm_ConnectSFTPAccount_Key_file_not_found" xml:space="preserve">
-    <value>Fișierul cheie nu există.</value>
-  </data>
-  <data name="UploadersConfigForm_eiCustomUploaders_ExportRequested_RequestURLMustBeConfigured" xml:space="preserve">
-    <value>"URL cerere" trebuie să fie configurat.</value>
-  </data>
-  <data name="UploadersConfigForm_eiCustomUploaders_ExportRequested_DestinationTypeMustBeConfigured" xml:space="preserve">
-    <value>"Tipul destinației" trebuie să fie configurat.</value>
-  </data>
-  <data name="CustomUploaderItem_GetRequestURL_RequestURLMustBeConfigured" xml:space="preserve">
-    <value>"URL de cerere" trebuie să fie configurat.</value>
-  </data>
-  <data name="CustomUploaderItem_GetFileFormName_FileFormNameMustBeConfigured" xml:space="preserve">
-    <value>"Numele formei fișierului" trebuie să fie configurat.</value>
-  </data>
-  <data name="UploadersConfigForm_UpdatePastebinStatus_NotLoggedIn" xml:space="preserve">
-    <value>Nu sunteți conectat.</value>
-  </data>
-  <data name="UploadersConfigForm_UpdatePastebinStatus_LoggedIn" xml:space="preserve">
-    <value>Conectat.</value>
-  </data>
-  <data name="OAuthControl_Status_NotLoggedIn" xml:space="preserve">
-    <value>Nu sunteți conectat.</value>
-  </data>
-  <data name="OAuthControl_Status_LoggedIn" xml:space="preserve">
-    <value>Conectat.</value>
-  </data>
-  <data name="OAuthControl_Status_LoginFailed" xml:space="preserve">
-    <value>Autentificarea a eșuat.</value>
-  </data>
-  <data name="txtB2BucketWatermark" xml:space="preserve">
-    <value>(Opțional) Se utilizează numai dacă nu ați setat un bucket atunci când ați creat cheia</value>
-  </data>
-  <data name="DuplicateNameNotAllowed" xml:space="preserve">
-    <value>Numele duplicat nu este permis.</value>
-  </data>
-  <data name="GoogleDrive_MyDrive_My_drive" xml:space="preserve">
-    <value>Drive-ul meu</value>
-  </data>
-  <data name="ExportFailed" xml:space="preserve">
-    <value>Exportul a eșuat.</value>
-  </data>
-  <data name="LoggedInAs0" xml:space="preserve">
-    <value>Conectat ca {0}.</value>
   </data>
   <data name="FormattingFailed_JSON" xml:space="preserve">
     <value>Formatarea a eșuat.</value>
@@ -261,11 +155,5 @@ Foldere create:</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Eroare</value>
-  </data>
-  <data name="Disconnect" xml:space="preserve">
-    <value>Deconectare</value>
-  </data>
-  <data name="Connect" xml:space="preserve">
-    <value>Conectează...</value>
   </data>
 </root>

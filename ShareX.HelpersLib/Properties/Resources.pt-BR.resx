@@ -132,9 +132,6 @@
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>Segundo atual</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>Serviço de upload de texto personalizado</value>
-  </data>
   <data name="ProxyMethod_None" xml:space="preserve">
     <value>Nenhum</value>
   </data>
@@ -155,9 +152,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>Mostrar menu de tarefas rápidas</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>Encurtador de URL</value>
   </data>
   <data name="ReplCodeMenuEntry_uln_User_login_name" xml:space="preserve">
     <value>Usuário</value>
@@ -222,14 +216,8 @@
   <data name="DownloaderForm_fileDownloader_DownloadCompleted_Download_completed_" xml:space="preserve">
     <value>Download completo.</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Private" xml:space="preserve">
-    <value>Privado</value>
-  </data>
   <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
     <value>Compartilhar URL</value>
-  </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>Carregador de arquivo</value>
   </data>
   <data name="ReplCodeMenuEntry_h_Current_hour" xml:space="preserve">
     <value>Hora atual</value>
@@ -358,17 +346,11 @@ Gostaria de baixá-la?</value>
   <data name="Extensions_AddContextMenu_SelectAll" xml:space="preserve">
     <value>Selecionar tudo</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>Serviço de upload de arquivo personalizado</value>
-  </data>
   <data name="LinearGradientMode_Vertical" xml:space="preserve">
     <value>Vertical</value>
   </data>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Aleatório</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>Envio de imagem</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>Verificação de hash</value>
@@ -381,9 +363,6 @@ Gostaria de baixá-la?</value>
   </data>
   <data name="HotkeyType_ClipboardUploadWithContentViewer" xml:space="preserve">
     <value>Upload da área de transferência com visualizador de conteúdo</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Public" xml:space="preserve">
-    <value>Público</value>
   </data>
   <data name="HSB_ToString_" xml:space="preserve">
     <value>Matiz: {0:0.0}°, Saturação: {1:0.0}%, Brilho: {2:0.0}%</value>
@@ -454,9 +433,6 @@ Gostaria de baixá-la?</value>
   <data name="HotkeyType_ScreenRecorderGIF" xml:space="preserve">
     <value>Gravar tela (GIF)</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Unlisted" xml:space="preserve">
-    <value>Não listado</value>
-  </data>
   <data name="ObjectListView_ObjectListView_Name" xml:space="preserve">
     <value>Nome</value>
   </data>
@@ -514,9 +490,6 @@ Gostaria de baixá-la?</value>
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Local do arquivo sem extensão</value>
   </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Pesquisa de imagens do Google</value>
-  </data>
   <data name="HotkeyType_IndexFolder" xml:space="preserve">
     <value>Arquivador de pastas</value>
   </data>
@@ -549,9 +522,6 @@ Gostaria de baixá-la?</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_CurrentVersion" xml:space="preserve">
     <value>Versão atual</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>Email</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_" xml:space="preserve">
     <value>Uma nova versão do {0} está disponível.
@@ -626,9 +596,6 @@ Você gostaria de baixar e instalar?</value>
   <data name="PastebinExpiration_W1" xml:space="preserve">
     <value>1 Semana</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>Serviço de compartilhamento de URL</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>Efeito: Realçar</value>
   </data>
@@ -650,9 +617,6 @@ Você gostaria de baixar e instalar?</value>
   <data name="CodeMenuEntryFilename_RandomAnimal" xml:space="preserve">
     <value>Animal aleatório</value>
   </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>Serviço de compartilhamento de URL personalizado</value>
-  </data>
   <data name="RegionCaptureAction_CaptureFullscreen" xml:space="preserve">
     <value>Capturar tela cheia</value>
   </data>
@@ -664,9 +628,6 @@ Você gostaria de baixar e instalar?</value>
   </data>
   <data name="HotkeyType_ImageEditor" xml:space="preserve">
     <value>Editor de imagem</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>Email</value>
   </data>
   <data name="HotkeyType_OpenHistory" xml:space="preserve">
     <value>Abrir janela de histórico</value>
@@ -709,9 +670,6 @@ Você gostaria de baixar e instalar?</value>
   </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>Mostrar arquivo no Explorer</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>Serviço de upload de imagem personalizado</value>
   </data>
   <data name="HotkeyType_Category_ScreenCapture" xml:space="preserve">
     <value>Capturar tela</value>
@@ -782,9 +740,6 @@ Você gostaria de baixar e instalar?</value>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Copiar</value>
   </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>Encurtar URL</value>
-  </data>
   <data name="ReplCodeMenuEntry_rf_Random_line_from_file" xml:space="preserve">
     <value>Linha aleatória de um arquivo. Use {filepath} para determinar o arquivo</value>
   </data>
@@ -793,9 +748,6 @@ Você gostaria de baixar e instalar?</value>
   </data>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>Ferramentas</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>Pasta compartilhada</value>
   </data>
   <data name="HotkeyType_ActiveMonitor" xml:space="preserve">
     <value>Capturar monitor ativo</value>
@@ -899,9 +851,6 @@ Você gostaria de baixar e instalar?</value>
   <data name="RandomNonAmbiguousAlphanumericCharRepeatUsingN" xml:space="preserve">
     <value>Caractere alfanumérico aleatório não ambíguo. Repita usando {n}</value>
   </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>Encurtador de URLs customizado</value>
-  </data>
   <data name="PastebinPrivacy_Public" xml:space="preserve">
     <value>Público</value>
   </data>
@@ -911,12 +860,6 @@ Você gostaria de baixar e instalar?</value>
   <data name="DrawImageSizeMode_PercentageOfWatermark" xml:space="preserve">
     <value>Porcentagem da imagem</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>Encurtar URL</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>Envio de texto</value>
-  </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>Perguntar o que fazer</value>
   </data>
@@ -925,9 +868,6 @@ Você gostaria de baixar e instalar?</value>
   </data>
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>Mostrar janela "Pós-captura"</value>
-  </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>Enviar texto</value>
   </data>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>Cortar Imagem</value>
@@ -1069,9 +1009,6 @@ Você gostaria de baixar e instalar?</value>
   </data>
   <data name="ContentAlignment_BottomRight" xml:space="preserve">
     <value>Inferior direito</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Pesquisa visual do Bing</value>
   </data>
   <data name="EDataType_Default" xml:space="preserve">
     <value>Padrão</value>

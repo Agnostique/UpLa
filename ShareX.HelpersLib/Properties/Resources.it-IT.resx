@@ -132,9 +132,6 @@
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>Secondo Corrente</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>Servizio Caricamento Testo Personalizzato</value>
-  </data>
   <data name="ProxyMethod_None" xml:space="preserve">
     <value>Nessuno</value>
   </data>
@@ -152,9 +149,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>Mostra Menu Operazioni Veloci</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>Servizio Accorciamento URL</value>
   </data>
   <data name="ReplCodeMenuEntry_uln_User_login_name" xml:space="preserve">
     <value>Nome Utente per l'Accesso</value>
@@ -218,9 +212,6 @@
   </data>
   <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
     <value>Condividi URL</value>
-  </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>Servizio Caricamento File</value>
   </data>
   <data name="ReplCodeMenuEntry_h_Current_hour" xml:space="preserve">
     <value>Ora Corrente</value>
@@ -337,17 +328,11 @@ Vuoi scaricarla ora?</value>
   <data name="AfterUploadTasks_ShowAfterUploadWindow" xml:space="preserve">
     <value>Mostra Finestra "Dopo il Caricamento"</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>Servizio Caricamento File Personalizzato</value>
-  </data>
   <data name="LinearGradientMode_Vertical" xml:space="preserve">
     <value>Verticale</value>
   </data>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Casuale</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>Servizio Caricamento Immagine</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>Controlla Hash</value>
@@ -472,9 +457,6 @@ Vuoi scaricarla ora?</value>
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Percorso File senza Estensione</value>
   </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Ricerca Immagini Google</value>
-  </data>
   <data name="HotkeyType_IndexFolder" xml:space="preserve">
     <value>Indicizza Cartella</value>
   </data>
@@ -504,9 +486,6 @@ Vuoi scaricarla ora?</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_CurrentVersion" xml:space="preserve">
     <value>Versione Attuale</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>Email</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_" xml:space="preserve">
     <value>È disponibile una nuova versione di {0}.
@@ -557,9 +536,6 @@ Vuoi scaricarla e installarla ora?</value>
   <data name="PastebinExpiration_W1" xml:space="preserve">
     <value>1 Settimana</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>Servizio Condivisione URL</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>Effetto: Evidenzia</value>
   </data>
@@ -578,9 +554,6 @@ Vuoi scaricarla e installarla ora?</value>
   <data name="Error" xml:space="preserve">
     <value>Errore</value>
   </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>Servizio Condivisione URL Personalizzato</value>
-  </data>
   <data name="RegionCaptureAction_CaptureFullscreen" xml:space="preserve">
     <value>Cattura Schermo intero</value>
   </data>
@@ -592,9 +565,6 @@ Vuoi scaricarla e installarla ora?</value>
   </data>
   <data name="HotkeyType_ImageEditor" xml:space="preserve">
     <value>Editor Immagini</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>Email</value>
   </data>
   <data name="HotkeyType_OpenHistory" xml:space="preserve">
     <value>Apri Finestra Cronologia</value>
@@ -628,9 +598,6 @@ Vuoi scaricarla e installarla ora?</value>
   </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>Mostra File in Explorer</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>Servizio Caricamento Immagini Personalizzato</value>
   </data>
   <data name="HotkeyType_Category_ScreenCapture" xml:space="preserve">
     <value>Cattura Schermo</value>
@@ -698,17 +665,11 @@ Vuoi scaricarla e installarla ora?</value>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Copia</value>
   </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>Accorcia URL</value>
-  </data>
   <data name="DownloaderForm_StartDownload_Cancel" xml:space="preserve">
     <value>Annulla</value>
   </data>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>Strumenti</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>Cartella Condivisa</value>
   </data>
   <data name="HotkeyType_ActiveMonitor" xml:space="preserve">
     <value>Cattura Monitor Attivo</value>
@@ -797,20 +758,11 @@ Vuoi scaricarla e installarla ora?</value>
   <data name="ShapeType_DrawingTextBackground" xml:space="preserve">
     <value>Disegna: Testo (Sfondo)</value>
   </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>Servizio Accorciamento URL Personalizzato</value>
-  </data>
   <data name="PastebinPrivacy_Public" xml:space="preserve">
     <value>Pubblico</value>
   </data>
   <data name="FileExistAction_Overwrite" xml:space="preserve">
     <value>Sovrascrivi File</value>
-  </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>Accorcia URL</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>Servizio Caricamento Testo</value>
   </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>Chiedi cosa fare</value>
@@ -820,9 +772,6 @@ Vuoi scaricarla e installarla ora?</value>
   </data>
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>Mostra Finestra "Dopo la Cattura"</value>
-  </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>Carica Testo</value>
   </data>
   <data name="HotkeyType_UploadURL" xml:space="preserve">
     <value>Carica da URL</value>
@@ -851,9 +800,6 @@ Vuoi scaricarla e installarla ora?</value>
   <data name="DrawImageSizeMode_PercentageOfCanvas" xml:space="preserve">
     <value>Percentuale della tela</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Private" xml:space="preserve">
-    <value>Privato</value>
-  </data>
   <data name="ShapeType_DrawingSmartEraser" xml:space="preserve">
     <value>Gomma intelligente</value>
   </data>
@@ -866,17 +812,11 @@ Vuoi scaricarla e installarla ora?</value>
   <data name="Extensions_AddContextMenu_SelectAll" xml:space="preserve">
     <value>Seleziona tutto</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Public" xml:space="preserve">
-    <value>Pubblico</value>
-  </data>
   <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
     <value>Immagine miniaturaer</value>
   </data>
   <data name="ImageEditorStartMode_PreviousState" xml:space="preserve">
     <value>Stato precedente</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Unlisted" xml:space="preserve">
-    <value>Non in elenco</value>
   </data>
   <data name="ObjectListView_ObjectListView_Name" xml:space="preserve">
     <value>Nome</value>
@@ -1075,9 +1015,6 @@ Vuoi scaricarla e installarla ora?</value>
   </data>
   <data name="ContentAlignment_BottomRight" xml:space="preserve">
     <value>Basso destra</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Ricerca visiva Bing</value>
   </data>
   <data name="EDataType_Default" xml:space="preserve">
     <value>Predefinito</value>

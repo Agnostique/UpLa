@@ -331,7 +331,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnScreenshotsFolderBrowse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>464, 399</value>
+    <value>464, 287</value>
   </data>
   <data name="btnScreenshotsFolderBrowse.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 23</value>
@@ -355,7 +355,7 @@
     <value>1</value>
   </data>
   <data name="txtScreenshotsFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 400</value>
+    <value>8, 288</value>
   </data>
   <data name="txtScreenshotsFolder.Size" type="System.Drawing.Size, System.Drawing">
     <value>448, 20</value>
@@ -382,7 +382,7 @@
     <value>NoControl</value>
   </data>
   <data name="cbOverrideScreenshotsFolder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 376</value>
+    <value>8, 264</value>
   </data>
   <data name="cbOverrideScreenshotsFolder.Size" type="System.Drawing.Size, System.Drawing">
     <value>155, 17</value>
@@ -404,108 +404,6 @@
   </data>
   <data name="&gt;&gt;cbOverrideScreenshotsFolder.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="cbCustomUploaders.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 344</value>
-  </data>
-  <data name="cbCustomUploaders.Size" type="System.Drawing.Size, System.Drawing">
-    <value>552, 21</value>
-  </data>
-  <data name="cbCustomUploaders.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;cbCustomUploaders.Name" xml:space="preserve">
-    <value>cbCustomUploaders</value>
-  </data>
-  <data name="&gt;&gt;cbCustomUploaders.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbCustomUploaders.Parent" xml:space="preserve">
-    <value>tpTask</value>
-  </data>
-  <data name="&gt;&gt;cbCustomUploaders.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="cbOverrideCustomUploader.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="cbOverrideCustomUploader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 320</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 17</value>
-  </data>
-  <data name="cbOverrideCustomUploader.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>Override default custom uploader</value>
-  </data>
-  <data name="&gt;&gt;cbOverrideCustomUploader.Name" xml:space="preserve">
-    <value>cbOverrideCustomUploader</value>
-  </data>
-  <data name="&gt;&gt;cbOverrideCustomUploader.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbOverrideCustomUploader.Parent" xml:space="preserve">
-    <value>tpTask</value>
-  </data>
-  <data name="&gt;&gt;cbOverrideCustomUploader.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="cbOverrideFTPAccount.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="cbOverrideFTPAccount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 264</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>166, 17</value>
-  </data>
-  <data name="cbOverrideFTPAccount.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>Override default FTP account</value>
-  </data>
-  <data name="&gt;&gt;cbOverrideFTPAccount.Name" xml:space="preserve">
-    <value>cbOverrideFTPAccount</value>
-  </data>
-  <data name="&gt;&gt;cbOverrideFTPAccount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbOverrideFTPAccount.Parent" xml:space="preserve">
-    <value>tpTask</value>
-  </data>
-  <data name="&gt;&gt;cbOverrideFTPAccount.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="cbFTPAccounts.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 288</value>
-  </data>
-  <data name="cbFTPAccounts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>552, 21</value>
-  </data>
-  <data name="cbFTPAccounts.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;cbFTPAccounts.Name" xml:space="preserve">
-    <value>cbFTPAccounts</value>
-  </data>
-  <data name="&gt;&gt;cbFTPAccounts.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbFTPAccounts.Parent" xml:space="preserve">
-    <value>tpTask</value>
-  </data>
-  <data name="&gt;&gt;cbFTPAccounts.ZOrder" xml:space="preserve">
-    <value>7</value>
   </data>
   <data name="btnAfterCapture.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -593,12 +491,6 @@
   </data>
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>File uploaders</value>
-  </data>
-  <data name="tsmiURLShorteners.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>URL shorteners</value>
   </data>
   <data name="tsmiURLSharingServices.Size" type="System.Drawing.Size, System.Drawing">
     <value>181, 22</value>
@@ -6159,36 +6051,6 @@
   <data name="&gt;&gt;cbClipboardUploadAutoIndexFolder.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="cbClipboardUploadShortenURL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="cbClipboardUploadShortenURL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 32</value>
-  </data>
-  <data name="cbClipboardUploadShortenURL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>271, 17</value>
-  </data>
-  <data name="cbClipboardUploadShortenURL.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>If clipboard contains a URL then use URL shortener</value>
-  </data>
-  <data name="&gt;&gt;cbClipboardUploadShortenURL.Name" xml:space="preserve">
-    <value>cbClipboardUploadShortenURL</value>
-  </data>
-  <data name="&gt;&gt;cbClipboardUploadShortenURL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbClipboardUploadShortenURL.Parent" xml:space="preserve">
-    <value>tpUploadClipboard</value>
-  </data>
-  <data name="&gt;&gt;cbClipboardUploadShortenURL.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="tpUploadClipboard.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 24</value>
   </data>
@@ -7516,12 +7378,6 @@
     <value>tsmiFileUploaders</value>
   </data>
   <data name="&gt;&gt;tsmiFileUploaders.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiURLShorteners.Name" xml:space="preserve">
-    <value>tsmiURLShorteners</value>
-  </data>
-  <data name="&gt;&gt;tsmiURLShorteners.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsmiURLSharingServices.Name" xml:space="preserve">

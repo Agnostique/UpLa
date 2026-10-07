@@ -52,14 +52,6 @@ namespace ShareX
         private static readonly string ShellExtEditIcon = $"{ApplicationPath},0";
         private static readonly string ShellExtEditPath = $"{ApplicationPath} -ImageEditor \"%1\"";
 
-        private static readonly string ShellCustomUploaderExtensionPath = @"Software\Classes\.sxcu";
-        private static readonly string ShellCustomUploaderExtensionValue = "ShareX.sxcu";
-        private static readonly string ShellCustomUploaderAssociatePath = $@"Software\Classes\{ShellCustomUploaderExtensionValue}";
-        private static readonly string ShellCustomUploaderAssociateValue = "ShareX custom uploader";
-        private static readonly string ShellCustomUploaderIconPath = $@"{ShellCustomUploaderAssociatePath}\DefaultIcon";
-        private static readonly string ShellCustomUploaderIconValue = $"{FileIconPath}";
-        private static readonly string ShellCustomUploaderCommandPath = $@"{ShellCustomUploaderAssociatePath}\shell\open\command";
-        private static readonly string ShellCustomUploaderCommandValue = $"{ApplicationPath} -CustomUploader \"%1\"";
 
         private static readonly string ShellImageEffectExtensionPath = @"Software\Classes\.sxie";
         private static readonly string ShellImageEffectExtensionValue = "ShareX.sxie";
@@ -171,57 +163,6 @@ namespace ShareX
         private static void UnregisterEditShellContextMenuButton()
         {
             RegistryHelpers.RemoveRegistry(ShellExtEditImage);
-        }
-
-        public static bool CheckCustomUploaderExtension()
-        {
-            try
-            {
-                return RegistryHelpers.CheckStringValue(ShellCustomUploaderExtensionPath, null, ShellCustomUploaderExtensionValue) &&
-                    RegistryHelpers.CheckStringValue(ShellCustomUploaderCommandPath, null, ShellCustomUploaderCommandValue);
-            }
-            catch (Exception e)
-            {
-                DebugHelper.WriteException(e);
-            }
-
-            return false;
-        }
-
-        public static void CreateCustomUploaderExtension(bool create)
-        {
-            try
-            {
-                if (create)
-                {
-                    UnregisterCustomUploaderExtension();
-                    RegisterCustomUploaderExtension();
-                }
-                else
-                {
-                    UnregisterCustomUploaderExtension();
-                }
-            }
-            catch (Exception e)
-            {
-                DebugHelper.WriteException(e);
-            }
-        }
-
-        private static void RegisterCustomUploaderExtension()
-        {
-            RegistryHelpers.CreateRegistry(ShellCustomUploaderExtensionPath, ShellCustomUploaderExtensionValue);
-            RegistryHelpers.CreateRegistry(ShellCustomUploaderAssociatePath, ShellCustomUploaderAssociateValue);
-            RegistryHelpers.CreateRegistry(ShellCustomUploaderIconPath, ShellCustomUploaderIconValue);
-            RegistryHelpers.CreateRegistry(ShellCustomUploaderCommandPath, ShellCustomUploaderCommandValue);
-
-            NativeMethods.SHChangeNotify(HChangeNotifyEventID.SHCNE_ASSOCCHANGED, HChangeNotifyFlags.SHCNF_FLUSH, IntPtr.Zero, IntPtr.Zero);
-        }
-
-        private static void UnregisterCustomUploaderExtension()
-        {
-            RegistryHelpers.RemoveRegistry(ShellCustomUploaderExtensionPath);
-            RegistryHelpers.RemoveRegistry(ShellCustomUploaderAssociatePath);
         }
 
         public static bool CheckImageEffectExtension()
@@ -409,7 +350,6 @@ namespace ShareX
             StartupManager.State = StartupState.Disabled;
             CreateShellContextMenuButton(false);
             CreateEditShellContextMenuButton(false);
-            CreateCustomUploaderExtension(false);
             CreateImageEffectExtension(false);
             CreateSendToMenuButton(false);
             UnregisterChromeExtensionSupport();

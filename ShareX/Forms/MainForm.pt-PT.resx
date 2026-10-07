@@ -405,12 +405,6 @@
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>Partilhar hiperligação</value>
   </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>Encutar hiperligação</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>Encutar hiperligação...</value>
-  </data>
   <data name="tsmiShowCursor.Text" xml:space="preserve">
     <value>Mostrar o cursos</value>
   </data>
@@ -438,14 +432,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Teste: Enviar imagem</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Teste: Enviar texto</value>
-  </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>Teste: Partilha de hiperligação</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>Teste: Encurtar hiperligação</value>
   </data>
   <data name="tsmiTextUploaders.Text" xml:space="preserve">
     <value>Envio de texto</value>
@@ -467,9 +455,6 @@
   </data>
   <data name="tsmiTrayColorPicker.Text" xml:space="preserve">
     <value>Seleccionar cores...</value>
-  </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Definições personalizadas de envio...</value>
   </data>
   <data name="tsmiTrayDestinations.Text" xml:space="preserve">
     <value>Destinos</value>
@@ -576,9 +561,6 @@
   <data name="tsmiTrayScrollingCapture.Text" xml:space="preserve">
     <value>Captura em acção...</value>
   </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>Encutar hiperligação...</value>
-  </data>
   <data name="tsmiTrayShow.Text" xml:space="preserve">
     <value>Abrir janela principal</value>
   </data>
@@ -612,17 +594,11 @@
   <data name="tsmiTrayUploadFolder.Text" xml:space="preserve">
     <value>Envio de pasta...</value>
   </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Envio de texto...</value>
-  </data>
   <data name="tsmiTrayUploadURL.Text" xml:space="preserve">
     <value>Envio através de hiperligação...</value>
   </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>Serviços de compartilhamento de hiperligações</value>
-  </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>Encutadores de hiperligações</value>
   </data>
   <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
     <value>Conversores de vídeo...</value>
@@ -651,17 +627,11 @@
   <data name="tsmiUploadSelectedFile.Text" xml:space="preserve">
     <value>Enviar</value>
   </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Enviar texto...</value>
-  </data>
   <data name="tsmiUploadURL.Text" xml:space="preserve">
     <value>Enviar através de hiperligação...</value>
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Serviços de compartilhamento de hiperligações</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Encurtadores de hiperligações</value>
   </data>
   <data name="tsmiVideoConverter.Text" xml:space="preserve">
     <value>Conversores de vídeo...</value>
@@ -708,9 +678,6 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Definições de destino...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Definições do carregador personalizado...</value>
-  </data>
   <data name="tsbX.Text" xml:space="preserve">
     <value>Seguir @ShareX...</value>
   </data>
@@ -725,12 +692,6 @@
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Analisar imagem...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Pesquisa visual do Bing...</value>
   </data>
   <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
     <value>Combinar horizontalmente</value>

@@ -51,7 +51,6 @@ namespace ShareX
                     case TaskJob.DataUpload:
                     case TaskJob.FileUpload:
                     case TaskJob.TextUpload:
-                    case TaskJob.ShortenURL:
                     case TaskJob.ShareURL:
                     case TaskJob.DownloadUpload:
                         return true;
@@ -129,12 +128,7 @@ namespace ShareX
                                     return TaskSettings.FileDestination.GetLocalizedDescription();
                             }
                         case EDataType.URL:
-                            if (Job == TaskJob.ShareURL)
-                            {
-                                return TaskSettings.URLSharingServiceDestination.GetLocalizedDescription();
-                            }
-
-                            return TaskSettings.URLShortenerDestination.GetLocalizedDescription();
+                            return TaskSettings.URLSharingServiceDestination.GetLocalizedDescription();
                     }
                 }
 

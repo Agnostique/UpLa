@@ -126,9 +126,6 @@
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>Segundo actual</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>Cargador de texto personalizado</value>
-  </data>
   <data name="ProxyMethod_None" xml:space="preserve">
     <value>Ninguno</value>
   </data>
@@ -224,9 +221,6 @@
   </data>
   <data name="GIFQuality_Bit4" xml:space="preserve">
     <value>16 colores de Octree cuantificador</value>
-  </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>Cargador de archivos personalizado</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>Verificación hash</value>
@@ -327,9 +321,6 @@
   <data name="Helpers_OpenFolder_Folder_not_exist_" xml:space="preserve">
     <value>Carpeta no existe:</value>
   </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>Email</value>
-  </data>
   <data name="UpdateMessageBox_UpdateMessageBox_" xml:space="preserve">
     <value>Una nueva versión de {0} está disponible.
 ¿Quieres descargar e instalarlo?</value>
@@ -370,9 +361,6 @@
   <data name="DownloaderForm_DownloaderForm_Waiting_" xml:space="preserve">
     <value>Esperando.</value>
   </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>Email</value>
-  </data>
   <data name="HotkeyType_RectangleLight" xml:space="preserve">
     <value>Capturar región rectángulo (ligero)</value>
   </data>
@@ -381,9 +369,6 @@
   </data>
   <data name="HotkeyType_FileUpload" xml:space="preserve">
     <value>Subir archivo</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>Cargador de imágenes personalizados</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_No" xml:space="preserve">
     <value>No</value>
@@ -436,17 +421,11 @@
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Copiar</value>
   </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>Acortar URL</value>
-  </data>
   <data name="ReplCodeMenuEntry_rf_Random_line_from_file" xml:space="preserve">
     <value>Línea aleatorio de un archivo. Usa {ruta} para indicar el archivo</value>
   </data>
   <data name="DownloaderForm_StartDownload_Cancel" xml:space="preserve">
     <value>Cancelar</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>Carpeta compartida</value>
   </data>
   <data name="HotkeyType_ActiveMonitor" xml:space="preserve">
     <value>Capturar monitor activo</value>
@@ -499,9 +478,6 @@
   <data name="ReplCodeMenuEntry_height_Gets_image_height" xml:space="preserve">
     <value>Altura de la imagen</value>
   </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>Acortador de URL personalizado</value>
-  </data>
   <data name="FileExistAction_Overwrite" xml:space="preserve">
     <value>Sobrescribir archivo</value>
   </data>
@@ -544,9 +520,6 @@
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>Show quick task menú</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>Acortador de URL</value>
-  </data>
   <data name="ShapeType_DrawingImageScreen" xml:space="preserve">
     <value>Imagen (Pantalla)</value>
   </data>
@@ -579,12 +552,6 @@
   </data>
   <data name="HotkeyType_ImageCombiner" xml:space="preserve">
     <value>Imagen combiner</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Private" xml:space="preserve">
-    <value>Privado</value>
-  </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>Archivo subidaer</value>
   </data>
   <data name="ReplCodeMenuEntry_ix_Auto_increment_hexadecimal" xml:space="preserve">
     <value>Auto increment hexadecimal (0 pad izquierda using {n})</value>
@@ -665,14 +632,8 @@ Would you like to descarga it?</value>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Aleatorio</value>
   </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>Imagen subidaer</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>Iniciar/Detener grabación de pantalla using active ventana región</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Public" xml:space="preserve">
-    <value>Público</value>
   </data>
   <data name="PastebinExpiration_N" xml:space="preserve">
     <value>Nunca</value>
@@ -704,9 +665,6 @@ Would you like to descarga it?</value>
   <data name="ShapeType_RegionEllipse" xml:space="preserve">
     <value>Ellipse región</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Unlisted" xml:space="preserve">
-    <value>No listado</value>
-  </data>
   <data name="ObjectListView_ObjectListView_Name" xml:space="preserve">
     <value>Nombre</value>
   </data>
@@ -736,9 +694,6 @@ Would you like to descarga it?</value>
   </data>
   <data name="ImageEditorStartMode_Fullscreen" xml:space="preserve">
     <value>Fullpantalla</value>
-  </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Google Lens</value>
   </data>
   <data name="ScreenRecordGIFEncoding_FFmpeg" xml:space="preserve">
     <value>FFmpeg (Good calidad)</value>
@@ -797,9 +752,6 @@ Would you like to descarga it?</value>
   <data name="PastebinExpiration_W1" xml:space="preserve">
     <value>1 semana</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>URL sharing servicio</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>Resaltar (H)</value>
   </data>
@@ -811,9 +763,6 @@ Would you like to descarga it?</value>
   </data>
   <data name="CodeMenuEntryFilename_RandomAnimal" xml:space="preserve">
     <value>Animal aleatorio</value>
-  </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>Personalizado URL sharing servicio</value>
   </data>
   <data name="RegionCaptureAction_CaptureFullscreen" xml:space="preserve">
     <value>Captura fullpantalla</value>
@@ -935,20 +884,11 @@ Would you like to descarga it?</value>
   <data name="DrawImageSizeMode_PercentageOfWatermark" xml:space="preserve">
     <value>Percentage of imagen</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>Acortar URL</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>Text subidaer</value>
-  </data>
   <data name="UpdateMessageBox_UpdateMessageBox_LatestVersion" xml:space="preserve">
     <value>Última versión</value>
   </data>
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>Show "After captura" ventana</value>
-  </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>Subir text</value>
   </data>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>Crop imagen (C)</value>
@@ -1075,9 +1015,6 @@ Would you like to descarga it?</value>
   </data>
   <data name="ContentAlignment_BottomRight" xml:space="preserve">
     <value>Inferior derecha</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Búsqueda visual de Bing</value>
   </data>
   <data name="EDataType_Default" xml:space="preserve">
     <value>Predeterminado</value>

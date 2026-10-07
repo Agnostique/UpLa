@@ -96,17 +96,11 @@ namespace ShareX
                 case HotkeyType.ClipboardUploadWithContentViewer:
                     UploadManager.ClipboardUploadWithContentViewer(safeTaskSettings);
                     break;
-                case HotkeyType.UploadText:
-                    UploadManager.ShowTextUploadDialog(safeTaskSettings);
-                    break;
                 case HotkeyType.UploadURL:
                     UploadManager.UploadURL(safeTaskSettings);
                     break;
                 case HotkeyType.DragDropUpload:
                     OpenDropWindow(safeTaskSettings);
-                    break;
-                case HotkeyType.ShortenURL:
-                    UploadManager.ShowShortenURLDialog(safeTaskSettings);
                     break;
                 case HotkeyType.StopUploads:
                     TaskManager.StopAllTasks();
@@ -1650,16 +1644,6 @@ namespace ShareX
             RegionCaptureTasks.ShowScreenRuler(taskSettings.CaptureSettings.SurfaceOptions);
         }
 
-        public static void SearchImageUsingGoogleLens(string url)
-        {
-            new GoogleLensSharingService().CreateSharer(null, null).ShareURL(url);
-        }
-
-        public static void SearchImageUsingBing(string url)
-        {
-            new BingVisualSearchSharingService().CreateSharer(null, null).ShareURL(url);
-        }
-
         public static async Task OCRImage(TaskSettings taskSettings = null)
         {
             if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
@@ -2004,25 +1988,6 @@ namespace ShareX
             }
         }
 
-        public static void OpenCustomUploaderSettingsWindow()
-        {
-            SettingManager.WaitUploadersConfig();
-
-            bool firstInstance = !CustomUploaderSettingsForm.IsInstanceActive;
-
-            CustomUploaderSettingsForm form = CustomUploaderSettingsForm.GetFormInstance(Program.UploadersConfig);
-
-            if (firstInstance)
-            {
-                form.FormClosed += (sender, e) => SettingManager.SaveUploadersConfigAsync();
-                form.Show();
-            }
-            else
-            {
-                form.ForceActivate();
-            }
-        }
-
         public static Image FindMenuIcon<T>(T value) where T : Enum
         {
             if (value is AfterCaptureTasks afterCaptureTask)
@@ -2059,7 +2024,6 @@ namespace ShareX
                 {
                     default: throw new Exception("Icon missing for after upload task: " + afterUploadTask);
                     case AfterUploadTasks.ShowAfterUploadWindow: return Resources.application_browser;
-                    case AfterUploadTasks.UseURLShortener: return ShareXResources.IsDarkTheme ? Resources.edit_scale_white : Resources.edit_scale;
                     case AfterUploadTasks.ShareURL: return Resources.globe_share;
                     case AfterUploadTasks.CopyURLToClipboard: return Resources.clipboard_paste_document_text;
                     case AfterUploadTasks.OpenURL: return Resources.globe__arrow;
@@ -2077,10 +2041,8 @@ namespace ShareX
                     case HotkeyType.FolderUpload: return Resources.folder;
                     case HotkeyType.ClipboardUpload: return Resources.clipboard;
                     case HotkeyType.ClipboardUploadWithContentViewer: return Resources.clipboard_task;
-                    case HotkeyType.UploadText: return Resources.notebook;
                     case HotkeyType.UploadURL: return Resources.drive;
                     case HotkeyType.DragDropUpload: return Resources.inbox;
-                    case HotkeyType.ShortenURL: return ShareXResources.IsDarkTheme ? Resources.edit_scale_white : Resources.edit_scale;
                     case HotkeyType.StopUploads: return Resources.cross_button;
                     // Screen capture
                     case HotkeyType.PrintScreen: return Resources.layer_fullscreen;
@@ -2284,12 +2246,6 @@ namespace ShareX
                             if (!string.IsNullOrEmpty(nativeMessagingInput.Text))
                             {
                                 UploadManager.UploadText(nativeMessagingInput.Text, taskSettings);
-                            }
-                            break;
-                        case NativeMessagingAction.ShortenURL:
-                            if (!string.IsNullOrEmpty(nativeMessagingInput.URL))
-                            {
-                                UploadManager.ShortenURL(nativeMessagingInput.URL, taskSettings);
                             }
                             break;
                     }

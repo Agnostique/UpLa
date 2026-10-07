@@ -186,17 +186,11 @@
   <data name="tsmiUploadClipboard.Text" xml:space="preserve">
     <value>Unggah dari papan klip...</value>
   </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Unggah teks...</value>
-  </data>
   <data name="tsmiUploadURL.Text" xml:space="preserve">
     <value>Unggah dari URL...</value>
   </data>
   <data name="tsmiUploadDragDrop.Text" xml:space="preserve">
     <value>Unggah seret dan jatuhkan...</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>Persingkat URL...</value>
   </data>
   <data name="tsddbUpload.Text" xml:space="preserve">
     <value>Unggah</value>
@@ -285,14 +279,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Uji unggahan gambar</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Uji unggahan teks</value>
-  </data>
   <data name="tsmiTestFileUpload.Text" xml:space="preserve">
     <value>Uji unggahan file</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>Uji penyingkat URL</value>
   </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>Uji berbagi URL</value>
@@ -420,9 +408,6 @@
   <data name="tsmiDeleteSelectedFile.Text" xml:space="preserve">
     <value>Hapus file secara lokal...</value>
   </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>Persingkat URL</value>
-  </data>
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>Bagikan URL</value>
   </data>
@@ -489,17 +474,11 @@
   <data name="tsmiTrayUploadClipboard.Text" xml:space="preserve">
     <value>Unggah dari papan klip...</value>
   </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Unggah teks...</value>
-  </data>
   <data name="tsmiTrayUploadURL.Text" xml:space="preserve">
     <value>Unggah dari teks...</value>
   </data>
   <data name="tsmiTrayUploadDragDrop.Text" xml:space="preserve">
     <value>Unggah seret dan jatuhkan...</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>Persingkat URL</value>
   </data>
   <data name="tsmiTrayUpload.Text" xml:space="preserve">
     <value>Unggah</value>
@@ -558,9 +537,6 @@
   <data name="tsmiTrayFileUploaders.Text" xml:space="preserve">
     <value>Pengunggah file</value>
   </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>Penyingkat URL</value>
-  </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>Layanan berbagi URL</value>
   </data>
@@ -602,9 +578,6 @@
   </data>
   <data name="tsmiOpenActionsToolbar.Text" xml:space="preserve">
     <value>Alihkan bilah alat tindakan</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Penyingkat URL</value>
   </data>
   <data name="tsmiScreenshotDelay0.Text" xml:space="preserve">
     <value>Tanpa jeda</value>
@@ -669,9 +642,6 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Pengaturan tujuan...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Pengaturan pengunggah kustom...</value>
-  </data>
   <data name="tsbX.Text" xml:space="preserve">
     <value>Ikuti @ShareX...</value>
   </data>
@@ -692,12 +662,6 @@
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Analisis gambar...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Pencarian visual Bing...</value>
   </data>
   <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
     <value>Gabungkan secara horizontal</value>
@@ -767,9 +731,6 @@
   </data>
   <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
     <value>Periksa jendela...</value>
-  </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Pengaturan pengunggah kustom...</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>Mulai ulang ShareX sebagai admin</value>

@@ -132,9 +132,6 @@
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>Al doilea</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>Destinație de text personalizat</value>
-  </data>
   <data name="ProxyMethod_None" xml:space="preserve">
     <value>Nici unul</value>
   </data>
@@ -155,9 +152,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>Afișați meniul de sarcini rapide</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>Scurtător URL</value>
   </data>
   <data name="ReplCodeMenuEntry_uln_User_login_name" xml:space="preserve">
     <value>Numele de utilizator</value>
@@ -222,14 +216,8 @@
   <data name="DownloaderForm_fileDownloader_DownloadCompleted_Download_completed_" xml:space="preserve">
     <value>Descărcare finalizată.</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Private" xml:space="preserve">
-    <value>Privat</value>
-  </data>
   <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
     <value>Distribuiți URL-ul</value>
-  </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>Destinație de fișiere</value>
   </data>
   <data name="ReplCodeMenuEntry_h_Current_hour" xml:space="preserve">
     <value>Ora</value>
@@ -358,17 +346,11 @@ Doriți să o descărcați?</value>
   <data name="Extensions_AddContextMenu_SelectAll" xml:space="preserve">
     <value>Selectați tot</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>Destinație de fișiere personalizată</value>
-  </data>
   <data name="LinearGradientMode_Vertical" xml:space="preserve">
     <value>Vertical</value>
   </data>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Aleatoriu</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>Destinație de imagini</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>Verificare hash</value>
@@ -381,9 +363,6 @@ Doriți să o descărcați?</value>
   </data>
   <data name="HotkeyType_ClipboardUploadWithContentViewer" xml:space="preserve">
     <value>Încărcați din clipboard cu vizualizatorul de conținut</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Public" xml:space="preserve">
-    <value>Public</value>
   </data>
   <data name="HSB_ToString_" xml:space="preserve">
     <value>Hue: {0:0.0}°, Saturație: {1:0.0}%, Luminozitate: {2:0.0}%</value>
@@ -454,9 +433,6 @@ Doriți să o descărcați?</value>
   <data name="HotkeyType_ScreenRecorderGIF" xml:space="preserve">
     <value>Porniți/opriți înregistrarea ecranului (GIF)</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Unlisted" xml:space="preserve">
-    <value>Nelistat</value>
-  </data>
   <data name="ObjectListView_ObjectListView_Name" xml:space="preserve">
     <value>Nume</value>
   </data>
@@ -514,9 +490,6 @@ Doriți să o descărcați?</value>
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Calea fișierului cu extensia numelui fișierului de ieșire</value>
   </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Căutarea imaginilor pe Google</value>
-  </data>
   <data name="HotkeyType_IndexFolder" xml:space="preserve">
     <value>Indexer de directoare</value>
   </data>
@@ -549,9 +522,6 @@ Doriți să o descărcați?</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_CurrentVersion" xml:space="preserve">
     <value>Versiunea curentă</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>Email</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_" xml:space="preserve">
     <value>Este disponibilă o versiune mai nouă a {0}.
@@ -626,9 +596,6 @@ Doriți să o descărcați și să o instalați?</value>
   <data name="PastebinExpiration_W1" xml:space="preserve">
     <value>1 săptămână</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>Serviciul de partajare a URL-urilor</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>Evidențiere (H)</value>
   </data>
@@ -650,9 +617,6 @@ Doriți să o descărcați și să o instalați?</value>
   <data name="CodeMenuEntryFilename_RandomAnimal" xml:space="preserve">
     <value>Animal aleatoriu</value>
   </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>Serviciu personalizat de partajare a URL-urilor</value>
-  </data>
   <data name="RegionCaptureAction_CaptureFullscreen" xml:space="preserve">
     <value>Captură pe ecran complet</value>
   </data>
@@ -664,9 +628,6 @@ Doriți să o descărcați și să o instalați?</value>
   </data>
   <data name="HotkeyType_ImageEditor" xml:space="preserve">
     <value>Editor de imagini</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>Email</value>
   </data>
   <data name="HotkeyType_OpenHistory" xml:space="preserve">
     <value>Deschideți fereastra de istoric</value>
@@ -709,9 +670,6 @@ Doriți să o descărcați și să o instalați?</value>
   </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>Afișați fișierul în explorer</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>Destinație de imagini personalizată</value>
   </data>
   <data name="HotkeyType_Category_ScreenCapture" xml:space="preserve">
     <value>Captură de ecran</value>
@@ -782,9 +740,6 @@ Doriți să o descărcați și să o instalați?</value>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Copiere</value>
   </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>Scurtați URL-ul</value>
-  </data>
   <data name="ReplCodeMenuEntry_rf_Random_line_from_file" xml:space="preserve">
     <value>Linie aleatorie dintr-un fișier (Folosiți {filepath} pentru a determina fișierul)</value>
   </data>
@@ -793,9 +748,6 @@ Doriți să o descărcați și să o instalați?</value>
   </data>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>Instrumente</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>Folder partajat</value>
   </data>
   <data name="HotkeyType_ActiveMonitor" xml:space="preserve">
     <value>Capturarea monitorului activ</value>
@@ -899,9 +851,6 @@ Doriți să o descărcați și să o instalați?</value>
   <data name="RandomNonAmbiguousAlphanumericCharRepeatUsingN" xml:space="preserve">
     <value>Caractere alfanumerice aleatorii și neambigue (se repetă folosind {n})</value>
   </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>Scurtător URL personalizat</value>
-  </data>
   <data name="PastebinPrivacy_Public" xml:space="preserve">
     <value>Public</value>
   </data>
@@ -911,12 +860,6 @@ Doriți să o descărcați și să o instalați?</value>
   <data name="DrawImageSizeMode_PercentageOfWatermark" xml:space="preserve">
     <value>Procentul de imagine</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>Scurtarea URL-ului</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>Destinație de text</value>
-  </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>Întrebați ce trebuie să faceți</value>
   </data>
@@ -925,9 +868,6 @@ Doriți să o descărcați și să o instalați?</value>
   </data>
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>Afișați fereastra "După captură"</value>
-  </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>Încărcați text</value>
   </data>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>Tăiere imagine (C)</value>
@@ -1069,9 +1009,6 @@ Doriți să o descărcați și să o instalați?</value>
   </data>
   <data name="ContentAlignment_BottomRight" xml:space="preserve">
     <value>Dreapta jos</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Căutarea vizuală Bing</value>
   </data>
   <data name="EDataType_Default" xml:space="preserve">
     <value>Implicit</value>

@@ -183,12 +183,6 @@
   <data name="cbOverrideScreenshotsFolder.Text" xml:space="preserve">
     <value>Suprascrieți folderul de capturi</value>
   </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>Suprascrieți destinația personalizată implicitî</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>Suprascrieți contul FTP implicit</value>
-  </data>
   <data name="btnAfterCapture.Text" xml:space="preserve">
     <value>După capturare...</value>
   </data>
@@ -206,9 +200,6 @@
   </data>
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Destinații de fișiere</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Scurtătoare de URL-uri</value>
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Servicii de partajare a URL-urilor</value>
@@ -536,9 +527,6 @@
   </data>
   <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
     <value>În cazul în care clipboard-ul conține o cale de folder, atunci indexați acel folder și încărcați indexul</value>
-  </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>Dacă clipboard-ul conține un URL, atunci utilizați scurtarea URL-ului</value>
   </data>
   <data name="tpUploaderFilters.Text" xml:space="preserve">
     <value>Filtre de încărcare</value>

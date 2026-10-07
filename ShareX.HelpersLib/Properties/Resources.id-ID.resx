@@ -132,9 +132,6 @@
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>Detik ini</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>Pengunggah teks khusus</value>
-  </data>
   <data name="ProxyMethod_None" xml:space="preserve">
     <value>Tidak ada</value>
   </data>
@@ -152,9 +149,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>Tampilkan menu tugas cepat</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>Penyingkat URL</value>
   </data>
   <data name="ReplCodeMenuEntry_uln_User_login_name" xml:space="preserve">
     <value>Nama login pengguna</value>
@@ -216,14 +210,8 @@
   <data name="DownloaderForm_fileDownloader_DownloadCompleted_Download_completed_" xml:space="preserve">
     <value>Unduhan selesai.</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Private" xml:space="preserve">
-    <value>Pribadi</value>
-  </data>
   <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
     <value>Bagikan URL</value>
-  </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>Pengunggah file</value>
   </data>
   <data name="ReplCodeMenuEntry_h_Current_hour" xml:space="preserve">
     <value>Jam ini</value>
@@ -346,17 +334,11 @@ Apakah anda ingin mengunduhnya?</value>
   <data name="CodeMenuEntryFilename_RandomAdjective" xml:space="preserve">
     <value>Acak kata sifat</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>Pengunggah file khusus</value>
-  </data>
   <data name="LinearGradientMode_Vertical" xml:space="preserve">
     <value>Vertikal</value>
   </data>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Acak</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>Pengunggah gambar</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>Periksa hash</value>
@@ -369,9 +351,6 @@ Apakah anda ingin mengunduhnya?</value>
   </data>
   <data name="HotkeyType_ClipboardUploadWithContentViewer" xml:space="preserve">
     <value>Unggah dari papan klip dengan penampil konten</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Public" xml:space="preserve">
-    <value>Publik</value>
   </data>
   <data name="HSB_ToString_" xml:space="preserve">
     <value>Rona: {0:0.0}°, Kejenuhan: {1:0.0}%, Kecerahan: {2:0.0}%</value>
@@ -439,9 +418,6 @@ Apakah anda ingin mengunduhnya?</value>
   <data name="HotkeyType_ScreenRecorderGIF" xml:space="preserve">
     <value>Mulai/Hentikan rekaman layar (GIF) menggunakan area khusus</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Unlisted" xml:space="preserve">
-    <value>Tidak terdaftar</value>
-  </data>
   <data name="HotkeyType_Ruler" xml:space="preserve">
     <value>Penggaris</value>
   </data>
@@ -493,9 +469,6 @@ Apakah anda ingin mengunduhnya?</value>
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Jalur file tanpa ekstensi + "Ekstensi nama file output"</value>
   </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Pencarian Gambar Google</value>
-  </data>
   <data name="HotkeyType_IndexFolder" xml:space="preserve">
     <value>Folder indeks</value>
   </data>
@@ -525,9 +498,6 @@ Apakah anda ingin mengunduhnya?</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_CurrentVersion" xml:space="preserve">
     <value>Versi saat ini</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>Email</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_" xml:space="preserve">
     <value>Versi terbaru dari {0} tersedia
@@ -584,9 +554,6 @@ Apakah anda ingin mengunduh dan menginstalnya?</value>
   <data name="PastebinExpiration_W1" xml:space="preserve">
     <value>1 Minggu</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>Layanan berbagi URL</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>Efek: Sorot (H)</value>
   </data>
@@ -608,9 +575,6 @@ Apakah anda ingin mengunduh dan menginstalnya?</value>
   <data name="CodeMenuEntryFilename_RandomAnimal" xml:space="preserve">
     <value>Acak binatang</value>
   </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>Layanan berbagi URL khusus</value>
-  </data>
   <data name="RegionCaptureAction_CaptureFullscreen" xml:space="preserve">
     <value>Jepret layar penuh</value>
   </data>
@@ -622,9 +586,6 @@ Apakah anda ingin mengunduh dan menginstalnya?</value>
   </data>
   <data name="HotkeyType_ImageEditor" xml:space="preserve">
     <value>Editor gambar</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>Email</value>
   </data>
   <data name="HotkeyType_OpenHistory" xml:space="preserve">
     <value>Buka jendela riwayat</value>
@@ -661,9 +622,6 @@ Apakah anda ingin mengunduh dan menginstalnya?</value>
   </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>Tampilkan file di explorer</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>Pengunggah gambar khusus</value>
   </data>
   <data name="HotkeyType_Category_ScreenCapture" xml:space="preserve">
     <value>Jepret layar</value>
@@ -734,9 +692,6 @@ Apakah anda ingin mengunduh dan menginstalnya?</value>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Salin</value>
   </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>Persingkat URL</value>
-  </data>
   <data name="ReplCodeMenuEntry_rf_Random_line_from_file" xml:space="preserve">
     <value>Baris acak dari file. Gunakan {filepath} untuk menentukan file</value>
   </data>
@@ -745,9 +700,6 @@ Apakah anda ingin mengunduh dan menginstalnya?</value>
   </data>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>Alat</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>Folder bersama</value>
   </data>
   <data name="HotkeyType_ActiveMonitor" xml:space="preserve">
     <value>Jepret monitor yang aktif</value>
@@ -839,20 +791,11 @@ Apakah anda ingin mengunduh dan menginstalnya?</value>
   <data name="ShapeType_DrawingTextBackground" xml:space="preserve">
     <value>Menggambar: Teks (Latar belakang) (T)</value>
   </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>Penyingkat URL khusus</value>
-  </data>
   <data name="PastebinPrivacy_Public" xml:space="preserve">
     <value>Publik</value>
   </data>
   <data name="FileExistAction_Overwrite" xml:space="preserve">
     <value>Timpa file</value>
-  </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>Persingkat URL</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>Pengunggah teks</value>
   </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>Tanyakan apa yang harus dilakukan</value>
@@ -862,9 +805,6 @@ Apakah anda ingin mengunduh dan menginstalnya?</value>
   </data>
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>Tampilkan jendela "Setelah mengambil"</value>
-  </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>Unggah teks</value>
   </data>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>Alat: Pangkas gambar (C)</value>
@@ -1075,9 +1015,6 @@ Apakah anda ingin mengunduh dan menginstalnya?</value>
   </data>
   <data name="ContentAlignment_BottomRight" xml:space="preserve">
     <value>Kanan bawah</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Pencarian visual Bing</value>
   </data>
   <data name="EDataType_Default" xml:space="preserve">
     <value>Default</value>

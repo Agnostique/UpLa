@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AutoCaptureForm_UpdateStatus_Timeleft___0_s___1____Total___2_" xml:space="preserve">
-    <value>زمان باقیمانده: {0} ثانیه ({1}%) مجموع: {2}</value>
-  </data>
   <data name="AboutForm_AboutForm_Language_zh_CH" xml:space="preserve">
     <value>چینی (ساده)</value>
   </data>
@@ -161,9 +158,6 @@
   <data name="UploadTask_ThreadDoWork_URL_is_empty_" xml:space="preserve">
     <value>آدرس خالی است.</value>
   </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>کوتاه کننده لینک : {0}</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>تاریخچه</value>
   </data>
@@ -181,9 +175,6 @@
   </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>در حال آپلود کردن</value>
-  </data>
-  <data name="BeforeUploadControl_AddDestination_Custom" xml:space="preserve">
-    <value>سفارشی سازی</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm_Please_choose_a_destination_" xml:space="preserve">
     <value>لطفا یک مقصد انتخاب کنید.</value>
@@ -240,20 +231,11 @@
   <data name="UploadManager_UploadFolder_Folder_upload" xml:space="preserve">
     <value>آپلود فولدر</value>
   </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>کوتاه کردن آدرس ({0})</value>
-  </data>
   <data name="ActionsToolbarEditForm_Separator" xml:space="preserve">
     <value>جداکننده</value>
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>آلمانی</value>
-  </data>
-  <data name="ChromeForm_btnUnregister_Click_Chrome_support_disabled_" xml:space="preserve">
-    <value>پشتیبانی از کروم غیرفعال شد.</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>تست آپلود متن</value>
   </data>
   <data name="AboutForm_AboutForm_Language_pt_BR" xml:space="preserve">
     <value>پرتغالی</value>
@@ -275,9 +257,6 @@
   </data>
   <data name="RecentManager_UpdateRecentMenu_Left_click_to_copy_URL_to_clipboard__Right_click_to_open_URL_" xml:space="preserve">
     <value>برای کپی کردن آدرس به کلیپ بورد چپ کلیک کنید. برای بازکردن آدرس راست کلیک کنید.</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Start" xml:space="preserve">
-    <value>شروع</value>
   </data>
   <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>وظیفه انجام شد.</value>
@@ -306,9 +285,6 @@
   <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
     <value>آپلود خطاها</value>
   </data>
-  <data name="AutoCaptureForm_Execute_Stop" xml:space="preserve">
-    <value>توقف</value>
-  </data>
   <data name="ActionsToolbar_Close" xml:space="preserve">
     <value>بستن</value>
   </data>
@@ -332,9 +308,6 @@
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
     <value>آپلود کننده های متن: {0}</value>
   </data>
-  <data name="UploadManager_ShowShortenURLDialog_Shorten" xml:space="preserve">
-    <value>کوتاه کن</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_In_queue" xml:space="preserve">
     <value>در صف</value>
   </data>
@@ -352,9 +325,6 @@
   </data>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
     <value>سرویس اشتراک گذاری لینک: {0}</value>
-  </data>
-  <data name="UploadManager_ShowShortenURLDialog_ShortenURL" xml:space="preserve">
-    <value>کوتاه کردن آدرس</value>
   </data>
   <data name="SwitchToListView" xml:space="preserve">
     <value>سوییچ کردن به حالت نمایش لیستی</value>
@@ -449,9 +419,6 @@
   <data name="InspectWindow_ProcessName" xml:space="preserve">
     <value>نام فرایند</value>
   </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning" xml:space="preserve">
-    <value>First time بارگذاری warning</value>
-  </data>
   <data name="SwitchToThumbnailView" xml:space="preserve">
     <value>Switch to بندانگشتی view</value>
   </data>
@@ -473,10 +440,6 @@
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__File__Count___0__" xml:space="preserve">
     <value>کلیپ‌بورد content: فایل (Count: {0})</value>
   </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning_text" xml:space="preserve">
-    <value>Are you sure you want to بارگذاری this اسکرین‌شات?
-Press 'No' to cancel the current بارگذاری and disable اسکرین‌شات auto بارگذاریing.</value>
-  </data>
   <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
     <value>FFmpeg همراه ShareX فقط از سیستم‌عامل‌های ۶۴ بیتی پشتیبانی می‌کند.</value>
   </data>
@@ -491,9 +454,6 @@ Press 'No' to cancel the current بارگذاری and disable اسکرین‌ش�
   </data>
   <data name="InspectWindow_ProcessFileName" xml:space="preserve">
     <value>Process فایل name</value>
-  </data>
-  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
-    <value>X: {0}, Y: {1}, عرض: {2}, ارتفاع: {3}</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm__0__is_about_to_be_uploaded_to__1___You_may_choose_a_different_destination_" xml:space="preserve">
     <value>{0} is about to be بارگذاریed to {1}. You may choose a different destination.</value>
@@ -544,9 +504,6 @@ You can later disable it from "After ضبط tasks" منو.</value>
   </data>
   <data name="AboutForm_AboutForm_Language_ar_YE" xml:space="preserve">
     <value>عربی</value>
-  </data>
-  <data name="ChromeForm_btnRegister_Click_Chrome_support_enabled_" xml:space="preserve">
-    <value>پشتیبانی Chrome فعال شد.</value>
   </data>
   <data name="AboutForm_AboutForm_Language_ja_JP" xml:space="preserve">
     <value>ژاپنی</value>

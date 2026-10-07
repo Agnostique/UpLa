@@ -129,9 +129,6 @@
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>ثانیه جاری</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>آپلود کننده متن سفارشی</value>
-  </data>
   <data name="ProxyMethod_None" xml:space="preserve">
     <value>هیچ کدام</value>
   </data>
@@ -146,9 +143,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>نمایش منوی وظایف سریع</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>کوتاه کننده لینک</value>
   </data>
   <data name="ReplCodeMenuEntry_uln_User_login_name" xml:space="preserve">
     <value>نام کاربر وارد شده</value>
@@ -201,14 +195,8 @@
   <data name="DownloaderForm_fileDownloader_DownloadCompleted_Download_completed_" xml:space="preserve">
     <value>دانلود تکمیل شد.</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Private" xml:space="preserve">
-    <value>شخصی</value>
-  </data>
   <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
     <value>اشتراک گذاری آدرس</value>
-  </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>آپلود کننده فایل</value>
   </data>
   <data name="ReplCodeMenuEntry_h_Current_hour" xml:space="preserve">
     <value>ساعت جاری</value>
@@ -313,17 +301,11 @@
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>تصادفی</value>
   </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>آپلود کننده عکس</value>
-  </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>چک کردن Hash</value>
   </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>شروع/توقف ضبط فیلم صفحه از پنجره جاری</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Public" xml:space="preserve">
-    <value>عمومی</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_OK" xml:space="preserve">
     <value>تایید</value>
@@ -375,9 +357,6 @@
   </data>
   <data name="HotkeyType_ScreenRecorderGIF" xml:space="preserve">
     <value>شروع/توقف ضبط فیلم صفحه (GIF) از ناحیه سفارشی</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Unlisted" xml:space="preserve">
-    <value>لیست نشده</value>
   </data>
   <data name="HotkeyType_Ruler" xml:space="preserve">
     <value>خط کش</value>
@@ -436,9 +415,6 @@
   <data name="UpdateMessageBox_UpdateMessageBox_CurrentVersion" xml:space="preserve">
     <value>ورژن جاری</value>
   </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>ایمیل:</value>
-  </data>
   <data name="UpdateMessageBox_UpdateMessageBox_" xml:space="preserve">
     <value>نسخه جدیدتری از {0} در دسترس است.
 آیا مایلید آن را دانلود و نصب کنید؟</value>
@@ -488,9 +464,6 @@
   <data name="PastebinExpiration_W1" xml:space="preserve">
     <value>۱ هفته</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>سرویس اشتراک گذاری لینک</value>
-  </data>
   <data name="PastebinPrivacy_Private" xml:space="preserve">
     <value>خصوصی (فقط اعضا)</value>
   </data>
@@ -508,9 +481,6 @@
   </data>
   <data name="HotkeyType_ImageEditor" xml:space="preserve">
     <value>ویرایشگر عکس</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>ایمیل:</value>
   </data>
   <data name="HotkeyType_OpenHistory" xml:space="preserve">
     <value>بازکردن پنجره تاریخچه</value>
@@ -547,9 +517,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>نشان دادن فایل در Explorer</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>آپلود کننده عکس سفارشی</value>
   </data>
   <data name="HotkeyType_Category_ScreenCapture" xml:space="preserve">
     <value>ضبط</value>
@@ -608,17 +575,11 @@
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>کپی</value>
   </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>کوتاه کردن آدرس</value>
-  </data>
   <data name="DownloaderForm_StartDownload_Cancel" xml:space="preserve">
     <value>انصراف</value>
   </data>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>ابزار</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>پوشه به اشتراک گذاری شده</value>
   </data>
   <data name="DownloaderForm_StartDownload_Getting_file_size_" xml:space="preserve">
     <value>در حال گرفتن اندازه فایل.</value>
@@ -698,17 +659,8 @@
   <data name="PastebinPrivacy_Public" xml:space="preserve">
     <value>عمومی</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>کوتاه کردن آدرس</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>آپلود کننده های متن</value>
-  </data>
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>نشان دادن پنجره "بعد از ضبط"</value>
-  </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>آپلود متن</value>
   </data>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>بریدن عکس (C)</value>
@@ -776,9 +728,6 @@
   <data name="CodeMenuEntryFilename_RandomAdjective" xml:space="preserve">
     <value>صفت تصادفی</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>سفارشی فایل بارگذاریer</value>
-  </data>
   <data name="ReplCodeMenuEntry_rn_Random_number_0_to_9" xml:space="preserve">
     <value>عدد تصادفی ۰ تا ۹ (تکرار با {n})</value>
   </data>
@@ -827,9 +776,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>فایل مسیر with output فایل name extension</value>
   </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Google Lens</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>برچسب زمانی Unix</value>
   </data>
@@ -877,9 +823,6 @@
   </data>
   <data name="CodeMenuEntryFilename_RandomAnimal" xml:space="preserve">
     <value>حیوان تصادفی</value>
-  </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>سفارشی URL sharing سرویس</value>
   </data>
   <data name="ReplCodeMenuEntry_ib_Auto_increment_base_alphanumeric" xml:space="preserve">
     <value>افزایش خودکار با مبنای {n} با استفاده از حروف و اعداد (1 &lt; n &lt; 63)</value>
@@ -931,9 +874,6 @@
   </data>
   <data name="RandomNonAmbiguousAlphanumericCharRepeatUsingN" xml:space="preserve">
     <value>نویسه حرفی‌عددی تصادفی بدون ابهام (تکرار با {n})</value>
-  </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>سفارشی URL shortener</value>
   </data>
   <data name="FileExistAction_Overwrite" xml:space="preserve">
     <value>Overwrite فایل</value>
@@ -1075,9 +1015,6 @@
   </data>
   <data name="ContentAlignment_BottomRight" xml:space="preserve">
     <value>پایین راست</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>جستجوی تصویری Bing</value>
   </data>
   <data name="EDataType_Default" xml:space="preserve">
     <value>پیش‌فرض</value>

@@ -120,9 +120,6 @@
   <data name="ShareXIsMinimizedToTheSystemTray" xml:space="preserve">
     <value>تم تصغير  ShareX إلى منطقة الإشعارات.</value>
   </data>
-  <data name="AutoCaptureForm_UpdateStatus_Timeleft___0_s___1____Total___2_" xml:space="preserve">
-    <value>الوقت المتبقي: {0}ثانية ({1}%) المجموع: {2}</value>
-  </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>المتغيرات المدعومة: {0} وبقية المتغيرات، مثل {1} إلخ.</value>
   </data>
@@ -149,9 +146,6 @@
   </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>إلغاء</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning" xml:space="preserve">
-    <value>تحذير الرفع لأول مرّة</value>
   </data>
   <data name="SwitchToThumbnailView" xml:space="preserve">
     <value>تبديل إلى طريقة عرض الشبكة</value>
@@ -197,9 +191,6 @@
   <data name="InspectWindow_ClassName" xml:space="preserve">
     <value>اسم الصنف</value>
   </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>خدمة اختصار عناوين URL: {0}</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>السجل</value>
   </data>
@@ -218,18 +209,11 @@
   <data name="Program_Run_Unable_to_create_folder_" xml:space="preserve">
     <value>خطأ في إنشاء المجلد:</value>
   </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning_text" xml:space="preserve">
-    <value>هل تريد من البرنامج القيام برفع لقطات الشاشة هذه؟
-اضغط "لا" لإلغاء الرفع وإلغاء الرفع التلقائي للقطات الشاشة.</value>
-  </data>
   <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
     <value>أداة الترميز المرفقة بالبرنامج تدعم النظام ذو معمارية 64-بت فقط.</value>
   </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>جارٍ الرفع</value>
-  </data>
-  <data name="BeforeUploadControl_AddDestination_Custom" xml:space="preserve">
-    <value>تخصيص</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm_Please_choose_a_destination_" xml:space="preserve">
     <value>يرجى اختيار وجهة.</value>
@@ -316,9 +300,6 @@
   <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
     <value>{0} من الإعدادات غير صالحة أو مفقودة، قم بإصلاح هذه الإعدادات من نافذة "مجلد الوجهة".</value>
   </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>اختصار عنوان URL ({0})</value>
-  </data>
   <data name="ActionsToolbarEditForm_Separator" xml:space="preserve">
     <value>فاصل</value>
   </data>
@@ -330,12 +311,6 @@
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>الألمانية</value>
-  </data>
-  <data name="ChromeForm_btnUnregister_Click_Chrome_support_disabled_" xml:space="preserve">
-    <value>تم إيقاف دعم متصفح Chrome.</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>اختبار رفع النصوص</value>
   </data>
   <data name="InspectWindow_WindowRectangle" xml:space="preserve">
     <value>مستطيل النافذة</value>
@@ -384,12 +359,6 @@
   <data name="RecentManager_UpdateRecentMenu_Left_click_to_copy_URL_to_clipboard__Right_click_to_open_URL_" xml:space="preserve">
     <value>انقر بزر الفأرة الأيسر لنسخ عنوان URL إلى الحافظة. انقر بزر الفأرة الأيمن لفتح عنوان URL.</value>
   </data>
-  <data name="AutoCaptureForm_Execute_Start" xml:space="preserve">
-    <value>بدء</value>
-  </data>
-  <data name="ChromeForm_btnRegister_Click_Chrome_support_enabled_" xml:space="preserve">
-    <value>تم تفعيل دعم متصفح Chrome.</value>
-  </data>
   <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>انتهت المهمة</value>
   </data>
@@ -419,9 +388,6 @@
   </data>
   <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
     <value>أخطاء الرفع</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Stop" xml:space="preserve">
-    <value>إيقاف</value>
   </data>
   <data name="ActionsToolbar_Close" xml:space="preserve">
     <value>إغلاق</value>
@@ -458,9 +424,6 @@
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
     <value>رافع النصوص: {0}</value>
   </data>
-  <data name="UploadManager_ShowShortenURLDialog_Shorten" xml:space="preserve">
-    <value>اختصار</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_In_queue" xml:space="preserve">
     <value>إدراج في الطابور</value>
   </data>
@@ -487,9 +450,6 @@
   </data>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
     <value>خدمة مشاركة عناوين URL: {0}</value>
-  </data>
-  <data name="UploadManager_ShowShortenURLDialog_ShortenURL" xml:space="preserve">
-    <value>اختصار عنوان URL</value>
   </data>
   <data name="Confirmation" xml:space="preserve">
     <value>التأكيد</value>
@@ -639,9 +599,6 @@
   <data name="UploadManager_DownloadAndUploadFile_Download_failed" xml:space="preserve">
     <value>فشل التنزيل:
 {0}</value>
-  </data>
-  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
-    <value>X: {0}, Y: {1}, العرض: {2}, الارتفاع: {3}</value>
   </data>
   <data name="AboutForm_AboutForm_Donate" xml:space="preserve">
     <value>تبرع</value>

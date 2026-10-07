@@ -222,9 +222,6 @@
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Fájlfeltöltők</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>URL rövidítők</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>URL megosztó szolgáltatások</value>
   </data>
@@ -252,14 +249,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Képfeltöltés tesztelése</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Szöveg feltöltésének tesztelése</value>
-  </data>
   <data name="tsmiTestFileUpload.Text" xml:space="preserve">
     <value>Fájlfetöltés tesztelése</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>URL rövidítő tesztelése</value>
   </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>URL megosztás tesztelése</value>
@@ -353,9 +344,6 @@
   </data>
   <data name="tsmiDeleteSelectedFile.Text" xml:space="preserve">
     <value>A helyi fájl törlése</value>
-  </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>URL rövidítése</value>
   </data>
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>URL megosztása</value>
@@ -456,9 +444,6 @@
   <data name="tsmiTrayFileUploaders.Text" xml:space="preserve">
     <value>Fájlfeltöltők</value>
   </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>URL rövidítők</value>
-  </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>URL megosztó szolgáltatások</value>
   </data>
@@ -540,12 +525,6 @@
   <data name="tsmiScreenshotDelay.Text" xml:space="preserve">
     <value>Képernyőkép késleltetése</value>
   </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Feltöltés szöveg...</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>URL rövidítése...</value>
-  </data>
   <data name="tsmiColorPicker.Text" xml:space="preserve">
     <value>Szín picker...</value>
   </data>
@@ -603,9 +582,6 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Célbeállítások...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Egyéni feltöltő beállítások...</value>
-  </data>
   <data name="tsbDonate.Text" xml:space="preserve">
     <value>Adományozás...</value>
   </data>
@@ -647,12 +623,6 @@
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Analyze kép...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Bing vizuális keresés...</value>
   </data>
   <data name="tsmiOCRImage.Text" xml:space="preserve">
     <value>OCR kép...</value>
@@ -698,12 +668,6 @@
   </data>
   <data name="tsmiTrayScreenshotDelay.Text" xml:space="preserve">
     <value>Képernyőkép késleltetése</value>
-  </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Feltöltés szöveg...</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>URL rövidítése...</value>
   </data>
   <data name="tsmiTrayColorPicker.Text" xml:space="preserve">
     <value>Szín picker...</value>
@@ -761,9 +725,6 @@
   </data>
   <data name="tsmiTrayToggleHotkeys.Text" xml:space="preserve">
     <value>Disable gyorsbillentyűk</value>
-  </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Egyéni feltöltő beállítások...</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>Reindítás ShareX as admin</value>

@@ -6,15 +6,10 @@
     <ForceDesignerDpiUnaware>true</ForceDesignerDpiUnaware>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="FluentFTP" />
     <PackageReference Include="Newtonsoft.Json" />
-    <PackageReference Include="SSH.NET" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ShareX.HelpersLib\ShareX.HelpersLib.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Resources\OAuthCallbackPage.html" />
   </ItemGroup>
   <!-- upla.com.tr: Release builds need the upla.com.tr guest API key from the git ignored APIKeys\APIKeysLocal.cs
        (see APIKeys.cs), otherwise every guest upload fails. -->

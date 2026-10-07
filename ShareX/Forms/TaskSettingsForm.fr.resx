@@ -225,9 +225,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>Dupliquer</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>Si le presse-papier contient une URL, utiliser le raccourcisseur d'URL</value>
-  </data>
   <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
     <value>Si le presse-papier contient un chemin de dossier, indexer ce dossier et mettre en ligne l'index</value>
   </data>
@@ -332,9 +329,6 @@
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Services de partage d'URL</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Raccourcisseurs d'URL</value>
   </data>
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Services de mise en ligne de fichiers</value>
@@ -542,12 +536,6 @@
   </data>
   <data name="lblTask.Text" xml:space="preserve">
     <value>Tâche :</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>Ecraser l'hébergeur personnalisé par défaut</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>Ecraser le compte FTP par défaut</value>
   </data>
   <data name="cbOverrideGeneralSettings.Text" xml:space="preserve">
     <value>Ecraser les paramètres généraux</value>

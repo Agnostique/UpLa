@@ -225,9 +225,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>Duplicar</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>Se a área de transferência conter um URL: usar Encurtador de URL</value>
-  </data>
   <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
     <value>Se a área de transferência conter o local de uma pasta: arquivar a pasta e enviar o índice</value>
   </data>
@@ -332,9 +329,6 @@
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Serviços de compartilhamento de URL</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Encurtadores de URL</value>
   </data>
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Envio de arquivos</value>
@@ -477,14 +471,8 @@
   <data name="cbOverrideCaptureSettings.Text" xml:space="preserve">
     <value>Sobrescrever configurações de captura</value>
   </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>Sobrescrever uploader customizado padrão</value>
-  </data>
   <data name="cbOverrideDestinationSettings.Text" xml:space="preserve">
     <value>Sobrescrever destinos</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>Sobrescrever conta padrão FTP</value>
   </data>
   <data name="cbOverrideGeneralSettings.Text" xml:space="preserve">
     <value>Sobrescrever configurações gerais</value>

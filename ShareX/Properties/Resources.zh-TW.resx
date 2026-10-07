@@ -120,9 +120,6 @@
   <data name="ShareXIsMinimizedToTheSystemTray" xml:space="preserve">
     <value>ShareX 已最小化到系統匣。</value>
   </data>
-  <data name="AutoCaptureForm_UpdateStatus_Timeleft___0_s___1____Total___2_" xml:space="preserve">
-    <value>剩餘時間: {0}秒 ({1}%) 總計: {2}</value>
-  </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>支援的變數：{0} 和其他如 {1} 的變數等</value>
   </data>
@@ -149,9 +146,6 @@
   </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>取消</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning" xml:space="preserve">
-    <value>首次上傳警告</value>
   </data>
   <data name="SwitchToThumbnailView" xml:space="preserve">
     <value>切換到縮圖模式</value>
@@ -197,9 +191,6 @@
   <data name="InspectWindow_ClassName" xml:space="preserve">
     <value>類別名稱</value>
   </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>縮網址服務：{0}</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>歷史</value>
   </data>
@@ -218,18 +209,11 @@
   <data name="Program_Run_Unable_to_create_folder_" xml:space="preserve">
     <value>無法建立資料夾：</value>
   </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning_text" xml:space="preserve">
-    <value>確定要上傳此截圖嗎？
-按「否」以取消目前的上傳動作並停用自動上傳截圖。</value>
-  </data>
   <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
     <value>ShareX 包含的 FFmpeg 僅支援 64 位元的作業系統。</value>
   </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>上傳中</value>
-  </data>
-  <data name="BeforeUploadControl_AddDestination_Custom" xml:space="preserve">
-    <value>自訂</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm_Please_choose_a_destination_" xml:space="preserve">
     <value>請選擇目的地。</value>
@@ -263,9 +247,6 @@
   </data>
   <data name="InspectWindow_ProcessFileName" xml:space="preserve">
     <value>處理程序檔案名稱</value>
-  </data>
-  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
-    <value>X: {0}，Y: {1}，寬: {2}，高: {3}</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>是否要重設 ShareX 設定？</value>
@@ -319,9 +300,6 @@
   <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
     <value>{0} 設定無效或不存在。請前往「目的地設定」視窗進行設定。</value>
   </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>縮網址 ({0})</value>
-  </data>
   <data name="ActionsToolbarEditForm_Separator" xml:space="preserve">
     <value>分隔符</value>
   </data>
@@ -333,12 +311,6 @@
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>德文</value>
-  </data>
-  <data name="ChromeForm_btnUnregister_Click_Chrome_support_disabled_" xml:space="preserve">
-    <value>Chrome 支援已停用。</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>文字上傳測試</value>
   </data>
   <data name="InspectWindow_WindowRectangle" xml:space="preserve">
     <value>視窗矩形區域</value>
@@ -384,12 +356,6 @@
   <data name="RecentManager_UpdateRecentMenu_Left_click_to_copy_URL_to_clipboard__Right_click_to_open_URL_" xml:space="preserve">
     <value>點擊滑鼠左鍵以將網址複製到剪貼簿。點擊滑鼠右鍵以開啟網址。</value>
   </data>
-  <data name="AutoCaptureForm_Execute_Start" xml:space="preserve">
-    <value>開始</value>
-  </data>
-  <data name="ChromeForm_btnRegister_Click_Chrome_support_enabled_" xml:space="preserve">
-    <value>Chrome 支援已啟用。</value>
-  </data>
   <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>任務完成</value>
   </data>
@@ -419,9 +385,6 @@
   </data>
   <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
     <value>上傳錯誤</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Stop" xml:space="preserve">
-    <value>停止</value>
   </data>
   <data name="ActionsToolbar_Close" xml:space="preserve">
     <value>關閉</value>
@@ -458,9 +421,6 @@
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
     <value>文字上傳工具：{0}</value>
   </data>
-  <data name="UploadManager_ShowShortenURLDialog_Shorten" xml:space="preserve">
-    <value>產生</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_In_queue" xml:space="preserve">
     <value>佇列中</value>
   </data>
@@ -487,9 +447,6 @@
   </data>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
     <value>網址分享服務：{0}</value>
-  </data>
-  <data name="UploadManager_ShowShortenURLDialog_ShortenURL" xml:space="preserve">
-    <value>產生縮網址</value>
   </data>
   <data name="Confirmation" xml:space="preserve">
     <value>確認</value>

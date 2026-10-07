@@ -240,9 +240,6 @@
   <data name="lblURLRegexReplaceReplacement.Text" xml:space="preserve">
     <value>Zastąpienie:</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Skracacze linków</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Usługi udostępniania linku</value>
   </data>
@@ -390,9 +387,6 @@
   <data name="cbOverrideAfterUploadSettings.Text" xml:space="preserve">
     <value>Zastąp zadania po przesłaniu</value>
   </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>Zastąp domyślny własny serwis</value>
-  </data>
   <data name="cbOverrideUploadSettings.Text" xml:space="preserve">
     <value>Zastąp ustawienia przesyłania</value>
   </data>
@@ -468,9 +462,6 @@
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>Jeśli schowek zawiera link, udostępnij go za pomocą usługi udostępniania linków</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>Jeśli schowek zawiera link, użyj skracacza linków</value>
-  </data>
   <data name="lblCaptureCustomRegion.Text" xml:space="preserve">
     <value>Wstępnie skonfigurowany region:</value>
   </data>
@@ -527,9 +518,6 @@
   </data>
   <data name="cbOverrideDestinationSettings.Text" xml:space="preserve">
     <value>Zastąp miejsca docelowe</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>Zastąp domyślne konto FTP</value>
   </data>
   <data name="cbOverrideGeneralSettings.Text" xml:space="preserve">
     <value>Zastąp ustawienia ogólne</value>

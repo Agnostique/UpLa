@@ -144,9 +144,6 @@
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Pengunggah file</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Penyingkat URL</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Layanan berbagi URL</value>
   </data>
@@ -480,9 +477,6 @@
   <data name="tpUploadClipboard.Text" xml:space="preserve">
     <value>Unggahan papan klip</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>Bila papan klip berisi URL, maka gunakan penyingkat URL</value>
-  </data>
   <data name="lblTask.Text" xml:space="preserve">
     <value>Tugas:</value>
   </data>
@@ -491,12 +485,6 @@
   </data>
   <data name="cbOverrideScreenshotsFolder.Text" xml:space="preserve">
     <value>Timpa folder tangkapan layar</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>Timpa pengunggah kustom default</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>Timpa akun FTP default</value>
   </data>
   <data name="cbOverrideGeneralSettings.Text" xml:space="preserve">
     <value>Timpa pengaturan umum</value>

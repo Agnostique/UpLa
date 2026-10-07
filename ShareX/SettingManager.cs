@@ -176,7 +176,6 @@ namespace ShareX
             UploadersConfig.CreateBackup = true;
             UploadersConfig.CreateWeeklyBackup = true;
             UploadersConfig.SupportDPAPIEncryption = true;
-            UploadersConfigBackwardCompatibilityTasks();
         }
 
         public static void LoadHotkeysConfig(bool fallbackSupport = true)
@@ -332,23 +331,6 @@ namespace ShareX
                 {
                     DebugHelper.WriteException(e);
                     e.ShowError();
-                }
-            }
-        }
-
-        private static void UploadersConfigBackwardCompatibilityTasks()
-        {
-            if (UploadersConfig.CustomUploadersList != null)
-            {
-                foreach (CustomUploaderItem cui in UploadersConfig.CustomUploadersList)
-                {
-                    try
-                    {
-                        cui.CheckBackwardCompatibility();
-                    }
-                    catch
-                    {
-                    }
                 }
             }
         }

@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AutoCaptureForm_UpdateStatus_Timeleft___0_s___1____Total___2_" xml:space="preserve">
-    <value>Waktu tersisa: {0}s ({1}%) Total: {2}</value>
-  </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>Variabel yang didukung: {0} dan variabel lain seperti {1} dll.</value>
   </data>
@@ -140,9 +137,6 @@
   </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>Batal</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning" xml:space="preserve">
-    <value>Peringatan mengunggah pertama kali</value>
   </data>
   <data name="UploadTask_Stop_Stopping" xml:space="preserve">
     <value>Menghentikan</value>
@@ -172,9 +166,6 @@ Apakah Anda ingin memulai ulang ShareX?</value>
   <data name="UploadTask_ThreadDoWork_URL_is_empty_" xml:space="preserve">
     <value>URL kosong.</value>
   </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>Penyingkat URL: {0}</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>Riwayat</value>
   </data>
@@ -190,15 +181,8 @@ Apakah Anda ingin memulai ulang ShareX?</value>
   <data name="Program_Run_Unable_to_create_folder_" xml:space="preserve">
     <value>Gagal membuat folder:</value>
   </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning_text" xml:space="preserve">
-    <value>Anda yakin ingin mengunggah scrrenshot ini?
-Tekan 'Tidak' untuk membatalkan unggahan saat ini dan nonaktifkan otomatis mengunggah screenshot.</value>
-  </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>Mengunggah</value>
-  </data>
-  <data name="BeforeUploadControl_AddDestination_Custom" xml:space="preserve">
-    <value>Khusus</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm_Please_choose_a_destination_" xml:space="preserve">
     <value>Silakan pilih tujuan.</value>
@@ -223,9 +207,6 @@ Tekan 'Tidak' untuk membatalkan unggahan saat ini dan nonaktifkan otomatis mengu
   </data>
   <data name="TaskSettingsForm_txtNameFormatPatternActiveWindow_TextChanged_Preview_" xml:space="preserve">
     <value>Pratinjau:</value>
-  </data>
-  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
-    <value>X: {0}, Y: {1}, Lebar: {2}, Tinggi: {3}</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm__0__is_about_to_be_uploaded_to__1___You_may_choose_a_different_destination_" xml:space="preserve">
     <value>{0} akan diunggah ke {1}. Anda dapat memilih tujuan yang berbeda.</value>
@@ -264,20 +245,11 @@ Apakah anda yakin ingin melanjutkan?</value>
   <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
     <value>{0} konfigurasi tidak valid atau hilang. Silakan periksa jendela "Pengaturan tujuan" untuk mengkonfigurasinya.</value>
   </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>Persingkat URL ({0})</value>
-  </data>
   <data name="ActionsToolbarEditForm_Separator" xml:space="preserve">
     <value>Pemisah</value>
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>Bahasa Jerman</value>
-  </data>
-  <data name="ChromeForm_btnUnregister_Click_Chrome_support_disabled_" xml:space="preserve">
-    <value>Dukungan Chrome dinonaktifkan.</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>Uji unggahan teks</value>
   </data>
   <data name="AboutForm_AboutForm_Language_fa_IR" xml:space="preserve">
     <value>Bahasa Persia</value>
@@ -302,12 +274,6 @@ Apakah anda yakin ingin melanjutkan?</value>
   </data>
   <data name="RecentManager_UpdateRecentMenu_Left_click_to_copy_URL_to_clipboard__Right_click_to_open_URL_" xml:space="preserve">
     <value>Klik kiri untuk menyalin URL ke papan klip. Klik kanan untuk membuka URL.</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Start" xml:space="preserve">
-    <value>Mulai</value>
-  </data>
-  <data name="ChromeForm_btnRegister_Click_Chrome_support_enabled_" xml:space="preserve">
-    <value>Dukungan Chrome diaktifkan.</value>
   </data>
   <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>Tugas selesai</value>
@@ -339,9 +305,6 @@ Apakah anda yakin ingin melanjutkan?</value>
   <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
     <value>Eror pengunggahan</value>
   </data>
-  <data name="AutoCaptureForm_Execute_Stop" xml:space="preserve">
-    <value>Hentikan</value>
-  </data>
   <data name="ActionsToolbar_Close" xml:space="preserve">
     <value>Tutup</value>
   </data>
@@ -360,9 +323,6 @@ Apakah anda yakin ingin melanjutkan?</value>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
     <value>Pengunggah teks: {0}</value>
   </data>
-  <data name="UploadManager_ShowShortenURLDialog_Shorten" xml:space="preserve">
-    <value>Persingkat</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_In_queue" xml:space="preserve">
     <value>Di antrian</value>
   </data>
@@ -380,9 +340,6 @@ Apakah anda yakin ingin melanjutkan?</value>
   </data>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
     <value>Layanan berbagi URL: {0}</value>
-  </data>
-  <data name="UploadManager_ShowShortenURLDialog_ShortenURL" xml:space="preserve">
-    <value>Persingkat URL</value>
   </data>
   <data name="UploadTask_OnUploadCompleted_Stopped" xml:space="preserve">
     <value>Dihentikan</value>

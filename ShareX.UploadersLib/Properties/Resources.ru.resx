@@ -117,117 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="OAuthInfo_OAuthInfo_New_account" xml:space="preserve">
-    <value>Новый аккаунт</value>
-  </data>
-  <data name="UploadersConfigForm_LoadSettings_Selected_folder_" xml:space="preserve">
-    <value>Выбранная папка:</value>
-  </data>
-  <data name="UploadersConfigForm_Login_failed" xml:space="preserve">
-    <value>Вход не удался.</value>
-  </data>
-  <data name="UploadersConfigForm_LoadSettings_Parent_album_path_e_g_" xml:space="preserve">
-    <value>Путь к материнскому альбому, например:</value>
-  </data>
-  <data name="UploadersConfigForm_TestCustomUploader_Error__Result_is_empty_" xml:space="preserve">
-    <value>Ошибка: Результат пуст.</value>
-  </data>
-  <data name="UploadersConfigForm_Error" xml:space="preserve">
-    <value>Ошибка</value>
-  </data>
-  <data name="UploadersConfigForm_TestFTPAccount_Connected_" xml:space="preserve">
-    <value>Подключено!</value>
-  </data>
-  <data name="UploadersConfigForm_PhotobucketCreateAlbum__0__successfully_created_" xml:space="preserve">
-    <value>{0} успешно создано.</value>
-  </data>
-  <data name="UploadersConfigForm_TestFTPAccount_Connected_Created_folders" xml:space="preserve">
-    <value>Подключено!
-Созданы папки:</value>
-  </data>
   <data name="CertFileNameEditor_EditValue_Browse_for_a_certificate_file___" xml:space="preserve">
     <value>Выбрать файл сертификата...</value>
   </data>
-  <data name="UploadersConfigForm_OneDriveAddFolder_Querying_folders___" xml:space="preserve">
-    <value>Запрашиваем папки...</value>
-  </data>
-  <data name="UploadersConfigForm_SendSpaceRegister_SendSpace_Registration___" xml:space="preserve">
-    <value>Регистрация в SendSpace</value>
-  </data>
-  <data name="UploadersConfigForm_Login_successful" xml:space="preserve">
-    <value>Вход успешен.</value>
-  </data>
-  <data name="UploadersConfigForm_ListFolders_Authentication_required_" xml:space="preserve">
-    <value>Необходима аутентификация.</value>
-  </data>
   <data name="KeyFileNameEditor_EditValue_Browse_for_a_key_file___" xml:space="preserve">
     <value>Выбрать файл ключа...</value>
-  </data>
-  <data name="UploadersConfigForm_FTPOpenClient_Unable_to_find_valid_FTP_account_" xml:space="preserve">
-    <value>Не удалось найти рабочий аккаунт FTP.</value>
-  </data>
-  <data name="TwitterTweetForm_SendTweet_Tweet_error" xml:space="preserve">
-    <value>Ошибка твита</value>
-  </data>
-  <data name="UploadersConfigForm_LoadSettings_Invalid_device_name" xml:space="preserve">
-    <value>Неверное имя устройства</value>
-  </data>
-  <data name="UploadersConfigForm_BoxListFolders_Box_refresh_folders_list_failed" xml:space="preserve">
-    <value>Не удалось обновить список папок Box</value>
-  </data>
-  <data name="OneDrive_RootFolder_Root_folder" xml:space="preserve">
-    <value>Корневая директория</value>
-  </data>
-  <data name="UploadersConfigForm_Remove_all_custom_uploaders_Confirmation" xml:space="preserve">
-    <value>Убрать все пользовательские сервисы?</value>
-  </data>
-  <data name="OAuthControl_OAuthControl_PasteVerificationCodeHere" xml:space="preserve">
-    <value>Вставьте код подтверждения сюда</value>
-  </data>
-  <data name="UploadersConfigForm_ConnectSFTPAccount_Key_file_not_found" xml:space="preserve">
-    <value>Файл ключа не существует.</value>
-  </data>
-  <data name="UploadersConfigForm_eiCustomUploaders_ExportRequested_RequestURLMustBeConfigured" xml:space="preserve">
-    <value>"URL запроса" должен быть настроен.</value>
-  </data>
-  <data name="UploadersConfigForm_eiCustomUploaders_ExportRequested_DestinationTypeMustBeConfigured" xml:space="preserve">
-    <value>"Тип сервиса" должен быть настроен.</value>
-  </data>
-  <data name="CustomUploaderItem_GetRequestURL_RequestURLMustBeConfigured" xml:space="preserve">
-    <value>"URL запроса" должен быть настроен.</value>
-  </data>
-  <data name="CustomUploaderItem_GetFileFormName_FileFormNameMustBeConfigured" xml:space="preserve">
-    <value>"Имя формы с файлом" должно быть настроено.</value>
-  </data>
-  <data name="UploadersConfigForm_UpdatePastebinStatus_NotLoggedIn" xml:space="preserve">
-    <value>Вход не выполнен.</value>
-  </data>
-  <data name="UploadersConfigForm_UpdatePastebinStatus_LoggedIn" xml:space="preserve">
-    <value>Вход выполнен.</value>
-  </data>
-  <data name="OAuthControl_Status_NotLoggedIn" xml:space="preserve">
-    <value>Вход не выполнен.</value>
-  </data>
-  <data name="OAuthControl_Status_LoggedIn" xml:space="preserve">
-    <value>Вход выполнен.</value>
-  </data>
-  <data name="OAuthControl_Status_LoginFailed" xml:space="preserve">
-    <value>Вход не удался.</value>
-  </data>
-  <data name="txtB2BucketWatermark" xml:space="preserve">
-    <value>Работает только если ведро не задано при создании ключа</value>
-  </data>
-  <data name="DuplicateNameNotAllowed" xml:space="preserve">
-    <value>Повторение имен не разрешено.</value>
-  </data>
-  <data name="GoogleDrive_MyDrive_My_drive" xml:space="preserve">
-    <value>Мой диск</value>
-  </data>
-  <data name="ExportFailed" xml:space="preserve">
-    <value>Экспорт не удался.</value>
-  </data>
-  <data name="LoggedInAs0" xml:space="preserve">
-    <value>Вход выполнен как {0}.</value>
   </data>
   <data name="FormattingFailed_JSON" xml:space="preserve">
     <value>Форматирование не удалось.</value>
@@ -261,11 +155,5 @@
   </data>
   <data name="Error" xml:space="preserve">
     <value>Ошибка</value>
-  </data>
-  <data name="Disconnect" xml:space="preserve">
-    <value>Отключить</value>
-  </data>
-  <data name="Connect" xml:space="preserve">
-    <value>Подключить...</value>
   </data>
 </root>

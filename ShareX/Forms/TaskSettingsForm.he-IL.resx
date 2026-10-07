@@ -252,17 +252,8 @@
   <data name="cbOverrideScreenshotsFolder.Text" xml:space="preserve">
     <value>דרוס תיקיית צילומי מסך</value>
   </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>דרוס שירות העלאה מותאם אישית כבריר מחדל</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>דרוס משתמש FTP כברירת מחדל</value>
-  </data>
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>שירותי העלאת קבצים</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>מקצרי קישורים</value>
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>שירותי שיתוף קישורים</value>
@@ -515,9 +506,6 @@
   </data>
   <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
     <value>אם הלוח מכיל נתיב תיקייה, צור אינדקס של תיקיה זו והעלה את האינדקס</value>
-  </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>אם הלוח מכיל קישור, השתמש במקצר קישורים</value>
   </data>
   <data name="tpUploadClipboard.Text" xml:space="preserve">
     <value>העלאת לוח הגזירה</value>

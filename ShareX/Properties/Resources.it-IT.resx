@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AutoCaptureForm_UpdateStatus_Timeleft___0_s___1____Total___2_" xml:space="preserve">
-    <value>Rimasti: {0}s ({1}%) Totale: {2}</value>
-  </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>Variabili supportate: {0} e altre variabili come {1} ecc.</value>
   </data>
@@ -137,9 +134,6 @@
   </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>Annulla</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning" xml:space="preserve">
-    <value>Avvertimento per il Primo Caricamento</value>
   </data>
   <data name="UploadTask_Stop_Stopping" xml:space="preserve">
     <value>Arresto</value>
@@ -166,9 +160,6 @@ Riavviare ShareX?</value>
   <data name="UploadTask_ThreadDoWork_URL_is_empty_" xml:space="preserve">
     <value>L'URL è vuoto.</value>
   </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>Servizio Accorciamento URL: {0}</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>Cronologia</value>
   </data>
@@ -184,15 +175,8 @@ Riavviare ShareX?</value>
   <data name="Program_Run_Unable_to_create_folder_" xml:space="preserve">
     <value>Impossibile creare la cartella:</value>
   </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning_text" xml:space="preserve">
-    <value>Sei sicuro di voler caricare questo screenshot?
-Premi "No" per annullare il caricamento e disabilitare il caricamento automatico degli screenshot.</value>
-  </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>Caricamento</value>
-  </data>
-  <data name="BeforeUploadControl_AddDestination_Custom" xml:space="preserve">
-    <value>Personalizzato</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm_Please_choose_a_destination_" xml:space="preserve">
     <value>Scegliere una destinazione.</value>
@@ -217,9 +201,6 @@ Premi "No" per annullare il caricamento e disabilitare il caricamento automatico
   </data>
   <data name="TaskSettingsForm_txtNameFormatPatternActiveWindow_TextChanged_Preview_" xml:space="preserve">
     <value>Anteprima:</value>
-  </data>
-  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
-    <value>X: {0}, Y: {1}, Larghezza: {2}, Altezza: {3}</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm__0__is_about_to_be_uploaded_to__1___You_may_choose_a_different_destination_" xml:space="preserve">
     <value>{0} sta per essere caricato su {1}. È possibile scegliere una destinazione diversa.</value>
@@ -258,20 +239,11 @@ Sei sicuro di voler continuare?</value>
   <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
     <value>{0} configurazione non valida o mancante. Controllare la finestra "Impostazioni Destinazione".</value>
   </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>Accorcia URL ({0})</value>
-  </data>
   <data name="ActionsToolbarEditForm_Separator" xml:space="preserve">
     <value>Separatore</value>
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>Tedesco</value>
-  </data>
-  <data name="ChromeForm_btnUnregister_Click_Chrome_support_disabled_" xml:space="preserve">
-    <value>Supporto Chrome Disabilitato</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>Prova Caricamento Testo</value>
   </data>
   <data name="AboutForm_AboutForm_Language_pt_BR" xml:space="preserve">
     <value>Portoghese (Brasile)</value>
@@ -293,12 +265,6 @@ Sei sicuro di voler continuare?</value>
   </data>
   <data name="RecentManager_UpdateRecentMenu_Left_click_to_copy_URL_to_clipboard__Right_click_to_open_URL_" xml:space="preserve">
     <value>Click Sinistro per Copiare URL negli Appunti. Click Destro per Aprire URL</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Start" xml:space="preserve">
-    <value>Avvia</value>
-  </data>
-  <data name="ChromeForm_btnRegister_Click_Chrome_support_enabled_" xml:space="preserve">
-    <value>Supporto Chrome abilitato.</value>
   </data>
   <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>Operazione completata</value>
@@ -323,9 +289,6 @@ Sei sicuro di voler continuare?</value>
   </data>
   <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
     <value>Errori di Caricamento</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Stop" xml:space="preserve">
-    <value>Ferma</value>
   </data>
   <data name="ActionsToolbar_Close" xml:space="preserve">
     <value>Chiudi</value>
@@ -565,9 +528,6 @@ Would you like to reavvia ShareX?</value>
   <data name="ScreenColorPicker" xml:space="preserve">
     <value>Schermo colore picker</value>
   </data>
-  <data name="UploadManager_ShowShortenURLDialog_Shorten" xml:space="preserve">
-    <value>Accorcia</value>
-  </data>
   <data name="InspectWindow_WindowStyles" xml:space="preserve">
     <value>Finestra styles</value>
   </data>
@@ -576,9 +536,6 @@ Would you like to reavvia ShareX?</value>
   </data>
   <data name="OpticalCharacterRecognitionFeatureIsOnlyAvailableWithWindowsVersion0OrNewer" xml:space="preserve">
     <value>Optical character recognition feature is only available with Finestras version {0} or newer.</value>
-  </data>
-  <data name="UploadManager_ShowShortenURLDialog_ShortenURL" xml:space="preserve">
-    <value>Accorcia URL</value>
   </data>
   <data name="Confirmation" xml:space="preserve">
     <value>Conferma</value>

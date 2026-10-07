@@ -339,9 +339,6 @@
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>Chia sẻ URL</value>
   </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>Rút gọn URL</value>
-  </data>
   <data name="tsmiShowErrors.Text" xml:space="preserve">
     <value>Hiện lỗi</value>
   </data>
@@ -360,14 +357,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Kiểm tra tải lên ảnh</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Kiểm tra tải lên văn bản</value>
-  </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>Kiểm tra chia sẻ URL</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>Kiểm tra rút gọn URL</value>
   </data>
   <data name="tsmiTextUploaders.Text" xml:space="preserve">
     <value>Kiểm tra các dịch vụ tải lên</value>
@@ -513,17 +504,11 @@
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>Dịch vụ chia sẻ URL</value>
   </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>Dịch vụ rút gọn URL</value>
-  </data>
   <data name="tsmiTrayWindow.Text" xml:space="preserve">
     <value>Cửa sổ</value>
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Dịch vụ chia sẻ URL</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Dịch vụ rút gọn URL</value>
   </data>
   <data name="tsmiWindow.Text" xml:space="preserve">
     <value>Cửa sổ</value>
@@ -558,23 +543,11 @@
   <data name="tsmiDownloadSelectedURL.Text" xml:space="preserve">
     <value>Tải về</value>
   </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>Rút gọn URL...</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>Rút gọn URL...</value>
-  </data>
   <data name="tsmiTrayShowCursor.Text" xml:space="preserve">
     <value>Hiện con trỏ</value>
   </data>
   <data name="tsmiShowCursor.Text" xml:space="preserve">
     <value>Hiện con trỏ</value>
-  </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Tải lên văn bản...</value>
-  </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Tải lên văn bản...</value>
   </data>
   <data name="tsmiOCRImage.Text" xml:space="preserve">
     <value>Nhận dạng kí tự từ ảnh...</value>
@@ -663,14 +636,8 @@
   <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
     <value>Trình chia ảnh...</value>
   </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Thiết lập dịch vụ tải lên tùy chọn...</value>
-  </data>
   <data name="tsmiAddImageEffects.Text" xml:space="preserve">
     <value>Thêm hiệu ứng hình ảnh ...</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Tìm kiếm trực quan trên Bing (OCR) ...</value>
   </data>
   <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
     <value>Cửa sổ không viền ...</value>
@@ -744,9 +711,6 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Cài đặt đích...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Cài đặt trình tải lên tùy chỉnh...</value>
-  </data>
   <data name="tsbX.Text" xml:space="preserve">
     <value>Theo dõi @ShareX...</value>
   </data>
@@ -755,9 +719,6 @@
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Phân tích ảnh...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
   </data>
   <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
     <value>Trình so sánh ảnh...</value>

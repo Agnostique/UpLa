@@ -318,9 +318,6 @@
   <data name="tsmiShowQRCode.Text" xml:space="preserve">
     <value>Показать QR код...</value>
   </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>Сократить ссылку</value>
-  </data>
   <data name="tsmiShowResponse.Text" xml:space="preserve">
     <value>Показать ответ...</value>
   </data>
@@ -365,9 +362,6 @@
   </data>
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Проверить загрузку изображения</value>
-  </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Проверить загрузку текста</value>
   </data>
   <data name="tsmiStopUpload.Text" xml:space="preserve">
     <value>Остановить загрузку</value>
@@ -456,9 +450,6 @@
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>Проверить отправку ссылки</value>
   </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>Проверить сокращение ссылок</value>
-  </data>
   <data name="tsmiTrayExit.Text" xml:space="preserve">
     <value>Выход</value>
   </data>
@@ -516,9 +507,6 @@
   <data name="tsmiTrayDestinationSettings.Text" xml:space="preserve">
     <value>Настройки сервисов...</value>
   </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>Сервисы коротких ссылок</value>
-  </data>
   <data name="tsmiImageUploaders.Text" xml:space="preserve">
     <value>Сервисы загрузки картинок</value>
   </data>
@@ -536,9 +524,6 @@
   </data>
   <data name="tsmiTrayFileUploaders.Text" xml:space="preserve">
     <value>Сервисы загрузки файлов</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Сервисы коротких ссылок</value>
   </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>Сервисы отправки ссылок</value>
@@ -567,18 +552,6 @@
   <data name="tsbDonate.Text" xml:space="preserve">
     <value>Пожертвовать...</value>
   </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Загрузить текст...</value>
-  </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Загрузить текст...</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>Сократить ссылку...</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>Сократить ссылку...</value>
-  </data>
   <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
     <value>Миниатюры изображений...</value>
   </data>
@@ -605,9 +578,6 @@
   </data>
   <data name="tsmiTrayShowCursor.Text" xml:space="preserve">
     <value>Показывать курсор</value>
-  </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Настройки пользовательских сервисов...</value>
   </data>
   <data name="tsmiTrayScreenshotDelay.Text" xml:space="preserve">
     <value>Задержка скриншота</value>
@@ -690,9 +660,6 @@
   <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
     <value>Исследовать окно...</value>
   </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Визуальный поиск Bing (OCR)...</value>
-  </data>
   <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
     <value>Объединить горизонтально</value>
   </data>
@@ -756,9 +723,6 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Настройки сервисов...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Настройки пользовательских сервисов...</value>
-  </data>
   <data name="tsmiTrayMetadata.Text" xml:space="preserve">
     <value>Метаданные...</value>
   </data>
@@ -770,9 +734,6 @@
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Анализировать изображение...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
   </data>
   <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
     <value>Сравнение изображений...</value>

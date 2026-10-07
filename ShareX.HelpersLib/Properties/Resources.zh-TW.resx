@@ -132,9 +132,6 @@
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>目前秒</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>自訂文字上傳工具</value>
-  </data>
   <data name="ProxyMethod_None" xml:space="preserve">
     <value>無</value>
   </data>
@@ -155,9 +152,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>顯示快速排程選單</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>縮網址服務</value>
   </data>
   <data name="ReplCodeMenuEntry_uln_User_login_name" xml:space="preserve">
     <value>使用者登入名稱</value>
@@ -222,14 +216,8 @@
   <data name="DownloaderForm_fileDownloader_DownloadCompleted_Download_completed_" xml:space="preserve">
     <value>下載完成。</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Private" xml:space="preserve">
-    <value>私人</value>
-  </data>
   <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
     <value>分享網址</value>
-  </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>檔案上傳工具</value>
   </data>
   <data name="ReplCodeMenuEntry_h_Current_hour" xml:space="preserve">
     <value>目前小時</value>
@@ -358,17 +346,11 @@
   <data name="Extensions_AddContextMenu_SelectAll" xml:space="preserve">
     <value>全選</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>自訂檔案上傳工具</value>
-  </data>
   <data name="LinearGradientMode_Vertical" xml:space="preserve">
     <value>垂直</value>
   </data>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>隨機</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>圖片上傳工具</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>雜湊檢查</value>
@@ -381,9 +363,6 @@
   </data>
   <data name="HotkeyType_ClipboardUploadWithContentViewer" xml:space="preserve">
     <value>從剪貼簿內容檢視器上傳</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Public" xml:space="preserve">
-    <value>公開</value>
   </data>
   <data name="HSB_ToString_" xml:space="preserve">
     <value>色調: {0:0.0}°，飽和度: {1:0.0}%，亮度: {2:0.0}%</value>
@@ -454,9 +433,6 @@
   <data name="HotkeyType_ScreenRecorderGIF" xml:space="preserve">
     <value>開始/停止錄製螢幕 (GIF)</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Unlisted" xml:space="preserve">
-    <value>非公開</value>
-  </data>
   <data name="ObjectListView_ObjectListView_Name" xml:space="preserve">
     <value>名稱</value>
   </data>
@@ -514,9 +490,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>含輸出檔案副檔名的檔案路徑</value>
   </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Google 圖片搜尋</value>
-  </data>
   <data name="HotkeyType_IndexFolder" xml:space="preserve">
     <value>目錄索引工具</value>
   </data>
@@ -549,9 +522,6 @@
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_CurrentVersion" xml:space="preserve">
     <value>目前版本</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>電子信箱</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_" xml:space="preserve">
     <value>{0} 已推出新版本。
@@ -626,9 +596,6 @@
   <data name="PastebinExpiration_W1" xml:space="preserve">
     <value>1 週</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>網址分享服務</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>高亮 (H)</value>
   </data>
@@ -650,9 +617,6 @@
   <data name="CodeMenuEntryFilename_RandomAnimal" xml:space="preserve">
     <value>隨機動物</value>
   </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>自訂網址分享服務</value>
-  </data>
   <data name="RegionCaptureAction_CaptureFullscreen" xml:space="preserve">
     <value>擷取全螢幕</value>
   </data>
@@ -664,9 +628,6 @@
   </data>
   <data name="HotkeyType_ImageEditor" xml:space="preserve">
     <value>圖片編輯器</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>電子信箱</value>
   </data>
   <data name="HotkeyType_OpenHistory" xml:space="preserve">
     <value>開啟歷史記錄視窗</value>
@@ -709,9 +670,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>在檔案總管中顯示檔案</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>自訂圖片上傳工具</value>
   </data>
   <data name="HotkeyType_Category_ScreenCapture" xml:space="preserve">
     <value>螢幕擷取</value>
@@ -782,9 +740,6 @@
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>複製</value>
   </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>縮網址</value>
-  </data>
   <data name="ReplCodeMenuEntry_rf_Random_line_from_file" xml:space="preserve">
     <value>從檔案隨機獲取一行 (用 {filepath} 來指定檔案)</value>
   </data>
@@ -793,9 +748,6 @@
   </data>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>工具</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>共享資料夾</value>
   </data>
   <data name="HotkeyType_ActiveMonitor" xml:space="preserve">
     <value>擷取目前顯示器</value>
@@ -899,9 +851,6 @@
   <data name="RandomNonAmbiguousAlphanumericCharRepeatUsingN" xml:space="preserve">
     <value>隨機非相似文數字元 (用 {n} 來重複)</value>
   </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>自訂縮網址服務</value>
-  </data>
   <data name="PastebinPrivacy_Public" xml:space="preserve">
     <value>公開</value>
   </data>
@@ -911,12 +860,6 @@
   <data name="DrawImageSizeMode_PercentageOfWatermark" xml:space="preserve">
     <value>圖片的百分比</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>縮網址</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>文字上傳工具</value>
-  </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>詢問</value>
   </data>
@@ -925,9 +868,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>顯示「擷取後」視窗</value>
-  </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>上傳文字</value>
   </data>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>裁切圖片 (C)</value>
@@ -1069,9 +1009,6 @@
   </data>
   <data name="ContentAlignment_BottomRight" xml:space="preserve">
     <value>右下</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Bing 圖像式搜尋</value>
   </data>
   <data name="EDataType_Default" xml:space="preserve">
     <value>預設</value>

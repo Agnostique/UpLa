@@ -225,9 +225,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>Dupliceren</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>Als het klembord een link bevat, gebruik dan een linkverkorter</value>
-  </data>
   <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
     <value>Als het klembord een pad naar een map bevat, indexeer de map en upload het indexbestand</value>
   </data>
@@ -331,9 +328,6 @@ groter zijn dan de afmetingen van een miniatuurversie</value>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Diensten om een link te delen</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Linkverkorters</value>
-  </data>
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Bestandsuploaders</value>
   </data>
@@ -432,12 +426,6 @@ groter zijn dan de afmetingen van een miniatuurversie</value>
   </data>
   <data name="cbOverrideScreenshotsFolder.Text" xml:space="preserve">
     <value>Overschrijven map met schermafbeeldingen</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>Overschrijven standaard aangepast uploadener</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>Overschrijven standaard FTP account</value>
   </data>
   <data name="cbOverrideGeneralSettings.Text" xml:space="preserve">
     <value>Overschrijven general instellingen</value>

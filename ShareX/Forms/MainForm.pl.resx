@@ -159,14 +159,8 @@
   <data name="tsmiTrayUploadFolder.Text" xml:space="preserve">
     <value>Prześlij folder...</value>
   </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Prześlij tekst...</value>
-  </data>
   <data name="tsmiTrayUploadURL.Text" xml:space="preserve">
     <value>Prześlij z linku...</value>
-  </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>Skracacze linków</value>
   </data>
   <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
     <value>Konwerter wideo...</value>
@@ -176,9 +170,6 @@
   </data>
   <data name="tsmiTrayWindow.Text" xml:space="preserve">
     <value>Okno</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>Skróć link...</value>
   </data>
   <data name="tsmiTrayShow.Text" xml:space="preserve">
     <value>Otwórz główne okno</value>
@@ -252,9 +243,6 @@
   <data name="tsmiUploadSelectedFile.Text" xml:space="preserve">
     <value>Prześlij</value>
   </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Prześlij tekst...</value>
-  </data>
   <data name="tsmiUploadURL.Text" xml:space="preserve">
     <value>Prześlij z linku...</value>
   </data>
@@ -263,9 +251,6 @@
   </data>
   <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
     <value>Miniatury wideo...</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Skracacze linków</value>
   </data>
   <data name="tsmiWindow.Text" xml:space="preserve">
     <value>Okno</value>
@@ -305,12 +290,6 @@
   </data>
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>Udostępnij link</value>
-  </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>Skróć link</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>Skróć link...</value>
   </data>
   <data name="tsmiShowCursor.Text" xml:space="preserve">
     <value>Pokaż kursor</value>
@@ -453,17 +432,11 @@
   <data name="tsmiTrayTextUploaders.Text" xml:space="preserve">
     <value>Serwisy tekstu</value>
   </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Ustawienia własnego serwisu plików...</value>
-  </data>
   <data name="tsmiTrayAfterUploadTasks.Text" xml:space="preserve">
     <value>Zadania po przesłaniu</value>
   </data>
   <data name="tsmiTextUploaders.Text" xml:space="preserve">
     <value>Serwisy tekstu</value>
-  </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Przetestuj przesyłanie tekstu</value>
   </data>
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Przetestuj przesyłanie obrazu</value>
@@ -572,12 +545,6 @@
   </data>
   <data name="tsmiTrayWorkflows.Text" xml:space="preserve">
     <value>Operacje</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>Przetestuj skracacz linku</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Wyszukiwanie wizualne Bing (OCR)...</value>
   </data>
   <data name="tsmiClipboardViewer.Text" xml:space="preserve">
     <value>Przeglądarka schowka...</value>
@@ -750,17 +717,11 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Ustawienia miejsca docelowego...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Ustawienia własnego modułu wysyłania...</value>
-  </data>
   <data name="tsbX.Text" xml:space="preserve">
     <value>Obserwuj @ShareX...</value>
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Analizuj obraz...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
   </data>
   <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
     <value>Porównywarka obrazów...</value>

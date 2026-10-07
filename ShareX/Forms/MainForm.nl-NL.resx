@@ -222,9 +222,6 @@
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Bestands uploaders</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Linkverkorters</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Diensten om link te delen</value>
   </data>
@@ -252,14 +249,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Test upload afbeelding</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Test upload tekst</value>
-  </data>
   <data name="tsmiTestFileUpload.Text" xml:space="preserve">
     <value>Test bestandsupload</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>Test linkverkorter</value>
   </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>Test delen van link</value>
@@ -344,9 +335,6 @@
   </data>
   <data name="tsmiDeleteSelectedFile.Text" xml:space="preserve">
     <value>Verwijder bestand lokaal...</value>
-  </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>Verkort link</value>
   </data>
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>Deel link</value>
@@ -443,9 +431,6 @@
   </data>
   <data name="tsmiTrayFileUploaders.Text" xml:space="preserve">
     <value>Bestandsuploaders</value>
-  </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>Linkverkorters</value>
   </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>Diensten om link te delen</value>
@@ -546,26 +531,17 @@
   <data name="tsmiTrayScrollingCapture.Text" xml:space="preserve">
     <value>Scrollopname...</value>
   </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>URL verkorten...</value>
-  </data>
   <data name="tsmiDeleteSelectedItem.Text" xml:space="preserve">
     <value>Verwijder taak van lijst</value>
   </data>
   <data name="tsmiOCRImage.Text" xml:space="preserve">
     <value>OCR afbeelding...</value>
   </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>Verkort URL...</value>
-  </data>
   <data name="tsbDonate.Text" xml:space="preserve">
     <value>Doneer...</value>
   </data>
   <data name="tsmiShowCursor.Text" xml:space="preserve">
     <value>Laat cursor zien</value>
-  </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Upload tekst...</value>
   </data>
   <data name="tsmiImageEditor.Text" xml:space="preserve">
     <value>Foto-editor...</value>
@@ -575,9 +551,6 @@
   </data>
   <data name="tsmiCombineImages.Text" xml:space="preserve">
     <value>Afbeeldingen combineren...</value>
-  </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Upload tekst...</value>
   </data>
   <data name="tsmiTrayImageEditor.Text" xml:space="preserve">
     <value>Foto-editor...</value>
@@ -651,9 +624,6 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Bestemmingsinstellingen...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Aangepaste uploadenerinstellingen...</value>
-  </data>
   <data name="tsbX.Text" xml:space="preserve">
     <value>@ShareX volgen...</value>
   </data>
@@ -686,12 +656,6 @@
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Afbeelding analyseren...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Visueel zoeken met Bing...</value>
   </data>
   <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
     <value>Combine horizontaally</value>
@@ -764,9 +728,6 @@
   </data>
   <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
     <value>Venster inspecteren...</value>
-  </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Aangepaste uploadenerinstellingen...</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>Restarten ShareX as admin</value>

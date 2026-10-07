@@ -132,9 +132,6 @@
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>현재 초</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>사용자 정의 텍스트 업로더</value>
-  </data>
   <data name="ProxyMethod_None" xml:space="preserve">
     <value>없음</value>
   </data>
@@ -152,9 +149,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>간편 작업 메뉴 보이기</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>URL 단축기</value>
   </data>
   <data name="ReplCodeMenuEntry_uln_User_login_name" xml:space="preserve">
     <value>사용자 아이디</value>
@@ -216,14 +210,8 @@
   <data name="DownloaderForm_fileDownloader_DownloadCompleted_Download_completed_" xml:space="preserve">
     <value>다운로드 완료.</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Private" xml:space="preserve">
-    <value>비공개</value>
-  </data>
   <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
     <value>URL 공유하기</value>
-  </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>파일 업로더</value>
   </data>
   <data name="ReplCodeMenuEntry_h_Current_hour" xml:space="preserve">
     <value>현재 시</value>
@@ -346,17 +334,11 @@
   <data name="CodeMenuEntryFilename_RandomAdjective" xml:space="preserve">
     <value>랜덤 형용사</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>사용자 정의 파일 업로더</value>
-  </data>
   <data name="LinearGradientMode_Vertical" xml:space="preserve">
     <value>세로</value>
   </data>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>랜덤</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>이미지 업로더</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>해시 검사</value>
@@ -369,9 +351,6 @@
   </data>
   <data name="HotkeyType_ClipboardUploadWithContentViewer" xml:space="preserve">
     <value>클립보드 내용을 뷰어로 보고 업로드</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Public" xml:space="preserve">
-    <value>공개</value>
   </data>
   <data name="HSB_ToString_" xml:space="preserve">
     <value>색상: {0:0.0}°, 채도: {1:0.0}%, 밝기: {2:0.0}%</value>
@@ -439,9 +418,6 @@
   <data name="HotkeyType_ScreenRecorderGIF" xml:space="preserve">
     <value>화면 녹화 (GIF)</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Unlisted" xml:space="preserve">
-    <value>미공개</value>
-  </data>
   <data name="HotkeyType_Ruler" xml:space="preserve">
     <value>측정</value>
   </data>
@@ -493,9 +469,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>확장자 없는 파일 경로 + "출력 파일 이름 확장자"</value>
   </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>구글 이미지 검색</value>
-  </data>
   <data name="HotkeyType_IndexFolder" xml:space="preserve">
     <value>폴더 색인 만들기</value>
   </data>
@@ -525,9 +498,6 @@
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_CurrentVersion" xml:space="preserve">
     <value>현재 버전</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>이메일</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_" xml:space="preserve">
     <value>{0}의 새 버전을 사용할 수 있습니다.
@@ -584,9 +554,6 @@
   <data name="PastebinExpiration_W1" xml:space="preserve">
     <value>1주</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>URL 공유 서비스</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>강조 효과</value>
   </data>
@@ -608,9 +575,6 @@
   <data name="CodeMenuEntryFilename_RandomAnimal" xml:space="preserve">
     <value>랜덤 동물</value>
   </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>사용자 정의 URL 공유 서비스</value>
-  </data>
   <data name="RegionCaptureAction_CaptureFullscreen" xml:space="preserve">
     <value>전체 화면 촬영</value>
   </data>
@@ -622,9 +586,6 @@
   </data>
   <data name="HotkeyType_ImageEditor" xml:space="preserve">
     <value>이미지 편집기</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>이메일</value>
   </data>
   <data name="HotkeyType_OpenHistory" xml:space="preserve">
     <value>히스토리 창 열기</value>
@@ -661,9 +622,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>탐색기 창에서 파일 보여주기</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>사용자 정의 이미지 업로더</value>
   </data>
   <data name="HotkeyType_Category_ScreenCapture" xml:space="preserve">
     <value>화면 촬영</value>
@@ -734,17 +692,11 @@
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>복사</value>
   </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>URL 단축하기</value>
-  </data>
   <data name="DownloaderForm_StartDownload_Cancel" xml:space="preserve">
     <value>취소</value>
   </data>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>도구</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>공유된 폴더</value>
   </data>
   <data name="HotkeyType_ActiveMonitor" xml:space="preserve">
     <value>현재 모니터 촬영</value>
@@ -839,20 +791,11 @@
   <data name="ShapeType_DrawingTextBackground" xml:space="preserve">
     <value>텍스트(칠) 그리기</value>
   </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>사용자 정의 URL 단축기</value>
-  </data>
   <data name="PastebinPrivacy_Public" xml:space="preserve">
     <value>공개</value>
   </data>
   <data name="FileExistAction_Overwrite" xml:space="preserve">
     <value>파일 덮어쓰기</value>
-  </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>URL 단축</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>텍스트 업로더</value>
   </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>어떻게 할지 물어보기</value>
@@ -862,9 +805,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>"촬영 뒤" 창 띄우기</value>
-  </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>텍스트 업로드</value>
   </data>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>이미지 자르기(C)</value>
@@ -1075,9 +1015,6 @@
   </data>
   <data name="ContentAlignment_BottomRight" xml:space="preserve">
     <value>아래쪽 오른쪽</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Bing 시각적 검색</value>
   </data>
   <data name="EDataType_Default" xml:space="preserve">
     <value>기본값</value>

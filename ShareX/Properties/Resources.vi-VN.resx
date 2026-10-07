@@ -120,9 +120,6 @@
   <data name="ShareXIsMinimizedToTheSystemTray" xml:space="preserve">
     <value>ShareX được thu nhỏ vào khay hệ thống.</value>
   </data>
-  <data name="AutoCaptureForm_UpdateStatus_Timeleft___0_s___1____Total___2_" xml:space="preserve">
-    <value>Thời gian còn lại: {0}giây ({1}%) Tổng cộng: {2}</value>
-  </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>Các biến được hỗ trợ: {0} và các biến khác như {1}, v.v</value>
   </data>
@@ -149,9 +146,6 @@
   </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>Hủy bỏ</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning" xml:space="preserve">
-    <value>Cảnh báo với lần tải lên đầu tiên</value>
   </data>
   <data name="SwitchToThumbnailView" xml:space="preserve">
     <value>Chuyển qua xem trước ảnh</value>
@@ -193,9 +187,6 @@ Bạn có muốn khởi động lại ShareX không?</value>
   <data name="InspectWindow_ClassName" xml:space="preserve">
     <value>Tên lớp</value>
   </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>Dịch vụ rút gọn URL: {0}</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>Lịch sử</value>
   </data>
@@ -214,18 +205,11 @@ Bạn có muốn khởi động lại ShareX không?</value>
   <data name="Program_Run_Unable_to_create_folder_" xml:space="preserve">
     <value>Không thể tạo thư mục mới:</value>
   </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning_text" xml:space="preserve">
-    <value>Bạn có chắc chắn muốn tải ảnh chụp màn hình này lên không?
-Nhấn "Không" để hủy tiến trình tải lên hiện tại và tắt chế độ tự động tải lên</value>
-  </data>
   <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
     <value>FFmpeg đi kèm với ShareX chỉ hỗ trợ hệ điều hành 64-bit.</value>
   </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>Đang tải lên</value>
-  </data>
-  <data name="BeforeUploadControl_AddDestination_Custom" xml:space="preserve">
-    <value>Tùy chỉnh</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm_Please_choose_a_destination_" xml:space="preserve">
     <value>Vui lòng chọn dịch vụ tải lên.</value>
@@ -259,9 +243,6 @@ Nhấn "Không" để hủy tiến trình tải lên hiện tại và tắt ch�
   </data>
   <data name="InspectWindow_ProcessFileName" xml:space="preserve">
     <value>Xử lý tên tệp</value>
-  </data>
-  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
-    <value>X: {0}, Y: {1}, Rộng: {2}, Cao: {3}</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>Bạn có muốn đặt lại các cài đặt cho ShareX không?</value>
@@ -315,9 +296,6 @@ Bạn có muốn tiếp tục?</value>
   <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
     <value>Thiết lập {0} không đúng hoặc bị thiếu. Vui lòng kiểm tra cửa sổ "Cài đặt dịch vụ tải lên" để thiết lập.</value>
   </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>Rút gọn URL ({0})</value>
-  </data>
   <data name="ActionsToolbarEditForm_Separator" xml:space="preserve">
     <value>Phân cách</value>
   </data>
@@ -326,12 +304,6 @@ Bạn có muốn tiếp tục?</value>
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>Tiếng Đức</value>
-  </data>
-  <data name="ChromeForm_btnUnregister_Click_Chrome_support_disabled_" xml:space="preserve">
-    <value>Hỗ trợ Chrome đã tắt</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>Kiểm tra tải lên đoạn văn bản</value>
   </data>
   <data name="InspectWindow_WindowRectangle" xml:space="preserve">
     <value>Cửa sổ hình chữ nhật</value>
@@ -377,12 +349,6 @@ Sau đó, bạn có thể tắt nó từ menu "Sau khi chụp tác vụ".</value
   <data name="RecentManager_UpdateRecentMenu_Left_click_to_copy_URL_to_clipboard__Right_click_to_open_URL_" xml:space="preserve">
     <value>Chuột trái để sao chép URL vào vùng nhớ tạm. Chuột phải để mở URL.</value>
   </data>
-  <data name="AutoCaptureForm_Execute_Start" xml:space="preserve">
-    <value>Bắt đầu</value>
-  </data>
-  <data name="ChromeForm_btnRegister_Click_Chrome_support_enabled_" xml:space="preserve">
-    <value>Hỗ trợ Chrome được bật</value>
-  </data>
   <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>Tác vụ đã hoàn thành</value>
   </data>
@@ -412,9 +378,6 @@ Sau đó, bạn có thể tắt nó từ menu "Sau khi chụp tác vụ".</value
   </data>
   <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
     <value>Lỗi tải lên</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Stop" xml:space="preserve">
-    <value>Dừng lại</value>
   </data>
   <data name="ActionsToolbar_Close" xml:space="preserve">
     <value>Đóng</value>
@@ -451,9 +414,6 @@ Bạn có muốn khởi động lại ShareX?</value>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
     <value>Dịch vụ tải lên đoạn văn bản: {0}</value>
   </data>
-  <data name="UploadManager_ShowShortenURLDialog_Shorten" xml:space="preserve">
-    <value>Rút gọn</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_In_queue" xml:space="preserve">
     <value>Trong hàng đợi</value>
   </data>
@@ -480,9 +440,6 @@ Bạn có muốn khởi động lại ShareX?</value>
   </data>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
     <value>Dịch vụ chia sẻ URL: {0}</value>
-  </data>
-  <data name="UploadManager_ShowShortenURLDialog_ShortenURL" xml:space="preserve">
-    <value>Rút gọn URL</value>
   </data>
   <data name="Confirmation" xml:space="preserve">
     <value>Xác nhận</value>

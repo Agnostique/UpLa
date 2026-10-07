@@ -174,9 +174,6 @@
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Servidores para archivos</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Acortadores de enlaces</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Servicios para compartir enlaces</value>
   </data>
@@ -406,9 +403,6 @@
     <value>Indizar la carpeta y subir el índice que esté 
 en el portapapeles</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>Acortar también el enlace que esté en el portapapeles</value>
-  </data>
   <data name="tpUploaderFilters.Text" xml:space="preserve">
     <value>Filtros de servidores</value>
   </data>
@@ -525,12 +519,6 @@ en el portapapeles</value>
   </data>
   <data name="cbOverrideScreenshotsFolder.Text" xml:space="preserve">
     <value>Sobreescribir carpeta de capturas de pantalla</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>Sobreescribir servidor de carga predeterminado</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>Sobreescribir cuenta FTP predeterminada</value>
   </data>
   <data name="cbOverrideGeneralSettings.Text" xml:space="preserve">
     <value>Sobreescribir ajustes generales</value>

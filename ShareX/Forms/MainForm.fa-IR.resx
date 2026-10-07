@@ -221,12 +221,6 @@
   <data name="tsmiUploadClipboard.Text" xml:space="preserve">
     <value>آپلود از کلیپ بورد ...</value>
   </data>
-  <data name="tsmiUploadText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 22</value>
-  </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>آپلود متن ...</value>
-  </data>
   <data name="tsmiUploadURL.Size" type="System.Drawing.Size, System.Drawing">
     <value>199, 22</value>
   </data>
@@ -235,12 +229,6 @@
   </data>
   <data name="tsmiUploadDragDrop.Size" type="System.Drawing.Size, System.Drawing">
     <value>199, 22</value>
-  </data>
-  <data name="tsmiShortenURL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 22</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>کوتاه کردن آدرس ...</value>
   </data>
   <data name="tsddbUpload.Text" xml:space="preserve">
     <value>آپلود</value>
@@ -305,13 +293,7 @@
   <data name="tsmiTestImageUpload.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
-  <data name="tsmiTestTextUpload.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
   <data name="tsmiTestFileUpload.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="tsmiTestURLShortener.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 22</value>
   </data>
   <data name="tsmiTestURLSharing.Size" type="System.Drawing.Size, System.Drawing">
@@ -328,9 +310,6 @@
   </data>
   <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
     <value>خلاصه کننده ویدئو ...</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>کوتاه کننده لینک</value>
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>سرویس های اشتراک گذاری لینک</value>
@@ -350,17 +329,11 @@
   <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
     <value>خلاصه کننده ویدئو ...</value>
   </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>کوتاه کننده لینک</value>
-  </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>سرویس های اشتراک گذاری لینک</value>
   </data>
   <data name="tsmiTrayUploadURL.Text" xml:space="preserve">
     <value>آپلود از طریق URL</value>
-  </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>آپلود متن ...</value>
   </data>
   <data name="tsmiTrayUploadFolder.Text" xml:space="preserve">
     <value>آپلود پوشه ...</value>
@@ -394,9 +367,6 @@
   </data>
   <data name="tsmiTrayShow.Text" xml:space="preserve">
     <value>باز کردن پنجره اصلی</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>کوتاه کردن آدرس ...</value>
   </data>
   <data name="tsmiTrayScrollingCapture.Text" xml:space="preserve">
     <value>ضبط تصویر با اسکرول ...</value>
@@ -500,9 +470,6 @@
   <data name="tsmiTrayDestinations.Text" xml:space="preserve">
     <value>مقصدها</value>
   </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>تنظیمات آپلود سفارشی ...</value>
-  </data>
   <data name="tsmiTrayColorPicker.Text" xml:space="preserve">
     <value>انتخاب رنگ ...</value>
   </data>
@@ -523,9 +490,6 @@
   </data>
   <data name="tsmiTextUploaders.Text" xml:space="preserve">
     <value>آپلود کننده های متن</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>تست کردن کوتاه کننده آٔدرس</value>
   </data>
   <data name="tsmiScreenshotDelay1.Text" xml:space="preserve">
     <value>۱ ثانیه</value>
@@ -653,9 +617,6 @@
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>اشتراک گذاری آدرس</value>
   </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>کوتاه کردن آدرس</value>
-  </data>
   <data name="tsmiOpenShortenedURL.Text" xml:space="preserve">
     <value>ادرس کوتاه شده</value>
   </data>
@@ -688,9 +649,6 @@
   </data>
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>تست آپلود عکس</value>
-  </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>تست آپلود متن</value>
   </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>تست به اشتراک گذاری آدرس</value>
@@ -767,9 +725,6 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>تنظیمات مقصد...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>تنظیمات بارگذار سفارشی...</value>
-  </data>
   <data name="tsbX.Text" xml:space="preserve">
     <value>دنبال کردن @ShareX...</value>
   </data>
@@ -808,12 +763,6 @@
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>تحلیل تصویر...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>جستجوی تصویری Bing...</value>
   </data>
   <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
     <value>ترکیب افقی</value>

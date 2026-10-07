@@ -174,9 +174,6 @@
   <data name="tpWatchFolders.Text" xml:space="preserve">
     <value>پوشه های در حال مشاهده</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>کوتاه کننده لینک</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>سرویس های اشتراک گذاری لینک</value>
   </data>
@@ -357,9 +354,6 @@
   <data name="tpUploadClipboard.Text" xml:space="preserve">
     <value>آپلود کلیپ بورد</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>اگر کلیپ بورد حاوی لینک است لینک را کوتاه کن</value>
-  </data>
   <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
     <value>اگر کلیپ بورد حاوی آدرس پوشه است، پوشه را ایندکس کن و ایندکس را آپلود کن</value>
   </data>
@@ -407,12 +401,6 @@
   </data>
   <data name="cbOverrideScreenshotsFolder.Text" xml:space="preserve">
     <value>بازنویسی پوشه اسکرین‌شات‌ها</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>بازنویسی بارگذار سفارشی پیش‌فرض</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>بازنویسی حساب FTP پیش‌فرض</value>
   </data>
   <data name="cbOverrideGeneralSettings.Text" xml:space="preserve">
     <value>بازنویسی تنظیمات عمومی</value>

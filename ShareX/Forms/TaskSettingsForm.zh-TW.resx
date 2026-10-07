@@ -224,9 +224,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>複製</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>如果剪貼簿中有網址，則使用縮網址服務</value>
-  </data>
   <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
     <value>如果剪貼簿中有資料夾路徑，則自動索引該資料夾並上傳索引</value>
   </data>
@@ -328,9 +325,6 @@
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>網址分享服務</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>縮網址服務</value>
   </data>
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>檔案上傳工具</value>
@@ -529,12 +523,6 @@
   </data>
   <data name="cbOverrideCaptureSettings.Text" xml:space="preserve">
     <value>覆寫擷取設定</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>覆寫預設自訂上傳工具</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>覆寫預設 FTP 帳戶</value>
   </data>
   <data name="cbOverrideGeneralSettings.Text" xml:space="preserve">
     <value>覆寫一般設定</value>

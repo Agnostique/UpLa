@@ -48,7 +48,6 @@ namespace ShareX
             InitializeComponent();
             ShareXResources.ApplyTheme(this, true);
 
-            tsmiURLShorteners.Image = ShareXResources.IsDarkTheme ? Resources.edit_scale_white : Resources.edit_scale;
 
             TaskSettings = hotkeySetting;
             IsDefault = isDefault;
@@ -130,36 +129,9 @@ namespace ShareX
                 MainForm.SetTextFileDestinationChecked(TaskSettings.TextDestination, TaskSettings.TextFileDestination, tsmiTextFileUploaders);
                 AddEnumItems<FileDestination>(x => TaskSettings.FileDestination = x, tsmiFileUploaders);
                 SetEnumChecked(TaskSettings.FileDestination, tsmiFileUploaders);
-                AddEnumItems<UrlShortenerType>(x => TaskSettings.URLShortenerDestination = x, tsmiURLShorteners);
-                SetEnumChecked(TaskSettings.URLShortenerDestination, tsmiURLShorteners);
                 AddEnumItems<URLSharingServices>(x => TaskSettings.URLSharingServiceDestination = x, tsmiURLSharingServices);
                 SetEnumChecked(TaskSettings.URLSharingServiceDestination, tsmiURLSharingServices);
                 UpdateDestinationStates();
-
-                if (Program.UploadersConfig != null)
-                {
-                    cbOverrideFTPAccount.Enabled = cbFTPAccounts.Enabled = Program.UploadersConfig.FTPAccountList.Count > 0;
-
-                    if (Program.UploadersConfig.FTPAccountList.Count > 0)
-                    {
-                        cbOverrideFTPAccount.Checked = TaskSettings.OverrideFTP;
-                        cbFTPAccounts.Enabled = TaskSettings.OverrideFTP;
-                        cbFTPAccounts.Items.Clear();
-                        cbFTPAccounts.Items.AddRange(Program.UploadersConfig.FTPAccountList.ToArray());
-                        cbFTPAccounts.SelectedIndex = TaskSettings.FTPIndex.BetweenOrDefault(0, Program.UploadersConfig.FTPAccountList.Count - 1);
-                    }
-
-                    cbOverrideCustomUploader.Enabled = cbCustomUploaders.Enabled = Program.UploadersConfig.CustomUploadersList.Count > 0;
-
-                    if (Program.UploadersConfig.CustomUploadersList.Count > 0)
-                    {
-                        cbOverrideCustomUploader.Checked = TaskSettings.OverrideCustomUploader;
-                        cbCustomUploaders.Enabled = TaskSettings.OverrideCustomUploader;
-                        cbCustomUploaders.Items.Clear();
-                        cbCustomUploaders.Items.AddRange(Program.UploadersConfig.CustomUploadersList.ToArray());
-                        cbCustomUploaders.SelectedIndex = TaskSettings.CustomUploaderIndex.BetweenOrDefault(0, Program.UploadersConfig.CustomUploadersList.Count - 1);
-                    }
-                }
 
                 cbOverrideScreenshotsFolder.Checked = TaskSettings.OverrideScreenshotsFolder;
                 CodeMenu screenshotsFolderMenu = CodeMenu.Create<CodeMenuEntryFilename>(txtScreenshotsFolder, CodeMenuEntryFilename.t, CodeMenuEntryFilename.pn,
@@ -432,7 +404,6 @@ namespace ShareX
             #region Clipboard upload
 
             cbClipboardUploadURLContents.Checked = TaskSettings.UploadSettings.ClipboardUploadURLContents;
-            cbClipboardUploadShortenURL.Checked = TaskSettings.UploadSettings.ClipboardUploadShortenURL;
             cbClipboardUploadShareURL.Checked = TaskSettings.UploadSettings.ClipboardUploadShareURL;
             cbClipboardUploadAutoIndexFolder.Checked = TaskSettings.UploadSettings.ClipboardUploadAutoIndexFolder;
 
@@ -556,7 +527,6 @@ namespace ShareX
                 EnableDisableToolStripMenuItems<TextDestination>(tsmiTextUploaders);
                 EnableDisableToolStripMenuItems<FileDestination>(tsmiTextFileUploaders);
                 EnableDisableToolStripMenuItems<FileDestination>(tsmiFileUploaders);
-                EnableDisableToolStripMenuItems<UrlShortenerType>(tsmiURLShorteners);
                 EnableDisableToolStripMenuItems<URLSharingServices>(tsmiURLSharingServices);
             }
         }
@@ -750,7 +720,6 @@ namespace ShareX
 
             tsmiFileUploaders.Text = string.Format(Resources.TaskSettingsForm_UpdateUploaderMenuNames_File_uploader___0_, TaskSettings.FileDestination.GetLocalizedDescription());
 
-            tsmiURLShorteners.Text = string.Format(Resources.TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_, TaskSettings.URLShortenerDestination.GetLocalizedDescription());
 
             tsmiURLSharingServices.Text = string.Format(Resources.TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_, TaskSettings.URLSharingServiceDestination.GetLocalizedDescription());
         }
@@ -777,28 +746,6 @@ namespace ShareX
         {
             TaskSettings.UseDefaultDestinations = !cbOverrideDestinationSettings.Checked;
             btnDestinations.Enabled = !TaskSettings.UseDefaultDestinations;
-        }
-
-        private void cbOverrideFTPAccount_CheckedChanged(object sender, EventArgs e)
-        {
-            TaskSettings.OverrideFTP = cbOverrideFTPAccount.Checked;
-            cbFTPAccounts.Enabled = TaskSettings.OverrideFTP;
-        }
-
-        private void cbFTPAccounts_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            TaskSettings.FTPIndex = cbFTPAccounts.SelectedIndex;
-        }
-
-        private void cbOverrideCustomUploader_CheckedChanged(object sender, EventArgs e)
-        {
-            TaskSettings.OverrideCustomUploader = cbOverrideCustomUploader.Checked;
-            cbCustomUploaders.Enabled = TaskSettings.OverrideCustomUploader;
-        }
-
-        private void cbCustomUploaders_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            TaskSettings.CustomUploaderIndex = cbCustomUploaders.SelectedIndex;
         }
 
         private void cbOverrideScreenshotsFolder_CheckedChanged(object sender, EventArgs e)
@@ -1515,11 +1462,6 @@ namespace ShareX
         private void cbClipboardUploadContents_CheckedChanged(object sender, EventArgs e)
         {
             TaskSettings.UploadSettings.ClipboardUploadURLContents = cbClipboardUploadURLContents.Checked;
-        }
-
-        private void cbClipboardUploadAutoDetectURL_CheckedChanged(object sender, EventArgs e)
-        {
-            TaskSettings.UploadSettings.ClipboardUploadShortenURL = cbClipboardUploadShortenURL.Checked;
         }
 
         private void cbClipboardUploadShareURL_CheckedChanged(object sender, EventArgs e)

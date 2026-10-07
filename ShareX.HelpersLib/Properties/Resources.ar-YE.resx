@@ -132,9 +132,6 @@
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>ثانية</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>رافع نصوص مخصص</value>
-  </data>
   <data name="ProxyMethod_None" xml:space="preserve">
     <value>بدون</value>
   </data>
@@ -155,9 +152,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>عرض قائمة المهام السريعة</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>خدمة اختصار عناوين URL</value>
   </data>
   <data name="ReplCodeMenuEntry_uln_User_login_name" xml:space="preserve">
     <value>اسم تسجيل الدخول</value>
@@ -222,14 +216,8 @@
   <data name="DownloaderForm_fileDownloader_DownloadCompleted_Download_completed_" xml:space="preserve">
     <value>تم التنزيل.</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Private" xml:space="preserve">
-    <value>خاص</value>
-  </data>
   <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
     <value>مشاركة الـ URL</value>
-  </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>رافعو الملفات</value>
   </data>
   <data name="ReplCodeMenuEntry_h_Current_hour" xml:space="preserve">
     <value>الساعة</value>
@@ -355,17 +343,11 @@
   <data name="Extensions_AddContextMenu_SelectAll" xml:space="preserve">
     <value>تحديد الكل</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>رافع ملفات مخصص</value>
-  </data>
   <data name="LinearGradientMode_Vertical" xml:space="preserve">
     <value>عمودي</value>
   </data>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>عشوائي</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>رافع الصور</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>فاحص الهاش</value>
@@ -378,9 +360,6 @@
   </data>
   <data name="HotkeyType_ClipboardUploadWithContentViewer" xml:space="preserve">
     <value>رفع من الحافظة مع عارض المحتوى</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Public" xml:space="preserve">
-    <value>عمومي</value>
   </data>
   <data name="HSB_ToString_" xml:space="preserve">
     <value>اللون: {0:0.0}°, التشبع: {1:0.0}%, السطوع: {2:0.0}%</value>
@@ -450,9 +429,6 @@
   </data>
   <data name="HotkeyType_ScreenRecorderGIF" xml:space="preserve">
     <value>بدء/إيقاف تسجيل الشاشة من النوع (GIF)</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Unlisted" xml:space="preserve">
-    <value>غير متوفرة</value>
   </data>
   <data name="ObjectListView_ObjectListView_Name" xml:space="preserve">
     <value>الاسم</value>
@@ -544,9 +520,6 @@
   <data name="UpdateMessageBox_UpdateMessageBox_CurrentVersion" xml:space="preserve">
     <value>الإصدار الحالي</value>
   </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>البريد الإلكتروني</value>
-  </data>
   <data name="UpdateMessageBox_UpdateMessageBox_" xml:space="preserve">
     <value>إصدار جديد من {0} متاح.
 هل تريد تنزيله وتثبيته؟</value>
@@ -620,9 +593,6 @@
   <data name="PastebinExpiration_W1" xml:space="preserve">
     <value>أسبوع</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>خدمة مشاركة عناوين URL</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>تمييز (H)</value>
   </data>
@@ -644,9 +614,6 @@
   <data name="CodeMenuEntryFilename_RandomAnimal" xml:space="preserve">
     <value>اسم حيوان عشوائي</value>
   </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>خدمة مخصصة لمشاركة عناوين URL</value>
-  </data>
   <data name="RegionCaptureAction_CaptureFullscreen" xml:space="preserve">
     <value>التقاط الشاشة كاملة</value>
   </data>
@@ -658,9 +625,6 @@
   </data>
   <data name="HotkeyType_ImageEditor" xml:space="preserve">
     <value>محرّر الصور</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>البريد الإلكتروني</value>
   </data>
   <data name="HotkeyType_OpenHistory" xml:space="preserve">
     <value>فتح نافذة السجل</value>
@@ -703,9 +667,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>عرض الملف في متصفح الملفات</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>رافع صور مخصص</value>
   </data>
   <data name="HotkeyType_Category_ScreenCapture" xml:space="preserve">
     <value>التقاط الشاشة</value>
@@ -776,9 +737,6 @@
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>نسخ</value>
   </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>اختصار عنوان URL</value>
-  </data>
   <data name="ReplCodeMenuEntry_rf_Random_line_from_file" xml:space="preserve">
     <value>سطر عشوائي من ملف (استخدام {filepath} لتحديد الملف)</value>
   </data>
@@ -787,9 +745,6 @@
   </data>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>الأدوات</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>مجلد المشاركة</value>
   </data>
   <data name="HotkeyType_ActiveMonitor" xml:space="preserve">
     <value>التقاط الشاشة النشطة</value>
@@ -893,9 +848,6 @@
   <data name="RandomNonAmbiguousAlphanumericCharRepeatUsingN" xml:space="preserve">
     <value>استخدام رمز غير غامض (مكررة بمقدار {n})</value>
   </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>خدمة مخصصة لاختصار عناوين URL</value>
-  </data>
   <data name="PastebinPrivacy_Public" xml:space="preserve">
     <value>عمومي</value>
   </data>
@@ -905,12 +857,6 @@
   <data name="DrawImageSizeMode_PercentageOfWatermark" xml:space="preserve">
     <value>نسبة أبعاد الصورة</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>اختصار عنوان URL</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>رافع النصوص</value>
-  </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>اسألني ما الذي يجب القيام به</value>
   </data>
@@ -919,9 +865,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>عرض نافذة ما بعد الالتقاط</value>
-  </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>رفع النص</value>
   </data>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>اقتصاص الصورة (C)</value>
@@ -1063,9 +1006,6 @@
   </data>
   <data name="ContentAlignment_BottomRight" xml:space="preserve">
     <value>أسفل - يمين</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>بحث الصور باستخدام Bing</value>
   </data>
   <data name="EDataType_Default" xml:space="preserve">
     <value>الافتراضي</value>
@@ -1234,9 +1174,6 @@
   </data>
   <data name="GIFQuality_Bit4" xml:space="preserve">
     <value>مُكمِّم Octree بـ 16 لونًا</value>
-  </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Google Lens</value>
   </data>
   <data name="HotkeyType_StopAutoCapture" xml:space="preserve">
     <value>إيقاف الالتقاط التلقائي</value>

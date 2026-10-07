@@ -225,9 +225,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>Kopyala</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>Pano adres içeriyorsa adres kısaltıcı kullan</value>
-  </data>
   <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
     <value>Pano dizin yolu içeriyorsa dizini indeksle ve indeksi yükle</value>
   </data>
@@ -332,9 +329,6 @@
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Adres paylaşım servisleri</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Adres kısaltıcılar</value>
   </data>
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Dosya yükleyiciler</value>
@@ -617,12 +611,6 @@
   </data>
   <data name="cbShowImageEffectsWindowAfterCapture.Text" xml:space="preserve">
     <value>Yakalama sonrası resim efektleri ekranını göster</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>Varsayılan özel yükleyiciyi değiştir</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>Varsayılan FTP hesabını değiştir</value>
   </data>
   <data name="lblRegionCaptureFPSLimit.Text" xml:space="preserve">
     <value>FPS limiti:</value>

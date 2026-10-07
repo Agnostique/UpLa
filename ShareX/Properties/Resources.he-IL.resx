@@ -120,9 +120,6 @@
   <data name="ShareXIsMinimizedToTheSystemTray" xml:space="preserve">
     <value>ShareX ממוזער למגש המערכת.</value>
   </data>
-  <data name="AutoCaptureForm_UpdateStatus_Timeleft___0_s___1____Total___2_" xml:space="preserve">
-    <value>זמן שנותר: {0} שניות ({1}%) סך הכל: {2}</value>
-  </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>משתנים נתמכים: {0} ומשתנים אחרים כמו {1} וכו'.</value>
   </data>
@@ -149,9 +146,6 @@
   </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>ביטול</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning" xml:space="preserve">
-    <value>אזהרת העלאה בפעם הראשונה</value>
   </data>
   <data name="SwitchToThumbnailView" xml:space="preserve">
     <value>עבור לתצוגת תמונות ממוזערות</value>
@@ -197,9 +191,6 @@
   <data name="InspectWindow_ClassName" xml:space="preserve">
     <value>שם מחלקה</value>
   </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>מקצר קישורים: {0}</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>היסטוריה</value>
   </data>
@@ -218,18 +209,11 @@
   <data name="Program_Run_Unable_to_create_folder_" xml:space="preserve">
     <value>לא ניתן ליצור תיקייה:</value>
   </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning_text" xml:space="preserve">
-    <value>האם אתה בטוח שברצונך להעלות את צילום המסך הזה?
-לחץ על 'לא' כדי לבטל את ההעלאה הנוכחית ולהשבית את ההעלאה האוטומטית של צילום מסך.</value>
-  </data>
   <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
     <value>FFmpeg שמגיע עם ShareX תומך רק במערכות הפעלה של 64 סיביות.</value>
   </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>מעלה</value>
-  </data>
-  <data name="BeforeUploadControl_AddDestination_Custom" xml:space="preserve">
-    <value>מותאם אישית</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm_Please_choose_a_destination_" xml:space="preserve">
     <value>אנא בחר יעד.</value>
@@ -263,9 +247,6 @@
   </data>
   <data name="InspectWindow_ProcessFileName" xml:space="preserve">
     <value>שם קובץ התהליך</value>
-  </data>
-  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
-    <value>X: {0}, Y: {1}, רוחב: {2}, גובה: {3}</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>האם תרצה לאפס את הגדרות ShareX?</value>
@@ -319,9 +300,6 @@
   <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
     <value>התצורה של {0} אינה חוקית או חסרה. אנא סמן את חלון "הגדרות יעד" כדי להגדיר אותו.</value>
   </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>קצר קישור ({0})</value>
-  </data>
   <data name="ActionsToolbarEditForm_Separator" xml:space="preserve">
     <value>מפריד</value>
   </data>
@@ -333,12 +311,6 @@
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>גרמנית</value>
-  </data>
-  <data name="ChromeForm_btnUnregister_Click_Chrome_support_disabled_" xml:space="preserve">
-    <value>תמיכה ב-Chrome מושבתת.</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>בדוק העלאת טקסט</value>
   </data>
   <data name="InspectWindow_WindowRectangle" xml:space="preserve">
     <value>מלבן חלון</value>
@@ -384,12 +356,6 @@
   <data name="RecentManager_UpdateRecentMenu_Left_click_to_copy_URL_to_clipboard__Right_click_to_open_URL_" xml:space="preserve">
     <value>לחץ על מקש העכבר השמאלי להעתקת הקישור ללוח הגזירה. לחץ על מקש העכבר הימני כדי לפתוח את הקישור.</value>
   </data>
-  <data name="AutoCaptureForm_Execute_Start" xml:space="preserve">
-    <value>התחל</value>
-  </data>
-  <data name="ChromeForm_btnRegister_Click_Chrome_support_enabled_" xml:space="preserve">
-    <value>תמיכה ב-Chrome פעילה.</value>
-  </data>
   <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>משימה הושלמה</value>
   </data>
@@ -419,9 +385,6 @@
   </data>
   <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
     <value>שגיאות העלאה</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Stop" xml:space="preserve">
-    <value>עצור</value>
   </data>
   <data name="ActionsToolbar_Close" xml:space="preserve">
     <value>סגור</value>
@@ -458,9 +421,6 @@
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
     <value>שירות העלאת טקסט: {0}</value>
   </data>
-  <data name="UploadManager_ShowShortenURLDialog_Shorten" xml:space="preserve">
-    <value>מקוצר</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_In_queue" xml:space="preserve">
     <value>בתור</value>
   </data>
@@ -487,9 +447,6 @@
   </data>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
     <value>שירות שיתוף קישורים: {0}</value>
-  </data>
-  <data name="UploadManager_ShowShortenURLDialog_ShortenURL" xml:space="preserve">
-    <value>קישור מקוצר</value>
   </data>
   <data name="Confirmation" xml:space="preserve">
     <value>אישור</value>

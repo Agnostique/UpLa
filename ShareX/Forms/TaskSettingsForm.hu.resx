@@ -216,9 +216,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>Duplikálás</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>Ha a vágólap URL-t tartalmaz, URL rövidítő használata</value>
-  </data>
   <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
     <value>Ha a vágólap egy mappa elérési útját tartalmazza, indexeljük a mappát és töltsük fel az indexet</value>
   </data>
@@ -312,9 +309,6 @@
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>URL megosztó szolgáltatások</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>URL rövidítők</value>
-  </data>
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Fájlfeltöltők</value>
   </data>
@@ -350,12 +344,6 @@
   </data>
   <data name="cbOverrideScreenshotsFolder.Text" xml:space="preserve">
     <value>Override képernyőképek mappa</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>Override alapértelmezett egyéni feltöltő</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>Override alapértelmezett FTP fiók</value>
   </data>
   <data name="cbOverrideGeneralSettings.Text" xml:space="preserve">
     <value>Override general beállítások</value>

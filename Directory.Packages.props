@@ -5,14 +5,11 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="Avalonia.Win32.Interoperability" Version="12.0.5" />
-    <PackageVersion Include="FluentFTP" Version="54.2.0" />
     <PackageVersion Include="Microsoft.Data.Sqlite" Version="10.0.9" />
     <PackageVersion Include="Microsoft.Data.Sqlite.Core" Version="10.0.9" />
     <PackageVersion Include="Microsoft.ML.OnnxRuntime.DirectML" Version="1.24.4" />
     <PackageVersion Include="Newtonsoft.Json" Version="13.0.4" />
     <PackageVersion Include="SkiaSharp.Views.WindowsForms" Version="3.119.4" />
-    <!-- upla.com.tr: 2026.0.0 fixes GHSA-mggc-4xg6-vcxf and GHSA-q939-rpr3-3284 (high). -->
-    <PackageVersion Include="SSH.NET" Version="2026.0.0" />
     <!-- upla.com.tr: pins the SQLite that Microsoft.Data.Sqlite pulls in transitively; 2.1.12+ ships SQLite 3.53.x
          instead of 3.49.1 (CVE-2025-6965). -->
     <PackageVersion Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.13" />

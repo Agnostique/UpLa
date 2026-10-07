@@ -132,9 +132,6 @@
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>Güncel saniye</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>Özel yazı yükleyici</value>
-  </data>
   <data name="ProxyMethod_None" xml:space="preserve">
     <value>Hiçbiri</value>
   </data>
@@ -155,9 +152,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>Hızlı görev menüsünü göster</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>Adres kısaltıcı</value>
   </data>
   <data name="ReplCodeMenuEntry_uln_User_login_name" xml:space="preserve">
     <value>Kullanıcı giriş adı</value>
@@ -222,14 +216,8 @@
   <data name="DownloaderForm_fileDownloader_DownloadCompleted_Download_completed_" xml:space="preserve">
     <value>İndirme tamamlandı.</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Private" xml:space="preserve">
-    <value>Kişisel</value>
-  </data>
   <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
     <value>Adresi paylaş</value>
-  </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>Dosya yükleyici</value>
   </data>
   <data name="ReplCodeMenuEntry_h_Current_hour" xml:space="preserve">
     <value>Güncel saat</value>
@@ -358,17 +346,11 @@
   <data name="Extensions_AddContextMenu_SelectAll" xml:space="preserve">
     <value>Tümünü seç</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>Özel dosya yükleyici</value>
-  </data>
   <data name="LinearGradientMode_Vertical" xml:space="preserve">
     <value>Dikey</value>
   </data>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Rastgele</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>Resim yükleyici</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>Hash kontrol</value>
@@ -381,9 +363,6 @@
   </data>
   <data name="HotkeyType_ClipboardUploadWithContentViewer" xml:space="preserve">
     <value>İçerik gösterici ile panodan yükle</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Public" xml:space="preserve">
-    <value>Halka açık</value>
   </data>
   <data name="HSB_ToString_" xml:space="preserve">
     <value>Renk tonu: {0:0.0}°, Doygunluk: {1:0.0}%, Parlaklık: {2:0.0}%</value>
@@ -454,9 +433,6 @@
   <data name="HotkeyType_ScreenRecorderGIF" xml:space="preserve">
     <value>Ekran kaydetme (GIF) başlat/durdur</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Unlisted" xml:space="preserve">
-    <value>Listelenmemiş</value>
-  </data>
   <data name="ObjectListView_ObjectListView_Name" xml:space="preserve">
     <value>İsim</value>
   </data>
@@ -514,9 +490,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Uzantısız dosya yolu + "Çıkış dosya uzantısı"</value>
   </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Google resim arama</value>
-  </data>
   <data name="HotkeyType_IndexFolder" xml:space="preserve">
     <value>Dizini indeksle</value>
   </data>
@@ -549,9 +522,6 @@
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_CurrentVersion" xml:space="preserve">
     <value>Şu anki sürüm</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>Eposta</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_" xml:space="preserve">
     <value>{0} yeni sürümü mevcut.
@@ -626,9 +596,6 @@
   <data name="PastebinExpiration_W1" xml:space="preserve">
     <value>1 hafta</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>Adres paylaşma servisi</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>Vurgula (H)</value>
   </data>
@@ -650,9 +617,6 @@
   <data name="CodeMenuEntryFilename_RandomAnimal" xml:space="preserve">
     <value>Rastgele hayvan</value>
   </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>Özel adres paylaşma servisi</value>
-  </data>
   <data name="RegionCaptureAction_CaptureFullscreen" xml:space="preserve">
     <value>Tam ekran yakala</value>
   </data>
@@ -664,9 +628,6 @@
   </data>
   <data name="HotkeyType_ImageEditor" xml:space="preserve">
     <value>Resim düzenleyici</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>Eposta</value>
   </data>
   <data name="HotkeyType_OpenHistory" xml:space="preserve">
     <value>Geçmiş penceresini aç</value>
@@ -709,9 +670,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>Dosyayı klasörde göster</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>Özel resim yükleyici</value>
   </data>
   <data name="HotkeyType_Category_ScreenCapture" xml:space="preserve">
     <value>Ekran yakalama</value>
@@ -782,9 +740,6 @@
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Kopyala</value>
   </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>Adresi kısalt</value>
-  </data>
   <data name="ReplCodeMenuEntry_rf_Random_line_from_file" xml:space="preserve">
     <value>Rastgele satır dosyadan (Dosya adresi için {filepath} kullan)</value>
   </data>
@@ -793,9 +748,6 @@
   </data>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>Araçlar</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>Paylaşılmış dizin</value>
   </data>
   <data name="HotkeyType_ActiveMonitor" xml:space="preserve">
     <value>Aktif ekranı yakala</value>
@@ -899,9 +851,6 @@
   <data name="RandomNonAmbiguousAlphanumericCharRepeatUsingN" xml:space="preserve">
     <value>Rastgele belirsiz olmayan alfanumerik karakter ({n} haneli)</value>
   </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>Özel adres kısaltıcı</value>
-  </data>
   <data name="PastebinPrivacy_Public" xml:space="preserve">
     <value>Halka açık</value>
   </data>
@@ -911,12 +860,6 @@
   <data name="DrawImageSizeMode_PercentageOfWatermark" xml:space="preserve">
     <value>Resim yüzdesi</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>Adresi kısalt</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>Yazı yükleyici</value>
-  </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>Ne yapılacağını sor</value>
   </data>
@@ -925,9 +868,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>"Yakalama sonrası" penceresini göster</value>
-  </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>Yazı yükle</value>
   </data>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>Resmi kırp (C)</value>
@@ -1069,9 +1009,6 @@
   </data>
   <data name="ContentAlignment_BottomRight" xml:space="preserve">
     <value>Sağ alt</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Bing görsel arama</value>
   </data>
   <data name="EDataType_Default" xml:space="preserve">
     <value>Varsayılan</value>

@@ -126,9 +126,6 @@
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>Jelenlegi másodperc</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>Egyedi szöveg feltöltő</value>
-  </data>
   <data name="ProxyMethod_None" xml:space="preserve">
     <value>Nincs</value>
   </data>
@@ -221,9 +218,6 @@
   </data>
   <data name="GIFQuality_Bit4" xml:space="preserve">
     <value>Octree quantizáló 16 szín</value>
-  </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>Egyéni fájl feltöltő</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>Hash ellenőrzés</value>
@@ -321,9 +315,6 @@
   <data name="Helpers_OpenFolder_Folder_not_exist_" xml:space="preserve">
     <value>A mappa nem létezik:</value>
   </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>Email</value>
-  </data>
   <data name="UpdateMessageBox_UpdateMessageBox_" xml:space="preserve">
     <value>Egy újabb verzió {0} elérhető.</value>
   </data>
@@ -363,9 +354,6 @@
   <data name="DownloaderForm_DownloaderForm_Waiting_" xml:space="preserve">
     <value>Várakozás.</value>
   </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>Email</value>
-  </data>
   <data name="HotkeyType_RectangleLight" xml:space="preserve">
     <value>Téglalap régió képlopás (finom)</value>
   </data>
@@ -374,9 +362,6 @@
   </data>
   <data name="HotkeyType_FileUpload" xml:space="preserve">
     <value>Fájl feltöltése</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>Egyéni kép feltöltő</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_No" xml:space="preserve">
     <value>Nem</value>
@@ -426,14 +411,8 @@
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Másolás</value>
   </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>URL rövidítése</value>
-  </data>
   <data name="DownloaderForm_StartDownload_Cancel" xml:space="preserve">
     <value>Mégsem</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>Megosztott mappa</value>
   </data>
   <data name="HotkeyType_ActiveMonitor" xml:space="preserve">
     <value>Aktív monitor képlopás</value>
@@ -483,9 +462,6 @@
   <data name="ReplCodeMenuEntry_height_Gets_image_height" xml:space="preserve">
     <value>Kép magassága</value>
   </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>Egyedi URL rövidítő</value>
-  </data>
   <data name="FileExistAction_Overwrite" xml:space="preserve">
     <value>Fájl felülírása</value>
   </data>
@@ -528,9 +504,6 @@
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>Gyors feladat menü megjelenítése</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>URL-rövidítő</value>
-  </data>
   <data name="ShapeType_DrawingImageScreen" xml:space="preserve">
     <value>Kép (Képernyő)</value>
   </data>
@@ -566,12 +539,6 @@
   </data>
   <data name="HotkeyType_RectangleTransparent" xml:space="preserve">
     <value>Rögzítés terület (Átlátszó)</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Private" xml:space="preserve">
-    <value>Privát</value>
-  </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>Fájl feltöltéser</value>
   </data>
   <data name="ReplCodeMenuEntry_ix_Auto_increment_hexadecimal" xml:space="preserve">
     <value>Automatikus növelés hexadecimal (0 pad bal using {n})</value>
@@ -652,14 +619,8 @@ Would you like to letöltés it?</value>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Véletlen</value>
   </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>Kép feltöltéser</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>Indítás/Leállítás képernyőfelvétel using active ablak terület</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Public" xml:space="preserve">
-    <value>Nyilvános</value>
   </data>
   <data name="PastebinExpiration_N" xml:space="preserve">
     <value>Soha</value>
@@ -694,9 +655,6 @@ Would you like to letöltés it?</value>
   <data name="HotkeyType_ScreenRecorderGIF" xml:space="preserve">
     <value>Indítás/Leállítás képernyőfelvétel (GIF)</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Unlisted" xml:space="preserve">
-    <value>Nem listázott</value>
-  </data>
   <data name="ObjectListView_ObjectListView_Name" xml:space="preserve">
     <value>Név</value>
   </data>
@@ -726,9 +684,6 @@ Would you like to letöltés it?</value>
   </data>
   <data name="ImageEditorStartMode_Fullscreen" xml:space="preserve">
     <value>Fullképernyő</value>
-  </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Google Lens</value>
   </data>
   <data name="ScreenRecordGIFEncoding_FFmpeg" xml:space="preserve">
     <value>FFmpeg (Good minőség)</value>
@@ -787,9 +742,6 @@ Would you like to letöltés it?</value>
   <data name="PastebinExpiration_W1" xml:space="preserve">
     <value>1 hét</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>URL-megosztási szolgáltatás</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>Kiemelés (H)</value>
   </data>
@@ -801,9 +753,6 @@ Would you like to letöltés it?</value>
   </data>
   <data name="CodeMenuEntryFilename_RandomAnimal" xml:space="preserve">
     <value>Véletlen állat</value>
-  </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>Egyéni URL sharing szolgáltatás</value>
   </data>
   <data name="RegionCaptureAction_CaptureFullscreen" xml:space="preserve">
     <value>Rögzítés fullképernyő</value>
@@ -934,20 +883,11 @@ Would you like to letöltés it?</value>
   <data name="DrawImageSizeMode_PercentageOfWatermark" xml:space="preserve">
     <value>Percentage of kép</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>URL rövidítése</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>Szöveg feltöltéser</value>
-  </data>
   <data name="UpdateMessageBox_UpdateMessageBox_LatestVersion" xml:space="preserve">
     <value>Legújabb verzió</value>
   </data>
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>"Rögzítés után" ablak megjelenítése</value>
-  </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>Feltöltés szöveg</value>
   </data>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>Crop kép (C)</value>
@@ -1074,9 +1014,6 @@ Would you like to letöltés it?</value>
   </data>
   <data name="ContentAlignment_BottomRight" xml:space="preserve">
     <value>Alsó jobb</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Bing vizuális keresés</value>
   </data>
   <data name="EDataType_Default" xml:space="preserve">
     <value>Alapértelmezett</value>

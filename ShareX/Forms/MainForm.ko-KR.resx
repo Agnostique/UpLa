@@ -297,9 +297,6 @@
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>URL 공유</value>
   </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>URL 단축</value>
-  </data>
   <data name="tsmiShowDebugLog.Text" xml:space="preserve">
     <value>디버그 로그...</value>
   </data>
@@ -321,14 +318,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>이미지 업로드 테스트</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>텍스트 업로드 테스트</value>
-  </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>URL 공유 테스트</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>URL 단축 테스트</value>
   </data>
   <data name="tsmiTextUploaders.Text" xml:space="preserve">
     <value>텍스트 업로더</value>
@@ -468,12 +459,6 @@
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>URL 공유 서비스</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>URL 단축기</value>
-  </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>URL 단축기</value>
-  </data>
   <data name="tsmiWindow.Text" xml:space="preserve">
     <value>창</value>
   </data>
@@ -525,12 +510,6 @@
   <data name="tsmiTrayRectangleTransparent.Text" xml:space="preserve">
     <value>직사각형 (투명)</value>
   </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>텍스트 업로드...</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>URL 단축...</value>
-  </data>
   <data name="tsmiScrollingCapture.Text" xml:space="preserve">
     <value>스크롤 촬영...</value>
   </data>
@@ -575,12 +554,6 @@
   </data>
   <data name="tsmiTrayScrollingCapture.Text" xml:space="preserve">
     <value>스크롤 촬영...</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>URL 단축...</value>
-  </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>텍스트 업로드...</value>
   </data>
   <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
     <value>비디오 섬네일 생성기...</value>
@@ -645,9 +618,6 @@
   <data name="tsmiTrayScreenshotDelay1.Text" xml:space="preserve">
     <value>1 초</value>
   </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>커스텀 업로더 설정...</value>
-  </data>
   <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
     <value>비디오 컨버터...</value>
   </data>
@@ -705,9 +675,6 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>대상 설정...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>사용자 지정 업로더 설정...</value>
-  </data>
   <data name="tsbX.Text" xml:space="preserve">
     <value>@ShareX 팔로우...</value>
   </data>
@@ -725,12 +692,6 @@
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>이미지 분석...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Bing 시각적 검색...</value>
   </data>
   <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
     <value>가로로 결합</value>

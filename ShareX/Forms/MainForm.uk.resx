@@ -207,17 +207,11 @@
   <data name="tsmiUploadClipboard.Text" xml:space="preserve">
     <value>Вивантажити з буфера обміну...</value>
   </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Вивантажити текст...</value>
-  </data>
   <data name="tsmiUploadURL.Text" xml:space="preserve">
     <value>Вивантажити з посилання...</value>
   </data>
   <data name="tsmiUploadDragDrop.Text" xml:space="preserve">
     <value>Вивантажити перетягуванням...</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>Скоротити посилання...</value>
   </data>
   <data name="tsddbUpload.Text" xml:space="preserve">
     <value>Вивантажити</value>
@@ -282,9 +276,6 @@
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Вивантажувачі файлів</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Скорочення посилань</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Служби обміну посиланнями</value>
   </data>
@@ -315,14 +306,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Перевірка вивантаження зображення</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Перевірка вивантаження тексту</value>
-  </data>
   <data name="tsmiTestFileUpload.Text" xml:space="preserve">
     <value>Перевірка вивантаження файлу</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>Перевірка скорочення посилання</value>
   </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>Перевірка обміну посиланням</value>
@@ -456,9 +441,6 @@
   <data name="tsmiDeleteSelectedFile.Text" xml:space="preserve">
     <value>Видалити файл локально...</value>
   </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>Скоротити посилання</value>
-  </data>
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>Поділитися посиланням</value>
   </data>
@@ -549,17 +531,11 @@
   <data name="tsmiTrayUploadClipboard.Text" xml:space="preserve">
     <value>Вивантажити з буфера обміну...</value>
   </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Вивантажити текст...</value>
-  </data>
   <data name="tsmiTrayUploadURL.Text" xml:space="preserve">
     <value>Вивантажити з посилання...</value>
   </data>
   <data name="tsmiTrayUploadDragDrop.Text" xml:space="preserve">
     <value>Вивантажити перетягуванням...</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>Скоротити посилання...</value>
   </data>
   <data name="tsmiTrayUpload.Text" xml:space="preserve">
     <value>Вивантажити</value>
@@ -624,17 +600,11 @@
   <data name="tsmiTrayFileUploaders.Text" xml:space="preserve">
     <value>Вивантажувачі файлів</value>
   </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>Скорочення посилань</value>
-  </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>Служби обміну посиланнями</value>
   </data>
   <data name="tsmiTrayDestinationSettings.Text" xml:space="preserve">
     <value>Налаштування призначень...</value>
-  </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Налаштування власних вивантажувачів...</value>
   </data>
   <data name="tsmiTrayDestinations.Text" xml:space="preserve">
     <value>Призначення</value>
@@ -735,9 +705,6 @@
   <data name="tsmiCombineImagesVertically.Text" xml:space="preserve">
     <value>Об’єднати вертикально</value>
   </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Візуальний пошук Bing...</value>
-  </data>
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>Опис</value>
   </data>
@@ -759,9 +726,6 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Налаштування призначень...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Налаштування власних вивантажувачів...</value>
-  </data>
   <data name="tsmiImageComparer.Text" xml:space="preserve">
     <value>Порівняння зображень...</value>
   </data>
@@ -770,9 +734,6 @@
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Аналізувати зображення...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
   </data>
   <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
     <value>Порівняння зображень...</value>

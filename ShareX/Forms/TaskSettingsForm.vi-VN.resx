@@ -225,9 +225,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>Nhân bản</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>Nếu vùng nhớ tạm chứa URL thì sử dụng dịch vụ rút gọn URL</value>
-  </data>
   <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
     <value>Nếu vùng nhớ tạm có chứa đường dẫn tới thư mục, đánh dấu thư mục đó và tải lên phần được đánh dấu</value>
   </data>
@@ -329,9 +326,6 @@
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Dịch vụ chia sẻ URL</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Dịch vụ rút gọn URL</value>
   </data>
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Dịch vụ tải lên tệp</value>
@@ -536,12 +530,6 @@
   </data>
   <data name="cbOverrideCaptureSettings.Text" xml:space="preserve">
     <value>Ghi đè cài đặt chụp</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>Ghi đè trình tải lên tùy chỉnh mặc định</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>Ghi đè tài khoản FTP mặc định</value>
   </data>
   <data name="cbOverrideGeneralSettings.Text" xml:space="preserve">
     <value>Ghi đè cài đặt chung</value>

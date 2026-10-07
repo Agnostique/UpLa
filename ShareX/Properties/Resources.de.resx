@@ -120,9 +120,6 @@
   <data name="ShareXIsMinimizedToTheSystemTray" xml:space="preserve">
     <value>ShareX wird in die Taskleiste minimiert.</value>
   </data>
-  <data name="AutoCaptureForm_UpdateStatus_Timeleft___0_s___1____Total___2_" xml:space="preserve">
-    <value>Zeit übrig: {0}s ({1}%) Gesamt: {2}</value>
-  </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>Unterstützte Variablen: {0} und andere Variablen wie {1} usw.</value>
   </data>
@@ -146,9 +143,6 @@
   </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>Abbrechen</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning" xml:space="preserve">
-    <value>Warnung: Erster Upload</value>
   </data>
   <data name="SwitchToThumbnailView" xml:space="preserve">
     <value>Zur Bildvorschau wechseln</value>
@@ -194,9 +188,6 @@ Soll ShareX neu gestartet werden?</value>
   <data name="InspectWindow_ClassName" xml:space="preserve">
     <value>Klassenname</value>
   </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>URL-Kürzer: {0}</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>Chronik</value>
   </data>
@@ -215,18 +206,11 @@ Soll ShareX neu gestartet werden?</value>
   <data name="Program_Run_Unable_to_create_folder_" xml:space="preserve">
     <value>Konnte Ordner nicht erstellen:</value>
   </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning_text" xml:space="preserve">
-    <value>Bist du dir sicher, dass du du diesen Screenshot hochladen möchtest?
-Klicke auf 'Nein', um den derzeitigen Upload abzubrechen und den automatischen Upload von Screenshots zu deaktivieren.</value>
-  </data>
   <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
     <value>FFmpeg, das mit ShareX geliefert wird, unterstützt nur 64-Bit-Betriebssysteme.</value>
   </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>Hochladen</value>
-  </data>
-  <data name="BeforeUploadControl_AddDestination_Custom" xml:space="preserve">
-    <value>Angepasst</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm_Please_choose_a_destination_" xml:space="preserve">
     <value>Wähle bitte ein Ziel aus.</value>
@@ -260,9 +244,6 @@ Klicke auf 'Nein', um den derzeitigen Upload abzubrechen und den automatischen U
   </data>
   <data name="InspectWindow_ProcessFileName" xml:space="preserve">
     <value>Name der Prozessdatei</value>
-  </data>
-  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
-    <value>X: {0}, Y {1}, Breite: {2}, Höhe: {3}</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>Möchten Sie die ShareX-Einstellungen zurücksetzen?</value>
@@ -307,9 +288,6 @@ Bist du sicher?</value>
   <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
     <value>Konfiguration {0} ist ungültig oder fehlt. Zur Konfiguration überprüfen Sie das Fenster "Zieleinstellungen".</value>
   </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>URL kürzen ({0})</value>
-  </data>
   <data name="ActionsToolbarEditForm_Separator" xml:space="preserve">
     <value>Trennzeichen</value>
   </data>
@@ -321,12 +299,6 @@ Bist du sicher?</value>
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>Deutsch</value>
-  </data>
-  <data name="ChromeForm_btnUnregister_Click_Chrome_support_disabled_" xml:space="preserve">
-    <value>Chrome-Unterstützung deaktiviert.</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>Text-Upload-Test</value>
   </data>
   <data name="InspectWindow_WindowRectangle" xml:space="preserve">
     <value>Fensterrechteck</value>
@@ -369,12 +341,6 @@ Sie können sie später im Menü „Aufgaben nach der Aufnahme“ deaktivieren.<
   <data name="RecentManager_UpdateRecentMenu_Left_click_to_copy_URL_to_clipboard__Right_click_to_open_URL_" xml:space="preserve">
     <value>Linksklick um den URL zu kopieren. Rechtsklick um den URL zu öffnen.</value>
   </data>
-  <data name="AutoCaptureForm_Execute_Start" xml:space="preserve">
-    <value>Start</value>
-  </data>
-  <data name="ChromeForm_btnRegister_Click_Chrome_support_enabled_" xml:space="preserve">
-    <value>Chrome-Unterstützung aktiviert.</value>
-  </data>
   <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>Aufgabe beendet</value>
   </data>
@@ -401,9 +367,6 @@ Sie können sie später im Menü „Aufgaben nach der Aufnahme“ deaktivieren.<
   </data>
   <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
     <value>Uploadfehler</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Stop" xml:space="preserve">
-    <value>Stopp</value>
   </data>
   <data name="ActionsToolbar_Close" xml:space="preserve">
     <value>Schließen</value>
@@ -440,9 +403,6 @@ Soll ShareX neu gestartet werden?</value>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
     <value>Textuploader: {0}</value>
   </data>
-  <data name="UploadManager_ShowShortenURLDialog_Shorten" xml:space="preserve">
-    <value>Kürzen</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_In_queue" xml:space="preserve">
     <value>In Warteschlange</value>
   </data>
@@ -469,9 +429,6 @@ Soll ShareX neu gestartet werden?</value>
   </data>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
     <value>URL-Freigabedienst: {0}</value>
-  </data>
-  <data name="UploadManager_ShowShortenURLDialog_ShortenURL" xml:space="preserve">
-    <value>URL-Kürzen</value>
   </data>
   <data name="Confirmation" xml:space="preserve">
     <value>Bestätigung</value>

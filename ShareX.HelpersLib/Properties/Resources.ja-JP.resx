@@ -132,9 +132,6 @@
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>秒</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>独自のテキスト アップローダー</value>
-  </data>
   <data name="ProxyMethod_None" xml:space="preserve">
     <value>なし</value>
   </data>
@@ -155,9 +152,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>クイック タスク メニューを表示</value>
-  </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>URL短縮サービス</value>
   </data>
   <data name="ReplCodeMenuEntry_uln_User_login_name" xml:space="preserve">
     <value>ユーザー ログイン名</value>
@@ -222,14 +216,8 @@
   <data name="DownloaderForm_fileDownloader_DownloadCompleted_Download_completed_" xml:space="preserve">
     <value>ダウンロードが完了しました。</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Private" xml:space="preserve">
-    <value>非公開(Private)</value>
-  </data>
   <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
     <value>URLを共有</value>
-  </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>ファイル アップローダ</value>
   </data>
   <data name="ReplCodeMenuEntry_h_Current_hour" xml:space="preserve">
     <value>時</value>
@@ -358,17 +346,11 @@
   <data name="Extensions_AddContextMenu_SelectAll" xml:space="preserve">
     <value>すべて選択</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>独自のファイル アップローダー</value>
-  </data>
   <data name="LinearGradientMode_Vertical" xml:space="preserve">
     <value>垂直方向</value>
   </data>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>ランダム</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>画像 アップローダ</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>ハッシュ値の照合</value>
@@ -381,9 +363,6 @@
   </data>
   <data name="HotkeyType_ClipboardUploadWithContentViewer" xml:space="preserve">
     <value>ビューアを使ってクリップボードからアップロード</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Public" xml:space="preserve">
-    <value>公開(Public)</value>
   </data>
   <data name="HSB_ToString_" xml:space="preserve">
     <value>色相(H): {0:0.0}°, 彩度(S): {1:0.0}%, 明度(B): {2:0.0}%</value>
@@ -454,9 +433,6 @@
   <data name="HotkeyType_ScreenRecorderGIF" xml:space="preserve">
     <value>独自領域の動画キャプチャー (GIF) を開始/停止</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Unlisted" xml:space="preserve">
-    <value>非掲載(Unlisted)</value>
-  </data>
   <data name="ObjectListView_ObjectListView_Name" xml:space="preserve">
     <value>名前</value>
   </data>
@@ -514,9 +490,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>ファイルのパス (拡張子なし) + 「出力ファイル名の拡張子」</value>
   </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Google 画像検索</value>
-  </data>
   <data name="HotkeyType_IndexFolder" xml:space="preserve">
     <value>フォルダ内一覧の作成</value>
   </data>
@@ -549,9 +522,6 @@
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_CurrentVersion" xml:space="preserve">
     <value>現在のバージョン</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>Eメール</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_" xml:space="preserve">
     <value>{0}の最新版があります。
@@ -626,9 +596,6 @@
   <data name="PastebinExpiration_W1" xml:space="preserve">
     <value>1週間</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>URL共有サービス</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>効果: ハイライト(H)</value>
   </data>
@@ -650,9 +617,6 @@
   <data name="CodeMenuEntryFilename_RandomAnimal" xml:space="preserve">
     <value>ランダムな動物</value>
   </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>独自のURL共有サービス</value>
-  </data>
   <data name="RegionCaptureAction_CaptureFullscreen" xml:space="preserve">
     <value>フルスクリーンをキャプチャー</value>
   </data>
@@ -664,9 +628,6 @@
   </data>
   <data name="HotkeyType_ImageEditor" xml:space="preserve">
     <value>画像エディタ</value>
-  </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>Eメール</value>
   </data>
   <data name="HotkeyType_OpenHistory" xml:space="preserve">
     <value>履歴ウィンドウを開く</value>
@@ -709,9 +670,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowInExplorer" xml:space="preserve">
     <value>エクスプローラでファイルを表示</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>独自の画像アップローダー</value>
   </data>
   <data name="HotkeyType_Category_ScreenCapture" xml:space="preserve">
     <value>静止画キャプチャー</value>
@@ -782,9 +740,6 @@
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>コピー</value>
   </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>短縮URLの作成</value>
-  </data>
   <data name="ReplCodeMenuEntry_rf_Random_line_from_file" xml:space="preserve">
     <value>ファイル内のランダムな行。ファイルは {filepath} で指定</value>
   </data>
@@ -793,9 +748,6 @@
   </data>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>ツール</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>共有フォルダー</value>
   </data>
   <data name="HotkeyType_ActiveMonitor" xml:space="preserve">
     <value>アクティブ モニターをキャプチャー</value>
@@ -899,9 +851,6 @@
   <data name="RandomNonAmbiguousAlphanumericCharRepeatUsingN" xml:space="preserve">
     <value>ランダムな区別しやすい英数字 {n}でn回繰り返し</value>
   </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>独自のURL短縮サービス</value>
-  </data>
   <data name="PastebinPrivacy_Public" xml:space="preserve">
     <value>公開</value>
   </data>
@@ -911,12 +860,6 @@
   <data name="DrawImageSizeMode_PercentageOfWatermark" xml:space="preserve">
     <value>画像の比率</value>
   </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>短縮URLの作成</value>
-  </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>テキスト アップローダ</value>
-  </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>どうするか尋ねる</value>
   </data>
@@ -925,9 +868,6 @@
   </data>
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>「キャプチャー後」ウィンドウを表示</value>
-  </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>テキストのアップロード</value>
   </data>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>ツール: 画像の切り抜き(C)</value>
@@ -1069,9 +1009,6 @@
   </data>
   <data name="ContentAlignment_BottomRight" xml:space="preserve">
     <value>右下</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Bing画像検索</value>
   </data>
   <data name="EDataType_Default" xml:space="preserve">
     <value>標準</value>

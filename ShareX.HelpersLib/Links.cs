@@ -35,7 +35,6 @@ namespace ShareX.HelpersLib
         public const string ImageEffects = Website + "/image-effects";
         public const string Actions = Website + "/actions";
         private const string Docs = Website + "/docs";
-        public const string DocsCustomUploader = Docs + "/custom-uploader";
         public const string DocsKeybinds = Docs + "/keybinds";
         public const string DocsOCR = Docs + "/ocr";
         public const string DocsScrollingScreenshot = Docs + "/scrolling-screenshot";

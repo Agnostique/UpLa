@@ -156,17 +156,11 @@
   <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
     <value>מחולל תמונה ממוזערת לווידאו...</value>
   </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>הגדרות מותאמות אישית של שירות העלאה...</value>
-  </data>
   <data name="tsmiTrayAutoCapture.Text" xml:space="preserve">
     <value>צילום מסך אוטומטי...</value>
   </data>
   <data name="tsmiAutoCapture.Text" xml:space="preserve">
     <value>צילום מסך אוטומטי...</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>קישור מקוצר...</value>
   </data>
   <data name="tsmiCopyThumbnailFile.Text" xml:space="preserve">
     <value>קובץ תמונה ממוזערת</value>
@@ -234,9 +228,6 @@
   <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
     <value>מחולל תמונה ממוזערת...</value>
   </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>מקצר קישור</value>
-  </data>
   <data name="chStatus.Text" xml:space="preserve">
     <value>סטטוס</value>
   </data>
@@ -252,17 +243,11 @@
   <data name="tsmiAddImageEffects.Text" xml:space="preserve">
     <value>הוסף אפקטים לתמונה...</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>בדיקת העלאת טקסט</value>
-  </data>
   <data name="tsmiTestFileUpload.Text" xml:space="preserve">
     <value>בדיקת העלאת קובץ</value>
   </data>
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>בדיקת העלאת תמונה</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>בדיקת מקצר קישור</value>
   </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>בדיקת שיתוף הקישור</value>
@@ -420,9 +405,6 @@
   <data name="tsddbWorkflows.Text" xml:space="preserve">
     <value>תהליכי עבודה</value>
   </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>חיפוש חזותי של בינג (OCR)...</value>
-  </data>
   <data name="tsmiTrayApplicationSettings.Text" xml:space="preserve">
     <value>הגדרות יישום...</value>
   </data>
@@ -543,9 +525,6 @@
   <data name="tsmiUploadClipboard.Text" xml:space="preserve">
     <value>העלה מלוח הגזירה...</value>
   </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>העלה טקסט...</value>
-  </data>
   <data name="tsmiUploadURL.Text" xml:space="preserve">
     <value>העלה מקישור...</value>
   </data>
@@ -572,9 +551,6 @@
   </data>
   <data name="tsddbAfterUploadTasks.Text" xml:space="preserve">
     <value>משימות לאחר העלאה</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>מקצרי קישורים</value>
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>שירותי שיתוף קישורים</value>
@@ -684,14 +660,8 @@
   <data name="tsmiTrayUploadClipboard.Text" xml:space="preserve">
     <value>העלה מלוח הגזירה...</value>
   </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>העלה טקסט...</value>
-  </data>
   <data name="tsmiTrayUploadURL.Text" xml:space="preserve">
     <value>העלה מקישור...</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>קצר קישור...</value>
   </data>
   <data name="tsmiTrayUpload.Text" xml:space="preserve">
     <value>העלה</value>
@@ -710,9 +680,6 @@
   </data>
   <data name="tsmiTrayAfterUploadTasks.Text" xml:space="preserve">
     <value>משימות לאחר העלאה</value>
-  </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>מקצרי קישורים</value>
   </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>שירותי שיתוף קישורים</value>
@@ -762,14 +729,8 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>הגדרות יעד...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>הגדרות מעלה מותאם אישית...</value>
-  </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>נתח תמונה...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
   </data>
   <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
     <value>משווה תמונות...</value>

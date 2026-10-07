@@ -168,12 +168,6 @@ namespace ShareX
                         return;
                     }
 
-                    if (taskSettings.UploadSettings.ClipboardUploadShortenURL)
-                    {
-                        ShortenURL(url, taskSettings);
-                        return;
-                    }
-
                     if (taskSettings.UploadSettings.ClipboardUploadShareURL)
                     {
                         ShareURL(url, taskSettings);
@@ -278,24 +272,6 @@ namespace ShareX
             }
         }
 
-        public static void ShowTextUploadDialog(TaskSettings taskSettings = null)
-        {
-            if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
-
-            using (TextUploadForm form = new TextUploadForm())
-            {
-                if (form.ShowDialog() == DialogResult.OK)
-                {
-                    string text = form.Content;
-
-                    if (!string.IsNullOrEmpty(text))
-                    {
-                        UploadText(text, taskSettings);
-                    }
-                }
-            }
-        }
-
         public static void DragDropUpload(IDataObject data, TaskSettings taskSettings = null)
         {
             if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
@@ -335,27 +311,6 @@ namespace ShareX
             if (!string.IsNullOrEmpty(url))
             {
                 DownloadAndUploadFile(url, taskSettings);
-            }
-        }
-
-        public static void ShowShortenURLDialog(TaskSettings taskSettings = null)
-        {
-            if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
-
-            string inputText = null;
-
-            string text = ClipboardHelpers.GetText(true);
-
-            if (URLHelpers.IsValidURL(text))
-            {
-                inputText = text;
-            }
-
-            string url = InputBox.Show(Resources.UploadManager_ShowShortenURLDialog_ShortenURL, inputText, Resources.UploadManager_ShowShortenURLDialog_Shorten);
-
-            if (!string.IsNullOrEmpty(url))
-            {
-                ShortenURL(url, taskSettings);
             }
         }
 
@@ -480,29 +435,6 @@ namespace ShareX
             if (stream != null && stream.Length > 0 && !string.IsNullOrEmpty(fileName))
             {
                 WorkerTask task = WorkerTask.CreateDataUploaderTask(EDataType.Image, stream, fileName, taskSettings);
-                TaskManager.Start(task);
-            }
-        }
-
-        public static void ShortenURL(string url, TaskSettings taskSettings = null)
-        {
-            if (!string.IsNullOrEmpty(url))
-            {
-                if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
-
-                WorkerTask task = WorkerTask.CreateURLShortenerTask(url, taskSettings);
-                TaskManager.Start(task);
-            }
-        }
-
-        public static void ShortenURL(string url, UrlShortenerType urlShortener)
-        {
-            if (!string.IsNullOrEmpty(url))
-            {
-                TaskSettings taskSettings = TaskSettings.GetDefaultTaskSettings();
-                taskSettings.URLShortenerDestination = urlShortener;
-
-                WorkerTask task = WorkerTask.CreateURLShortenerTask(url, taskSettings);
                 TaskManager.Start(task);
             }
         }

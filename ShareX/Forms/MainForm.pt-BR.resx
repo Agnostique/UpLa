@@ -303,9 +303,6 @@
   <data name="tsmiTrayUploadURL.Text" xml:space="preserve">
     <value>Envio do URL...</value>
   </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>Encurtadores de URL</value>
-  </data>
   <data name="tsmiUploadClipboard.Text" xml:space="preserve">
     <value>Envio da área de transferência...</value>
   </data>
@@ -314,9 +311,6 @@
   </data>
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>Compartilhar URL</value>
-  </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>Encurtar URL</value>
   </data>
   <data name="tsmiScreenshotsFolder.Text" xml:space="preserve">
     <value>Pasta de capturas de tela...</value>
@@ -330,14 +324,8 @@
   <data name="tsmiStopUpload.Text" xml:space="preserve">
     <value>Parar envio</value>
   </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>Testar encurtador de URL</value>
-  </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>Testar compartilhamento de URL</value>
-  </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Testar envio de texto</value>
   </data>
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Testar envio de imagem</value>
@@ -389,9 +377,6 @@
   </data>
   <data name="tsmiTrayToggleHotkeys.Text" xml:space="preserve">
     <value>Desabilitar atalhos</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Encurtadores de URL</value>
   </data>
   <data name="tsmiTrayApplicationSettings.Text" xml:space="preserve">
     <value>Configurações do programa...</value>
@@ -564,14 +549,8 @@
   <data name="tsmiTrayScreenshotDelay.Text" xml:space="preserve">
     <value>Atraso na captura de tela</value>
   </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Pesquisa visual do Bing (OCR)...</value>
-  </data>
   <data name="tsmiOpenActionsToolbar.Text" xml:space="preserve">
     <value>Alternar barra de ferramentas de ações</value>
-  </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Configurações personalizadas de upload...</value>
   </data>
   <data name="tsmiAddImageEffects.Text" xml:space="preserve">
     <value>Adicionar efeitos de imagem...</value>
@@ -696,20 +675,8 @@
   <data name="tsmiRunAction.Text" xml:space="preserve">
     <value>Executar ação</value>
   </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>Encurtar URL...</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>Encurtar URL...</value>
-  </data>
   <data name="tsmiSwitchTaskViewMode.Text" xml:space="preserve">
     <value>Alternar para exibição de miniaturas</value>
-  </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Upload de texto...</value>
-  </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Upload de texto...</value>
   </data>
   <data name="tsmiVideoConverter.Text" xml:space="preserve">
     <value>Conversor de vídeo...</value>
@@ -735,9 +702,6 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Configurações de destino...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Configurações do uploader personalizado...</value>
-  </data>
   <data name="tsbX.Text" xml:space="preserve">
     <value>Seguir @ShareX...</value>
   </data>
@@ -755,9 +719,6 @@
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Analisar imagem...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
   </data>
   <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
     <value>Comparador de imagens...</value>

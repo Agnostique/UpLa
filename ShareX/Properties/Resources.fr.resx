@@ -120,9 +120,6 @@
   <data name="ShareXIsMinimizedToTheSystemTray" xml:space="preserve">
     <value>ShareX est réduit dans la zone de notification.</value>
   </data>
-  <data name="AutoCaptureForm_UpdateStatus_Timeleft___0_s___1____Total___2_" xml:space="preserve">
-    <value>Temps restant : {0}s ({1}%) Total : {2}</value>
-  </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>Variables prises en charge : {0} et d'autres variables telles que {1}, etc.</value>
   </data>
@@ -149,9 +146,6 @@
   </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>Annuler</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning" xml:space="preserve">
-    <value>Avertissement pour la première mise en ligne</value>
   </data>
   <data name="SwitchToThumbnailView" xml:space="preserve">
     <value>Basculer vers la vue miniatures</value>
@@ -193,9 +187,6 @@ Voulez-vous redémarrer ShareX ?</value>
   <data name="InspectWindow_ClassName" xml:space="preserve">
     <value>Nom de classe</value>
   </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>Raccourcisseur d'URL : {0}</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>Historique</value>
   </data>
@@ -214,18 +205,11 @@ Voulez-vous redémarrer ShareX ?</value>
   <data name="Program_Run_Unable_to_create_folder_" xml:space="preserve">
     <value>Impossible de créer le dossier :</value>
   </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning_text" xml:space="preserve">
-    <value>Êtes-vous sûr de vouloir mettre en ligne cette capture d'écran ?
-Cliquez sur « Non » pour annuler la mise en ligne et désactiver la mise en ligne automatique.</value>
-  </data>
   <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
     <value>FFmpeg inclus dans ShareX ne support que les systèmes d'exploitation 64-bits.</value>
   </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>Mise en ligne en cours</value>
-  </data>
-  <data name="BeforeUploadControl_AddDestination_Custom" xml:space="preserve">
-    <value>Personnalisé</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm_Please_choose_a_destination_" xml:space="preserve">
     <value>Veuillez choisir une destination.</value>
@@ -259,9 +243,6 @@ Cliquez sur « Non » pour annuler la mise en ligne et désactiver la mise en li
   </data>
   <data name="InspectWindow_ProcessFileName" xml:space="preserve">
     <value>Nom de fichier du processus</value>
-  </data>
-  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
-    <value>X: {0}, Y : {1}, Largeur : {2}, Hauteur : {3}</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>Voulez-vous réinitialiser les paramètres de ShareX ?</value>
@@ -312,9 +293,6 @@ Cliquez sur « Non » pour annuler la mise en ligne et désactiver la mise en li
   <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
     <value>La configuration {0} est invalide ou manquante. Merci de vérifier les "Paramètres de destination".</value>
   </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>Raccourcisseur d'URL ({0})</value>
-  </data>
   <data name="ActionsToolbarEditForm_Separator" xml:space="preserve">
     <value>Séparateur</value>
   </data>
@@ -326,12 +304,6 @@ Cliquez sur « Non » pour annuler la mise en ligne et désactiver la mise en li
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>Allemand</value>
-  </data>
-  <data name="ChromeForm_btnUnregister_Click_Chrome_support_disabled_" xml:space="preserve">
-    <value>Support pour Chrome désactivé.</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>Test de mise en ligne d'un texte</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>Voulez-vous activer les effets d'image ?
@@ -377,12 +349,6 @@ Vous pourrez les désactiver plus tard depuis le manu "Tâches après la capture
   <data name="RecentManager_UpdateRecentMenu_Left_click_to_copy_URL_to_clipboard__Right_click_to_open_URL_" xml:space="preserve">
     <value>Clic gauche pour copier l'URL dans le presse-papier. Clic droit pour l'ouvrir.</value>
   </data>
-  <data name="AutoCaptureForm_Execute_Start" xml:space="preserve">
-    <value>Démarrer</value>
-  </data>
-  <data name="ChromeForm_btnRegister_Click_Chrome_support_enabled_" xml:space="preserve">
-    <value>Support pour Chrome activé.</value>
-  </data>
   <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>Tâche terminée</value>
   </data>
@@ -412,9 +378,6 @@ Vous pourrez les désactiver plus tard depuis le manu "Tâches après la capture
   </data>
   <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
     <value>Erreurs de mise en ligne</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Stop" xml:space="preserve">
-    <value>Arrêter</value>
   </data>
   <data name="ActionsToolbar_Close" xml:space="preserve">
     <value>Fermer</value>
@@ -451,9 +414,6 @@ Voulez-vous redémarrer ShareX ?</value>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
     <value>Mise en ligne de textes : {0}</value>
   </data>
-  <data name="UploadManager_ShowShortenURLDialog_Shorten" xml:space="preserve">
-    <value>Raccourcir</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_In_queue" xml:space="preserve">
     <value>En attente</value>
   </data>
@@ -480,9 +440,6 @@ Voulez-vous redémarrer ShareX ?</value>
   </data>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
     <value>Service de partage d'URL : {0}</value>
-  </data>
-  <data name="UploadManager_ShowShortenURLDialog_ShortenURL" xml:space="preserve">
-    <value>Raccourcir URL</value>
   </data>
   <data name="Confirmation" xml:space="preserve">
     <value>Confirmation</value>

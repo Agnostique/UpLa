@@ -120,9 +120,6 @@
   <data name="ShareXIsMinimizedToTheSystemTray" xml:space="preserve">
     <value>ShareX jest zminimalizowany do zasobnika systemowego.</value>
   </data>
-  <data name="AutoCaptureForm_UpdateStatus_Timeleft___0_s___1____Total___2_" xml:space="preserve">
-    <value>Pozostały czas: {0}s ({1}%) Łącznie: {2}</value>
-  </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>Obsługiwane zmienne: {0} i inne zmienne, takie jak {1} itp.</value>
   </data>
@@ -149,9 +146,6 @@
   </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>Anuluj</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning" xml:space="preserve">
-    <value>Ostrzeżenie przy pierwszym przesyłaniu</value>
   </data>
   <data name="SwitchToThumbnailView" xml:space="preserve">
     <value>Przełącz na widok miniatur</value>
@@ -197,9 +191,6 @@ Czy chcesz ponownie uruchomić ShareX?</value>
   <data name="InspectWindow_ClassName" xml:space="preserve">
     <value>Nazwa klasy</value>
   </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>Skracacz linków: {0}</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>Historia</value>
   </data>
@@ -218,18 +209,11 @@ Czy chcesz ponownie uruchomić ShareX?</value>
   <data name="Program_Run_Unable_to_create_folder_" xml:space="preserve">
     <value>Nie można utworzyć folderu:</value>
   </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning_text" xml:space="preserve">
-    <value>Czy na pewno chcesz przesłać ten zrzut ekranu?
-Naciśnij 'Nie', aby anulować bieżące przesyłanie i wyłączyć automatyczne przesyłanie zrzutów ekranu.</value>
-  </data>
   <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
     <value>FFmpeg, który jest dostarczany z ShareX, obsługuje tylko 64-bitowe systemy operacyjne.</value>
   </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>Przesyłanie</value>
-  </data>
-  <data name="BeforeUploadControl_AddDestination_Custom" xml:space="preserve">
-    <value>Własny</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm_Please_choose_a_destination_" xml:space="preserve">
     <value>Wybierz miejsce docelowe.</value>
@@ -263,9 +247,6 @@ Naciśnij 'Nie', aby anulować bieżące przesyłanie i wyłączyć automatyczne
   </data>
   <data name="InspectWindow_ProcessFileName" xml:space="preserve">
     <value>Nazwa pliku procesu</value>
-  </data>
-  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
-    <value>X: {0}, Y: {1}, Szerokość: {2}, Wysokość: {3}</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>Czy chcesz zresetować ustawienia ShareX?</value>
@@ -319,9 +300,6 @@ Jesteś pewien, że chcesz kontynuować?</value>
   <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
     <value>Konfiguracja {0} jest nieprawidłowa lub jej brakuje. Sprawdź okno „Ustawienia miejsca docelowego”, aby je skonfigurować.</value>
   </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>Skróć link ({0})</value>
-  </data>
   <data name="ActionsToolbarEditForm_Separator" xml:space="preserve">
     <value>Separator</value>
   </data>
@@ -333,12 +311,6 @@ Jesteś pewien, że chcesz kontynuować?</value>
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>Niemiecki</value>
-  </data>
-  <data name="ChromeForm_btnUnregister_Click_Chrome_support_disabled_" xml:space="preserve">
-    <value>Obsługa Chrome wyłączona.</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>Przetestuj przesyłanie tekstu</value>
   </data>
   <data name="InspectWindow_WindowRectangle" xml:space="preserve">
     <value>Prostokąt okna</value>
@@ -384,12 +356,6 @@ Możesz je później wyłączyć w menu "Zadania po przechwyceniu".</value>
   <data name="RecentManager_UpdateRecentMenu_Left_click_to_copy_URL_to_clipboard__Right_click_to_open_URL_" xml:space="preserve">
     <value>Kliknij lewym przyciskiem myszy, aby skopiować link do schowka. Kliknij prawym przyciskiem myszy, aby otworzyć link.</value>
   </data>
-  <data name="AutoCaptureForm_Execute_Start" xml:space="preserve">
-    <value>Rozpocznij</value>
-  </data>
-  <data name="ChromeForm_btnRegister_Click_Chrome_support_enabled_" xml:space="preserve">
-    <value>Obsługa Chrome włączona.</value>
-  </data>
   <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>Zadanie ukończone</value>
   </data>
@@ -419,9 +385,6 @@ Możesz je później wyłączyć w menu "Zadania po przechwyceniu".</value>
   </data>
   <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
     <value>Błędy przy przesyłaniu</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Stop" xml:space="preserve">
-    <value>Zatrzymaj</value>
   </data>
   <data name="ActionsToolbar_Close" xml:space="preserve">
     <value>Zamknij</value>
@@ -458,9 +421,6 @@ Czy chcesz ponownie uruchomić ShareX?</value>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
     <value>Serwis tekstu: {0}</value>
   </data>
-  <data name="UploadManager_ShowShortenURLDialog_Shorten" xml:space="preserve">
-    <value>Skróć</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_In_queue" xml:space="preserve">
     <value>W kolejce</value>
   </data>
@@ -487,9 +447,6 @@ Czy chcesz ponownie uruchomić ShareX?</value>
   </data>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
     <value>Usługa udostępniania linków: {0}</value>
-  </data>
-  <data name="UploadManager_ShowShortenURLDialog_ShortenURL" xml:space="preserve">
-    <value>Skróć link</value>
   </data>
   <data name="Confirmation" xml:space="preserve">
     <value>Potwierdzenie</value>

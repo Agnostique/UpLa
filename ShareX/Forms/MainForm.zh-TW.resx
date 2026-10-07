@@ -326,9 +326,6 @@
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>分享網址</value>
   </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>縮網址</value>
-  </data>
   <data name="tsmiShowDebugLog.Text" xml:space="preserve">
     <value>偵錯日誌...</value>
   </data>
@@ -350,14 +347,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>測試圖片上傳</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>測試文字上傳</value>
-  </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>測試網址分享</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>測試縮網址</value>
   </data>
   <data name="tsmiTextUploaders.Text" xml:space="preserve">
     <value>文字上傳工具</value>
@@ -473,9 +464,6 @@
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>網址分享服務</value>
   </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>縮網址服務</value>
-  </data>
   <data name="tsmiTrayWindow.Text" xml:space="preserve">
     <value>視窗</value>
   </data>
@@ -502,9 +490,6 @@
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>網址分享服務</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>縮網址服務</value>
   </data>
   <data name="tsmiWindow.Text" xml:space="preserve">
     <value>視窗</value>
@@ -584,12 +569,6 @@
   <data name="tsmiScreenshotDelay.Text" xml:space="preserve">
     <value>截圖倒數計時</value>
   </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>上傳文字...</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>縮網址...</value>
-  </data>
   <data name="tsmiImageEditor.Text" xml:space="preserve">
     <value>圖片編輯器...</value>
   </data>
@@ -644,29 +623,17 @@
   <data name="tsmiTrayScreenshotDelay.Text" xml:space="preserve">
     <value>截圖倒數計時</value>
   </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>上傳文字...</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>縮網址...</value>
-  </data>
   <data name="tsmiTrayImageEditor.Text" xml:space="preserve">
     <value>圖片編輯器...</value>
   </data>
   <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
     <value>圖片縮圖工具...</value>
   </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>自訂上傳工具設定...</value>
-  </data>
   <data name="tsmiAddImageEffects.Text" xml:space="preserve">
     <value>新增圖片特效...</value>
   </data>
   <data name="tsmiBeautifyImage.Text" xml:space="preserve">
     <value>美化圖片...</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Bing 圖像式搜尋 (OCR)...</value>
   </data>
   <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
     <value>無邊框視窗...</value>
@@ -740,9 +707,6 @@
   <data name="tsbX.Text" xml:space="preserve">
     <value>追蹤 @ShareX...</value>
   </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google 智慧鏡頭...</value>
-  </data>
   <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
     <value>雜湊檢查...</value>
   </data>
@@ -763,9 +727,6 @@
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>分析圖片...</value>
-  </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>自訂上傳器設定...</value>
   </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>目的地設定...</value>

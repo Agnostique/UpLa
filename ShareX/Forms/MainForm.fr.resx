@@ -213,9 +213,6 @@
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Services de mise en ligne de fichiers</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Raccourcisseurs d'URL</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Services de partage d'URL</value>
   </data>
@@ -243,14 +240,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Tester la mise en ligne d'images</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Tester la mise en ligne de textes</value>
-  </data>
   <data name="tsmiTestFileUpload.Text" xml:space="preserve">
     <value>Tester la mise en ligne de fichiers</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>Tester le raccourcisseur d'URL</value>
   </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>Tester le partage d'URL</value>
@@ -348,9 +339,6 @@
   <data name="tsmiDeleteSelectedFile.Text" xml:space="preserve">
     <value>Supprimer le fichier local...</value>
   </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>Raccourcir l'URL</value>
-  </data>
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>Partager l'URL</value>
   </data>
@@ -440,9 +428,6 @@
   </data>
   <data name="tsmiTrayFileUploaders.Text" xml:space="preserve">
     <value>Services de mise en ligne de fichiers</value>
-  </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>Raccourcisseurs d'URL</value>
   </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>Services de partage d'URL</value>
@@ -567,23 +552,11 @@
   <data name="tsbAbout.Text" xml:space="preserve">
     <value>À propos...</value>
   </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Mettre en ligne un texte...</value>
-  </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Mettre en ligne un texte...</value>
-  </data>
   <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
     <value>Générateur de miniatures d'image...</value>
   </data>
   <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
     <value>Générateur de miniatures d'image...</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>Raccourcir l'URL...</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>Raccourcir l'URL...</value>
   </data>
   <data name="tsmiCopyMarkdownImage.Text" xml:space="preserve">
     <value>Image Markdown</value>
@@ -644,9 +617,6 @@
   </data>
   <data name="tsmiTrayShowCursor.Text" xml:space="preserve">
     <value>Afficher le curseur</value>
-  </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Paramètres de service de mise en ligne personnalisé...</value>
   </data>
   <data name="tsmiSwitchTaskViewMode.Text" xml:space="preserve">
     <value>Basculer vers la vue miniatures</value>
@@ -720,9 +690,6 @@
   <data name="tsmiPinSelectedFile.Text" xml:space="preserve">
     <value>Epingler à l'écran</value>
   </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Recherche visuelle Bing...</value>
-  </data>
   <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
     <value>Combiner horizontalement</value>
   </data>
@@ -759,14 +726,8 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Paramètres de destination...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Paramètres de l’uploader personnalisé...</value>
-  </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Analyser l’image...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
   </data>
   <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
     <value>Comparateur d’images...</value>

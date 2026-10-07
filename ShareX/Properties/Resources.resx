@@ -124,9 +124,6 @@
   <data name="kr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AutoCaptureForm_UpdateStatus_Timeleft___0_s___1____Total___2_" xml:space="preserve">
-    <value>Timeleft: {0}s ({1}%) Total: {2}</value>
-  </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>Supported variables: {0} and other variables such as {1} etc.</value>
   </data>
@@ -192,9 +189,6 @@
   </data>
   <data name="UploadTask_Stop_Stopping" xml:space="preserve">
     <value>Stopping</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning" xml:space="preserve">
-    <value>First time upload warning</value>
   </data>
   <data name="application_terminal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\application-terminal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -332,9 +326,6 @@ Middle click to close</value>
   <data name="es" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\es.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="balloon_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\balloon-white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="monitor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\monitor.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -346,10 +337,6 @@ Middle click to close</value>
   </data>
   <data name="tag_hash" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tag-hash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning_text" xml:space="preserve">
-    <value>Are you sure you want to upload this screenshot?
-Press 'No' to cancel the current upload and disable screenshot auto uploading.</value>
   </data>
   <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -368,9 +355,6 @@ Press 'No' to cancel the current upload and disable screenshot auto uploading.</
   </data>
   <data name="ui_toolbar__arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ui-toolbar--arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BeforeUploadControl_AddDestination_Custom" xml:space="preserve">
-    <value>Custom</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm_Please_choose_a_destination_" xml:space="preserve">
     <value>Please choose a destination.</value>
@@ -413,12 +397,6 @@ Press 'No' to cancel the current upload and disable screenshot auto uploading.</
   </data>
   <data name="ui_menu_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ui-menu-blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="clock__arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\clock--arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
-    <value>X: {0}, Y: {1}, Width: {2}, Height: {3}</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>Would you like to reset ShareX settings?</value>
@@ -511,9 +489,6 @@ Are you sure you want to continue?</value>
   <data name="AboutForm_AboutForm_Translators" xml:space="preserve">
     <value>Translators</value>
   </data>
-  <data name="clock__minus" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\clock--minus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="AboutForm_AboutForm_Privacy_policy" xml:space="preserve">
     <value>Privacy policy</value>
   </data>
@@ -528,9 +503,6 @@ Are you sure you want to continue?</value>
   </data>
   <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
     <value>{0} configuration is invalid or missing. Please check "Destination settings" window to configure it.</value>
-  </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>Shorten URL ({0})</value>
   </data>
   <data name="ActionsToolbarEditForm_Separator" xml:space="preserve">
     <value>Separator</value>
@@ -565,12 +537,6 @@ Are you sure you want to continue?</value>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>German</value>
   </data>
-  <data name="ChromeForm_btnUnregister_Click_Chrome_support_disabled_" xml:space="preserve">
-    <value>Chrome support disabled.</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>Text upload test</value>
-  </data>
   <data name="InspectWindow_WindowRectangle" xml:space="preserve">
     <value>Window rectangle</value>
   </data>
@@ -578,9 +544,6 @@ Are you sure you want to continue?</value>
     <value>Would you like to enable image effects?
 
 You can later disable it from "After capture tasks" menu.</value>
-  </data>
-  <data name="edit_scale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\edit-scale.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AboutForm_AboutForm_Language_fa_IR" xml:space="preserve">
     <value>Persian</value>
@@ -605,9 +568,6 @@ You can later disable it from "After capture tasks" menu.</value>
   </data>
   <data name="ClipboardDoesNotContainAnImage" xml:space="preserve">
     <value>Clipboard does not contain an image.</value>
-  </data>
-  <data name="disk_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\disk-black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -651,14 +611,8 @@ You can later disable it from "After capture tasks" menu.</value>
   <data name="printer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\printer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AutoCaptureForm_Execute_Start" xml:space="preserve">
-    <value>Start</value>
-  </data>
   <data name="folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\folder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ChromeForm_btnRegister_Click_Chrome_support_enabled_" xml:space="preserve">
-    <value>Chrome support enabled.</value>
   </data>
   <data name="ir" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -699,9 +653,6 @@ You can later disable it from "After capture tasks" menu.</value>
   <data name="TaskHelpers_ToggleHotkeys_Hotkeys_enabled_" xml:space="preserve">
     <value>Hotkeys enabled.</value>
   </data>
-  <data name="Exclamation_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Exclamation-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gear.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -710,9 +661,6 @@ You can later disable it from "After capture tasks" menu.</value>
   </data>
   <data name="UploadTask_OnUploadCompleted_Done" xml:space="preserve">
     <value>Done</value>
-  </data>
-  <data name="arrow_270" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arrow-270.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ruler_triangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ruler-triangle.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -731,9 +679,6 @@ You can later disable it from "After capture tasks" menu.</value>
   </data>
   <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
     <value>Upload errors</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Stop" xml:space="preserve">
-    <value>Stop</value>
   </data>
   <data name="clipboard_list" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\clipboard-list.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -785,9 +730,6 @@ Would you like to restart ShareX?</value>
   <data name="application-search-result" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\application-search-result.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>URL shortener: {0}</value>
-  </data>
   <data name="pt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -812,9 +754,6 @@ Would you like to restart ShareX?</value>
   <data name="Google-Lens" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Google-Lens.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="UploadManager_ShowShortenURLDialog_Shorten" xml:space="preserve">
-    <value>Shorten</value>
-  </data>
   <data name="keyboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\keyboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -823,9 +762,6 @@ Would you like to restart ShareX?</value>
   </data>
   <data name="film" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\film.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="robot" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\robot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation" xml:space="preserve">
     <value>File delete confirmation</value>
@@ -862,9 +798,6 @@ Would you like to restart ShareX?</value>
   </data>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
     <value>URL sharing service: {0}</value>
-  </data>
-  <data name="UploadManager_ShowShortenURLDialog_ShortenURL" xml:space="preserve">
-    <value>Shorten URL</value>
   </data>
   <data name="folder_open_document" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\folder-open-document.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -957,9 +890,6 @@ here</value>
   <data name="nl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="megaphone" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\megaphone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="AboutForm_AboutForm_Language_tr" xml:space="preserve">
     <value>Turkish</value>
   </data>
@@ -1015,9 +945,6 @@ Please select a different hotkey or quit the conflicting application and reopen 
   <data name="FFmpegDoesNotExistAtTheFollowingPath" xml:space="preserve">
     <value>FFmpeg does not exist at the following path:</value>
   </data>
-  <data name="edit_scale_white" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\edit-scale-white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="MainForm_UpdateToggleHotkeyButton_Enable_hotkeys" xml:space="preserve">
     <value>Enable hotkeys</value>
   </data>
@@ -1057,9 +984,6 @@ Please select a different hotkey or quit the conflicting application and reopen 
   <data name="ImageData_Write_Error_Message" xml:space="preserve">
     <value>Could not write image to path:</value>
   </data>
-  <data name="information" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="AboutForm_AboutForm_Language_zh_TW" xml:space="preserve">
     <value>Traditional Chinese</value>
   </data>
@@ -1080,9 +1004,6 @@ Please select a different hotkey or quit the conflicting application and reopen 
   </data>
   <data name="disk_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\disk-small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="network_cloud" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\network-cloud.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="id" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\id.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

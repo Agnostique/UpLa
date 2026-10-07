@@ -357,12 +357,6 @@
   <data name="cbOverrideCaptureSettings.Text" xml:space="preserve">
     <value>تخصيص إعدادات الالتقاط</value>
   </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>تخصيص الرافع المخصص الافتراضي</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>تخصيص حساب FTP الافتراضي</value>
-  </data>
   <data name="cbOverrideDestinationSettings.Text" xml:space="preserve">
     <value>تخصيص الوجهة</value>
   </data>
@@ -510,9 +504,6 @@
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>خدمات مشاركة عناوين URL</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>خدمات اختصار عناوين URL</value>
-  </data>
   <data name="cbUseCustomCaptureSound.Text" xml:space="preserve">
     <value>استخدام نغمة مخصصة  للإشعار عن الإلتقاط:</value>
   </data>
@@ -608,9 +599,6 @@
   </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>إذا كانت الحافظة تحتوي على عنوان URL، قم بمشاركته باستخدام خدمة مشاركة عنوان URL</value>
-  </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>إذا كانت الحافظة تحتوي على عنوان URL، فاستخدم خدمة اختصار عنوان URL</value>
   </data>
   <data name="lblImageFileExist.Text" xml:space="preserve">
     <value>إذا كان الملف موجودًا:</value>

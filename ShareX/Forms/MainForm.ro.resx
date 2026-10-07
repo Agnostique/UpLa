@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>Scurtați URL-ul</value>
-  </data>
   <data name="tsmiSwitchTaskViewMode.Text" xml:space="preserve">
     <value>Comutați la vizualizare miniaturi</value>
   </data>
@@ -222,9 +219,6 @@
   <data name="tsmiAutoCapture.Text" xml:space="preserve">
     <value>Capturare automată...</value>
   </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Căutare vizuală Bing (OCR)...</value>
-  </data>
   <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
     <value>Fereastră fără borduri...</value>
   </data>
@@ -263,9 +257,6 @@
   </data>
   <data name="tsmiCopy.Text" xml:space="preserve">
     <value>Copiați</value>
-  </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Setări destinație personalizată...</value>
   </data>
   <data name="tsddbDebug.Text" xml:space="preserve">
     <value>Depanare</value>
@@ -561,12 +552,6 @@
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>Distribuire URL</value>
   </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>Scurtare URL...</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>Scurtare URL...</value>
-  </data>
   <data name="tsmiOpenShortenedURL.Text" xml:space="preserve">
     <value>URL scurtat</value>
   </data>
@@ -600,14 +585,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Test încărcare imagine</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Test încărcare text</value>
-  </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>Test distribuire URL</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>Test scurtare URL</value>
   </data>
   <data name="tsmiCopyText.Text" xml:space="preserve">
     <value>Text</value>
@@ -675,12 +654,6 @@
   <data name="tsmiUploadURL.Text" xml:space="preserve">
     <value>Încărcați din clipboard...</value>
   </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Încărcați text...</value>
-  </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Încărcați text...</value>
-  </data>
   <data name="tsmiOpenURL.Text" xml:space="preserve">
     <value>URL</value>
   </data>
@@ -692,12 +665,6 @@
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Servicii de distribuire URL</value>
-  </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>Scurtătoare de URL-uri</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Scurtătoare de URL-uri</value>
   </data>
   <data name="tsmiVideoConverter.Text" xml:space="preserve">
     <value>Convertor video...</value>
@@ -738,9 +705,6 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Setări destinație...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Setări încărcător personalizat...</value>
-  </data>
   <data name="tsbX.Text" xml:space="preserve">
     <value>Urmărește @ShareX...</value>
   </data>
@@ -752,9 +716,6 @@
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Analizează imaginea...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
   </data>
   <data name="tsmiTrayPinToScreen.Text" xml:space="preserve">
     <value>Fixează pe ecran...</value>

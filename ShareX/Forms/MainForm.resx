@@ -412,12 +412,6 @@
   <data name="tsmiUploadClipboard.Text" xml:space="preserve">
     <value>Upload from clipboard...</value>
   </data>
-  <data name="tsmiUploadText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 22</value>
-  </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Upload text...</value>
-  </data>
   <data name="tsmiUploadURL.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 22</value>
   </data>
@@ -429,12 +423,6 @@
   </data>
   <data name="tsmiUploadDragDrop.Text" xml:space="preserve">
     <value>Drag and drop upload...</value>
-  </data>
-  <data name="tsmiShortenURL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 22</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>Shorten URL...</value>
   </data>
   <data name="tsddbUpload.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -673,12 +661,6 @@
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>File uploaders</value>
   </data>
-  <data name="tsmiURLShorteners.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>URL shorteners</value>
-  </data>
   <data name="tsmiURLSharingServices.Size" type="System.Drawing.Size, System.Drawing">
     <value>181, 22</value>
   </data>
@@ -748,18 +730,6 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Destination settings...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="tsbCustomUploaderSettings.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Magenta</value>
-  </data>
-  <data name="tsbCustomUploaderSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 20</value>
-  </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Custom uploader settings...</value>
-  </data>
   <data name="tssMain3.Size" type="System.Drawing.Size, System.Drawing">
     <value>171, 6</value>
   </data>
@@ -814,23 +784,11 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Test image upload</value>
   </data>
-  <data name="tsmiTestTextUpload.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
-  </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Test text upload</value>
-  </data>
   <data name="tsmiTestFileUpload.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 22</value>
   </data>
   <data name="tsmiTestFileUpload.Text" xml:space="preserve">
     <value>Test file upload</value>
-  </data>
-  <data name="tsmiTestURLShortener.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>Test URL shortener</value>
   </data>
   <data name="tsmiTestURLSharing.Size" type="System.Drawing.Size, System.Drawing">
     <value>172, 22</value>
@@ -1263,29 +1221,11 @@
   <data name="tsmiDeleteSelectedFile.Text" xml:space="preserve">
     <value>Delete file locally...</value>
   </data>
-  <data name="tsmiShortenSelectedURL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 22</value>
-  </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>Shorten URL</value>
-  </data>
   <data name="tsmiShareSelectedURL.Size" type="System.Drawing.Size, System.Drawing">
     <value>228, 22</value>
   </data>
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>Share URL</value>
-  </data>
-  <data name="tsmiGoogleLens.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 22</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 22</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Bing visual search...</value>
   </data>
   <data name="tsmiShowQRCode.Size" type="System.Drawing.Size, System.Drawing">
     <value>228, 22</value>
@@ -1488,12 +1428,6 @@
   <data name="tsmiTrayUploadClipboard.Text" xml:space="preserve">
     <value>Upload from clipboard...</value>
   </data>
-  <data name="tsmiTrayUploadText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 22</value>
-  </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Upload text...</value>
-  </data>
   <data name="tsmiTrayUploadURL.Size" type="System.Drawing.Size, System.Drawing">
     <value>203, 22</value>
   </data>
@@ -1505,12 +1439,6 @@
   </data>
   <data name="tsmiTrayUploadDragDrop.Text" xml:space="preserve">
     <value>Drag and drop upload...</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Size" type="System.Drawing.Size, System.Drawing">
-    <value>203, 22</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>Shorten URL...</value>
   </data>
   <data name="tsmiTrayUpload.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 22</value>
@@ -1719,12 +1647,6 @@
   <data name="tsmiTrayFileUploaders.Text" xml:space="preserve">
     <value>File uploaders</value>
   </data>
-  <data name="tsmiTrayURLShorteners.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 22</value>
-  </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>URL shorteners</value>
-  </data>
   <data name="tsmiTrayURLSharingServices.Size" type="System.Drawing.Size, System.Drawing">
     <value>181, 22</value>
   </data>
@@ -1769,12 +1691,6 @@
   </data>
   <data name="tsmiTrayDestinationSettings.Text" xml:space="preserve">
     <value>Destination settings...</value>
-  </data>
-  <data name="tsmiTrayCustomUploaderSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 22</value>
-  </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Custom uploader settings...</value>
   </data>
   <data name="tssTray3.Size" type="System.Drawing.Size, System.Drawing">
     <value>216, 6</value>
@@ -2222,12 +2138,6 @@
   <data name="&gt;&gt;tsmiUploadClipboard.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tsmiUploadText.Name" xml:space="preserve">
-    <value>tsmiUploadText</value>
-  </data>
-  <data name="&gt;&gt;tsmiUploadText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;tsmiUploadURL.Name" xml:space="preserve">
     <value>tsmiUploadURL</value>
   </data>
@@ -2238,12 +2148,6 @@
     <value>tsmiUploadDragDrop</value>
   </data>
   <data name="&gt;&gt;tsmiUploadDragDrop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiShortenURL.Name" xml:space="preserve">
-    <value>tsmiShortenURL</value>
-  </data>
-  <data name="&gt;&gt;tsmiShortenURL.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsddbWorkflows.Name" xml:space="preserve">
@@ -2468,12 +2372,6 @@
   <data name="&gt;&gt;tsmiFileUploaders.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tsmiURLShorteners.Name" xml:space="preserve">
-    <value>tsmiURLShorteners</value>
-  </data>
-  <data name="&gt;&gt;tsmiURLShorteners.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;tsmiURLSharingServices.Name" xml:space="preserve">
     <value>tsmiURLSharingServices</value>
   </data>
@@ -2508,12 +2406,6 @@
     <value>tsbDestinationSettings</value>
   </data>
   <data name="&gt;&gt;tsbDestinationSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsbCustomUploaderSettings.Name" xml:space="preserve">
-    <value>tsbCustomUploaderSettings</value>
-  </data>
-  <data name="&gt;&gt;tsbCustomUploaderSettings.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tssMain3.Name" xml:space="preserve">
@@ -2564,22 +2456,10 @@
   <data name="&gt;&gt;tsmiTestImageUpload.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tsmiTestTextUpload.Name" xml:space="preserve">
-    <value>tsmiTestTextUpload</value>
-  </data>
-  <data name="&gt;&gt;tsmiTestTextUpload.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;tsmiTestFileUpload.Name" xml:space="preserve">
     <value>tsmiTestFileUpload</value>
   </data>
   <data name="&gt;&gt;tsmiTestFileUpload.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTestURLShortener.Name" xml:space="preserve">
-    <value>tsmiTestURLShortener</value>
-  </data>
-  <data name="&gt;&gt;tsmiTestURLShortener.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsmiTestURLSharing.Name" xml:space="preserve">
@@ -2912,28 +2792,10 @@
   <data name="&gt;&gt;tsmiDeleteSelectedFile.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tsmiShortenSelectedURL.Name" xml:space="preserve">
-    <value>tsmiShortenSelectedURL</value>
-  </data>
-  <data name="&gt;&gt;tsmiShortenSelectedURL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;tsmiShareSelectedURL.Name" xml:space="preserve">
     <value>tsmiShareSelectedURL</value>
   </data>
   <data name="&gt;&gt;tsmiShareSelectedURL.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiGoogleLens.Name" xml:space="preserve">
-    <value>tsmiGoogleLens</value>
-  </data>
-  <data name="&gt;&gt;tsmiGoogleLens.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiBingVisualSearch.Name" xml:space="preserve">
-    <value>tsmiBingVisualSearch</value>
-  </data>
-  <data name="&gt;&gt;tsmiBingVisualSearch.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsmiShowQRCode.Name" xml:space="preserve">
@@ -3140,12 +3002,6 @@
   <data name="&gt;&gt;tsmiTrayUploadClipboard.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tsmiTrayUploadText.Name" xml:space="preserve">
-    <value>tsmiTrayUploadText</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayUploadText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;tsmiTrayUploadURL.Name" xml:space="preserve">
     <value>tsmiTrayUploadURL</value>
   </data>
@@ -3156,12 +3012,6 @@
     <value>tsmiTrayUploadDragDrop</value>
   </data>
   <data name="&gt;&gt;tsmiTrayUploadDragDrop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayShortenURL.Name" xml:space="preserve">
-    <value>tsmiTrayShortenURL</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayShortenURL.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsmiTrayWorkflows.Name" xml:space="preserve">
@@ -3386,12 +3236,6 @@
   <data name="&gt;&gt;tsmiTrayFileUploaders.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tsmiTrayURLShorteners.Name" xml:space="preserve">
-    <value>tsmiTrayURLShorteners</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayURLShorteners.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;tsmiTrayURLSharingServices.Name" xml:space="preserve">
     <value>tsmiTrayURLSharingServices</value>
   </data>
@@ -3432,12 +3276,6 @@
     <value>tsmiTrayDestinationSettings</value>
   </data>
   <data name="&gt;&gt;tsmiTrayDestinationSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayCustomUploaderSettings.Name" xml:space="preserve">
-    <value>tsmiTrayCustomUploaderSettings</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayCustomUploaderSettings.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tssTray3.Name" xml:space="preserve">

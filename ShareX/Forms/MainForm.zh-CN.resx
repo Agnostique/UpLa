@@ -327,9 +327,6 @@
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>分享 URL</value>
   </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>生成 URL 短链</value>
-  </data>
   <data name="tsmiShowDebugLog.Text" xml:space="preserve">
     <value>调试日志...</value>
   </data>
@@ -351,14 +348,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>测试图片上传</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>测试文本上传</value>
-  </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>测试 URL 共享</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>测试 URL 短链</value>
   </data>
   <data name="tsmiTextUploaders.Text" xml:space="preserve">
     <value>文字上传</value>
@@ -474,9 +465,6 @@
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>URL共享</value>
   </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>URL短链</value>
-  </data>
   <data name="tsmiTrayWindow.Text" xml:space="preserve">
     <value>窗口</value>
   </data>
@@ -503,9 +491,6 @@
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>URL 共享</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>URL 短链</value>
   </data>
   <data name="tsmiWindow.Text" xml:space="preserve">
     <value>窗口</value>
@@ -582,9 +567,6 @@
   <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
     <value>生成图像缩略图...</value>
   </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>缩短网址...</value>
-  </data>
   <data name="tsmiShowCursor.Text" xml:space="preserve">
     <value>显示指针</value>
   </data>
@@ -594,17 +576,8 @@
   <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
     <value>图像缩略图...</value>
   </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>URL短链...</value>
-  </data>
   <data name="tsmiTrayShowCursor.Text" xml:space="preserve">
     <value>显示指针</value>
-  </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>上传文本...</value>
-  </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>上传文本...</value>
   </data>
   <data name="tsmiScreenshotDelay.Text" xml:space="preserve">
     <value>截图倒计时</value>
@@ -657,9 +630,6 @@
   <data name="tsmiTrayScreenshotDelay.Text" xml:space="preserve">
     <value>屏幕截图延迟</value>
   </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>自定上传器设置...</value>
-  </data>
   <data name="tsmiAddImageEffects.Text" xml:space="preserve">
     <value>添加图像特效...</value>
   </data>
@@ -683,9 +653,6 @@
   </data>
   <data name="tsmiVideoConverter.Text" xml:space="preserve">
     <value>视频转换器...</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>必应可视化搜索 (OCR)...</value>
   </data>
   <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
     <value>无边框窗口...</value>
@@ -753,9 +720,6 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>目标设置...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>自定义上传设置...</value>
-  </data>
   <data name="tsmiMetadata.Text" xml:space="preserve">
     <value>元数据...</value>
   </data>
@@ -764,9 +728,6 @@
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>分析图片...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>谷歌智慧镜头（Google Lens）...</value>
   </data>
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>分析图片...</value>

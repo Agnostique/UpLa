@@ -120,9 +120,6 @@
   <data name="ShareXIsMinimizedToTheSystemTray" xml:space="preserve">
     <value>ShareX sistem tepsisine küçültüldü.</value>
   </data>
-  <data name="AutoCaptureForm_UpdateStatus_Timeleft___0_s___1____Total___2_" xml:space="preserve">
-    <value>Kalan zaman: {0}s ({1}%) Toplam: {2}</value>
-  </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>Desteklenen değişkenler: {0} ve {1} gibi diğer değişkenler vs.</value>
   </data>
@@ -149,9 +146,6 @@
   </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>İptal</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning" xml:space="preserve">
-    <value>İlk sefer yükleme uyarısı</value>
   </data>
   <data name="SwitchToThumbnailView" xml:space="preserve">
     <value>Küçük resim görünümüne geç</value>
@@ -196,9 +190,6 @@ ShareX'i yeniden başlatmak ister misiniz?</value>
   <data name="InspectWindow_ClassName" xml:space="preserve">
     <value>Sınıf ismi</value>
   </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>Adres kısaltıcı: {0}</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>Geçmiş</value>
   </data>
@@ -217,18 +208,11 @@ ShareX'i yeniden başlatmak ister misiniz?</value>
   <data name="Program_Run_Unable_to_create_folder_" xml:space="preserve">
     <value>Dizin yaratılamadı:</value>
   </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning_text" xml:space="preserve">
-    <value>Ekran görüntüsünü yüklemek istediğinize emin misiniz?
-'Hayır' tuşuna basarak şu anki yüklemeyi iptal edebilir ve otomatik ekran görüntüsü yüklemeyi iptal edebilirsiniz.</value>
-  </data>
   <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
     <value>ShareX ile birlikte gelen FFmpeg yalnızca 64 bit işletim sistemlerini destekler.</value>
   </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>Yükleniyor</value>
-  </data>
-  <data name="BeforeUploadControl_AddDestination_Custom" xml:space="preserve">
-    <value>Özel</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm_Please_choose_a_destination_" xml:space="preserve">
     <value>Lütfen hedef seçiniz.</value>
@@ -262,9 +246,6 @@ ShareX'i yeniden başlatmak ister misiniz?</value>
   </data>
   <data name="InspectWindow_ProcessFileName" xml:space="preserve">
     <value>İşlem dosya ismi</value>
-  </data>
-  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
-    <value>X: {0}, Y: {1}, Genişlik: {2}, Yükseklik: {3}</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>ShareX ayarlarını sıfırlamak ister misiniz?</value>
@@ -318,9 +299,6 @@ Devam etmek istediğinizden emin misiniz?</value>
   <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
     <value>{0} ayarları yanlış veya eksik. Lütfen "Hedef ayarları" penceresinden ayar yapınız.</value>
   </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>Adres kısalt ({0})</value>
-  </data>
   <data name="ActionsToolbarEditForm_Separator" xml:space="preserve">
     <value>Ayırıcı</value>
   </data>
@@ -332,12 +310,6 @@ Devam etmek istediğinizden emin misiniz?</value>
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>Almanca</value>
-  </data>
-  <data name="ChromeForm_btnUnregister_Click_Chrome_support_disabled_" xml:space="preserve">
-    <value>Chrome desteği devre dışı bırakıldı.</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>Metin yükleme testi</value>
   </data>
   <data name="InspectWindow_WindowRectangle" xml:space="preserve">
     <value>Pencere dikdörtgeni</value>
@@ -386,12 +358,6 @@ Daha sonra "Yakalama sonrası" menüsünden devre dışı bırakabilirsiniz.</va
   <data name="RecentManager_UpdateRecentMenu_Left_click_to_copy_URL_to_clipboard__Right_click_to_open_URL_" xml:space="preserve">
     <value>Adresi kopyalamak için sol tıklayın. Adresi açmak için sağ tıklayın.</value>
   </data>
-  <data name="AutoCaptureForm_Execute_Start" xml:space="preserve">
-    <value>Başlat</value>
-  </data>
-  <data name="ChromeForm_btnRegister_Click_Chrome_support_enabled_" xml:space="preserve">
-    <value>Chrome desteği aktif edildi.</value>
-  </data>
   <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>Görev tamamlandı</value>
   </data>
@@ -424,9 +390,6 @@ Daha sonra "Yakalama sonrası" menüsünden devre dışı bırakabilirsiniz.</va
   </data>
   <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
     <value>Yükleme hataları</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Stop" xml:space="preserve">
-    <value>Durdur</value>
   </data>
   <data name="ActionsToolbar_Close" xml:space="preserve">
     <value>Kapat</value>
@@ -463,9 +426,6 @@ ShareX'i yeniden başlatmak ister misiniz?</value>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
     <value>Metin yükleyici: {0}</value>
   </data>
-  <data name="UploadManager_ShowShortenURLDialog_Shorten" xml:space="preserve">
-    <value>Kısalt</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_In_queue" xml:space="preserve">
     <value>Sırada</value>
   </data>
@@ -492,9 +452,6 @@ ShareX'i yeniden başlatmak ister misiniz?</value>
   </data>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
     <value>Adres paylaşım servisi: {0}</value>
-  </data>
-  <data name="UploadManager_ShowShortenURLDialog_ShortenURL" xml:space="preserve">
-    <value>Adresi kısalt</value>
   </data>
   <data name="Confirmation" xml:space="preserve">
     <value>Onayla</value>

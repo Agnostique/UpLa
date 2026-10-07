@@ -129,9 +129,6 @@
   <data name="ReplCodeMenuEntry_s_Current_second" xml:space="preserve">
     <value>Huidige seconde</value>
   </data>
-  <data name="TextDestination_CustomTextUploader" xml:space="preserve">
-    <value>Aangepaste tekstuploader</value>
-  </data>
   <data name="ProxyMethod_None" xml:space="preserve">
     <value>Geen</value>
   </data>
@@ -194,9 +191,6 @@
   </data>
   <data name="AfterUploadTasks_ShareURL" xml:space="preserve">
     <value>Deel link</value>
-  </data>
-  <data name="CustomUploaderDestinationType_FileUploader" xml:space="preserve">
-    <value>Bestand uploader</value>
   </data>
   <data name="ReplCodeMenuEntry_h_Current_hour" xml:space="preserve">
     <value>Huidig uur</value>
@@ -280,17 +274,11 @@ Wil je deze downloaden?</value>
   <data name="GIFQuality_Bit4" xml:space="preserve">
     <value>Octree quantizer 16 kleuren</value>
   </data>
-  <data name="FileDestination_CustomFileUploader" xml:space="preserve">
-    <value>Aangepaste bestandsuploader</value>
-  </data>
   <data name="LinearGradientMode_Vertical" xml:space="preserve">
     <value>Verticaal</value>
   </data>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Willekeurig</value>
-  </data>
-  <data name="CustomUploaderDestinationType_ImageUploader" xml:space="preserve">
-    <value>Afbeelding uploader</value>
   </data>
   <data name="HotkeyType_HashCheck" xml:space="preserve">
     <value>Hash controle</value>
@@ -391,9 +379,6 @@ Wil je deze downloaden?</value>
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Bestandspad zonder extensie + "Extensie resultaatsbestand"</value>
   </data>
-  <data name="URLSharingServices_GoogleImageSearch" xml:space="preserve">
-    <value>Google afbeeldingen zoeken</value>
-  </data>
   <data name="HotkeyType_IndexFolder" xml:space="preserve">
     <value>Indexeer map</value>
   </data>
@@ -420,9 +405,6 @@ Wil je deze downloaden?</value>
   </data>
   <data name="Helpers_OpenFolder_Folder_not_exist_" xml:space="preserve">
     <value>Map bestaat niet:</value>
-  </data>
-  <data name="FileDestination_Email" xml:space="preserve">
-    <value>E-mail</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_" xml:space="preserve">
     <value>Een nieuwere versie van {0} is beschikbaar.
@@ -482,9 +464,6 @@ Wil je deze downloaden en installeren?</value>
   <data name="HotkeyType_ImageEditor" xml:space="preserve">
     <value>Afbeeldingsbewerker</value>
   </data>
-  <data name="URLSharingServices_Email" xml:space="preserve">
-    <value>E-mail</value>
-  </data>
   <data name="ReplCodeMenuEntry_ib_Auto_increment_base_alphanumeric" xml:space="preserve">
     <value>Zelf ophogende sequentie met base {n} (waar n 1 &lt; n &lt; 63)</value>
   </data>
@@ -502,9 +481,6 @@ Wil je deze downloaden en installeren?</value>
   </data>
   <data name="ReplCodeMenuEntry_guid_Random_guid" xml:space="preserve">
     <value>Willekeurige GUID</value>
-  </data>
-  <data name="ImageDestination_CustomImageUploader" xml:space="preserve">
-    <value>Aangepaste afbeeldingsuploader</value>
   </data>
   <data name="HotkeyType_Category_ScreenCapture" xml:space="preserve">
     <value>Scherm vastleggen</value>
@@ -566,17 +542,11 @@ Wil je deze downloaden en installeren?</value>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Kopieer</value>
   </data>
-  <data name="AfterUploadTasks_UseURLShortener" xml:space="preserve">
-    <value>Verkort link</value>
-  </data>
   <data name="DownloaderForm_StartDownload_Cancel" xml:space="preserve">
     <value>Annuleer</value>
   </data>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>Hulpmiddelen</value>
-  </data>
-  <data name="FileDestination_SharedFolder" xml:space="preserve">
-    <value>Gedeelde map</value>
   </data>
   <data name="HotkeyType_ActiveMonitor" xml:space="preserve">
     <value>Leg actieve monitor vast</value>
@@ -644,17 +614,11 @@ Wil je deze downloaden en installeren?</value>
   <data name="PastebinExpiration_M1" xml:space="preserve">
     <value>1 maand</value>
   </data>
-  <data name="UrlShortenerType_CustomURLShortener" xml:space="preserve">
-    <value>Aangepaste linkverkorter</value>
-  </data>
   <data name="PastebinPrivacy_Public" xml:space="preserve">
     <value>Openbaar</value>
   </data>
   <data name="FileExistAction_Overwrite" xml:space="preserve">
     <value>Bestand overschrijven</value>
-  </data>
-  <data name="HotkeyType_ShortenURL" xml:space="preserve">
-    <value>URL verkorten</value>
   </data>
   <data name="FileExistAction_Ask" xml:space="preserve">
     <value>Vraag wat te doen</value>
@@ -692,9 +656,6 @@ Wil je deze downloaden en installeren?</value>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>Weergeven sneltaakmenu</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLShortener" xml:space="preserve">
-    <value>URL-verkorter</value>
-  </data>
   <data name="ShapeType_DrawingImageScreen" xml:space="preserve">
     <value>Afbeelding (Scherm)</value>
   </data>
@@ -709,9 +670,6 @@ Wil je deze downloaden en installeren?</value>
   </data>
   <data name="DrawImageSizeMode_PercentageOfCanvas" xml:space="preserve">
     <value>Percentage van canvas</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Private" xml:space="preserve">
-    <value>Privé</value>
   </data>
   <data name="ShapeType_EffectPixelate" xml:space="preserve">
     <value>Pixeleren (P)</value>
@@ -758,9 +716,6 @@ Wil je deze downloaden en installeren?</value>
   <data name="Extensions_AddContextMenu_SelectAll" xml:space="preserve">
     <value>Alles selecteren</value>
   </data>
-  <data name="YouTubeVideoPrivacy_Public" xml:space="preserve">
-    <value>Openbaar</value>
-  </data>
   <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
     <value>Afbeelding miniatuurer</value>
   </data>
@@ -778,9 +733,6 @@ Wil je deze downloaden en installeren?</value>
   </data>
   <data name="ShapeType_RegionEllipse" xml:space="preserve">
     <value>Ellipse gebied</value>
-  </data>
-  <data name="YouTubeVideoPrivacy_Unlisted" xml:space="preserve">
-    <value>Verborgen</value>
   </data>
   <data name="ObjectListView_ObjectListView_Name" xml:space="preserve">
     <value>Naam</value>
@@ -845,9 +797,6 @@ Wil je deze downloaden en installeren?</value>
   <data name="ShapeType_DrawingSticker" xml:space="preserve">
     <value>Sticker</value>
   </data>
-  <data name="CustomUploaderDestinationType_URLSharingService" xml:space="preserve">
-    <value>URL-deelservice</value>
-  </data>
   <data name="ShapeType_EffectHighlight" xml:space="preserve">
     <value>Markeren (H)</value>
   </data>
@@ -856,9 +805,6 @@ Wil je deze downloaden en installeren?</value>
   </data>
   <data name="CodeMenuEntryFilename_RandomAnimal" xml:space="preserve">
     <value>Willekeurig dier</value>
-  </data>
-  <data name="URLSharingServices_CustomURLSharingService" xml:space="preserve">
-    <value>Aangepast URL sharing service</value>
   </data>
   <data name="RegionCaptureAction_CaptureFullscreen" xml:space="preserve">
     <value>Opname fullscherm</value>
@@ -941,14 +887,8 @@ Wil je deze downloaden en installeren?</value>
   <data name="DrawImageSizeMode_PercentageOfWatermark" xml:space="preserve">
     <value>Percentage of afbeelding</value>
   </data>
-  <data name="CustomUploaderDestinationType_TextUploader" xml:space="preserve">
-    <value>Text uploadener</value>
-  </data>
   <data name="AfterCaptureTasks_ShowAfterCaptureWindow" xml:space="preserve">
     <value>Weergeven "After opname" venster</value>
-  </data>
-  <data name="HotkeyType_UploadText" xml:space="preserve">
-    <value>Uploaden text</value>
   </data>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>Crop afbeelding (C)</value>
@@ -1075,9 +1015,6 @@ Wil je deze downloaden en installeren?</value>
   </data>
   <data name="ContentAlignment_BottomRight" xml:space="preserve">
     <value>Onder rechts</value>
-  </data>
-  <data name="URLSharingServices_BingVisualSearch" xml:space="preserve">
-    <value>Visueel zoeken met Bing</value>
   </data>
   <data name="EDataType_Default" xml:space="preserve">
     <value>Standaard</value>

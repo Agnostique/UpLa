@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AutoCaptureForm_UpdateStatus_Timeleft___0_s___1____Total___2_" xml:space="preserve">
-    <value>Tiempo restante: {0}s ({1}%) Total: {2}</value>
-  </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>Variables soportadas: {0} y otras variables como {1} etc.</value>
   </data>
@@ -132,9 +129,6 @@
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_After_upload___0_" xml:space="preserve">
     <value>Después de subir: {0}</value>
   </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning" xml:space="preserve">
-    <value>Subir aviso por la primera vez</value>
-  </data>
   <data name="UploadTask_Stop_Stopping" xml:space="preserve">
     <value>Parada</value>
   </data>
@@ -145,9 +139,6 @@
   <data name="UploadTask_ThreadDoWork_URL_is_empty_" xml:space="preserve">
     <value>URL está vacía.</value>
   </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>Acortador de URL: {0}</value>
-  </data>
   <data name="HotkeySelectionControl_StartEditing_Select_a_hotkey___" xml:space="preserve">
     <value>Seleccione una tecla de acceso directo...</value>
   </data>
@@ -156,10 +147,6 @@
   </data>
   <data name="Program_Run_Unable_to_create_folder_" xml:space="preserve">
     <value>No se puede crear la carpeta:</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning_text" xml:space="preserve">
-    <value>¿Está seguro de que desea subir esta captura de pantalla?
-Pulse "No" para cancelar la subida y desactivar la función de captura de pantalla de auto-carga.</value>
   </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>Subiendo</value>
@@ -175,9 +162,6 @@ Pulse "No" para cancelar la subida y desactivar la función de captura de pantal
   </data>
   <data name="TaskSettingsForm_txtNameFormatPatternActiveWindow_TextChanged_Preview_" xml:space="preserve">
     <value>Vista previa:</value>
-  </data>
-  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
-    <value>X: {0}, Y: {1}, Ancho: {2}, Altura: {3}</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm__0__is_about_to_be_uploaded_to__1___You_may_choose_a_different_destination_" xml:space="preserve">
     <value>{0} está a punto de ser subido a {1}. Usted puede seleccionar un destino distinto.</value>
@@ -209,12 +193,6 @@ Pulse "No" para cancelar la subida y desactivar la función de captura de pantal
   <data name="UploadManager_UploadFolder_Folder_upload" xml:space="preserve">
     <value>Carga de carpeta</value>
   </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>Acortar URL ({0})</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>Prueba de cargador de texto</value>
-  </data>
   <data name="AboutForm_AboutForm_Project_page" xml:space="preserve">
     <value>Página del proyecto</value>
   </data>
@@ -226,9 +204,6 @@ Pulse "No" para cancelar la subida y desactivar la función de captura de pantal
   </data>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_After_capture___0_" xml:space="preserve">
     <value>Después de capturar: {0}</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Start" xml:space="preserve">
-    <value>Iniciar</value>
   </data>
   <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>Tarea completada</value>
@@ -244,9 +219,6 @@ Pulse "No" para cancelar la subida y desactivar la función de captura de pantal
   </data>
   <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
     <value>Errores de subir</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Stop" xml:space="preserve">
-    <value>Detener</value>
   </data>
   <data name="AboutForm_AboutForm_Website" xml:space="preserve">
     <value>Sitio web</value>
@@ -377,9 +349,6 @@ Por favor seleccione una tecla de acceso directo diferente o salir de la aplicac
   <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
     <value>El FFmpeg incluido con ShareX solo admite sistemas operativos de 64 bits.</value>
   </data>
-  <data name="BeforeUploadControl_AddDestination_Custom" xml:space="preserve">
-    <value>Personalizado</value>
-  </data>
   <data name="QRCodeForm_InputTextToEncode" xml:space="preserve">
     <value>Texto de entrada para codificar</value>
   </data>
@@ -435,9 +404,6 @@ Por favor seleccione una tecla de acceso directo diferente o salir de la aplicac
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>Alemán</value>
   </data>
-  <data name="ChromeForm_btnUnregister_Click_Chrome_support_disabled_" xml:space="preserve">
-    <value>Compatibilidad con Chrome deshabilitada.</value>
-  </data>
   <data name="InspectWindow_WindowRectangle" xml:space="preserve">
     <value>Rectángulo de la ventana</value>
   </data>
@@ -472,9 +438,6 @@ You can later disable it from "After captura tasks" menú.</value>
   </data>
   <data name="RecentManager_UpdateRecentMenu_Left_click_to_copy_URL_to_clipboard__Right_click_to_open_URL_" xml:space="preserve">
     <value>Izquierda click to copiar URL to portapapeles. Derecha click to abrir URL.</value>
-  </data>
-  <data name="ChromeForm_btnRegister_Click_Chrome_support_enabled_" xml:space="preserve">
-    <value>Compatibilidad con Chrome habilitada.</value>
   </data>
   <data name="AboutForm_AboutForm_Language_hu" xml:space="preserve">
     <value>Húngaro</value>
@@ -520,9 +483,6 @@ Would you like to reiniciar ShareX?</value>
   <data name="ScreenColorPicker" xml:space="preserve">
     <value>Pantalla color picker</value>
   </data>
-  <data name="UploadManager_ShowShortenURLDialog_Shorten" xml:space="preserve">
-    <value>Acortar</value>
-  </data>
   <data name="InspectWindow_WindowStyles" xml:space="preserve">
     <value>Estilos de ventana</value>
   </data>
@@ -537,9 +497,6 @@ Would you like to reiniciar ShareX?</value>
   </data>
   <data name="OpticalCharacterRecognitionFeatureIsOnlyAvailableWithWindowsVersion0OrNewer" xml:space="preserve">
     <value>Optical character recognition feature is only available with Ventanas version {0} or newer.</value>
-  </data>
-  <data name="UploadManager_ShowShortenURLDialog_ShortenURL" xml:space="preserve">
-    <value>Acortar URL</value>
   </data>
   <data name="Confirmation" xml:space="preserve">
     <value>Confirmación</value>

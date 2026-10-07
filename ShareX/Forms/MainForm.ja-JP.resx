@@ -189,17 +189,11 @@
   <data name="tsmiUploadClipboard.Text" xml:space="preserve">
     <value>クリップボードからアップロード...</value>
   </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>テキストをアップロード...</value>
-  </data>
   <data name="tsmiUploadURL.Text" xml:space="preserve">
     <value>URL先のファイルをアップロード...</value>
   </data>
   <data name="tsmiUploadDragDrop.Text" xml:space="preserve">
     <value>ドラッグ＆ドロップでアップロード...</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>短縮URLの作成...</value>
   </data>
   <data name="tsddbWorkflows.Text" xml:space="preserve">
     <value>ワークフロー</value>
@@ -261,9 +255,6 @@
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>ファイル アップローダー</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>URL短縮サービス</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>URL共有サービス</value>
   </data>
@@ -294,14 +285,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>画像アップロードのテスト</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>テキストアップロードのテスト</value>
-  </data>
   <data name="tsmiTestFileUpload.Text" xml:space="preserve">
     <value>ファイルアップロードのテスト</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>短縮URL作成テスト</value>
   </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>URL共有のテスト</value>
@@ -338,9 +323,6 @@
   </data>
   <data name="tsmiDeleteSelectedFile.Text" xml:space="preserve">
     <value>ファイルを削除...</value>
-  </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>短縮URLの作成</value>
   </data>
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>URLを共有</value>
@@ -498,17 +480,11 @@
   <data name="tsmiTrayUploadClipboard.Text" xml:space="preserve">
     <value>クリップボードからアップロード...</value>
   </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>テキストをアップロード...</value>
-  </data>
   <data name="tsmiTrayUploadURL.Text" xml:space="preserve">
     <value>URL先のファイルをアップロード...</value>
   </data>
   <data name="tsmiTrayUploadDragDrop.Text" xml:space="preserve">
     <value>ドラッグ＆ドロップでアップロード...</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>短縮URLの作成...</value>
   </data>
   <data name="tsmiTrayWorkflows.Text" xml:space="preserve">
     <value>ワークフロー</value>
@@ -566,9 +542,6 @@
   </data>
   <data name="tsmiTrayFileUploaders.Text" xml:space="preserve">
     <value>ファイル アップローダー</value>
-  </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>URL短縮サービス</value>
   </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>URL共有サービス</value>
@@ -672,9 +645,6 @@
   <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
     <value>動画の変換...</value>
   </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>アップロード先を自分で設定...</value>
-  </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>管理者権限で再起動</value>
   </data>
@@ -698,9 +668,6 @@
   </data>
   <data name="tsmiCombineImagesVertically.Text" xml:space="preserve">
     <value>縦に並べて結合</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Bing画像検索でOCR...</value>
   </data>
   <data name="tsmiTrayPinToScreen.Text" xml:space="preserve">
     <value>最前面に固定...</value>
@@ -756,17 +723,11 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Destination 設定...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>カスタム アップロードer 設定...</value>
-  </data>
   <data name="tsmiBeautifyImage.Text" xml:space="preserve">
     <value>画像を整える...</value>
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>画像を解析...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
   </data>
   <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
     <value>画像比較...</value>

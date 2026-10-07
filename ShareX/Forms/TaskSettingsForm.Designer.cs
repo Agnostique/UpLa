@@ -44,10 +44,6 @@
             btnScreenshotsFolderBrowse = new System.Windows.Forms.Button();
             txtScreenshotsFolder = new System.Windows.Forms.TextBox();
             cbOverrideScreenshotsFolder = new System.Windows.Forms.CheckBox();
-            cbCustomUploaders = new System.Windows.Forms.ComboBox();
-            cbOverrideCustomUploader = new System.Windows.Forms.CheckBox();
-            cbOverrideFTPAccount = new System.Windows.Forms.CheckBox();
-            cbFTPAccounts = new System.Windows.Forms.ComboBox();
             btnAfterCapture = new ShareX.HelpersLib.MenuButton();
             btnAfterUpload = new ShareX.HelpersLib.MenuButton();
             btnDestinations = new ShareX.HelpersLib.MenuButton();
@@ -55,7 +51,6 @@
             tsmiImageUploaders = new System.Windows.Forms.ToolStripMenuItem();
             tsmiTextUploaders = new System.Windows.Forms.ToolStripMenuItem();
             tsmiFileUploaders = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiURLShorteners = new System.Windows.Forms.ToolStripMenuItem();
             tsmiURLSharingServices = new System.Windows.Forms.ToolStripMenuItem();
             btnTask = new ShareX.HelpersLib.MenuButton();
             tpGeneral = new System.Windows.Forms.TabPage();
@@ -260,7 +255,6 @@
             cbClipboardUploadShareURL = new System.Windows.Forms.CheckBox();
             cbClipboardUploadURLContents = new System.Windows.Forms.CheckBox();
             cbClipboardUploadAutoIndexFolder = new System.Windows.Forms.CheckBox();
-            cbClipboardUploadShortenURL = new System.Windows.Forms.CheckBox();
             tpUploaderFilters = new System.Windows.Forms.TabPage();
             lvUploaderFiltersList = new ShareX.HelpersLib.MyListView();
             chUploaderFiltersName = new System.Windows.Forms.ColumnHeader();
@@ -447,10 +441,6 @@
             tpTask.Controls.Add(btnScreenshotsFolderBrowse);
             tpTask.Controls.Add(txtScreenshotsFolder);
             tpTask.Controls.Add(cbOverrideScreenshotsFolder);
-            tpTask.Controls.Add(cbCustomUploaders);
-            tpTask.Controls.Add(cbOverrideCustomUploader);
-            tpTask.Controls.Add(cbOverrideFTPAccount);
-            tpTask.Controls.Add(cbFTPAccounts);
             tpTask.Controls.Add(tbDescription);
             tpTask.Controls.Add(btnAfterCapture);
             tpTask.Controls.Add(btnAfterUpload);
@@ -488,36 +478,6 @@
             cbOverrideScreenshotsFolder.UseVisualStyleBackColor = true;
             cbOverrideScreenshotsFolder.CheckedChanged += cbOverrideScreenshotsFolder_CheckedChanged;
             // 
-            // cbCustomUploaders
-            // 
-            cbCustomUploaders.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            cbCustomUploaders.FormattingEnabled = true;
-            resources.ApplyResources(cbCustomUploaders, "cbCustomUploaders");
-            cbCustomUploaders.Name = "cbCustomUploaders";
-            cbCustomUploaders.SelectedIndexChanged += cbCustomUploaders_SelectedIndexChanged;
-            // 
-            // cbOverrideCustomUploader
-            // 
-            resources.ApplyResources(cbOverrideCustomUploader, "cbOverrideCustomUploader");
-            cbOverrideCustomUploader.Name = "cbOverrideCustomUploader";
-            cbOverrideCustomUploader.UseVisualStyleBackColor = true;
-            cbOverrideCustomUploader.CheckedChanged += cbOverrideCustomUploader_CheckedChanged;
-            // 
-            // cbOverrideFTPAccount
-            // 
-            resources.ApplyResources(cbOverrideFTPAccount, "cbOverrideFTPAccount");
-            cbOverrideFTPAccount.Name = "cbOverrideFTPAccount";
-            cbOverrideFTPAccount.UseVisualStyleBackColor = true;
-            cbOverrideFTPAccount.CheckedChanged += cbOverrideFTPAccount_CheckedChanged;
-            // 
-            // cbFTPAccounts
-            // 
-            cbFTPAccounts.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            cbFTPAccounts.FormattingEnabled = true;
-            resources.ApplyResources(cbFTPAccounts, "cbFTPAccounts");
-            cbFTPAccounts.Name = "cbFTPAccounts";
-            cbFTPAccounts.SelectedIndexChanged += cbFTPAccounts_SelectedIndexChanged;
-            // 
             // btnAfterCapture
             // 
             resources.ApplyResources(btnAfterCapture, "btnAfterCapture");
@@ -544,7 +504,7 @@
             // 
             // cmsDestinations
             // 
-            cmsDestinations.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmiImageUploaders, tsmiTextUploaders, tsmiFileUploaders, tsmiURLShorteners, tsmiURLSharingServices });
+            cmsDestinations.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmiImageUploaders, tsmiTextUploaders, tsmiFileUploaders, tsmiURLSharingServices });
             cmsDestinations.Name = "cmsDestinations";
             resources.ApplyResources(cmsDestinations, "cmsDestinations");
             // 
@@ -565,12 +525,6 @@
             tsmiFileUploaders.Image = Properties.Resources.application_block;
             tsmiFileUploaders.Name = "tsmiFileUploaders";
             resources.ApplyResources(tsmiFileUploaders, "tsmiFileUploaders");
-            // 
-            // tsmiURLShorteners
-            // 
-            tsmiURLShorteners.Image = Properties.Resources.edit_scale;
-            tsmiURLShorteners.Name = "tsmiURLShorteners";
-            resources.ApplyResources(tsmiURLShorteners, "tsmiURLShorteners");
             // 
             // tsmiURLSharingServices
             // 
@@ -2077,7 +2031,6 @@
             tpUploadClipboard.Controls.Add(cbClipboardUploadShareURL);
             tpUploadClipboard.Controls.Add(cbClipboardUploadURLContents);
             tpUploadClipboard.Controls.Add(cbClipboardUploadAutoIndexFolder);
-            tpUploadClipboard.Controls.Add(cbClipboardUploadShortenURL);
             resources.ApplyResources(tpUploadClipboard, "tpUploadClipboard");
             tpUploadClipboard.Name = "tpUploadClipboard";
             // 
@@ -2101,13 +2054,6 @@
             cbClipboardUploadAutoIndexFolder.Name = "cbClipboardUploadAutoIndexFolder";
             cbClipboardUploadAutoIndexFolder.UseVisualStyleBackColor = true;
             cbClipboardUploadAutoIndexFolder.CheckedChanged += cbClipboardUploadAutoIndexFolder_CheckedChanged;
-            // 
-            // cbClipboardUploadShortenURL
-            // 
-            resources.ApplyResources(cbClipboardUploadShortenURL, "cbClipboardUploadShortenURL");
-            cbClipboardUploadShortenURL.Name = "cbClipboardUploadShortenURL";
-            cbClipboardUploadShortenURL.UseVisualStyleBackColor = true;
-            cbClipboardUploadShortenURL.CheckedChanged += cbClipboardUploadAutoDetectURL_CheckedChanged;
             // 
             // tpUploaderFilters
             // 
@@ -2640,7 +2586,6 @@
         private System.Windows.Forms.Label lblNameFormatPatternPreview;
         private System.Windows.Forms.Label lblNameFormatPatternPreviewActiveWindow;
         private System.Windows.Forms.TabPage tpUploadClipboard;
-        private System.Windows.Forms.CheckBox cbClipboardUploadShortenURL;
         private System.Windows.Forms.TabPage tpAdvanced;
         private System.Windows.Forms.PropertyGrid pgTaskSettings;
         private System.Windows.Forms.CheckBox cbOverrideImageSettings;
@@ -2670,13 +2615,10 @@
         private System.Windows.Forms.Button btnImageEffects;
         private System.Windows.Forms.CheckBox cbImageEffectOnlyRegionCapture;
         private System.Windows.Forms.CheckBox cbShowImageEffectsWindowAfterCapture;
-        private System.Windows.Forms.CheckBox cbOverrideFTPAccount;
-        private System.Windows.Forms.ComboBox cbFTPAccounts;
         private System.Windows.Forms.ContextMenuStrip cmsDestinations;
         private System.Windows.Forms.ToolStripMenuItem tsmiImageUploaders;
         private System.Windows.Forms.ToolStripMenuItem tsmiTextUploaders;
         private System.Windows.Forms.ToolStripMenuItem tsmiFileUploaders;
-        private System.Windows.Forms.ToolStripMenuItem tsmiURLShorteners;
         private System.Windows.Forms.ToolStripMenuItem tsmiURLSharingServices;
         private System.Windows.Forms.ComboBox cbImageFileExist;
         private System.Windows.Forms.Label lblImageFileExist;
@@ -2704,8 +2646,6 @@
         private HelpersLib.TabToTreeView tttvMain;
         private System.Windows.Forms.Panel pImage;
         private System.Windows.Forms.Panel pCapture;
-        private System.Windows.Forms.ComboBox cbCustomUploaders;
-        private System.Windows.Forms.CheckBox cbOverrideCustomUploader;
         private System.Windows.Forms.Button btnScreenRecorderFFmpegOptions;
         private System.Windows.Forms.ComboBox cbNameFormatTimeZone;
         private System.Windows.Forms.CheckBox cbNameFormatCustomTimeZone;

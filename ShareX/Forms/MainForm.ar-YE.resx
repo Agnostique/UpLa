@@ -195,9 +195,6 @@
   <data name="tsmiCopy.Text" xml:space="preserve">
     <value>نسخ</value>
   </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>إعدادات الرافع المخصص...</value>
-  </data>
   <data name="tsddbDebug.Text" xml:space="preserve">
     <value>التنقيح</value>
   </data>
@@ -543,15 +540,6 @@
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>مشاركة الـ URL</value>
   </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>اختصار عنوان URL</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>اختصار عنوان URL...</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>اختصار عنوان URL...</value>
-  </data>
   <data name="tsmiOpenShortenedURL.Text" xml:space="preserve">
     <value>عنوان URL المختصر</value>
   </data>
@@ -597,14 +585,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>اختبار رفع الصور</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>اختبار رفع النصوص</value>
-  </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>اختبار مشاركة عناوين URL</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>اختبار اختصار عناوين URL</value>
   </data>
   <data name="tsmiCopyText.Text" xml:space="preserve">
     <value>النص</value>
@@ -669,23 +651,11 @@
   <data name="tsmiUploadURL.Text" xml:space="preserve">
     <value>رفع من عنوان URL...</value>
   </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>رفع النص...</value>
-  </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>رفع النص...</value>
-  </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>خدمات مشاركة عناوين URL</value>
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>خدمات مشاركة عناوين URL</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>خدمات اختصار عناوين URL</value>
-  </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>خدمات اختصار عناوين URL</value>
   </data>
   <data name="tsmiCopyForumImage.Text" xml:space="preserve">
     <value>صورة (BBCode) للمنتديات</value>
@@ -735,9 +705,6 @@
   <data name="tsmiScreenshotDelay5.Text" xml:space="preserve">
     <value>خمس ثوانٍ</value>
   </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>بحث الصور باستخدام Bing...</value>
-  </data>
   <data name="tsbX.Text" xml:space="preserve">
     <value>تابعنا على X...</value>
   </data>
@@ -762,14 +729,8 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>إعدادات الوجهة...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>إعدادات الرافع المخصص...</value>
-  </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>تحليل الصورة...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
   </data>
   <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
     <value>مقارن الصور...</value>

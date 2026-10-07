@@ -225,9 +225,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>克隆</value>
   </data>
-  <data name="cbClipboardUploadShortenURL.Text" xml:space="preserve">
-    <value>如果剪贴板包含一个网址，使用网址缩短服务</value>
-  </data>
   <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
     <value>如果剪贴板包含一个文件夹路径，自动索引该文件夹并上传索引</value>
   </data>
@@ -332,9 +329,6 @@
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>URL 分享</value>
-  </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>URL 短链</value>
   </data>
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>文件上传</value>
@@ -554,12 +548,6 @@
   </data>
   <data name="cbOverrideCaptureSettings.Text" xml:space="preserve">
     <value>覆盖截图设置</value>
-  </data>
-  <data name="cbOverrideCustomUploader.Text" xml:space="preserve">
-    <value>覆盖默认的自定义上传器</value>
-  </data>
-  <data name="cbOverrideFTPAccount.Text" xml:space="preserve">
-    <value>覆盖默认的 FTP 账号</value>
   </data>
   <data name="cbOverrideGeneralSettings.Text" xml:space="preserve">
     <value>覆盖常规设置</value>

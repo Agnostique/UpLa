@@ -120,9 +120,6 @@
   <data name="ShareXIsMinimizedToTheSystemTray" xml:space="preserve">
     <value>ShareX はシステムトレイに最小化されています。</value>
   </data>
-  <data name="AutoCaptureForm_UpdateStatus_Timeleft___0_s___1____Total___2_" xml:space="preserve">
-    <value>残り時間: {0}s ({1}%) 合計: {2}</value>
-  </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>使用可能な変数: {0} とその他の変数、たとえば {1} など。</value>
   </data>
@@ -149,9 +146,6 @@
   </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>キャンセル</value>
-  </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning" xml:space="preserve">
-    <value>初回アップロード時の警告</value>
   </data>
   <data name="SwitchToThumbnailView" xml:space="preserve">
     <value>サムネイル表示に切り替え</value>
@@ -196,9 +190,6 @@ ShareX を再起動しますか？</value>
   <data name="InspectWindow_ClassName" xml:space="preserve">
     <value>クラス名</value>
   </data>
-  <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_shortener___0_" xml:space="preserve">
-    <value>URL短縮サービス: {0}</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>履歴</value>
   </data>
@@ -217,18 +208,11 @@ ShareX を再起動しますか？</value>
   <data name="Program_Run_Unable_to_create_folder_" xml:space="preserve">
     <value>フォルダーを作成できません:</value>
   </data>
-  <data name="UploadTask_DoUploadJob_First_time_upload_warning_text" xml:space="preserve">
-    <value>スクリーンショットをアップロードしますか？
-「いいえ」で、これを中止し、自動アップロードを無効化します。</value>
-  </data>
   <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
     <value>ShareX の用意する FFmpeg は、64ビットOSにしか対応していません。</value>
   </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>アップロード中</value>
-  </data>
-  <data name="BeforeUploadControl_AddDestination_Custom" xml:space="preserve">
-    <value>カスタム</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm_Please_choose_a_destination_" xml:space="preserve">
     <value>アップロード先を選択してください。</value>
@@ -262,9 +246,6 @@ ShareX を再起動しますか？</value>
   </data>
   <data name="InspectWindow_ProcessFileName" xml:space="preserve">
     <value>プロセス ファイル名</value>
-  </data>
-  <data name="AutoCaptureForm_UpdateRegion_X___0___Y___1___Width___2___Height___3_" xml:space="preserve">
-    <value>X: {0}, Y: {1}, 幅: {2}, 高さ: {3}</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>ShareX の設定を初期化しますか？</value>
@@ -318,9 +299,6 @@ ShareX を再起動しますか？</value>
   <data name="WorkerTask_GetInvalidConfigResult__0__configuration_is_invalid_or_missing__Please_check__Destination_settings__window_to_configure_it_" xml:space="preserve">
     <value>{0} の構成が正しくないか存在しません。"アップロード先の設定" ウィンドウで構成を確認してください。</value>
   </data>
-  <data name="UploadTask_CreateURLShortenerTask_Shorten_URL___0__" xml:space="preserve">
-    <value>短縮URLの作成 ({0})</value>
-  </data>
   <data name="ActionsToolbarEditForm_Separator" xml:space="preserve">
     <value>区切り線</value>
   </data>
@@ -332,12 +310,6 @@ ShareX を再起動しますか？</value>
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>ドイツ語</value>
-  </data>
-  <data name="ChromeForm_btnUnregister_Click_Chrome_support_disabled_" xml:space="preserve">
-    <value>Chrome サポートを無効にしました。</value>
-  </data>
-  <data name="MainForm_tsmiTestTextUpload_Click_Text_upload_test" xml:space="preserve">
-    <value>テキストアップロードのテスト</value>
   </data>
   <data name="InspectWindow_WindowRectangle" xml:space="preserve">
     <value>ウィンドウ Rectangle</value>
@@ -386,12 +358,6 @@ ShareX を再起動しますか？</value>
   <data name="RecentManager_UpdateRecentMenu_Left_click_to_copy_URL_to_clipboard__Right_click_to_open_URL_" xml:space="preserve">
     <value>左クリックでクリップボードにURLをコピー、右クリックでURLを開く。</value>
   </data>
-  <data name="AutoCaptureForm_Execute_Start" xml:space="preserve">
-    <value>開始</value>
-  </data>
-  <data name="ChromeForm_btnRegister_Click_Chrome_support_enabled_" xml:space="preserve">
-    <value>Chrome サポートを有効にしました。</value>
-  </data>
   <data name="TaskManager_task_UploadCompleted_ShareX___Task_completed" xml:space="preserve">
     <value>タスクの完了</value>
   </data>
@@ -421,9 +387,6 @@ ShareX を再起動しますか？</value>
   </data>
   <data name="UploadInfoManager_ShowErrors_Upload_errors" xml:space="preserve">
     <value>アップロード エラー</value>
-  </data>
-  <data name="AutoCaptureForm_Execute_Stop" xml:space="preserve">
-    <value>停止</value>
   </data>
   <data name="ActionsToolbar_Close" xml:space="preserve">
     <value>閉じる</value>
@@ -460,9 +423,6 @@ ShareX を再起動しますか？</value>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
     <value>テキスト アップローダー: {0}</value>
   </data>
-  <data name="UploadManager_ShowShortenURLDialog_Shorten" xml:space="preserve">
-    <value>短縮</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_In_queue" xml:space="preserve">
     <value>処理待ち</value>
   </data>
@@ -489,9 +449,6 @@ ShareX を再起動しますか？</value>
   </data>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_URL_sharing_service___0_" xml:space="preserve">
     <value>URL共有サービス: {0}</value>
-  </data>
-  <data name="UploadManager_ShowShortenURLDialog_ShortenURL" xml:space="preserve">
-    <value>短縮URLの作成</value>
   </data>
   <data name="Confirmation" xml:space="preserve">
     <value>確認</value>

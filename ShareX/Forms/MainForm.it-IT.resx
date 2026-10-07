@@ -237,9 +237,6 @@
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Servizio Caricamento File</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Servizio Accorciamento URL</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Servizio Condivisione URL</value>
   </data>
@@ -273,14 +270,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Prova Caricamento Immagine</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Prova Caricamento Testo</value>
-  </data>
   <data name="tsmiTestFileUpload.Text" xml:space="preserve">
     <value>Prova Caricamento File</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>Prova Accorciamento URL</value>
   </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>Prova Condivisione URL</value>
@@ -398,9 +389,6 @@
   </data>
   <data name="tsmiDeleteSelectedFile.Text" xml:space="preserve">
     <value>Elimina File Locale...</value>
-  </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>Accorcia URL</value>
   </data>
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>Condividi URL</value>
@@ -522,9 +510,6 @@
   <data name="tsmiTrayFileUploaders.Text" xml:space="preserve">
     <value>Servizio Caricamento File</value>
   </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>Servizio Accorciamento URL</value>
-  </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>Servizio Condivisione URL</value>
   </data>
@@ -572,18 +557,6 @@
   </data>
   <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
     <value>Crea Miniatura Immagine...</value>
-  </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Carica Testo...</value>
-  </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Carica Testo...</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>Accorcia URL...</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>Accorcia URL...</value>
   </data>
   <data name="tsmiCopyMarkdownImage.Text" xml:space="preserve">
     <value>Markdown Immagine</value>
@@ -666,9 +639,6 @@
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Impostazioni destinazione...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Impostazioni uploader personalizzato...</value>
-  </data>
   <data name="tsbX.Text" xml:space="preserve">
     <value>Segui @ShareX...</value>
   </data>
@@ -689,12 +659,6 @@
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Analizza immagine...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Ricerca visiva Bing...</value>
   </data>
   <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
     <value>Combina orizzontalmente</value>
@@ -767,9 +731,6 @@
   </data>
   <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
     <value>Ispeziona finestra...</value>
-  </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Impostazioni uploader personalizzato...</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>Riavvia ShareX come amministratore</value>

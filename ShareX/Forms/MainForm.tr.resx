@@ -225,9 +225,6 @@
   <data name="tsmiFileUploaders.Text" xml:space="preserve">
     <value>Dosya yükleyiciler</value>
   </data>
-  <data name="tsmiURLShorteners.Text" xml:space="preserve">
-    <value>Adres kısaltıcılar</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Adres paylaşım servisleri</value>
   </data>
@@ -258,14 +255,8 @@
   <data name="tsmiTestImageUpload.Text" xml:space="preserve">
     <value>Resim yükleme testi</value>
   </data>
-  <data name="tsmiTestTextUpload.Text" xml:space="preserve">
-    <value>Yazı yükleme testi</value>
-  </data>
   <data name="tsmiTestFileUpload.Text" xml:space="preserve">
     <value>Dosya yükleme testi</value>
-  </data>
-  <data name="tsmiTestURLShortener.Text" xml:space="preserve">
-    <value>Adres kısaltma testi</value>
   </data>
   <data name="tsmiTestURLSharing.Text" xml:space="preserve">
     <value>Adres paylaşım testi</value>
@@ -362,9 +353,6 @@
   </data>
   <data name="tsmiDeleteSelectedFile.Text" xml:space="preserve">
     <value>Yerel dosya sil...</value>
-  </data>
-  <data name="tsmiShortenSelectedURL.Text" xml:space="preserve">
-    <value>Adresi kısalt</value>
   </data>
   <data name="tsmiShareSelectedURL.Text" xml:space="preserve">
     <value>Adresi paylaş</value>
@@ -468,9 +456,6 @@
   <data name="tsmiTrayFileUploaders.Text" xml:space="preserve">
     <value>Dosya yükleyiciler</value>
   </data>
-  <data name="tsmiTrayURLShorteners.Text" xml:space="preserve">
-    <value>Adres kısaltıcılar</value>
-  </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>Adres paylaşım servisleri</value>
   </data>
@@ -549,12 +534,6 @@
   <data name="tsmiShowCursor.Text" xml:space="preserve">
     <value>İmleç göster</value>
   </data>
-  <data name="tsmiUploadText.Text" xml:space="preserve">
-    <value>Yazı yükle...</value>
-  </data>
-  <data name="tsmiShortenURL.Text" xml:space="preserve">
-    <value>Adresi kısalt...</value>
-  </data>
   <data name="tsmiImageEditor.Text" xml:space="preserve">
     <value>Resim düzenleyici...</value>
   </data>
@@ -591,12 +570,6 @@
   <data name="tsmiTrayShowCursor.Text" xml:space="preserve">
     <value>İmleç göster</value>
   </data>
-  <data name="tsmiTrayUploadText.Text" xml:space="preserve">
-    <value>Yazı yükle...</value>
-  </data>
-  <data name="tsmiTrayShortenURL.Text" xml:space="preserve">
-    <value>Adresi kısalt...</value>
-  </data>
   <data name="tsmiTrayImageEditor.Text" xml:space="preserve">
     <value>Resim düzenleyici...</value>
   </data>
@@ -608,9 +581,6 @@
   </data>
   <data name="tsmiAddImageEffects.Text" xml:space="preserve">
     <value>Resim efekti ekle...</value>
-  </data>
-  <data name="tsmiBingVisualSearch.Text" xml:space="preserve">
-    <value>Bing görsel arama (OCR)...</value>
   </data>
   <data name="tsmiClipboardViewer.Text" xml:space="preserve">
     <value>Pano görüntüleyici...</value>
@@ -684,9 +654,6 @@
   <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
     <value>Pano görüntüleyici...</value>
   </data>
-  <data name="tsmiTrayCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Özel yükleyici ayarları...</value>
-  </data>
   <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
     <value>Resim ayırıcı...</value>
   </data>
@@ -747,9 +714,6 @@
   <data name="tsmiTrayMetadata.Text" xml:space="preserve">
     <value>Metadata...</value>
   </data>
-  <data name="tsbCustomUploaderSettings.Text" xml:space="preserve">
-    <value>Özel yükleyici ayarları...</value>
-  </data>
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>Açıklama</value>
   </data>
@@ -770,9 +734,6 @@
   </data>
   <data name="tsmiAnalyzeImage.Text" xml:space="preserve">
     <value>Görüntüyü analiz et...</value>
-  </data>
-  <data name="tsmiGoogleLens.Text" xml:space="preserve">
-    <value>Google Lens...</value>
   </data>
   <data name="tsmiTrayImageComparer.Text" xml:space="preserve">
     <value>Görüntü karşılaştırıcı...</value>
