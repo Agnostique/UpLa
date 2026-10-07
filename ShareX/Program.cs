@@ -537,10 +537,7 @@ namespace ShareX
 #if !MicrosoftStore
             if (!Portable)
             {
-                if (!IntegrationHelpers.CheckCustomUploaderExtension())
-                {
-                    IntegrationHelpers.CreateCustomUploaderExtension(true);
-                }
+                // upla.com.tr: .sxcu files are not associated, so opening one cannot import a custom uploader.
 
                 if (!IntegrationHelpers.CheckImageEffectExtension())
                 {

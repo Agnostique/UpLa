@@ -100,11 +100,9 @@ namespace ShareX
         {
             if (command.Command.Equals("CustomUploader", StringComparison.OrdinalIgnoreCase))
             {
-                if (!string.IsNullOrEmpty(command.Parameter) && command.Parameter.EndsWith(".sxcu", StringComparison.OrdinalIgnoreCase))
-                {
-                    TaskHelpers.ImportCustomUploader(command.Parameter);
-                }
-
+                // upla.com.tr: importing a custom uploader from the command line (e.g. by opening a .sxcu file) is
+                // disabled, because one click could send all later uploads to another server. The command is still
+                // consumed so the .sxcu file is not uploaded instead.
                 return true;
             }
 
