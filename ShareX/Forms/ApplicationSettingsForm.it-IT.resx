@@ -157,10 +157,10 @@
     <value>Generale</value>
   </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
-    <value>Mostra il Pulsante "Carica con ShareX" nel Menu Contestiale di Windows Explorer</value>
+    <value>Mostra il Pulsante "Carica con UpLa" nel Menu Contestiale di Windows Explorer</value>
   </data>
   <data name="cbSendToMenu.Text" xml:space="preserve">
-    <value>Mostra ShareX nel Menu "Invia a"</value>
+    <value>Mostra UpLa nel Menu "Invia a"</value>
   </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>Integrazione</value>
@@ -172,7 +172,7 @@
     <value>Sfoglia...</value>
   </data>
   <data name="lblPersonalFolderPath.Text" xml:space="preserve">
-    <value>Cartella Personale di ShareX:</value>
+    <value>Cartella Personale di UpLa:</value>
   </data>
   <data name="btnOpenPersonalFolderPath.Text" xml:space="preserve">
     <value>Apri...</value>
@@ -265,7 +265,7 @@
     <value>Avanzate</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Impostazioni Applicazione</value>
+    <value>UpLa - Impostazioni Applicazione</value>
   </data>
   <data name="lblProxyMethod.Text" xml:space="preserve">
     <value>Configurazione Proxy:</value>
@@ -307,7 +307,7 @@
     <value>Controlla automaticamente gli aggiornamenti</value>
   </data>
   <data name="cbUseWhiteShareXIcon.Text" xml:space="preserve">
-    <value>Usa icona ShareX bianca</value>
+    <value>Usa icona UpLa bianca</value>
   </data>
   <data name="btnCheckDevBuild.Text" xml:space="preserve">
     <value>Installa build di sviluppo...</value>
@@ -325,7 +325,7 @@
     <value>Tema</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
-    <value>Mostra il pulsante "Modifica con ShareX" nel menu contestuale di Esplora risorse</value>
+    <value>Mostra il pulsante "Modifica con UpLa" nel menu contestuale di Esplora risorse</value>
   </data>
   <data name="lblSaveImageSubFolderPatternWindow.Text" xml:space="preserve">
     <value>Modello sottocartella per finestra:</value>

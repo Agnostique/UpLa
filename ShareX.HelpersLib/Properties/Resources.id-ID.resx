@@ -286,7 +286,7 @@
     <value>Kenali teks (OCR)</value>
   </data>
   <data name="HotkeyType_ExitShareX" xml:space="preserve">
-    <value>Keluar ShareX</value>
+    <value>Keluar UpLa</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_Portable" xml:space="preserve">
     <value>Versi terbaru dari {0} tersedia
@@ -984,7 +984,7 @@ Apakah anda ingin mengunduh dan menginstalnya?</value>
     <value>Sematkan ke layar</value>
   </data>
   <data name="ShareXImageViewer" xml:space="preserve">
-    <value>ShareX - Penampil gambar</value>
+    <value>UpLa - Penampil gambar</value>
   </data>
   <data name="HotkeyType_PinToScreen" xml:space="preserve">
     <value>Sematkan ke layar</value>

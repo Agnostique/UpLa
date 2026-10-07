@@ -121,7 +121,7 @@
     <value>Chemin du dossier des ressources :</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Outil de packaging d'effet d'image</value>
+    <value>UpLa - Outil de packaging d'effet d'image</value>
   </data>
   <data name="lblPackageFilePath.Text" xml:space="preserve">
     <value>Chemin du fichier de paquet :</value>

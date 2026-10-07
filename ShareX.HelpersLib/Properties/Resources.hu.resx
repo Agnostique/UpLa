@@ -550,7 +550,7 @@
     <value>Szöveg felismerése (OCR)</value>
   </data>
   <data name="HotkeyType_ExitShareX" xml:space="preserve">
-    <value>Kilépés a ShareX-ből</value>
+    <value>Kilépés az UpLa-ból</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_Portable" xml:space="preserve">
     <value>A newer version of {0} is available.
@@ -983,7 +983,7 @@ Would you like to letöltés it?</value>
     <value>Pin to képernyő</value>
   </data>
   <data name="ShareXImageViewer" xml:space="preserve">
-    <value>ShareX - Kép viewer</value>
+    <value>UpLa - Kép viewer</value>
   </data>
   <data name="HotkeyType_PinToScreen" xml:space="preserve">
     <value>Pin to képernyő</value>

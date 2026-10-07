@@ -274,9 +274,13 @@ namespace ShareX.HelpersLib
             return sb.ToString();
         }
 
+        // The ShareX version this build is based on (file version), not the UpLa version users see
+        // (Application.ProductVersion): settings files store it and upgrade checks compare it with ShareX versions.
         public static string GetApplicationVersion(bool includeRevision = false)
         {
-            Version version = Version.Parse(Application.ProductVersion);
+            string fileVersion = Assembly.GetEntryAssembly()?.GetCustomAttribute<AssemblyFileVersionAttribute>()?.Version ??
+                typeof(Helpers).Assembly.GetCustomAttribute<AssemblyFileVersionAttribute>().Version;
+            Version version = Version.Parse(fileVersion);
             string result = $"{version.Major}.{version.Minor}.{version.Build}";
             if (includeRevision)
             {

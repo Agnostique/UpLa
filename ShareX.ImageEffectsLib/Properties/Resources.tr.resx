@@ -142,7 +142,7 @@
     <value>Geçersiz varlık klasör yolu</value>
   </data>
   <data name="AssetsFolderMustBeInsideShareXImageEffectsFolder" xml:space="preserve">
-    <value>Varlık klasörü ShareX resim efektleri klasörünün içinde olmalıdır.</value>
+    <value>Varlık klasörü UpLa resim efektleri klasörünün içinde olmalıdır.</value>
   </data>
   <data name="MissingPresetName" xml:space="preserve">
     <value>Ön ayar ismi eksik</value>

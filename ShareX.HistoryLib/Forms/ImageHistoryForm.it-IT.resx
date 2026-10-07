@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Cronologia Immagini</value>
+    <value>UpLa - Cronologia Immagini</value>
   </data>
   <data name="tslSearch.Text" xml:space="preserve">
     <value>Cerca:</value>

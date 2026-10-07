@@ -451,7 +451,7 @@
     <value>圖片上傳工具</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - 目的地設定</value>
+    <value>UpLa - 目的地設定</value>
   </data>
   <data name="lblCheveretoAPIKey.Text" xml:space="preserve">
     <value>API 金鑰：</value>

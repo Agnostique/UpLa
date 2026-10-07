@@ -457,7 +457,7 @@
     <value>Kép előzmények...</value>
   </data>
   <data name="tsmiTrayShow.Text" xml:space="preserve">
-    <value>ShareX ablak mutatása</value>
+    <value>UpLa ablak mutatása</value>
   </data>
   <data name="tsmiTrayExit.Text" xml:space="preserve">
     <value>Kilépés</value>
@@ -655,7 +655,7 @@
     <value>Disable gyorsbillentyűk</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
-    <value>Reindítás ShareX as admin</value>
+    <value>Reindítás UpLa as admin</value>
   </data>
   <data name="tsmiTrayRecentItems.Text" xml:space="preserve">
     <value>Recent hivatkozáss</value>

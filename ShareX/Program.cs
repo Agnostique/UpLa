@@ -41,8 +41,8 @@ namespace ShareX
 {
     internal static class Program
     {
-        public const string AppName = "ShareX";
-        public const string MutexName = "82E6AC09-0FEF-4390-AD9F-0DD3F5561EFC";
+        public const string AppName = "UpLa";
+        public const string MutexName = "904F8705-9B7E-4789-84E9-1112370D9033";
         public static readonly string PipeName = $"{Environment.MachineName}-{Environment.UserName}-{AppName}";
 
         public const ShareXBuild Build =
@@ -206,7 +206,7 @@ namespace ShareX
                     return null;
                 }
 
-                string fileName = string.Format("ShareX-Log-{0:yyyy-MM}.txt", DateTime.Now);
+                string fileName = string.Format("{0}-Log-{1:yyyy-MM}.txt", AppName, DateTime.Now);
                 return Path.Combine(LogsFolder, fileName);
             }
         }
@@ -284,7 +284,7 @@ namespace ShareX
 
                     if (restartRequested)
                     {
-                        DebugHelper.WriteLine("ShareX restarting.");
+                        DebugHelper.WriteLine($"{AppName} restarting.");
 
                         if (restartAsAdmin)
                         {
@@ -305,7 +305,7 @@ namespace ShareX
         {
             ApplicationConfiguration.Initialize();
 
-            DebugHelper.WriteLine("ShareX starting.");
+            DebugHelper.WriteLine($"{AppName} starting.");
             DebugHelper.WriteLine("Version: " + VersionText);
             DebugHelper.WriteLine("Build: " + Build);
             DebugHelper.WriteLine("Command line: " + Environment.CommandLine);
@@ -347,13 +347,13 @@ namespace ShareX
             {
                 closeSequenceStarted = true;
 
-                DebugHelper.WriteLine("ShareX closing.");
+                DebugHelper.WriteLine($"{AppName} closing.");
 
                 WatchFolderManager?.Dispose();
                 SettingManager.HistoryClose();
                 SettingManager.SaveAllSettings();
 
-                DebugHelper.WriteLine("ShareX closed.");
+                DebugHelper.WriteLine($"{AppName} closed.");
             }
         }
 
@@ -483,7 +483,7 @@ namespace ShareX
                         sb.AppendLine();
                         sb.Append(e);
 
-                        MessageBox.Show(sb.ToString(), "ShareX - " + Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(sb.ToString(), AppName + " - " + Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         CustomPersonalPath = "";
                     }
                 }
@@ -517,6 +517,8 @@ namespace ShareX
         {
             Dictionary<string, string> specialFolders = new Dictionary<string, string>();
             specialFolders.Add("ShareXImageEffects", ImageEffectsFolder);
+            // UpLa 1.0 saved image effect paths as %UpLaImageEffects%. New paths use the first key above.
+            specialFolders.Add("UpLaImageEffects", ImageEffectsFolder);
             HelpersOptions.ShareXSpecialFolders = specialFolders;
         }
 
@@ -581,7 +583,7 @@ namespace ShareX
                     {
                         DebugHelper.WriteException(e);
                         MessageBox.Show(string.Format(Resources.Program_WritePersonalPathConfig_Cant_access_to_file, PersonalPathConfigFilePath),
-                            "ShareX", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            AppName, MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                     catch (Exception e)
                     {
@@ -637,7 +639,7 @@ namespace ShareX
 
         private static void OnError(Exception e)
         {
-            using (ErrorForm errorForm = new ErrorForm(e.Message, $"{e}\r\n\r\n{Title}", LogsFilePath, Links.GitHubIssues))
+            using (ErrorForm errorForm = new ErrorForm(e.Message, $"{e}\r\n\r\n{Title}", LogsFilePath, null))
             {
                 errorForm.ShowDialog();
             }

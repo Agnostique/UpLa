@@ -124,7 +124,7 @@
     <value>最大画像数:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - 画像履歴の設定</value>
+    <value>UpLa - 画像履歴の設定</value>
   </data>
   <data name="cbRememberSearchText.Text" xml:space="preserve">
     <value>検索文字を記憶</value>

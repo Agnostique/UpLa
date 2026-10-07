@@ -39,7 +39,7 @@
             this.Name = "ScrollingCaptureRegionForm";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "ShareX - Scrolling capture";
+            this.Text = "UpLa - Scrolling capture";
             this.ResumeLayout(false);
 
         }

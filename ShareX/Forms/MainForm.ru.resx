@@ -187,7 +187,7 @@
     <value>Окно</value>
   </data>
   <data name="tsmiTrayShow.Text" xml:space="preserve">
-    <value>Показать окно ShareX</value>
+    <value>Показать окно UpLa</value>
   </data>
   <data name="tsmiFullscreen.Text" xml:space="preserve">
     <value>Весь экран</value>
@@ -610,7 +610,7 @@
     <value>Добавить эффекты изображений...</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
-    <value>Перезапустить ShareX как администратор</value>
+    <value>Перезапустить UpLa как администратор</value>
   </data>
   <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
     <value>Объединить горизонтально</value>

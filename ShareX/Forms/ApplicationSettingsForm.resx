@@ -214,7 +214,7 @@
     <value>8</value>
   </data>
   <data name="cbUseWhiteShareXIcon.Text" xml:space="preserve">
-    <value>Use white ShareX icon</value>
+    <value>Use white UpLa icon</value>
   </data>
   <data name="&gt;&gt;cbUseWhiteShareXIcon.Name" xml:space="preserve">
     <value>cbUseWhiteShareXIcon</value>
@@ -907,7 +907,7 @@
     <value>3</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
-    <value>Show "Edit with ShareX" button in Windows Explorer context menu</value>
+    <value>Show "Edit with UpLa" button in Windows Explorer context menu</value>
   </data>
   <data name="&gt;&gt;cbEditWithShareX.Name" xml:space="preserve">
     <value>cbEditWithShareX</value>
@@ -964,7 +964,7 @@
     <value>2</value>
   </data>
   <data name="cbSendToMenu.Text" xml:space="preserve">
-    <value>Show ShareX in "Send to" menu</value>
+    <value>Show UpLa in "Send to" menu</value>
   </data>
   <data name="&gt;&gt;cbSendToMenu.Name" xml:space="preserve">
     <value>cbSendToMenu</value>
@@ -994,7 +994,7 @@
     <value>1</value>
   </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
-    <value>Show "Upload with ShareX" button in Windows Explorer context menu</value>
+    <value>Show "Upload with UpLa" button in Windows Explorer context menu</value>
   </data>
   <data name="&gt;&gt;cbShellContextMenu.Name" xml:space="preserve">
     <value>cbShellContextMenu</value>
@@ -1236,7 +1236,7 @@
     <value>0</value>
   </data>
   <data name="lblPersonalFolderPath.Text" xml:space="preserve">
-    <value>ShareX personal folder:</value>
+    <value>UpLa personal folder:</value>
   </data>
   <data name="&gt;&gt;lblPersonalFolderPath.Name" xml:space="preserve">
     <value>lblPersonalFolderPath</value>
@@ -3860,7 +3860,7 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Application settings</value>
+    <value>UpLa - Application settings</value>
   </data>
   <data name="&gt;&gt;chDescription.Name" xml:space="preserve">
     <value>chDescription</value>

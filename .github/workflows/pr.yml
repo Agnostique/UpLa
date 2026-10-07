@@ -1,4 +1,4 @@
-name: Build ShareX (PR)
+name: Build UpLa (PR)
 
 on:
   pull_request:
@@ -40,6 +40,11 @@ jobs:
           $platform = if ("${{ matrix.platform }}" -eq "ARM64") { "arm64" } else { "x64" }
           echo "PLATFORM=$platform" >> $env:GITHUB_ENV
           echo "RUNTIME_ID=win-$platform" >> $env:GITHUB_ENV
+
+      # Pull requests get no secrets. Release builds need APIKeysLocal.cs, so an empty one is used (guest uploads off).
+      - name: Create empty API keys
+        run: |
+          Set-Content -Path "ShareX.UploadersLib\APIKeys\APIKeysLocal.cs" -Value "namespace ShareX.UploadersLib { internal static partial class APIKeys { } }" -Encoding utf8
 
       - name: Restore NuGet packages
         run: |

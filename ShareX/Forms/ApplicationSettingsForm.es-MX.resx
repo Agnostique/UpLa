@@ -154,13 +154,13 @@
     <value>General</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
-    <value>Mostrar botón de "Modificar con ShareX" en el menú contextual de Windows</value>
+    <value>Mostrar botón de "Modificar con UpLa" en el menú contextual de Windows</value>
   </data>
   <data name="cbSendToMenu.Text" xml:space="preserve">
-    <value>Mostrar ShareX en el menú de "Enviar a"</value>
+    <value>Mostrar UpLa en el menú de "Enviar a"</value>
   </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
-    <value>Mostrar botón de "Subir con ShareX" en el menú contextual</value>
+    <value>Mostrar botón de "Subir con UpLa" en el menú contextual</value>
   </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>Integración</value>
@@ -172,7 +172,7 @@
     <value>Examinar...</value>
   </data>
   <data name="lblPersonalFolderPath.Text" xml:space="preserve">
-    <value>Carpeta personal de ShareX:</value>
+    <value>Carpeta personal de UpLa:</value>
   </data>
   <data name="btnBrowseCustomScreenshotsPath.Text" xml:space="preserve">
     <value>Examinar...</value>
@@ -307,7 +307,7 @@
     <value>Instalar versión de desarrollador...</value>
   </data>
   <data name="cbUseWhiteShareXIcon.Text" xml:space="preserve">
-    <value>Usar icono blanco de ShareX</value>
+    <value>Usar icono blanco de UpLa</value>
   </data>
   <data name="btnThemeReset.Text" xml:space="preserve">
     <value>Restablecer...</value>

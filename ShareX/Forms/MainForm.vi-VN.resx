@@ -625,7 +625,7 @@
     <value>Ghim vào màn hình...</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
-    <value>Khởi động lại ShareX với tư cách quản trị viên</value>
+    <value>Khởi động lại UpLa với tư cách quản trị viên</value>
   </data>
   <data name="tsmiTrayImageViewer.Text" xml:space="preserve">
     <value>Xem ảnh...</value>

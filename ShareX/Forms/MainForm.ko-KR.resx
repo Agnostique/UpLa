@@ -421,7 +421,7 @@
     <value>단축된 URL</value>
   </data>
   <data name="tsmiTrayShow.Text" xml:space="preserve">
-    <value>ShareX 창 보이기</value>
+    <value>UpLa 창 보이기</value>
   </data>
   <data name="tsmiTrayTaskSettings.Text" xml:space="preserve">
     <value>작업 설정...</value>
@@ -661,7 +661,7 @@
     <value>OCR...</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
-    <value>ShareX를 관리자 권한으로 다시 시작</value>
+    <value>UpLa를 관리자 권한으로 다시 시작</value>
   </data>
   <data name="cHotkey.HeaderText" xml:space="preserve">
     <value>단축키</value>

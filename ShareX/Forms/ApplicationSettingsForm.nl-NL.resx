@@ -121,7 +121,7 @@
     <value>Geavanceerd</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Instellingen programma</value>
+    <value>UpLa - Instellingen programma</value>
   </data>
   <data name="tpProxy.Text" xml:space="preserve">
     <value>Proxy</value>
@@ -142,7 +142,7 @@
     <value>Buffergrootte:</value>
   </data>
   <data name="lblPersonalFolderPath.Text" xml:space="preserve">
-    <value>ShareX persoonlijke map:</value>
+    <value>UpLa persoonlijke map:</value>
   </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>Integratie</value>
@@ -160,7 +160,7 @@
     <value>Minimaliseer naar tray bij opstarten</value>
   </data>
   <data name="cbSendToMenu.Text" xml:space="preserve">
-    <value>Toon ShareX in het "Verzenden naar" menu</value>
+    <value>Toon UpLa in het "Verzenden naar" menu</value>
   </data>
   <data name="cbRememberMainFormPosition.Text" xml:space="preserve">
     <value>Onthoud de positie van het algemene venster</value>
@@ -247,7 +247,7 @@
     <value>Taal:</value>
   </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
-    <value>Toon een "Upload met ShareX" knop in het context menu</value>
+    <value>Toon een "Upload met UpLa" knop in het context menu</value>
   </data>
   <data name="gbHistory.Text" xml:space="preserve">
     <value>Geschiedenis</value>
@@ -283,7 +283,7 @@
     <value>Automatisch controleren op updates</value>
   </data>
   <data name="cbUseWhiteShareXIcon.Text" xml:space="preserve">
-    <value>Wit ShareX-pictogram gebruiken</value>
+    <value>Wit UpLa-pictogram gebruiken</value>
   </data>
   <data name="btnCheckDevBuild.Text" xml:space="preserve">
     <value>Ontwikkelversie installeren...</value>
@@ -313,7 +313,7 @@
     <value>Thema</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
-    <value>Knop "Bewerken met ShareX" weergeven in het contextmenu van Windows Verkenner</value>
+    <value>Knop "Bewerken met UpLa" weergeven in het contextmenu van Windows Verkenner</value>
   </data>
   <data name="lblSaveImageSubFolderPatternWindow.Text" xml:space="preserve">
     <value>Submappatroon voor venster:</value>

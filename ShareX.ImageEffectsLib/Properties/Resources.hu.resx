@@ -136,7 +136,7 @@
     <value>Mégse</value>
   </data>
   <data name="AssetsFolderMustBeInsideShareXImageEffectsFolder" xml:space="preserve">
-    <value>Assets mappa must be inside ShareX képeffektusok mappa.</value>
+    <value>Assets mappa must be inside UpLa képeffektusok mappa.</value>
   </data>
   <data name="InvalidAssetsFolderPath" xml:space="preserve">
     <value>Invalid assets mappa elérési útja</value>

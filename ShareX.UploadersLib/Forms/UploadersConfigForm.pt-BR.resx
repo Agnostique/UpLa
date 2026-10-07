@@ -475,7 +475,7 @@ Usar uma biblioteca encriptada desabilita o compartilhamento.</value>
     <value>Envio de imagens</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Opções de destino</value>
+    <value>UpLa - Opções de destino</value>
   </data>
   <data name="lblCheveretoAPIKey.Text" xml:space="preserve">
     <value>Chave de API:</value>

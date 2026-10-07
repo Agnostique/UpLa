@@ -70,7 +70,7 @@ namespace ShareX
 
             if (Image == null)
             {
-                MessageBox.Show(Resources.ClipboardDoesNotContainAnImage, "ShareX - " + Resources.PinToScreen, MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(Resources.ClipboardDoesNotContainAnImage, ShareXResources.Name + " - " + Resources.PinToScreen, MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {

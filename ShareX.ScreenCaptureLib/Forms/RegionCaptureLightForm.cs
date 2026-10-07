@@ -95,11 +95,11 @@ namespace ShareX.ScreenCaptureLib
             if (!isTransparentBackground)
             {
                 SetStyle(ControlStyles.OptimizedDoubleBuffer | ControlStyles.UserPaint | ControlStyles.AllPaintingInWmPaint, true);
-                Text = "ShareX - " + Resources.RectangleLight_InitializeComponent_Rectangle_capture_light;
+                Text = ShareXResources.Name + " - " + Resources.RectangleLight_InitializeComponent_Rectangle_capture_light;
             }
             else
             {
-                Text = "ShareX - " + Resources.RectangleTransparent_RectangleTransparent_Rectangle_capture_transparent;
+                Text = ShareXResources.Name + " - " + Resources.RectangleTransparent_RectangleTransparent_Rectangle_capture_transparent;
             }
             ShowInTaskbar = false;
 #if !DEBUG

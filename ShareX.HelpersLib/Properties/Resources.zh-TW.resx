@@ -295,7 +295,7 @@
     <value>文字辨識 (OCR)</value>
   </data>
   <data name="HotkeyType_ExitShareX" xml:space="preserve">
-    <value>退出 ShareX</value>
+    <value>退出 UpLa</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_Portable" xml:space="preserve">
     <value>{0} 已推出新版本。
@@ -984,7 +984,7 @@
     <value>釘選至螢幕</value>
   </data>
   <data name="ShareXImageViewer" xml:space="preserve">
-    <value>ShareX - 圖片檢視器</value>
+    <value>UpLa - 圖片檢視器</value>
   </data>
   <data name="HotkeyType_PinToScreen" xml:space="preserve">
     <value>釘選至螢幕</value>

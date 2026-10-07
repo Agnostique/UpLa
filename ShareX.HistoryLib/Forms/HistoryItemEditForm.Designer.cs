@@ -291,7 +291,7 @@
             MaximizeBox = false;
             Name = "HistoryItemEdit";
             StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            Text = "ShareX - Edit item";
+            Text = "UpLa - Edit item";
             ((System.ComponentModel.ISupportInitialize)dgvTags).EndInit();
             ResumeLayout(false);
             PerformLayout();

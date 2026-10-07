@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ShareXIsMinimizedToTheSystemTray" xml:space="preserve">
-    <value>ShareX est réduit dans la zone de notification.</value>
+    <value>UpLa est réduit dans la zone de notification.</value>
   </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>Variables prises en charge : {0} et d'autres variables telles que {1}, etc.</value>
@@ -160,14 +160,14 @@
     <value>Rester sur le dessus</value>
   </data>
   <data name="ShareXIsUpToDate" xml:space="preserve">
-    <value>ShareX est à jour !</value>
+    <value>UpLa est à jour !</value>
   </data>
   <data name="AboutForm_AboutForm_Changelog" xml:space="preserve">
     <value>Historique des modifications</value>
   </data>
   <data name="ApplicationSettingsForm_cbLanguage_SelectedIndexChanged_Language_Restart" xml:space="preserve">
-    <value>ShareX doit être redémarré pour que les changements de langue s'appliquent.
-Voulez-vous redémarrer ShareX ?</value>
+    <value>UpLa doit être redémarré pour que les changements de langue s'appliquent.
+Voulez-vous redémarrer UpLa ?</value>
   </data>
   <data name="AboutForm_AboutForm_Language_zh_TW" xml:space="preserve">
     <value>Chinois traditionnel</value>
@@ -188,7 +188,7 @@ Voulez-vous redémarrer ShareX ?</value>
     <value>Sélectionner un raccourci clavier...</value>
   </data>
   <data name="ApplicationSettingsForm_cbStartWithWindows_Text" xml:space="preserve">
-    <value>Lancer ShareX au démarrage de Windows</value>
+    <value>Lancer UpLa au démarrage de Windows</value>
   </data>
   <data name="MainForm_UpdateToggleHotkeyButton_Disable_hotkeys" xml:space="preserve">
     <value>Désactiver les raccourcis clavier</value>
@@ -200,7 +200,7 @@ Voulez-vous redémarrer ShareX ?</value>
     <value>Impossible de créer le dossier :</value>
   </data>
   <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
-    <value>FFmpeg inclus dans ShareX ne support que les systèmes d'exploitation 64-bits.</value>
+    <value>FFmpeg inclus dans UpLa ne support que les systèmes d'exploitation 64-bits.</value>
   </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>Mise en ligne en cours</value>
@@ -230,7 +230,7 @@ Voulez-vous redémarrer ShareX ?</value>
     <value>Prévisualisation :</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
-    <value>Voulez-vous réinitialiser les paramètres de ShareX ?</value>
+    <value>Voulez-vous réinitialiser les paramètres d'UpLa ?</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm__0__is_about_to_be_uploaded_to__1___You_may_choose_a_different_destination_" xml:space="preserve">
     <value>{0} va être mis en ligne sur {1}. Vous pouvez choisir une destination différente.</value>
@@ -305,7 +305,7 @@ Vous pourrez les désactiver plus tard depuis le manu "Tâches après la capture
     <value>Page du projet</value>
   </data>
   <data name="IntegrationHelpers_EditWithShareX" xml:space="preserve">
-    <value>Modifier avec ShareX</value>
+    <value>Modifier avec UpLa</value>
   </data>
   <data name="ApplicationSettingsForm_btnBrowseCustomScreenshotsPath_Click_Choose_screenshots_folder_path" xml:space="preserve">
     <value>Choisir le chemin du dossier pour les captures</value>
@@ -320,7 +320,7 @@ Vous pourrez les désactiver plus tard depuis le manu "Tâches après la capture
     <value>Erreur</value>
   </data>
   <data name="YourAntiVirusSoftwareOrTheControlledFolderAccessFeatureInWindowsCouldBeBlockingShareX" xml:space="preserve">
-    <value>Votre logiciel anti-virus ou le control des répertoires Windows pourrait bloquer ShareX.</value>
+    <value>Votre logiciel anti-virus ou le control des répertoires Windows pourrait bloquer UpLa.</value>
   </data>
   <data name="QuickTaskMenuEditorForm_Reset_all_quick_tasks_to_defaults_Confirmation" xml:space="preserve">
     <value>Réinitialiser les tâches rapides ?</value>
@@ -368,9 +368,9 @@ Vous pourrez les désactiver plus tard depuis le manu "Tâches après la capture
     <value>Fermer</value>
   </data>
   <data name="ShareXNeedsToBeRestartedForThePersonalFolderChangesToApply" xml:space="preserve">
-    <value>ShareX doit être redémarré pour que les changements du dossier personnel soient appliqués.
+    <value>UpLa doit être redémarré pour que les changements du dossier personnel soient appliqués.
 
-Voulez-vous redémarrer ShareX ?</value>
+Voulez-vous redémarrer UpLa ?</value>
   </data>
   <data name="AboutForm_AboutForm_Website" xml:space="preserve">
     <value>Site web</value>
@@ -388,7 +388,7 @@ Voulez-vous redémarrer ShareX ?</value>
     <value>Erreur</value>
   </data>
   <data name="ApplicationSettingsForm_btnBrowsePersonalFolderPath_Click_Choose_ShareX_personal_folder_path" xml:space="preserve">
-    <value>Choisir le chemin du dossier personnel pour ShareX</value>
+    <value>Choisir le chemin du dossier personnel pour UpLa</value>
   </data>
   <data name="AboutForm_AboutForm_Language_es" xml:space="preserve">
     <value>Espagnol</value>
@@ -409,7 +409,7 @@ Voulez-vous redémarrer ShareX ?</value>
     <value>Vous pouvez ajouter des workflows à partir des paramètres des raccourcis clavier...</value>
   </data>
   <data name="ShareXConfirmation" xml:space="preserve">
-    <value>ShareX - Confirmation</value>
+    <value>UpLa - Confirmation</value>
   </data>
   <data name="UploadTask_DownloadAndUpload_Downloading" xml:space="preserve">
     <value>Téléchargement</value>
@@ -439,19 +439,19 @@ Voulez-vous redémarrer ShareX ?</value>
     <value>Russe</value>
   </data>
   <data name="ShareXCannotBeClosedWhileScreenRecordingIsActive" xml:space="preserve">
-    <value>ShareX ne peut être fermé lorsqu'un enregistrement d'écran est en cours.
+    <value>UpLa ne peut être fermé lorsqu'un enregistrement d'écran est en cours.
 
 Voulez-vous annuler l'enregistrement d'écran en cours ?</value>
   </data>
   <data name="IntegrationHelpers_UploadWithShareX" xml:space="preserve">
-    <value>Mettre en ligne avec ShareX</value>
+    <value>Mettre en ligne avec UpLa</value>
   </data>
   <data name="TaskHelpers_ToggleHotkeys_Hotkeys_disabled_" xml:space="preserve">
     <value>Raccourcis clavier désactivés.</value>
   </data>
   <data name="Program_WritePersonalPathConfig_Cant_access_to_file" xml:space="preserve">
     <value>Impossible d'accéder au fichier « {0} ».
-Veuillez exécuter ShareX en tant qu'administrateur pour changer le chemin du dossier personnel.</value>
+Veuillez exécuter UpLa en tant qu'administrateur pour changer le chemin du dossier personnel.</value>
   </data>
   <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByUser_Text" xml:space="preserve">
     <value>Le démarrage automatique a été désactivé dans le Gestionnaire des tâches</value>
@@ -489,7 +489,7 @@ ici</value>
 
 {1}
 
-Veuillez sélectionner un raccourci différent ou quitter l'application en conflit et rouvrez ShareX.</value>
+Veuillez sélectionner un raccourci différent ou quitter l'application en conflit et rouvrez UpLa.</value>
   </data>
   <data name="AboutForm_AboutForm_Team" xml:space="preserve">
     <value>Equipe</value>
@@ -542,7 +542,7 @@ Clique de la molette pour fermer</value>
     <value>Délai de capture d'écran : {0} s</value>
   </data>
   <data name="ActionsToolbar_OpenAtShareXStartup" xml:space="preserve">
-    <value>Ouvrir au démarrage de ShareX</value>
+    <value>Ouvrir au démarrage d'UpLa</value>
   </data>
   <data name="YourSystemAdminDisabledTheUploadFeature" xml:space="preserve">
     <value>Votre administrateur système a désactivé la fonctionnalité de mise en ligne.</value>

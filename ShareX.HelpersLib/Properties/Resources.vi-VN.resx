@@ -295,7 +295,7 @@
     <value>Nhận dạng chữ (OCR)</value>
   </data>
   <data name="HotkeyType_ExitShareX" xml:space="preserve">
-    <value>Thoát ShareX</value>
+    <value>Thoát UpLa</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_Portable" xml:space="preserve">
     <value>Phiên bản mới hơn của {0} khả dụng.
@@ -984,7 +984,7 @@ Bạn có muốn tải về và cài đặt không?</value>
     <value>Ghim vào màn hình</value>
   </data>
   <data name="ShareXImageViewer" xml:space="preserve">
-    <value>ShareX - Trình xem hình ảnh</value>
+    <value>UpLa - Trình xem hình ảnh</value>
   </data>
   <data name="HotkeyType_PinToScreen" xml:space="preserve">
     <value>Ghim vào màn hình</value>

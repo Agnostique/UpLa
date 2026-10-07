@@ -384,7 +384,7 @@ Ví dụ: nếu tên bucket là bucket.example.com thì URL sẽ là http://buck
     <value>Trình tải lên ảnh</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Thiết lập dịch vụ tải lên</value>
+    <value>UpLa - Thiết lập dịch vụ tải lên</value>
   </data>
   <data name="lblCheveretoAPIKey.Text" xml:space="preserve">
     <value>API key:</value>

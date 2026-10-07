@@ -469,7 +469,7 @@ Das Benutzen einer verschlüsselten Bibliothek deaktiviert das Teilen.</value>
     <value>Bilduploader</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Zieleinstellungen</value>
+    <value>UpLa - Zieleinstellungen</value>
   </data>
   <data name="lblCheveretoAPIKey.Text" xml:space="preserve">
     <value>API-Schlüssel:</value>

@@ -133,7 +133,7 @@
     <value>Подсказка: если вы добавите пустую задачу, она превратится в разделитель.</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Редактор быстрых задач</value>
+    <value>UpLa - Редактор быстрых задач</value>
   </data>
   <data name="btnReset.Text" xml:space="preserve">
     <value>Сбросить...</value>

@@ -139,7 +139,7 @@
     <value>Дополнительно</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Настройки приложения</value>
+    <value>UpLa - Настройки приложения</value>
   </data>
   <data name="tpProxy.Text" xml:space="preserve">
     <value>Прокси</value>
@@ -148,10 +148,10 @@
     <value>Редактировать меню быстрых задач...</value>
   </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
-    <value>Показывать пункт "Загрузить с помощью ShareX" в контекстном меню проводника Windows</value>
+    <value>Показывать пункт "Загрузить с помощью UpLa" в контекстном меню проводника Windows</value>
   </data>
   <data name="cbSendToMenu.Text" xml:space="preserve">
-    <value>Показывать ShareX в меню "Отправить"</value>
+    <value>Показывать UpLa в меню "Отправить"</value>
   </data>
   <data name="btnBrowsePersonalFolderPath.Text" xml:space="preserve">
     <value>Обзор...</value>
@@ -163,7 +163,7 @@
     <value>Шаблон имени подпапок:</value>
   </data>
   <data name="lblPersonalFolderPath.Text" xml:space="preserve">
-    <value>Персональная папка ShareX:</value>
+    <value>Персональная папка UpLa:</value>
   </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>Интеграция</value>
@@ -304,13 +304,13 @@
     <value>Установить dev сборку...</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
-    <value>Показывать пункт "Редактировать в ShareX" в контекстном меню проводника Windows</value>
+    <value>Показывать пункт "Редактировать в UpLa" в контекстном меню проводника Windows</value>
   </data>
   <data name="btnPersonalFolderPathApply.Text" xml:space="preserve">
     <value>Применить</value>
   </data>
   <data name="cbUseWhiteShareXIcon.Text" xml:space="preserve">
-    <value>Использовать белую иконку ShareX</value>
+    <value>Использовать белую иконку UpLa</value>
   </data>
   <data name="lblExportImportNote.Text" xml:space="preserve">
     <value>Заметка: Не делитесь этим экспортируемым файлом ни с кем, он может содержать личную информацию, например пароли.</value>

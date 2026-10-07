@@ -117,7 +117,7 @@ namespace ShareX
             if (!taskSettings.CaptureSettings.FFmpegOptions.IsSourceSelected)
             {
                 MessageBox.Show(Resources.FFmpeg_FFmpeg_video_and_audio_source_both_can_t_be__None__,
-                    "ShareX - " + Resources.FFmpeg_FFmpeg_error, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    ShareXResources.Name + " - " + Resources.FFmpeg_FFmpeg_error, MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 

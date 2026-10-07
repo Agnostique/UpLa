@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="cbUseWhiteShareXIcon.Text" xml:space="preserve">
-    <value>Використовувати білу піктограму ShareX</value>
+    <value>Використовувати білу піктограму UpLa</value>
   </data>
   <data name="btnCheckDevBuild.Text" xml:space="preserve">
     <value>Встановити збірку для розробників...</value>
@@ -172,13 +172,13 @@
     <value>Тема</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
-    <value>Показувати кнопку „Змінити із ShareX“ у контекстному меню Провідника Windows</value>
+    <value>Показувати кнопку „Змінити із UpLa“ у контекстному меню Провідника Windows</value>
   </data>
   <data name="cbSendToMenu.Text" xml:space="preserve">
-    <value>Показати ShareX в меню „Надіслати“</value>
+    <value>Показати UpLa в меню „Надіслати“</value>
   </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
-    <value>Показувати кнопку „Вивантажити із ShareX“ у контекстному меню Провідника Windows</value>
+    <value>Показувати кнопку „Вивантажити із UpLa“ у контекстному меню Провідника Windows</value>
   </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>Інтеграція</value>
@@ -193,7 +193,7 @@
     <value>Огляд...</value>
   </data>
   <data name="lblPersonalFolderPath.Text" xml:space="preserve">
-    <value>Особиста тека ShareX:</value>
+    <value>Особиста тека UpLa:</value>
   </data>
   <data name="btnBrowseCustomScreenshotsPath.Text" xml:space="preserve">
     <value>Огляд...</value>
@@ -331,7 +331,7 @@
     <value>Розширені</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX — Налаштування програми</value>
+    <value>UpLa — Налаштування програми</value>
   </data>
   <data name="lblUpdateChannel.Text" xml:space="preserve">
     <value>Канал оновлень:</value>

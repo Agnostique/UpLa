@@ -286,7 +286,7 @@
     <value>텍스트 인식하기 (OCR)</value>
   </data>
   <data name="HotkeyType_ExitShareX" xml:space="preserve">
-    <value>ShareX 종료</value>
+    <value>UpLa 종료</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_Portable" xml:space="preserve">
     <value>{0}의 새 버전을 사용할 수 있습니다.
@@ -984,7 +984,7 @@
     <value>화면에 고정</value>
   </data>
   <data name="ShareXImageViewer" xml:space="preserve">
-    <value>ShareX - 이미지 viewer</value>
+    <value>UpLa - 이미지 viewer</value>
   </data>
   <data name="HotkeyType_PinToScreen" xml:space="preserve">
     <value>화면에 고정</value>

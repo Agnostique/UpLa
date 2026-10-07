@@ -133,7 +133,7 @@
     <value>Leállás</value>
   </data>
   <data name="ApplicationSettingsForm_cbLanguage_SelectedIndexChanged_Language_Restart" xml:space="preserve">
-    <value>A ShareX-nek újra kell indulnia a nyelvi beállítások érvényesüléséhez.
+    <value>Az UpLa-nak újra kell indulnia a nyelvi beállítások érvényesüléséhez.
 Újra szeretnéd indítani?</value>
   </data>
   <data name="UploadTask_ThreadDoWork_URL_is_empty_" xml:space="preserve">
@@ -143,7 +143,7 @@
     <value>Válassz egy gyorsbillentyűt...</value>
   </data>
   <data name="ApplicationSettingsForm_cbStartWithWindows_Text" xml:space="preserve">
-    <value>A ShareX futtatása a Windows indításakor</value>
+    <value>Az UpLa futtatása a Windows indításakor</value>
   </data>
   <data name="Program_Run_Unable_to_create_folder_" xml:space="preserve">
     <value>Hiba a mappa létrehozásakor:</value>
@@ -224,7 +224,7 @@
     <value>Weboldal</value>
   </data>
   <data name="ApplicationSettingsForm_btnBrowsePersonalFolderPath_Click_Choose_ShareX_personal_folder_path" xml:space="preserve">
-    <value>Válassz személyes ShareX mappát</value>
+    <value>Válassz személyes UpLa mappát</value>
   </data>
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_Text_uploader___0_" xml:space="preserve">
     <value>Szöveges feltöltő: {0}</value>
@@ -246,7 +246,7 @@
   </data>
   <data name="Program_WritePersonalPathConfig_Cant_access_to_file" xml:space="preserve">
     <value>Nem sikerült a(z) "{0}" fájl elérése.
-Kérlek futtasd a ShareX-et adminisztrátori jogosultságokkal a személyes mappa megváltoztatásához.</value>
+Kérlek futtasd az UpLa-t adminisztrátori jogosultságokkal a személyes mappa megváltoztatásához.</value>
   </data>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_Do_you_really_want_to_delete_this_file_" xml:space="preserve">
     <value>Biztosan törölni szeretnéd ezt a fájlt?</value>
@@ -263,7 +263,7 @@ ide</value>
 
 {1}
 
-Kérlek, válassz egy másik gyorsbillentyűt vagy zárd be a problémát okozó akalmazást, majd indítsd újra a ShareX-et.</value>
+Kérlek, válassz egy másik gyorsbillentyűt vagy zárd be a problémát okozó akalmazást, majd indítsd újra az UpLa-t.</value>
   </data>
   <data name="UploadManager_UploadFile_File_upload" xml:space="preserve">
     <value>Fájl feltöltése</value>
@@ -285,7 +285,7 @@ Kérlek, válassz egy másik gyorsbillentyűt vagy zárd be a problémát okozó
 {0}</value>
   </data>
   <data name="ShareXIsMinimizedToTheSystemTray" xml:space="preserve">
-    <value>A ShareX a rendszertálcára van kicsinyítve.</value>
+    <value>Az UpLa a rendszertálcára van kicsinyítve.</value>
   </data>
   <data name="AboutForm_AboutForm_Language_zh_CH" xml:space="preserve">
     <value>Egyszerűsített kínai</value>
@@ -312,7 +312,7 @@ Kérlek, válassz egy másik gyorsbillentyűt vagy zárd be a problémát okozó
     <value>Stay felső most</value>
   </data>
   <data name="ShareXIsUpToDate" xml:space="preserve">
-    <value>A ShareX naprakész!</value>
+    <value>Az UpLa naprakész!</value>
   </data>
   <data name="AboutForm_AboutForm_Changelog" xml:space="preserve">
     <value>Változásnapló</value>
@@ -339,7 +339,7 @@ Kérlek, válassz egy másik gyorsbillentyűt vagy zárd be a problémát okozó
     <value>Vágólap content: Fájl (Count: {0})</value>
   </data>
   <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
-    <value>A ShareX-hez mellékelt FFmpeg csak 64 bites operációs rendszereket támogat.</value>
+    <value>Az UpLa-hoz mellékelt FFmpeg csak 64 bites operációs rendszereket támogat.</value>
   </data>
   <data name="QRCodeForm_InputTextToEncode" xml:space="preserve">
     <value>Input szöveg to encode</value>
@@ -354,7 +354,7 @@ Kérlek, válassz egy másik gyorsbillentyűt vagy zárd be a problémát okozó
     <value>Vágólap content: Szöveg (Length: {0})</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
-    <value>Would you like to visszaállítás ShareX beállítások?</value>
+    <value>Would you like to visszaállítás UpLa beállítások?</value>
   </data>
   <data name="UploadTask_DoUploadJob_You_are_attempting_to_upload_a_large_file" xml:space="preserve">
     <value>You are attempting to feltöltés a large fájl.
@@ -399,7 +399,7 @@ You can later disable it from "Rögzítés után tasks" menü.</value>
     <value>Portugál (Brazília)</value>
   </data>
   <data name="IntegrationHelpers_EditWithShareX" xml:space="preserve">
-    <value>Szerkesztés with ShareX</value>
+    <value>Szerkesztés with UpLa</value>
   </data>
   <data name="AboutForm_AboutForm_Links" xml:space="preserve">
     <value>Hivatkozások</value>
@@ -408,7 +408,7 @@ You can later disable it from "Rögzítés után tasks" menü.</value>
     <value>Vágólap does not contain an kép.</value>
   </data>
   <data name="YourAntiVirusSoftwareOrTheControlledFolderAccessFeatureInWindowsCouldBeBlockingShareX" xml:space="preserve">
-    <value>Your anti-virus software or the controlled mappa access feature in Ablaks could be blocking ShareX.</value>
+    <value>Your anti-virus software or the controlled mappa access feature in Ablaks could be blocking UpLa.</value>
   </data>
   <data name="QuickTaskMenuEditorForm_Reset_all_quick_tasks_to_defaults_Confirmation" xml:space="preserve">
     <value>Visszaállítás all quick tasks to alapértelmezetts?</value>
@@ -441,9 +441,9 @@ You can later disable it from "Rögzítés után tasks" menü.</value>
     <value>Bezárás</value>
   </data>
   <data name="ShareXNeedsToBeRestartedForThePersonalFolderChangesToApply" xml:space="preserve">
-    <value>ShareX needs to be reindításed for the személyes mappa changes to apply.
+    <value>UpLa needs to be reindításed for the személyes mappa changes to apply.
 
-Would you like to reindítás ShareX?</value>
+Would you like to reindítás UpLa?</value>
   </data>
   <data name="AboutForm_AboutForm_Language_uk" xml:space="preserve">
     <value>Ukrán</value>
@@ -464,7 +464,7 @@ Would you like to reindítás ShareX?</value>
     <value>Képernyő szín picker</value>
   </data>
   <data name="ShareXConfirmation" xml:space="preserve">
-    <value>ShareX - Megerősítés</value>
+    <value>UpLa - Megerősítés</value>
   </data>
   <data name="UploadTask_DownloadAndUpload_Downloading" xml:space="preserve">
     <value>Letöltésing</value>
@@ -491,12 +491,12 @@ Would you like to reindítás ShareX?</value>
     <value>FFmpeg videó and hang forrás can't both be "None".</value>
   </data>
   <data name="ShareXCannotBeClosedWhileScreenRecordingIsActive" xml:space="preserve">
-    <value>ShareX cannot be closed while képernyőfelvétel is active.
+    <value>UpLa cannot be closed while képernyőfelvétel is active.
 
 Do you want to megszakítás the active képernyőfelvétel?</value>
   </data>
   <data name="IntegrationHelpers_UploadWithShareX" xml:space="preserve">
-    <value>Feltöltés with ShareX</value>
+    <value>Feltöltés with UpLa</value>
   </data>
   <data name="TaskHelpers_ToggleHotkeys_Hotkeys_disabled_" xml:space="preserve">
     <value>Gyorsbillentyűk letiltva.</value>
@@ -561,7 +561,7 @@ Middle click to close</value>
     <value>Képernyőkép delay: {0}s</value>
   </data>
   <data name="ActionsToolbar_OpenAtShareXStartup" xml:space="preserve">
-    <value>Megnyitás at ShareX indításup</value>
+    <value>Megnyitás at UpLa indításup</value>
   </data>
   <data name="YourSystemAdminDisabledTheUploadFeature" xml:space="preserve">
     <value>Your system admin letiltva the feltöltés feature.</value>

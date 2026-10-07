@@ -42,7 +42,7 @@ namespace ShareX
 
                 if (hWnd == IntPtr.Zero)
                 {
-                    MessageBox.Show(Resources.UnableToFindAWindowWithSpecifiedWindowTitle, "ShareX", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(Resources.UnableToFindAWindowWithSpecifiedWindowTitle, ShareXResources.Name, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {

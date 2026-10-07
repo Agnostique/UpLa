@@ -127,7 +127,7 @@
     <value>区域捕捉</value>
   </data>
   <data name="RectangleTransparent_RectangleTransparent_Rectangle_capture_transparent" xml:space="preserve">
-    <value>透明矩形（ShareX 窗口透明）</value>
+    <value>透明矩形（UpLa 窗口透明）</value>
   </data>
   <data name="RectangleLight_InitializeComponent_Rectangle_capture_light" xml:space="preserve">
     <value>矩形捕捉（不变暗）</value>
@@ -340,7 +340,7 @@
     <value>逆时针旋转90度</value>
   </data>
   <data name="RegionCaptureForm_ShowExitConfirmation_ShareXImageEditor" xml:space="preserve">
-    <value>ShareX - 图像编辑器</value>
+    <value>UpLa - 图像编辑器</value>
   </data>
   <data name="RegionCaptureForm_TipYouCanPanImageByHoldingMouseMiddleButtonAndDragging" xml:space="preserve">
     <value>提示：按住鼠标中键并拖拽可以平移图像。</value>

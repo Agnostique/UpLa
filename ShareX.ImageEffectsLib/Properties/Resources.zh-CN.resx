@@ -136,7 +136,7 @@
     <value>取消</value>
   </data>
   <data name="AssetsFolderMustBeInsideShareXImageEffectsFolder" xml:space="preserve">
-    <value>资源文件夹必须位于 ShareX 图像特效文件夹内。</value>
+    <value>资源文件夹必须位于 UpLa 图像特效文件夹内。</value>
   </data>
   <data name="Confirmation" xml:space="preserve">
     <value>确认</value>

@@ -269,9 +269,11 @@ namespace ShareX.HelpersLib
                             {
                                 JsonSerializer serializer = new JsonSerializer();
                                 serializer.ContractResolver = new DPAPIEncryptedStringPropertyResolver();
+                                serializer.Converters.Add(new UplaLegacyEnumConverter());
                                 serializer.Converters.Add(new StringEnumConverter());
                                 serializer.DateTimeZoneHandling = DateTimeZoneHandling.Local;
                                 serializer.ObjectCreationHandling = ObjectCreationHandling.Replace;
+                                serializer.SerializationBinder = new UplaLegacySerializationBinder();
                                 serializer.Error += Serializer_Error;
                                 settings = serializer.Deserialize<T>(jsonReader);
                             }

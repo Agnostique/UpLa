@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="cbUseWhiteShareXIcon.Text" xml:space="preserve">
-    <value>Utilizați pictograma albă ShareX</value>
+    <value>Utilizați pictograma albă UpLa</value>
   </data>
   <data name="btnCheckDevBuild.Text" xml:space="preserve">
     <value>Instalați versiune de dezvoltare...</value>
@@ -172,13 +172,13 @@
     <value>Tema</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
-    <value>Afișați butonul "Editați cu ShareX" în meniul contextual al Windows Explorer</value>
+    <value>Afișați butonul "Editați cu UpLa" în meniul contextual al Windows Explorer</value>
   </data>
   <data name="cbSendToMenu.Text" xml:space="preserve">
-    <value>Afișați ShareX în meniul "Trimitere la"</value>
+    <value>Afișați UpLa în meniul "Trimitere la"</value>
   </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
-    <value>Afișați butonul "Încărcare cu ShareX" în meniul contextual din Windows Explorer</value>
+    <value>Afișați butonul "Încărcare cu UpLa" în meniul contextual din Windows Explorer</value>
   </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>Integrare</value>
@@ -196,7 +196,7 @@
     <value>Răsfoiți...</value>
   </data>
   <data name="lblPersonalFolderPath.Text" xml:space="preserve">
-    <value>Folderul personal ShareX:</value>
+    <value>Folderul personal UpLa:</value>
   </data>
   <data name="btnBrowseCustomScreenshotsPath.Text" xml:space="preserve">
     <value>Răsfoiți...</value>
@@ -397,7 +397,7 @@
     <value>Avansat</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Setări ale aplicației</value>
+    <value>UpLa - Setări ale aplicației</value>
   </data>
   <data name="lblUpdateChannel.Text" xml:space="preserve">
     <value>Canal de actualizare:</value>

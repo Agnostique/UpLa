@@ -574,7 +574,7 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Scrolling capture options</value>
+    <value>UpLa - Scrolling capture options</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ScrollingCaptureOptionsForm</value>

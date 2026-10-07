@@ -145,7 +145,7 @@
     <value>パッケージ名が既に使われています。上書きしますか？</value>
   </data>
   <data name="AssetsFolderMustBeInsideShareXImageEffectsFolder" xml:space="preserve">
-    <value>アセットフォルダはShareXの配下に置く必要があります。</value>
+    <value>アセットフォルダはUpLaの配下に置く必要があります。</value>
   </data>
   <data name="Confirmation" xml:space="preserve">
     <value>確認</value>

@@ -127,7 +127,7 @@
     <value>확인</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - 간편 작업 메뉴 항목 편집</value>
+    <value>UpLa - 간편 작업 메뉴 항목 편집</value>
   </data>
   <data name="lblName.Text" xml:space="preserve">
     <value>메뉴 텍스트:</value>

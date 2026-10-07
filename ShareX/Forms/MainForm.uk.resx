@@ -631,7 +631,7 @@
     <value>Покращити зображення...</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
-    <value>Перезапустити ShareX від імені адміністратора</value>
+    <value>Перезапустити UpLa від імені адміністратора</value>
   </data>
   <data name="tsmiOCR.Text" xml:space="preserve">
     <value>Розпізнавання тексту (OCR)...</value>

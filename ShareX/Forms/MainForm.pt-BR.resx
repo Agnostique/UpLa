@@ -622,7 +622,7 @@
     <value>Remover tarefa da lista</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
-    <value>Reiniciar o ShareX como administrador</value>
+    <value>Reiniciar o UpLa como administrador</value>
   </data>
   <data name="tsmiRunAction.Text" xml:space="preserve">
     <value>Executar ação</value>

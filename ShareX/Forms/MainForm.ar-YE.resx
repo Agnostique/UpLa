@@ -472,7 +472,7 @@
     <value>حذف مهمة من القائمة</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
-    <value>إعادة تشغيل ShareX كمسؤول</value>
+    <value>إعادة تشغيل UpLa كمسؤول</value>
   </data>
   <data name="tsmiRunAction.Text" xml:space="preserve">
     <value>تشغيل برنامج</value>

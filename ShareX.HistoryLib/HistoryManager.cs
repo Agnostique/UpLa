@@ -57,7 +57,7 @@ namespace ShareX.HistoryLib
                 DebugHelper.WriteException(e);
 
                 MessageBox.Show(Resources.ErrorOccuredWhileReadingHistoryFile + " " + FilePath + "\r\n\r\n" + e,
-                    "ShareX - " + Resources.HistoryManager_GetHistoryItems_Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    ShareXResources.Name + " - " + Resources.HistoryManager_GetHistoryItems_Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             return new List<HistoryItem>();
@@ -133,7 +133,7 @@ namespace ShareX.HistoryLib
             HistoryItem historyItem = new HistoryItem()
             {
                 FileName = "Example.png",
-                FilePath = @"C:\ShareX\Screenshots\Example.png",
+                FilePath = $@"C:\{ShareXResources.Name}\Screenshots\Example.png",
                 DateTime = DateTime.Now,
                 Type = "Image",
                 Host = "Imgur",

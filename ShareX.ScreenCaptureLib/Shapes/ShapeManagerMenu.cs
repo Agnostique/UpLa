@@ -70,7 +70,7 @@ namespace ShareX.ScreenCaptureLib
                 Location = new Point(200, 200),
                 ShowInTaskbar = false,
                 StartPosition = FormStartPosition.Manual,
-                Text = "ShareX - " + Resources.ShapeManager_CreateToolbar_AnnotateMenu,
+                Text = ShareXResources.Name + " - " + Resources.ShapeManager_CreateToolbar_AnnotateMenu,
                 TopMost = Form.IsFullscreen
             };
 
@@ -1181,7 +1181,7 @@ namespace ShareX.ScreenCaptureLib
                 if (Form.IsFullscreen)
                 {
                     if (MessageBox.Show(Form, Resources.ThisWindowWillCloseBeforeOpeningKeybindsPageWantContinue,
-                        "ShareX", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                        ShareXResources.Name, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                     {
                         Form.CloseWindow();
                     }

@@ -33,13 +33,14 @@ namespace ShareX.HelpersLib
 {
     public static class ShareXResources
     {
-        public static string Name { get; set; } = "ShareX";
+        public static string Name { get; set; } = "UpLa";
 
         public static string UserAgent
         {
             get
             {
-                return $"{Name}/{Helpers.GetApplicationVersion()}";
+                // The UpLa version, Helpers.GetApplicationVersion is the ShareX version this build is based on.
+                return $"{Name}/{Application.ProductVersion}";
             }
         }
 

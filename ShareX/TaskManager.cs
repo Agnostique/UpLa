@@ -333,7 +333,7 @@ namespace ShareX
                                 if (info.TaskSettings.GeneralSettings.ShowToastNotificationAfterTaskCompleted && !string.IsNullOrEmpty(error.Text) &&
                                     (!info.TaskSettings.GeneralSettings.DisableNotificationsOnFullscreen || !CaptureHelpers.IsActiveWindowFullscreen()))
                                 {
-                                    TaskHelpers.ShowNotificationTip(error.Text, "ShareX - " + title, 5000);
+                                    TaskHelpers.ShowNotificationTip(error.Text, ShareXResources.Name + " - " + title, 5000);
                                 }
                             }
                         }
@@ -378,7 +378,7 @@ namespace ShareX
                                         MiddleClickAction = info.TaskSettings.GeneralSettings.ToastWindowMiddleClickAction,
                                         FilePath = info.FilePath,
                                         Image = task.Image,
-                                        Title = "ShareX - " + Resources.TaskManager_task_UploadCompleted_ShareX___Task_completed,
+                                        Title = ShareXResources.Name + " - " + Resources.TaskManager_task_UploadCompleted_ShareX___Task_completed,
                                         Text = result,
                                         URL = info.Result.ToString()
                                     };

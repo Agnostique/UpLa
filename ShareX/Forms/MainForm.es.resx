@@ -478,7 +478,7 @@
     <value>Historial de la imagen...</value>
   </data>
   <data name="tsmiTrayShow.Text" xml:space="preserve">
-    <value>Mostrar la ventana ShareX</value>
+    <value>Mostrar la ventana UpLa</value>
   </data>
   <data name="tsmiTrayExit.Text" xml:space="preserve">
     <value>Salir</value>
@@ -658,7 +658,7 @@
     <value>Deshabilitar teclas de acceso rápido</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
-    <value>Reiniciar ShareX como administrador</value>
+    <value>Reiniciar UpLa como administrador</value>
   </data>
   <data name="tsmiOpenActionsToolbar.Text" xml:space="preserve">
     <value>Alternar barra de herramientas de acciones</value>

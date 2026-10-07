@@ -120,7 +120,7 @@
     <value>進階</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - 應用程式設定</value>
+    <value>UpLa - 應用程式設定</value>
   </data>
   <data name="tpProxy.Text" xml:space="preserve">
     <value>代理伺服器</value>
@@ -141,7 +141,7 @@
     <value>緩衝區大小：</value>
   </data>
   <data name="lblPersonalFolderPath.Text" xml:space="preserve">
-    <value>ShareX 個人資料夾：</value>
+    <value>UpLa 個人資料夾：</value>
   </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>整合</value>
@@ -159,7 +159,7 @@
     <value>啟動時最小化到系統匣</value>
   </data>
   <data name="cbSendToMenu.Text" xml:space="preserve">
-    <value>在「傳送到」選單中顯示 ShareX</value>
+    <value>在「傳送到」選單中顯示 UpLa</value>
   </data>
   <data name="cbRememberMainFormPosition.Text" xml:space="preserve">
     <value>記住主視窗位置</value>
@@ -240,7 +240,7 @@
     <value>備用的文字上傳工具</value>
   </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
-    <value>在檔案總管的右鍵選單中顯示「使用 ShareX 上傳」按鈕</value>
+    <value>在檔案總管的右鍵選單中顯示「使用 UpLa 上傳」按鈕</value>
   </data>
   <data name="tpGeneral.Text" xml:space="preserve">
     <value>一般</value>
@@ -297,7 +297,7 @@
     <value>啟動時在主視窗中顯示最近的排程</value>
   </data>
   <data name="cbUseWhiteShareXIcon.Text" xml:space="preserve">
-    <value>使用白色 ShareX 圖示</value>
+    <value>使用白色 UpLa 圖示</value>
   </data>
   <data name="btnCheckDevBuild.Text" xml:space="preserve">
     <value>安裝開發版...</value>
@@ -315,7 +315,7 @@
     <value>佈景主題</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
-    <value>在檔案總管的右鍵選單中顯示「使用 ShareX 編輯」按鈕</value>
+    <value>在檔案總管的右鍵選單中顯示「使用 UpLa 編輯」按鈕</value>
   </data>
   <data name="btnPersonalFolderPathApply.Text" xml:space="preserve">
     <value>套用</value>

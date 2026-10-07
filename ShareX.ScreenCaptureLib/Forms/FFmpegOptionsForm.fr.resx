@@ -134,7 +134,7 @@ Une valeur élevée signifie une mauvaise qualité d'image mais un fichier lége
     <value>Source vidéo :</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Options d'enregistrement de l'écran</value>
+    <value>UpLa - Options d'enregistrement de l'écran</value>
   </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>Utiliser des commandes personnalisées :</value>

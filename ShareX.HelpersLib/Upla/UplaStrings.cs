@@ -177,6 +177,12 @@ namespace ShareX.HelpersLib
         public static string DeletionURLConfirmText => T("Silme linki açıldığında yüklenen dosya sunucudan hemen ve kalıcı olarak silinebilir. Devam etmek istiyor musunuz?",
             "Opening the deletion link can delete the uploaded file from the server immediately and permanently. Do you want to continue?");
 
+        // About window
+        public static string AboutDescription => T("UpLa, upla.com.tr'nin ekran görüntüsü alma ve yükleme uygulamasıdır. ShareX Ekibi'nin geliştirdiği özgür ve açık kaynaklı ShareX programını temel alır ve GNU Genel Kamu Lisansı sürüm 3 (GPL v3) ile dağıtılır. UpLa resmi bir ShareX sürümü değildir; ShareX Ekibi tarafından desteklenmez.",
+            "UpLa is the screenshot and upload app of upla.com.tr. It is based on ShareX, the free and open source program made by the ShareX Team, and is distributed under the GNU General Public License version 3 (GPL v3). UpLa is not an official ShareX release and is not supported by the ShareX Team.");
+        public static string AboutLicense => T("Lisans", "License");
+        public static string AboutShareXTeam => T("ShareX Ekibi", "ShareX Team");
+
         // "PT5M", "PT1H", "P2D", "P1W", "P3M", "P1Y" -> "5 dakika", "1 saat", "2 gün"...
         public static string FormatDuration(string isoDuration)
         {

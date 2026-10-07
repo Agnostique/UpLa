@@ -25,6 +25,7 @@
 
 using ShareX.HelpersLib;
 using ShareX.Properties;
+using ShareX.UploadersLib;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -54,18 +55,21 @@ namespace ShareX
                 uclUpdate.Visible = false;
             }
 
-            rtbInfo.AppendLine(Resources.AboutForm_AboutForm_Links, FontStyle.Bold, 13);
-            rtbInfo.AppendLine($@"{Resources.AboutForm_AboutForm_Website}: {Links.Website}
-{Resources.AboutForm_AboutForm_Project_page}: {Links.GitHub}
-{Resources.AboutForm_AboutForm_Changelog}: {Links.Changelog}
-{Resources.AboutForm_AboutForm_Privacy_policy}: {Links.PrivacyPolicy}
-{Resources.AboutForm_AboutForm_Donate}: {Links.Donate}
-X: {Links.X}
-Discord: {Links.Discord}
-Reddit: {Links.Reddit}
+            rtbInfo.AppendLine(ShareXResources.Name, FontStyle.Bold, 13);
+            rtbInfo.AppendLine($@"{UplaStrings.AboutDescription}
+
+{Resources.AboutForm_AboutForm_Website}: {Upla.WebsiteURL}
+{UplaStrings.AboutLicense}: GNU General Public License v3 - https://www.gnu.org/licenses/gpl-3.0.html
 ", FontStyle.Regular);
 
-            rtbInfo.AppendLine(Resources.AboutForm_AboutForm_Team, FontStyle.Bold, 13);
+            // Attribution for ShareX, so these links point to the ShareX project itself. Its changelog, privacy policy,
+            // donation and community links are left out because they are not about UpLa.
+            rtbInfo.AppendLine("ShareX", FontStyle.Bold, 13);
+            rtbInfo.AppendLine($@"{Resources.AboutForm_AboutForm_Website}: https://getsharex.com
+{Resources.AboutForm_AboutForm_Project_page}: https://github.com/ShareX/ShareX
+", FontStyle.Regular);
+
+            rtbInfo.AppendLine(UplaStrings.AboutShareXTeam, FontStyle.Bold, 13);
             rtbInfo.AppendLine($@"Jaex: {Links.Jaex}
 McoreD: {Links.McoreD}
 ", FontStyle.Regular);

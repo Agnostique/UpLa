@@ -124,7 +124,7 @@
     <value>Assemblages chargés</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Journal de débogage</value>
+    <value>UpLa - Journal de débogage</value>
   </data>
   <data name="btnOpenLogFile.Text" xml:space="preserve">
     <value>Ouvrir le fichier des logs...</value>

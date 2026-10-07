@@ -445,7 +445,7 @@
     <value>图像上传器</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - 上传目标设置</value>
+    <value>UpLa - 上传目标设置</value>
   </data>
   <data name="lblCheveretoAPIKey.Text" xml:space="preserve">
     <value>API 密钥：</value>

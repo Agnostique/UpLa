@@ -31,7 +31,7 @@ namespace ShareX
 {
     public static class SystemOptions
     {
-        private const string RegistryPath = @"SOFTWARE\ShareX";
+        private const string RegistryPath = @"SOFTWARE\" + Program.AppName;
 
         public static bool DisableUpdateCheck { get; private set; }
         public static bool DisableUpload { get; private set; }

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - الإعدادات</value>
+    <value>UpLa - الإعدادات</value>
   </data>
   <data name="btnBrowseCustomScreenshotsPath.Text" xml:space="preserve">
     <value>استعراض...</value>
@@ -322,13 +322,13 @@
     <value>بيانات التطبيق</value>
   </data>
   <data name="lblPersonalFolderPath.Text" xml:space="preserve">
-    <value>المجلد الشخصي الخاص بـShareX:</value>
+    <value>المجلد الشخصي الخاص بـUpLa:</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
-    <value>عرض الخيار "تعديل باستخدام ShareX" على قائمة خيارات الملفات</value>
+    <value>عرض الخيار "تعديل باستخدام UpLa" على قائمة خيارات الملفات</value>
   </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
-    <value>عرض الخيار "رفع باستخدام ShareX" على قائمة خيارات الملفات</value>
+    <value>عرض الخيار "رفع باستخدام UpLa" على قائمة خيارات الملفات</value>
   </data>
   <data name="cbListViewShowColumns.Text" xml:space="preserve">
     <value>عرض الأعمدة</value>
@@ -349,7 +349,7 @@
     <value>عرض المهام الأخيرة على قائمة أيقونة الإشعارات</value>
   </data>
   <data name="cbSendToMenu.Text" xml:space="preserve">
-    <value>عرض ShareX في قائمة "إرسال إلى"</value>
+    <value>عرض UpLa في قائمة "إرسال إلى"</value>
   </data>
   <data name="cbThumbnailViewShowTitle.Text" xml:space="preserve">
     <value>عرض العنوان</value>

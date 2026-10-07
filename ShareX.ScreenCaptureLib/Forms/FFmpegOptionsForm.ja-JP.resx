@@ -182,7 +182,7 @@
     <value>独自の FFmpeg のパスを使用:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - 動画キャプチャー オプション</value>
+    <value>UpLa - 動画キャプチャー オプション</value>
   </data>
   <data name="lblAMFQuality.Text" xml:space="preserve">
     <value>品質:</value>

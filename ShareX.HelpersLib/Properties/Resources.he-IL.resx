@@ -295,7 +295,7 @@
     <value>זהה טקסט (OCR)</value>
   </data>
   <data name="HotkeyType_ExitShareX" xml:space="preserve">
-    <value>צא מ-ShareX</value>
+    <value>צא מ-UpLa</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_Portable" xml:space="preserve">
     <value>גרסה חדשה יותר של {0} זמינה.
@@ -984,7 +984,7 @@
     <value>הצמד למסך</value>
   </data>
   <data name="ShareXImageViewer" xml:space="preserve">
-    <value>ShareX - מציג תמונה</value>
+    <value>UpLa - מציג תמונה</value>
   </data>
   <data name="HotkeyType_PinToScreen" xml:space="preserve">
     <value>הצמד למסך</value>

@@ -334,7 +334,7 @@ namespace ShareX.ScreenCaptureLib
             }
             else
             {
-                MessageBox.Show("File not exists: \"" + filePath + "\"", "ShareX", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("File not exists: \"" + filePath + "\"", ShareXResources.Name, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -563,7 +563,7 @@ namespace ShareX.ScreenCaptureLib
 
         private async void btnResetOptions_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show(Resources.WouldYouLikeToResetOptions, "ShareX - " + Resources.Confirmation, MessageBoxButtons.YesNo,
+            if (MessageBox.Show(Resources.WouldYouLikeToResetOptions, ShareXResources.Name + " - " + Resources.Confirmation, MessageBoxButtons.YesNo,
                 MessageBoxIcon.Information) == DialogResult.Yes)
             {
                 bool overrideCLIPath = Options.FFmpeg.OverrideCLIPath;

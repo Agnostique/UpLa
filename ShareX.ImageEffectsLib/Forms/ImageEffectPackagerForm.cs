@@ -80,7 +80,7 @@ namespace ShareX.ImageEffectsLib
             {
                 sfd.DefaultExt = "sxie";
                 sfd.FileName = ImageEffectName + ".sxie";
-                sfd.Filter = "ShareX image effect (*.sxie)|*.sxie";
+                sfd.Filter = $"{ShareXResources.Name} image effect (*.sxie)|*.sxie";
                 sfd.InitialDirectory = ShareXImageEffectsFolderPath;
 
                 if (sfd.ShowDialog() == DialogResult.OK)
@@ -96,10 +96,10 @@ namespace ShareX.ImageEffectsLib
             {
                 if (!string.IsNullOrEmpty(AssetsFolderPath) && !AssetsFolderPath.StartsWith(ShareXImageEffectsFolderPath + "\\", StringComparison.OrdinalIgnoreCase))
                 {
-                    MessageBox.Show(Resources.AssetsFolderMustBeInsideShareXImageEffectsFolder, "ShareX - " + Resources.InvalidAssetsFolderPath,
+                    MessageBox.Show(Resources.AssetsFolderMustBeInsideShareXImageEffectsFolder, ShareXResources.Name + " - " + Resources.InvalidAssetsFolderPath,
                         MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-                else if (!File.Exists(PackageFilePath) || MessageBox.Show(Resources.PackageWithThisFileNameAlreadyExistsRNWouldYouLikeToOverwriteIt, "ShareX",
+                else if (!File.Exists(PackageFilePath) || MessageBox.Show(Resources.PackageWithThisFileNameAlreadyExistsRNWouldYouLikeToOverwriteIt, ShareXResources.Name,
                     MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     string outputFilePath = ImageEffectPackager.Package(PackageFilePath, ImageEffectJson, AssetsFolderPath);

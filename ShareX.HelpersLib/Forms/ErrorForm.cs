@@ -81,13 +81,13 @@ namespace ShareX.HelpersLib
 
         private void btnContinue_Click(object sender, EventArgs e)
         {
-            DebugHelper.WriteLine("ShareX continue.");
+            DebugHelper.WriteLine($"{ShareXResources.Name} continue.");
             Close();
         }
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            DebugHelper.WriteLine("ShareX closing. Reason: Unhandled exception.");
+            DebugHelper.WriteLine($"{ShareXResources.Name} closing. Reason: Unhandled exception.");
             Application.Exit();
         }
 

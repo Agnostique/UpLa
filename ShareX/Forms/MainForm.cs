@@ -1182,7 +1182,7 @@ namespace ShareX
         {
             if (ScreenRecordManager.IsRecording)
             {
-                if (MessageBox.Show(Resources.ShareXCannotBeClosedWhileScreenRecordingIsActive, "ShareX",
+                if (MessageBox.Show(Resources.ShareXCannotBeClosedWhileScreenRecordingIsActive, ShareXResources.Name,
                     MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 {
                     ScreenRecordManager.AbortRecording();
@@ -1253,7 +1253,7 @@ namespace ShareX
 
                 if (Program.Settings.FirstTimeMinimizeToTray)
                 {
-                    TaskHelpers.ShowNotificationTip(Resources.ShareXIsMinimizedToTheSystemTray, "ShareX", 8000);
+                    TaskHelpers.ShowNotificationTip(Resources.ShareXIsMinimizedToTheSystemTray, ShareXResources.Name, 8000);
                     Program.Settings.FirstTimeMinimizeToTray = false;
                 }
             }
@@ -2168,7 +2168,7 @@ namespace ShareX
         private void tsmiDeleteSelectedFile_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show(Resources.MainForm_tsmiDeleteSelectedFile_Click_Do_you_really_want_to_delete_this_file_,
-                "ShareX - " + Resources.MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation, MessageBoxButtons.YesNo) == DialogResult.Yes)
+                ShareXResources.Name + " - " + Resources.MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation, MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 uim.DeleteFiles();
                 RemoveSelectedItems();

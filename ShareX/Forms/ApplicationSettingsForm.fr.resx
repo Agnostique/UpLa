@@ -172,7 +172,7 @@
     <value>Mémoriser la position de la fenêtre principale</value>
   </data>
   <data name="lblPersonalFolderPath.Text" xml:space="preserve">
-    <value>Dossier personnel ShareX :</value>
+    <value>Dossier personnel UpLa :</value>
   </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>Intégration</value>
@@ -199,7 +199,7 @@
     <value>Afficher l'icône dans la zone de notification</value>
   </data>
   <data name="cbSilentRun.Text" xml:space="preserve">
-    <value>Réduire ShareX dans la zone de notification</value>
+    <value>Réduire UpLa dans la zone de notification</value>
   </data>
   <data name="lblBufferSize.Text" xml:space="preserve">
     <value>Taille du buffer :</value>
@@ -217,13 +217,13 @@
     <value>Avancé</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Paramètres de l'application</value>
+    <value>UpLa - Paramètres de l'application</value>
   </data>
   <data name="tpProxy.Text" xml:space="preserve">
     <value>Proxy</value>
   </data>
   <data name="cbSendToMenu.Text" xml:space="preserve">
-    <value>Afficher ShareX dans le menu « Envoyer vers »</value>
+    <value>Afficher UpLa dans le menu « Envoyer vers »</value>
   </data>
   <data name="btnEditQuickTaskMenu.Text" xml:space="preserve">
     <value>Modifier le menu des tâches rapides...</value>
@@ -253,7 +253,7 @@
     <value>Langue :</value>
   </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
-    <value>Afficher le bouton « Mettre en ligne avec ShareX » dans le menu contextuel de l'explorateur Windows</value>
+    <value>Afficher le bouton « Mettre en ligne avec UpLa » dans le menu contextuel de l'explorateur Windows</value>
   </data>
   <data name="tpPaths.Text" xml:space="preserve">
     <value>Chemins</value>
@@ -301,7 +301,7 @@
     <value>Restaurer les paramètres...</value>
   </data>
   <data name="cbUseWhiteShareXIcon.Text" xml:space="preserve">
-    <value>Utiliser une icône ShareX blanche</value>
+    <value>Utiliser une icône UpLa blanche</value>
   </data>
   <data name="btnPersonalFolderPathApply.Text" xml:space="preserve">
     <value>Appliquer</value>
@@ -310,7 +310,7 @@
     <value>Installer une version de développement...</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
-    <value>Afficher le bouton "Modifier avec ShareX" dans le menu contextuel de l'explorateur Windows</value>
+    <value>Afficher le bouton "Modifier avec UpLa" dans le menu contextuel de l'explorateur Windows</value>
   </data>
   <data name="btnThemeReset.Text" xml:space="preserve">
     <value>Réinitialiser...</value>

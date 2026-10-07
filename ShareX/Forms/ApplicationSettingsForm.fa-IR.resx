@@ -248,7 +248,7 @@
     <value>113, 13</value>
   </data>
   <data name="lblPersonalFolderPath.Text" xml:space="preserve">
-    <value>پوشه شخصی ShareX :</value>
+    <value>پوشه شخصی UpLa :</value>
   </data>
   <data name="btnBrowseCustomScreenshotsPath.Text" xml:space="preserve">
     <value>انتخاب ...</value>
@@ -437,7 +437,7 @@
     <value>پیشرفته</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - تنظیمات برنامه</value>
+    <value>UpLa - تنظیمات برنامه</value>
   </data>
   <data name="lblUpdateChannel.Text" xml:space="preserve">
     <value>کانال به‌روزرسانی:</value>

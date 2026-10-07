@@ -478,7 +478,7 @@ Mesela klasör ismi "bucket.example.com" ise o zaman adres "http://bucket.exampl
     <value>Resim yükleyiciler</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Hedef ayarları</value>
+    <value>UpLa - Hedef ayarları</value>
   </data>
   <data name="lvlVgymeUserKey.Text" xml:space="preserve">
     <value>Kullanıcı anahtarı:</value>

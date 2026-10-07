@@ -286,13 +286,13 @@
     <value>הצג התקדמות בסמל שורת המשימות</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
-    <value>הצג את כפתור "ערוך עם ShareX" בתפריט ההקשר של סייר הקבצים</value>
+    <value>הצג את כפתור "ערוך עם UpLa" בתפריט ההקשר של סייר הקבצים</value>
   </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
-    <value>הצג את כפתור "העלה עם ShareX" בתפריט ההקשר של סייר הקבצים</value>
+    <value>הצג את כפתור "העלה עם UpLa" בתפריט ההקשר של סייר הקבצים</value>
   </data>
   <data name="cbSendToMenu.Text" xml:space="preserve">
-    <value>הצג את ShareX בתפריט "שלח אל"</value>
+    <value>הצג את UpLa בתפריט "שלח אל"</value>
   </data>
   <data name="btnShowImagePrintSettings.Text" xml:space="preserve">
     <value>הגדרות הדפסת תמונה...</value>
@@ -343,7 +343,7 @@
     <value>השתמש בתיקיית צילומי מסך מותאמת אישית:</value>
   </data>
   <data name="cbUseWhiteShareXIcon.Text" xml:space="preserve">
-    <value>השתמש בסמל ShareX לבן</value>
+    <value>השתמש בסמל UpLa לבן</value>
   </data>
   <data name="lblMainWindowTaskViewMode.Text" xml:space="preserve">
     <value>מצב תצוגת משימות:</value>
@@ -379,10 +379,10 @@
     <value>העלאה</value>
   </data>
   <data name="lblPersonalFolderPath.Text" xml:space="preserve">
-    <value>תיקיה אישית של ShareX:</value>
+    <value>תיקיה אישית של UpLa:</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - הגדרות יישום</value>
+    <value>UpLa - הגדרות יישום</value>
   </data>
   <data name="lblUploadLimitHint.Text" xml:space="preserve">
     <value>0 - 25 (0 משבית)</value>

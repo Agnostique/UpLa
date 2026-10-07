@@ -81,7 +81,7 @@ namespace ShareX.HelpersLib
                 catch (Exception e)
                 {
                     DebugHelper.WriteException(e);
-                    MessageBox.Show(Resources.ExportImportControl_Serialize_Export_failed_ + "\n\n" + e, "ShareX - " + Resources.Error,
+                    MessageBox.Show(Resources.ExportImportControl_Serialize_Export_failed_ + "\n\n" + e, ShareXResources.Name + " - " + Resources.Error,
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
@@ -99,7 +99,7 @@ namespace ShareX.HelpersLib
 
                 if (!string.IsNullOrEmpty(json) && ClipboardHelpers.CopyText(json))
                 {
-                    MessageBox.Show(Resources.ExportImportControl_tsmiExportClipboard_Click_Settings_copied_to_your_clipboard_, "ShareX", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(Resources.ExportImportControl_tsmiExportClipboard_Click_Settings_copied_to_your_clipboard_, ShareXResources.Name, MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
         }
@@ -164,7 +164,7 @@ namespace ShareX.HelpersLib
             catch (Exception e)
             {
                 DebugHelper.WriteException(e);
-                MessageBox.Show(Resources.ExportImportControl_Deserialize_Import_failed_ + "\n\n" + e, "ShareX - " + Resources.Error,
+                MessageBox.Show(Resources.ExportImportControl_Deserialize_Import_failed_ + "\n\n" + e, ShareXResources.Name + " - " + Resources.Error,
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
@@ -253,7 +253,7 @@ namespace ShareX.HelpersLib
                 catch (Exception ex)
                 {
                     DebugHelper.WriteException(ex);
-                    MessageBox.Show(Resources.Helpers_DownloadString_Download_failed_ + "\r\n" + ex, "ShareX - " + Resources.Error,
+                    MessageBox.Show(Resources.Helpers_DownloadString_Download_failed_ + "\r\n" + ex, ShareXResources.Name + " - " + Resources.Error,
                         MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 

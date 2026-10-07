@@ -133,7 +133,7 @@
     <value>Hızlı görev menüsünü düzenle...</value>
   </data>
   <data name="cbSendToMenu.Text" xml:space="preserve">
-    <value>"Gönder" menüsünde ShareX göster</value>
+    <value>"Gönder" menüsünde UpLa göster</value>
   </data>
   <data name="cbRememberMainFormSize.Text" xml:space="preserve">
     <value>Ana pencere boyutunu hatırla</value>
@@ -148,7 +148,7 @@
     <value>Gözat...</value>
   </data>
   <data name="lblPersonalFolderPath.Text" xml:space="preserve">
-    <value>ShareX kişisel dizini:</value>
+    <value>UpLa kişisel dizini:</value>
   </data>
   <data name="btnBrowseCustomScreenshotsPath.Text" xml:space="preserve">
     <value>Gözat...</value>
@@ -232,7 +232,7 @@
     <value>Gelişmiş</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Uygulama ayarları</value>
+    <value>UpLa - Uygulama ayarları</value>
   </data>
   <data name="tpProxy.Text" xml:space="preserve">
     <value>Vekil Sunucu</value>
@@ -253,7 +253,7 @@
     <value>Dil:</value>
   </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
-    <value>"ShareX ile yükle" tuşunu Windows sağ tık menüsünde göster</value>
+    <value>"UpLa ile yükle" tuşunu Windows sağ tık menüsünde göster</value>
   </data>
   <data name="cbRecentTasksSave.Text" xml:space="preserve">
     <value>Son görevleri kaydet</value>
@@ -304,7 +304,7 @@
     <value>Tepsi simgesi orta tuş ile tıklandığında:</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
-    <value>"ShareX ile düzenle" tuşunu Windows sağ tık menüsünde göster</value>
+    <value>"UpLa ile düzenle" tuşunu Windows sağ tık menüsünde göster</value>
   </data>
   <data name="btnPersonalFolderPathApply.Text" xml:space="preserve">
     <value>Uygula</value>
@@ -331,7 +331,7 @@
     <value>Ayarlar</value>
   </data>
   <data name="cbUseWhiteShareXIcon.Text" xml:space="preserve">
-    <value>Beyaz ShareX ikonu kullan</value>
+    <value>Beyaz UpLa ikonu kullan</value>
   </data>
   <data name="lblCleanupKeepFileCount.Text" xml:space="preserve">
     <value>Saklancak dosya sayısı:</value>

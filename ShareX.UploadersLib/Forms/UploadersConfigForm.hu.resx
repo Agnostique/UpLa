@@ -159,7 +159,7 @@ For example, if your bucket is called bucket.example.com then URL will be http:/
     <value>Kép feltöltők</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Cél beállítások</value>
+    <value>UpLa - Cél beállítások</value>
   </data>
   <data name="lblCheveretoAPIKey.Text" xml:space="preserve">
     <value>API kulcs:</value>

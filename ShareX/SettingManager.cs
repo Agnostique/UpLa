@@ -167,7 +167,7 @@ namespace ShareX
                 message = e.Message;
             }
 
-            TaskHelpers.ShowNotificationTip(message, "ShareX - " + Resources.FailedToSaveSettings, 5000);
+            TaskHelpers.ShowNotificationTip(message, Program.AppName + " - " + Resources.FailedToSaveSettings, 5000);
         }
 
         public static void LoadUploadersConfig(bool fallbackSupport = true)
@@ -238,6 +238,11 @@ namespace ShareX
             if (SystemOptions.DisableUpload)
             {
                 DefaultTaskSettings.AfterCaptureJob = DefaultTaskSettings.AfterCaptureJob.Remove(AfterCaptureTasks.UploadImageToHost);
+            }
+
+            if (IsUplaOneSettings(Settings))
+            {
+                DefaultTaskSettings.AfterUploadJob = DefaultTaskSettings.AfterUploadJob.Remove(AfterUploadTasks.ShareURL);
             }
 
             if (Settings.IsUpgradeFrom("14.1.1"))
@@ -335,8 +340,25 @@ namespace ShareX
             }
         }
 
+        // Settings saved by UpLa 1.0 (based on ShareX 14.1.3), which stored its own version number "1.0".
+        private static bool IsUplaOneSettings<T>(SettingsBase<T> settings) where T : SettingsBase<T>, new()
+        {
+            return settings.IsUpgrade && Version.TryParse(settings.ApplicationVersion, out Version version) && version.Major == 1;
+        }
+
         private static void HotkeysConfigBackwardCompatibilityTasks()
         {
+            if (IsUplaOneSettings(HotkeysConfig))
+            {
+                foreach (TaskSettings taskSettings in HotkeysConfig.Hotkeys.Select(x => x.TaskSettings))
+                {
+                    if (taskSettings != null)
+                    {
+                        taskSettings.AfterUploadJob = taskSettings.AfterUploadJob.Remove(AfterUploadTasks.ShareURL);
+                    }
+                }
+            }
+
             if (SystemOptions.DisableUpload)
             {
                 foreach (TaskSettings taskSettings in HotkeysConfig.Hotkeys.Select(x => x.TaskSettings))
@@ -464,7 +486,7 @@ namespace ShareX
             catch (Exception e)
             {
                 DebugHelper.WriteException(e);
-                MessageBox.Show("Error while exporting backup:\r\n" + e, "ShareX - Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error while exporting backup:\r\n" + e, Program.AppName + " - Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -497,7 +519,7 @@ namespace ShareX
             catch (Exception e)
             {
                 DebugHelper.WriteException(e);
-                MessageBox.Show("Error while importing backup:\r\n" + e, "ShareX - Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error while importing backup:\r\n" + e, Program.AppName + " - Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {

@@ -1552,7 +1552,7 @@
     <value>219, 22</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
-    <value>Restart ShareX as admin</value>
+    <value>Restart UpLa as admin</value>
   </data>
   <data name="tsmiRestartAsAdmin.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -1594,7 +1594,7 @@
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="niTray.Text" xml:space="preserve">
-    <value>ShareX</value>
+    <value>UpLa</value>
     <comment>@Invariant</comment>
   </data>
   <metadata name="timerTraySingleClick.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

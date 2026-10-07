@@ -91,7 +91,7 @@ namespace ShareX.ScreenCaptureLib
             }
             else
             {
-                MessageBox.Show(Resources.EditorStartupForm_ClipboardDoesNotContainAnImage, "ShareX", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(Resources.EditorStartupForm_ClipboardDoesNotContainAnImage, ShareXResources.Name, MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 

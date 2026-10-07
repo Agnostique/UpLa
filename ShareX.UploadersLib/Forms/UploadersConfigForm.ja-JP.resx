@@ -808,7 +808,7 @@
     <value>画像アップローダー</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - アップロード先の設定</value>
+    <value>UpLa - アップロード先の設定</value>
   </data>
   <data name="btnSharedFolderAdd.Text" xml:space="preserve">
     <value>追加</value>

@@ -121,7 +121,7 @@
     <value>Haladó</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Alkalmazás beállítások</value>
+    <value>UpLa - Alkalmazás beállítások</value>
   </data>
   <data name="tpProxy.Text" xml:space="preserve">
     <value>Proxy</value>
@@ -142,7 +142,7 @@
     <value>Puffer méret:</value>
   </data>
   <data name="lblPersonalFolderPath.Text" xml:space="preserve">
-    <value>ShareX személyes mappa:</value>
+    <value>UpLa személyes mappa:</value>
   </data>
   <data name="cbPrintDontShowWindowsDialog.Text" xml:space="preserve">
     <value>Ne mutassa a Windowsos nyomtatás dialógust</value>
@@ -157,10 +157,10 @@
     <value>Indításkor minimalizálás a tálcára</value>
   </data>
   <data name="cbSendToMenu.Text" xml:space="preserve">
-    <value>Mutassa a ShareX-et a "Küldés" gyorsmenüben</value>
+    <value>Mutassa az UpLa-t a "Küldés" gyorsmenüben</value>
   </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
-    <value>Mutassa a "Feltöltés ShareX használatával" gombot a kontextus menüben</value>
+    <value>Mutassa a "Feltöltés UpLa használatával" gombot a kontextus menüben</value>
   </data>
   <data name="cbRememberMainFormPosition.Text" xml:space="preserve">
     <value>Emlékezzen a főablak pozíciójára</value>
@@ -253,7 +253,7 @@
     <value>Frissítések automatikus keresése</value>
   </data>
   <data name="cbUseWhiteShareXIcon.Text" xml:space="preserve">
-    <value>Fehér ShareX ikon használata</value>
+    <value>Fehér UpLa ikon használata</value>
   </data>
   <data name="btnCheckDevBuild.Text" xml:space="preserve">
     <value>Fejlesztői build telepítése...</value>
@@ -283,7 +283,7 @@
     <value>Téma</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
-    <value>"Szerkesztés ShareX-szel" gomb megjelenítése a Windows Intéző helyi menüjében</value>
+    <value>"Szerkesztés UpLa-val" gomb megjelenítése a Windows Intéző helyi menüjében</value>
   </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>Integráció</value>

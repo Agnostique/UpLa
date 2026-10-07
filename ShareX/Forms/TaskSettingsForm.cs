@@ -482,11 +482,11 @@ namespace ShareX
         {
             if (IsDefault)
             {
-                Text = "ShareX - " + Resources.TaskSettingsForm_UpdateWindowTitle_Task_settings;
+                Text = ShareXResources.Name + " - " + Resources.TaskSettingsForm_UpdateWindowTitle_Task_settings;
             }
             else
             {
-                Text = "ShareX - " + string.Format(Resources.TaskSettingsForm_UpdateWindowTitle_Task_settings_for__0_, TaskSettings);
+                Text = ShareXResources.Name + " - " + string.Format(Resources.TaskSettingsForm_UpdateWindowTitle_Task_settings_for__0_, TaskSettings);
             }
         }
 
@@ -1352,7 +1352,7 @@ namespace ShareX
                 nameParser.Parse(TaskSettings.UploadSettings.NameFormatPattern);
 
             nameParser.WindowText = Text;
-            nameParser.ProcessName = "ShareX";
+            nameParser.ProcessName = ShareXResources.Name;
 
             lblNameFormatPatternPreviewActiveWindow.Text = Resources.TaskSettingsForm_txtNameFormatPatternActiveWindow_TextChanged_Preview_ + " " +
                 nameParser.Parse(TaskSettings.UploadSettings.NameFormatPatternActiveWindow);

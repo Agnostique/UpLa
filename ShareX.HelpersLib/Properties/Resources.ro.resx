@@ -295,7 +295,7 @@
     <value>Recunoaștere text (OCR)</value>
   </data>
   <data name="HotkeyType_ExitShareX" xml:space="preserve">
-    <value>Închideți ShareX</value>
+    <value>Închideți UpLa</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_Portable" xml:space="preserve">
     <value>Este disponibilă o versiune mai nouă a {0}.
@@ -984,7 +984,7 @@ Doriți să o descărcați și să o instalați?</value>
     <value>Fixează pe ecran</value>
   </data>
   <data name="ShareXImageViewer" xml:space="preserve">
-    <value>ShareX - Imagine viewer</value>
+    <value>UpLa - Imagine viewer</value>
   </data>
   <data name="HotkeyType_PinToScreen" xml:space="preserve">
     <value>Fixează pe ecran</value>

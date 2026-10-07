@@ -127,7 +127,7 @@
     <value>Запоминать поиск</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Настройки истории изображений</value>
+    <value>UpLa - Настройки истории изображений</value>
   </data>
   <data name="cbFilterMissingFiles.Text" xml:space="preserve">
     <value>Фильтровать отсутствующие файлы</value>

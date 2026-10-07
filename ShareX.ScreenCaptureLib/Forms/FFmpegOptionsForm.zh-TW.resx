@@ -117,7 +117,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - 螢幕錄製選項</value>
+    <value>UpLa - 螢幕錄製選項</value>
   </data>
   <data name="cbCustomCommands.Text" xml:space="preserve">
     <value>使用自訂命令：</value>

@@ -392,7 +392,7 @@ namespace ShareX.MediaLib
 
         private async void btnResetOptions_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show(Resources.WouldYouLikeToResetOptions, "ShareX - " + Resources.Confirmation, MessageBoxButtons.YesNo,
+            if (MessageBox.Show(Resources.WouldYouLikeToResetOptions, ShareXResources.Name + " - " + Resources.Confirmation, MessageBoxButtons.YesNo,
                 MessageBoxIcon.Information) == DialogResult.Yes)
             {
                 Options.ResetOptions();

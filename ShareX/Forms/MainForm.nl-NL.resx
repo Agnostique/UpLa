@@ -448,7 +448,7 @@
     <value>Afbeeldingsgeschiedenis...</value>
   </data>
   <data name="tsmiTrayShow.Text" xml:space="preserve">
-    <value>Toon ShareX venster</value>
+    <value>Toon UpLa venster</value>
   </data>
   <data name="tsmiTrayExit.Text" xml:space="preserve">
     <value>Afsluiten</value>
@@ -658,7 +658,7 @@
     <value>OCR...</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
-    <value>Restarten ShareX as admin</value>
+    <value>Restarten UpLa as admin</value>
   </data>
   <data name="tsmiOpenActionsToolbar.Text" xml:space="preserve">
     <value>Toggle acties toolbar</value>

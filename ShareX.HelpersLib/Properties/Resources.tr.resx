@@ -295,7 +295,7 @@
     <value>Yazı tanı (OCR)</value>
   </data>
   <data name="HotkeyType_ExitShareX" xml:space="preserve">
-    <value>ShareX kapat</value>
+    <value>UpLa'yı kapat</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_Portable" xml:space="preserve">
     <value>{0} yeni sürümü mevcut.
@@ -984,7 +984,7 @@
     <value>Ekrana sabitle</value>
   </data>
   <data name="ShareXImageViewer" xml:space="preserve">
-    <value>ShareX - Resim görüntüleyici</value>
+    <value>UpLa - Resim görüntüleyici</value>
   </data>
   <data name="HotkeyType_PinToScreen" xml:space="preserve">
     <value>Ekrana sabitle</value>

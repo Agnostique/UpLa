@@ -469,7 +469,7 @@
     <value>Resim geçmişi...</value>
   </data>
   <data name="tsmiTrayShow.Text" xml:space="preserve">
-    <value>ShareX penceresini göster</value>
+    <value>UpLa penceresini göster</value>
   </data>
   <data name="tsmiTrayExit.Text" xml:space="preserve">
     <value>Çıkış</value>
@@ -610,7 +610,7 @@
     <value>Resim boyutları</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
-    <value>ShareX i yönetici olarak yeniden başlat</value>
+    <value>UpLa'yı yönetici olarak yeniden başlat</value>
   </data>
   <data name="tsmiRunAction.Text" xml:space="preserve">
     <value>Aksiyon çalıştır</value>

@@ -1,4 +1,4 @@
-name: Build ShareX
+name: Build UpLa
 
 on:
   push:
@@ -32,6 +32,7 @@ jobs:
     env:
       SOLUTION_FILE_PATH: ShareX.sln
       ASSEMBLY_INFO_PATH: Directory.build.props
+      API_KEYS_PATH: ShareX.UploadersLib\APIKeys\APIKeysLocal.cs
 
     outputs:
       APP_VERSION: ${{ env.APP_VERSION }}
@@ -51,27 +52,37 @@ jobs:
           echo "PLATFORM=$platform" >> $env:GITHUB_ENV
           echo "RUNTIME_ID=win-$platform" >> $env:GITHUB_ENV
 
+      # The UpLa version (<InformationalVersion>) names the setup and zip files. <Version> stays the ShareX version
+      # because settings files use it for their upgrade steps.
       - name: Set APP_VERSION
         run: |
           $content = Get-Content "${{ env.ASSEMBLY_INFO_PATH }}" -Raw
-          $pattern = '<Version>([0-9]+(?:\.[0-9]+){1,3})</Version>'
+          $pattern = '<InformationalVersion>([0-9]+(?:\.[0-9]+){1,3})</InformationalVersion>'
           $match = [regex]::Match($content, $pattern)
+          if (-not $match.Success) { throw "InformationalVersion not found in ${{ env.ASSEMBLY_INFO_PATH }}" }
           $version = $match.Groups[1].Value
           if ($env:GITHUB_REF -eq "refs/heads/develop") {
             $version = "$version.$env:GITHUB_RUN_NUMBER"
-            $content = [regex]::Replace($content, $pattern, "<Version>$version</Version>")
+            $content = [regex]::Replace($content, $pattern, "<InformationalVersion>$version</InformationalVersion>")
             Set-Content -Path "${{ env.ASSEMBLY_INFO_PATH }}" -Value "$content" -NoNewline
           }
           echo $version
           echo "APP_VERSION=$version" >> $env:GITHUB_ENV
 
-      - name: Download API keys
+      # The upla.com.tr guest key is kept out of the repository. The API_KEYS_LOCAL secret holds the whole
+      # APIKeysLocal.cs file. Without it guest uploads do not work, so a tagged release must not be built without it.
+      - name: Create API keys
         env:
-          API_KEYS: ${{ secrets.API_KEYS }}
-        if: env.API_KEYS != ''
-        working-directory: ${{ env.GITHUB_WORKSPACE }}
+          API_KEYS_LOCAL: ${{ secrets.API_KEYS_LOCAL }}
         run: |
-          Invoke-WebRequest -Uri "$env:API_KEYS" -OutFile "ShareX.UploadersLib\APIKeys\APIKeysLocal.cs"
+          if ($env:API_KEYS_LOCAL) {
+            Set-Content -Path "${{ env.API_KEYS_PATH }}" -Value $env:API_KEYS_LOCAL -Encoding utf8
+          } elseif ($env:GITHUB_REF.StartsWith("refs/tags/")) {
+            throw "The API_KEYS_LOCAL secret is required to build a release."
+          } else {
+            echo "::warning::API_KEYS_LOCAL secret is not set: guest uploads will not work in this build."
+            Set-Content -Path "${{ env.API_KEYS_PATH }}" -Value "namespace ShareX.UploadersLib { internal static partial class APIKeys { } }" -Encoding utf8
+          }
 
       - name: Restore NuGet packages
         run: |
@@ -95,59 +106,41 @@ jobs:
         run: |
           & "ShareX.Setup\bin\${{ matrix.configuration }}\win-x64\ShareX.Setup.exe" -silent -job "${{ matrix.configuration }}" -platform "${{ matrix.platform }}"
 
-      - name: Upload artifact (Setup-x64)
-        if: matrix.configuration == 'Release' && matrix.platform == 'x64'
+      - name: Upload artifact (Setup)
+        if: matrix.configuration == 'Release'
         uses: actions/upload-artifact@v7
         with:
-          name: Setup-x64
-          path: Output\ShareX-${{ env.APP_VERSION }}-setup-${{ env.PLATFORM }}.exe
+          name: Setup-${{ matrix.platform }}
+          path: Output\UpLa-${{ env.APP_VERSION }}-setup-${{ env.PLATFORM }}.exe
+          if-no-files-found: error
 
-      - name: Upload artifact (Setup-ARM64)
-        if: matrix.configuration == 'Release' && matrix.platform == 'ARM64'
+      - name: Upload artifact (Portable)
+        if: matrix.configuration == 'Release'
         uses: actions/upload-artifact@v7
         with:
-          name: Setup-ARM64
-          path: Output\ShareX-${{ env.APP_VERSION }}-setup-${{ env.PLATFORM }}.exe
+          name: Portable-${{ matrix.platform }}
+          path: Output\UpLa-${{ env.APP_VERSION }}-portable-${{ env.PLATFORM }}.zip
+          if-no-files-found: error
 
-      - name: Upload artifact (Portable-x64)
-        if: matrix.configuration == 'Release' && matrix.platform == 'x64'
+      - name: Upload artifact (Debug)
+        if: matrix.configuration == 'Debug'
         uses: actions/upload-artifact@v7
         with:
-          name: Portable-x64
-          path: Output\ShareX-${{ env.APP_VERSION }}-portable-${{ env.PLATFORM }}.zip
+          name: Debug-${{ matrix.platform }}
+          path: Output\UpLa-${{ env.APP_VERSION }}-debug-${{ env.PLATFORM }}.zip
+          if-no-files-found: error
 
-      - name: Upload artifact (Portable-ARM64)
-        if: matrix.configuration == 'Release' && matrix.platform == 'ARM64'
-        uses: actions/upload-artifact@v7
-        with:
-          name: Portable-ARM64
-          path: Output\ShareX-${{ env.APP_VERSION }}-portable-${{ env.PLATFORM }}.zip
-
-      - name: Upload artifact (Debug-x64)
-        if: matrix.configuration == 'Debug' && matrix.platform == 'x64'
-        uses: actions/upload-artifact@v7
-        with:
-          name: Debug-x64
-          path: Output\ShareX-${{ env.APP_VERSION }}-debug-${{ env.PLATFORM }}.zip
-
-      - name: Upload artifact (Debug-ARM64)
-        if: matrix.configuration == 'Debug' && matrix.platform == 'ARM64'
-        uses: actions/upload-artifact@v7
-        with:
-          name: Debug-ARM64
-          path: Output\ShareX-${{ env.APP_VERSION }}-debug-${{ env.PLATFORM }}.zip
-
+  # Tags (v2.0.1 etc.) create a draft release with the x64 setup and portable zip; nothing is published automatically.
   release:
     name: Release
     needs: build
-    if: github.ref == 'refs/heads/develop' || startsWith(github.ref, 'refs/tags/v')
+    if: startsWith(github.ref, 'refs/tags/v')
     runs-on: windows-latest
 
     permissions:
       contents: write
 
     env:
-      REPO_DEV_BUILDS: ${{ github.repository_owner }}/DevBuilds
       RELEASE_BODY_PATH: RELEASE_BODY.md
       APP_VERSION: ${{ needs.build.outputs.APP_VERSION }}
 
@@ -158,38 +151,10 @@ jobs:
           name: Setup-x64
           path: Output
 
-      - name: Download artifact (Setup-ARM64)
-        if: github.ref == 'refs/heads/develop'
-        uses: actions/download-artifact@v8
-        with:
-          name: Setup-ARM64
-          path: Output
-
       - name: Download artifact (Portable-x64)
         uses: actions/download-artifact@v8
         with:
           name: Portable-x64
-          path: Output
-
-      - name: Download artifact (Portable-ARM64)
-        if: github.ref == 'refs/heads/develop'
-        uses: actions/download-artifact@v8
-        with:
-          name: Portable-ARM64
-          path: Output
-
-      - name: Download artifact (Debug-x64)
-        if: github.ref == 'refs/heads/develop'
-        uses: actions/download-artifact@v8
-        with:
-          name: Debug-x64
-          path: Output
-
-      - name: Download artifact (Debug-ARM64)
-        if: github.ref == 'refs/heads/develop'
-        uses: actions/download-artifact@v8
-        with:
-          name: Debug-ARM64
           path: Output
 
       - name: Create release body file
@@ -200,48 +165,17 @@ jobs:
             | Out-String
           $output = "| File | SHA256 |`r`n| --- | --- |`r`n$($checksums.Trim())"
           echo $output >> $env:GITHUB_STEP_SUMMARY
-          if ($env:GITHUB_REF.StartsWith("refs/tags/v")) {
-            $output = "**Changelog:** https://getsharex.com/changelog#$env:GITHUB_REF_NAME`r`n`r`n$output"
-          }
           echo $output
           Set-Content -Path "${{ env.RELEASE_BODY_PATH }}" -Value "$output" -NoNewline
 
-      - name: Release (Dev)
-        env:
-          CUSTOM_GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
-        if: env.CUSTOM_GITHUB_TOKEN != '' && env.REPO_DEV_BUILDS != '' && github.ref == 'refs/heads/develop'
+      - name: Release
         uses: softprops/action-gh-release@v3
         with:
-          repository: ${{ env.REPO_DEV_BUILDS }}
-          token: ${{ env.CUSTOM_GITHUB_TOKEN }}
-          tag_name: v${{ env.APP_VERSION }}
-          name: ShareX ${{ env.APP_VERSION }} Dev
-          body_path: ${{ env.RELEASE_BODY_PATH }}
-          draft: false
-          prerelease: false
-          files: |
-            Output/ShareX-${{ env.APP_VERSION }}-setup-x64.exe
-            # Output/ShareX-${{ env.APP_VERSION }}-setup-arm64.exe
-            Output/ShareX-${{ env.APP_VERSION }}-portable-x64.zip
-            # Output/ShareX-${{ env.APP_VERSION }}-portable-arm64.zip
-            Output/ShareX-${{ env.APP_VERSION }}-debug-x64.zip
-            Output/ShareX-${{ env.APP_VERSION }}-debug-arm64.zip
-
-      - name: Release (Stable)
-        env:
-          CUSTOM_GITHUB_TOKEN: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
-        if: env.CUSTOM_GITHUB_TOKEN != '' && startsWith(github.ref, 'refs/tags/v')
-        uses: softprops/action-gh-release@v3
-        with:
-          repository: ${{ github.repository }}
-          token: ${{ env.CUSTOM_GITHUB_TOKEN }}
           tag_name: ${{ github.ref_name }}
-          name: ShareX ${{ env.APP_VERSION }}
+          name: UpLa ${{ env.APP_VERSION }}
           body_path: ${{ env.RELEASE_BODY_PATH }}
           draft: true
-          prerelease: true
+          prerelease: false
           files: |
-            Output/ShareX-${{ env.APP_VERSION }}-setup-x64.exe
-            # Output/ShareX-${{ env.APP_VERSION }}-setup-arm64.exe
-            Output/ShareX-${{ env.APP_VERSION }}-portable-x64.zip
-            # Output/ShareX-${{ env.APP_VERSION }}-portable-arm64.zip
+            Output/UpLa-${{ env.APP_VERSION }}-setup-x64.exe
+            Output/UpLa-${{ env.APP_VERSION }}-portable-x64.zip

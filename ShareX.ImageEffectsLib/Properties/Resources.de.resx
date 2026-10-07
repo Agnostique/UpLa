@@ -136,7 +136,7 @@
     <value>Abbrechen</value>
   </data>
   <data name="AssetsFolderMustBeInsideShareXImageEffectsFolder" xml:space="preserve">
-    <value>Der Ordner Assets muss sich im ShareX-Ordner für Bildeffekte befinden.</value>
+    <value>Der Ordner Assets muss sich im UpLa-Ordner für Bildeffekte befinden.</value>
   </data>
   <data name="InvalidAssetsFolderPath" xml:space="preserve">
     <value>Ungültiger Pfad zum Asset-Ordner</value>

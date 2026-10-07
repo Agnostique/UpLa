@@ -295,7 +295,7 @@
     <value>Reconocer texto (OCR)</value>
   </data>
   <data name="HotkeyType_ExitShareX" xml:space="preserve">
-    <value>Salir de ShareX</value>
+    <value>Salir de UpLa</value>
   </data>
   <data name="UpdateMessageBox_UpdateMessageBox_Portable" xml:space="preserve">
     <value>Hay una nueva versión de {0}.
@@ -984,7 +984,7 @@
     <value>Fijar a pantalla</value>
   </data>
   <data name="ShareXImageViewer" xml:space="preserve">
-    <value>ShareX - Visualizador de imagen</value>
+    <value>UpLa - Visualizador de imagen</value>
   </data>
   <data name="HotkeyType_PinToScreen" xml:space="preserve">
     <value>Fijar a pantalla</value>

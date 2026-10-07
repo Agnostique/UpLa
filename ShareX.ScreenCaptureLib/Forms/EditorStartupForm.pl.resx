@@ -130,7 +130,7 @@
     <value>Otwórz plik obrazu...</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Edytor obrazów</value>
+    <value>UpLa - Edytor obrazów</value>
   </data>
   <data name="btnLoadImageFromURL.Text" xml:space="preserve">
     <value>Wczytaj obraz z URL...</value>

@@ -133,7 +133,7 @@
     <value>Efeitos de imagem - Largura: {0}, Altura: {1}, Tempo de renderização: {2} ms</value>
   </data>
   <data name="AssetsFolderMustBeInsideShareXImageEffectsFolder" xml:space="preserve">
-    <value>A pasta de ativos deve estar dentro da pasta de efeitos de imagem do ShareX.</value>
+    <value>A pasta de ativos deve estar dentro da pasta de efeitos de imagem do UpLa.</value>
   </data>
   <data name="Confirmation" xml:space="preserve">
     <value>Confirmação</value>

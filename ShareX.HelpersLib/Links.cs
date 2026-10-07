@@ -27,25 +27,29 @@ namespace ShareX.HelpersLib
 {
     public static class Links
     {
-        public const string Website = "https://getsharex.com";
-        public const string Callback = Website + "/callback/";
-        public const string Changelog = Website + "/changelog";
-        public const string Donate = Website + "/donate";
-        public const string PrivacyPolicy = Website + "/privacy-policy";
-        public const string ImageEffects = Website + "/image-effects";
-        public const string Actions = Website + "/actions";
-        private const string Docs = Website + "/docs";
+        public const string Website = "https://upla.com.tr";
+
+        // upla.com.tr has no pages for these. They lead to the website because ShareX's own pages are not about UpLa.
+        public const string Changelog = Website;
+        public const string Donate = Website;
+        public const string PrivacyPolicy = Website;
+        public const string Discord = Website;
+        public const string X = Website;
+        public const string XFollow = Website;
+        public const string Reddit = Website;
+
+        // UpLa has these ShareX features, so their documentation is ShareX's.
+        private const string ShareXWebsite = "https://getsharex.com";
+        public const string ImageEffects = ShareXWebsite + "/image-effects";
+        public const string Actions = ShareXWebsite + "/actions";
+        private const string Docs = ShareXWebsite + "/docs";
         public const string DocsKeybinds = Docs + "/keybinds";
         public const string DocsOCR = Docs + "/ocr";
         public const string DocsScrollingScreenshot = Docs + "/scrolling-screenshot";
 
+        // UpLa is based on ShareX: the ShareX project and team.
         public const string GitHub = "https://github.com/ShareX/ShareX";
-        public const string GitHubIssues = GitHub + "/issues?q=is%3Aissue";
         public const string Jaex = "https://github.com/Jaex";
         public const string McoreD = "https://github.com/McoreD";
-        public const string Discord = "https://discord.gg/ShareX";
-        public const string X = "https://x.com/ShareX";
-        public const string XFollow = "https://x.com/intent/follow?screen_name=ShareX";
-        public const string Reddit = "https://www.reddit.com/r/sharex";
     }
 }

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ShareXIsMinimizedToTheSystemTray" xml:space="preserve">
-    <value>ShareX foi minimizado para a bandeja do sistema.</value>
+    <value>UpLa foi minimizado para a bandeja do sistema.</value>
   </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>Variáveis suportadas: {0} e outras como {1}, etc.</value>
@@ -163,7 +163,7 @@
     <value>Registro de alterações</value>
   </data>
   <data name="ApplicationSettingsForm_cbLanguage_SelectedIndexChanged_Language_Restart" xml:space="preserve">
-    <value>ShareX precisa ser reiniciado para que as mudanças de idioma façam efeito.
+    <value>UpLa precisa ser reiniciado para que as mudanças de idioma façam efeito.
 Gostaria de reiniciar agora?</value>
   </data>
   <data name="AboutForm_AboutForm_Language_zh_TW" xml:space="preserve">
@@ -188,7 +188,7 @@ Gostaria de reiniciar agora?</value>
     <value>Escolha um atalho...</value>
   </data>
   <data name="ApplicationSettingsForm_cbStartWithWindows_Text" xml:space="preserve">
-    <value>Executar ShareX quando o Windows iniciar</value>
+    <value>Executar UpLa quando o Windows iniciar</value>
   </data>
   <data name="MainForm_UpdateToggleHotkeyButton_Disable_hotkeys" xml:space="preserve">
     <value>Desativar atalhos</value>
@@ -200,7 +200,7 @@ Gostaria de reiniciar agora?</value>
     <value>Não foi possivel criar pasta:</value>
   </data>
   <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
-    <value>O FFmpeg que vem com o ShareX suporta apenas sistemas operacionais de 64 bits.</value>
+    <value>O FFmpeg que vem com o UpLa suporta apenas sistemas operacionais de 64 bits.</value>
   </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>Enviando</value>
@@ -230,7 +230,7 @@ Gostaria de reiniciar agora?</value>
     <value>Pré-visualização:</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
-    <value>Gostaria de redefinir as configurações do ShareX?</value>
+    <value>Gostaria de redefinir as configurações do UpLa?</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm__0__is_about_to_be_uploaded_to__1___You_may_choose_a_different_destination_" xml:space="preserve">
     <value>{0} está prestes a ser enviado para {1}. Você pode escolher um destino diferente.</value>
@@ -305,7 +305,7 @@ Você pode desativar posteriormente no menu "Tarefas após a captura".</value>
     <value>Página do projeto</value>
   </data>
   <data name="IntegrationHelpers_EditWithShareX" xml:space="preserve">
-    <value>Editar com ShareX</value>
+    <value>Editar com UpLa</value>
   </data>
   <data name="ApplicationSettingsForm_btnBrowseCustomScreenshotsPath_Click_Choose_screenshots_folder_path" xml:space="preserve">
     <value>Escolher caminho da pasta de capturas de tela</value>
@@ -320,7 +320,7 @@ Você pode desativar posteriormente no menu "Tarefas após a captura".</value>
     <value>Erro</value>
   </data>
   <data name="YourAntiVirusSoftwareOrTheControlledFolderAccessFeatureInWindowsCouldBeBlockingShareX" xml:space="preserve">
-    <value>Seu software antivírus ou o recurso de acesso controlado a pastas no Windows podem estar bloqueando o ShareX.</value>
+    <value>Seu software antivírus ou o recurso de acesso controlado a pastas no Windows podem estar bloqueando o UpLa.</value>
   </data>
   <data name="QuickTaskMenuEditorForm_Reset_all_quick_tasks_to_defaults_Confirmation" xml:space="preserve">
     <value>Redefinir todas tarefas rápidas?</value>
@@ -365,9 +365,9 @@ Você pode desativar posteriormente no menu "Tarefas após a captura".</value>
     <value>Fechar</value>
   </data>
   <data name="ShareXNeedsToBeRestartedForThePersonalFolderChangesToApply" xml:space="preserve">
-    <value>O ShareX precisa ser reiniciado para que as alterações na pasta pessoal sejam aplicadas.
+    <value>O UpLa precisa ser reiniciado para que as alterações na pasta pessoal sejam aplicadas.
 
-Deseja reiniciar o ShareX?</value>
+Deseja reiniciar o UpLa?</value>
   </data>
   <data name="AboutForm_AboutForm_Website" xml:space="preserve">
     <value>Site</value>
@@ -385,7 +385,7 @@ Deseja reiniciar o ShareX?</value>
     <value>Erro</value>
   </data>
   <data name="ApplicationSettingsForm_btnBrowsePersonalFolderPath_Click_Choose_ShareX_personal_folder_path" xml:space="preserve">
-    <value>Escolher caminho da pasta pessoal do ShareX</value>
+    <value>Escolher caminho da pasta pessoal do UpLa</value>
   </data>
   <data name="AboutForm_AboutForm_Language_es" xml:space="preserve">
     <value>Espanhol</value>
@@ -406,7 +406,7 @@ Deseja reiniciar o ShareX?</value>
     <value>Você pode adicionar workflows através das opções de atalho...</value>
   </data>
   <data name="ShareXConfirmation" xml:space="preserve">
-    <value>ShareX - Confirmação</value>
+    <value>UpLa - Confirmação</value>
   </data>
   <data name="UploadTask_DownloadAndUpload_Downloading" xml:space="preserve">
     <value>Baixando</value>
@@ -439,14 +439,14 @@ Deseja reiniciar o ShareX?</value>
     <value>O vídeo FFmpeg e a fonte de áudio não podem ser "Nenhum".</value>
   </data>
   <data name="IntegrationHelpers_UploadWithShareX" xml:space="preserve">
-    <value>Enviar com o ShareX</value>
+    <value>Enviar com o UpLa</value>
   </data>
   <data name="TaskHelpers_ToggleHotkeys_Hotkeys_disabled_" xml:space="preserve">
     <value>Atalhos desativados.</value>
   </data>
   <data name="Program_WritePersonalPathConfig_Cant_access_to_file" xml:space="preserve">
     <value>Não foi possivel acessar "{0}".
-Por favor, execute o ShareX como administrador para mudar a pasta de destino.</value>
+Por favor, execute o UpLa como administrador para mudar a pasta de destino.</value>
   </data>
   <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByUser_Text" xml:space="preserve">
     <value>A inicialização foi desativada no Gerenciador de Tarefas</value>
@@ -481,7 +481,7 @@ aqui</value>
 
 {1}
 
-Por favor, selecione um atalho diferente ou feche o programa conflituoso e reabra o ShareX.</value>
+Por favor, selecione um atalho diferente ou feche o programa conflituoso e reabra o UpLa.</value>
   </data>
   <data name="AboutForm_AboutForm_Team" xml:space="preserve">
     <value>Time</value>
@@ -531,7 +531,7 @@ Clique do meio para fechar</value>
     <value>Atraso na captura de tela: {0}s</value>
   </data>
   <data name="ActionsToolbar_OpenAtShareXStartup" xml:space="preserve">
-    <value>Abrir na inicialização do ShareX</value>
+    <value>Abrir na inicialização do UpLa</value>
   </data>
   <data name="YourSystemAdminDisabledTheUploadFeature" xml:space="preserve">
     <value>O administrador do sistema desativou o recurso de upload.</value>
@@ -547,7 +547,7 @@ Clique do meio para fechar</value>
 {0}</value>
   </data>
   <data name="ShareXIsUpToDate" xml:space="preserve">
-    <value>O ShareX está atualizado!</value>
+    <value>O UpLa está atualizado!</value>
   </data>
   <data name="AboutForm_AboutForm_Language_he-IL" xml:space="preserve">
     <value>Hebraico</value>
@@ -559,7 +559,7 @@ Clique do meio para fechar</value>
     <value>Doar</value>
   </data>
   <data name="ShareXCannotBeClosedWhileScreenRecordingIsActive" xml:space="preserve">
-    <value>O ShareX não pode ser fechado enquanto a gravação de tela está ativa.
+    <value>O UpLa não pode ser fechado enquanto a gravação de tela está ativa.
 
 Deseja interromper a gravação de tela ativa?</value>
   </data>

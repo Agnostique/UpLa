@@ -317,7 +317,7 @@ Select new file name or action:</value>
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - How to save?</value>
+    <value>UpLa - How to save?</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FileExistForm</value>

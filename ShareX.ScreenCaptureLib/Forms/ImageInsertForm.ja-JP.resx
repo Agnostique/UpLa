@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - 画像の挿入・貼り付け</value>
+    <value>UpLa - 画像の挿入・貼り付け</value>
   </data>
   <data name="btnCenter.Text" xml:space="preserve">
     <value>真ん中に重ねて貼り付け</value>

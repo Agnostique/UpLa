@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="ShareXIsMinimizedToTheSystemTray" xml:space="preserve">
-    <value>ShareX 已最小化到系統匣。</value>
+    <value>UpLa 已最小化到系統匣。</value>
   </data>
   <data name="ClipboardFormatForm_ClipboardFormatForm_Supported_variables___0__and_other_variables_such_as__1__etc_" xml:space="preserve">
     <value>支援的變數：{0} 和其他如 {1} 的變數等</value>
@@ -160,15 +160,15 @@
     <value>保持在最上層</value>
   </data>
   <data name="ShareXIsUpToDate" xml:space="preserve">
-    <value>ShareX 已為最新版！</value>
+    <value>UpLa 已為最新版！</value>
   </data>
   <data name="AboutForm_AboutForm_Changelog" xml:space="preserve">
     <value>更新日誌</value>
   </data>
   <data name="ApplicationSettingsForm_cbLanguage_SelectedIndexChanged_Language_Restart" xml:space="preserve">
-    <value>更改語言需要重新啟動 ShareX 才會生效。
+    <value>更改語言需要重新啟動 UpLa 才會生效。
 
-是否要重新啟動 ShareX？</value>
+是否要重新啟動 UpLa？</value>
   </data>
   <data name="AboutForm_AboutForm_Language_zh_TW" xml:space="preserve">
     <value>繁體中文</value>
@@ -192,7 +192,7 @@
     <value>選擇快捷鍵...</value>
   </data>
   <data name="ApplicationSettingsForm_cbStartWithWindows_Text" xml:space="preserve">
-    <value>Windows 開機時執行 ShareX</value>
+    <value>Windows 開機時執行 UpLa</value>
   </data>
   <data name="MainForm_UpdateToggleHotkeyButton_Disable_hotkeys" xml:space="preserve">
     <value>停用快捷鍵</value>
@@ -204,7 +204,7 @@
     <value>無法建立資料夾：</value>
   </data>
   <data name="FFmpegOnlySupports64BitOperatingSystems" xml:space="preserve">
-    <value>ShareX 包含的 FFmpeg 僅支援 64 位元的作業系統。</value>
+    <value>UpLa 包含的 FFmpeg 僅支援 64 位元的作業系統。</value>
   </data>
   <data name="UploadTask_DoUploadJob_Uploading" xml:space="preserve">
     <value>上傳中</value>
@@ -234,7 +234,7 @@
     <value>預覽：</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
-    <value>是否要重設 ShareX 設定？</value>
+    <value>是否要重設 UpLa 設定？</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm__0__is_about_to_be_uploaded_to__1___You_may_choose_a_different_destination_" xml:space="preserve">
     <value>{0} 將上傳到 {1}。你可以選擇其他目的地。</value>
@@ -312,7 +312,7 @@
     <value>專案頁面</value>
   </data>
   <data name="IntegrationHelpers_EditWithShareX" xml:space="preserve">
-    <value>使用 ShareX 編輯</value>
+    <value>使用 UpLa 編輯</value>
   </data>
   <data name="ApplicationSettingsForm_btnBrowseCustomScreenshotsPath_Click_Choose_screenshots_folder_path" xml:space="preserve">
     <value>選擇截圖資料夾路徑</value>
@@ -327,7 +327,7 @@
     <value>錯誤</value>
   </data>
   <data name="YourAntiVirusSoftwareOrTheControlledFolderAccessFeatureInWindowsCouldBeBlockingShareX" xml:space="preserve">
-    <value>你的防毒軟體或 Windows 的受控資料夾存取權功能可能阻擋了 ShareX。</value>
+    <value>你的防毒軟體或 Windows 的受控資料夾存取權功能可能阻擋了 UpLa。</value>
   </data>
   <data name="QuickTaskMenuEditorForm_Reset_all_quick_tasks_to_defaults_Confirmation" xml:space="preserve">
     <value>是否要重設所有快速任務為預設值？</value>
@@ -372,9 +372,9 @@
     <value>關閉</value>
   </data>
   <data name="ShareXNeedsToBeRestartedForThePersonalFolderChangesToApply" xml:space="preserve">
-    <value>更改個人資料夾需要重新啟動 ShareX 才會生效。
+    <value>更改個人資料夾需要重新啟動 UpLa 才會生效。
 
-是否要重新啟動 ShareX？</value>
+是否要重新啟動 UpLa？</value>
   </data>
   <data name="AboutForm_AboutForm_Website" xml:space="preserve">
     <value>網站</value>
@@ -392,7 +392,7 @@
     <value>錯誤</value>
   </data>
   <data name="ApplicationSettingsForm_btnBrowsePersonalFolderPath_Click_Choose_ShareX_personal_folder_path" xml:space="preserve">
-    <value>選擇 ShareX 個人資料夾路徑</value>
+    <value>選擇 UpLa 個人資料夾路徑</value>
   </data>
   <data name="AboutForm_AboutForm_Language_es" xml:space="preserve">
     <value>西班牙文</value>
@@ -413,7 +413,7 @@
     <value>你可以在快捷鍵設定中新增快捷動作...</value>
   </data>
   <data name="ShareXConfirmation" xml:space="preserve">
-    <value>ShareX - 確認</value>
+    <value>UpLa - 確認</value>
   </data>
   <data name="UploadTask_DownloadAndUpload_Downloading" xml:space="preserve">
     <value>下載中</value>
@@ -446,19 +446,19 @@
     <value>FFmpeg 視訊和音訊源不能同時為「無」。</value>
   </data>
   <data name="ShareXCannotBeClosedWhileScreenRecordingIsActive" xml:space="preserve">
-    <value>錄製螢幕時無法關閉 ShareX。
+    <value>錄製螢幕時無法關閉 UpLa。
 
 是否要取消目前的螢幕錄製？</value>
   </data>
   <data name="IntegrationHelpers_UploadWithShareX" xml:space="preserve">
-    <value>使用 ShareX 上傳</value>
+    <value>使用 UpLa 上傳</value>
   </data>
   <data name="TaskHelpers_ToggleHotkeys_Hotkeys_disabled_" xml:space="preserve">
     <value>快捷鍵已停用。</value>
   </data>
   <data name="Program_WritePersonalPathConfig_Cant_access_to_file" xml:space="preserve">
     <value>無法存取「{0}」檔案。
-請以管理員身分執行 ShareX 以更改個人資料夾路徑。</value>
+請以管理員身分執行 UpLa 以更改個人資料夾路徑。</value>
   </data>
   <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByUser_Text" xml:space="preserve">
     <value>開機啟動已被任務管理器停用</value>
@@ -496,7 +496,7 @@
 
 {1}
 
-請選擇其他快捷鍵，或退出衝突的應用程式並重啟 ShareX。</value>
+請選擇其他快捷鍵，或退出衝突的應用程式並重啟 UpLa。</value>
   </data>
   <data name="AboutForm_AboutForm_Team" xml:space="preserve">
     <value>團隊</value>
@@ -549,7 +549,7 @@
     <value>截圖倒數計時：{0} 秒</value>
   </data>
   <data name="ActionsToolbar_OpenAtShareXStartup" xml:space="preserve">
-    <value>啟動 ShareX 時開啟</value>
+    <value>啟動 UpLa 時開啟</value>
   </data>
   <data name="YourSystemAdminDisabledTheUploadFeature" xml:space="preserve">
     <value>你的系統管理員已停用上傳功能。</value>

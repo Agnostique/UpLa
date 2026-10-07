@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - アプリの設定</value>
+    <value>UpLa - アプリの設定</value>
   </data>
   <data name="btnBrowseCustomScreenshotsPath.Text" xml:space="preserve">
     <value>参照...</value>
@@ -175,7 +175,7 @@
     <value>画像の印刷設定ダイアログを表示しない</value>
   </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
-    <value>エクスプローラのコンテキストメニューに「ShareXで画像編集」を表示</value>
+    <value>エクスプローラのコンテキストメニューに「UpLaで画像編集」を表示</value>
   </data>
   <data name="cbHistoryCheckURL.Text" xml:space="preserve">
     <value>URLが空でない場合のみ保存</value>
@@ -205,13 +205,13 @@
     <value>メイン ウィンドウの位置を記憶</value>
   </data>
   <data name="cbSendToMenu.Text" xml:space="preserve">
-    <value>「送る」メニューにShareXを表示</value>
+    <value>「送る」メニューにUpLaを表示</value>
   </data>
   <data name="cbRememberMainFormSize.Text" xml:space="preserve">
     <value>メイン ウィンドウの大きさを記憶</value>
   </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
-    <value>エクスプローラのコンテキストメニューに「ShareXでアップロード」を表示</value>
+    <value>エクスプローラのコンテキストメニューに「UpLaでアップロード」を表示</value>
   </data>
   <data name="cbShowTray.Text" xml:space="preserve">
     <value>トレイアイコンを表示</value>
@@ -259,7 +259,7 @@
     <value>エクスポートしたファイルには、アカウントの情報やアップロード履歴が含まれることがあるため他者に共有しないようにしましょう。</value>
   </data>
   <data name="lblPersonalFolderPath.Text" xml:space="preserve">
-    <value>ShareX 用の個人フォルダー:</value>
+    <value>UpLa 用の個人フォルダー:</value>
   </data>
   <data name="lblProxyHost.Text" xml:space="preserve">
     <value>ホスト:</value>

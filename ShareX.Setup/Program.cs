@@ -60,18 +60,18 @@ namespace ShareX.Setup
         private static string RuntimeId => Platform == "arm64" ? "win-arm64" : "win-x64";
         private static string SolutionPath => Path.Combine(ParentDir, "ShareX.sln");
         private static string BinDir => Path.Combine(ParentDir, "ShareX", "bin", Configuration, RuntimeId);
-        private static string ExecutablePath => Path.Combine(BinDir, "ShareX.exe");
+        private static string ExecutablePath => Path.Combine(BinDir, "UpLa.exe");
 
         private static string OutputDir => Path.Combine(ParentDir, "Output");
-        private static string PortableOutputDir => Path.Combine(OutputDir, "ShareX-portable");
-        private static string DebugOutputDir => Path.Combine(OutputDir, "ShareX-debug");
+        private static string PortableOutputDir => Path.Combine(OutputDir, "UpLa-portable");
+        private static string DebugOutputDir => Path.Combine(OutputDir, "UpLa-debug");
 
         private static string SetupDir => Path.Combine(ParentDir, "ShareX.Setup");
         private static string InnoSetupDir => Path.Combine(SetupDir, "InnoSetup");
 
-        private static string SetupPath => Path.Combine(OutputDir, $"ShareX-{AppVersion}-setup-{Platform}.exe");
-        private static string PortableZipPath => Path.Combine(OutputDir, $"ShareX-{AppVersion}-portable-{Platform}.zip");
-        private static string DebugZipPath => Path.Combine(OutputDir, $"ShareX-{AppVersion}-debug-{Platform}.zip");
+        private static string SetupPath => Path.Combine(OutputDir, $"UpLa-{AppVersion}-setup-{Platform}.exe");
+        private static string PortableZipPath => Path.Combine(OutputDir, $"UpLa-{AppVersion}-portable-{Platform}.zip");
+        private static string DebugZipPath => Path.Combine(OutputDir, $"UpLa-{AppVersion}-debug-{Platform}.zip");
         private static string FFmpegPath => Path.Combine(OutputDir, "ffmpeg.exe");
         private static string RecorderDevicesSetupPath => Path.Combine(OutputDir, $"recorder-devices-{RecorderDevicesVersion}-setup.exe");
 
@@ -83,7 +83,7 @@ namespace ShareX.Setup
 
         private static void Main(string[] args)
         {
-            Console.WriteLine("ShareX setup started.");
+            Console.WriteLine("UpLa setup started.");
 
             CheckArgs(args);
 
@@ -128,7 +128,7 @@ namespace ShareX.Setup
                 FileHelpers.OpenFolder(OutputDir, false);
             }
 
-            Console.WriteLine("ShareX setup successfully completed.");
+            Console.WriteLine("UpLa setup successfully completed.");
         }
 
         private static void CheckArgs(string[] args)

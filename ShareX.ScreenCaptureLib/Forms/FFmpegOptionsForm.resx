@@ -2186,7 +2186,7 @@ A higher value means bad quality, but a low file size.</value>
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Screen recording options</value>
+    <value>UpLa - Screen recording options</value>
   </data>
   <data name="&gt;&gt;ttHelpTip.Name" xml:space="preserve">
     <value>ttHelpTip</value>

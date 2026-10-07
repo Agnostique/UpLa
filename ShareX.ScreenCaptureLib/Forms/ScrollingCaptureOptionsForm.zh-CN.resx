@@ -148,7 +148,7 @@
     <value>取消</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - 滚动截取选项</value>
+    <value>UpLa - 滚动截取选项</value>
   </data>
   <data name="lblStartDelayHint.Text" xml:space="preserve">
     <value>毫秒（ms）</value>

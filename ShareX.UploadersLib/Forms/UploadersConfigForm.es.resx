@@ -159,7 +159,7 @@ Por ejemplo, si el balde se llama balde.ejemplo.com entonces URL será http://ba
     <value>Cargadores de imagenes</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Configuración de destino</value>
+    <value>UpLa - Configuración de destino</value>
   </data>
   <data name="lblCheveretoAPIKey.Text" xml:space="preserve">
     <value>Clave de la API:</value>

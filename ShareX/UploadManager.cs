@@ -79,7 +79,7 @@ namespace ShareX
             if (Program.Settings.ShowMultiUploadWarning)
             {
                 using (MyMessageBox msgbox = new MyMessageBox(string.Format(Resources.UploadManager_IsUploadConfirmed_Are_you_sure_you_want_to_upload__0__files_, length),
-                    "ShareX - " + Resources.UploadManager_IsUploadConfirmed_Upload_files,
+                    ShareXResources.Name + " - " + Resources.UploadManager_IsUploadConfirmed_Upload_files,
                     MessageBoxButtons.YesNo, Resources.UploadManager_IsUploadConfirmed_Don_t_show_this_message_again_))
                 {
                     msgbox.ShowDialog();
@@ -95,7 +95,7 @@ namespace ShareX
         {
             using (OpenFileDialog ofd = new OpenFileDialog())
             {
-                ofd.Title = "ShareX - " + Resources.UploadManager_UploadFile_File_upload;
+                ofd.Title = ShareXResources.Name + " - " + Resources.UploadManager_UploadFile_File_upload;
 
                 if (!string.IsNullOrEmpty(Program.Settings.FileUploadDefaultDirectory) && Directory.Exists(Program.Settings.FileUploadDefaultDirectory))
                 {
@@ -131,7 +131,7 @@ namespace ShareX
             {
                 initialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
             }
-            string selectedPath = FileHelpers.BrowseFolder("ShareX - " + Resources.UploadManager_UploadFolder_Folder_upload, initialDirectory);
+            string selectedPath = FileHelpers.BrowseFolder(ShareXResources.Name + " - " + Resources.UploadManager_UploadFolder_Folder_upload, initialDirectory);
 
             if (!string.IsNullOrEmpty(selectedPath))
             {
@@ -226,7 +226,7 @@ namespace ShareX
             {
                 DebugHelper.WriteException(e);
 
-                if (MessageBox.Show("\"" + e.Message + "\"\r\n\r\n" + Resources.WouldYouLikeToRetryClipboardUpload, "ShareX - " + Resources.ClipboardUpload,
+                if (MessageBox.Show("\"" + e.Message + "\"\r\n\r\n" + Resources.WouldYouLikeToRetryClipboardUpload, ShareXResources.Name + " - " + Resources.ClipboardUpload,
                     MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 {
                     ClipboardUpload(taskSettings);

@@ -159,7 +159,7 @@
     <value>이미지 업로더</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - 목적지 설정</value>
+    <value>UpLa - 목적지 설정</value>
   </data>
   <data name="lblCheveretoAPIKey.Text" xml:space="preserve">
     <value>API 키:</value>

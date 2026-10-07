@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Ekrana sabitleme seçenekleri</value>
+    <value>UpLa - Ekrana sabitleme seçenekleri</value>
   </data>
   <data name="btnBorderColor.Text" xml:space="preserve">
     <value>Kenarlık rengi</value>

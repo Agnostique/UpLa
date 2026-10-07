@@ -415,7 +415,7 @@ Utiliser une bibliothèque chiffrée désactive le partage.</value>
     <value>Services de mise en ligne d'images</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Paramètres de destination</value>
+    <value>UpLa - Paramètres de destination</value>
   </data>
   <data name="lvlVgymeUserKey.Text" xml:space="preserve">
     <value>Clé utilisateur :</value>

@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Resim efekti paketleyicisi</value>
+    <value>UpLa - Resim efekti paketleyicisi</value>
   </data>
   <data name="btnOpenImageEffectsFolder.Text" xml:space="preserve">
     <value>Resim efektleri klasörünü aç...</value>

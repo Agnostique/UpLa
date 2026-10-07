@@ -130,7 +130,7 @@
     <value>追加...</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - ホットキーの設定</value>
+    <value>UpLa - ホットキーの設定</value>
   </data>
   <data name="btnHotkeysDisabled.Text" xml:space="preserve">
     <value>ホットキーが無効になりました。ここをクリックすると有効になります。</value>

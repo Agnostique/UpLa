@@ -46,8 +46,8 @@ namespace ShareX.UploadersLib
         public const long MaxRequestSize = 100L * 1000 * 1000;
 
         public static readonly string[] ImageExtensions = { "jpg", "jpeg", "png", "bmp", "gif", "webp" };
-        // Accepted by Chevereto 4.1+ when video uploads are enabled on the server.
-        public static readonly string[] VideoExtensions = { "mp4", "webm", "mov" };
+        // The video formats enabled on upla.com.tr (Chevereto 4.1+). mov is left out: browsers often cannot play it.
+        public static readonly string[] VideoExtensions = { "mp4", "webm" };
 
         // Chevereto expiration values (ISO 8601 durations), same as upla.com.tr's own upload form.
         public static readonly string[] ExpirationPresets =
@@ -65,6 +65,15 @@ namespace ShareX.UploadersLib
                     // Earlier upla builds only had the Chevereto "direct link" checkbox.
                     LinkType = config.CheveretoDirectURL ? UplaLinkType.DirectLink : UplaLinkType.ViewerPage
                 };
+
+                // UpLa 1.0 kept the key in the Chevereto settings, where its default was the shared guest key. Only a
+                // personal key (Chevereto user keys start with "chv_") is carried over, as a key entered by hand.
+                string oldAPIKey = NormalizeAPIKey(config.CheveretoUploader?.APIKey);
+
+                if (oldAPIKey.StartsWith("chv_", StringComparison.Ordinal) && oldAPIKey != NormalizeAPIKey(APIKeys.UplaAPIKey))
+                {
+                    config.UplaSettings.PersonalAPIKey = oldAPIKey;
+                }
             }
 
             return config.UplaSettings;

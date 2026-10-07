@@ -171,7 +171,7 @@ Caso contrário é impossível acompanhar a gravação e irão ocorrer muitas fa
     <value>Instalar dispositivos de gravação</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Opções de gravação do ecrã</value>
+    <value>UpLa - Opções de gravação do ecrã</value>
   </data>
   <data name="nudGIFBayerScale.ToolTip" xml:space="preserve">
     <value>Controla o índice de escala Bayer; uma escala superior mostrará mais bandas. A predefinição é 2.</value>

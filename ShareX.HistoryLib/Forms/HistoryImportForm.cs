@@ -109,7 +109,7 @@ namespace ShareX.HistoryLib.Forms
 
             // TODO: Translate
             MessageBox.Show(string.Format("Successfully imported {0} files.", historyItems.Count),
-                "ShareX - Import complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                ShareXResources.Name + " - Import complete", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void txtFolderPath_TextChanged(object sender, EventArgs e)

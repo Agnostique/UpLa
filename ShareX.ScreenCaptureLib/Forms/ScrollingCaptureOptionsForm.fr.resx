@@ -145,7 +145,7 @@
     <value>Ignorer automatiquement le bord du bas</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Option de la capture par défilement</value>
+    <value>UpLa - Option de la capture par défilement</value>
   </data>
   <data name="lblStartDelayHint.Text" xml:space="preserve">
     <value>ms</value>

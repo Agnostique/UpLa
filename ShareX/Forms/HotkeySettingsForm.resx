@@ -405,7 +405,7 @@
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>ShareX - Hotkey settings</value>
+    <value>UpLa - Hotkey settings</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>HotkeySettingsForm</value>
