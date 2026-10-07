@@ -138,9 +138,6 @@
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_After_upload___0_" xml:space="preserve">
     <value>Nach dem Upload: {0}</value>
   </data>
-  <data name="InspectWindow_ProcessName" xml:space="preserve">
-    <value>Prozessname</value>
-  </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>Abbrechen</value>
   </data>
@@ -184,9 +181,6 @@ Soll ShareX neu gestartet werden?</value>
   </data>
   <data name="UploadTask_ThreadDoWork_URL_is_empty_" xml:space="preserve">
     <value>URL ist leer.</value>
-  </data>
-  <data name="InspectWindow_ClassName" xml:space="preserve">
-    <value>Klassenname</value>
   </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>Chronik</value>
@@ -236,14 +230,8 @@ Soll ShareX neu gestartet werden?</value>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Text__Length___0__" xml:space="preserve">
     <value>Inhalt der Zwischenablage: Text (Länge: {0})</value>
   </data>
-  <data name="InspectWindow_ProcessIdentifier" xml:space="preserve">
-    <value>Prozesskennzeichen</value>
-  </data>
   <data name="TaskSettingsForm_txtNameFormatPatternActiveWindow_TextChanged_Preview_" xml:space="preserve">
     <value>Vorschau:</value>
-  </data>
-  <data name="InspectWindow_ProcessFileName" xml:space="preserve">
-    <value>Name der Prozessdatei</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>Möchten Sie die ShareX-Einstellungen zurücksetzen?</value>
@@ -299,9 +287,6 @@ Bist du sicher?</value>
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>Deutsch</value>
-  </data>
-  <data name="InspectWindow_WindowRectangle" xml:space="preserve">
-    <value>Fensterrechteck</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>Möchten Sie die Bildeffekte aktivieren?
@@ -409,9 +394,6 @@ Soll ShareX neu gestartet werden?</value>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation" xml:space="preserve">
     <value>Dateilöschung bestätigen</value>
   </data>
-  <data name="InspectWindow_WindowStyles" xml:space="preserve">
-    <value>Fensterstile</value>
-  </data>
   <data name="MainForm_UpdateWorkflowsMenu_You_can_add_workflows_from_hotkey_settings___" xml:space="preserve">
     <value>Du kannst Arbeitsschritte aus den Hotkeyeinstellungen hinzufügen...</value>
   </data>
@@ -433,17 +415,11 @@ Soll ShareX neu gestartet werden?</value>
   <data name="Confirmation" xml:space="preserve">
     <value>Bestätigung</value>
   </data>
-  <data name="InspectWindow_WindowTitle" xml:space="preserve">
-    <value>Fenstertitel</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Image__Size___0_x_1__" xml:space="preserve">
     <value>Inhalt der Zwischenablage: Bild (Größe: {0}x{1})</value>
   </data>
   <data name="SwitchToListView" xml:space="preserve">
     <value>Zur Listenansicht wechseln</value>
-  </data>
-  <data name="InspectWindow_ExtendedWindowStyles" xml:space="preserve">
-    <value>Erweiterte Fensterstile</value>
   </data>
   <data name="UploadTask_OnUploadCompleted_Stopped" xml:space="preserve">
     <value>Angehalten</value>
@@ -481,9 +457,6 @@ Bitte starte ShareX als Administrator, um den Einstellungsordner zu ändern.</va
   <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByPolicy_Text" xml:space="preserve">
     <value>Autostart wurde durch Ihrer Organisation deaktiviert</value>
   </data>
-  <data name="InspectWindow_WindowHandle" xml:space="preserve">
-    <value>Fensteridentifikator</value>
-  </data>
   <data name="AboutForm_AboutForm_Language_it_IT" xml:space="preserve">
     <value>Italienisch</value>
   </data>
@@ -508,9 +481,6 @@ Bitte starte ShareX als Administrator, um den Einstellungsordner zu ändern.</va
 {1}
 
 Bitte wähle ein anderes Tastenkürzel aus oder beende das widersprüchliche Programm und starte ShareX neu.</value>
-  </data>
-  <data name="InspectWindow_ClientRectangle" xml:space="preserve">
-    <value>Client-Rechteck</value>
   </data>
   <data name="ClipboardUpload" xml:space="preserve">
     <value>Hochladen der Zwischenablage</value>

@@ -225,9 +225,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>克隆</value>
   </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>如果剪贴板包含一个文件夹路径，自动索引该文件夹并上传索引</value>
-  </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>如果剪贴板包含一个网址，使用网址分享服务分享它</value>
   </data>
@@ -275,24 +272,6 @@
   </data>
   <data name="cbScreenRecorderShowCursor.Text" xml:space="preserve">
     <value>在录像中显示鼠标指针</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>宽：</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>高：</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>缩略图名称：</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>预览</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>只有当图像尺寸大于缩略图大小时才创建缩略图</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>缩略图</value>
   </data>
   <data name="btnImageEffects.Text" xml:space="preserve">
     <value>图像特效配置...</value>

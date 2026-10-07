@@ -24,7 +24,6 @@
 #endregion License Information (GPL v3)
 
 using ShareX.HelpersLib;
-using ShareX.IndexerLib;
 using ShareX.Properties;
 using ShareX.UploadersLib;
 using System;
@@ -175,14 +174,7 @@ namespace ShareX
                     }
                 }
 
-                if (taskSettings.UploadSettings.ClipboardUploadAutoIndexFolder && text.Length <= 260 && Directory.Exists(text))
-                {
-                    IndexFolder(text, taskSettings);
-                }
-                else
-                {
-                    UploadText(text, taskSettings, true);
-                }
+                UploadText(text, taskSettings, true);
             }
         }
 
@@ -487,39 +479,5 @@ namespace ShareX
             }
         }
 
-        public static void IndexFolder(TaskSettings taskSettings = null)
-        {
-            string selectedPath = FileHelpers.BrowseFolder();
-
-            if (!string.IsNullOrEmpty(selectedPath))
-            {
-                IndexFolder(selectedPath, taskSettings);
-            }
-        }
-
-        public static void IndexFolder(string folderPath, TaskSettings taskSettings = null)
-        {
-            if (!string.IsNullOrEmpty(folderPath) && Directory.Exists(folderPath))
-            {
-                if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
-
-                taskSettings.ToolsSettings.IndexerSettings.BinaryUnits = Program.Settings.BinaryUnits;
-
-                string source = null;
-
-                Task.Run(() =>
-                {
-                    source = Indexer.Index(folderPath, taskSettings.ToolsSettings.IndexerSettings);
-                }).ContinueInCurrentContext(() =>
-                {
-                    if (!string.IsNullOrEmpty(source))
-                    {
-                        WorkerTask task = WorkerTask.CreateTextUploaderTask(source, taskSettings);
-                        task.Info.FileName = Path.ChangeExtension(task.Info.FileName, taskSettings.ToolsSettings.IndexerSettings.Output.ToString().ToLower());
-                        TaskManager.Start(task);
-                    }
-                });
-            }
-        }
     }
 }

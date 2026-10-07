@@ -273,24 +273,6 @@
   <data name="tpEffects.Text" xml:space="preserve">
     <value>אפקטים</value>
   </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>צור תמונה ממוזערת רק אם גודל התמונה גדול מגודל התמונה הממוזערת</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>תצוגה מקדימה</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>שם תמונה ממוזערת:</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>גובה:</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>רוחב:</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>תמונה ממוזערת</value>
-  </data>
   <data name="tpImage.Text" xml:space="preserve">
     <value>תמונה</value>
   </data>
@@ -503,9 +485,6 @@
   </data>
   <data name="cbClipboardUploadURLContents.Text" xml:space="preserve">
     <value>אם לוח הגזירה מכיל קישור, הורד והעלה אותו</value>
-  </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>אם הלוח מכיל נתיב תיקייה, צור אינדקס של תיקיה זו והעלה את האינדקס</value>
   </data>
   <data name="tpUploadClipboard.Text" xml:space="preserve">
     <value>העלאת לוח הגזירה</value>

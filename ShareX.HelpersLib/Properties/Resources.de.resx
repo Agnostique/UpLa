@@ -141,9 +141,6 @@
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>Wiederholen</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>Video-Thumbnailer</value>
-  </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>Unkenntlich machen</value>
   </data>
@@ -334,9 +331,6 @@ Soll sie heruntergeladen werden?</value>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Zufällig</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>Hash-Überprüfung</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>Bildschirmaufzeichnung mit dem aktiven Fensterbereich starten</value>
   </data>
@@ -360,9 +354,6 @@ Soll sie heruntergeladen werden?</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Yes" xml:space="preserve">
     <value>Ja</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>Bild-Thumbnailer</value>
   </data>
   <data name="ReplCodeMenuEntry_mon_Current_month_name__Local_language_" xml:space="preserve">
     <value>Derzeitiger Monatsname (Lokale Sprache)</value>
@@ -457,9 +448,6 @@ Soll sie heruntergeladen werden?</value>
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Dateipfad ohne Erweiterung + "Output Dateinamenserweiterung"</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>Ordner indizieren</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Unix Zeitstempel</value>
   </data>
@@ -535,9 +523,6 @@ Soll sie heruntergeladen und installiert werden?</value>
   </data>
   <data name="RandomEmojiRepeatUsingN" xml:space="preserve">
     <value>Zufälliges Emoji (Wiederholung mit {n})</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>Thumbnailbild zu Datei speichern</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>Lädt runter...</value>
@@ -689,9 +674,6 @@ Soll sie heruntergeladen und installiert werden?</value>
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>Bildschirmaufzeichnung (GIF) mit letztem Bereich starten</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>Monitortest</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Kopieren</value>
   </data>
@@ -721,9 +703,6 @@ Soll sie heruntergeladen und installiert werden?</value>
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>Farbauswähler</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Anhalten</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>Dateiuploader</value>
@@ -757,9 +736,6 @@ Soll sie heruntergeladen und installiert werden?</value>
   </data>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>Automatisch</value>
-  </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>Videokonvertierer</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Cancel" xml:space="preserve">
     <value>Abbrechen</value>
@@ -821,9 +797,6 @@ Soll sie heruntergeladen und installiert werden?</value>
   <data name="HotkeyType_UploadURL" xml:space="preserve">
     <value>Von URL hochladen</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>Bildteiler</value>
-  </data>
   <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
     <value>URL in Zwischenablage kopieren</value>
   </data>
@@ -835,18 +808,6 @@ Soll sie heruntergeladen und installiert werden?</value>
   </data>
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>Datei in Zwischenablage kopieren</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>Ergebnis der ersten Datei:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>Ergebnis der zweiten Datei:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>Ergebnis:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Ziel:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>Ende</value>
@@ -871,12 +832,6 @@ Soll sie heruntergeladen und installiert werden?</value>
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>Römische Ziffern (Großbuchstaben)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>Zwischenablage-Betrachter</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>Fenster überprüfen</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>Durchgehend</value>
@@ -1019,9 +974,6 @@ Soll sie heruntergeladen und installiert werden?</value>
   <data name="HotkeyType_ImageViewer" xml:space="preserve">
     <value>Bildbetrachter</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>Randloses Fenster</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>An Bildschirm anheften</value>
   </data>
@@ -1070,9 +1022,6 @@ Soll sie heruntergeladen und installiert werden?</value>
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>Bild verschönern</value>
   </data>
-  <data name="Check" xml:space="preserve">
-    <value>Überprüfen</value>
-  </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>Vorkonfiguriertes Fenster aufnehmen</value>
   </data>
@@ -1085,17 +1034,8 @@ Soll sie heruntergeladen und installiert werden?</value>
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>Dateigröße</value>
   </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>Aktives Fenster randlos machen</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>Aktives Fenster in den Vordergrund</value>
-  </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>An Bildschirm anheften (Alles schließen)</value>
-  </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>Metadaten</value>
   </data>
   <data name="ObjectListView_ObjectListView_Name" xml:space="preserve">
     <value>Name</value>
@@ -1132,9 +1072,6 @@ Soll sie heruntergeladen und installiert werden?</value>
   </data>
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>Transparent</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>Metadaten entfernen</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>QR-Code (Bereich scannen)</value>

@@ -216,20 +216,8 @@
   <data name="tsmiRuler.Text" xml:space="preserve">
     <value>Penggaris...</value>
   </data>
-  <data name="tsmiIndexFolder.Text" xml:space="preserve">
-    <value>Pengindeks direktori...</value>
-  </data>
   <data name="tsmiImageCombiner.Text" xml:space="preserve">
     <value>Penggabung gambar...</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
-    <value>Pemotret gambar...</value>
-  </data>
-  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
-    <value>Pemotret video...</value>
-  </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>Uji monitor...</value>
   </data>
   <data name="tsddbTools.Text" xml:space="preserve">
     <value>Alat</value>
@@ -504,20 +492,8 @@
   <data name="tsmiTrayRuler.Text" xml:space="preserve">
     <value>Penggaris...</value>
   </data>
-  <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
-    <value>Pengindeks direktori...</value>
-  </data>
   <data name="tsmiTrayImageCombiner.Text" xml:space="preserve">
     <value>Penggabung gambar...</value>
-  </data>
-  <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
-    <value>Pemotret gambar...</value>
-  </data>
-  <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
-    <value>Pemotret video...</value>
-  </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>Uji monitor...</value>
   </data>
   <data name="tsmiTrayTools.Text" xml:space="preserve">
     <value>Alat</value>
@@ -609,32 +585,11 @@
   <data name="tsmiImageViewer.Text" xml:space="preserve">
     <value>Penampil gambar...</value>
   </data>
-  <data name="tsmiImageSplitter.Text" xml:space="preserve">
-    <value>Pemecah gambar...</value>
-  </data>
-  <data name="tsmiVideoConverter.Text" xml:space="preserve">
-    <value>Pengonversi video...</value>
-  </data>
   <data name="tsmiAI.Text" xml:space="preserve">
     <value>Analisis gambar...</value>
   </data>
   <data name="tsmiOCR.Text" xml:space="preserve">
     <value>OCR...</value>
-  </data>
-  <data name="tsmiHashChecker.Text" xml:space="preserve">
-    <value>Pemeriksa hash...</value>
-  </data>
-  <data name="tsmiMetadata.Text" xml:space="preserve">
-    <value>Metadata...</value>
-  </data>
-  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
-    <value>Penampil clipboard...</value>
-  </data>
-  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
-    <value>Jendela tanpa bingkai...</value>
-  </data>
-  <data name="tsmiInspectWindow.Text" xml:space="preserve">
-    <value>Periksa jendela...</value>
   </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Pengaturan tujuan...</value>
@@ -699,32 +654,11 @@
   <data name="tsmiTrayImageViewer.Text" xml:space="preserve">
     <value>Penampil gambar...</value>
   </data>
-  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
-    <value>Pemecah gambar...</value>
-  </data>
-  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
-    <value>Pengonversi video...</value>
-  </data>
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>Analisis gambar...</value>
   </data>
   <data name="tsmiTrayOCR.Text" xml:space="preserve">
     <value>OCR...</value>
-  </data>
-  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
-    <value>Pemeriksa hash...</value>
-  </data>
-  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
-    <value>Metadata...</value>
-  </data>
-  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
-    <value>Penampil clipboard...</value>
-  </data>
-  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
-    <value>Jendela tanpa bingkai...</value>
-  </data>
-  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
-    <value>Periksa jendela...</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>Mulai ulang ShareX sebagai admin</value>

@@ -198,12 +198,6 @@
   <data name="tsmiRuler.Text" xml:space="preserve">
     <value>Meetlat...</value>
   </data>
-  <data name="tsmiIndexFolder.Text" xml:space="preserve">
-    <value>Indexmap...</value>
-  </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>Scherm tester...</value>
-  </data>
   <data name="tsddbAfterCaptureTasks.Text" xml:space="preserve">
     <value>Taken na vastleggen</value>
   </data>
@@ -408,12 +402,6 @@
   <data name="tsmiTrayRuler.Text" xml:space="preserve">
     <value>Liniaal...</value>
   </data>
-  <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
-    <value>Indexmap...</value>
-  </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>Test scherm...</value>
-  </data>
   <data name="tsmiTrayAfterCaptureTasks.Text" xml:space="preserve">
     <value>Na vastleggen</value>
   </data>
@@ -513,12 +501,6 @@
   <data name="tsmiTrayToggleHotkeys.Text" xml:space="preserve">
     <value>Schakel sneltoetsen uit</value>
   </data>
-  <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
-    <value>Videominiatuur...</value>
-  </data>
-  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
-    <value>Videominiatuur...</value>
-  </data>
   <data name="tsmiImageCombiner.Text" xml:space="preserve">
     <value>Combineer afbeeldingen...</value>
   </data>
@@ -588,35 +570,11 @@
   <data name="tsmiImageViewer.Text" xml:space="preserve">
     <value>Afbeeldingsviewer...</value>
   </data>
-  <data name="tsmiImageSplitter.Text" xml:space="preserve">
-    <value>Afbeeldingssplitser...</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
-    <value>Afbeeldingsminiaturen...</value>
-  </data>
-  <data name="tsmiVideoConverter.Text" xml:space="preserve">
-    <value>Videoconverter...</value>
-  </data>
   <data name="tsmiAI.Text" xml:space="preserve">
     <value>Afbeelding analyseren...</value>
   </data>
   <data name="tsmiOCR.Text" xml:space="preserve">
     <value>OCR...</value>
-  </data>
-  <data name="tsmiHashChecker.Text" xml:space="preserve">
-    <value>Hashcontrole...</value>
-  </data>
-  <data name="tsmiMetadata.Text" xml:space="preserve">
-    <value>Metagegevens...</value>
-  </data>
-  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
-    <value>Klembord weergaveer...</value>
-  </data>
-  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
-    <value>Borderless venster...</value>
-  </data>
-  <data name="tsmiInspectWindow.Text" xml:space="preserve">
-    <value>Venster inspecteren...</value>
   </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Bestemmingsinstellingen...</value>
@@ -693,35 +651,11 @@
   <data name="tsmiTrayImageViewer.Text" xml:space="preserve">
     <value>Afbeeldingsviewer...</value>
   </data>
-  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
-    <value>Afbeeldingssplitser...</value>
-  </data>
-  <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
-    <value>Afbeeldingsminiaturen...</value>
-  </data>
-  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
-    <value>Videoconverter...</value>
-  </data>
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>Afbeelding analyseren...</value>
   </data>
   <data name="tsmiTrayOCR.Text" xml:space="preserve">
     <value>OCR...</value>
-  </data>
-  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
-    <value>Hashcontrole...</value>
-  </data>
-  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
-    <value>Metagegevens...</value>
-  </data>
-  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
-    <value>Klembord weergaveer...</value>
-  </data>
-  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
-    <value>Borderless venster...</value>
-  </data>
-  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
-    <value>Venster inspecteren...</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>Restarten ShareX as admin</value>

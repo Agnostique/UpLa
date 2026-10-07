@@ -141,9 +141,6 @@
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>Повторити</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>Генератор мініатюр відео</value>
-  </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>Розмиття (B)</value>
   </data>
@@ -334,9 +331,6 @@
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Випадкові числа</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>Перевірка контрольної суми</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>Почати/зупинити запис області екрану з активним вікном</value>
   </data>
@@ -360,9 +354,6 @@
   </data>
   <data name="MyMessageBox_MyMessageBox_Yes" xml:space="preserve">
     <value>Так</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>Генератор мініатюр зображень</value>
   </data>
   <data name="ReplCodeMenuEntry_mon_Current_month_name__Local_language_" xml:space="preserve">
     <value>Назва місяця (місцевою мовою)</value>
@@ -460,9 +451,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Шлях до файлу без розширення + "Розширення кінцевого файлу"</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>Індексація теки</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Позначка часу Unix</value>
   </data>
@@ -538,9 +526,6 @@
   </data>
   <data name="RandomEmojiRepeatUsingN" xml:space="preserve">
     <value>Випадковий емодзі (Повторити за допомогою {n})</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>Зберегти мініатюру зображення у файл</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>Завантаження...</value>
@@ -692,9 +677,6 @@
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>Почати/зупинити запис останньої області екрану (GIF)</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>Тест монітора</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Копіювати</value>
   </data>
@@ -724,9 +706,6 @@
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>Вибір кольору</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Зупинити</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>Вивантажувач файлів</value>
@@ -760,9 +739,6 @@
   </data>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>Автоматично</value>
-  </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>Конвертер відео</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Cancel" xml:space="preserve">
     <value>Скасувати</value>
@@ -824,9 +800,6 @@
   <data name="HotkeyType_UploadURL" xml:space="preserve">
     <value>Вивантажити з посилання</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>Розділювач зображень</value>
-  </data>
   <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
     <value>Копіювати посилання у буфер обміну</value>
   </data>
@@ -838,18 +811,6 @@
   </data>
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>Копіювати файл у буфер обміну</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>Результат першого файлу:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>Результат другого файлу:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>Результат:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Ціль:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>Кінець</value>
@@ -874,12 +835,6 @@
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>Римські цифри (верхній регістр)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>Переглядач буфера обміну</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>Перевірити вікно</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>Суцільна</value>
@@ -1031,9 +986,6 @@
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>Розпізнавання тексту (OCR)</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>Безрамкове вікно</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>Закріпити на екрані</value>
   </data>
@@ -1082,9 +1034,6 @@
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>Покращити зображення</value>
   </data>
-  <data name="Check" xml:space="preserve">
-    <value>Перевірити</value>
-  </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>Захоплення попередньо налаштованого вікна</value>
   </data>
@@ -1096,12 +1045,6 @@
   </data>
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>Розмір файлу</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>Зробити активне вікно без рамок</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>Розмістити активне вікно поверх інших</value>
   </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>Закріпити на екрані (закрити все)</value>
@@ -1120,12 +1063,6 @@
   </data>
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>Прозорість</value>
-  </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>Метадані</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>Вилучити метадані</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>QR-код (сканувати область)</value>

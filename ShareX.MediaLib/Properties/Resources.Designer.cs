@@ -163,24 +163,6 @@ namespace ShareX.MediaLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Higher quality/size.
-        /// </summary>
-        internal static string HigherQualitySize {
-            get {
-                return ResourceManager.GetString("HigherQualitySize", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Lower quality/size.
-        /// </summary>
-        internal static string LowerQualitySize {
-            get {
-                return ResourceManager.GetString("LowerQualitySize", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap minus_white {
@@ -211,48 +193,12 @@ namespace ShareX.MediaLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Start encoding.
-        /// </summary>
-        internal static string StartEncoding {
-            get {
-                return ResourceManager.GetString("StartEncoding", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Stop encoding.
-        /// </summary>
-        internal static string StopEncoding {
-            get {
-                return ResourceManager.GetString("StopEncoding", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Thumbnails successfully generated..
-        /// </summary>
-        internal static string ThumbnailsSuccessfullyGenerated {
-            get {
-                return ResourceManager.GetString("ThumbnailsSuccessfullyGenerated", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap upload_cloud {
             get {
                 object obj = ResourceManager.GetObject("upload-cloud", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Browse for media file.
-        /// </summary>
-        internal static string VideoThumbnailerForm_btnBrowse_Click_Browse_for_media_file {
-            get {
-                return ResourceManager.GetString("VideoThumbnailerForm_btnBrowse_Click_Browse_for_media_file", resourceCulture);
             }
         }
         

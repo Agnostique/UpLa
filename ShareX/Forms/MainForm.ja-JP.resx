@@ -222,20 +222,8 @@
   <data name="tsmiRuler.Text" xml:space="preserve">
     <value>定規...</value>
   </data>
-  <data name="tsmiIndexFolder.Text" xml:space="preserve">
-    <value>フォルダ内一覧の作成...</value>
-  </data>
   <data name="tsmiImageCombiner.Text" xml:space="preserve">
     <value>画像の結合...</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
-    <value>画像のサムネイル作成...</value>
-  </data>
-  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
-    <value>動画のサムネイル作成...</value>
-  </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>モニター テスト...</value>
   </data>
   <data name="tsddbAfterCaptureTasks.Text" xml:space="preserve">
     <value>キャプチャー後のタスク</value>
@@ -510,20 +498,8 @@
   <data name="tsmiTrayRuler.Text" xml:space="preserve">
     <value>定規...</value>
   </data>
-  <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
-    <value>フォルダ内一覧の作成...</value>
-  </data>
   <data name="tsmiTrayImageCombiner.Text" xml:space="preserve">
     <value>画像の結合...</value>
-  </data>
-  <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
-    <value>画像のサムネイル作成...</value>
-  </data>
-  <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
-    <value>動画のサムネイル作成...</value>
-  </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>モニター テスト...</value>
   </data>
   <data name="tsmiTrayAfterCaptureTasks.Text" xml:space="preserve">
     <value>キャプチャー後のタスク</value>
@@ -621,12 +597,6 @@
   <data name="tsmiScreenshotDelay.Text" xml:space="preserve">
     <value>キャプチャーを遅らせて起動</value>
   </data>
-  <data name="tsmiImageSplitter.Text" xml:space="preserve">
-    <value>画像の分割...</value>
-  </data>
-  <data name="tsmiVideoConverter.Text" xml:space="preserve">
-    <value>動画の変換...</value>
-  </data>
   <data name="tsmiAddImageEffects.Text" xml:space="preserve">
     <value>画像エフェクトを追加...</value>
   </data>
@@ -639,29 +609,11 @@
   <data name="tsmiTrayScreenshotDelay.Text" xml:space="preserve">
     <value>キャプチャーを遅らせて起動</value>
   </data>
-  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
-    <value>画像の分割...</value>
-  </data>
-  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
-    <value>動画の変換...</value>
-  </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>管理者権限で再起動</value>
   </data>
-  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
-    <value>クリップボードビューアー...</value>
-  </data>
-  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
-    <value>クリップボードビューアー...</value>
-  </data>
   <data name="tsmiCopyImageDimensions.Text" xml:space="preserve">
     <value>画像のサイズ</value>
-  </data>
-  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
-    <value>ウィンドウの調査...</value>
-  </data>
-  <data name="tsmiInspectWindow.Text" xml:space="preserve">
-    <value>ウィンドウの調査...</value>
   </data>
   <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
     <value>横に並べて結合</value>
@@ -681,12 +633,6 @@
   <data name="tsmiPinToScreen.Text" xml:space="preserve">
     <value>最前面に固定...</value>
   </data>
-  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
-    <value>ボーダーレスウィンドウ...</value>
-  </data>
-  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
-    <value>ボーダーレスウィンドウ...</value>
-  </data>
   <data name="tsbX.Text" xml:space="preserve">
     <value>@ShareXをフォロー...</value>
   </data>
@@ -695,12 +641,6 @@
   </data>
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>説明</value>
-  </data>
-  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
-    <value>ハッシュ値の照合...</value>
-  </data>
-  <data name="tsmiHashChecker.Text" xml:space="preserve">
-    <value>ハッシュ値の照合...</value>
   </data>
   <data name="tsmiImageBeautifier.Text" xml:space="preserve">
     <value>画像装飾...</value>
@@ -713,9 +653,6 @@
   </data>
   <data name="tsmiOCR.Text" xml:space="preserve">
     <value>OCR...</value>
-  </data>
-  <data name="tsmiMetadata.Text" xml:space="preserve">
-    <value>メタデータ...</value>
   </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Destination 設定...</value>
@@ -731,8 +668,5 @@
   </data>
   <data name="tsmiTrayOCR.Text" xml:space="preserve">
     <value>OCR...</value>
-  </data>
-  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
-    <value>メタデータ...</value>
   </data>
 </root>

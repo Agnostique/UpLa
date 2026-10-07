@@ -135,29 +135,11 @@
   <data name="AlignmentBottom" xml:space="preserve">
     <value>أسفل</value>
   </data>
-  <data name="LowerQualitySize" xml:space="preserve">
-    <value>جودة/حجم أقل</value>
-  </data>
   <data name="AlignmentRight" xml:space="preserve">
     <value>يمين</value>
   </data>
-  <data name="StartEncoding" xml:space="preserve">
-    <value>بدء الترميز</value>
-  </data>
-  <data name="StopEncoding" xml:space="preserve">
-    <value>إيقاف عملية الترميز</value>
-  </data>
-  <data name="ThumbnailsSuccessfullyGenerated" xml:space="preserve">
-    <value>تم توليد الصور المصغرة.</value>
-  </data>
   <data name="AlignmentTop" xml:space="preserve">
     <value>أعلى</value>
-  </data>
-  <data name="HigherQualitySize" xml:space="preserve">
-    <value>جودة/حجم أعلى</value>
-  </data>
-  <data name="VideoThumbnailerForm_btnBrowse_Click_Browse_for_media_file" xml:space="preserve">
-    <value>تحديد ملف وسائط</value>
   </data>
   <data name="AlignmentLeft" xml:space="preserve">
     <value>يسار</value>

@@ -254,9 +254,6 @@
   <data name="tsmiImageCombiner.Text" xml:space="preserve">
     <value>ترکیب کننده عکس...</value>
   </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>تست صفحه نمایش ...</value>
-  </data>
   <data name="tsddbTools.Text" xml:space="preserve">
     <value>ابزار</value>
   </data>
@@ -308,9 +305,6 @@
   <data name="tsbAbout.Text" xml:space="preserve">
     <value>درباره ما ...</value>
   </data>
-  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
-    <value>خلاصه کننده ویدئو ...</value>
-  </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>سرویس های اشتراک گذاری لینک</value>
   </data>
@@ -325,9 +319,6 @@
   </data>
   <data name="tsmiTrayWindow.Text" xml:space="preserve">
     <value>پنجره</value>
-  </data>
-  <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
-    <value>خلاصه کننده ویدئو ...</value>
   </data>
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>سرویس های اشتراک گذاری لینک</value>
@@ -413,23 +404,14 @@
   <data name="tsmiTrayQRCode.Text" xml:space="preserve">
     <value>کد QR ...</value>
   </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>تست صفحه نمایش ...</value>
-  </data>
   <data name="tsmiTrayMonitor.Text" xml:space="preserve">
     <value>صفحه نمایش</value>
   </data>
   <data name="tsmiTrayLastRegion.Text" xml:space="preserve">
     <value>آخرین ناحیه</value>
   </data>
-  <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
-    <value>لیست کننده کل دایرکتوری ...</value>
-  </data>
   <data name="tsmiTrayImageUploaders.Text" xml:space="preserve">
     <value>آپلودکننده های عکس</value>
-  </data>
-  <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
-    <value>خلاصه کننده عکس ...</value>
   </data>
   <data name="tsmiTrayImageHistory.Text" xml:space="preserve">
     <value>تاریخچه عکس ...</value>
@@ -527,9 +509,6 @@
   <data name="tsmiOpenDeletionURL.Text" xml:space="preserve">
     <value>آدرس حذف</value>
   </data>
-  <data name="tsmiIndexFolder.Text" xml:space="preserve">
-    <value>لیست کننده کل دایرکتوری ...</value>
-  </data>
   <data name="tsmiDownloadSelectedURL.Text" xml:space="preserve">
     <value>دانلود (بارگذاری)</value>
   </data>
@@ -577,9 +556,6 @@
   </data>
   <data name="tsmiCopyImageDimensions.Text" xml:space="preserve">
     <value>ابعاد عکس</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
-    <value>خلاصه کننده عکس ...</value>
   </data>
   <data name="tsmiImageUploaders.Text" xml:space="preserve">
     <value>آپلودکننده های عکس</value>
@@ -692,32 +668,11 @@
   <data name="tsmiImageViewer.Text" xml:space="preserve">
     <value>نمایشگر تصویر...</value>
   </data>
-  <data name="tsmiImageSplitter.Text" xml:space="preserve">
-    <value>تقسیم‌کننده تصویر...</value>
-  </data>
-  <data name="tsmiVideoConverter.Text" xml:space="preserve">
-    <value>مبدل ویدئو...</value>
-  </data>
   <data name="tsmiAI.Text" xml:space="preserve">
     <value>تحلیل تصویر...</value>
   </data>
   <data name="tsmiOCR.Text" xml:space="preserve">
     <value>OCR...</value>
-  </data>
-  <data name="tsmiHashChecker.Text" xml:space="preserve">
-    <value>بررسی‌کننده هش...</value>
-  </data>
-  <data name="tsmiMetadata.Text" xml:space="preserve">
-    <value>فراداده...</value>
-  </data>
-  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
-    <value>نمایشگر کلیپ‌بورد...</value>
-  </data>
-  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
-    <value>پنجره بدون حاشیه...</value>
-  </data>
-  <data name="tsmiInspectWindow.Text" xml:space="preserve">
-    <value>بازرسی پنجره...</value>
   </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>تنظیمات مقصد...</value>
@@ -776,32 +731,11 @@
   <data name="tsmiTrayImageViewer.Text" xml:space="preserve">
     <value>نمایشگر تصویر...</value>
   </data>
-  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
-    <value>تقسیم‌کننده تصویر...</value>
-  </data>
-  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
-    <value>مبدل ویدئو...</value>
-  </data>
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>تحلیل تصویر...</value>
   </data>
   <data name="tsmiTrayOCR.Text" xml:space="preserve">
     <value>OCR...</value>
-  </data>
-  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
-    <value>بررسی‌کننده هش...</value>
-  </data>
-  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
-    <value>فراداده...</value>
-  </data>
-  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
-    <value>نمایشگر کلیپ‌بورد...</value>
-  </data>
-  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
-    <value>پنجره بدون حاشیه...</value>
-  </data>
-  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
-    <value>بازرسی پنجره...</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>راه‌اندازی دوباره ShareX به‌عنوان مدیر</value>

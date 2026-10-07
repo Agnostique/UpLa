@@ -222,9 +222,6 @@
   <data name="GIFQuality_Bit4" xml:space="preserve">
     <value>16 colores de Octree cuantificador</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>Verificación hash</value>
-  </data>
   <data name="ReplCodeMenuEntry_rn_Random_number_0_to_9" xml:space="preserve">
     <value>Número aleatorio de 0 a 9</value>
   </data>
@@ -297,9 +294,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Ruta de archivos sin extensión + "Extension de nombre de archivo de salida"</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>Carpeta de índice</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Marca de tiempo Unix</value>
   </data>
@@ -330,9 +324,6 @@
   </data>
   <data name="Extensions_AddContextMenu_Paste" xml:space="preserve">
     <value>Pegar</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>Guardar imagen en miniatura a archivo</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>Descargando.</value>
@@ -439,9 +430,6 @@
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>Selector de color</value>
   </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Detener</value>
-  </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>Cargador de archivos</value>
   </data>
@@ -493,17 +481,11 @@
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>Copiar el archivo al portapapeles</value>
   </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>Metadatos</value>
-  </data>
   <data name="ShapeType_RegionFreehand" xml:space="preserve">
     <value>Freehand región</value>
   </data>
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>Rehacer</value>
-  </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>Video miniaturaer</value>
   </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>Desenfocar (B)</value>
@@ -610,9 +592,6 @@ Would you like to descarga it?</value>
   </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>Iniciar/Detener grabación de pantalla using active ventana región</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>Imagen miniaturaer</value>
   </data>
   <data name="ShapeType_DrawingImage" xml:space="preserve">
     <value>Imagen (Archivo)</value>
@@ -770,9 +749,6 @@ Would you like to descarga it?</value>
   <data name="PNGBitDepth_Default" xml:space="preserve">
     <value>Predeterminado</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>Prueba de monitor</value>
-  </data>
   <data name="HotkeyType_Category_Tools" xml:space="preserve">
     <value>Herramientas</value>
   </data>
@@ -796,9 +772,6 @@ Would you like to descarga it?</value>
   </data>
   <data name="RegionCaptureAction_RemoveShape" xml:space="preserve">
     <value>Quitar shape</value>
-  </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>Convertidor de vídeo</value>
   </data>
   <data name="HotkeyType_OpenMainWindow" xml:space="preserve">
     <value>Abrir main ventana</value>
@@ -836,23 +809,8 @@ Would you like to descarga it?</value>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>Crop imagen (C)</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>Imagen splitter</value>
-  </data>
   <data name="Extensions_AddContextMenu_Undo" xml:space="preserve">
     <value>Deshacer</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>Resultado of first archivo:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>Resultado of second archivo:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>Resultado:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Destino:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>Fin</value>
@@ -877,12 +835,6 @@ Would you like to descarga it?</value>
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>Números romanos (mayúsculas)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>Portapapeles viewer</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>Inspect ventana</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>Sólido</value>
@@ -1034,9 +986,6 @@ Would you like to descarga it?</value>
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>OCR</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>Bordeless ventana</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>Anclar a la pantalla</value>
   </data>
@@ -1085,9 +1034,6 @@ Would you like to descarga it?</value>
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>Embellecer imagen</value>
   </data>
-  <data name="Check" xml:space="preserve">
-    <value>Comprobar</value>
-  </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>Captura pre configured ventana</value>
   </data>
@@ -1109,12 +1055,6 @@ Would you like to descarga it?</value>
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>Archivo tamaño</value>
   </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>Make active ventana bordeless</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>Make active ventana superior most</value>
-  </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>Pin to pantalla (Close all)</value>
   </data>
@@ -1132,9 +1072,6 @@ Would you like to descarga it?</value>
   </data>
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>Transparente</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>Quitar metadatos</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>QR code (Scan región)</value>

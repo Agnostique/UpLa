@@ -138,9 +138,6 @@
   <data name="CssFileNameEditor_EditValue_Browse_for_a_Cascading_Style_Sheet___" xml:space="preserve">
     <value>Cerca CSS...</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>Generatore Miniature Video</value>
-  </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>Effetto: Sfoca</value>
   </data>
@@ -316,9 +313,6 @@ Vuoi scaricarla ora?</value>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Casuale</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>Controlla Hash</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>Avvia/Ferma Registrazione Schermo usando la Finestra Attiva</value>
   </data>
@@ -427,9 +421,6 @@ Vuoi scaricarla ora?</value>
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Percorso File senza Estensione</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>Indicizza Cartella</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Orario Unix</value>
   </data>
@@ -484,9 +475,6 @@ Vuoi scaricarla e installarla ora?</value>
   </data>
   <data name="ReplCodeMenuCategory_Incremental" xml:space="preserve">
     <value>Incrementale</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>Salva Miniatura Immagine</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>Scaricamento.</value>
@@ -617,9 +605,6 @@ Vuoi scaricarla e installarla ora?</value>
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>Avvia/Ferma Registrazione Schermo (GIF) usando l'Ultima Regione</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>Prova Monitor</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Copia</value>
   </data>
@@ -646,9 +631,6 @@ Vuoi scaricarla e installarla ora?</value>
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>Selezione Colore</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Ferma</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>Servizio Caricamento File</value>
@@ -734,9 +716,6 @@ Vuoi scaricarla e installarla ora?</value>
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>Copia File negli Appunti</value>
   </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>Metadati</value>
-  </data>
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>Ripeti</value>
   </data>
@@ -754,9 +733,6 @@ Vuoi scaricarla e installarla ora?</value>
   </data>
   <data name="Extensions_AddContextMenu_SelectAll" xml:space="preserve">
     <value>Seleziona tutto</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>Immagine miniaturaer</value>
   </data>
   <data name="ImageEditorStartMode_PreviousState" xml:space="preserve">
     <value>Stato precedente</value>
@@ -821,9 +797,6 @@ Vuoi scaricarla e installarla ora?</value>
   <data name="ObjectListView_ObjectListView_Copy_name" xml:space="preserve">
     <value>Copia name</value>
   </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>Convertitore video</value>
-  </data>
   <data name="ImageEditorStartMode_Maximized" xml:space="preserve">
     <value>Massimizzata</value>
   </data>
@@ -836,23 +809,8 @@ Vuoi scaricarla e installarla ora?</value>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>Crop immagine (C)</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>Divisore immagini</value>
-  </data>
   <data name="Extensions_AddContextMenu_Undo" xml:space="preserve">
     <value>Annulla</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>Risultato of first file:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>Risultato of second file:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>Risultato:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Destinazione:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>Fine</value>
@@ -877,12 +835,6 @@ Vuoi scaricarla e installarla ora?</value>
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>Numeri romani (maiuscoli)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>Visualizzatore appunti</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>Ispeziona finestra</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>Continuo</value>
@@ -1034,9 +986,6 @@ Vuoi scaricarla e installarla ora?</value>
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>OCR</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>Finestra senza bordi</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>Fissa allo schermo</value>
   </data>
@@ -1085,9 +1034,6 @@ Vuoi scaricarla e installarla ora?</value>
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>Abbellisci immagine</value>
   </data>
-  <data name="Check" xml:space="preserve">
-    <value>Controlla</value>
-  </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>Acquisizione pre configured finestra</value>
   </data>
@@ -1109,12 +1055,6 @@ Vuoi scaricarla e installarla ora?</value>
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>Dimensione file</value>
   </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>Make active finestra borderless</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>Make active finestra alto most</value>
-  </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>Pin to schermo (Close all)</value>
   </data>
@@ -1132,9 +1072,6 @@ Vuoi scaricarla e installarla ora?</value>
   </data>
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>Trasparente</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>Rimuovi metadati</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>QR code (Scan area)</value>

@@ -225,9 +225,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>Dupliquer</value>
   </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>Si le presse-papier contient un chemin de dossier, indexer ce dossier et mettre en ligne l'index</value>
-  </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>Si le presse-papier contient une URL, la partager en utilisant le service de partage de URL</value>
   </data>
@@ -275,24 +272,6 @@
   </data>
   <data name="cbScreenRecorderShowCursor.Text" xml:space="preserve">
     <value>Montrer le curseur durant l'enregistrement</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>Largeur :</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>Hauteur :</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>Nom de la miniature :</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>Prévisualisation</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>Créer une miniature seulement si la taille de l'image est plus grande que la taille de la miniature</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>Miniature</value>
   </data>
   <data name="btnImageEffects.Text" xml:space="preserve">
     <value>Configuration des effets d'image...</value>

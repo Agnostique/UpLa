@@ -309,24 +309,6 @@
   <data name="btnImageEffects.Text" xml:space="preserve">
     <value>Configurarea efectelor de imagine...</value>
   </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>Miniatură</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>Creați miniatura numai dacă dimensiunea imaginii este mai mare decât dimensiunea miniaturii</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>Previzualizare</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>Numele miniaturii:</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>Înălțime:</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>Lățime:</value>
-  </data>
   <data name="lblScreenshotDelay.Text" xml:space="preserve">
     <value>Întârzierea capturii de ecran:</value>
   </data>
@@ -524,9 +506,6 @@
   </data>
   <data name="cbClipboardUploadURLContents.Text" xml:space="preserve">
     <value>Dacă clipboard-ul conține un URL de fișier, atunci descărcați-l și încărcați-l</value>
-  </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>În cazul în care clipboard-ul conține o cale de folder, atunci indexați acel folder și încărcați indexul</value>
   </data>
   <data name="tpUploaderFilters.Text" xml:space="preserve">
     <value>Filtre de încărcare</value>

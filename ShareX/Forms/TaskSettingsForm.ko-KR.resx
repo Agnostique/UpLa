@@ -216,9 +216,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>복제</value>
   </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>클립보드가 폴더 경로를 포함하고 있으면 폴더 색인을 생성하고 그 색인을 업로드하기</value>
-  </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>클립보드가 URL을 포함하고 있으면 URL 공유 서비스를 이용해 공유하기</value>
   </data>
@@ -260,24 +257,6 @@
   </data>
   <data name="btnScreenRecorderFFmpegOptions.Text" xml:space="preserve">
     <value>FFmpeg 설정하기...</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>너비:</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>높이:</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>섬네일 이름:</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>미리보기</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>이미지 크기가 섬네일 크기보다 클 때에만 섬네일 생성하기</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>섬네일</value>
   </data>
   <data name="btnImageEffects.Text" xml:space="preserve">
     <value>이미지 효과 설정...</value>

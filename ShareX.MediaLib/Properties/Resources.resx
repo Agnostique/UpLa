@@ -121,20 +121,11 @@
   <data name="document-copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\document-copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ThumbnailsSuccessfullyGenerated" xml:space="preserve">
-    <value>Thumbnails successfully generated.</value>
-  </data>
   <data name="disks-black" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\disks-black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AlignmentTop" xml:space="preserve">
     <value>Top</value>
-  </data>
-  <data name="StopEncoding" xml:space="preserve">
-    <value>Stop encoding</value>
-  </data>
-  <data name="HigherQualitySize" xml:space="preserve">
-    <value>Higher quality/size</value>
   </data>
   <data name="AlignmentBottom" xml:space="preserve">
     <value>Bottom</value>
@@ -144,9 +135,6 @@
   </data>
   <data name="AlignmentRight" xml:space="preserve">
     <value>Right</value>
-  </data>
-  <data name="StartEncoding" xml:space="preserve">
-    <value>Start encoding</value>
   </data>
   <data name="plus-white" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\plus-white.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,9 +148,6 @@
   <data name="upload-cloud" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\upload-cloud.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="VideoThumbnailerForm_btnBrowse_Click_Browse_for_media_file" xml:space="preserve">
-    <value>Browse for media file</value>
-  </data>
   <data name="printer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\printer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -174,9 +159,6 @@
   </data>
   <data name="Confirmation" xml:space="preserve">
     <value>Confirmation</value>
-  </data>
-  <data name="LowerQualitySize" xml:space="preserve">
-    <value>Lower quality/size</value>
   </data>
   <data name="disk-black" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\disk-black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

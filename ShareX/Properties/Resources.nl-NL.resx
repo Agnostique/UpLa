@@ -359,9 +359,6 @@ Gelieve een andere sneltoets te selecteren of sluit het conflicterende programma
   <data name="AboutForm_AboutForm_Language_pt_PT" xml:space="preserve">
     <value>Portugees</value>
   </data>
-  <data name="InspectWindow_ProcessName" xml:space="preserve">
-    <value>Procesnaam</value>
-  </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>Annuleren</value>
   </data>
@@ -392,9 +389,6 @@ Gelieve een andere sneltoets te selecteren of sluit het conflicterende programma
   <data name="AboutForm_AboutForm_Credits" xml:space="preserve">
     <value>Crbewerkens</value>
   </data>
-  <data name="InspectWindow_ClassName" xml:space="preserve">
-    <value>Klassenaam</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__File__Count___0__" xml:space="preserve">
     <value>Klembord content: Bestand (Count: {0})</value>
   </data>
@@ -409,12 +403,6 @@ Gelieve een andere sneltoets te selecteren of sluit het conflicterende programma
   </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Text__Length___0__" xml:space="preserve">
     <value>Klembord content: Text (Length: {0})</value>
-  </data>
-  <data name="InspectWindow_ProcessIdentifier" xml:space="preserve">
-    <value>Proces-id</value>
-  </data>
-  <data name="InspectWindow_ProcessFileName" xml:space="preserve">
-    <value>Process bestandsnaam</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>Would you like to resetten ShareX instellingen?</value>
@@ -442,9 +430,6 @@ Gelieve een andere sneltoets te selecteren of sluit het conflicterende programma
   </data>
   <data name="ThisFeatureWillNotWorkWhenDisableUploadOptionIsEnabled" xml:space="preserve">
     <value>This feature will not work when "DisableUploaden" option is inschakelend!</value>
-  </data>
-  <data name="InspectWindow_WindowRectangle" xml:space="preserve">
-    <value>Venster recthoek</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>Would you like to inschakelen afbeelding effects?
@@ -507,9 +492,6 @@ Would you like to restarten ShareX?</value>
   <data name="ScreenColorPicker" xml:space="preserve">
     <value>Scherm kleur picker</value>
   </data>
-  <data name="InspectWindow_WindowStyles" xml:space="preserve">
-    <value>Venster styles</value>
-  </data>
   <data name="ShareXConfirmation" xml:space="preserve">
     <value>ShareX - Bevestiging</value>
   </data>
@@ -519,17 +501,11 @@ Would you like to restarten ShareX?</value>
   <data name="Confirmation" xml:space="preserve">
     <value>Bevestiging</value>
   </data>
-  <data name="InspectWindow_WindowTitle" xml:space="preserve">
-    <value>Venster titel</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Image__Size___0_x_1__" xml:space="preserve">
     <value>Klembord content: Afbeelding (Grootte: {0}x{1})</value>
   </data>
   <data name="SwitchToListView" xml:space="preserve">
     <value>Overschakelen naar lijstweergave</value>
-  </data>
-  <data name="InspectWindow_ExtendedWindowStyles" xml:space="preserve">
-    <value>Extended venster styles</value>
   </data>
   <data name="FFmpeg_FFmpeg_video_and_audio_source_both_can_t_be__None__" xml:space="preserve">
     <value>FFmpeg-video- en audiobron kunnen niet allebei "Geen" zijn.</value>
@@ -548,17 +524,11 @@ Do you want to abort the active scherm opname?</value>
   <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByPolicy_Text" xml:space="preserve">
     <value>Startenup has been uitgeschakeld by your organization</value>
   </data>
-  <data name="InspectWindow_WindowHandle" xml:space="preserve">
-    <value>Venster handle</value>
-  </data>
   <data name="AboutForm_AboutForm_Language_it_IT" xml:space="preserve">
     <value>Italiaans</value>
   </data>
   <data name="FailedToSaveSettings" xml:space="preserve">
     <value>Failed to opslaan instellingen</value>
-  </data>
-  <data name="InspectWindow_ClientRectangle" xml:space="preserve">
-    <value>Client recthoek</value>
   </data>
   <data name="AboutForm_AboutForm_Team" xml:space="preserve">
     <value>Team</value>

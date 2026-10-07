@@ -115,7 +115,6 @@ ImageListView: https://github.com/oozcitak/imagelistview
 FFmpeg: https://www.ffmpeg.org
 Recorder devices: https://github.com/rdp/screen-capture-recorder-to-video-windows-free
 ZXing.Net: https://github.com/micjahn/ZXing.Net
-ExifTool: https://exiftool.org
 ", FontStyle.Regular);
 
             rtbInfo.AppendText("Copyright (c) 2007-2026 ShareX Team", FontStyle.Bold, 13);

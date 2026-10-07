@@ -141,9 +141,6 @@
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>Rehacer</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>Generador de miniaturas de video</value>
-  </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>Desenfocado (B)</value>
   </data>
@@ -334,9 +331,6 @@
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Aleatorio</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>Verificación de hash</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>Iniciar o detener grabación de pantalla una región de ventana activa</value>
   </data>
@@ -360,9 +354,6 @@
   </data>
   <data name="MyMessageBox_MyMessageBox_Yes" xml:space="preserve">
     <value>Sí</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>Generador de miniaturas de imágenes</value>
   </data>
   <data name="ReplCodeMenuEntry_mon_Current_month_name__Local_language_" xml:space="preserve">
     <value>Nombre del mes actual (idioma local)</value>
@@ -460,9 +451,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Ubicación del archivo sin extensión + "Extensión de archivo final"</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>Indizar carpeta</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Marca de tiempo Unix</value>
   </data>
@@ -538,9 +526,6 @@
   </data>
   <data name="RandomEmojiRepeatUsingN" xml:space="preserve">
     <value>Emojis aleatorios. Usar {n} para repetir</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>Guardar miniatura</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>Descargando.</value>
@@ -692,9 +677,6 @@
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>Iniciar o detener grabación de pantalla (GIF) usando la última región</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>Prueba de pantalla</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Copiar</value>
   </data>
@@ -724,9 +706,6 @@
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>Selector de color</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Detener</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>Servidor de archivos</value>
@@ -760,9 +739,6 @@
   </data>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>Automático</value>
-  </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>Conversor de video</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Cancel" xml:space="preserve">
     <value>Cancelar</value>
@@ -824,9 +800,6 @@
   <data name="HotkeyType_UploadURL" xml:space="preserve">
     <value>Subir desde enlace</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>Divisor de imágenes</value>
-  </data>
   <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
     <value>Copiar enlace al portapapeles</value>
   </data>
@@ -838,18 +811,6 @@
   </data>
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>Copiar archivo al portapapeles</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>Resultado del primer archivo:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>Resultado del segundo archivo:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>Resultado:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Objetivo:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>Fin</value>
@@ -874,12 +835,6 @@
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>Numerales romanos (Mayúsculas)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>Visualizador de portapapeles</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>Inspeccionar ventana</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>Sólido</value>
@@ -1031,9 +986,6 @@
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>OCR</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>Ventana sin bordes</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>Fijar a pantalla</value>
   </data>
@@ -1082,12 +1034,6 @@
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>Embellecer imagen</value>
   </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>Metadatos</value>
-  </data>
-  <data name="Check" xml:space="preserve">
-    <value>Verificar</value>
-  </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>Capture pre configured ventana</value>
   </data>
@@ -1109,12 +1055,6 @@
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>Tamaño de archivo</value>
   </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>Make active ventana borderless</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>Make active ventana top most</value>
-  </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>Pin to pantalla (Close all)</value>
   </data>
@@ -1132,9 +1072,6 @@
   </data>
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>Transparente</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>Quitar metadatos</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>Código QR (escanear región)</value>

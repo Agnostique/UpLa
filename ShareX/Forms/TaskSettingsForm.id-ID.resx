@@ -198,24 +198,6 @@
   <data name="tpEffects.Text" xml:space="preserve">
     <value>Efek</value>
   </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>Hanya buat thumbnail bila ukuran gambar lebih besar dari ukuran thumbnail</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>Pratinjau</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>Nama thumbnail:</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>Tinggi:</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>Lebar:</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>Thumbnail</value>
-  </data>
   <data name="tpImage.Text" xml:space="preserve">
     <value>Gambar</value>
   </data>
@@ -470,9 +452,6 @@
   </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>Bila papan klip berisi URL, bagikan dengan layanan berbagi URL</value>
-  </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>Bila papan klip berisi jalur folder, indeks foldernya lalu unggah indeksnya</value>
   </data>
   <data name="tpUploadClipboard.Text" xml:space="preserve">
     <value>Unggahan papan klip</value>

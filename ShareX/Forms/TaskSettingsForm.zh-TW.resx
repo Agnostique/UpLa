@@ -224,9 +224,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>複製</value>
   </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>如果剪貼簿中有資料夾路徑，則自動索引該資料夾並上傳索引</value>
-  </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>如果剪貼簿中有網址，則使用網址分享服務分享</value>
   </data>
@@ -271,24 +268,6 @@
   </data>
   <data name="cbScreenRecorderShowCursor.Text" xml:space="preserve">
     <value>在錄製時顯示游標</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>寬：</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>高：</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>縮圖名稱：</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>預覽</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>僅在圖片尺寸大於縮圖尺寸時才建立縮圖</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>縮圖</value>
   </data>
   <data name="btnImageEffects.Text" xml:space="preserve">
     <value>圖片效果設定...</value>

@@ -123,9 +123,6 @@
   <data name="lblRegionCaptureSnapSizesWidth.Text" xml:space="preserve">
     <value>العرض:</value>
   </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>العرض:</value>
-  </data>
   <data name="lblRegionCaptureFixedSizeWidth.Text" xml:space="preserve">
     <value>العرض:</value>
   </data>
@@ -176,9 +173,6 @@
   </data>
   <data name="cbCloseWindowAfterOpenServiceLink.Text" xml:space="preserve">
     <value>إغلاق نافذة OCR بعد فتح رابط الخدمة</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>إنشاء معاينة عندما الصورة أكبر من المعاينة فقط</value>
   </data>
   <data name="lblOCRDefaultLanguage.Text" xml:space="preserve">
     <value>اللغة الافتراضية:</value>
@@ -396,9 +390,6 @@
   <data name="lblCaptureCustomWindow.Text" xml:space="preserve">
     <value>عنوان نافذة محدد مسبقًا:</value>
   </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>المعاينة</value>
-  </data>
   <data name="lblNameFormatPatternPreviewActiveWindow.Text" xml:space="preserve">
     <value>المعاينة:</value>
   </data>
@@ -473,12 +464,6 @@
   </data>
   <data name="tsmiTextUploaders.Text" xml:space="preserve">
     <value>رافعو النصوص</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>الصورة المصغرة</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>اسم الصورة المصغرة:</value>
   </data>
   <data name="gbToastWindow.Text" xml:space="preserve">
     <value>الإشعار المنبثق</value>
@@ -573,9 +558,6 @@
   <data name="lblRegionCaptureFixedSizeHeight.Text" xml:space="preserve">
     <value>الارتفاع:</value>
   </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>الارتفاع:</value>
-  </data>
   <data name="tpActions.Text" xml:space="preserve">
     <value>إجراءات</value>
   </data>
@@ -593,9 +575,6 @@
   </data>
   <data name="cbClipboardUploadURLContents.Text" xml:space="preserve">
     <value>إذا كانت الحافظة تحتوي على عنوان URL لملف، قم بتنزيل ورفع هذا الملف</value>
-  </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>إذا كانت الحافظة تحتوي على مسار مجلد، قم بفهرسة هذا المجلد وورفع الفهرس</value>
   </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>إذا كانت الحافظة تحتوي على عنوان URL، قم بمشاركته باستخدام خدمة مشاركة عنوان URL</value>

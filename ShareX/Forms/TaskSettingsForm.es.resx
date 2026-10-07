@@ -216,9 +216,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>Duplicar</value>
   </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>Si el portapapeles contiene una ruta de carpeta entonces índice que carpeta y subir el índice</value>
-  </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>Si el portapapeles contiene una URL luego compartirlo usando servicio para compartir URL</value>
   </data>
@@ -260,24 +257,6 @@
   </data>
   <data name="btnScreenRecorderFFmpegOptions.Text" xml:space="preserve">
     <value>Opciones de FFmpeg...</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>Anchura:</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>Altura:</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>Nombre de la miniatura:</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>Vista previa</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>Crear miniatura sólo si tamaño de la imagen es más grande que el tamaño miniatura</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>Miniatura</value>
   </data>
   <data name="btnImageEffects.Text" xml:space="preserve">
     <value>Configuración de efectos de imagen...</value>

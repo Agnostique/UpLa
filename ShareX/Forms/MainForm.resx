@@ -505,34 +505,7 @@
   <data name="tsmiImageCombiner.Text" xml:space="preserve">
     <value>Image combiner...</value>
   </data>
-  <data name="tsmiImageSplitter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiImageSplitter.Text" xml:space="preserve">
-    <value>Image splitter...</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
-    <value>Image thumbnailer...</value>
-  </data>
   <data name="tssTools2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 6</value>
-  </data>
-  <data name="tsmiVideoConverter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiVideoConverter.Text" xml:space="preserve">
-    <value>Video converter...</value>
-  </data>
-  <data name="tsmiVideoThumbnailer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
-    <value>Video thumbnailer...</value>
-  </data>
-  <data name="tssTools3.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 6</value>
   </data>
   <data name="tsmiOCR.Size" type="System.Drawing.Size, System.Drawing">
@@ -546,51 +519,6 @@
   </data>
   <data name="tsmiQRCode.Text" xml:space="preserve">
     <value>QR code...</value>
-  </data>
-  <data name="tsmiHashChecker.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiHashChecker.Text" xml:space="preserve">
-    <value>Hash checker...</value>
-  </data>
-  <data name="tsmiMetadata.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiMetadata.Text" xml:space="preserve">
-    <value>Metadata...</value>
-  </data>
-  <data name="tsmiIndexFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiIndexFolder.Text" xml:space="preserve">
-    <value>Directory indexer...</value>
-  </data>
-  <data name="tssTools4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 6</value>
-  </data>
-  <data name="tsmiClipboardViewer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
-    <value>Clipboard viewer...</value>
-  </data>
-  <data name="tsmiBorderlessWindow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
-    <value>Borderless window...</value>
-  </data>
-  <data name="tsmiInspectWindow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiInspectWindow.Text" xml:space="preserve">
-    <value>Inspect window...</value>
-  </data>
-  <data name="tsmiMonitorTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>Monitor test...</value>
   </data>
   <data name="tsddbTools.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -1497,34 +1425,7 @@
   <data name="tsmiTrayImageCombiner.Text" xml:space="preserve">
     <value>Image combiner...</value>
   </data>
-  <data name="tsmiTrayImageSplitter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
-    <value>Image splitter...</value>
-  </data>
-  <data name="tsmiTrayImageThumbnailer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
-    <value>Image thumbnailer...</value>
-  </data>
   <data name="tssTrayTools2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 6</value>
-  </data>
-  <data name="tsmiTrayVideoConverter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
-    <value>Video converter...</value>
-  </data>
-  <data name="tsmiTrayVideoThumbnailer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
-    <value>Video thumbnailer...</value>
-  </data>
-  <data name="tssTrayTools3.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 6</value>
   </data>
   <data name="tsmiTrayOCR.Size" type="System.Drawing.Size, System.Drawing">
@@ -1538,51 +1439,6 @@
   </data>
   <data name="tsmiTrayQRCode.Text" xml:space="preserve">
     <value>QR code...</value>
-  </data>
-  <data name="tsmiTrayHashChecker.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
-    <value>Hash checker...</value>
-  </data>
-  <data name="tsmiTrayMetadata.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
-    <value>Metadata...</value>
-  </data>
-  <data name="tsmiTrayIndexFolder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
-    <value>Directory indexer...</value>
-  </data>
-  <data name="tssTrayTools4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 6</value>
-  </data>
-  <data name="tsmiTrayClipboardViewer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
-    <value>Clipboard viewer...</value>
-  </data>
-  <data name="tsmiTrayBorderlessWindow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
-    <value>Borderless window...</value>
-  </data>
-  <data name="tsmiTrayInspectWindow.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
-    <value>Inspect window...</value>
-  </data>
-  <data name="tsmiTrayMonitorTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>194, 22</value>
-  </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>Monitor test...</value>
   </data>
   <data name="tsmiTrayTools.Size" type="System.Drawing.Size, System.Drawing">
     <value>219, 22</value>
@@ -2198,40 +2054,10 @@
   <data name="&gt;&gt;tsmiImageCombiner.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tsmiImageSplitter.Name" xml:space="preserve">
-    <value>tsmiImageSplitter</value>
-  </data>
-  <data name="&gt;&gt;tsmiImageSplitter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiImageThumbnailer.Name" xml:space="preserve">
-    <value>tsmiImageThumbnailer</value>
-  </data>
-  <data name="&gt;&gt;tsmiImageThumbnailer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;tssTools2.Name" xml:space="preserve">
     <value>tssTools2</value>
   </data>
   <data name="&gt;&gt;tssTools2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiVideoConverter.Name" xml:space="preserve">
-    <value>tsmiVideoConverter</value>
-  </data>
-  <data name="&gt;&gt;tsmiVideoConverter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiVideoThumbnailer.Name" xml:space="preserve">
-    <value>tsmiVideoThumbnailer</value>
-  </data>
-  <data name="&gt;&gt;tsmiVideoThumbnailer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tssTools3.Name" xml:space="preserve">
-    <value>tssTools3</value>
-  </data>
-  <data name="&gt;&gt;tssTools3.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsmiOCR.Name" xml:space="preserve">
@@ -2244,54 +2070,6 @@
     <value>tsmiQRCode</value>
   </data>
   <data name="&gt;&gt;tsmiQRCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiHashChecker.Name" xml:space="preserve">
-    <value>tsmiHashChecker</value>
-  </data>
-  <data name="&gt;&gt;tsmiHashChecker.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiMetadata.Name" xml:space="preserve">
-    <value>tsmiMetadata</value>
-  </data>
-  <data name="&gt;&gt;tsmiMetadata.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiIndexFolder.Name" xml:space="preserve">
-    <value>tsmiIndexFolder</value>
-  </data>
-  <data name="&gt;&gt;tsmiIndexFolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tssTools4.Name" xml:space="preserve">
-    <value>tssTools4</value>
-  </data>
-  <data name="&gt;&gt;tssTools4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiClipboardViewer.Name" xml:space="preserve">
-    <value>tsmiClipboardViewer</value>
-  </data>
-  <data name="&gt;&gt;tsmiClipboardViewer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiBorderlessWindow.Name" xml:space="preserve">
-    <value>tsmiBorderlessWindow</value>
-  </data>
-  <data name="&gt;&gt;tsmiBorderlessWindow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiInspectWindow.Name" xml:space="preserve">
-    <value>tsmiInspectWindow</value>
-  </data>
-  <data name="&gt;&gt;tsmiInspectWindow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiMonitorTest.Name" xml:space="preserve">
-    <value>tsmiMonitorTest</value>
-  </data>
-  <data name="&gt;&gt;tsmiMonitorTest.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tssMain1.Name" xml:space="preserve">
@@ -3050,40 +2828,10 @@
   <data name="&gt;&gt;tsmiTrayImageCombiner.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;tsmiTrayImageSplitter.Name" xml:space="preserve">
-    <value>tsmiTrayImageSplitter</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayImageSplitter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayImageThumbnailer.Name" xml:space="preserve">
-    <value>tsmiTrayImageThumbnailer</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayImageThumbnailer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;tssTrayTools2.Name" xml:space="preserve">
     <value>tssTrayTools2</value>
   </data>
   <data name="&gt;&gt;tssTrayTools2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayVideoConverter.Name" xml:space="preserve">
-    <value>tsmiTrayVideoConverter</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayVideoConverter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayVideoThumbnailer.Name" xml:space="preserve">
-    <value>tsmiTrayVideoThumbnailer</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayVideoThumbnailer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tssTrayTools3.Name" xml:space="preserve">
-    <value>tssTrayTools3</value>
-  </data>
-  <data name="&gt;&gt;tssTrayTools3.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tsmiTrayOCR.Name" xml:space="preserve">
@@ -3096,54 +2844,6 @@
     <value>tsmiTrayQRCode</value>
   </data>
   <data name="&gt;&gt;tsmiTrayQRCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayHashChecker.Name" xml:space="preserve">
-    <value>tsmiTrayHashChecker</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayHashChecker.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayMetadata.Name" xml:space="preserve">
-    <value>tsmiTrayMetadata</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayMetadata.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayIndexFolder.Name" xml:space="preserve">
-    <value>tsmiTrayIndexFolder</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayIndexFolder.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tssTrayTools4.Name" xml:space="preserve">
-    <value>tssTrayTools4</value>
-  </data>
-  <data name="&gt;&gt;tssTrayTools4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayClipboardViewer.Name" xml:space="preserve">
-    <value>tsmiTrayClipboardViewer</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayClipboardViewer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayBorderlessWindow.Name" xml:space="preserve">
-    <value>tsmiTrayBorderlessWindow</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayBorderlessWindow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayInspectWindow.Name" xml:space="preserve">
-    <value>tsmiTrayInspectWindow</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayInspectWindow.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayMonitorTest.Name" xml:space="preserve">
-    <value>tsmiTrayMonitorTest</value>
-  </data>
-  <data name="&gt;&gt;tsmiTrayMonitorTest.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tssTray1.Name" xml:space="preserve">

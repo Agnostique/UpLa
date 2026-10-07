@@ -141,9 +141,6 @@
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>Yinele</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>Video küçük resim yapıcı</value>
-  </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>Bulanıklaştır (B)</value>
   </data>
@@ -334,9 +331,6 @@
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Rastgele</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>Hash kontrol</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>Aktif pencere alanıyla ekran kaydetme başlat</value>
   </data>
@@ -360,9 +354,6 @@
   </data>
   <data name="MyMessageBox_MyMessageBox_Yes" xml:space="preserve">
     <value>Evet</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>Küçük resim yapıcı</value>
   </data>
   <data name="ReplCodeMenuEntry_mon_Current_month_name__Local_language_" xml:space="preserve">
     <value>Güncel ay adı (Yerel dil)</value>
@@ -460,9 +451,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Uzantısız dosya yolu + "Çıkış dosya uzantısı"</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>Dizini indeksle</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Unix zaman imzası</value>
   </data>
@@ -538,9 +526,6 @@
   </data>
   <data name="RandomEmojiRepeatUsingN" xml:space="preserve">
     <value>Rastgele emoji ({n} kullanarak tekrarla)</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>Küçük resimi dosya olarak kaydet</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>İndiriliyor...</value>
@@ -692,9 +677,6 @@
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>Son bölgeyi kullanarak ekran kaydet (GIF)</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>Monitör testi</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Kopyala</value>
   </data>
@@ -724,9 +706,6 @@
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>Renk seçici</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Durdur</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>Dosya yükleyici</value>
@@ -760,9 +739,6 @@
   </data>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>Otomatik</value>
-  </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>Video çevirici</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Cancel" xml:space="preserve">
     <value>İptal</value>
@@ -824,9 +800,6 @@
   <data name="HotkeyType_UploadURL" xml:space="preserve">
     <value>Adresten yükle</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>Resim ayırıcı</value>
-  </data>
   <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
     <value>Adresi panoya kopyala</value>
   </data>
@@ -838,18 +811,6 @@
   </data>
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>Dosyayı panoya kopyala</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>İlk dosya sonucu:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>İkinci dosya sonucu:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>Sonuç:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Hedef:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>Son</value>
@@ -874,12 +835,6 @@
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>Roma rakamları (Büyük harf)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>Pano görüntüleyici</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>Pencere incele</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>Düz</value>
@@ -1031,9 +986,6 @@
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>OCR</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>Kenarsız pencere</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>Ekrana sabitle</value>
   </data>
@@ -1082,9 +1034,6 @@
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>Resmi güzelleştir</value>
   </data>
-  <data name="Check" xml:space="preserve">
-    <value>Denetle</value>
-  </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>Önceden yapılandırılmış pencereyi yakala</value>
   </data>
@@ -1106,12 +1055,6 @@
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>Dosya boyutu</value>
   </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>Aktif pencereyi çerçevesiz yap</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>Aktif pencereyi en üstte tut</value>
-  </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>Ekrana sabitle (Tümünü kapat)</value>
   </data>
@@ -1129,12 +1072,6 @@
   </data>
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>Saydam</value>
-  </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>Metadata</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>Metadata’yı temizle</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>QR kodu (Bölge tara)</value>

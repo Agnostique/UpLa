@@ -141,9 +141,6 @@
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>Làm lại</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>Trình tạo ảnh thu nhỏ/thumbnail cho video</value>
-  </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>Hiệu ứng: Làm mờ (B)</value>
   </data>
@@ -334,9 +331,6 @@ Bạn có muốn tải về không?</value>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Ngẫu nhiên</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>Kiểm tra Hash</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>Bắt đầu/Dừng ghi lại màn hình sử dụng vùng cửa sổ đang hoạt động</value>
   </data>
@@ -360,9 +354,6 @@ Bạn có muốn tải về không?</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Yes" xml:space="preserve">
     <value>Đồng ý</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>Hình thu nhỏ hình ảnh</value>
   </data>
   <data name="ReplCodeMenuEntry_mon_Current_month_name__Local_language_" xml:space="preserve">
     <value>Tên tháng hiện tại (Ngôn ngữ thiết lập trên máy)</value>
@@ -460,9 +451,6 @@ Bạn có muốn tải về không?</value>
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Đường dẫn tệp không có phần mở rộng + "Phần mở rộng của tệp xuất ra"</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>Đánh dấu thư mục</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Dấu thời gian của Unix</value>
   </data>
@@ -538,9 +526,6 @@ Bạn có muốn tải về và cài đặt không?</value>
   </data>
   <data name="RandomEmojiRepeatUsingN" xml:space="preserve">
     <value>Biểu tượng cảm xúc ngẫu nhiên (Lặp lại bằng cách sử dụng {n})</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>Lưu ảnh thu nhỏ/thumbnail vào tệp tin</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>Đang tải về.</value>
@@ -692,9 +677,6 @@ Bạn có muốn tải về và cài đặt không?</value>
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>Bắt đầu/Dừng ghi lại màn hình (dạng ảnh GIF) sử dụng vùng lần trước</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>Kiểm tra màn hình</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Sao chép</value>
   </data>
@@ -724,9 +706,6 @@ Bạn có muốn tải về và cài đặt không?</value>
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>Chọn màu sắc</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Dừng lại</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>Dịch vụ tải lên tệp</value>
@@ -760,9 +739,6 @@ Bạn có muốn tải về và cài đặt không?</value>
   </data>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>Tự động</value>
-  </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>Chuyển đổi video</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Cancel" xml:space="preserve">
     <value>Hủy bỏ</value>
@@ -824,9 +800,6 @@ Bạn có muốn tải về và cài đặt không?</value>
   <data name="HotkeyType_UploadURL" xml:space="preserve">
     <value>Tải lên từ URL</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>Bộ tách hình ảnh</value>
-  </data>
   <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
     <value>Chép URL vào vùng nhớ tạm</value>
   </data>
@@ -838,18 +811,6 @@ Bạn có muốn tải về và cài đặt không?</value>
   </data>
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>Chép tệp vào vùng nhớ tạm</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>Kết quả của tệp đầu tiên:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>Kết quả của tệp thứ hai:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>Kết quả:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Mục tiêu:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>Cuối</value>
@@ -874,12 +835,6 @@ Bạn có muốn tải về và cài đặt không?</value>
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>Chữ số La mã (Chữ hoa)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>Trình xem khay nhớ tạm</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>Kiểm tra cửa sổ</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>In đậm</value>
@@ -1031,9 +986,6 @@ Bạn có muốn tải về và cài đặt không?</value>
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>OCR</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>Cửa sổ không viền</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>Ghim vào màn hình</value>
   </data>
@@ -1076,17 +1028,11 @@ Bạn có muốn tải về và cài đặt không?</value>
   <data name="ShapeType_DrawingFreehandArrow" xml:space="preserve">
     <value>Mũi tên tự do</value>
   </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>Siêu dữ liệu</value>
-  </data>
   <data name="HotkeyType_ImageBeautifier" xml:space="preserve">
     <value>Ảnh beautifier</value>
   </data>
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>Làm đẹp ảnh</value>
-  </data>
-  <data name="Check" xml:space="preserve">
-    <value>Kiểm tra</value>
   </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>Capture pre configured cửa sổ</value>
@@ -1109,12 +1055,6 @@ Bạn có muốn tải về và cài đặt không?</value>
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>Kích thước tệp</value>
   </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>Make active cửa sổ borderless</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>Make active cửa sổ top most</value>
-  </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>Pin to màn hình (Close all)</value>
   </data>
@@ -1132,9 +1072,6 @@ Bạn có muốn tải về và cài đặt không?</value>
   </data>
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>Trong suốt</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>Xóa siêu dữ liệu</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>Mã QR (quét vùng)</value>

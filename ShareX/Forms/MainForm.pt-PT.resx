@@ -297,26 +297,14 @@
   <data name="tsmiImageEffects.Text" xml:space="preserve">
     <value>Efeitos de imagem...</value>
   </data>
-  <data name="tsmiImageSplitter.Text" xml:space="preserve">
-    <value>Dividir imagem...</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
-    <value>Fazer miniatura de Imagem...</value>
-  </data>
   <data name="tsmiImageUploaders.Text" xml:space="preserve">
     <value>Hospedagem de Imagens</value>
-  </data>
-  <data name="tsmiIndexFolder.Text" xml:space="preserve">
-    <value>Indexador de pastas...</value>
   </data>
   <data name="tsmiLastRegion.Text" xml:space="preserve">
     <value>Última região</value>
   </data>
   <data name="tsmiMonitor.Text" xml:space="preserve">
     <value>Monitor</value>
-  </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>Teste de monitor...</value>
   </data>
   <data name="tsmiOCRImage.Text" xml:space="preserve">
     <value>Imagem de Reconhecimento óptico de caractéres (OCR) ...</value>
@@ -489,26 +477,14 @@
   <data name="tsmiTrayImageHistory.Text" xml:space="preserve">
     <value>Histórico de imagem...</value>
   </data>
-  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
-    <value>Divisor de imamge...</value>
-  </data>
-  <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
-    <value>Fazer conversão de imagem para miniatura...</value>
-  </data>
   <data name="tsmiTrayImageUploaders.Text" xml:space="preserve">
     <value>Hospedagem de ficheiros</value>
-  </data>
-  <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
-    <value>Indexador de pastas...</value>
   </data>
   <data name="tsmiTrayLastRegion.Text" xml:space="preserve">
     <value>Última região</value>
   </data>
   <data name="tsmiTrayMonitor.Text" xml:space="preserve">
     <value>Monitor</value>
-  </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>Teste de monitor...</value>
   </data>
   <data name="tsmiTrayQRCode.Text" xml:space="preserve">
     <value>Código QR...</value>
@@ -600,12 +576,6 @@
   <data name="tsmiTrayURLSharingServices.Text" xml:space="preserve">
     <value>Serviços de compartilhamento de hiperligações</value>
   </data>
-  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
-    <value>Conversores de vídeo...</value>
-  </data>
-  <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
-    <value>Conversão de vídeo para miniatura...</value>
-  </data>
   <data name="tsmiTrayWindow.Text" xml:space="preserve">
     <value>Janela</value>
   </data>
@@ -633,12 +603,6 @@
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Serviços de compartilhamento de hiperligações</value>
   </data>
-  <data name="tsmiVideoConverter.Text" xml:space="preserve">
-    <value>Conversores de vídeo...</value>
-  </data>
-  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
-    <value>Conversão de vídeo para miniatura...</value>
-  </data>
   <data name="tsmiWindow.Text" xml:space="preserve">
     <value>Janela</value>
   </data>
@@ -656,21 +620,6 @@
   </data>
   <data name="tsmiOCR.Text" xml:space="preserve">
     <value>OCR...</value>
-  </data>
-  <data name="tsmiHashChecker.Text" xml:space="preserve">
-    <value>Verificador de hash...</value>
-  </data>
-  <data name="tsmiMetadata.Text" xml:space="preserve">
-    <value>Metadados...</value>
-  </data>
-  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
-    <value>Visualizador da área de transferência...</value>
-  </data>
-  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
-    <value>Janela sem margens...</value>
-  </data>
-  <data name="tsmiInspectWindow.Text" xml:space="preserve">
-    <value>Inspecionar janela...</value>
   </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Definições de destino...</value>
@@ -710,21 +659,6 @@
   </data>
   <data name="tsmiTrayOCR.Text" xml:space="preserve">
     <value>OCR...</value>
-  </data>
-  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
-    <value>Verificador de hash...</value>
-  </data>
-  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
-    <value>Metadados...</value>
-  </data>
-  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
-    <value>Visualizador da área de transferência...</value>
-  </data>
-  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
-    <value>Janela sem margens...</value>
-  </data>
-  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
-    <value>Inspecionar janela...</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>Reiniciar ShareX como administrador</value>

@@ -139,7 +139,6 @@ namespace ShareX
         SendImageToPrinter = 1 << 7,
         SaveImageToFile = 1 << 8,
         SaveImageToFileWithDialog = 1 << 9,
-        SaveThumbnailImageToFile = 1 << 10,
         PerformActions = 1 << 11,
         CopyFileToClipboard = 1 << 12,
         CopyFilePathToClipboard = 1 << 13,
@@ -273,14 +272,6 @@ namespace ShareX
         [Category(EnumExtensions.HotkeyType_Category_Tools)]
         ImageCombiner,
         [Category(EnumExtensions.HotkeyType_Category_Tools)]
-        ImageSplitter,
-        [Category(EnumExtensions.HotkeyType_Category_Tools)]
-        ImageThumbnailer,
-        [Category(EnumExtensions.HotkeyType_Category_Tools)]
-        VideoConverter,
-        [Category(EnumExtensions.HotkeyType_Category_Tools)]
-        VideoThumbnailer,
-        [Category(EnumExtensions.HotkeyType_Category_Tools)]
         OCR,
         [Category(EnumExtensions.HotkeyType_Category_Tools)]
         QRCode,
@@ -288,26 +279,6 @@ namespace ShareX
         QRCodeDecodeFromScreen,
         [Category(EnumExtensions.HotkeyType_Category_Tools)]
         QRCodeScanRegion,
-        [Category(EnumExtensions.HotkeyType_Category_Tools)]
-        HashCheck,
-        [Category(EnumExtensions.HotkeyType_Category_Tools)]
-        Metadata,
-        [Category(EnumExtensions.HotkeyType_Category_Tools)]
-        StripMetadata,
-        [Category(EnumExtensions.HotkeyType_Category_Tools)]
-        IndexFolder,
-        [Category(EnumExtensions.HotkeyType_Category_Tools)]
-        ClipboardViewer,
-        [Category(EnumExtensions.HotkeyType_Category_Tools)]
-        BorderlessWindow,
-        [Category(EnumExtensions.HotkeyType_Category_Tools)]
-        ActiveWindowBorderless,
-        [Category(EnumExtensions.HotkeyType_Category_Tools)]
-        ActiveWindowTopMost,
-        [Category(EnumExtensions.HotkeyType_Category_Tools)]
-        InspectWindow,
-        [Category(EnumExtensions.HotkeyType_Category_Tools)]
-        MonitorTest,
         // Other
         [Category(EnumExtensions.HotkeyType_Category_Other)]
         DisableHotkeys,
@@ -380,12 +351,6 @@ namespace ShareX
     public enum RegionCaptureType
     {
         Default, Light, Transparent
-    }
-
-    public enum ScreenTearingTestMode
-    {
-        VerticalLines,
-        HorizontalLines
     }
 
 #if !MicrosoftStore

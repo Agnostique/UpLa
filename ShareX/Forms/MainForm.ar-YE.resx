@@ -144,12 +144,6 @@
   <data name="tsmiBeautifyImage.Text" xml:space="preserve">
     <value>تحسين صورة...</value>
   </data>
-  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
-    <value>نافذة بلا إطار...</value>
-  </data>
-  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
-    <value>نافذة بلا إطار...</value>
-  </data>
   <data name="tsmiTrayCapture.Text" xml:space="preserve">
     <value>لقطة شاشة</value>
   </data>
@@ -158,12 +152,6 @@
   </data>
   <data name="tsmiClearList.Text" xml:space="preserve">
     <value>مسح قائمة المهام</value>
-  </data>
-  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
-    <value>عارض الحافظة...</value>
-  </data>
-  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
-    <value>عارض الحافظة...</value>
   </data>
   <data name="tsmiTrayColorPicker.Text" xml:space="preserve">
     <value>منتقي الألوان...</value>
@@ -222,12 +210,6 @@
   <data name="tsddbDestinations.Text" xml:space="preserve">
     <value>الوجهات</value>
   </data>
-  <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
-    <value>مفهرس المجلدات...</value>
-  </data>
-  <data name="tsmiIndexFolder.Text" xml:space="preserve">
-    <value>مفهرس المجلدات...</value>
-  </data>
   <data name="tsmiTrayToggleHotkeys.Text" xml:space="preserve">
     <value>تعطيل الاختصارات</value>
   </data>
@@ -282,12 +264,6 @@
   <data name="tsmiFullscreen.Text" xml:space="preserve">
     <value>الشاشة كاملة</value>
   </data>
-  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
-    <value>فاحص الهاش...</value>
-  </data>
-  <data name="tsmiHashChecker.Text" xml:space="preserve">
-    <value>فاحص الهاش...</value>
-  </data>
   <data name="tsmiTrayHistory.Text" xml:space="preserve">
     <value>السجل...</value>
   </data>
@@ -339,18 +315,6 @@
   <data name="tsbImageHistory.Text" xml:space="preserve">
     <value>سجل الصور...</value>
   </data>
-  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
-    <value>مجزّء الصور...</value>
-  </data>
-  <data name="tsmiImageSplitter.Text" xml:space="preserve">
-    <value>مجزّء الصور...</value>
-  </data>
-  <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
-    <value>صانع الصور المصغرة...</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
-    <value>صانع الصور المصغرة...</value>
-  </data>
   <data name="tsmiTrayImageUploaders.Text" xml:space="preserve">
     <value>رافعو الصور</value>
   </data>
@@ -362,12 +326,6 @@
   </data>
   <data name="tsmiImageViewer.Text" xml:space="preserve">
     <value>عارض الصور...</value>
-  </data>
-  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
-    <value>مشخّص النوافذ...</value>
-  </data>
-  <data name="tsmiInspectWindow.Text" xml:space="preserve">
-    <value>مشخّص النوافذ...</value>
   </data>
   <data name="tsmiTrayLastRegion.Text" xml:space="preserve">
     <value>المنطقة السابقة</value>
@@ -383,18 +341,6 @@
   </data>
   <data name="tsmiTrayWorkflows.Text" xml:space="preserve">
     <value>مساحة العمل</value>
-  </data>
-  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
-    <value>صانع مصغرات الفيديو...</value>
-  </data>
-  <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
-    <value>صانع مصغرات الفيديو...</value>
-  </data>
-  <data name="tsmiVideoConverter.Text" xml:space="preserve">
-    <value>محوّل صيغ الفيديو...</value>
-  </data>
-  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
-    <value>محوّل صيغ الفيديو...</value>
   </data>
   <data name="chElapsed.Text" xml:space="preserve">
     <value>المنقضي</value>
@@ -464,12 +410,6 @@
   </data>
   <data name="tsmiMonitor.Text" xml:space="preserve">
     <value>الشاشة</value>
-  </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>اختبار الشاشة...</value>
-  </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>اختبار الشاشة...</value>
   </data>
   <data name="tsmiScreenshotDelay0.Text" xml:space="preserve">
     <value>بلا تأخير</value>
@@ -720,9 +660,6 @@
   <data name="tsmiAI.Text" xml:space="preserve">
     <value>تحليل الصورة...</value>
   </data>
-  <data name="tsmiMetadata.Text" xml:space="preserve">
-    <value>البيانات الوصفية...</value>
-  </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>إعدادات الوجهة...</value>
   </data>
@@ -731,8 +668,5 @@
   </data>
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>تحليل الصورة...</value>
-  </data>
-  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
-    <value>البيانات الوصفية...</value>
   </data>
 </root>

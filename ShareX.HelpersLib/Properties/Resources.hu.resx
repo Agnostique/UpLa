@@ -219,9 +219,6 @@
   <data name="GIFQuality_Bit4" xml:space="preserve">
     <value>Octree quantizáló 16 szín</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>Hash ellenőrzés</value>
-  </data>
   <data name="ReplCodeMenuEntry_rn_Random_number_0_to_9" xml:space="preserve">
     <value>0-9 véletlen szám</value>
   </data>
@@ -291,9 +288,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Fájl elérési út kiterjesztés nélkül + "kimeneti fájlnév kiterjesztés"</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>Index mappa</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Unix időbélyeg</value>
   </data>
@@ -323,9 +317,6 @@
   </data>
   <data name="Extensions_AddContextMenu_Paste" xml:space="preserve">
     <value>Beillesztés</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>Előnézeti kép fájlba mentése</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>Letöltés.</value>
@@ -423,9 +414,6 @@
   <data name="DownloaderForm_DownloaderForm_Filename___0_" xml:space="preserve">
     <value>Fájlnév: {0}</value>
   </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Leállítás</value>
-  </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>Fájl feltöltő</value>
   </data>
@@ -477,17 +465,11 @@
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>Fájl vágólapra helyezése</value>
   </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>Metaadatok</value>
-  </data>
   <data name="ShapeType_RegionFreehand" xml:space="preserve">
     <value>Freehand terület</value>
   </data>
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>Újra</value>
-  </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>Videó miniatűrer</value>
   </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>Elmosás (B)</value>
@@ -597,9 +579,6 @@ Would you like to letöltés it?</value>
   </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>Indítás/Leállítás képernyőfelvétel using active ablak terület</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>Kép miniatűrer</value>
   </data>
   <data name="ShapeType_DrawingImage" xml:space="preserve">
     <value>Kép (Fájl)</value>
@@ -763,9 +742,6 @@ Would you like to letöltés it?</value>
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>Indítás/Leállítás képernyőfelvétel (GIF) using last terület</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>Monitor teszt</value>
-  </data>
   <data name="ReplCodeMenuEntry_rf_Random_line_from_file" xml:space="preserve">
     <value>Véletlen sor egy fájlból ({filepath} használata a fájl meghatározásához)</value>
   </data>
@@ -795,9 +771,6 @@ Would you like to letöltés it?</value>
   </data>
   <data name="RegionCaptureAction_RemoveShape" xml:space="preserve">
     <value>Eltávolítás shape</value>
-  </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>Videókonvertáló</value>
   </data>
   <data name="HotkeyType_OpenMainWindow" xml:space="preserve">
     <value>Megnyitás main ablak</value>
@@ -835,23 +808,8 @@ Would you like to letöltés it?</value>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>Crop kép (C)</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>Kép splitter</value>
-  </data>
   <data name="Extensions_AddContextMenu_Undo" xml:space="preserve">
     <value>Visszavonás</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>Eredmény of first fájl:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>Eredmény of second fájl:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>Eredmény:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Cél:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>Vége</value>
@@ -876,12 +834,6 @@ Would you like to letöltés it?</value>
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>Római számok (nagybetűk)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>Vágólap viewer</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>Inspect ablak</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>Folytonos</value>
@@ -1033,9 +985,6 @@ Would you like to letöltés it?</value>
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>OCR</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>Borderless ablak</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>Pin to képernyő</value>
   </data>
@@ -1084,9 +1033,6 @@ Would you like to letöltés it?</value>
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>Beautify kép</value>
   </data>
-  <data name="Check" xml:space="preserve">
-    <value>Ellenőrzés</value>
-  </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>Rögzítés pre configured ablak</value>
   </data>
@@ -1108,12 +1054,6 @@ Would you like to letöltés it?</value>
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>Fájl méret</value>
   </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>Make active ablak borderless</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>Make active ablak felső most</value>
-  </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>Pin to képernyő (Close all)</value>
   </data>
@@ -1131,9 +1071,6 @@ Would you like to letöltés it?</value>
   </data>
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>Átlátszó</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>Metaadatok eltávolítása</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>QR code (Scan terület)</value>

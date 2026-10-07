@@ -135,9 +135,6 @@
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>انجام دوباره</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>خلاصه کننده ویدئو</value>
-  </data>
   <data name="AfterCaptureTasks_ShowQuickTaskMenu" xml:space="preserve">
     <value>نمایش منوی وظایف سریع</value>
   </data>
@@ -286,9 +283,6 @@
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>تصادفی</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>چک کردن Hash</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>شروع/توقف ضبط فیلم صفحه از پنجره جاری</value>
   </data>
@@ -369,9 +363,6 @@
   </data>
   <data name="AfterCaptureTasks_SaveImageToFile" xml:space="preserve">
     <value>عکس را در فایل ذخیره کن</value>
-  </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>پوشه ایندکس</value>
   </data>
   <data name="ScreenRecordGIFEncoding_FFmpeg" xml:space="preserve">
     <value>FFmpeg (کیفیت خوب)</value>
@@ -536,9 +527,6 @@
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>شروع/توقف ضبط فیلم صفحه (GIF) با آخرین ناحیه</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>تست صفحه نمایش ...</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>کپی</value>
   </data>
@@ -559,9 +547,6 @@
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>انتخاب کننده رنگ</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>توقف</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>آپلود کننده فایل</value>
@@ -632,9 +617,6 @@
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>فایل را به کلیپ بورد کپی کن</value>
   </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>فراداده</value>
-  </data>
   <data name="ShapeType_RegionFreehand" xml:space="preserve">
     <value>Freehand ناحیه</value>
   </data>
@@ -691,9 +673,6 @@
   </data>
   <data name="HSB_ToString_" xml:space="preserve">
     <value>Hue: {0:0.0}°, Saturation: {1:0.0}%, Bراستness: {2:0.0}%</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>تصویر بندانگشتیer</value>
   </data>
   <data name="GIFQuality_Bit8" xml:space="preserve">
     <value>Octree quantizer 256 رنگs (Slow encoding but better quality)</value>
@@ -752,9 +731,6 @@
   <data name="RandomEmojiRepeatUsingN" xml:space="preserve">
     <value>ایموجی تصادفی (تکرار با {n})</value>
   </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>ذخیره بندانگشتی تصویر to فایل</value>
-  </data>
   <data name="RegionCaptureAction_RemoveShapeCancelCapture" xml:space="preserve">
     <value>حذف shape or cancel ضبط</value>
   </data>
@@ -809,9 +785,6 @@
   <data name="ObjectListView_ObjectListView_Copy_name" xml:space="preserve">
     <value>کپی name</value>
   </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>مبدل ویدئو</value>
-  </data>
   <data name="ImageEditorStartMode_Maximized" xml:space="preserve">
     <value>بیشینه‌شده</value>
   </data>
@@ -836,23 +809,8 @@
   <data name="HotkeyType_UploadURL" xml:space="preserve">
     <value>بارگذاری from URL</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>تقسیم‌کننده تصویر</value>
-  </data>
   <data name="Extensions_AddContextMenu_Undo" xml:space="preserve">
     <value>واگرد</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>نتیجه of first فایل:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>نتیجه of second فایل:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>نتیجه:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>هدف:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>پایان</value>
@@ -877,12 +835,6 @@
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>اعداد رومی (بزرگ)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>نمایشگر کلیپ‌بورد</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>بازرسی پنجره</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>یکپارچه</value>
@@ -1034,9 +986,6 @@
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>OCR</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>پنجره بدون حاشیه</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>سنجاق به صفحه</value>
   </data>
@@ -1085,9 +1034,6 @@
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>زیباسازی تصویر</value>
   </data>
-  <data name="Check" xml:space="preserve">
-    <value>بررسی</value>
-  </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>ضبط pre configured پنجره</value>
   </data>
@@ -1109,12 +1055,6 @@
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>اندازه فایل</value>
   </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>Make active پنجره borderless</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>Make active پنجره بالا most</value>
-  </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>Pin to صفحه (Close all)</value>
   </data>
@@ -1132,9 +1072,6 @@
   </data>
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>شفاف</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>حذف فراداده</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>QR code (Scan ناحیه)</value>

@@ -141,9 +141,6 @@
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>重复</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>视频缩略图</value>
-  </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>效果：模糊 (B)</value>
   </data>
@@ -334,9 +331,6 @@
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>随机</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>哈希（Hash）检查</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>使用活动窗口开始屏幕录制</value>
   </data>
@@ -360,9 +354,6 @@
   </data>
   <data name="MyMessageBox_MyMessageBox_Yes" xml:space="preserve">
     <value>是</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>图像缩略图工具</value>
   </data>
   <data name="ReplCodeMenuEntry_mon_Current_month_name__Local_language_" xml:space="preserve">
     <value>当月名称（本地语言）</value>
@@ -460,9 +451,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>无扩展名的路径 + "输出文件的扩展名"</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>索引文件夹</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Unix 时间戳</value>
   </data>
@@ -538,9 +526,6 @@
   </data>
   <data name="RandomEmojiRepeatUsingN" xml:space="preserve">
     <value>随机 emoji 表情。用 {n} 表示重复次数</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>保存缩略图为文件</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>正在下载...</value>
@@ -692,9 +677,6 @@
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>使用上一次的区域开始屏幕录制（GIF）</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>显示器测试</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>复制</value>
   </data>
@@ -724,9 +706,6 @@
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>拾色器</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>停止</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>文件上传器</value>
@@ -760,9 +739,6 @@
   </data>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>自动</value>
-  </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>视频转换器</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Cancel" xml:space="preserve">
     <value>取消</value>
@@ -824,9 +800,6 @@
   <data name="HotkeyType_UploadURL" xml:space="preserve">
     <value>从 URL 上传</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>图像分割器</value>
-  </data>
   <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
     <value>URL 复制到剪贴板</value>
   </data>
@@ -838,18 +811,6 @@
   </data>
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>将文件复制到剪贴板</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>第一个文件结果：</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>第二个文件结果：</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>结果：</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>目标：</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>终点</value>
@@ -874,12 +835,6 @@
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>随机数字（大写）</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>剪贴板查看器</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>探查窗口</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>实线</value>
@@ -1031,20 +986,11 @@
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>OCR</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>无边框窗口</value>
-  </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>元数据</value>
-  </data>
   <data name="CutOutEffectType_Wave" xml:space="preserve">
     <value>波浪</value>
   </data>
   <data name="HotkeyType_ImageBeautifier" xml:space="preserve">
     <value>图片美化工具</value>
-  </data>
-  <data name="Check" xml:space="preserve">
-    <value>检查</value>
   </data>
   <data name="DownloaderForm_FileDownloader_ProgressChanged_DownloadSpeed" xml:space="preserve">
     <value>下载速度</value>
@@ -1054,9 +1000,6 @@
   </data>
   <data name="CutOutEffectType_TornEdge" xml:space="preserve">
     <value>撕裂</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>将目前窗口无边框化</value>
   </data>
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>美化图片</value>
@@ -1109,9 +1052,6 @@
   <data name="CutOutEffectType_ZigZag" xml:space="preserve">
     <value>锯齿</value>
   </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>将当前窗口置顶</value>
-  </data>
   <data name="ShareXImageViewer" xml:space="preserve">
     <value>ShareX - 图片浏览器</value>
   </data>
@@ -1138,9 +1078,6 @@
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>二维码（扫描区域）</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>移除元数据</value>
   </data>
   <data name="ShapeType_ToolSpotlight" xml:space="preserve">
     <value>聚光灯</value>

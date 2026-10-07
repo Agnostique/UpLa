@@ -225,9 +225,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>Nhân bản</value>
   </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>Nếu vùng nhớ tạm có chứa đường dẫn tới thư mục, đánh dấu thư mục đó và tải lên phần được đánh dấu</value>
-  </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>Nếu vùng nhớ tạm chứa URL thì chia sẻ sử dụng dịch vụ chia sẻ URL</value>
   </data>
@@ -272,24 +269,6 @@
   </data>
   <data name="cbScreenRecorderShowCursor.Text" xml:space="preserve">
     <value>Hiện con trỏ khi đang ghi lại</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>Rộng:</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>Cao:</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>Tên ảnh thu nhỏ/thumbnail:</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>Xem trước</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>Tạo ảnh thu nhỏ/thumbnail chỉ khi kích thước ảnh lớn hơn kích thước ảnh thu nhỏ</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>Ảnh thu nhỏ/thumbnail</value>
   </data>
   <data name="btnImageEffects.Text" xml:space="preserve">
     <value>Thiết lập hiệu ứng ảnh...</value>

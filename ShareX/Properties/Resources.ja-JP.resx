@@ -141,9 +141,6 @@
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_After_upload___0_" xml:space="preserve">
     <value>アップロード後: {0}</value>
   </data>
-  <data name="InspectWindow_ProcessName" xml:space="preserve">
-    <value>プロセス名</value>
-  </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>キャンセル</value>
   </data>
@@ -186,9 +183,6 @@ ShareX を再起動しますか？</value>
   </data>
   <data name="UploadTask_ThreadDoWork_URL_is_empty_" xml:space="preserve">
     <value>URLを入力してください。</value>
-  </data>
-  <data name="InspectWindow_ClassName" xml:space="preserve">
-    <value>クラス名</value>
   </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>履歴</value>
@@ -238,14 +232,8 @@ ShareX を再起動しますか？</value>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Text__Length___0__" xml:space="preserve">
     <value>クリップボード内のデータ：文字列（{0}文字）</value>
   </data>
-  <data name="InspectWindow_ProcessIdentifier" xml:space="preserve">
-    <value>プロセス識別子</value>
-  </data>
   <data name="TaskSettingsForm_txtNameFormatPatternActiveWindow_TextChanged_Preview_" xml:space="preserve">
     <value>プレビュー:</value>
-  </data>
-  <data name="InspectWindow_ProcessFileName" xml:space="preserve">
-    <value>プロセス ファイル名</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>ShareX の設定を初期化しますか？</value>
@@ -310,9 +298,6 @@ ShareX を再起動しますか？</value>
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>ドイツ語</value>
-  </data>
-  <data name="InspectWindow_WindowRectangle" xml:space="preserve">
-    <value>ウィンドウ Rectangle</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>インストールした画像エフェクトを有効にしますか？
@@ -429,9 +414,6 @@ ShareX を再起動しますか？</value>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation" xml:space="preserve">
     <value>ファイル削除の確認</value>
   </data>
-  <data name="InspectWindow_WindowStyles" xml:space="preserve">
-    <value>ウィンドウスタイル</value>
-  </data>
   <data name="MainForm_UpdateWorkflowsMenu_You_can_add_workflows_from_hotkey_settings___" xml:space="preserve">
     <value>ホットキーの設定からワークフローを追加できます...</value>
   </data>
@@ -453,17 +435,11 @@ ShareX を再起動しますか？</value>
   <data name="Confirmation" xml:space="preserve">
     <value>確認</value>
   </data>
-  <data name="InspectWindow_WindowTitle" xml:space="preserve">
-    <value>ウィンドウ タイトル</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Image__Size___0_x_1__" xml:space="preserve">
     <value>クリップボード内のデータ：画像（サイズ：{0}x{1}）</value>
   </data>
   <data name="SwitchToListView" xml:space="preserve">
     <value>リスト表示に切り替え</value>
-  </data>
-  <data name="InspectWindow_ExtendedWindowStyles" xml:space="preserve">
-    <value>拡張ウィンドウスタイル</value>
   </data>
   <data name="UploadTask_OnUploadCompleted_Stopped" xml:space="preserve">
     <value>停止中</value>
@@ -501,9 +477,6 @@ ShareX を再起動しますか？</value>
   <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByPolicy_Text" xml:space="preserve">
     <value>スタートアップの設定は組織によって無効にされています</value>
   </data>
-  <data name="InspectWindow_WindowHandle" xml:space="preserve">
-    <value>ウィンドウ ハンドル</value>
-  </data>
   <data name="AboutForm_AboutForm_Language_it_IT" xml:space="preserve">
     <value>イタリア語</value>
   </data>
@@ -529,9 +502,6 @@ ShareX を再起動しますか？</value>
 {1}
 
 別のホットキーを選択するか、競合するアプリケーションを終了し、ShareXを再起動してください。</value>
-  </data>
-  <data name="InspectWindow_ClientRectangle" xml:space="preserve">
-    <value>クライアント Rectangle</value>
   </data>
   <data name="AboutForm_AboutForm_Team" xml:space="preserve">
     <value>チーム</value>

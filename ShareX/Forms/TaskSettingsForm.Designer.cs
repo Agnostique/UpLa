@@ -121,15 +121,6 @@
             cbShowImageEffectsWindowAfterCapture = new System.Windows.Forms.CheckBox();
             cbImageEffectOnlyRegionCapture = new System.Windows.Forms.CheckBox();
             btnImageEffects = new System.Windows.Forms.Button();
-            tpThumbnail = new System.Windows.Forms.TabPage();
-            cbThumbnailIfSmaller = new System.Windows.Forms.CheckBox();
-            lblThumbnailNamePreview = new System.Windows.Forms.Label();
-            lblThumbnailName = new System.Windows.Forms.Label();
-            txtThumbnailName = new System.Windows.Forms.TextBox();
-            lblThumbnailHeight = new System.Windows.Forms.Label();
-            lblThumbnailWidth = new System.Windows.Forms.Label();
-            nudThumbnailHeight = new System.Windows.Forms.NumericUpDown();
-            nudThumbnailWidth = new System.Windows.Forms.NumericUpDown();
             tpCapture = new System.Windows.Forms.TabPage();
             tcCapture = new System.Windows.Forms.TabControl();
             tpCaptureGeneral = new System.Windows.Forms.TabPage();
@@ -254,7 +245,6 @@
             tpUploadClipboard = new System.Windows.Forms.TabPage();
             cbClipboardUploadShareURL = new System.Windows.Forms.CheckBox();
             cbClipboardUploadURLContents = new System.Windows.Forms.CheckBox();
-            cbClipboardUploadAutoIndexFolder = new System.Windows.Forms.CheckBox();
             tpUploaderFilters = new System.Windows.Forms.TabPage();
             lvUploaderFiltersList = new ShareX.HelpersLib.MyListView();
             chUploaderFiltersName = new System.Windows.Forms.ColumnHeader();
@@ -324,9 +314,6 @@
             ((System.ComponentModel.ISupportInitialize)nudImageAutoUseJPEGSize).BeginInit();
             ((System.ComponentModel.ISupportInitialize)nudImageJPEGQuality).BeginInit();
             tpEffects.SuspendLayout();
-            tpThumbnail.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)nudThumbnailHeight).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)nudThumbnailWidth).BeginInit();
             tpCapture.SuspendLayout();
             tcCapture.SuspendLayout();
             tpCaptureGeneral.SuspendLayout();
@@ -869,7 +856,6 @@
             // 
             tcImage.Controls.Add(tpQuality);
             tcImage.Controls.Add(tpEffects);
-            tcImage.Controls.Add(tpThumbnail);
             resources.ApplyResources(tcImage, "tcImage");
             tcImage.Name = "tcImage";
             tcImage.SelectedIndex = 0;
@@ -1051,67 +1037,6 @@
             btnImageEffects.Name = "btnImageEffects";
             btnImageEffects.UseVisualStyleBackColor = true;
             btnImageEffects.Click += btnImageEffects_Click;
-            // 
-            // tpThumbnail
-            // 
-            tpThumbnail.BackColor = System.Drawing.SystemColors.Window;
-            tpThumbnail.Controls.Add(cbThumbnailIfSmaller);
-            tpThumbnail.Controls.Add(lblThumbnailNamePreview);
-            tpThumbnail.Controls.Add(lblThumbnailName);
-            tpThumbnail.Controls.Add(txtThumbnailName);
-            tpThumbnail.Controls.Add(lblThumbnailHeight);
-            tpThumbnail.Controls.Add(lblThumbnailWidth);
-            tpThumbnail.Controls.Add(nudThumbnailHeight);
-            tpThumbnail.Controls.Add(nudThumbnailWidth);
-            resources.ApplyResources(tpThumbnail, "tpThumbnail");
-            tpThumbnail.Name = "tpThumbnail";
-            // 
-            // cbThumbnailIfSmaller
-            // 
-            resources.ApplyResources(cbThumbnailIfSmaller, "cbThumbnailIfSmaller");
-            cbThumbnailIfSmaller.Name = "cbThumbnailIfSmaller";
-            cbThumbnailIfSmaller.UseVisualStyleBackColor = true;
-            cbThumbnailIfSmaller.CheckedChanged += cbThumbnailIfSmaller_CheckedChanged;
-            // 
-            // lblThumbnailNamePreview
-            // 
-            resources.ApplyResources(lblThumbnailNamePreview, "lblThumbnailNamePreview");
-            lblThumbnailNamePreview.Name = "lblThumbnailNamePreview";
-            // 
-            // lblThumbnailName
-            // 
-            resources.ApplyResources(lblThumbnailName, "lblThumbnailName");
-            lblThumbnailName.Name = "lblThumbnailName";
-            // 
-            // txtThumbnailName
-            // 
-            resources.ApplyResources(txtThumbnailName, "txtThumbnailName");
-            txtThumbnailName.Name = "txtThumbnailName";
-            txtThumbnailName.TextChanged += txtThumbnailName_TextChanged;
-            // 
-            // lblThumbnailHeight
-            // 
-            resources.ApplyResources(lblThumbnailHeight, "lblThumbnailHeight");
-            lblThumbnailHeight.Name = "lblThumbnailHeight";
-            // 
-            // lblThumbnailWidth
-            // 
-            resources.ApplyResources(lblThumbnailWidth, "lblThumbnailWidth");
-            lblThumbnailWidth.Name = "lblThumbnailWidth";
-            // 
-            // nudThumbnailHeight
-            // 
-            resources.ApplyResources(nudThumbnailHeight, "nudThumbnailHeight");
-            nudThumbnailHeight.Maximum = new decimal(new int[] { 2000, 0, 0, 0 });
-            nudThumbnailHeight.Name = "nudThumbnailHeight";
-            nudThumbnailHeight.ValueChanged += nudThumbnailHeight_ValueChanged;
-            // 
-            // nudThumbnailWidth
-            // 
-            resources.ApplyResources(nudThumbnailWidth, "nudThumbnailWidth");
-            nudThumbnailWidth.Maximum = new decimal(new int[] { 2000, 0, 0, 0 });
-            nudThumbnailWidth.Name = "nudThumbnailWidth";
-            nudThumbnailWidth.ValueChanged += nudThumbnailWidth_ValueChanged;
             // 
             // tpCapture
             // 
@@ -2029,7 +1954,6 @@
             tpUploadClipboard.BackColor = System.Drawing.SystemColors.Window;
             tpUploadClipboard.Controls.Add(cbClipboardUploadShareURL);
             tpUploadClipboard.Controls.Add(cbClipboardUploadURLContents);
-            tpUploadClipboard.Controls.Add(cbClipboardUploadAutoIndexFolder);
             resources.ApplyResources(tpUploadClipboard, "tpUploadClipboard");
             tpUploadClipboard.Name = "tpUploadClipboard";
             // 
@@ -2046,13 +1970,6 @@
             cbClipboardUploadURLContents.Name = "cbClipboardUploadURLContents";
             cbClipboardUploadURLContents.UseVisualStyleBackColor = true;
             cbClipboardUploadURLContents.CheckedChanged += cbClipboardUploadContents_CheckedChanged;
-            // 
-            // cbClipboardUploadAutoIndexFolder
-            // 
-            resources.ApplyResources(cbClipboardUploadAutoIndexFolder, "cbClipboardUploadAutoIndexFolder");
-            cbClipboardUploadAutoIndexFolder.Name = "cbClipboardUploadAutoIndexFolder";
-            cbClipboardUploadAutoIndexFolder.UseVisualStyleBackColor = true;
-            cbClipboardUploadAutoIndexFolder.CheckedChanged += cbClipboardUploadAutoIndexFolder_CheckedChanged;
             // 
             // tpUploaderFilters
             // 
@@ -2449,10 +2366,6 @@
             ((System.ComponentModel.ISupportInitialize)nudImageJPEGQuality).EndInit();
             tpEffects.ResumeLayout(false);
             tpEffects.PerformLayout();
-            tpThumbnail.ResumeLayout(false);
-            tpThumbnail.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)nudThumbnailHeight).EndInit();
-            ((System.ComponentModel.ISupportInitialize)nudThumbnailWidth).EndInit();
             tpCapture.ResumeLayout(false);
             tcCapture.ResumeLayout(false);
             tpCaptureGeneral.ResumeLayout(false);
@@ -2613,16 +2526,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiURLSharingServices;
         private System.Windows.Forms.ComboBox cbImageFileExist;
         private System.Windows.Forms.Label lblImageFileExist;
-        private System.Windows.Forms.TabPage tpThumbnail;
-        private System.Windows.Forms.Label lblThumbnailHeight;
-        private System.Windows.Forms.Label lblThumbnailWidth;
-        private System.Windows.Forms.NumericUpDown nudThumbnailHeight;
-        private System.Windows.Forms.NumericUpDown nudThumbnailWidth;
-        private System.Windows.Forms.Label lblThumbnailName;
-        private System.Windows.Forms.TextBox txtThumbnailName;
-        private System.Windows.Forms.Label lblThumbnailNamePreview;
-        private System.Windows.Forms.CheckBox cbThumbnailIfSmaller;
-        private System.Windows.Forms.CheckBox cbClipboardUploadAutoIndexFolder;
         private System.Windows.Forms.CheckBox cbClipboardUploadURLContents;
         private System.Windows.Forms.NumericUpDown nudScreenRecordFPS;
         private System.Windows.Forms.Label lblScreenRecordFPS;

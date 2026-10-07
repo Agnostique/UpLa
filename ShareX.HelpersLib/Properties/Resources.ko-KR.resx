@@ -138,9 +138,6 @@
   <data name="CssFileNameEditor_EditValue_Browse_for_a_Cascading_Style_Sheet___" xml:space="preserve">
     <value>CSS 탐색하기...</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>비디오 섬네일 생성기</value>
-  </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>흐림 효과</value>
   </data>
@@ -322,9 +319,6 @@
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>랜덤</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>해시 검사</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>활성화 된 창 영역에서 화면 녹화 시작/중단</value>
   </data>
@@ -439,9 +433,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>확장자 없는 파일 경로 + "출력 파일 이름 확장자"</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>폴더 색인 만들기</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>유닉스 타임스탬프</value>
   </data>
@@ -499,9 +490,6 @@
   </data>
   <data name="ReplCodeMenuCategory_Incremental" xml:space="preserve">
     <value>자동 증가</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>섬네일 이미지를 파일로 저장하기</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>다운로드 중.</value>
@@ -644,9 +632,6 @@
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>마지막 영역으로 화면 녹화 (GIF)</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>모니터 테스트</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>복사</value>
   </data>
@@ -673,9 +658,6 @@
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>색상 선택기</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>중단</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>파일 업로더</value>
@@ -770,9 +752,6 @@
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>파일을 클립보드에 복사하기</value>
   </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>메타데이터</value>
-  </data>
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>다시 실행</value>
   </data>
@@ -784,9 +763,6 @@
   </data>
   <data name="Extensions_AddContextMenu_SelectAll" xml:space="preserve">
     <value>모두 선택</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>이미지 썸네일er</value>
   </data>
   <data name="ObjectListView_ObjectListView_Name" xml:space="preserve">
     <value>이름</value>
@@ -827,32 +803,14 @@
   <data name="ObjectListView_ObjectListView_Copy_name" xml:space="preserve">
     <value>복사 name</value>
   </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>비디오 변환기</value>
-  </data>
   <data name="RandomNonAmbiguousAlphanumericCharRepeatUsingN" xml:space="preserve">
     <value>모호하지 않은 무작위 영숫자 문자({n} 사용 반복)</value>
   </data>
   <data name="DrawImageSizeMode_PercentageOfWatermark" xml:space="preserve">
     <value>Percentage of 이미지</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>이미지 splitter</value>
-  </data>
   <data name="Extensions_AddContextMenu_Undo" xml:space="preserve">
     <value>실행 취소</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>결과 of first 파일:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>결과 of second 파일:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>결과:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>대상:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>끝</value>
@@ -877,12 +835,6 @@
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>로마 숫자(대문자)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>클립보드 뷰어</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>창 검사</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>실선</value>
@@ -1034,9 +986,6 @@
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>OCR</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>테두리 없는 창</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>화면에 고정</value>
   </data>
@@ -1085,9 +1034,6 @@
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>이미지 꾸미기</value>
   </data>
-  <data name="Check" xml:space="preserve">
-    <value>확인</value>
-  </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>캡처 pre configured 창</value>
   </data>
@@ -1109,12 +1055,6 @@
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>파일 크기</value>
   </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>Make active 창 borderless</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>Make active 창 위쪽 most</value>
-  </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>Pin to 화면 (Close all)</value>
   </data>
@@ -1132,9 +1072,6 @@
   </data>
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>투명</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>메타데이터 제거</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>QR code (Scan 영역)</value>

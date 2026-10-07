@@ -416,9 +416,6 @@
   <data name="AboutForm_AboutForm_Language_pt_PT" xml:space="preserve">
     <value>پرتغالی</value>
   </data>
-  <data name="InspectWindow_ProcessName" xml:space="preserve">
-    <value>نام فرایند</value>
-  </data>
   <data name="SwitchToThumbnailView" xml:space="preserve">
     <value>Switch to بندانگشتی view</value>
   </data>
@@ -434,9 +431,6 @@
   <data name="AboutForm_AboutForm_Credits" xml:space="preserve">
     <value>Crویرایشs</value>
   </data>
-  <data name="InspectWindow_ClassName" xml:space="preserve">
-    <value>نام کلاس</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__File__Count___0__" xml:space="preserve">
     <value>کلیپ‌بورد content: فایل (Count: {0})</value>
   </data>
@@ -448,12 +442,6 @@
   </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Text__Length___0__" xml:space="preserve">
     <value>کلیپ‌بورد content: Text (Length: {0})</value>
-  </data>
-  <data name="InspectWindow_ProcessIdentifier" xml:space="preserve">
-    <value>شناسه فرایند</value>
-  </data>
-  <data name="InspectWindow_ProcessFileName" xml:space="preserve">
-    <value>Process فایل name</value>
   </data>
   <data name="BeforeUploadForm_BeforeUploadForm__0__is_about_to_be_uploaded_to__1___You_may_choose_a_different_destination_" xml:space="preserve">
     <value>{0} is about to be بارگذاریed to {1}. You may choose a different destination.</value>
@@ -478,9 +466,6 @@
   </data>
   <data name="ThisFeatureWillNotWorkWhenDisableUploadOptionIsEnabled" xml:space="preserve">
     <value>This feature will not work when "Disableبارگذاری" option is enabled!</value>
-  </data>
-  <data name="InspectWindow_WindowRectangle" xml:space="preserve">
-    <value>پنجره rectangle</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>Would you like to enable تصویر effects?
@@ -523,9 +508,6 @@ You can later disable it from "After ضبط tasks" منو.</value>
   <data name="ScreenColorPicker" xml:space="preserve">
     <value>صفحه رنگ picker</value>
   </data>
-  <data name="InspectWindow_WindowStyles" xml:space="preserve">
-    <value>پنجره styles</value>
-  </data>
   <data name="MainForm_UpdateWorkflowsMenu_You_can_add_workflows_from_hotkey_settings___" xml:space="preserve">
     <value>You can افزودن workflows from hotkey تنظیمات...</value>
   </data>
@@ -535,14 +517,8 @@ You can later disable it from "After ضبط tasks" منو.</value>
   <data name="Confirmation" xml:space="preserve">
     <value>تأیید</value>
   </data>
-  <data name="InspectWindow_WindowTitle" xml:space="preserve">
-    <value>پنجره title</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Image__Size___0_x_1__" xml:space="preserve">
     <value>کلیپ‌بورد content: تصویر (Size: {0}x{1})</value>
-  </data>
-  <data name="InspectWindow_ExtendedWindowStyles" xml:space="preserve">
-    <value>Extended پنجره styles</value>
   </data>
   <data name="FFmpeg_FFmpeg_video_and_audio_source_both_can_t_be__None__" xml:space="preserve">
     <value>منبع ویدئو و صدای FFmpeg نمی‌توانند هر دو «هیچ‌کدام» باشند.</value>
@@ -561,9 +537,6 @@ Do you want to abort the active ضبط صفحه?</value>
   <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByPolicy_Text" xml:space="preserve">
     <value>شروعup has been disabled by your organization</value>
   </data>
-  <data name="InspectWindow_WindowHandle" xml:space="preserve">
-    <value>پنجره handle</value>
-  </data>
   <data name="FailedToSaveSettings" xml:space="preserve">
     <value>Failed to ذخیره تنظیمات</value>
   </data>
@@ -573,9 +546,6 @@ Do you want to abort the active ضبط صفحه?</value>
 {1}
 
 Please select a different hotkey or quit the conflicting application and reباز کردن ShareX.</value>
-  </data>
-  <data name="InspectWindow_ClientRectangle" xml:space="preserve">
-    <value>مستطیل کلاینت</value>
   </data>
   <data name="AboutForm_AboutForm_Team" xml:space="preserve">
     <value>تیم</value>

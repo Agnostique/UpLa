@@ -416,9 +416,6 @@ Botão do meio (scroll) para fechar</value>
   <data name="AboutForm_AboutForm_Language_pt_PT" xml:space="preserve">
     <value>Português</value>
   </data>
-  <data name="InspectWindow_ProcessName" xml:space="preserve">
-    <value>Nome do processo</value>
-  </data>
   <data name="ShareXIsUpToDate" xml:space="preserve">
     <value>O ShareX está atualizado!</value>
   </data>
@@ -431,9 +428,6 @@ Botão do meio (scroll) para fechar</value>
   <data name="AboutForm_AboutForm_Credits" xml:space="preserve">
     <value>Créditos</value>
   </data>
-  <data name="InspectWindow_ClassName" xml:space="preserve">
-    <value>Nome da classe</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__File__Count___0__" xml:space="preserve">
     <value>Conteúdo da área de transferência: Ficheiro (Contagem: {0})</value>
   </data>
@@ -445,12 +439,6 @@ Botão do meio (scroll) para fechar</value>
   </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Text__Length___0__" xml:space="preserve">
     <value>Conteúdo da área de transferência: Texto (Comprimento: {0})</value>
-  </data>
-  <data name="InspectWindow_ProcessIdentifier" xml:space="preserve">
-    <value>Identificador do processo</value>
-  </data>
-  <data name="InspectWindow_ProcessFileName" xml:space="preserve">
-    <value>Nome do ficheiro do processo</value>
   </data>
   <data name="FFmpegIsMissing" xml:space="preserve">
     <value>FFmpeg em falta</value>
@@ -469,9 +457,6 @@ Botão do meio (scroll) para fechar</value>
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>Alemão</value>
-  </data>
-  <data name="InspectWindow_WindowRectangle" xml:space="preserve">
-    <value>Retângulo da janela</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>Pretende ativar os efeitos de imagem?
@@ -526,9 +511,6 @@ Pode desativá-los mais tarde no menu "Tarefas após captura".</value>
   <data name="ScreenColorPicker" xml:space="preserve">
     <value>Seletor de cor do ecrã</value>
   </data>
-  <data name="InspectWindow_WindowStyles" xml:space="preserve">
-    <value>Estilos de janela</value>
-  </data>
   <data name="AboutForm_AboutForm_Language_fr" xml:space="preserve">
     <value>Francês</value>
   </data>
@@ -538,14 +520,8 @@ Pode desativá-los mais tarde no menu "Tarefas após captura".</value>
   <data name="Confirmation" xml:space="preserve">
     <value>Confirmação</value>
   </data>
-  <data name="InspectWindow_WindowTitle" xml:space="preserve">
-    <value>Título da janela</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Image__Size___0_x_1__" xml:space="preserve">
     <value>Conteúdo da área de transferência: Imagem (Tamanho: {0}x{1})</value>
-  </data>
-  <data name="InspectWindow_ExtendedWindowStyles" xml:space="preserve">
-    <value>Estilos de janela expandidos</value>
   </data>
   <data name="AboutForm_AboutForm_Language_ru" xml:space="preserve">
     <value>Russo</value>
@@ -564,9 +540,6 @@ Pretende cancelar a gravação de ecrã ativa?</value>
   <data name="UnableToFindAWindowWithSpecifiedWindowTitle" xml:space="preserve">
     <value>Não foi possível encontrar uma janela com o título especificado.</value>
   </data>
-  <data name="InspectWindow_WindowHandle" xml:space="preserve">
-    <value>Identificador da janela</value>
-  </data>
   <data name="AboutForm_AboutForm_Language_it_IT" xml:space="preserve">
     <value>Italiano</value>
   </data>
@@ -575,9 +548,6 @@ Pretende cancelar a gravação de ecrã ativa?</value>
   </data>
   <data name="FailedToSaveSettings" xml:space="preserve">
     <value>Falha ao guardar as definições</value>
-  </data>
-  <data name="InspectWindow_ClientRectangle" xml:space="preserve">
-    <value>Retângulo do cliente</value>
   </data>
   <data name="AboutForm_AboutForm_Team" xml:space="preserve">
     <value>Equipa</value>

@@ -147,9 +147,6 @@
   <data name="tpEffects.Text" xml:space="preserve">
     <value>Ефекти</value>
   </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>Мініатюра</value>
-  </data>
   <data name="tpImage.Text" xml:space="preserve">
     <value>Зображення</value>
   </data>
@@ -236,21 +233,6 @@
   </data>
   <data name="lblImageJPEGQuality.Text" xml:space="preserve">
     <value>Якість JPEG:</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>Створювати мініатюри лише коли розмір зображення більше ніж розмір мініатюри</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>Попередній перегляд</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>Назва мініатюри:</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>Висота:</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>Ширина:</value>
   </data>
   <data name="lblScreenshotDelay.Text" xml:space="preserve">
     <value>Затримка для знімка:</value>
@@ -440,9 +422,6 @@
   </data>
   <data name="cbClipboardUploadURLContents.Text" xml:space="preserve">
     <value>Якщо у буфері посилання на файл, то завантажити його і вивантажити</value>
-  </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>Якщо у буфері шлях до теки, то індексувати цю теку та вивантажити індекс</value>
   </data>
   <data name="tpUploaderFilters.Text" xml:space="preserve">
     <value>Фільтри вивантажувачів</value>

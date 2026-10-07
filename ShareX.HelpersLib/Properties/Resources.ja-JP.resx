@@ -141,9 +141,6 @@
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>やり直し</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>動画のサムネイル作成</value>
-  </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>効果: ぼかし(B)</value>
   </data>
@@ -334,9 +331,6 @@
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>ランダム</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>ハッシュ値の照合</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>アクティブ ウィンドウの動画キャプチャーを開始/停止</value>
   </data>
@@ -360,9 +354,6 @@
   </data>
   <data name="MyMessageBox_MyMessageBox_Yes" xml:space="preserve">
     <value>はい</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>画像のサムネイル作成</value>
   </data>
   <data name="ReplCodeMenuEntry_mon_Current_month_name__Local_language_" xml:space="preserve">
     <value>月の名前 (システムの言語)</value>
@@ -460,9 +451,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>ファイルのパス (拡張子なし) + 「出力ファイル名の拡張子」</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>フォルダ内一覧の作成</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Unix時間</value>
   </data>
@@ -538,9 +526,6 @@
   </data>
   <data name="RandomEmojiRepeatUsingN" xml:space="preserve">
     <value>ランダムな絵文字 {n}でn回繰り返し</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>サムネイル画像をファイルに保存</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>ダウンロード中...</value>
@@ -692,9 +677,6 @@
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>最近使用した領域の動画キャプチャー (GIF) を開始/停止</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>モニター テスト</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>コピー</value>
   </data>
@@ -724,9 +706,6 @@
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>カラー ピッカー</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>停止</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>ファイル アップローダー</value>
@@ -760,9 +739,6 @@
   </data>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>自動</value>
-  </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>動画の変換</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Cancel" xml:space="preserve">
     <value>キャンセル</value>
@@ -824,9 +800,6 @@
   <data name="HotkeyType_UploadURL" xml:space="preserve">
     <value>URL先のファイルをアップロード</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>画像の分割</value>
-  </data>
   <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
     <value>URLをクリップボードにコピー</value>
   </data>
@@ -838,18 +811,6 @@
   </data>
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>ファイルをクリップボードにコピー</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>1つ目のファイルの結果:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>2つ目のファイルの結果:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>ハッシュ値:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>比較するハッシュ値:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>終点のみ</value>
@@ -874,12 +835,6 @@
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>ローマ数字(大)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>クリップボードビューアー</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>ウィンドウの調査</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>実線</value>
@@ -1025,9 +980,6 @@
   <data name="HotkeyType_ImageViewer" xml:space="preserve">
     <value>画像ビューア</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>ボーダーレスウィンドウ</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>最前面に固定</value>
   </data>
@@ -1076,9 +1028,6 @@
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>画像装飾</value>
   </data>
-  <data name="Check" xml:space="preserve">
-    <value>確認</value>
-  </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>事前に指定したウィンドウをキャプチャ</value>
   </data>
@@ -1100,12 +1049,6 @@
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>ファイルサイズ</value>
   </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>アクティブウィンドウをボーダーレスにする</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>アクティブウィンドウを最前面にする</value>
-  </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>最前面に固定 (すべて閉じる)</value>
   </data>
@@ -1124,17 +1067,11 @@
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>透明</value>
   </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>メタデータ</value>
-  </data>
   <data name="EDataType_URL" xml:space="preserve">
     <value>URL</value>
   </data>
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>OCR</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>メタデータを削除</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>QR コード (領域をスキャン)</value>

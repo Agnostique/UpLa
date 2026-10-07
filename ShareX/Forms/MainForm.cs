@@ -1687,26 +1687,6 @@ namespace ShareX
             TaskHelpers.OpenImageCombiner();
         }
 
-        private void tsmiImageSplitter_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenImageSplitter();
-        }
-
-        private void tsmiImageThumbnailer_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenImageThumbnailer();
-        }
-
-        private void tsmiVideoConverter_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenVideoConverter();
-        }
-
-        private void tsmiVideoThumbnailer_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenVideoThumbnailer();
-        }
-
         private async void tsmiOCR_Click(object sender, EventArgs e)
         {
             Hide();
@@ -1729,41 +1709,6 @@ namespace ShareX
         private void tsmiQRCode_Click(object sender, EventArgs e)
         {
             TaskHelpers.OpenQRCode();
-        }
-
-        private void tsmiHashChecker_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenHashCheck();
-        }
-
-        private void tsmiMetadata_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenMetadataWindow();
-        }
-
-        private void tsmiIndexFolder_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenDirectoryIndexer();
-        }
-
-        private void tsmiClipboardViewer_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenClipboardViewer();
-        }
-
-        private void tsmiBorderlessWindow_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenBorderlessWindow();
-        }
-
-        private void tsmiInspectWindow_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenInspectWindow();
-        }
-
-        private void tsmiMonitorTest_Click(object sender, EventArgs e)
-        {
-            TaskHelpers.OpenMonitorTest();
         }
 
         private void TsddbAfterCaptureTasks_DropDownOpening(object sender, EventArgs e)
@@ -2338,8 +2283,6 @@ namespace ShareX
                 tsmiUploadClipboard, tsmiUploadURL,
                 // Workflows
                 tsddbWorkflows,
-                // Tools
-                tsmiVideoConverter, tsmiVideoThumbnailer, tssTools3, tsmiIndexFolder,
                 // Destinations
                 tsmiTextUploaders, tsmiFileUploaders, tsmiURLSharingServices,
                 // Debug

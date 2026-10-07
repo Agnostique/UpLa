@@ -141,9 +141,6 @@
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_After_upload___0_" xml:space="preserve">
     <value>Po przesłaniu: {0}</value>
   </data>
-  <data name="InspectWindow_ProcessName" xml:space="preserve">
-    <value>Nazwa procesu</value>
-  </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>Anuluj</value>
   </data>
@@ -187,9 +184,6 @@ Czy chcesz ponownie uruchomić ShareX?</value>
   </data>
   <data name="UploadTask_ThreadDoWork_URL_is_empty_" xml:space="preserve">
     <value>Link jest pusty.</value>
-  </data>
-  <data name="InspectWindow_ClassName" xml:space="preserve">
-    <value>Nazwa klasy</value>
   </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>Historia</value>
@@ -239,14 +233,8 @@ Czy chcesz ponownie uruchomić ShareX?</value>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Text__Length___0__" xml:space="preserve">
     <value>Zawartość schowka: tekst (długość: {0})</value>
   </data>
-  <data name="InspectWindow_ProcessIdentifier" xml:space="preserve">
-    <value>Identyfikator procesu</value>
-  </data>
   <data name="TaskSettingsForm_txtNameFormatPatternActiveWindow_TextChanged_Preview_" xml:space="preserve">
     <value>Podgląd:</value>
-  </data>
-  <data name="InspectWindow_ProcessFileName" xml:space="preserve">
-    <value>Nazwa pliku procesu</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>Czy chcesz zresetować ustawienia ShareX?</value>
@@ -311,9 +299,6 @@ Jesteś pewien, że chcesz kontynuować?</value>
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>Niemiecki</value>
-  </data>
-  <data name="InspectWindow_WindowRectangle" xml:space="preserve">
-    <value>Prostokąt okna</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>Czy chcesz włączyć efekty obrazu?
@@ -427,9 +412,6 @@ Czy chcesz ponownie uruchomić ShareX?</value>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation" xml:space="preserve">
     <value>Potwierdzenie usunięcia pliku</value>
   </data>
-  <data name="InspectWindow_WindowStyles" xml:space="preserve">
-    <value>Style okna</value>
-  </data>
   <data name="MainForm_UpdateWorkflowsMenu_You_can_add_workflows_from_hotkey_settings___" xml:space="preserve">
     <value>Możesz dodać operacje w ustawieniach skrótu...</value>
   </data>
@@ -451,17 +433,11 @@ Czy chcesz ponownie uruchomić ShareX?</value>
   <data name="Confirmation" xml:space="preserve">
     <value>Potwierdzenie</value>
   </data>
-  <data name="InspectWindow_WindowTitle" xml:space="preserve">
-    <value>Tytuł okna</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Image__Size___0_x_1__" xml:space="preserve">
     <value>Zawartość schowka: obraz (rozmiar: {0}x{1})</value>
   </data>
   <data name="SwitchToListView" xml:space="preserve">
     <value>Przełącz na widok listy</value>
-  </data>
-  <data name="InspectWindow_ExtendedWindowStyles" xml:space="preserve">
-    <value>Rozszerzone style okien</value>
   </data>
   <data name="UploadTask_OnUploadCompleted_Stopped" xml:space="preserve">
     <value>Zatrzymano</value>
@@ -499,9 +475,6 @@ Proszę uruchomić ShareX jako administrator, aby zmienić ścieżkę folderu os
   <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByPolicy_Text" xml:space="preserve">
     <value>Uruchomienie zostało wyłączone przez Twoją organizację</value>
   </data>
-  <data name="InspectWindow_WindowHandle" xml:space="preserve">
-    <value>Klamka okna</value>
-  </data>
   <data name="AboutForm_AboutForm_Language_it_IT" xml:space="preserve">
     <value>Włoski</value>
   </data>
@@ -527,9 +500,6 @@ tutaj</value>
 {1}
 
 Proszę wybrać inny skrót klawiszowy lub zamknąć konfliktową aplikację i ponownie otworzyć ShareX.</value>
-  </data>
-  <data name="InspectWindow_ClientRectangle" xml:space="preserve">
-    <value>Prostokąt klienta</value>
   </data>
   <data name="AboutForm_AboutForm_Team" xml:space="preserve">
     <value>Zespół</value>

@@ -141,9 +141,6 @@
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>إعادة</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>صانع مصغرات الفيديو</value>
-  </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>تمويه (B)</value>
   </data>
@@ -331,9 +328,6 @@
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>عشوائي</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>فاحص الهاش</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>بدء/إيقاف تسجيل الشاشة الخاص بالنافذة النشطة</value>
   </data>
@@ -357,9 +351,6 @@
   </data>
   <data name="MyMessageBox_MyMessageBox_Yes" xml:space="preserve">
     <value>نعم</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>صانع الصور المصغرة</value>
   </data>
   <data name="ReplCodeMenuEntry_mon_Current_month_name__Local_language_" xml:space="preserve">
     <value>اسم الشهر (باللغة المحلية)</value>
@@ -457,9 +448,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>مسار الملف مع امتداد اسم الملف الناتج</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>مفهرس المجلدات</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>دمغة وقت بصيغة Unix</value>
   </data>
@@ -535,9 +523,6 @@
   </data>
   <data name="RandomEmojiRepeatUsingN" xml:space="preserve">
     <value>رمز تعبيرية عشوائية (مكررة بمقدار {n})</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>حفظ الصورة المصغّرة إلى ملف</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>جارٍ التنزيل...</value>
@@ -689,9 +674,6 @@
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>بدء/إيقاف تسجيل الشاشة من النوع (GIF) الخاص بآخر منطقة محددة</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>اختبار الشاشة</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>نسخ</value>
   </data>
@@ -721,9 +703,6 @@
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>منتقي الألوان</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>إيقاف</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>رافعو الملفات</value>
@@ -757,9 +736,6 @@
   </data>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>تلقائي</value>
-  </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>محوّل صيغ الفيديو</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Cancel" xml:space="preserve">
     <value>إلغاء</value>
@@ -821,9 +797,6 @@
   <data name="HotkeyType_UploadURL" xml:space="preserve">
     <value>رفع من عنوان URL</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>مجزّء الصور</value>
-  </data>
   <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
     <value>نسخ العنوان إلى الحافظة</value>
   </data>
@@ -835,18 +808,6 @@
   </data>
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>نسخ الملف إلى الحافظة</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>نتيجة الملف الأول:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>نتيجة الملف الثاني:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>النتيجة:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>الهدف:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>نهاية</value>
@@ -871,12 +832,6 @@
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>أرقام رومانية (حروف كبيرة)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>عارض الحافظة</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>مشخّص النوافذ</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>مصمت</value>
@@ -1028,9 +983,6 @@
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>التعرف على النصوص OCR</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>نافذة بلا إطار</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>تثيبت على الشاشة</value>
   </data>
@@ -1079,9 +1031,6 @@
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>تحسين صورة</value>
   </data>
-  <data name="Check" xml:space="preserve">
-    <value>فحص</value>
-  </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>التقاط نافذة مهيئة مسبقًا</value>
   </data>
@@ -1103,17 +1052,8 @@
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>حجم الملف</value>
   </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>حذف حدود النافذة النشطة</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>إبقاء النافذة النشطة في المقدمة</value>
-  </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>تثبيت على الشاشة وإغلاق الكل</value>
-  </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>البيانات الوصفية</value>
   </data>
   <data name="GIFQuality_Bit4" xml:space="preserve">
     <value>مُكمِّم Octree بـ 16 لونًا</value>
@@ -1132,9 +1072,6 @@
   </data>
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>شفاف</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>إزالة البيانات الوصفية</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>رمز QR (مسح منطقة)</value>

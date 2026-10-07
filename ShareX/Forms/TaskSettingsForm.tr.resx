@@ -225,9 +225,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>Kopyala</value>
   </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>Pano dizin yolu içeriyorsa dizini indeksle ve indeksi yükle</value>
-  </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>Pano adres içeriyorsa adres paylaşım servisi ile paylaş</value>
   </data>
@@ -275,24 +272,6 @@
   </data>
   <data name="cbScreenRecorderShowCursor.Text" xml:space="preserve">
     <value>Ekran kaydında imleç göster</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>Genişlik:</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>Yükseklik:</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>Küçük resim adı:</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>Ön izleme</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>Küçük resimi sadece resim boyutu küçük resim boyutundan büyükse oluştur</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>Küçük resim</value>
   </data>
   <data name="btnImageEffects.Text" xml:space="preserve">
     <value>Resim efektleri ayarları...</value>

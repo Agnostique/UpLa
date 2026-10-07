@@ -26,7 +26,6 @@
 using Newtonsoft.Json;
 using ShareX.HelpersLib;
 using ShareX.ImageEffectsLib;
-using ShareX.IndexerLib;
 using ShareX.MediaLib;
 using ShareX.ScreenCaptureLib;
 using ShareX.UploadersLib;
@@ -349,15 +348,6 @@ namespace ShareX
         public bool UseRandomImageEffect = false;
 
         #endregion Image / Effects
-
-        #region Image / Thumbnail
-
-        public int ThumbnailWidth = 200;
-        public int ThumbnailHeight = 0;
-        public string ThumbnailName = "-thumbnail";
-        public bool ThumbnailCheckSize = false;
-
-        #endregion Image / Thumbnail
     }
 
     public class TaskSettingsCapture
@@ -432,7 +422,6 @@ namespace ShareX
 
         public bool ClipboardUploadURLContents = false;
         public bool ClipboardUploadShareURL = false;
-        public bool ClipboardUploadAutoIndexFolder = false;
 
         #endregion Upload / Clipboard upload
 
@@ -449,12 +438,8 @@ namespace ShareX
         public string ScreenColorPickerFormatCtrl = "$r255, $g255, $b255";
         public string ScreenColorPickerInfoText = "RGB: $r255, $g255, $b255$nHex: $hex$nX: $x Y: $y";
         public PinToScreenOptions PinToScreenOptions = new PinToScreenOptions();
-        public IndexerSettings IndexerSettings = new IndexerSettings();
         public ImageBeautifierOptions ImageBeautifierOptions = new ImageBeautifierOptions();
         public ImageCombinerOptions ImageCombinerOptions = new ImageCombinerOptions();
-        public VideoConverterOptions VideoConverterOptions = new VideoConverterOptions();
-        public VideoThumbnailOptions VideoThumbnailOptions = new VideoThumbnailOptions();
-        public BorderlessWindowSettings BorderlessWindowSettings = new BorderlessWindowSettings();
     }
 
     public class TaskSettingsAdvanced

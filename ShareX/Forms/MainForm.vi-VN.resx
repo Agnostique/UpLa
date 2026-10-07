@@ -276,9 +276,6 @@
   <data name="tsmiMonitor.Text" xml:space="preserve">
     <value>Màn hình</value>
   </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>Kiểm tra màn hình...</value>
-  </data>
   <data name="tsmiOpen.Text" xml:space="preserve">
     <value>Mở</value>
   </data>
@@ -308,9 +305,6 @@
   </data>
   <data name="tsmiRuler.Text" xml:space="preserve">
     <value>Thước đo...</value>
-  </data>
-  <data name="tsmiIndexFolder.Text" xml:space="preserve">
-    <value>Đánh chỉ mục thư mục...</value>
   </data>
   <data name="tsmiOpenDeletionURL.Text" xml:space="preserve">
     <value>URL để xóa</value>
@@ -423,9 +417,6 @@
   <data name="tsmiTrayMonitor.Text" xml:space="preserve">
     <value>Màn hình</value>
   </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>Kiểm tra màn hình...</value>
-  </data>
   <data name="tsmiTrayQRCode.Text" xml:space="preserve">
     <value>Mã QR...</value>
   </data>
@@ -519,17 +510,8 @@
   <data name="tsmiTrayToggleHotkeys.Text" xml:space="preserve">
     <value>Vô hiệu hóa phím tắt</value>
   </data>
-  <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
-    <value>Trình tạo ảnh thu nhỏ/thumbnail cho video...</value>
-  </data>
   <data name="tsmiTrayWorkflows.Text" xml:space="preserve">
     <value>Luồng công việc</value>
-  </data>
-  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
-    <value>Trình tạo ảnh thu nhỏ/thumbnail cho video...</value>
-  </data>
-  <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
-    <value>Đánh chỉ mục thư mục...</value>
   </data>
   <data name="tsbAbout.Text" xml:space="preserve">
     <value>Giới thiệu...</value>
@@ -570,12 +552,6 @@
   <data name="tsmiCopyMarkdownImage.Text" xml:space="preserve">
     <value>Ảnh Markdown</value>
   </data>
-  <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
-    <value>Tạo ảnh thu nhỏ/thumbnail...</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
-    <value>Tạo ảnh thu nhỏ/thumbnail...</value>
-  </data>
   <data name="tsmiCopyMarkdownLinkedImage.Text" xml:space="preserve">
     <value>Ảnh liên kết Markdown</value>
   </data>
@@ -599,9 +575,6 @@
   </data>
   <data name="tsmiScreenshotDelay.Text" xml:space="preserve">
     <value>Thời gian trễ chụp màn hình</value>
-  </data>
-  <data name="tsmiImageSplitter.Text" xml:space="preserve">
-    <value>Trình chia ảnh...</value>
   </data>
   <data name="tsmiCopyImageDimensions.Text" xml:space="preserve">
     <value>Kích thước ảnh</value>
@@ -633,17 +606,8 @@
   <data name="tsmiTrayScreenshotDelay.Text" xml:space="preserve">
     <value>Thời gian trễ chụp ảnh màn hình</value>
   </data>
-  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
-    <value>Trình chia ảnh...</value>
-  </data>
   <data name="tsmiAddImageEffects.Text" xml:space="preserve">
     <value>Thêm hiệu ứng hình ảnh ...</value>
-  </data>
-  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
-    <value>Cửa sổ không viền ...</value>
-  </data>
-  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
-    <value>Trình xem khay nhớ tạm ...</value>
   </data>
   <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
     <value>Gộp ảnh theo chiều ngang</value>
@@ -654,9 +618,6 @@
   <data name="tsmiImageViewer.Text" xml:space="preserve">
     <value>Xem ảnh...</value>
   </data>
-  <data name="tsmiInspectWindow.Text" xml:space="preserve">
-    <value>Kiểm tra cửa sổ ...</value>
-  </data>
   <data name="tsmiPinSelectedFile.Text" xml:space="preserve">
     <value>Ghim vào màn hình</value>
   </data>
@@ -666,26 +627,11 @@
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>Khởi động lại ShareX với tư cách quản trị viên</value>
   </data>
-  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
-    <value>Cửa sổ không viền ...</value>
-  </data>
-  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
-    <value>Trình xem khay nhớ tạm ...</value>
-  </data>
   <data name="tsmiTrayImageViewer.Text" xml:space="preserve">
     <value>Xem ảnh...</value>
   </data>
-  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
-    <value>Kiểm tra cửa sổ ...</value>
-  </data>
   <data name="tsmiTrayPinToScreen.Text" xml:space="preserve">
     <value>Ghim vào màn hình ...</value>
-  </data>
-  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
-    <value>Chuyển đổi video...</value>
-  </data>
-  <data name="tsmiVideoConverter.Text" xml:space="preserve">
-    <value>Chuyển đổi video...</value>
   </data>
   <data name="tsmiOCR.Text" xml:space="preserve">
     <value>OCR...</value>
@@ -698,12 +644,6 @@
   </data>
   <data name="tsmiAI.Text" xml:space="preserve">
     <value>Phân tích ảnh...</value>
-  </data>
-  <data name="tsmiHashChecker.Text" xml:space="preserve">
-    <value>Trình kiểm tra hash...</value>
-  </data>
-  <data name="tsmiMetadata.Text" xml:space="preserve">
-    <value>Siêu dữ liệu...</value>
   </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Cài đặt đích...</value>
@@ -722,12 +662,6 @@
   </data>
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>Phân tích ảnh...</value>
-  </data>
-  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
-    <value>Trình kiểm tra hash...</value>
-  </data>
-  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
-    <value>Siêu dữ liệu...</value>
   </data>
   <data name="cHotkey.HeaderText" xml:space="preserve">
     <value>Phím tắt</value>

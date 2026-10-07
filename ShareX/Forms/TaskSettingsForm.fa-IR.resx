@@ -147,9 +147,6 @@
   <data name="lblCaptureCustomRegionHeight.Text" xml:space="preserve">
     <value>ارتفاع:</value>
   </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>ارتفاع:</value>
-  </data>
   <data name="lblRegionCaptureFixedSizeHeight.Text" xml:space="preserve">
     <value>ارتفاع:</value>
   </data>
@@ -163,9 +160,6 @@
     <value>پهنا:</value>
   </data>
   <data name="lblRegionCaptureFixedSizeWidth.Text" xml:space="preserve">
-    <value>پهنا:</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
     <value>پهنا:</value>
   </data>
   <data name="lblCaptureCustomRegionWidth.Text" xml:space="preserve">
@@ -261,9 +255,6 @@
   <data name="lblNameFormatPatternPreviewActiveWindow.Text" xml:space="preserve">
     <value>پیش نمایش:</value>
   </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>پیش نمایش</value>
-  </data>
   <data name="chActionsPath.Text" xml:space="preserve">
     <value>مسیر</value>
   </data>
@@ -353,9 +344,6 @@
   </data>
   <data name="tpUploadClipboard.Text" xml:space="preserve">
     <value>آپلود کلیپ بورد</value>
-  </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>اگر کلیپ بورد حاوی آدرس پوشه است، پوشه را ایندکس کن و ایندکس را آپلود کن</value>
   </data>
   <data name="cbClipboardUploadURLContents.Text" xml:space="preserve">
     <value>اگر کلیپ بورد حاوی آدرس فایل است، آن را دانلود و سپس آپلود کن</value>
@@ -485,15 +473,6 @@
   </data>
   <data name="cbImageEffectOnlyRegionCapture.Text" xml:space="preserve">
     <value>اعمال جلوه‌ها فقط روی ضبط ناحیه</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>ایجاد بندانگشتی فقط اگر اندازه تصویر بزرگ‌تر از اندازه بندانگشتی باشد</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>نام بندانگشتی:</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>بندانگشتی</value>
   </data>
   <data name="cbCaptureAutoHideDesktopIcons.Text" xml:space="preserve">
     <value>پنهان‌سازی خودکار آیکن‌های دسکتاپ</value>

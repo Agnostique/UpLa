@@ -135,9 +135,6 @@
   <data name="CssFileNameEditor_EditValue_Browse_for_a_Cascading_Style_Sheet___" xml:space="preserve">
     <value>Selecteer een Cascading Style Sheet...</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>Video miniaturen</value>
-  </data>
   <data name="ReplCodeMenuEntry_uln_User_login_name" xml:space="preserve">
     <value>Inlognaam gebruiker</value>
   </data>
@@ -268,9 +265,6 @@ Wil je deze downloaden?</value>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Willekeurig</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>Hash controle</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>Start opname scherm met regio voor actief scherm</value>
   </data>
@@ -361,9 +355,6 @@ Wil je deze downloaden?</value>
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Bestandspad zonder extensie + "Extensie resultaatsbestand"</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>Indexeer map</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Unix timestamp</value>
   </data>
@@ -406,9 +397,6 @@ Wil je deze downloaden en installeren?</value>
   </data>
   <data name="ReplCodeMenuCategory_Incremental" xml:space="preserve">
     <value>Incrementeel</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>Sla miniatuur van afbeelding op in bestand</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>Downloaden.</value>
@@ -512,9 +500,6 @@ Wil je deze downloaden en installeren?</value>
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>Start opnemen (GIF) met laatste regio</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>Monitor test</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Kopieer</value>
   </data>
@@ -538,9 +523,6 @@ Wil je deze downloaden en installeren?</value>
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>Kleurenkiezer</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Stop</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>Bestandsuploader</value>
@@ -604,9 +586,6 @@ Wil je deze downloaden en installeren?</value>
   </data>
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>Kopieer bestand naar klembord</value>
-  </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>Metagegevens</value>
   </data>
   <data name="ShapeType_RegionFreehand" xml:space="preserve">
     <value>Freehand gebied</value>
@@ -673,9 +652,6 @@ Wil je deze downloaden en installeren?</value>
   </data>
   <data name="Extensions_AddContextMenu_SelectAll" xml:space="preserve">
     <value>Alles selecteren</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>Afbeelding miniatuurer</value>
   </data>
   <data name="ShapeType_DrawingImage" xml:space="preserve">
     <value>Afbeelding (Bestand)</value>
@@ -806,9 +782,6 @@ Wil je deze downloaden en installeren?</value>
   <data name="RegionCaptureAction_RemoveShape" xml:space="preserve">
     <value>Verwijderen shape</value>
   </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>Videoconverter</value>
-  </data>
   <data name="HotkeyType_OpenMainWindow" xml:space="preserve">
     <value>Openen main venster</value>
   </data>
@@ -836,23 +809,8 @@ Wil je deze downloaden en installeren?</value>
   <data name="ShapeType_ToolCrop" xml:space="preserve">
     <value>Crop afbeelding (C)</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>Afbeelding splitter</value>
-  </data>
   <data name="Extensions_AddContextMenu_Undo" xml:space="preserve">
     <value>Ongedaan maken</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>Resultaat of first bestand:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>Resultaat of second bestand:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>Resultaat:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Doel:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>Einde</value>
@@ -877,12 +835,6 @@ Wil je deze downloaden en installeren?</value>
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>Romeinse cijfers (hoofdletters)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>Klembord weergaveer</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>Inspect venster</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>Ononderbroken</value>
@@ -1034,9 +986,6 @@ Wil je deze downloaden en installeren?</value>
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>OCR</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>Borderless venster</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>Pin to scherm</value>
   </data>
@@ -1085,9 +1034,6 @@ Wil je deze downloaden en installeren?</value>
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>Beautify afbeelding</value>
   </data>
-  <data name="Check" xml:space="preserve">
-    <value>Controleren</value>
-  </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>Opname pre configured venster</value>
   </data>
@@ -1109,12 +1055,6 @@ Wil je deze downloaden en installeren?</value>
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>Bestand grootte</value>
   </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>Make active venster borderless</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>Make active venster boven most</value>
-  </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>Pin to scherm (Close all)</value>
   </data>
@@ -1132,9 +1072,6 @@ Wil je deze downloaden en installeren?</value>
   </data>
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>Transparant</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>Metagegevens verwijderen</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>QR code (Gebied scannen)</value>

@@ -82,22 +82,9 @@
             tsmiImageEffects = new System.Windows.Forms.ToolStripMenuItem();
             tsmiImageViewer = new System.Windows.Forms.ToolStripMenuItem();
             tsmiImageCombiner = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiImageSplitter = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiImageThumbnailer = new System.Windows.Forms.ToolStripMenuItem();
             tssTools2 = new System.Windows.Forms.ToolStripSeparator();
-            tsmiVideoConverter = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiVideoThumbnailer = new System.Windows.Forms.ToolStripMenuItem();
-            tssTools3 = new System.Windows.Forms.ToolStripSeparator();
             tsmiOCR = new System.Windows.Forms.ToolStripMenuItem();
             tsmiQRCode = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiHashChecker = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiMetadata = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiIndexFolder = new System.Windows.Forms.ToolStripMenuItem();
-            tssTools4 = new System.Windows.Forms.ToolStripSeparator();
-            tsmiClipboardViewer = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiBorderlessWindow = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiInspectWindow = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiMonitorTest = new System.Windows.Forms.ToolStripMenuItem();
             tssMain1 = new System.Windows.Forms.ToolStripSeparator();
             tsddbAfterCaptureTasks = new System.Windows.Forms.ToolStripDropDownButton();
             tsddbAfterUploadTasks = new System.Windows.Forms.ToolStripDropDownButton();
@@ -226,22 +213,9 @@
             tsmiTrayImageEffects = new System.Windows.Forms.ToolStripMenuItem();
             tsmiTrayImageViewer = new System.Windows.Forms.ToolStripMenuItem();
             tsmiTrayImageCombiner = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiTrayImageSplitter = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiTrayImageThumbnailer = new System.Windows.Forms.ToolStripMenuItem();
             tssTrayTools2 = new System.Windows.Forms.ToolStripSeparator();
-            tsmiTrayVideoConverter = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiTrayVideoThumbnailer = new System.Windows.Forms.ToolStripMenuItem();
-            tssTrayTools3 = new System.Windows.Forms.ToolStripSeparator();
             tsmiTrayOCR = new System.Windows.Forms.ToolStripMenuItem();
             tsmiTrayQRCode = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiTrayHashChecker = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiTrayMetadata = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiTrayIndexFolder = new System.Windows.Forms.ToolStripMenuItem();
-            tssTrayTools4 = new System.Windows.Forms.ToolStripSeparator();
-            tsmiTrayClipboardViewer = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiTrayBorderlessWindow = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiTrayInspectWindow = new System.Windows.Forms.ToolStripMenuItem();
-            tsmiTrayMonitorTest = new System.Windows.Forms.ToolStripMenuItem();
             tssTray1 = new System.Windows.Forms.ToolStripSeparator();
             tsmiTrayAfterCaptureTasks = new System.Windows.Forms.ToolStripMenuItem();
             tsmiTrayAfterUploadTasks = new System.Windows.Forms.ToolStripMenuItem();
@@ -559,7 +533,7 @@
             // 
             // tsddbTools
             // 
-            tsddbTools.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmiColorPicker, tsmiScreenColorPicker, tsmiRuler, tsmiPinToScreen, tssTools1, tsmiImageEditor, tsmiImageBeautifier, tsmiImageEffects, tsmiImageViewer, tsmiImageCombiner, tsmiImageSplitter, tsmiImageThumbnailer, tssTools2, tsmiVideoConverter, tsmiVideoThumbnailer, tssTools3, tsmiOCR, tsmiQRCode, tsmiHashChecker, tsmiMetadata, tsmiIndexFolder, tssTools4, tsmiClipboardViewer, tsmiBorderlessWindow, tsmiInspectWindow, tsmiMonitorTest });
+            tsddbTools.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmiColorPicker, tsmiScreenColorPicker, tsmiRuler, tsmiPinToScreen, tssTools1, tsmiImageEditor, tsmiImageBeautifier, tsmiImageEffects, tsmiImageViewer, tsmiImageCombiner, tssTools2, tsmiOCR, tsmiQRCode });
             tsddbTools.Image = Properties.Resources.toolbox;
             resources.ApplyResources(tsddbTools, "tsddbTools");
             tsddbTools.Name = "tsddbTools";
@@ -632,43 +606,10 @@
             resources.ApplyResources(tsmiImageCombiner, "tsmiImageCombiner");
             tsmiImageCombiner.Click += tsmiImageCombiner_Click;
             // 
-            // tsmiImageSplitter
-            // 
-            tsmiImageSplitter.Image = Properties.Resources.image_split;
-            tsmiImageSplitter.Name = "tsmiImageSplitter";
-            resources.ApplyResources(tsmiImageSplitter, "tsmiImageSplitter");
-            tsmiImageSplitter.Click += tsmiImageSplitter_Click;
-            // 
-            // tsmiImageThumbnailer
-            // 
-            tsmiImageThumbnailer.Image = Properties.Resources.image_resize_actual;
-            tsmiImageThumbnailer.Name = "tsmiImageThumbnailer";
-            resources.ApplyResources(tsmiImageThumbnailer, "tsmiImageThumbnailer");
-            tsmiImageThumbnailer.Click += tsmiImageThumbnailer_Click;
-            // 
             // tssTools2
             // 
             tssTools2.Name = "tssTools2";
             resources.ApplyResources(tssTools2, "tssTools2");
-            // 
-            // tsmiVideoConverter
-            // 
-            tsmiVideoConverter.Image = Properties.Resources.camcorder_pencil;
-            tsmiVideoConverter.Name = "tsmiVideoConverter";
-            resources.ApplyResources(tsmiVideoConverter, "tsmiVideoConverter");
-            tsmiVideoConverter.Click += tsmiVideoConverter_Click;
-            // 
-            // tsmiVideoThumbnailer
-            // 
-            tsmiVideoThumbnailer.Image = Properties.Resources.images_stack;
-            tsmiVideoThumbnailer.Name = "tsmiVideoThumbnailer";
-            resources.ApplyResources(tsmiVideoThumbnailer, "tsmiVideoThumbnailer");
-            tsmiVideoThumbnailer.Click += tsmiVideoThumbnailer_Click;
-            // 
-            // tssTools3
-            // 
-            tssTools3.Name = "tssTools3";
-            resources.ApplyResources(tssTools3, "tssTools3");
             // 
             // tsmiOCR
             // 
@@ -683,60 +624,6 @@
             tsmiQRCode.Name = "tsmiQRCode";
             resources.ApplyResources(tsmiQRCode, "tsmiQRCode");
             tsmiQRCode.Click += tsmiQRCode_Click;
-            // 
-            // tsmiHashChecker
-            // 
-            tsmiHashChecker.Image = Properties.Resources.application_task;
-            tsmiHashChecker.Name = "tsmiHashChecker";
-            resources.ApplyResources(tsmiHashChecker, "tsmiHashChecker");
-            tsmiHashChecker.Click += tsmiHashChecker_Click;
-            // 
-            // tsmiMetadata
-            // 
-            tsmiMetadata.Image = Properties.Resources.tag_hash;
-            tsmiMetadata.Name = "tsmiMetadata";
-            resources.ApplyResources(tsmiMetadata, "tsmiMetadata");
-            tsmiMetadata.Click += tsmiMetadata_Click;
-            // 
-            // tsmiIndexFolder
-            // 
-            tsmiIndexFolder.Image = Properties.Resources.folder_tree;
-            tsmiIndexFolder.Name = "tsmiIndexFolder";
-            resources.ApplyResources(tsmiIndexFolder, "tsmiIndexFolder");
-            tsmiIndexFolder.Click += tsmiIndexFolder_Click;
-            // 
-            // tssTools4
-            // 
-            tssTools4.Name = "tssTools4";
-            resources.ApplyResources(tssTools4, "tssTools4");
-            // 
-            // tsmiClipboardViewer
-            // 
-            tsmiClipboardViewer.Image = Properties.Resources.clipboard_block;
-            tsmiClipboardViewer.Name = "tsmiClipboardViewer";
-            resources.ApplyResources(tsmiClipboardViewer, "tsmiClipboardViewer");
-            tsmiClipboardViewer.Click += tsmiClipboardViewer_Click;
-            // 
-            // tsmiBorderlessWindow
-            // 
-            tsmiBorderlessWindow.Image = Properties.Resources.application_resize_full;
-            tsmiBorderlessWindow.Name = "tsmiBorderlessWindow";
-            resources.ApplyResources(tsmiBorderlessWindow, "tsmiBorderlessWindow");
-            tsmiBorderlessWindow.Click += tsmiBorderlessWindow_Click;
-            // 
-            // tsmiInspectWindow
-            // 
-            tsmiInspectWindow.Image = Properties.Resources.application_search_result;
-            tsmiInspectWindow.Name = "tsmiInspectWindow";
-            resources.ApplyResources(tsmiInspectWindow, "tsmiInspectWindow");
-            tsmiInspectWindow.Click += tsmiInspectWindow_Click;
-            // 
-            // tsmiMonitorTest
-            // 
-            tsmiMonitorTest.Image = Properties.Resources.monitor;
-            tsmiMonitorTest.Name = "tsmiMonitorTest";
-            resources.ApplyResources(tsmiMonitorTest, "tsmiMonitorTest");
-            tsmiMonitorTest.Click += tsmiMonitorTest_Click;
             // 
             // tssMain1
             // 
@@ -1494,7 +1381,7 @@
             // 
             // tsmiTrayTools
             // 
-            tsmiTrayTools.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmiTrayColorPicker, tsmiTrayScreenColorPicker, tsmiTrayRuler, tsmiTrayPinToScreen, tssTrayTools1, tsmiTrayImageEditor, tsmiTrayImageBeautifier, tsmiTrayImageEffects, tsmiTrayImageViewer, tsmiTrayImageCombiner, tsmiTrayImageSplitter, tsmiTrayImageThumbnailer, tssTrayTools2, tsmiTrayVideoConverter, tsmiTrayVideoThumbnailer, tssTrayTools3, tsmiTrayOCR, tsmiTrayQRCode, tsmiTrayHashChecker, tsmiTrayMetadata, tsmiTrayIndexFolder, tssTrayTools4, tsmiTrayClipboardViewer, tsmiTrayBorderlessWindow, tsmiTrayInspectWindow, tsmiTrayMonitorTest });
+            tsmiTrayTools.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] { tsmiTrayColorPicker, tsmiTrayScreenColorPicker, tsmiTrayRuler, tsmiTrayPinToScreen, tssTrayTools1, tsmiTrayImageEditor, tsmiTrayImageBeautifier, tsmiTrayImageEffects, tsmiTrayImageViewer, tsmiTrayImageCombiner, tssTrayTools2, tsmiTrayOCR, tsmiTrayQRCode });
             tsmiTrayTools.Image = Properties.Resources.toolbox;
             tsmiTrayTools.Name = "tsmiTrayTools";
             resources.ApplyResources(tsmiTrayTools, "tsmiTrayTools");
@@ -1567,43 +1454,10 @@
             resources.ApplyResources(tsmiTrayImageCombiner, "tsmiTrayImageCombiner");
             tsmiTrayImageCombiner.Click += tsmiImageCombiner_Click;
             // 
-            // tsmiTrayImageSplitter
-            // 
-            tsmiTrayImageSplitter.Image = Properties.Resources.image_split;
-            tsmiTrayImageSplitter.Name = "tsmiTrayImageSplitter";
-            resources.ApplyResources(tsmiTrayImageSplitter, "tsmiTrayImageSplitter");
-            tsmiTrayImageSplitter.Click += tsmiImageSplitter_Click;
-            // 
-            // tsmiTrayImageThumbnailer
-            // 
-            tsmiTrayImageThumbnailer.Image = Properties.Resources.image_resize_actual;
-            tsmiTrayImageThumbnailer.Name = "tsmiTrayImageThumbnailer";
-            resources.ApplyResources(tsmiTrayImageThumbnailer, "tsmiTrayImageThumbnailer");
-            tsmiTrayImageThumbnailer.Click += tsmiImageThumbnailer_Click;
-            // 
             // tssTrayTools2
             // 
             tssTrayTools2.Name = "tssTrayTools2";
             resources.ApplyResources(tssTrayTools2, "tssTrayTools2");
-            // 
-            // tsmiTrayVideoConverter
-            // 
-            tsmiTrayVideoConverter.Image = Properties.Resources.camcorder_pencil;
-            tsmiTrayVideoConverter.Name = "tsmiTrayVideoConverter";
-            resources.ApplyResources(tsmiTrayVideoConverter, "tsmiTrayVideoConverter");
-            tsmiTrayVideoConverter.Click += tsmiVideoConverter_Click;
-            // 
-            // tsmiTrayVideoThumbnailer
-            // 
-            tsmiTrayVideoThumbnailer.Image = Properties.Resources.images_stack;
-            tsmiTrayVideoThumbnailer.Name = "tsmiTrayVideoThumbnailer";
-            resources.ApplyResources(tsmiTrayVideoThumbnailer, "tsmiTrayVideoThumbnailer");
-            tsmiTrayVideoThumbnailer.Click += tsmiVideoThumbnailer_Click;
-            // 
-            // tssTrayTools3
-            // 
-            tssTrayTools3.Name = "tssTrayTools3";
-            resources.ApplyResources(tssTrayTools3, "tssTrayTools3");
             // 
             // tsmiTrayOCR
             // 
@@ -1618,60 +1472,6 @@
             tsmiTrayQRCode.Name = "tsmiTrayQRCode";
             resources.ApplyResources(tsmiTrayQRCode, "tsmiTrayQRCode");
             tsmiTrayQRCode.Click += tsmiQRCode_Click;
-            // 
-            // tsmiTrayHashChecker
-            // 
-            tsmiTrayHashChecker.Image = Properties.Resources.application_task;
-            tsmiTrayHashChecker.Name = "tsmiTrayHashChecker";
-            resources.ApplyResources(tsmiTrayHashChecker, "tsmiTrayHashChecker");
-            tsmiTrayHashChecker.Click += tsmiHashChecker_Click;
-            // 
-            // tsmiTrayMetadata
-            // 
-            tsmiTrayMetadata.Image = Properties.Resources.tag_hash;
-            tsmiTrayMetadata.Name = "tsmiTrayMetadata";
-            resources.ApplyResources(tsmiTrayMetadata, "tsmiTrayMetadata");
-            tsmiTrayMetadata.Click += tsmiMetadata_Click;
-            // 
-            // tsmiTrayIndexFolder
-            // 
-            tsmiTrayIndexFolder.Image = Properties.Resources.folder_tree;
-            tsmiTrayIndexFolder.Name = "tsmiTrayIndexFolder";
-            resources.ApplyResources(tsmiTrayIndexFolder, "tsmiTrayIndexFolder");
-            tsmiTrayIndexFolder.Click += tsmiIndexFolder_Click;
-            // 
-            // tssTrayTools4
-            // 
-            tssTrayTools4.Name = "tssTrayTools4";
-            resources.ApplyResources(tssTrayTools4, "tssTrayTools4");
-            // 
-            // tsmiTrayClipboardViewer
-            // 
-            tsmiTrayClipboardViewer.Image = Properties.Resources.clipboard_block;
-            tsmiTrayClipboardViewer.Name = "tsmiTrayClipboardViewer";
-            resources.ApplyResources(tsmiTrayClipboardViewer, "tsmiTrayClipboardViewer");
-            tsmiTrayClipboardViewer.Click += tsmiClipboardViewer_Click;
-            // 
-            // tsmiTrayBorderlessWindow
-            // 
-            tsmiTrayBorderlessWindow.Image = Properties.Resources.application_resize_full;
-            tsmiTrayBorderlessWindow.Name = "tsmiTrayBorderlessWindow";
-            resources.ApplyResources(tsmiTrayBorderlessWindow, "tsmiTrayBorderlessWindow");
-            tsmiTrayBorderlessWindow.Click += tsmiBorderlessWindow_Click;
-            // 
-            // tsmiTrayInspectWindow
-            // 
-            tsmiTrayInspectWindow.Image = Properties.Resources.application_search_result;
-            tsmiTrayInspectWindow.Name = "tsmiTrayInspectWindow";
-            resources.ApplyResources(tsmiTrayInspectWindow, "tsmiTrayInspectWindow");
-            tsmiTrayInspectWindow.Click += tsmiInspectWindow_Click;
-            // 
-            // tsmiTrayMonitorTest
-            // 
-            tsmiTrayMonitorTest.Image = Properties.Resources.monitor;
-            tsmiTrayMonitorTest.Name = "tsmiTrayMonitorTest";
-            resources.ApplyResources(tsmiTrayMonitorTest, "tsmiTrayMonitorTest");
-            tsmiTrayMonitorTest.Click += tsmiMonitorTest_Click;
             // 
             // tssTray1
             // 
@@ -2061,8 +1861,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiClearList;
         private System.Windows.Forms.ToolStripMenuItem tsmiScreenRecordingGIF;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayScreenRecordingGIF;
-        private System.Windows.Forms.ToolStripMenuItem tsmiHashChecker;
-        private System.Windows.Forms.ToolStripMenuItem tsmiTrayHashChecker;
         private System.Windows.Forms.ToolStripMenuItem tsmiMonitor;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayMonitor;
         private System.Windows.Forms.ToolStripDropDownButton tsddbDebug;
@@ -2078,13 +1876,9 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayTaskSettings;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayHotkeySettings;
         private System.Windows.Forms.ToolStripSeparator tssTray3;
-        private System.Windows.Forms.ToolStripMenuItem tsmiIndexFolder;
-        private System.Windows.Forms.ToolStripMenuItem tsmiTrayIndexFolder;
         private System.Windows.Forms.ToolStripMenuItem tsmiImageEffects;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayImageEffects;
         private System.Windows.Forms.ToolStripButton tsbAbout;
-        private System.Windows.Forms.ToolStripMenuItem tsmiMonitorTest;
-        private System.Windows.Forms.ToolStripMenuItem tsmiTrayMonitorTest;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayShow;
         private System.Windows.Forms.ToolStripMenuItem tsmiRuler;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayRuler;
@@ -2125,8 +1919,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiRectangleTransparent;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayRectangleTransparent;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayToggleHotkeys;
-        private System.Windows.Forms.ToolStripMenuItem tsmiVideoThumbnailer;
-        private System.Windows.Forms.ToolStripMenuItem tsmiTrayVideoThumbnailer;
         private System.Windows.Forms.Timer timerTraySingleClick;
         private System.Windows.Forms.ToolStripMenuItem tsmiScrollingCapture;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayScrollingCapture;
@@ -2137,8 +1929,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsmiCombineImages;
         private System.Windows.Forms.ToolStripMenuItem tsmiOpenActionsToolbar;
         private System.Windows.Forms.ToolStripMenuItem tsmiDeleteSelectedItem;
-        private System.Windows.Forms.ToolStripMenuItem tsmiImageThumbnailer;
-        private System.Windows.Forms.ToolStripMenuItem tsmiTrayImageThumbnailer;
         private System.Windows.Forms.ToolStripMenuItem tsmiCopyMarkdownLink;
         private System.Windows.Forms.ToolStripMenuItem tsmiCopyMarkdownImage;
         private System.Windows.Forms.ToolStripMenuItem tsmiCopyMarkdownLinkedImage;
@@ -2167,31 +1957,17 @@
         private System.Windows.Forms.ToolTip ttMain;
         private System.Windows.Forms.ToolStripMenuItem tsmiRunAction;
         private System.Windows.Forms.Panel pToolbars;
-        private System.Windows.Forms.ToolStripMenuItem tsmiImageSplitter;
-        private System.Windows.Forms.ToolStripMenuItem tsmiTrayImageSplitter;
-        private System.Windows.Forms.ToolStripMenuItem tsmiVideoConverter;
-        private System.Windows.Forms.ToolStripMenuItem tsmiTrayVideoConverter;
         private System.Windows.Forms.ToolStripMenuItem tsmiAddImageEffects;
-        private System.Windows.Forms.ToolStripMenuItem tsmiClipboardViewer;
-        private System.Windows.Forms.ToolStripMenuItem tsmiTrayClipboardViewer;
         private System.Windows.Forms.ToolStripMenuItem tsmiRestartAsAdmin;
-        private System.Windows.Forms.ToolStripMenuItem tsmiInspectWindow;
-        private System.Windows.Forms.ToolStripMenuItem tsmiTrayInspectWindow;
         private System.Windows.Forms.ToolStripSeparator tssTools1;
         private System.Windows.Forms.ToolStripSeparator tssTools2;
-        private System.Windows.Forms.ToolStripSeparator tssTools3;
-        private System.Windows.Forms.ToolStripSeparator tssTools4;
         private System.Windows.Forms.ToolStripSeparator tssTrayTools1;
         private System.Windows.Forms.ToolStripSeparator tssTrayTools2;
-        private System.Windows.Forms.ToolStripSeparator tssTrayTools3;
-        private System.Windows.Forms.ToolStripSeparator tssTrayTools4;
         private System.Windows.Forms.ToolStripMenuItem tsmiCombineImagesHorizontally;
         private System.Windows.Forms.ToolStripMenuItem tsmiCombineImagesVertically;
         private System.Windows.Forms.ToolStripButton tsbDiscord;
         private System.Windows.Forms.ToolStripSeparator tssMain3;
         private System.Windows.Forms.ToolStripButton tsbDonate;
-        private System.Windows.Forms.ToolStripMenuItem tsmiBorderlessWindow;
-        private System.Windows.Forms.ToolStripMenuItem tsmiTrayBorderlessWindow;
         private System.Windows.Forms.ToolStripMenuItem tsmiImageViewer;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayImageViewer;
         private System.Windows.Forms.ToolStripMenuItem tsmiOCR;
@@ -2210,8 +1986,6 @@
         internal System.Windows.Forms.Panel pHotkeys;
         private HelpersLib.MyListView lvUploads;
         private System.Windows.Forms.ToolStripButton tsbX;
-        private System.Windows.Forms.ToolStripMenuItem tsmiMetadata;
-        private System.Windows.Forms.ToolStripMenuItem tsmiTrayMetadata;
         private System.Windows.Forms.ToolStripButton tsbDestinationSettings;
         private System.Windows.Forms.ToolStripSeparator tssMain4;
         private System.Windows.Forms.ToolStripMenuItem tsmiTrayDestinationSettings;

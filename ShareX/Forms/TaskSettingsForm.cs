@@ -227,16 +227,6 @@ namespace ShareX
 
             #endregion Effects
 
-            #region Thumbnail
-
-            nudThumbnailWidth.SetValue(TaskSettings.ImageSettings.ThumbnailWidth);
-            nudThumbnailHeight.SetValue(TaskSettings.ImageSettings.ThumbnailHeight);
-            txtThumbnailName.Text = TaskSettings.ImageSettings.ThumbnailName;
-            lblThumbnailNamePreview.Text = "ImageName" + TaskSettings.ImageSettings.ThumbnailName + ".jpg";
-            cbThumbnailIfSmaller.Checked = TaskSettings.ImageSettings.ThumbnailCheckSize;
-
-            #endregion Thumbnail
-
             #endregion Image
 
             #region Capture
@@ -405,7 +395,6 @@ namespace ShareX
 
             cbClipboardUploadURLContents.Checked = TaskSettings.UploadSettings.ClipboardUploadURLContents;
             cbClipboardUploadShareURL.Checked = TaskSettings.UploadSettings.ClipboardUploadShareURL;
-            cbClipboardUploadAutoIndexFolder.Checked = TaskSettings.UploadSettings.ClipboardUploadAutoIndexFolder;
 
             #endregion Clipboard upload
 
@@ -506,7 +495,7 @@ namespace ShareX
             if (!IsDefault)
             {
                 tpNotifications.Enabled = !TaskSettings.UseDefaultGeneralSettings;
-                pImage.Enabled = tpEffects.Enabled = tpThumbnail.Enabled = !TaskSettings.UseDefaultImageSettings;
+                pImage.Enabled = tpEffects.Enabled = !TaskSettings.UseDefaultImageSettings;
                 pCapture.Enabled = tpRegionCapture.Enabled = tpScreenRecorder.Enabled = tpOCR.Enabled = !TaskSettings.UseDefaultCaptureSettings;
                 pActions.Enabled = !TaskSettings.UseDefaultActions;
                 tpFileNaming.Enabled = tpUploadClipboard.Enabled = tpUploaderFilters.Enabled = !TaskSettings.UseDefaultUploadSettings;
@@ -981,27 +970,6 @@ namespace ShareX
             TaskHelpers.OpenImageEffectsSingleton(TaskSettings);
         }
 
-        private void nudThumbnailWidth_ValueChanged(object sender, EventArgs e)
-        {
-            TaskSettings.ImageSettings.ThumbnailWidth = (int)nudThumbnailWidth.Value;
-        }
-
-        private void nudThumbnailHeight_ValueChanged(object sender, EventArgs e)
-        {
-            TaskSettings.ImageSettings.ThumbnailHeight = (int)nudThumbnailHeight.Value;
-        }
-
-        private void txtThumbnailName_TextChanged(object sender, EventArgs e)
-        {
-            TaskSettings.ImageSettings.ThumbnailName = txtThumbnailName.Text;
-            lblThumbnailNamePreview.Text = "ImageName" + TaskSettings.ImageSettings.ThumbnailName + ".jpg";
-        }
-
-        private void cbThumbnailIfSmaller_CheckedChanged(object sender, EventArgs e)
-        {
-            TaskSettings.ImageSettings.ThumbnailCheckSize = cbThumbnailIfSmaller.Checked;
-        }
-
         #endregion Image
 
         #region Capture
@@ -1466,11 +1434,6 @@ namespace ShareX
         private void cbClipboardUploadShareURL_CheckedChanged(object sender, EventArgs e)
         {
             TaskSettings.UploadSettings.ClipboardUploadShareURL = cbClipboardUploadShareURL.Checked;
-        }
-
-        private void cbClipboardUploadAutoIndexFolder_CheckedChanged(object sender, EventArgs e)
-        {
-            TaskSettings.UploadSettings.ClipboardUploadAutoIndexFolder = cbClipboardUploadAutoIndexFolder.Checked;
         }
 
         private UploaderFilter GetUploaderFilterFromFields()

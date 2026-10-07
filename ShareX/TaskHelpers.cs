@@ -26,7 +26,6 @@
 using ShareX.HelpersLib;
 using ShareX.HistoryLib;
 using ShareX.ImageEffectsLib;
-using ShareX.IndexerLib;
 using ShareX.MediaLib;
 using ShareX.Properties;
 using ShareX.ScreenCaptureLib;
@@ -249,25 +248,6 @@ namespace ShareX
                 case HotkeyType.ImageCombiner:
                     OpenImageCombiner(null, safeTaskSettings);
                     break;
-                case HotkeyType.ImageSplitter:
-                    OpenImageSplitter();
-                    break;
-                case HotkeyType.ImageThumbnailer:
-                    OpenImageThumbnailer();
-                    break;
-                case HotkeyType.VideoConverter:
-                    if (!string.IsNullOrEmpty(filePath))
-                    {
-                        OpenVideoConverter(filePath, safeTaskSettings);
-                    }
-                    else
-                    {
-                        OpenVideoConverter(safeTaskSettings);
-                    }
-                    break;
-                case HotkeyType.VideoThumbnailer:
-                    OpenVideoThumbnailer(safeTaskSettings);
-                    break;
                 case HotkeyType.OCR:
                     if (!string.IsNullOrEmpty(filePath))
                     {
@@ -293,43 +273,6 @@ namespace ShareX
                     break;
                 case HotkeyType.QRCodeScanRegion:
                     OpenQRCodeScanRegion();
-                    break;
-                case HotkeyType.HashCheck:
-                    OpenHashCheck(filePath, safeTaskSettings);
-                    break;
-                case HotkeyType.Metadata:
-                    OpenMetadataWindow(filePath);
-                    break;
-                case HotkeyType.StripMetadata:
-                    if (!string.IsNullOrEmpty(filePath))
-                    {
-                        StripMetadata(filePath, safeTaskSettings);
-                    }
-                    else
-                    {
-                        StripMetadata(safeTaskSettings);
-                    }
-                    break;
-                case HotkeyType.IndexFolder:
-                    UploadManager.IndexFolder();
-                    break;
-                case HotkeyType.ClipboardViewer:
-                    OpenClipboardViewer();
-                    break;
-                case HotkeyType.BorderlessWindow:
-                    OpenBorderlessWindow(safeTaskSettings);
-                    break;
-                case HotkeyType.ActiveWindowBorderless:
-                    MakeActiveWindowBorderless(safeTaskSettings);
-                    break;
-                case HotkeyType.ActiveWindowTopMost:
-                    MakeActiveWindowTopMost(safeTaskSettings);
-                    break;
-                case HotkeyType.InspectWindow:
-                    OpenInspectWindow();
-                    break;
-                case HotkeyType.MonitorTest:
-                    OpenMonitorTest();
                     break;
                 // Other
                 case HotkeyType.DisableHotkeys:
@@ -386,29 +329,6 @@ namespace ShareX
             }
 
             return imageData;
-        }
-
-        public static string CreateThumbnail(Bitmap bmp, string folder, string fileName, TaskSettings taskSettings)
-        {
-            if ((taskSettings.ImageSettings.ThumbnailWidth > 0 || taskSettings.ImageSettings.ThumbnailHeight > 0) && (!taskSettings.ImageSettings.ThumbnailCheckSize ||
-                (bmp.Width > taskSettings.ImageSettings.ThumbnailWidth && bmp.Height > taskSettings.ImageSettings.ThumbnailHeight)))
-            {
-                string thumbnailFileName = Path.GetFileNameWithoutExtension(fileName) + taskSettings.ImageSettings.ThumbnailName + ".jpg";
-                string thumbnailFilePath = HandleExistsFile(folder, thumbnailFileName, taskSettings);
-
-                if (!string.IsNullOrEmpty(thumbnailFilePath))
-                {
-                    using (Bitmap thumbnail = (Bitmap)bmp.Clone())
-                    using (Bitmap resizedImage = new Resize(taskSettings.ImageSettings.ThumbnailWidth, taskSettings.ImageSettings.ThumbnailHeight).Apply(thumbnail))
-                    using (Bitmap newImage = ImageHelpers.FillBackground(resizedImage, Color.White))
-                    {
-                        ImageHelpers.SaveJPEG(newImage, thumbnailFilePath, 90);
-                        return thumbnailFilePath;
-                    }
-                }
-            }
-
-            return null;
         }
 
         public static MemoryStream SaveImageAsStream(Image img, EImageFormat imageFormat, TaskSettings taskSettings)
@@ -871,80 +791,6 @@ namespace ShareX
             }
         }
 
-        public static void OpenHashCheck(string filePath = null, TaskSettings taskSettings = null)
-        {
-            if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
-
-            HashCheckerForm hashCheckerForm = new HashCheckerForm(filePath);
-            hashCheckerForm.PlayNotificationSound += () => PlayNotificationSoundAsync(NotificationSound.ActionCompleted, taskSettings);
-            hashCheckerForm.Show();
-        }
-
-        public static void OpenMetadataWindow(string filePath = null)
-        {
-            if (!CheckExifTool())
-            {
-                return;
-            }
-
-            MetadataForm metadataForm = new MetadataForm(filePath);
-            metadataForm.Show();
-        }
-
-        public static bool StripMetadata(TaskSettings taskSettings = null)
-        {
-            string filePath = FileHelpers.BrowseFile();
-
-            if (!string.IsNullOrEmpty(filePath))
-            {
-                return StripMetadata(filePath, taskSettings);
-            }
-
-            return false;
-        }
-
-        public static bool StripMetadata(string filePath = null, TaskSettings taskSettings = null)
-        {
-            if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
-
-            if (!CheckExifTool())
-            {
-                return false;
-            }
-
-            try
-            {
-                MetadataForm.StripFileMetadata(filePath);
-
-                PlayNotificationSoundAsync(NotificationSound.ActionCompleted, taskSettings);
-            }
-            catch (Exception e)
-            {
-                DebugHelper.WriteException(e);
-                e.ShowError();
-
-                return false;
-            }
-
-            return true;
-        }
-
-        public static void OpenDirectoryIndexer(TaskSettings taskSettings = null)
-        {
-            if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
-
-            IndexerSettings indexerSettings = taskSettings.ToolsSettingsReference.IndexerSettings;
-            indexerSettings.BinaryUnits = Program.Settings.BinaryUnits;
-            DirectoryIndexerForm form = new DirectoryIndexerForm(indexerSettings);
-            form.UploadRequested += source =>
-            {
-                WorkerTask task = WorkerTask.CreateTextUploaderTask(source, taskSettings);
-                task.Info.FileName = Path.ChangeExtension(task.Info.FileName, indexerSettings.Output.ToString().ToLowerInvariant());
-                TaskManager.Start(task);
-            };
-            form.Show();
-        }
-
         public static void OpenImageCombiner(IEnumerable<string> imageFiles = null, TaskSettings taskSettings = null)
         {
             if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
@@ -966,138 +812,6 @@ namespace ShareX
             {
                 UploadManager.RunImageTask(output, taskSettings);
             }
-        }
-
-        public static void OpenImageSplitter()
-        {
-            ImageSplitterForm imageSplitterForm = new ImageSplitterForm();
-            imageSplitterForm.Show();
-        }
-
-        public static void OpenImageThumbnailer()
-        {
-            ImageThumbnailerForm imageThumbnailerForm = new ImageThumbnailerForm();
-            imageThumbnailerForm.Show();
-        }
-
-        public static void OpenVideoConverter(TaskSettings taskSettings = null)
-        {
-            if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
-
-            if (!CheckFFmpeg(taskSettings))
-            {
-                return;
-            }
-
-            VideoConverterForm videoConverterForm = new VideoConverterForm(taskSettings.CaptureSettings.FFmpegOptions.FFmpegPath,
-                taskSettings.ToolsSettingsReference.VideoConverterOptions);
-            videoConverterForm.Show();
-        }
-
-        public static void OpenVideoConverter(string filePath, TaskSettings taskSettings = null)
-        {
-            if (!string.IsNullOrEmpty(filePath))
-            {
-                if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
-
-                if (!CheckFFmpeg(taskSettings))
-                {
-                    return;
-                }
-
-                VideoConverterForm videoConverterForm = new VideoConverterForm(filePath, taskSettings.CaptureSettings.FFmpegOptions.FFmpegPath,
-                    taskSettings.ToolsSettingsReference.VideoConverterOptions);
-                videoConverterForm.Show();
-            }
-        }
-
-        public static void OpenVideoThumbnailer(TaskSettings taskSettings = null)
-        {
-            if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
-
-            if (!CheckFFmpeg(taskSettings))
-            {
-                return;
-            }
-
-            taskSettings.ToolsSettingsReference.VideoThumbnailOptions.DefaultOutputDirectory = GetScreenshotsFolder(taskSettings);
-            VideoThumbnailerForm thumbnailerForm = new VideoThumbnailerForm(taskSettings.CaptureSettings.FFmpegOptions.FFmpegPath,
-                taskSettings.ToolsSettingsReference.VideoThumbnailOptions);
-            thumbnailerForm.ThumbnailsTaken += thumbnails =>
-            {
-                if (taskSettings.ToolsSettingsReference.VideoThumbnailOptions.UploadThumbnails)
-                {
-                    foreach (VideoThumbnailInfo thumbnailInfo in thumbnails)
-                    {
-                        UploadManager.UploadFile(thumbnailInfo.FilePath, taskSettings);
-                    }
-                }
-            };
-            thumbnailerForm.Show();
-        }
-
-        public static void OpenBorderlessWindow(TaskSettings taskSettings = null)
-        {
-            if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
-
-            BorderlessWindowSettings settings = taskSettings.ToolsSettingsReference.BorderlessWindowSettings;
-            BorderlessWindowForm borderlessWindowForm = new BorderlessWindowForm(settings);
-            borderlessWindowForm.Show();
-        }
-
-        public static void MakeActiveWindowBorderless(TaskSettings taskSettings = null)
-        {
-            if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
-
-            try
-            {
-                IntPtr handle = NativeMethods.GetForegroundWindow();
-
-                if (handle.ToInt32() > 0)
-                {
-                    BorderlessWindowManager.ToggleBorderlessWindow(handle, taskSettings.ToolsSettings.BorderlessWindowSettings.ExcludeTaskbarArea);
-
-                    PlayNotificationSoundAsync(NotificationSound.ActionCompleted, taskSettings);
-                }
-            }
-            catch (Exception e)
-            {
-                e.ShowError();
-            }
-        }
-
-        public static void MakeActiveWindowTopMost(TaskSettings taskSettings = null)
-        {
-            if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
-
-            try
-            {
-                IntPtr handle = NativeMethods.GetForegroundWindow();
-
-                if (handle.ToInt32() > 0)
-                {
-                    WindowInfo windowInfo = new WindowInfo(handle);
-                    windowInfo.TopMost = !windowInfo.TopMost;
-
-                    PlayNotificationSoundAsync(NotificationSound.ActionCompleted, taskSettings);
-                }
-            }
-            catch (Exception e)
-            {
-                e.ShowError();
-            }
-        }
-
-        public static void OpenInspectWindow()
-        {
-            InspectWindowForm inspectWindowForm = new InspectWindowForm();
-            inspectWindowForm.Show();
-        }
-
-        public static void OpenClipboardViewer()
-        {
-            ClipboardViewerForm clipboardViewerForm = new ClipboardViewerForm();
-            clipboardViewerForm.Show();
         }
 
         public static void OpenImageEditor(TaskSettings taskSettings = null)
@@ -1358,14 +1072,6 @@ namespace ShareX
                     int imageIndex = Array.IndexOf(files, filePath);
                     ImageViewer.ShowImage(files, imageIndex);
                 }
-            }
-        }
-
-        public static void OpenMonitorTest()
-        {
-            using (MonitorTestForm monitorTestForm = new MonitorTestForm())
-            {
-                monitorTestForm.ShowDialog();
             }
         }
 
@@ -1662,22 +1368,6 @@ namespace ShareX
             return true;
         }
 
-        public static bool CheckExifTool()
-        {
-            string exifToolPath = FileHelpers.GetAbsolutePath("exiftool.exe");
-
-            if (!File.Exists(exifToolPath))
-            {
-                // TODO: Translate
-                MessageBox.Show("ExifTool does not exist at the following path:" + "\r\n" + exifToolPath,
-                    "ShareX - " + "ExifTool is missing", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
-                return false;
-            }
-
-            return true;
-        }
-
         public static void PlayNotificationSoundAsync(NotificationSound notificationSound, TaskSettings taskSettings = null)
         {
             if (taskSettings == null) taskSettings = TaskSettings.GetDefaultTaskSettings();
@@ -1786,7 +1476,6 @@ namespace ShareX
                     case AfterCaptureTasks.SendImageToPrinter: return Resources.printer;
                     case AfterCaptureTasks.SaveImageToFile: return Resources.disk;
                     case AfterCaptureTasks.SaveImageToFileWithDialog: return Resources.disk_rename;
-                    case AfterCaptureTasks.SaveThumbnailImageToFile: return Resources.disk_small;
                     case AfterCaptureTasks.PerformActions: return Resources.application_terminal;
                     case AfterCaptureTasks.CopyFileToClipboard: return Resources.clipboard_block;
                     case AfterCaptureTasks.CopyFilePathToClipboard: return Resources.clipboard_list;
@@ -1862,24 +1551,10 @@ namespace ShareX
                     case HotkeyType.ImageEffects: return Resources.image_reflection;
                     case HotkeyType.ImageViewer: return Resources.images_flickr;
                     case HotkeyType.ImageCombiner: return Resources.document_break;
-                    case HotkeyType.ImageSplitter: return Resources.image_split;
-                    case HotkeyType.ImageThumbnailer: return Resources.image_resize_actual;
-                    case HotkeyType.VideoConverter: return Resources.camcorder_pencil;
-                    case HotkeyType.VideoThumbnailer: return Resources.images_stack;
                     case HotkeyType.OCR: return ShareXResources.IsDarkTheme ? Resources.edit_drop_cap_white : Resources.edit_drop_cap;
                     case HotkeyType.QRCode: return ShareXResources.IsDarkTheme ? Resources.barcode_2d_white : Resources.barcode_2d;
                     case HotkeyType.QRCodeDecodeFromScreen: return ShareXResources.IsDarkTheme ? Resources.barcode_2d_white : Resources.barcode_2d;
                     case HotkeyType.QRCodeScanRegion: return ShareXResources.IsDarkTheme ? Resources.barcode_2d_white : Resources.barcode_2d;
-                    case HotkeyType.HashCheck: return Resources.application_task;
-                    case HotkeyType.Metadata: return Resources.tag_hash;
-                    case HotkeyType.StripMetadata: return Resources.tag__minus;
-                    case HotkeyType.IndexFolder: return Resources.folder_tree;
-                    case HotkeyType.ClipboardViewer: return Resources.clipboard_block;
-                    case HotkeyType.BorderlessWindow: return Resources.application_resize_full;
-                    case HotkeyType.ActiveWindowBorderless: return Resources.application_resize_full;
-                    case HotkeyType.ActiveWindowTopMost: return Resources.pin;
-                    case HotkeyType.InspectWindow: return Resources.application_search_result;
-                    case HotkeyType.MonitorTest: return Resources.monitor;
                     // Other
                     case HotkeyType.DisableHotkeys: return Resources.keyboard__minus;
                     case HotkeyType.OpenMainWindow: return Resources.application_home;

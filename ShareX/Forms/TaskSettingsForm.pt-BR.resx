@@ -225,9 +225,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>Duplicar</value>
   </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>Se a área de transferência conter o local de uma pasta: arquivar a pasta e enviar o índice</value>
-  </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>Se a área de transferência conter um URL: compartilhar usando serviço de compartilhamento de URL</value>
   </data>
@@ -275,24 +272,6 @@
   </data>
   <data name="cbScreenRecorderShowCursor.Text" xml:space="preserve">
     <value>Mostrar cursor na gravação</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>Largura:</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>Altura:</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>Nome da miniatura:</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>Pré-visualização</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>Criar miniatura somente se o tamanho da imagem for maior que o tamanho da miniatura</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>Miniatura</value>
   </data>
   <data name="btnImageEffects.Text" xml:space="preserve">
     <value>Configuração de efeitos de imagem...</value>

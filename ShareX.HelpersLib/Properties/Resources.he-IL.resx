@@ -141,9 +141,6 @@
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>בצע שוב</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>וידאו תמונה ממוזערת</value>
-  </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>טשטוש (B)</value>
   </data>
@@ -334,9 +331,6 @@
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>אקראי</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>בדיקת Hash</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>התחל/עצור הקלטת מסך באמצעות אזור חלון פעיל</value>
   </data>
@@ -360,9 +354,6 @@
   </data>
   <data name="MyMessageBox_MyMessageBox_Yes" xml:space="preserve">
     <value>כן</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>מחולל תמונה ממוזערת</value>
   </data>
   <data name="ReplCodeMenuEntry_mon_Current_month_name__Local_language_" xml:space="preserve">
     <value>שם חודש (שפה מקומית)</value>
@@ -460,9 +451,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>נתיב קובץ עם סיומת קובץ פלט</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>מאנדקס תיקייה</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>זמן יוניקס</value>
   </data>
@@ -538,9 +526,6 @@
   </data>
   <data name="RandomEmojiRepeatUsingN" xml:space="preserve">
     <value>אמוג'י אקראי (חזור באמצעות {n})</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>שמור תמונה ממוזערת כקובץ</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>מוריד.</value>
@@ -692,9 +677,6 @@
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>התחל/עצור הקלטת מסך (GIF) באמצעות האזור האחרון</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>בדיקת מסך</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>העתק</value>
   </data>
@@ -724,9 +706,6 @@
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>בוחר הצבעים</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>עצור</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>שירות העלאת קבצים</value>
@@ -760,9 +739,6 @@
   </data>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>אוטומטי</value>
-  </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>ממיר וידאו</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Cancel" xml:space="preserve">
     <value>ביטול</value>
@@ -824,9 +800,6 @@
   <data name="HotkeyType_UploadURL" xml:space="preserve">
     <value>העלה מקישור</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>מפצל תמונה</value>
-  </data>
   <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
     <value>העתק כתובת URL ללוח הגזירה</value>
   </data>
@@ -838,18 +811,6 @@
   </data>
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>העתק קובץ ללוח הגזירה</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>תוצאה של קובץ ראשון:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>תוצאה של קובץ שני:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>תוצאה:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>מטרה:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>סוף</value>
@@ -874,12 +835,6 @@
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>ספרות רומיות (אותיות גדולות)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>מציג לוח הגזירה</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>בודק חלונית</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>מוצק</value>
@@ -1031,9 +986,6 @@
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>OCR</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>חלון ללא מסגרת</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>הצמד למסך</value>
   </data>
@@ -1076,17 +1028,11 @@
   <data name="ShapeType_DrawingFreehandArrow" xml:space="preserve">
     <value>חץ חופשי</value>
   </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>מטא-נתונים</value>
-  </data>
   <data name="HotkeyType_ImageBeautifier" xml:space="preserve">
     <value>מייפה תמונות</value>
   </data>
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>ייפוי תמונה</value>
-  </data>
-  <data name="Check" xml:space="preserve">
-    <value>בדיקה</value>
   </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>לכוד חלון שהוגדר מראש</value>
@@ -1109,12 +1055,6 @@
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>גודל קובץ</value>
   </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>הפוך את החלון הפעיל לחסר גבולות</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>הפוך את החלון הפעיל לעליון ביותר</value>
-  </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>הצמד למסך (סגור הכל)</value>
   </data>
@@ -1132,9 +1072,6 @@
   </data>
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>שקוף</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>הסר מטא-נתונים</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>קוד QR (סריקת אזור)</value>

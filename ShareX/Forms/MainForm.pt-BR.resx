@@ -360,9 +360,6 @@
   <data name="tsmiUploadURL.Text" xml:space="preserve">
     <value>Envio do URL...</value>
   </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>Teste de monitor...</value>
-  </data>
   <data name="tsmiTrayAutoCapture.Text" xml:space="preserve">
     <value>Captura automática...</value>
   </data>
@@ -413,9 +410,6 @@
   </data>
   <data name="tsmiImageUploaders.Text" xml:space="preserve">
     <value>Envio de imagens</value>
-  </data>
-  <data name="tsmiIndexFolder.Text" xml:space="preserve">
-    <value>Arquivar pasta...</value>
   </data>
   <data name="tsmiLastRegion.Text" xml:space="preserve">
     <value>Última região</value>
@@ -468,17 +462,11 @@
   <data name="tsmiTrayImageUploaders.Text" xml:space="preserve">
     <value>Envio de imagens</value>
   </data>
-  <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
-    <value>Arquivar pasta...</value>
-  </data>
   <data name="tsmiTrayLastRegion.Text" xml:space="preserve">
     <value>Última região</value>
   </data>
   <data name="tsmiTrayMonitor.Text" xml:space="preserve">
     <value>Monitor</value>
-  </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>Teste de monitor...</value>
   </data>
   <data name="tsmiTrayRectangle.Text" xml:space="preserve">
     <value>Região</value>
@@ -512,12 +500,6 @@
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Serviços de compartilhamento de URLs</value>
-  </data>
-  <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
-    <value>Miniaturizador de vídeo...</value>
-  </data>
-  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
-    <value>Miniaturizador de vídeo...</value>
   </data>
   <data name="tsmiImageCombiner.Text" xml:space="preserve">
     <value>Mesclar imagens...</value>
@@ -554,24 +536,6 @@
   </data>
   <data name="tsmiAddImageEffects.Text" xml:space="preserve">
     <value>Adicionar efeitos de imagem...</value>
-  </data>
-  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
-    <value>Visualizador da área de transferência...</value>
-  </data>
-  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
-    <value>Visualizador da área de transferência...</value>
-  </data>
-  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
-    <value>Janela sem bordas...</value>
-  </data>
-  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
-    <value>Janela sem bordas...</value>
-  </data>
-  <data name="tsmiInspectWindow.Text" xml:space="preserve">
-    <value>Inspecionar janela...</value>
-  </data>
-  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
-    <value>Inspecionar janela...</value>
   </data>
   <data name="tsmiTrayScreenshotDelay1.Text" xml:space="preserve">
     <value>1 segundo</value>
@@ -624,18 +588,6 @@
   <data name="tsmiImageEditor.Text" xml:space="preserve">
     <value>Editor de imagem...</value>
   </data>
-  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
-    <value>Divisor de imagem...</value>
-  </data>
-  <data name="tsmiImageSplitter.Text" xml:space="preserve">
-    <value>Divisor de imagem...</value>
-  </data>
-  <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
-    <value>Miniatura de imagem...</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
-    <value>Miniatura de imagem...</value>
-  </data>
   <data name="tsmiTrayImageViewer.Text" xml:space="preserve">
     <value>Visualizador de imagem...</value>
   </data>
@@ -678,23 +630,11 @@
   <data name="tsmiSwitchTaskViewMode.Text" xml:space="preserve">
     <value>Alternar para exibição de miniaturas</value>
   </data>
-  <data name="tsmiVideoConverter.Text" xml:space="preserve">
-    <value>Conversor de vídeo...</value>
-  </data>
-  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
-    <value>Conversor de vídeo...</value>
-  </data>
   <data name="tsmiImageBeautifier.Text" xml:space="preserve">
     <value>Imagem beautifier...</value>
   </data>
   <data name="tsmiAI.Text" xml:space="preserve">
     <value>Analisar imagem...</value>
-  </data>
-  <data name="tsmiHashChecker.Text" xml:space="preserve">
-    <value>Verificador de hash...</value>
-  </data>
-  <data name="tsmiMetadata.Text" xml:space="preserve">
-    <value>Metadados...</value>
   </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Configurações de destino...</value>
@@ -722,12 +662,6 @@
   </data>
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>Analisar imagem...</value>
-  </data>
-  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
-    <value>Verificador de hash...</value>
-  </data>
-  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
-    <value>Metadados...</value>
   </data>
   <data name="cHotkey.HeaderText" xml:space="preserve">
     <value>Tecla de atalho</value>

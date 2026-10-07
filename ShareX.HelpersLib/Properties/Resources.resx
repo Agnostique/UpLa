@@ -141,9 +141,6 @@
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>Redo</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>Video thumbnailer</value>
-  </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>Blur (B)</value>
   </data>
@@ -338,9 +335,6 @@ Would you like to download it?</value>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Random</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>Hash checker</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>Start/Stop screen recording using active window region</value>
   </data>
@@ -364,9 +358,6 @@ Would you like to download it?</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Yes" xml:space="preserve">
     <value>Yes</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>Image thumbnailer</value>
   </data>
   <data name="ReplCodeMenuEntry_mon_Current_month_name__Local_language_" xml:space="preserve">
     <value>Month name (Local language)</value>
@@ -467,9 +458,6 @@ Would you like to download it?</value>
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>File path with output file name extension</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>Directory indexer</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Unix timestamp</value>
   </data>
@@ -551,9 +539,6 @@ Would you like to download and install it?</value>
   </data>
   <data name="RandomEmojiRepeatUsingN" xml:space="preserve">
     <value>Random emoji (Repeat using {n})</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>Save thumbnail image to file</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>Downloading...</value>
@@ -714,9 +699,6 @@ Would you like to download and install it?</value>
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>Start/Stop screen recording (GIF) using last region</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>Monitor test</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Copy</value>
   </data>
@@ -749,9 +731,6 @@ Would you like to download and install it?</value>
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>Color picker</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Stop</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>File uploader</value>
@@ -791,9 +770,6 @@ Would you like to download and install it?</value>
   </data>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>Automatic</value>
-  </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>Video converter</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Cancel" xml:space="preserve">
     <value>Cancel</value>
@@ -861,9 +837,6 @@ Would you like to download and install it?</value>
   <data name="HotkeyType_UploadURL" xml:space="preserve">
     <value>Upload from URL</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>Image splitter</value>
-  </data>
   <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
     <value>Copy URL to clipboard</value>
   </data>
@@ -878,18 +851,6 @@ Would you like to download and install it?</value>
   </data>
   <data name="tick" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tick.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>Result of first file:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>Result of second file:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>Result:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Target:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>End</value>
@@ -914,12 +875,6 @@ Would you like to download and install it?</value>
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>Roman numerals (Uppercase)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>Clipboard viewer</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>Inspect window</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>Solid</value>
@@ -1071,9 +1026,6 @@ Would you like to download and install it?</value>
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>OCR</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>Borderless window</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>Pin to screen</value>
   </data>
@@ -1122,9 +1074,6 @@ Would you like to download and install it?</value>
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>Beautify image</value>
   </data>
-  <data name="Check" xml:space="preserve">
-    <value>Check</value>
-  </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>Capture pre configured window</value>
   </data>
@@ -1146,12 +1095,6 @@ Would you like to download and install it?</value>
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>File size</value>
   </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>Make active window borderless</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>Make active window top most</value>
-  </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>Pin to screen (Close all)</value>
   </data>
@@ -1169,12 +1112,6 @@ Would you like to download and install it?</value>
   </data>
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>Transparent</value>
-  </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>Metadata</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>Strip metadata</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>QR code (Scan region)</value>

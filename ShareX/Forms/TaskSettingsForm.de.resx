@@ -225,9 +225,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>Duplizieren</value>
   </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>Wenn die Zwischenablage einen Ordnerpfad enthält, teile diesen Ordner ein und dann lade die Teile hoch</value>
-  </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>Wenn die Zwischenablage eine URL enthält, dann Teile diese mithilfe eines URL-Freigabedienstes</value>
   </data>
@@ -275,24 +272,6 @@
   </data>
   <data name="cbScreenRecorderShowCursor.Text" xml:space="preserve">
     <value>Mauszeiger in Aufnahme anzeigen</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>Breite:</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>Höhe:</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>Thumbnail Name:</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>Vorschau</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>Erstelle Thumbnail nur wenn das Bild größer als das Thumbnail ist</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>Thumbnail</value>
   </data>
   <data name="btnImageEffects.Text" xml:space="preserve">
     <value>Bildeffekte-Konfiguration...</value>

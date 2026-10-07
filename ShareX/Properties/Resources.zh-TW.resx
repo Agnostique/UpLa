@@ -141,9 +141,6 @@
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_After_upload___0_" xml:space="preserve">
     <value>上傳後：{0}</value>
   </data>
-  <data name="InspectWindow_ProcessName" xml:space="preserve">
-    <value>處理程序名稱</value>
-  </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>取消</value>
   </data>
@@ -187,9 +184,6 @@
   </data>
   <data name="UploadTask_ThreadDoWork_URL_is_empty_" xml:space="preserve">
     <value>網址為空。</value>
-  </data>
-  <data name="InspectWindow_ClassName" xml:space="preserve">
-    <value>類別名稱</value>
   </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>歷史</value>
@@ -239,14 +233,8 @@
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Text__Length___0__" xml:space="preserve">
     <value>剪貼簿內容：文字 (長度：{0})</value>
   </data>
-  <data name="InspectWindow_ProcessIdentifier" xml:space="preserve">
-    <value>處理程序識別碼</value>
-  </data>
   <data name="TaskSettingsForm_txtNameFormatPatternActiveWindow_TextChanged_Preview_" xml:space="preserve">
     <value>預覽：</value>
-  </data>
-  <data name="InspectWindow_ProcessFileName" xml:space="preserve">
-    <value>處理程序檔案名稱</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>是否要重設 ShareX 設定？</value>
@@ -311,9 +299,6 @@
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>德文</value>
-  </data>
-  <data name="InspectWindow_WindowRectangle" xml:space="preserve">
-    <value>視窗矩形區域</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>是否要啟用圖片效果？
@@ -427,9 +412,6 @@
   <data name="MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation" xml:space="preserve">
     <value>檔案刪除確認</value>
   </data>
-  <data name="InspectWindow_WindowStyles" xml:space="preserve">
-    <value>視窗樣式</value>
-  </data>
   <data name="MainForm_UpdateWorkflowsMenu_You_can_add_workflows_from_hotkey_settings___" xml:space="preserve">
     <value>你可以在快捷鍵設定中新增快捷動作...</value>
   </data>
@@ -451,17 +433,11 @@
   <data name="Confirmation" xml:space="preserve">
     <value>確認</value>
   </data>
-  <data name="InspectWindow_WindowTitle" xml:space="preserve">
-    <value>視窗標題</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Image__Size___0_x_1__" xml:space="preserve">
     <value>剪貼簿內容：圖片 (尺寸：{0}x{1})</value>
   </data>
   <data name="SwitchToListView" xml:space="preserve">
     <value>切換到清單模式</value>
-  </data>
-  <data name="InspectWindow_ExtendedWindowStyles" xml:space="preserve">
-    <value>延伸視窗樣式</value>
   </data>
   <data name="UploadTask_OnUploadCompleted_Stopped" xml:space="preserve">
     <value>已停止</value>
@@ -499,9 +475,6 @@
   <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByPolicy_Text" xml:space="preserve">
     <value>開機啟動已被你的組織停用</value>
   </data>
-  <data name="InspectWindow_WindowHandle" xml:space="preserve">
-    <value>視窗控制碼</value>
-  </data>
   <data name="AboutForm_AboutForm_Language_it_IT" xml:space="preserve">
     <value>義大利文</value>
   </data>
@@ -527,9 +500,6 @@
 {1}
 
 請選擇其他快捷鍵，或退出衝突的應用程式並重啟 ShareX。</value>
-  </data>
-  <data name="InspectWindow_ClientRectangle" xml:space="preserve">
-    <value>客戶端矩形區域</value>
   </data>
   <data name="AboutForm_AboutForm_Team" xml:space="preserve">
     <value>團隊</value>

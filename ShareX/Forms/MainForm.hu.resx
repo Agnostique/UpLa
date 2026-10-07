@@ -195,14 +195,8 @@
   <data name="tsmiQRCode.Text" xml:space="preserve">
     <value>QR kód...</value>
   </data>
-  <data name="tsmiIndexFolder.Text" xml:space="preserve">
-    <value>Index mappa...</value>
-  </data>
   <data name="tsmiRuler.Text" xml:space="preserve">
     <value>Vonalzó...</value>
-  </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>Monitor teszt...</value>
   </data>
   <data name="tsddbAfterCaptureTasks.Text" xml:space="preserve">
     <value>Képlopás utáni feladatok</value>
@@ -417,14 +411,8 @@
   <data name="tsmiTrayQRCode.Text" xml:space="preserve">
     <value>QR kód...</value>
   </data>
-  <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
-    <value>Index mappa...</value>
-  </data>
   <data name="tsmiTrayRuler.Text" xml:space="preserve">
     <value>Vonalzó...</value>
-  </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>Monitor teszt...</value>
   </data>
   <data name="tsmiTrayAfterCaptureTasks.Text" xml:space="preserve">
     <value>Képlopás után</value>
@@ -543,38 +531,11 @@
   <data name="tsmiImageCombiner.Text" xml:space="preserve">
     <value>Kép combiner...</value>
   </data>
-  <data name="tsmiImageSplitter.Text" xml:space="preserve">
-    <value>Kép felosztása...</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
-    <value>Képminiatűr-készítő...</value>
-  </data>
-  <data name="tsmiVideoConverter.Text" xml:space="preserve">
-    <value>Videókonvertáló...</value>
-  </data>
-  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
-    <value>Videó miniatűrer...</value>
-  </data>
   <data name="tsmiAI.Text" xml:space="preserve">
     <value>Analyze kép...</value>
   </data>
   <data name="tsmiOCR.Text" xml:space="preserve">
     <value>OCR...</value>
-  </data>
-  <data name="tsmiHashChecker.Text" xml:space="preserve">
-    <value>Hash-ellenőrző...</value>
-  </data>
-  <data name="tsmiMetadata.Text" xml:space="preserve">
-    <value>Metaadatok...</value>
-  </data>
-  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
-    <value>Vágólap viewer...</value>
-  </data>
-  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
-    <value>Borderless ablak...</value>
-  </data>
-  <data name="tsmiInspectWindow.Text" xml:space="preserve">
-    <value>Ablak vizsgálata...</value>
   </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Célbeállítások...</value>
@@ -684,38 +645,11 @@
   <data name="tsmiTrayImageCombiner.Text" xml:space="preserve">
     <value>Kép combiner...</value>
   </data>
-  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
-    <value>Kép felosztása...</value>
-  </data>
-  <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
-    <value>Képminiatűr-készítő...</value>
-  </data>
-  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
-    <value>Videókonvertáló...</value>
-  </data>
-  <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
-    <value>Videó miniatűrer...</value>
-  </data>
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>Analyze kép...</value>
   </data>
   <data name="tsmiTrayOCR.Text" xml:space="preserve">
     <value>OCR...</value>
-  </data>
-  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
-    <value>Hash-ellenőrző...</value>
-  </data>
-  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
-    <value>Metaadatok...</value>
-  </data>
-  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
-    <value>Vágólap viewer...</value>
-  </data>
-  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
-    <value>Borderless ablak...</value>
-  </data>
-  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
-    <value>Ablak vizsgálata...</value>
   </data>
   <data name="tsmiTrayToggleHotkeys.Text" xml:space="preserve">
     <value>Disable gyorsbillentyűk</value>

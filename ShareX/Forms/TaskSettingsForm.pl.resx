@@ -258,12 +258,6 @@
   <data name="lblToastWindowFadeDurationSeconds.Text" xml:space="preserve">
     <value>sekund</value>
   </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>Podgląd</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>Wysokość:</value>
-  </data>
   <data name="lblTask.Text" xml:space="preserve">
     <value>Zadanie:</value>
   </data>
@@ -324,9 +318,6 @@
   <data name="tpUploadClipboard.Text" xml:space="preserve">
     <value>Przesyłanie schowka</value>
   </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>Utwórz miniaturę tylko wtedy, gdy rozmiar obrazu jest większy niż rozmiar miniatury</value>
-  </data>
   <data name="tpTools.Text" xml:space="preserve">
     <value>Narzędzia</value>
   </data>
@@ -375,9 +366,6 @@
   <data name="chUploaderFiltersName.Text" xml:space="preserve">
     <value>Serwis</value>
   </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>Jeśli schowek zawiera ścieżkę folderu, zindeksuj ten folder i prześlij indeks</value>
-  </data>
   <data name="cbClipboardUploadURLContents.Text" xml:space="preserve">
     <value>Jeśli schowek zawiera link do pliku, pobierz go i prześlij</value>
   </data>
@@ -420,12 +408,6 @@
   <data name="lblUploaderFiltersExtensions.Text" xml:space="preserve">
     <value>Filtr rozszerzenia:</value>
   </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>Nazwa miniatury:</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>Szerokość:</value>
-  </data>
   <data name="lblToastWindowDuration.Text" xml:space="preserve">
     <value>Czas trwania:</value>
   </data>
@@ -440,9 +422,6 @@
   </data>
   <data name="tpTask.Text" xml:space="preserve">
     <value>Zadanie</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>Miniatura</value>
   </data>
   <data name="tpWatchFolders.Text" xml:space="preserve">
     <value>Obserwowane foldery</value>

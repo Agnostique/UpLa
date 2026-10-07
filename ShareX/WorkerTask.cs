@@ -721,29 +721,6 @@ namespace ShareX
                         } while (!imageSaved);
                     }
                 }
-
-                if (Info.TaskSettings.AfterCaptureJob.HasFlag(AfterCaptureTasks.SaveThumbnailImageToFile))
-                {
-                    string thumbnailFileName, thumbnailFolder;
-
-                    if (!string.IsNullOrEmpty(Info.FilePath))
-                    {
-                        thumbnailFileName = Path.GetFileName(Info.FilePath);
-                        thumbnailFolder = Path.GetDirectoryName(Info.FilePath);
-                    }
-                    else
-                    {
-                        thumbnailFileName = Info.FileName;
-                        thumbnailFolder = TaskHelpers.GetScreenshotsFolder(Info.TaskSettings, Info.Metadata);
-                    }
-
-                    Info.ThumbnailFilePath = TaskHelpers.CreateThumbnail(Image, thumbnailFolder, thumbnailFileName, Info.TaskSettings);
-
-                    if (!string.IsNullOrEmpty(Info.ThumbnailFilePath))
-                    {
-                        DebugHelper.WriteLine("Thumbnail saved to file: " + Info.ThumbnailFilePath);
-                    }
-                }
             }
 
             return true;

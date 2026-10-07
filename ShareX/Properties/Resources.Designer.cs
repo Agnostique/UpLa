@@ -543,36 +543,6 @@ namespace ShareX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap application_resize_full {
-            get {
-                object obj = ResourceManager.GetObject("application-resize-full", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap application_search_result {
-            get {
-                object obj = ResourceManager.GetObject("application-search-result", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap application_task {
-            get {
-                object obj = ResourceManager.GetObject("application_task", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap application_terminal {
             get {
                 object obj = ResourceManager.GetObject("application_terminal", resourceCulture);
@@ -1164,16 +1134,6 @@ namespace ShareX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap disk_small {
-            get {
-                object obj = ResourceManager.GetObject("disk_small", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap document_break {
             get {
                 object obj = ResourceManager.GetObject("document_break", resourceCulture);
@@ -1455,16 +1415,6 @@ namespace ShareX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap folder_tree {
-            get {
-                object obj = ResourceManager.GetObject("folder_tree", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap fr {
             get {
                 object obj = ResourceManager.GetObject("fr", resourceCulture);
@@ -1663,29 +1613,9 @@ namespace ShareX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap image_resize_actual {
-            get {
-                object obj = ResourceManager.GetObject("image_resize_actual", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap image_saturation {
             get {
                 object obj = ResourceManager.GetObject("image_saturation", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap image_split {
-            get {
-                object obj = ResourceManager.GetObject("image_split", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1712,110 +1642,10 @@ namespace ShareX.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap images_stack {
-            get {
-                object obj = ResourceManager.GetObject("images_stack", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap inbox {
             get {
                 object obj = ResourceManager.GetObject("inbox", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Class name.
-        /// </summary>
-        internal static string InspectWindow_ClassName {
-            get {
-                return ResourceManager.GetString("InspectWindow_ClassName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Client rectangle.
-        /// </summary>
-        internal static string InspectWindow_ClientRectangle {
-            get {
-                return ResourceManager.GetString("InspectWindow_ClientRectangle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Extended window styles.
-        /// </summary>
-        internal static string InspectWindow_ExtendedWindowStyles {
-            get {
-                return ResourceManager.GetString("InspectWindow_ExtendedWindowStyles", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Process file name.
-        /// </summary>
-        internal static string InspectWindow_ProcessFileName {
-            get {
-                return ResourceManager.GetString("InspectWindow_ProcessFileName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Process identifier.
-        /// </summary>
-        internal static string InspectWindow_ProcessIdentifier {
-            get {
-                return ResourceManager.GetString("InspectWindow_ProcessIdentifier", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Process name.
-        /// </summary>
-        internal static string InspectWindow_ProcessName {
-            get {
-                return ResourceManager.GetString("InspectWindow_ProcessName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Window handle.
-        /// </summary>
-        internal static string InspectWindow_WindowHandle {
-            get {
-                return ResourceManager.GetString("InspectWindow_WindowHandle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Window rectangle.
-        /// </summary>
-        internal static string InspectWindow_WindowRectangle {
-            get {
-                return ResourceManager.GetString("InspectWindow_WindowRectangle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Window styles.
-        /// </summary>
-        internal static string InspectWindow_WindowStyles {
-            get {
-                return ResourceManager.GetString("InspectWindow_WindowStyles", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Window title.
-        /// </summary>
-        internal static string InspectWindow_WindowTitle {
-            get {
-                return ResourceManager.GetString("InspectWindow_WindowTitle", resourceCulture);
             }
         }
         
@@ -2435,26 +2265,6 @@ namespace ShareX.Properties {
         internal static string SwitchToThumbnailView {
             get {
                 return ResourceManager.GetString("SwitchToThumbnailView", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap tag__minus {
-            get {
-                object obj = ResourceManager.GetObject("tag__minus", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap tag_hash {
-            get {
-                object obj = ResourceManager.GetObject("tag_hash", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

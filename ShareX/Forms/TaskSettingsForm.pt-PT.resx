@@ -201,9 +201,6 @@
   <data name="cbCaptureTransparent.Text" xml:space="preserve">
     <value>Capturar janela com transparência</value>
   </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>Se a área de transferência possuir um caminho de uma pasta: Indexa-se a pasta e fazer o envio do mesmo</value>
-  </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>Se a área de transferência possuir uma hiperligação então partilhe-a usando um serviço de partilhas de hiperligações</value>
   </data>
@@ -290,9 +287,6 @@
   </data>
   <data name="cbShowCursor.Text" xml:space="preserve">
     <value>Mostrar cursor nas capturas de imagem</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>Criar miniatura apenas se o tamanho de imagem for maior que o tamanho da miniatura</value>
   </data>
   <data name="cbWatchFolderEnabled.Text" xml:space="preserve">
     <value>Monitorizar pastas e se algum ficheiro for adicionado, enviá-lo</value>
@@ -429,18 +423,6 @@
   <data name="lblScreenshotDelayInfo.Text" xml:space="preserve">
     <value>segundos</value>
   </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>Altura:</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>Nome da miniatura:</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>Pré-visualização</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>Largura:</value>
-  </data>
   <data name="lblToolsScreenColorPickerFormat.Text" xml:space="preserve">
     <value>Formato da selecção de cores do ecrã:</value>
   </data>
@@ -488,9 +470,6 @@
   </data>
   <data name="tpTask.Text" xml:space="preserve">
     <value>Tarefa</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>Miniatura</value>
   </data>
   <data name="tpTools.Text" xml:space="preserve">
     <value>Ferramentas</value>

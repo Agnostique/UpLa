@@ -177,14 +177,8 @@
   <data name="tsmiMonitor.Text" xml:space="preserve">
     <value>Монитор</value>
   </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>Проверка монитора...</value>
-  </data>
   <data name="tsmiTrayMonitor.Text" xml:space="preserve">
     <value>Монитор</value>
-  </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>Проверка монитора...</value>
   </data>
   <data name="tsmiTrayWindow.Text" xml:space="preserve">
     <value>Окно</value>
@@ -426,9 +420,6 @@
   <data name="tsmiImageEffects.Text" xml:space="preserve">
     <value>Эффекты изображений...</value>
   </data>
-  <data name="tsmiIndexFolder.Text" xml:space="preserve">
-    <value>Индексация папки...</value>
-  </data>
   <data name="tsmiQRCode.Text" xml:space="preserve">
     <value>QR код...</value>
   </data>
@@ -459,9 +450,6 @@
   <data name="tsmiTrayImageEffects.Text" xml:space="preserve">
     <value>Эффекты изображений...</value>
   </data>
-  <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
-    <value>Индексация папки...</value>
-  </data>
   <data name="tsmiTrayQRCode.Text" xml:space="preserve">
     <value>QR код...</value>
   </data>
@@ -479,12 +467,6 @@
   </data>
   <data name="tsmiTrayScrollingCapture.Text" xml:space="preserve">
     <value>Захват с прокруткой...</value>
-  </data>
-  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
-    <value>Миниатюры из видео...</value>
-  </data>
-  <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
-    <value>Миниатюры из видео...</value>
   </data>
   <data name="tsmiRectangleLight.Text" xml:space="preserve">
     <value>Область (Облегченный)</value>
@@ -551,12 +533,6 @@
   </data>
   <data name="tsbDonate.Text" xml:space="preserve">
     <value>Пожертвовать...</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
-    <value>Миниатюры изображений...</value>
-  </data>
-  <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
-    <value>Миниатюры изображений...</value>
   </data>
   <data name="tsmiCopyMarkdownLink.Text" xml:space="preserve">
     <value>Markdown ссылку</value>
@@ -627,50 +603,20 @@
   <data name="tsmiSwitchTaskViewMode.Text" xml:space="preserve">
     <value>Перейти в режим миниатюр</value>
   </data>
-  <data name="tsmiImageSplitter.Text" xml:space="preserve">
-    <value>Разделитель изображений...</value>
-  </data>
-  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
-    <value>Разделитель изображений...</value>
-  </data>
   <data name="tsmiRunAction.Text" xml:space="preserve">
     <value>Выполнить действие</value>
-  </data>
-  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
-    <value>Конвертер видео...</value>
-  </data>
-  <data name="tsmiVideoConverter.Text" xml:space="preserve">
-    <value>Конвертер видео...</value>
   </data>
   <data name="tsmiAddImageEffects.Text" xml:space="preserve">
     <value>Добавить эффекты изображений...</value>
   </data>
-  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
-    <value>Буфер обмена...</value>
-  </data>
-  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
-    <value>Буфер обмена...</value>
-  </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>Перезапустить ShareX как администратор</value>
-  </data>
-  <data name="tsmiInspectWindow.Text" xml:space="preserve">
-    <value>Исследовать окно...</value>
-  </data>
-  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
-    <value>Исследовать окно...</value>
   </data>
   <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
     <value>Объединить горизонтально</value>
   </data>
   <data name="tsmiCombineImagesVertically.Text" xml:space="preserve">
     <value>Объединить вертикально</value>
-  </data>
-  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
-    <value>Безрамочное окно...</value>
-  </data>
-  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
-    <value>Безрамочное окно...</value>
   </data>
   <data name="tsmiTrayOCR.Text" xml:space="preserve">
     <value>Распознавание текста (OCR)...</value>
@@ -702,12 +648,6 @@
   <data name="tsmiBeautifyImage.Text" xml:space="preserve">
     <value>Украсить изображение...</value>
   </data>
-  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
-    <value>Проверка хеша...</value>
-  </data>
-  <data name="tsmiHashChecker.Text" xml:space="preserve">
-    <value>Проверка хеша...</value>
-  </data>
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>Описание</value>
   </data>
@@ -717,14 +657,8 @@
   <data name="tsbX.Text" xml:space="preserve">
     <value>Читать @ShareX...</value>
   </data>
-  <data name="tsmiMetadata.Text" xml:space="preserve">
-    <value>Метаданные...</value>
-  </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Настройки сервисов...</value>
-  </data>
-  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
-    <value>Метаданные...</value>
   </data>
   <data name="tsmiAI.Text" xml:space="preserve">
     <value>Анализировать изображение...</value>

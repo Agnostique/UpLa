@@ -141,9 +141,6 @@
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_After_upload___0_" xml:space="preserve">
     <value>Yükleme sonrası: {0}</value>
   </data>
-  <data name="InspectWindow_ProcessName" xml:space="preserve">
-    <value>İşlem ismi</value>
-  </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>İptal</value>
   </data>
@@ -186,9 +183,6 @@ ShareX'i yeniden başlatmak ister misiniz?</value>
   </data>
   <data name="UploadTask_ThreadDoWork_URL_is_empty_" xml:space="preserve">
     <value>Adres boş.</value>
-  </data>
-  <data name="InspectWindow_ClassName" xml:space="preserve">
-    <value>Sınıf ismi</value>
   </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>Geçmiş</value>
@@ -238,14 +232,8 @@ ShareX'i yeniden başlatmak ister misiniz?</value>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Text__Length___0__" xml:space="preserve">
     <value>Pano içeriği: Metin (Uzunluk: {0})</value>
   </data>
-  <data name="InspectWindow_ProcessIdentifier" xml:space="preserve">
-    <value>İşlem belirleyici</value>
-  </data>
   <data name="TaskSettingsForm_txtNameFormatPatternActiveWindow_TextChanged_Preview_" xml:space="preserve">
     <value>Ön izleme:</value>
-  </data>
-  <data name="InspectWindow_ProcessFileName" xml:space="preserve">
-    <value>İşlem dosya ismi</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>ShareX ayarlarını sıfırlamak ister misiniz?</value>
@@ -310,9 +298,6 @@ Devam etmek istediğinizden emin misiniz?</value>
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>Almanca</value>
-  </data>
-  <data name="InspectWindow_WindowRectangle" xml:space="preserve">
-    <value>Pencere dikdörtgeni</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>Görüntü efektlerini etkinleştirmek ister misiniz?
@@ -432,9 +417,6 @@ ShareX'i yeniden başlatmak ister misiniz?</value>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation" xml:space="preserve">
     <value>Dosya silme onayı</value>
   </data>
-  <data name="InspectWindow_WindowStyles" xml:space="preserve">
-    <value>Pencere stilleri</value>
-  </data>
   <data name="MainForm_UpdateWorkflowsMenu_You_can_add_workflows_from_hotkey_settings___" xml:space="preserve">
     <value>Kısayol ayarlarından yeni iş akışı ekliyebilirsiniz...</value>
   </data>
@@ -456,17 +438,11 @@ ShareX'i yeniden başlatmak ister misiniz?</value>
   <data name="Confirmation" xml:space="preserve">
     <value>Onayla</value>
   </data>
-  <data name="InspectWindow_WindowTitle" xml:space="preserve">
-    <value>Pencere başlığı</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Image__Size___0_x_1__" xml:space="preserve">
     <value>Pano içeriği: Resim (Boyut: {0} x {1})</value>
   </data>
   <data name="SwitchToListView" xml:space="preserve">
     <value>Liste görünümüne geç</value>
-  </data>
-  <data name="InspectWindow_ExtendedWindowStyles" xml:space="preserve">
-    <value>Genişletilmiş pencere stilleri</value>
   </data>
   <data name="UploadTask_OnUploadCompleted_Stopped" xml:space="preserve">
     <value>Durduruldu</value>
@@ -504,9 +480,6 @@ Lütfen kişisel dizin yolunu değiştirmek için ShareX'i yönetici olarak çal
   <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByPolicy_Text" xml:space="preserve">
     <value>Başlangıç, kuruluşunuz tarafından devre dışı bırakıldı</value>
   </data>
-  <data name="InspectWindow_WindowHandle" xml:space="preserve">
-    <value>Pencere tanıtıcı</value>
-  </data>
   <data name="AboutForm_AboutForm_Language_it_IT" xml:space="preserve">
     <value>İtalyanca</value>
   </data>
@@ -532,9 +505,6 @@ sürükle</value>
 {1}
 
 Lütfen başka bir kısayol seçin veya çakışan uygulamayı kapatın ve ShareX'i tekrar açın.</value>
-  </data>
-  <data name="InspectWindow_ClientRectangle" xml:space="preserve">
-    <value>İstemci dikdörtgeni</value>
   </data>
   <data name="AboutForm_AboutForm_Team" xml:space="preserve">
     <value>Takım</value>

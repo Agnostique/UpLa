@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="VideoThumbnailerForm_btnBrowse_Click_Browse_for_media_file" xml:space="preserve">
-    <value>Video için gözat</value>
-  </data>
   <data name="AlignmentBottom" xml:space="preserve">
     <value>Alt</value>
   </data>
@@ -140,21 +137,6 @@
   </data>
   <data name="FFmpegError" xml:space="preserve">
     <value>FFmpeg hatası</value>
-  </data>
-  <data name="HigherQualitySize" xml:space="preserve">
-    <value>Yüksek kalite/boyut</value>
-  </data>
-  <data name="LowerQualitySize" xml:space="preserve">
-    <value>Düşük kalite/boyut</value>
-  </data>
-  <data name="StartEncoding" xml:space="preserve">
-    <value>Kodlamayı başlat</value>
-  </data>
-  <data name="StopEncoding" xml:space="preserve">
-    <value>Kodlamayı durdur</value>
-  </data>
-  <data name="ThumbnailsSuccessfullyGenerated" xml:space="preserve">
-    <value>Küçük resimler başarıyla oluşturuldu.</value>
   </data>
   <data name="WouldYouLikeToResetOptions" xml:space="preserve">
     <value>Seçenekleri sıfırlamak ister misiniz?</value>

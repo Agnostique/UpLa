@@ -219,24 +219,6 @@
   <data name="btnImageEffects.Text" xml:space="preserve">
     <value>画像エフェクトの設定...</value>
   </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>サムネイル</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>サムネイルより大きな画像のみサムネイルを作成</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>プレビュー</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>サムネイル名:</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>高さ:</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>幅:</value>
-  </data>
   <data name="btnCaptureCustomRegionSelectRectangle.Text" xml:space="preserve">
     <value>領域の選択...</value>
   </data>
@@ -488,9 +470,6 @@
   </data>
   <data name="cbCaptureOCRSilent.Text" xml:space="preserve">
     <value>OCR実行時にダイアログを開かない（サイレント実行）</value>
-  </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>クリップボードにフォルダパスがあるときは、そのフォルダのindexを作ってアップロードする</value>
   </data>
   <data name="lblActionsNote.Text" xml:space="preserve">
     <value>「キャプチャー後のタスク→アクションの実行」で有効/無効の切り替えができます。</value>

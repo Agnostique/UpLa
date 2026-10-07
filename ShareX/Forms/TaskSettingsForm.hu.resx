@@ -216,9 +216,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>Duplikálás</value>
   </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>Ha a vágólap egy mappa elérési útját tartalmazza, indexeljük a mappát és töltsük fel az indexet</value>
-  </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>Ha a vágólap URL-t tartalmaz, osszuk meg egy URL megosztó szolgáltatással</value>
   </data>
@@ -254,24 +251,6 @@
   </data>
   <data name="lblScreenRecorderStartDelay.Text" xml:space="preserve">
     <value>másodperc</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>Szélesség:</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>Magasság:</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>Előnézet neve:</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>Előnézet</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>Csak akkor készítsen előnézeti képet, ha a kép nagyobb mint az előnézeti kép</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>Előnézet</value>
   </data>
   <data name="btnImageEffects.Text" xml:space="preserve">
     <value>Képeffekt beállítása...</value>

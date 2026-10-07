@@ -219,24 +219,6 @@
   <data name="btnImageEffects.Text" xml:space="preserve">
     <value>Configuración de efectos de imagen...</value>
   </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>Miniatura</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>Generar miniatura solo si la imagen es más grande que la miniatura</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>Vista previa</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>Nombre de la miniatura:</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>Alto:</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>Ancho:</value>
-  </data>
   <data name="btnCaptureCustomRegionSelectRectangle.Text" xml:space="preserve">
     <value>Seleccionar región:</value>
   </data>
@@ -398,10 +380,6 @@
   </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>Compartir también el enlace que esté en el portapapeles</value>
-  </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>Indizar la carpeta y subir el índice que esté 
-en el portapapeles</value>
   </data>
   <data name="tpUploaderFilters.Text" xml:space="preserve">
     <value>Filtros de servidores</value>

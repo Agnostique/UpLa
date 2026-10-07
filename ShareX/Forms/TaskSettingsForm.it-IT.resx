@@ -258,24 +258,6 @@
   <data name="btnImageEffects.Text" xml:space="preserve">
     <value>Configurazione Effetti Immagine...</value>
   </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>Miniatura</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>Crea miniatura solo se la dimesione del'immagine è maggiore della dimesione della miniatura</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>Anteprima</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>Nome Miniatura:</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>Altezza:</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>Larghezza:</value>
-  </data>
   <data name="cbRegionCaptureShowFPS.Text" xml:space="preserve">
     <value>Mostra FPS in Alto a Sinistra</value>
   </data>
@@ -464,9 +446,6 @@
   </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>Se gli Appunti contengono un URL, Condividilo</value>
-  </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>Se gli Appunti contengono un Percorso Cartella, Indicizzala e Carica l'Indice</value>
   </data>
   <data name="cbWatchFolderEnabled.Text" xml:space="preserve">
     <value>Monitora Cartelle e Carica Nuovi File alla loro Creazione</value>

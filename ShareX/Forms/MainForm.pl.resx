@@ -162,12 +162,6 @@
   <data name="tsmiTrayUploadURL.Text" xml:space="preserve">
     <value>Prześlij z linku...</value>
   </data>
-  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
-    <value>Konwerter wideo...</value>
-  </data>
-  <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
-    <value>Miniatury wideo...</value>
-  </data>
   <data name="tsmiTrayWindow.Text" xml:space="preserve">
     <value>Okno</value>
   </data>
@@ -200,9 +194,6 @@
   </data>
   <data name="tsmiTrayScreenshotDelay.Text" xml:space="preserve">
     <value>Opóźnienie zrzutu ekranu</value>
-  </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>Test monitora...</value>
   </data>
   <data name="tsmiTrayOCR.Text" xml:space="preserve">
     <value>OCR...</value>
@@ -245,12 +236,6 @@
   </data>
   <data name="tsmiUploadURL.Text" xml:space="preserve">
     <value>Prześlij z linku...</value>
-  </data>
-  <data name="tsmiVideoConverter.Text" xml:space="preserve">
-    <value>Konwerter wideo...</value>
-  </data>
-  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
-    <value>Miniatury wideo...</value>
   </data>
   <data name="tsmiWindow.Text" xml:space="preserve">
     <value>Okno</value>
@@ -369,18 +354,6 @@
   <data name="chFilename.Text" xml:space="preserve">
     <value>Nazwa pliku</value>
   </data>
-  <data name="tsmiInspectWindow.Text" xml:space="preserve">
-    <value>Sprawdź okno...</value>
-  </data>
-  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
-    <value>Sprawdź okno...</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
-    <value>Generator miniatur obrazów...</value>
-  </data>
-  <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
-    <value>Generator miniatur obrazów...</value>
-  </data>
   <data name="tsbHotkeySettings.Text" xml:space="preserve">
     <value>Ustawienia skrótów...</value>
   </data>
@@ -480,9 +453,6 @@
   <data name="tsmiAutoCapture.Text" xml:space="preserve">
     <value>Automatyczne przechwytywanie...</value>
   </data>
-  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
-    <value>Okno bez obramowania...</value>
-  </data>
   <data name="tsmiClearList.Text" xml:space="preserve">
     <value>Wyczyść listę zadań</value>
   </data>
@@ -546,12 +516,6 @@
   <data name="tsmiTrayWorkflows.Text" xml:space="preserve">
     <value>Operacje</value>
   </data>
-  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
-    <value>Przeglądarka schowka...</value>
-  </data>
-  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
-    <value>Przeglądarka schowka...</value>
-  </data>
   <data name="tsmiCombineImages.Text" xml:space="preserve">
     <value>Łączenie obrazów...</value>
   </data>
@@ -579,12 +543,6 @@
   <data name="tsmiImageEffects.Text" xml:space="preserve">
     <value>Efekty obrazu...</value>
   </data>
-  <data name="tsmiImageSplitter.Text" xml:space="preserve">
-    <value>Rozdzielacz obrazu...</value>
-  </data>
-  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
-    <value>Rozdzielacz obrazu...</value>
-  </data>
   <data name="tsmiImageViewer.Text" xml:space="preserve">
     <value>Przeglądarka obrazów...</value>
   </data>
@@ -594,20 +552,11 @@
   <data name="tsmiMonitor.Text" xml:space="preserve">
     <value>Monitor</value>
   </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>Test monitora...</value>
-  </data>
   <data name="tsmiOCR.Text" xml:space="preserve">
     <value>OCR...</value>
   </data>
   <data name="tsmiOCRImage.Text" xml:space="preserve">
     <value>Obraz OCR...</value>
-  </data>
-  <data name="tsmiIndexFolder.Text" xml:space="preserve">
-    <value>Indeksator katalogów...</value>
-  </data>
-  <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
-    <value>Indeksator katalogów...</value>
   </data>
   <data name="tsmiOpenThumbnailURL.Text" xml:space="preserve">
     <value>Link miniatury</value>
@@ -647,9 +596,6 @@
   </data>
   <data name="tsmiTrayAutoCapture.Text" xml:space="preserve">
     <value>Automatyczne przechwytywanie...</value>
-  </data>
-  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
-    <value>Okno bez obramowania...</value>
   </data>
   <data name="tsmiTrayCapture.Text" xml:space="preserve">
     <value>Przechwytywanie</value>
@@ -705,12 +651,6 @@
   <data name="tsmiAI.Text" xml:space="preserve">
     <value>Analizuj obraz...</value>
   </data>
-  <data name="tsmiHashChecker.Text" xml:space="preserve">
-    <value>Sprawdzanie skrótu...</value>
-  </data>
-  <data name="tsmiMetadata.Text" xml:space="preserve">
-    <value>Metadane...</value>
-  </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Ustawienia miejsca docelowego...</value>
   </data>
@@ -722,12 +662,6 @@
   </data>
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>Analizuj obraz...</value>
-  </data>
-  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
-    <value>Sprawdzanie skrótu...</value>
-  </data>
-  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
-    <value>Metadane...</value>
   </data>
   <data name="cHotkey.HeaderText" xml:space="preserve">
     <value>Skrót klawiszowy</value>

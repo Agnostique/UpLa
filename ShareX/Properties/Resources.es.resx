@@ -298,9 +298,6 @@ Por favor seleccione una tecla de acceso directo diferente o salir de la aplicac
   <data name="AboutForm_AboutForm_Language_pt_PT" xml:space="preserve">
     <value>Portugués</value>
   </data>
-  <data name="InspectWindow_ProcessName" xml:space="preserve">
-    <value>Nombre del proceso</value>
-  </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>Cancelar</value>
   </data>
@@ -334,9 +331,6 @@ Por favor seleccione una tecla de acceso directo diferente o salir de la aplicac
   <data name="AboutForm_AboutForm_Credits" xml:space="preserve">
     <value>Créditos</value>
   </data>
-  <data name="InspectWindow_ClassName" xml:space="preserve">
-    <value>Nombre de clase</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>Historial</value>
   </data>
@@ -363,12 +357,6 @@ Por favor seleccione una tecla de acceso directo diferente o salir de la aplicac
   </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Text__Length___0__" xml:space="preserve">
     <value>Contenido del portapapeles: texto (longitud: {0})</value>
-  </data>
-  <data name="InspectWindow_ProcessIdentifier" xml:space="preserve">
-    <value>Identificador del proceso</value>
-  </data>
-  <data name="InspectWindow_ProcessFileName" xml:space="preserve">
-    <value>Nombre del archivo del proceso</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>¿Desea restablecer la configuración de ShareX?</value>
@@ -403,9 +391,6 @@ Por favor seleccione una tecla de acceso directo diferente o salir de la aplicac
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>Alemán</value>
-  </data>
-  <data name="InspectWindow_WindowRectangle" xml:space="preserve">
-    <value>Rectángulo de la ventana</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>Would you like to enable imagen effects?
@@ -483,9 +468,6 @@ Would you like to reiniciar ShareX?</value>
   <data name="ScreenColorPicker" xml:space="preserve">
     <value>Pantalla color picker</value>
   </data>
-  <data name="InspectWindow_WindowStyles" xml:space="preserve">
-    <value>Estilos de ventana</value>
-  </data>
   <data name="ShareXConfirmation" xml:space="preserve">
     <value>ShareX - Confirmación</value>
   </data>
@@ -501,17 +483,11 @@ Would you like to reiniciar ShareX?</value>
   <data name="Confirmation" xml:space="preserve">
     <value>Confirmación</value>
   </data>
-  <data name="InspectWindow_WindowTitle" xml:space="preserve">
-    <value>Título de la ventana</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Image__Size___0_x_1__" xml:space="preserve">
     <value>Portapapeles content: Imagen (Tamaño: {0}x{1})</value>
   </data>
   <data name="SwitchToListView" xml:space="preserve">
     <value>Cambiar a vista de lista</value>
-  </data>
-  <data name="InspectWindow_ExtendedWindowStyles" xml:space="preserve">
-    <value>Estilos de ventana extendidos</value>
   </data>
   <data name="AboutForm_AboutForm_Language_ru" xml:space="preserve">
     <value>Ruso</value>
@@ -542,9 +518,6 @@ Do you want to abort the active grabación de pantalla?</value>
   <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByPolicy_Text" xml:space="preserve">
     <value>Iniciarup has been disabled by your organization</value>
   </data>
-  <data name="InspectWindow_WindowHandle" xml:space="preserve">
-    <value>Identificador de ventana</value>
-  </data>
   <data name="AboutForm_AboutForm_Language_it_IT" xml:space="preserve">
     <value>Italiano</value>
   </data>
@@ -553,9 +526,6 @@ Do you want to abort the active grabación de pantalla?</value>
   </data>
   <data name="FailedToSaveSettings" xml:space="preserve">
     <value>Failed to guardar configuración</value>
-  </data>
-  <data name="InspectWindow_ClientRectangle" xml:space="preserve">
-    <value>Rectángulo de cliente</value>
   </data>
   <data name="AboutForm_AboutForm_Team" xml:space="preserve">
     <value>Equipo</value>

@@ -141,9 +141,6 @@
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>Anulare</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>Miniaturizator video</value>
-  </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>Încețoșare (B)</value>
   </data>
@@ -334,9 +331,6 @@ Doriți să o descărcați?</value>
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Aleatoriu</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>Verificare hash</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>Porniți/opriți înregistrarea ecranului utilizând regiunea activă a ferestrei</value>
   </data>
@@ -360,9 +354,6 @@ Doriți să o descărcați?</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Yes" xml:space="preserve">
     <value>Da</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>Miniaturizator de imagini</value>
   </data>
   <data name="ReplCodeMenuEntry_mon_Current_month_name__Local_language_" xml:space="preserve">
     <value>Denumirea lunii (Limba locală)</value>
@@ -460,9 +451,6 @@ Doriți să o descărcați?</value>
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Calea fișierului cu extensia numelui fișierului de ieșire</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>Indexer de directoare</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Timestamp Unix</value>
   </data>
@@ -538,9 +526,6 @@ Doriți să o descărcați și să o instalați?</value>
   </data>
   <data name="RandomEmojiRepeatUsingN" xml:space="preserve">
     <value>Emoji aleatoriu (Repetați folosind {n})</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>Salvați imaginea în miniatură în fișier</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>Descărcare.</value>
@@ -692,9 +677,6 @@ Doriți să o descărcați și să o instalați?</value>
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>Porniți/opriți înregistrarea ecranului (GIF) utilizând ultima regiune</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>Test de monitor</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Copiere</value>
   </data>
@@ -724,9 +706,6 @@ Doriți să o descărcați și să o instalați?</value>
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>Alegător de culori</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Stop</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>Destinație de fișiere</value>
@@ -760,9 +739,6 @@ Doriți să o descărcați și să o instalați?</value>
   </data>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>Automat</value>
-  </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>Convertor video</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Cancel" xml:space="preserve">
     <value>Anulați</value>
@@ -824,9 +800,6 @@ Doriți să o descărcați și să o instalați?</value>
   <data name="HotkeyType_UploadURL" xml:space="preserve">
     <value>Încărcați de la URL</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>Divizor de imagine</value>
-  </data>
   <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
     <value>Copiați URL-ul în clipboard</value>
   </data>
@@ -838,18 +811,6 @@ Doriți să o descărcați și să o instalați?</value>
   </data>
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>Copiați fișierul în clipboard</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>Rezultatul primului fișier:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>Rezultatul celui de-al doilea fișier:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>Rezultat:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Țintă:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>Sfârșit</value>
@@ -874,12 +835,6 @@ Doriți să o descărcați și să o instalați?</value>
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>Cifre romane (majuscule)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>Vizualizator de clipboard</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>Inspectare fereastră</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>Solid</value>
@@ -1031,12 +986,6 @@ Doriți să o descărcați și să o instalați?</value>
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>OCR</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>Fereastră fără margini</value>
-  </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>Metadate</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>Fixează pe ecran</value>
   </data>
@@ -1085,9 +1034,6 @@ Doriți să o descărcați și să o instalați?</value>
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>Îmbunătățește imaginea</value>
   </data>
-  <data name="Check" xml:space="preserve">
-    <value>Verifică</value>
-  </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>Captură pre configured fereastră</value>
   </data>
@@ -1109,12 +1055,6 @@ Doriți să o descărcați și să o instalați?</value>
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>Fișier dimensiune</value>
   </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>Make active fereastră chenarless</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>Make active fereastră sus most</value>
-  </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>Pin to ecran (Close all)</value>
   </data>
@@ -1132,9 +1072,6 @@ Doriți să o descărcați și să o instalați?</value>
   </data>
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>Transparent</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>Elimină metadatele</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>QR code (Scan regiune)</value>

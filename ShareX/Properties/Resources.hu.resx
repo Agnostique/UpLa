@@ -296,9 +296,6 @@ Kérlek, válassz egy másik gyorsbillentyűt vagy zárd be a problémát okozó
   <data name="AboutForm_AboutForm_Language_pt_PT" xml:space="preserve">
     <value>Portugál</value>
   </data>
-  <data name="InspectWindow_ProcessName" xml:space="preserve">
-    <value>Folyamat név</value>
-  </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>Mégse</value>
   </data>
@@ -332,9 +329,6 @@ Kérlek, válassz egy másik gyorsbillentyűt vagy zárd be a problémát okozó
   <data name="AboutForm_AboutForm_Credits" xml:space="preserve">
     <value>Crszerkesztéss</value>
   </data>
-  <data name="InspectWindow_ClassName" xml:space="preserve">
-    <value>Class név</value>
-  </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>Előzmények</value>
   </data>
@@ -361,12 +355,6 @@ Kérlek, válassz egy másik gyorsbillentyűt vagy zárd be a problémát okozó
   </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Text__Length___0__" xml:space="preserve">
     <value>Vágólap content: Szöveg (Length: {0})</value>
-  </data>
-  <data name="InspectWindow_ProcessIdentifier" xml:space="preserve">
-    <value>Folyamat identifier</value>
-  </data>
-  <data name="InspectWindow_ProcessFileName" xml:space="preserve">
-    <value>Folyamat fájlnév</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>Would you like to visszaállítás ShareX beállítások?</value>
@@ -401,9 +389,6 @@ Are you sure you want to continue?</value>
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>Német</value>
-  </data>
-  <data name="InspectWindow_WindowRectangle" xml:space="preserve">
-    <value>Ablak rectszög</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>Would you like to enable képeffektusok?
@@ -481,9 +466,6 @@ Would you like to reindítás ShareX?</value>
   <data name="ScreenColorPicker" xml:space="preserve">
     <value>Képernyő szín picker</value>
   </data>
-  <data name="InspectWindow_WindowStyles" xml:space="preserve">
-    <value>Ablak styles</value>
-  </data>
   <data name="ShareXConfirmation" xml:space="preserve">
     <value>ShareX - Megerősítés</value>
   </data>
@@ -499,17 +481,11 @@ Would you like to reindítás ShareX?</value>
   <data name="Confirmation" xml:space="preserve">
     <value>Megerősítés</value>
   </data>
-  <data name="InspectWindow_WindowTitle" xml:space="preserve">
-    <value>Ablak title</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Image__Size___0_x_1__" xml:space="preserve">
     <value>Vágólap content: Kép (Méret: {0}x{1})</value>
   </data>
   <data name="SwitchToListView" xml:space="preserve">
     <value>Váltás listanézetre</value>
-  </data>
-  <data name="InspectWindow_ExtendedWindowStyles" xml:space="preserve">
-    <value>Extended ablak styles</value>
   </data>
   <data name="AboutForm_AboutForm_Language_ru" xml:space="preserve">
     <value>Orosz</value>
@@ -540,9 +516,6 @@ Do you want to megszakítás the active képernyőfelvétel?</value>
   <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByPolicy_Text" xml:space="preserve">
     <value>Indításup has been letiltva by your organization</value>
   </data>
-  <data name="InspectWindow_WindowHandle" xml:space="preserve">
-    <value>Ablak handle</value>
-  </data>
   <data name="AboutForm_AboutForm_Language_it_IT" xml:space="preserve">
     <value>Olasz</value>
   </data>
@@ -551,9 +524,6 @@ Do you want to megszakítás the active képernyőfelvétel?</value>
   </data>
   <data name="FailedToSaveSettings" xml:space="preserve">
     <value>Failed to mentés beállítások</value>
-  </data>
-  <data name="InspectWindow_ClientRectangle" xml:space="preserve">
-    <value>Client rectszög</value>
   </data>
   <data name="AboutForm_AboutForm_Team" xml:space="preserve">
     <value>Csapat</value>

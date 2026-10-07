@@ -263,15 +263,6 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Save thumbnail image to file.
-        /// </summary>
-        internal static string AfterCaptureTasks_SaveThumbnailImageToFile {
-            get {
-                return ResourceManager.GetString("AfterCaptureTasks_SaveThumbnailImageToFile", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Scan QR code.
         /// </summary>
         internal static string AfterCaptureTasks_ScanQRCode {
@@ -494,15 +485,6 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Check.
-        /// </summary>
-        internal static string Check {
-            get {
-                return ResourceManager.GetString("Check", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap clipboard_block {
@@ -635,16 +617,6 @@ namespace ShareX.HelpersLib.Properties {
         internal static System.Drawing.Bitmap cross {
             get {
                 object obj = ResourceManager.GetObject("cross", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap cross_circle {
-            get {
-                object obj = ResourceManager.GetObject("cross-circle", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1173,33 +1145,6 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Make active window borderless.
-        /// </summary>
-        internal static string HotkeyType_ActiveWindowBorderless {
-            get {
-                return ResourceManager.GetString("HotkeyType_ActiveWindowBorderless", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Make active window top most.
-        /// </summary>
-        internal static string HotkeyType_ActiveWindowTopMost {
-            get {
-                return ResourceManager.GetString("HotkeyType_ActiveWindowTopMost", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Borderless window.
-        /// </summary>
-        internal static string HotkeyType_BorderlessWindow {
-            get {
-                return ResourceManager.GetString("HotkeyType_BorderlessWindow", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Other.
         /// </summary>
         internal static string HotkeyType_Category_Other {
@@ -1259,15 +1204,6 @@ namespace ShareX.HelpersLib.Properties {
         internal static string HotkeyType_ClipboardUploadWithContentViewer {
             get {
                 return ResourceManager.GetString("HotkeyType_ClipboardUploadWithContentViewer", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Clipboard viewer.
-        /// </summary>
-        internal static string HotkeyType_ClipboardViewer {
-            get {
-                return ResourceManager.GetString("HotkeyType_ClipboardViewer", resourceCulture);
             }
         }
         
@@ -1344,15 +1280,6 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hash checker.
-        /// </summary>
-        internal static string HotkeyType_HashCheck {
-            get {
-                return ResourceManager.GetString("HotkeyType_HashCheck", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Image beautifier.
         /// </summary>
         internal static string HotkeyType_ImageBeautifier {
@@ -1389,24 +1316,6 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Image splitter.
-        /// </summary>
-        internal static string HotkeyType_ImageSplitter {
-            get {
-                return ResourceManager.GetString("HotkeyType_ImageSplitter", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Image thumbnailer.
-        /// </summary>
-        internal static string HotkeyType_ImageThumbnailer {
-            get {
-                return ResourceManager.GetString("HotkeyType_ImageThumbnailer", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Image viewer.
         /// </summary>
         internal static string HotkeyType_ImageViewer {
@@ -1416,47 +1325,11 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Directory indexer.
-        /// </summary>
-        internal static string HotkeyType_IndexFolder {
-            get {
-                return ResourceManager.GetString("HotkeyType_IndexFolder", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Inspect window.
-        /// </summary>
-        internal static string HotkeyType_InspectWindow {
-            get {
-                return ResourceManager.GetString("HotkeyType_InspectWindow", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Capture last region.
         /// </summary>
         internal static string HotkeyType_LastRegion {
             get {
                 return ResourceManager.GetString("HotkeyType_LastRegion", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Metadata.
-        /// </summary>
-        internal static string HotkeyType_Metadata {
-            get {
-                return ResourceManager.GetString("HotkeyType_Metadata", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Monitor test.
-        /// </summary>
-        internal static string HotkeyType_MonitorTest {
-            get {
-                return ResourceManager.GetString("HotkeyType_MonitorTest", resourceCulture);
             }
         }
         
@@ -1749,15 +1622,6 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Strip metadata.
-        /// </summary>
-        internal static string HotkeyType_StripMetadata {
-            get {
-                return ResourceManager.GetString("HotkeyType_StripMetadata", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Toggle actions toolbar.
         /// </summary>
         internal static string HotkeyType_ToggleActionsToolbar {
@@ -1781,24 +1645,6 @@ namespace ShareX.HelpersLib.Properties {
         internal static string HotkeyType_UploadURL {
             get {
                 return ResourceManager.GetString("HotkeyType_UploadURL", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Video converter.
-        /// </summary>
-        internal static string HotkeyType_VideoConverter {
-            get {
-                return ResourceManager.GetString("HotkeyType_VideoConverter", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Video thumbnailer.
-        /// </summary>
-        internal static string HotkeyType_VideoThumbnailer {
-            get {
-                return ResourceManager.GetString("HotkeyType_VideoThumbnailer", resourceCulture);
             }
         }
         
@@ -2644,33 +2490,6 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Result:.
-        /// </summary>
-        internal static string Result {
-            get {
-                return ResourceManager.GetString("Result", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Result of first file:.
-        /// </summary>
-        internal static string ResultOfFirstFile {
-            get {
-                return ResourceManager.GetString("ResultOfFirstFile", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Result of second file:.
-        /// </summary>
-        internal static string ResultOfSecondFile {
-            get {
-                return ResourceManager.GetString("ResultOfSecondFile", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to FFmpeg (Good quality).
         /// </summary>
         internal static string ScreenRecordGIFEncoding_FFmpeg {
@@ -3052,29 +2871,11 @@ namespace ShareX.HelpersLib.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Stop.
-        /// </summary>
-        internal static string Stop {
-            get {
-                return ResourceManager.GetString("Stop", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Automatic.
         /// </summary>
         internal static string SupportedLanguage_Automatic {
             get {
                 return ResourceManager.GetString("SupportedLanguage_Automatic", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Target:.
-        /// </summary>
-        internal static string Target {
-            get {
-                return ResourceManager.GetString("Target", resourceCulture);
             }
         }
         
@@ -3192,16 +2993,6 @@ namespace ShareX.HelpersLib.Properties {
         internal static System.Drawing.Bitmap tick {
             get {
                 object obj = ResourceManager.GetObject("tick", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap tick_circle {
-            get {
-                object obj = ResourceManager.GetObject("tick-circle", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

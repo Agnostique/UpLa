@@ -213,12 +213,6 @@
   <data name="tsmiImageCombiner.Text" xml:space="preserve">
     <value>Combina Immagini...</value>
   </data>
-  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
-    <value>Crea Miniature Video...</value>
-  </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>Prova il Monitor...</value>
-  </data>
   <data name="tsddbTools.Text" xml:space="preserve">
     <value>Strumenti</value>
   </data>
@@ -239,9 +233,6 @@
   </data>
   <data name="tsmiURLSharingServices.Text" xml:space="preserve">
     <value>Servizio Condivisione URL</value>
-  </data>
-  <data name="tsmiIndexFolder.Text" xml:space="preserve">
-    <value>Indicizza Cartella...</value>
   </data>
   <data name="tsddbDestinations.Text" xml:space="preserve">
     <value>Destinazioni</value>
@@ -480,17 +471,8 @@
   <data name="tsmiTrayRuler.Text" xml:space="preserve">
     <value>Righello...</value>
   </data>
-  <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
-    <value>Indicizza Cartella...</value>
-  </data>
   <data name="tsmiTrayImageCombiner.Text" xml:space="preserve">
     <value>Combina Immagini...</value>
-  </data>
-  <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
-    <value>Crea Miniature Video...</value>
-  </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>Prova Monitor...</value>
   </data>
   <data name="tsmiTrayTools.Text" xml:space="preserve">
     <value>Strumenti</value>
@@ -552,12 +534,6 @@
   <data name="tsmiOpenActionsToolbar.Text" xml:space="preserve">
     <value>Attiva/Disattiva Barra delle Azioni</value>
   </data>
-  <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
-    <value>Crea Miniatura Immagine...</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
-    <value>Crea Miniatura Immagine...</value>
-  </data>
   <data name="tsmiCopyMarkdownImage.Text" xml:space="preserve">
     <value>Markdown Immagine</value>
   </data>
@@ -606,32 +582,11 @@
   <data name="tsmiImageViewer.Text" xml:space="preserve">
     <value>Visualizzatore immagini...</value>
   </data>
-  <data name="tsmiImageSplitter.Text" xml:space="preserve">
-    <value>Divisore immagini...</value>
-  </data>
-  <data name="tsmiVideoConverter.Text" xml:space="preserve">
-    <value>Convertitore video...</value>
-  </data>
   <data name="tsmiAI.Text" xml:space="preserve">
     <value>Analizza immagine...</value>
   </data>
   <data name="tsmiOCR.Text" xml:space="preserve">
     <value>OCR...</value>
-  </data>
-  <data name="tsmiHashChecker.Text" xml:space="preserve">
-    <value>Controllo hash...</value>
-  </data>
-  <data name="tsmiMetadata.Text" xml:space="preserve">
-    <value>Metadati...</value>
-  </data>
-  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
-    <value>Visualizzatore appunti...</value>
-  </data>
-  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
-    <value>Finestra senza bordi...</value>
-  </data>
-  <data name="tsmiInspectWindow.Text" xml:space="preserve">
-    <value>Ispeziona finestra...</value>
   </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Impostazioni destinazione...</value>
@@ -699,32 +654,11 @@
   <data name="tsmiTrayImageViewer.Text" xml:space="preserve">
     <value>Visualizzatore immagini...</value>
   </data>
-  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
-    <value>Divisore immagini...</value>
-  </data>
-  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
-    <value>Convertitore video...</value>
-  </data>
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>Analizza immagine...</value>
   </data>
   <data name="tsmiTrayOCR.Text" xml:space="preserve">
     <value>OCR...</value>
-  </data>
-  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
-    <value>Controllo hash...</value>
-  </data>
-  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
-    <value>Metadati...</value>
-  </data>
-  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
-    <value>Visualizzatore appunti...</value>
-  </data>
-  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
-    <value>Finestra senza bordi...</value>
-  </data>
-  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
-    <value>Ispeziona finestra...</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>Riavvia ShareX come amministratore</value>

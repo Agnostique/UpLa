@@ -186,14 +186,8 @@
   <data name="tsmiQRCode.Text" xml:space="preserve">
     <value>Code QR...</value>
   </data>
-  <data name="tsmiIndexFolder.Text" xml:space="preserve">
-    <value>Indexeur de répertoires...</value>
-  </data>
   <data name="tsmiRuler.Text" xml:space="preserve">
     <value>Règle...</value>
-  </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>Test d'écran...</value>
   </data>
   <data name="tsddbTools.Text" xml:space="preserve">
     <value>Outils</value>
@@ -402,14 +396,8 @@
   <data name="tsmiTrayQRCode.Text" xml:space="preserve">
     <value>Code QR...</value>
   </data>
-  <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
-    <value>Indexeur de répertoires...</value>
-  </data>
   <data name="tsmiTrayRuler.Text" xml:space="preserve">
     <value>Règle...</value>
-  </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>Test d'écran...</value>
   </data>
   <data name="tsmiTrayTools.Text" xml:space="preserve">
     <value>Outils</value>
@@ -513,12 +501,6 @@
   <data name="tsmiTrayToggleHotkeys.Text" xml:space="preserve">
     <value>Désactiver les raccourcis clavier</value>
   </data>
-  <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
-    <value>Générateur de miniatures de vidéo...</value>
-  </data>
-  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
-    <value>Générateur de miniatures de vidéo...</value>
-  </data>
   <data name="tsmiTrayImageCombiner.Text" xml:space="preserve">
     <value>Combineur d'images...</value>
   </data>
@@ -551,12 +533,6 @@
   </data>
   <data name="tsbAbout.Text" xml:space="preserve">
     <value>À propos...</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
-    <value>Générateur de miniatures d'image...</value>
-  </data>
-  <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
-    <value>Générateur de miniatures d'image...</value>
   </data>
   <data name="tsmiCopyMarkdownImage.Text" xml:space="preserve">
     <value>Image Markdown</value>
@@ -630,26 +606,8 @@
   <data name="tsmiRunAction.Text" xml:space="preserve">
     <value>Exécuter action</value>
   </data>
-  <data name="tsmiVideoConverter.Text" xml:space="preserve">
-    <value>Convertisseur vidéo...</value>
-  </data>
-  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
-    <value>Convertisseur vidéo...</value>
-  </data>
-  <data name="tsmiImageSplitter.Text" xml:space="preserve">
-    <value>Découpeur d'image...</value>
-  </data>
-  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
-    <value>Découpeur d'image...</value>
-  </data>
   <data name="tsmiAddImageEffects.Text" xml:space="preserve">
     <value>Ajouter des effets d'image...</value>
-  </data>
-  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
-    <value>Visionneuse de presse-papier...</value>
-  </data>
-  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
-    <value>Visionneuse de presse-papier...</value>
   </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>Redémarrer ShareX en tant qu'administrateur</value>
@@ -660,9 +618,6 @@
   <data name="tsmiTrayImageViewer.Text" xml:space="preserve">
     <value>Visualiseur d'image...</value>
   </data>
-  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
-    <value>Vérificateur de hash...</value>
-  </data>
   <data name="tsmiPinToScreen.Text" xml:space="preserve">
     <value>Epingler à l'écran...</value>
   </data>
@@ -671,15 +626,6 @@
   </data>
   <data name="tsmiImageViewer.Text" xml:space="preserve">
     <value>Visualiseur d'image...</value>
-  </data>
-  <data name="tsmiHashChecker.Text" xml:space="preserve">
-    <value>Vérificateur de hash...</value>
-  </data>
-  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
-    <value>Fenêtre sans bord...</value>
-  </data>
-  <data name="tsmiInspectWindow.Text" xml:space="preserve">
-    <value>Inspecter une fenêtre...</value>
   </data>
   <data name="tsbX.Text" xml:space="preserve">
     <value>Suivre @ShareX...</value>
@@ -699,12 +645,6 @@
   <data name="tsmiTrayPinToScreen.Text" xml:space="preserve">
     <value>Epingler à l'écran...</value>
   </data>
-  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
-    <value>Fenêtre sans bord...</value>
-  </data>
-  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
-    <value>Inspecter la fenêtre...</value>
-  </data>
   <data name="cHotkey.HeaderText" xml:space="preserve">
     <value>Raccourci</value>
   </data>
@@ -717,9 +657,6 @@
   <data name="tsmiOCR.Text" xml:space="preserve">
     <value>OCR...</value>
   </data>
-  <data name="tsmiMetadata.Text" xml:space="preserve">
-    <value>Métadonnées...</value>
-  </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Paramètres de destination...</value>
   </data>
@@ -731,8 +668,5 @@
   </data>
   <data name="tsmiTrayOCR.Text" xml:space="preserve">
     <value>OCR...</value>
-  </data>
-  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
-    <value>Métadonnées...</value>
   </data>
 </root>

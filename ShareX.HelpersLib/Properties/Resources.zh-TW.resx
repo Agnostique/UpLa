@@ -141,9 +141,6 @@
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>重做</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>影片縮圖工具</value>
-  </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>模糊 (B)</value>
   </data>
@@ -334,9 +331,6 @@
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>隨機</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>雜湊檢查</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>開始/停止使用目前視窗錄製螢幕</value>
   </data>
@@ -360,9 +354,6 @@
   </data>
   <data name="MyMessageBox_MyMessageBox_Yes" xml:space="preserve">
     <value>是</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>圖片縮圖工具</value>
   </data>
   <data name="ReplCodeMenuEntry_mon_Current_month_name__Local_language_" xml:space="preserve">
     <value>目前月份名 (本地語言)</value>
@@ -460,9 +451,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>含輸出檔案副檔名的檔案路徑</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>目錄索引工具</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Unix 時間戳記</value>
   </data>
@@ -538,9 +526,6 @@
   </data>
   <data name="RandomEmojiRepeatUsingN" xml:space="preserve">
     <value>隨機表情符號 (用 {n} 來重複)</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>儲存縮圖檔案</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>下載中...</value>
@@ -692,9 +677,6 @@
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>開始/停止使用上個區域錄製螢幕 (GIF)</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>顯示器測試</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>複製</value>
   </data>
@@ -724,9 +706,6 @@
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>檢色器</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>停止</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>檔案上傳工具</value>
@@ -760,9 +739,6 @@
   </data>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>自動</value>
-  </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>影片轉檔工具</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Cancel" xml:space="preserve">
     <value>取消</value>
@@ -824,9 +800,6 @@
   <data name="HotkeyType_UploadURL" xml:space="preserve">
     <value>從網址上傳</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>圖片分割工具</value>
-  </data>
   <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
     <value>將網址複製到剪貼簿</value>
   </data>
@@ -838,18 +811,6 @@
   </data>
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>將檔案複製到剪貼簿</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>第一個檔案的結果：</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>第二個檔案的結果：</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>結果：</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>目標：</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>尾端</value>
@@ -874,12 +835,6 @@
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>羅馬數字 (大寫)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>剪貼簿檢視器</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>檢視視窗</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>實線</value>
@@ -1031,9 +986,6 @@
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>OCR</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>無邊框視窗</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>釘選至螢幕</value>
   </data>
@@ -1082,9 +1034,6 @@
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>美化圖片</value>
   </data>
-  <data name="Check" xml:space="preserve">
-    <value>檢查</value>
-  </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>擷取預設的視窗</value>
   </data>
@@ -1106,17 +1055,8 @@
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>檔案大小</value>
   </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>將目前視窗無邊框化</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>將目前視窗置於最上層</value>
-  </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>釘選至螢幕 (關閉所有視窗)</value>
-  </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>中繼資料</value>
   </data>
   <data name="AfterCaptureTasks_CopyFolderPathToClipboard" xml:space="preserve">
     <value>複製資料夾路徑到剪貼簿</value>
@@ -1141,9 +1081,6 @@
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>QR 碼（掃描區域）</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>移除中繼資料</value>
   </data>
   <data name="ImageBeautifierBackgroundType_Image" xml:space="preserve">
     <value>圖片</value>

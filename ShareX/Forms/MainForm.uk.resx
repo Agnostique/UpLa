@@ -237,26 +237,8 @@
   <data name="tsmiRuler.Text" xml:space="preserve">
     <value>Лінійки...</value>
   </data>
-  <data name="tsmiIndexFolder.Text" xml:space="preserve">
-    <value>Індексатор тек...</value>
-  </data>
   <data name="tsmiImageCombiner.Text" xml:space="preserve">
     <value>Об’єднувач зображень...</value>
-  </data>
-  <data name="tsmiImageSplitter.Text" xml:space="preserve">
-    <value>Розділювач зображень...</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
-    <value>Генератор мініатюр зображень...</value>
-  </data>
-  <data name="tsmiVideoConverter.Text" xml:space="preserve">
-    <value>Конвертер відео...</value>
-  </data>
-  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
-    <value>Генератор мініатюр відео...</value>
-  </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>Тест монітора...</value>
   </data>
   <data name="tsddbTools.Text" xml:space="preserve">
     <value>Інструменти</value>
@@ -561,26 +543,8 @@
   <data name="tsmiTrayRuler.Text" xml:space="preserve">
     <value>Лінійка...</value>
   </data>
-  <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
-    <value>Індексатор тек...</value>
-  </data>
   <data name="tsmiTrayImageCombiner.Text" xml:space="preserve">
     <value>Об’єднувач зображень...</value>
-  </data>
-  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
-    <value>Розділювач зображень...</value>
-  </data>
-  <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
-    <value>Генератор мініатюр зображень...</value>
-  </data>
-  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
-    <value>Конвертер відео...</value>
-  </data>
-  <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
-    <value>Генератор мініатюр відео...</value>
-  </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>Тест монітора...</value>
   </data>
   <data name="tsmiTrayTools.Text" xml:space="preserve">
     <value>Інструменти</value>
@@ -651,26 +615,11 @@
   <data name="tsmiTrayPinToScreen.Text" xml:space="preserve">
     <value>Закріпити на екрані...</value>
   </data>
-  <data name="tsmiInspectWindow.Text" xml:space="preserve">
-    <value>Перевірити вікно...</value>
-  </data>
-  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
-    <value>Перевірити вікно...</value>
-  </data>
-  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
-    <value>Безрамкове вікно...</value>
-  </data>
-  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
-    <value>Безрамкове вікно...</value>
-  </data>
   <data name="tsmiTrayImageViewer.Text" xml:space="preserve">
     <value>Переглядач зображень...</value>
   </data>
   <data name="tsmiTrayOCR.Text" xml:space="preserve">
     <value>Розпізнавання тексту (OCR)...</value>
-  </data>
-  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
-    <value>Перевірка контрольної суми...</value>
   </data>
   <data name="tsmiImageBeautifier.Text" xml:space="preserve">
     <value>Покращувач зображень...</value>
@@ -681,9 +630,6 @@
   <data name="tsmiBeautifyImage.Text" xml:space="preserve">
     <value>Покращити зображення...</value>
   </data>
-  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
-    <value>Переглядач буфера обміну...</value>
-  </data>
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>Перезапустити ShareX від імені адміністратора</value>
   </data>
@@ -692,12 +638,6 @@
   </data>
   <data name="tsmiImageViewer.Text" xml:space="preserve">
     <value>Переглядач зображень...</value>
-  </data>
-  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
-    <value>Переглядач буфера обміну...</value>
-  </data>
-  <data name="tsmiHashChecker.Text" xml:space="preserve">
-    <value>Перевірка контрольної суми...</value>
   </data>
   <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
     <value>Об’єднати горизонтально</value>
@@ -716,12 +656,6 @@
   </data>
   <data name="tsbX.Text" xml:space="preserve">
     <value>Слідкуйте за @ShareX...</value>
-  </data>
-  <data name="tsmiMetadata.Text" xml:space="preserve">
-    <value>Метадані...</value>
-  </data>
-  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
-    <value>Метадані...</value>
   </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>Налаштування призначень...</value>

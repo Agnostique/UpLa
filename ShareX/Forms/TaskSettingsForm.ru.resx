@@ -225,9 +225,6 @@
   <data name="btnActionsDuplicate.Text" xml:space="preserve">
     <value>Дублировать</value>
   </data>
-  <data name="cbClipboardUploadAutoIndexFolder.Text" xml:space="preserve">
-    <value>Если в буфере находится путь к папке, проиндексировать папку и загрузить индекс</value>
-  </data>
   <data name="cbClipboardUploadShareURL.Text" xml:space="preserve">
     <value>Если в буфере находится ссылка, сократить ее и отправить через сервис отправки ссылок</value>
   </data>
@@ -275,24 +272,6 @@
   </data>
   <data name="cbScreenRecorderShowCursor.Text" xml:space="preserve">
     <value>Показывать курсор на записи</value>
-  </data>
-  <data name="lblThumbnailWidth.Text" xml:space="preserve">
-    <value>Ширина:</value>
-  </data>
-  <data name="lblThumbnailHeight.Text" xml:space="preserve">
-    <value>Высота:</value>
-  </data>
-  <data name="lblThumbnailName.Text" xml:space="preserve">
-    <value>Имя миниатюры:</value>
-  </data>
-  <data name="lblThumbnailNamePreview.Text" xml:space="preserve">
-    <value>Предпросмотр</value>
-  </data>
-  <data name="cbThumbnailIfSmaller.Text" xml:space="preserve">
-    <value>Создавать миниатюру только если размер изображения больше размера миниатюры</value>
-  </data>
-  <data name="tpThumbnail.Text" xml:space="preserve">
-    <value>Миниатюра</value>
   </data>
   <data name="btnImageEffects.Text" xml:space="preserve">
     <value>Настройка эффектов изображений...</value>

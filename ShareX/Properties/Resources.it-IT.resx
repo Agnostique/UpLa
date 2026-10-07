@@ -416,9 +416,6 @@ Selezione una scorciatoia diversa o chiudi l'applicazione che crea conflitto e r
   <data name="AboutForm_AboutForm_Language_pt_PT" xml:space="preserve">
     <value>Portoghese</value>
   </data>
-  <data name="InspectWindow_ProcessName" xml:space="preserve">
-    <value>Nome processo</value>
-  </data>
   <data name="SwitchToThumbnailView" xml:space="preserve">
     <value>Passa alla vista miniature</value>
   </data>
@@ -434,9 +431,6 @@ Selezione una scorciatoia diversa o chiudi l'applicazione che crea conflitto e r
   <data name="AboutForm_AboutForm_Credits" xml:space="preserve">
     <value>Crediti</value>
   </data>
-  <data name="InspectWindow_ClassName" xml:space="preserve">
-    <value>Nome classe</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__File__Count___0__" xml:space="preserve">
     <value>Contenuto appunti: File (Conteggio: {0})</value>
   </data>
@@ -445,12 +439,6 @@ Selezione una scorciatoia diversa o chiudi l'applicazione che crea conflitto e r
   </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Text__Length___0__" xml:space="preserve">
     <value>Contenuto appunti: Testo (Lunghezza: {0})</value>
-  </data>
-  <data name="InspectWindow_ProcessIdentifier" xml:space="preserve">
-    <value>Identificatore processo</value>
-  </data>
-  <data name="InspectWindow_ProcessFileName" xml:space="preserve">
-    <value>Nome file processo</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>Vuoi reimpostare le impostazioni di ShareX?</value>
@@ -472,9 +460,6 @@ Selezione una scorciatoia diversa o chiudi l'applicazione che crea conflitto e r
   </data>
   <data name="ThisFeatureWillNotWorkWhenDisableUploadOptionIsEnabled" xml:space="preserve">
     <value>This feature will not work when "DisableCarica" option is enabled!</value>
-  </data>
-  <data name="InspectWindow_WindowRectangle" xml:space="preserve">
-    <value>Finestra rectangle</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>Would you like to enable immagine effects?
@@ -528,9 +513,6 @@ Would you like to reavvia ShareX?</value>
   <data name="ScreenColorPicker" xml:space="preserve">
     <value>Schermo colore picker</value>
   </data>
-  <data name="InspectWindow_WindowStyles" xml:space="preserve">
-    <value>Finestra styles</value>
-  </data>
   <data name="ShareXConfirmation" xml:space="preserve">
     <value>ShareX - Conferma</value>
   </data>
@@ -540,17 +522,11 @@ Would you like to reavvia ShareX?</value>
   <data name="Confirmation" xml:space="preserve">
     <value>Conferma</value>
   </data>
-  <data name="InspectWindow_WindowTitle" xml:space="preserve">
-    <value>Finestra title</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Image__Size___0_x_1__" xml:space="preserve">
     <value>Appunti content: Immagine (Size: {0}x{1})</value>
   </data>
   <data name="SwitchToListView" xml:space="preserve">
     <value>Passa alla vista elenco</value>
-  </data>
-  <data name="InspectWindow_ExtendedWindowStyles" xml:space="preserve">
-    <value>Extended finestra styles</value>
   </data>
   <data name="FFmpeg_FFmpeg_video_and_audio_source_both_can_t_be__None__" xml:space="preserve">
     <value>La sorgente video e audio di FFmpeg non possono essere entrambe "Nessuna".</value>
@@ -569,14 +545,8 @@ Do you want to abort the active registrazione schermo?</value>
   <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByPolicy_Text" xml:space="preserve">
     <value>Avviaup has been disabled by your organization</value>
   </data>
-  <data name="InspectWindow_WindowHandle" xml:space="preserve">
-    <value>Finestra handle</value>
-  </data>
   <data name="FailedToSaveSettings" xml:space="preserve">
     <value>Failed to salva impostazioni</value>
-  </data>
-  <data name="InspectWindow_ClientRectangle" xml:space="preserve">
-    <value>Rettangolo client</value>
   </data>
   <data name="AboutForm_AboutForm_Team" xml:space="preserve">
     <value>Team</value>

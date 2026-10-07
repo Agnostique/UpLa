@@ -141,9 +141,6 @@
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_After_upload___0_" xml:space="preserve">
     <value>ما بعد الرّفع: {0}</value>
   </data>
-  <data name="InspectWindow_ProcessName" xml:space="preserve">
-    <value>اسم العملية</value>
-  </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>إلغاء</value>
   </data>
@@ -187,9 +184,6 @@
   </data>
   <data name="UploadTask_ThreadDoWork_URL_is_empty_" xml:space="preserve">
     <value>عنوان URL فارغ.</value>
-  </data>
-  <data name="InspectWindow_ClassName" xml:space="preserve">
-    <value>اسم الصنف</value>
   </data>
   <data name="TaskManager_CreateListViewItem_History" xml:space="preserve">
     <value>السجل</value>
@@ -239,14 +233,8 @@
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Text__Length___0__" xml:space="preserve">
     <value>محتويات الحافظة: نص طوله {0} حرفًا</value>
   </data>
-  <data name="InspectWindow_ProcessIdentifier" xml:space="preserve">
-    <value>معرّف العملية</value>
-  </data>
   <data name="TaskSettingsForm_txtNameFormatPatternActiveWindow_TextChanged_Preview_" xml:space="preserve">
     <value>المعاينة:</value>
-  </data>
-  <data name="InspectWindow_ProcessFileName" xml:space="preserve">
-    <value>اسم ملف العملية</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>هل تريد استعادة الإعدادات الافتراضية؟</value>
@@ -311,9 +299,6 @@
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>الألمانية</value>
-  </data>
-  <data name="InspectWindow_WindowRectangle" xml:space="preserve">
-    <value>مستطيل النافذة</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>هل تريد تفعيل مؤثرات الصور؟
@@ -430,9 +415,6 @@
   <data name="MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation" xml:space="preserve">
     <value>تأكيد حذف ملف</value>
   </data>
-  <data name="InspectWindow_WindowStyles" xml:space="preserve">
-    <value>أسلوب النافذة</value>
-  </data>
   <data name="MainForm_UpdateWorkflowsMenu_You_can_add_workflows_from_hotkey_settings___" xml:space="preserve">
     <value>يمكنك إضافة مساحة عمل جديدة من إعدادات الاختصارات...</value>
   </data>
@@ -454,17 +436,11 @@
   <data name="Confirmation" xml:space="preserve">
     <value>التأكيد</value>
   </data>
-  <data name="InspectWindow_WindowTitle" xml:space="preserve">
-    <value>عنوان النافذة</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Image__Size___0_x_1__" xml:space="preserve">
     <value>محتويات الحافظة: صورة أبعادها: {0}x{1}</value>
   </data>
   <data name="SwitchToListView" xml:space="preserve">
     <value>تبديل إلى طريقة عرض القائمة</value>
-  </data>
-  <data name="InspectWindow_ExtendedWindowStyles" xml:space="preserve">
-    <value>أساليب النافذة الموسّعة</value>
   </data>
   <data name="UploadTask_OnUploadCompleted_Stopped" xml:space="preserve">
     <value>تم الإيقاف</value>
@@ -502,9 +478,6 @@
   <data name="ApplicationSettingsForm_cbStartWithWindows_DisabledByPolicy_Text" xml:space="preserve">
     <value>تم تعطيل البدء التلقائي للتطبيق بواسطة مؤسستك</value>
   </data>
-  <data name="InspectWindow_WindowHandle" xml:space="preserve">
-    <value>مقبض النافذة</value>
-  </data>
   <data name="AboutForm_AboutForm_Language_it_IT" xml:space="preserve">
     <value>الإيطالية</value>
   </data>
@@ -530,9 +503,6 @@
 {1}
 
 قم بإغلاق البرنامج الذي سبب التعارض وأعد تشغيل البرنامج أو اختر اختصارًا آخر.</value>
-  </data>
-  <data name="InspectWindow_ClientRectangle" xml:space="preserve">
-    <value>مساحة المستخدم</value>
   </data>
   <data name="AboutForm_AboutForm_Team" xml:space="preserve">
     <value>الفريق</value>

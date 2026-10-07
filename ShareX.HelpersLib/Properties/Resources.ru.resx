@@ -141,9 +141,6 @@
   <data name="Extensions_AddContextMenu_Redo" xml:space="preserve">
     <value>Повтор</value>
   </data>
-  <data name="HotkeyType_VideoThumbnailer" xml:space="preserve">
-    <value>Миниатюры из видео</value>
-  </data>
   <data name="ShapeType_EffectBlur" xml:space="preserve">
     <value>Размытие (B)</value>
   </data>
@@ -334,9 +331,6 @@
   <data name="ReplCodeMenuCategory_Random" xml:space="preserve">
     <value>Случайные числа</value>
   </data>
-  <data name="HotkeyType_HashCheck" xml:space="preserve">
-    <value>Проверка хеша</value>
-  </data>
   <data name="HotkeyType_ScreenRecorderActiveWindow" xml:space="preserve">
     <value>Начать/Остановить запись области экрана с активным окном</value>
   </data>
@@ -360,9 +354,6 @@
   </data>
   <data name="MyMessageBox_MyMessageBox_Yes" xml:space="preserve">
     <value>Да</value>
-  </data>
-  <data name="HotkeyType_ImageThumbnailer" xml:space="preserve">
-    <value>Миниатюры изображений</value>
   </data>
   <data name="ReplCodeMenuEntry_mon_Current_month_name__Local_language_" xml:space="preserve">
     <value>Имя текущего месяца (Местный язык)</value>
@@ -460,9 +451,6 @@
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Путь к файлу без расширения + "Расширение итогового файла"</value>
   </data>
-  <data name="HotkeyType_IndexFolder" xml:space="preserve">
-    <value>Индексация папки</value>
-  </data>
   <data name="ReplCodeMenuEntry_unix_Unix_timestamp" xml:space="preserve">
     <value>Временная метка UNIX</value>
   </data>
@@ -538,9 +526,6 @@
   </data>
   <data name="RandomEmojiRepeatUsingN" xml:space="preserve">
     <value>Случайный символ эмодзи. Повторение задается через {n}</value>
-  </data>
-  <data name="AfterCaptureTasks_SaveThumbnailImageToFile" xml:space="preserve">
-    <value>Сохранить миниатюру в файл</value>
   </data>
   <data name="DownloaderForm_StartDownload_Downloading_" xml:space="preserve">
     <value>Загрузка...</value>
@@ -692,9 +677,6 @@
   <data name="HotkeyType_StartScreenRecorderGIF" xml:space="preserve">
     <value>Начать/Остановить запись последней области экрана (GIF)</value>
   </data>
-  <data name="HotkeyType_MonitorTest" xml:space="preserve">
-    <value>Проверка монитора</value>
-  </data>
   <data name="Extensions_AddContextMenu_Copy" xml:space="preserve">
     <value>Копировать</value>
   </data>
@@ -724,9 +706,6 @@
   </data>
   <data name="HotkeyType_ColorPicker" xml:space="preserve">
     <value>Палитра</value>
-  </data>
-  <data name="Stop" xml:space="preserve">
-    <value>Стоп</value>
   </data>
   <data name="TextDestination_FileUploader" xml:space="preserve">
     <value>Файловый сервис</value>
@@ -760,9 +739,6 @@
   </data>
   <data name="SupportedLanguage_Automatic" xml:space="preserve">
     <value>Автоматически</value>
-  </data>
-  <data name="HotkeyType_VideoConverter" xml:space="preserve">
-    <value>Конвертер видео</value>
   </data>
   <data name="MyMessageBox_MyMessageBox_Cancel" xml:space="preserve">
     <value>Отменить</value>
@@ -824,9 +800,6 @@
   <data name="HotkeyType_UploadURL" xml:space="preserve">
     <value>Загрузка со ссылки</value>
   </data>
-  <data name="HotkeyType_ImageSplitter" xml:space="preserve">
-    <value>Разделитель изображений</value>
-  </data>
   <data name="AfterUploadTasks_CopyURLToClipboard" xml:space="preserve">
     <value>Скопировать ссылку в буфер обмена</value>
   </data>
@@ -838,18 +811,6 @@
   </data>
   <data name="AfterCaptureTasks_CopyFileToClipboard" xml:space="preserve">
     <value>Скопировать файл в буфер обмена</value>
-  </data>
-  <data name="ResultOfFirstFile" xml:space="preserve">
-    <value>Результат первого файла:</value>
-  </data>
-  <data name="ResultOfSecondFile" xml:space="preserve">
-    <value>Результат второго файла:</value>
-  </data>
-  <data name="Result" xml:space="preserve">
-    <value>Результат:</value>
-  </data>
-  <data name="Target" xml:space="preserve">
-    <value>Цель:</value>
   </data>
   <data name="ArrowHeadDirection_End" xml:space="preserve">
     <value>Конец</value>
@@ -874,12 +835,6 @@
   </data>
   <data name="StepType_RomanNumeralsUppercase" xml:space="preserve">
     <value>Римские цифры (верхний регистр)</value>
-  </data>
-  <data name="HotkeyType_ClipboardViewer" xml:space="preserve">
-    <value>Буфер обмена</value>
-  </data>
-  <data name="HotkeyType_InspectWindow" xml:space="preserve">
-    <value>Исследовать окно</value>
   </data>
   <data name="BorderStyle_Solid" xml:space="preserve">
     <value>Сплошная</value>
@@ -1031,9 +986,6 @@
   <data name="HotkeyType_OCR" xml:space="preserve">
     <value>Распознавание текста (OCR)</value>
   </data>
-  <data name="HotkeyType_BorderlessWindow" xml:space="preserve">
-    <value>Безрамочное окно</value>
-  </data>
   <data name="AfterCaptureTasks_PinToScreen" xml:space="preserve">
     <value>Закрепить на экране</value>
   </data>
@@ -1082,9 +1034,6 @@
   <data name="AfterCaptureTasks_BeautifyImage" xml:space="preserve">
     <value>Украсить изображение</value>
   </data>
-  <data name="Check" xml:space="preserve">
-    <value>Проверить</value>
-  </data>
   <data name="HotkeyType_CustomWindow" xml:space="preserve">
     <value>Захват подготовленного окна</value>
   </data>
@@ -1096,12 +1045,6 @@
   </data>
   <data name="DownloaderForm_FileDownloader_ProgressChanged_FileSize" xml:space="preserve">
     <value>Размер файла</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowBorderless" xml:space="preserve">
-    <value>Сделать активное окно безрамочным</value>
-  </data>
-  <data name="HotkeyType_ActiveWindowTopMost" xml:space="preserve">
-    <value>Поместить активное окно поверх остальных</value>
   </data>
   <data name="HotkeyType_PinToScreenCloseAll" xml:space="preserve">
     <value>Закрепить на экране (Закрыть все)</value>
@@ -1121,9 +1064,6 @@
   <data name="ImageBeautifierBackgroundType_Transparent" xml:space="preserve">
     <value>Прозрачность</value>
   </data>
-  <data name="HotkeyType_Metadata" xml:space="preserve">
-    <value>Метаданные</value>
-  </data>
   <data name="UpdateChannel_Dev" xml:space="preserve">
     <value>Dev</value>
   </data>
@@ -1132,9 +1072,6 @@
   </data>
   <data name="UpdateChannel_Release" xml:space="preserve">
     <value>Выпуск</value>
-  </data>
-  <data name="HotkeyType_StripMetadata" xml:space="preserve">
-    <value>Удалить метаданные</value>
   </data>
   <data name="HotkeyType_QRCodeScanRegion" xml:space="preserve">
     <value>QR-код (сканировать область)</value>

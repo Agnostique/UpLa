@@ -263,17 +263,11 @@
   <data name="tsmiImageUploaders.Text" xml:space="preserve">
     <value>圖片上傳工具</value>
   </data>
-  <data name="tsmiIndexFolder.Text" xml:space="preserve">
-    <value>目錄索引工具...</value>
-  </data>
   <data name="tsmiLastRegion.Text" xml:space="preserve">
     <value>上個區域</value>
   </data>
   <data name="tsmiMonitor.Text" xml:space="preserve">
     <value>顯示器</value>
-  </data>
-  <data name="tsmiMonitorTest.Text" xml:space="preserve">
-    <value>顯示器測試...</value>
   </data>
   <data name="tsmiOpen.Text" xml:space="preserve">
     <value>開啟</value>
@@ -398,17 +392,11 @@
   <data name="tsmiTrayImageUploaders.Text" xml:space="preserve">
     <value>圖片上傳工具</value>
   </data>
-  <data name="tsmiTrayIndexFolder.Text" xml:space="preserve">
-    <value>目錄索引工具...</value>
-  </data>
   <data name="tsmiTrayLastRegion.Text" xml:space="preserve">
     <value>上個區域</value>
   </data>
   <data name="tsmiTrayMonitor.Text" xml:space="preserve">
     <value>顯示器</value>
-  </data>
-  <data name="tsmiTrayMonitorTest.Text" xml:space="preserve">
-    <value>顯示器測試...</value>
   </data>
   <data name="tsmiTrayQRCode.Text" xml:space="preserve">
     <value>二維碼...</value>
@@ -506,9 +494,6 @@
   <data name="tsmiImageCombiner.Text" xml:space="preserve">
     <value>圖片合併工具...</value>
   </data>
-  <data name="tsmiVideoThumbnailer.Text" xml:space="preserve">
-    <value>影片縮圖工具...</value>
-  </data>
   <data name="tsmiTrayRectangleTransparent.Text" xml:space="preserve">
     <value>區域 (透明)</value>
   </data>
@@ -520,9 +505,6 @@
   </data>
   <data name="tsmiTrayImageCombiner.Text" xml:space="preserve">
     <value>圖片合併工具...</value>
-  </data>
-  <data name="tsmiTrayVideoThumbnailer.Text" xml:space="preserve">
-    <value>影片縮圖工具...</value>
   </data>
   <data name="tsmiTrayToggleHotkeys.Text" xml:space="preserve">
     <value>停用快捷鍵</value>
@@ -571,9 +553,6 @@
   </data>
   <data name="tsmiImageEditor.Text" xml:space="preserve">
     <value>圖片編輯器...</value>
-  </data>
-  <data name="tsmiImageThumbnailer.Text" xml:space="preserve">
-    <value>圖片縮圖工具...</value>
   </data>
   <data name="tsbDonate.Text" xml:space="preserve">
     <value>捐獻...</value>
@@ -626,20 +605,11 @@
   <data name="tsmiTrayImageEditor.Text" xml:space="preserve">
     <value>圖片編輯器...</value>
   </data>
-  <data name="tsmiTrayImageThumbnailer.Text" xml:space="preserve">
-    <value>圖片縮圖工具...</value>
-  </data>
   <data name="tsmiAddImageEffects.Text" xml:space="preserve">
     <value>新增圖片特效...</value>
   </data>
   <data name="tsmiBeautifyImage.Text" xml:space="preserve">
     <value>美化圖片...</value>
-  </data>
-  <data name="tsmiBorderlessWindow.Text" xml:space="preserve">
-    <value>無邊框視窗...</value>
-  </data>
-  <data name="tsmiClipboardViewer.Text" xml:space="preserve">
-    <value>剪貼簿檢視器...</value>
   </data>
   <data name="tsmiCombineImagesHorizontally.Text" xml:space="preserve">
     <value>水平合併</value>
@@ -650,14 +620,8 @@
   <data name="tsmiImageBeautifier.Text" xml:space="preserve">
     <value>圖片美化工具...</value>
   </data>
-  <data name="tsmiImageSplitter.Text" xml:space="preserve">
-    <value>圖片分割工具...</value>
-  </data>
   <data name="tsmiImageViewer.Text" xml:space="preserve">
     <value>圖片檢視器...</value>
-  </data>
-  <data name="tsmiInspectWindow.Text" xml:space="preserve">
-    <value>檢視視窗...</value>
   </data>
   <data name="tsmiOCR.Text" xml:space="preserve">
     <value>OCR...</value>
@@ -671,23 +635,11 @@
   <data name="tsmiRestartAsAdmin.Text" xml:space="preserve">
     <value>以系統管理員身分重啟 ShareX</value>
   </data>
-  <data name="tsmiTrayBorderlessWindow.Text" xml:space="preserve">
-    <value>無邊框視窗...</value>
-  </data>
-  <data name="tsmiTrayClipboardViewer.Text" xml:space="preserve">
-    <value>剪貼簿檢視器...</value>
-  </data>
   <data name="tsmiTrayImageBeautifier.Text" xml:space="preserve">
     <value>圖片美化工具...</value>
   </data>
-  <data name="tsmiTrayImageSplitter.Text" xml:space="preserve">
-    <value>圖片分割工具...</value>
-  </data>
   <data name="tsmiTrayImageViewer.Text" xml:space="preserve">
     <value>圖片檢視器...</value>
-  </data>
-  <data name="tsmiTrayInspectWindow.Text" xml:space="preserve">
-    <value>檢視視窗...</value>
   </data>
   <data name="tsmiTrayOCR.Text" xml:space="preserve">
     <value>OCR...</value>
@@ -695,29 +647,14 @@
   <data name="tsmiTrayPinToScreen.Text" xml:space="preserve">
     <value>釘選至螢幕...</value>
   </data>
-  <data name="tsmiTrayVideoConverter.Text" xml:space="preserve">
-    <value>影片轉檔工具...</value>
-  </data>
-  <data name="tsmiVideoConverter.Text" xml:space="preserve">
-    <value>影片轉檔工具...</value>
-  </data>
-  <data name="tsmiHashChecker.Text" xml:space="preserve">
-    <value>雜湊檢查...</value>
-  </data>
   <data name="tsbX.Text" xml:space="preserve">
     <value>追蹤 @ShareX...</value>
-  </data>
-  <data name="tsmiTrayHashChecker.Text" xml:space="preserve">
-    <value>雜湊檢查...</value>
   </data>
   <data name="cHotkey.HeaderText" xml:space="preserve">
     <value>快捷鍵</value>
   </data>
   <data name="cDescription.HeaderText" xml:space="preserve">
     <value>描述</value>
-  </data>
-  <data name="tsmiTrayMetadata.Text" xml:space="preserve">
-    <value>中繼資料...</value>
   </data>
   <data name="tsmiTrayAI.Text" xml:space="preserve">
     <value>分析圖片...</value>
@@ -727,9 +664,6 @@
   </data>
   <data name="tsbDestinationSettings.Text" xml:space="preserve">
     <value>目的地設定...</value>
-  </data>
-  <data name="tsmiMetadata.Text" xml:space="preserve">
-    <value>中繼資料...</value>
   </data>
   <data name="tsmiAI.Text" xml:space="preserve">
     <value>分析圖片...</value>

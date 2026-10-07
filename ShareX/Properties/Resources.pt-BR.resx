@@ -141,9 +141,6 @@
   <data name="TaskSettingsForm_UpdateUploaderMenuNames_After_upload___0_" xml:space="preserve">
     <value>Depois do upload: {0}</value>
   </data>
-  <data name="InspectWindow_ProcessName" xml:space="preserve">
-    <value>Nome do processo</value>
-  </data>
   <data name="QuickTaskMenu_ShowMenu_Cancel" xml:space="preserve">
     <value>Cancelar</value>
   </data>
@@ -232,14 +229,8 @@ Gostaria de reiniciar agora?</value>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Text__Length___0__" xml:space="preserve">
     <value>Conteúdo da área de transferência: Texto (Comprimento: {0})</value>
   </data>
-  <data name="InspectWindow_ProcessIdentifier" xml:space="preserve">
-    <value>Identificador do processo</value>
-  </data>
   <data name="TaskSettingsForm_txtNameFormatPatternActiveWindow_TextChanged_Preview_" xml:space="preserve">
     <value>Pré-visualização:</value>
-  </data>
-  <data name="InspectWindow_ProcessFileName" xml:space="preserve">
-    <value>Nome do arquivo do processo</value>
   </data>
   <data name="ApplicationSettingsForm_btnResetSettings_Click_WouldYouLikeToResetShareXSettings" xml:space="preserve">
     <value>Gostaria de redefinir as configurações do ShareX?</value>
@@ -301,9 +292,6 @@ Tem certeza de que quer continuar?</value>
   </data>
   <data name="AboutForm_AboutForm_Language_de" xml:space="preserve">
     <value>Alemão</value>
-  </data>
-  <data name="InspectWindow_WindowRectangle" xml:space="preserve">
-    <value>Retângulo da janela</value>
   </data>
   <data name="WouldYouLikeToEnableImageEffects" xml:space="preserve">
     <value>Gostaria de ativar os efeitos de imagem?
@@ -417,9 +405,6 @@ Deseja reiniciar o ShareX?</value>
   <data name="MainForm_tsmiDeleteSelectedFile_Click_File_delete_confirmation" xml:space="preserve">
     <value>Confirmação para excluir arquivo</value>
   </data>
-  <data name="InspectWindow_WindowStyles" xml:space="preserve">
-    <value>Estilos da janela</value>
-  </data>
   <data name="MainForm_UpdateWorkflowsMenu_You_can_add_workflows_from_hotkey_settings___" xml:space="preserve">
     <value>Você pode adicionar workflows através das opções de atalho...</value>
   </data>
@@ -441,17 +426,11 @@ Deseja reiniciar o ShareX?</value>
   <data name="Confirmation" xml:space="preserve">
     <value>Confirmação</value>
   </data>
-  <data name="InspectWindow_WindowTitle" xml:space="preserve">
-    <value>Título da janela</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Image__Size___0_x_1__" xml:space="preserve">
     <value>Conteúdo da área de transferência: Imagem (Tamanho: {0}x{1})</value>
   </data>
   <data name="SwitchToListView" xml:space="preserve">
     <value>Alternar para exibição de lista</value>
-  </data>
-  <data name="InspectWindow_ExtendedWindowStyles" xml:space="preserve">
-    <value>Estilos de janela estendida</value>
   </data>
   <data name="UploadTask_OnUploadCompleted_Stopped" xml:space="preserve">
     <value>Parado</value>
@@ -573,9 +552,6 @@ Clique do meio para fechar</value>
   <data name="ShareXIsUpToDate" xml:space="preserve">
     <value>O ShareX está atualizado!</value>
   </data>
-  <data name="InspectWindow_ClassName" xml:space="preserve">
-    <value>Nome da classe</value>
-  </data>
   <data name="AboutForm_AboutForm_Language_he-IL" xml:space="preserve">
     <value>Hebraico</value>
   </data>
@@ -592,12 +568,6 @@ Deseja interromper a gravação de tela ativa?</value>
   </data>
   <data name="WouldYouLikeToRetryClipboardUpload" xml:space="preserve">
     <value>Would you like to retry clipboard envio?</value>
-  </data>
-  <data name="InspectWindow_WindowHandle" xml:space="preserve">
-    <value>Janela handle</value>
-  </data>
-  <data name="InspectWindow_ClientRectangle" xml:space="preserve">
-    <value>Retângulo do cliente</value>
   </data>
   <data name="ClipboardUpload" xml:space="preserve">
     <value>Clipboard envio</value>
