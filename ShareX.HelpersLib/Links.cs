@@ -47,7 +47,5 @@ namespace ShareX.HelpersLib
         public const string X = "https://x.com/ShareX";
         public const string XFollow = "https://x.com/intent/follow?screen_name=ShareX";
         public const string Reddit = "https://www.reddit.com/r/sharex";
-        public const string Steam = "https://store.steampowered.com/app/400040/ShareX/";
-        public const string MicrosoftStore = "https://apps.microsoft.com/detail/9nblggh4z1sp";
     }
 }

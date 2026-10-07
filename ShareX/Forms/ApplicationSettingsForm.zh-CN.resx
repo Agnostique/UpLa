@@ -237,9 +237,6 @@
   <data name="chFormat.Text" xml:space="preserve">
     <value>格式</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>当 ShareX 开启时，在 Steam 状态显示 ShareX</value>
-  </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
     <value>在 Windows 资源管理器右键菜单显示 "使用 ShareX 上传" 按钮</value>
   </data>

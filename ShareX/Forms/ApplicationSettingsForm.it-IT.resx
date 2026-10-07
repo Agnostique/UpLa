@@ -156,9 +156,6 @@
   <data name="tpGeneral.Text" xml:space="preserve">
     <value>Generale</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>Mentre ShareX è aperto, mostra "In-App" su Steam</value>
-  </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
     <value>Mostra il Pulsante "Carica con ShareX" nel Menu Contestiale di Windows Explorer</value>
   </data>

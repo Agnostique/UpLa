@@ -239,9 +239,6 @@
   <data name="gbSecondaryTextUploaders.Text" xml:space="preserve">
     <value>備用的文字上傳工具</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>當 ShareX 開啟時，在 Steam 狀態顯示 ShareX</value>
-  </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
     <value>在檔案總管的右鍵選單中顯示「使用 ShareX 上傳」按鈕</value>
   </data>

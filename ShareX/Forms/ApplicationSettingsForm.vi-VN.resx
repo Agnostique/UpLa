@@ -132,9 +132,6 @@
   <data name="btnOpenScreenshotsFolder.Text" xml:space="preserve">
     <value>Mở...</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>Khi ShareX đang chạy, hiện "In-App" trong Steam</value>
-  </data>
   <data name="btnClipboardFormatEdit.Text" xml:space="preserve">
     <value>Chỉnh sửa...</value>
   </data>

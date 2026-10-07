@@ -153,9 +153,6 @@
   <data name="tpGeneral.Text" xml:space="preserve">
     <value>General</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>Mientras ShareX esté abierto, mostrar "En aplicación" en el estado de Steam</value>
-  </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
     <value>Mostrar botón de "Modificar con ShareX" en el menú contextual de Windows</value>
   </data>

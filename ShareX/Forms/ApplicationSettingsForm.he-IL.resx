@@ -240,9 +240,6 @@
   <data name="tpPrint.Text" xml:space="preserve">
     <value>הדפס</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>בזמן ש-ShareX פתוח, הצג את "In-App" ב-Steam</value>
-  </data>
   <data name="btnPersonalFolderPathApply.Text" xml:space="preserve">
     <value>החל</value>
   </data>

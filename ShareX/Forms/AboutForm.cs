@@ -44,15 +44,6 @@ namespace ShareX
             pLogo.BackColor = Color.FromArgb(35, 35, 35);
             cLogo.BackColor = Color.FromArgb(35, 35, 35);
 
-#if STEAM
-            uclUpdate.Visible = false;
-            lblBuild.Text = "Steam build";
-            lblBuild.Visible = true;
-#elif MicrosoftStore
-            uclUpdate.Visible = false;
-            lblBuild.Text = "Microsoft Store build";
-            lblBuild.Visible = true;
-#else
             if (!SystemOptions.DisableUpdateCheck)
             {
                 uclUpdate.UpdateLoadingImage();
@@ -62,7 +53,6 @@ namespace ShareX
             {
                 uclUpdate.Visible = false;
             }
-#endif
 
             rtbInfo.AppendLine(Resources.AboutForm_AboutForm_Links, FontStyle.Bold, 13);
             rtbInfo.AppendLine($@"{Resources.AboutForm_AboutForm_Website}: {Links.Website}
@@ -73,8 +63,6 @@ namespace ShareX
 X: {Links.X}
 Discord: {Links.Discord}
 Reddit: {Links.Reddit}
-Steam: {Links.Steam}
-Microsoft Store: {Links.MicrosoftStore}
 ", FontStyle.Regular);
 
             rtbInfo.AppendLine(Resources.AboutForm_AboutForm_Team, FontStyle.Bold, 13);

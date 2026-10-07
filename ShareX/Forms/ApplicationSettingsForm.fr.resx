@@ -246,9 +246,6 @@
   <data name="lblProxyPort.Text" xml:space="preserve">
     <value>Port :</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>Lorsque ShareX est ouvert, afficher le statut « Dans une application » sur Steam</value>
-  </data>
   <data name="tpGeneral.Text" xml:space="preserve">
     <value>Général</value>
   </data>

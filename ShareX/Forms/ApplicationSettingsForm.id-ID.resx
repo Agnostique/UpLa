@@ -153,9 +153,6 @@
   <data name="cbSilentRun.Text" xml:space="preserve">
     <value>Minimalkan ke baki saat mulai</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>Saat ShareX terbuka, tampilkan "In-App" di Steam</value>
-  </data>
   <data name="tpIntegration.Text" xml:space="preserve">
     <value>Integrasi</value>
   </data>

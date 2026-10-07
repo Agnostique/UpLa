@@ -282,9 +282,6 @@
   <data name="cbUseSecondaryUploaders.Text" xml:space="preserve">
     <value>Używaj serwisów drugorzędnych w kolejności preferencji przy ponawianiu prób</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>Gdy ShareX jest otwarty, pokaż status "W aplikacji" na Steamie</value>
-  </data>
   <data name="cbTaskbarProgressEnabled.Text" xml:space="preserve">
     <value>Pokaż postęp na przycisku paska zadań</value>
   </data>

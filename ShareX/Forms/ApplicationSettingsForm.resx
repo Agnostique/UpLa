@@ -891,61 +891,6 @@
   <data name="&gt;&gt;tpTheme.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="cbSteamShowInApp.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="cbSteamShowInApp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="cbSteamShowInApp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 24</value>
-  </data>
-  <data name="cbSteamShowInApp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>247, 17</value>
-  </data>
-  <data name="cbSteamShowInApp.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>While ShareX is open, show "In-App" in Steam</value>
-  </data>
-  <data name="&gt;&gt;cbSteamShowInApp.Name" xml:space="preserve">
-    <value>cbSteamShowInApp</value>
-  </data>
-  <data name="&gt;&gt;cbSteamShowInApp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;cbSteamShowInApp.Parent" xml:space="preserve">
-    <value>gbSteam</value>
-  </data>
-  <data name="&gt;&gt;cbSteamShowInApp.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="gbSteam.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 336</value>
-  </data>
-  <data name="gbSteam.Size" type="System.Drawing.Size, System.Drawing">
-    <value>536, 56</value>
-  </data>
-  <data name="gbSteam.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="gbSteam.Text" xml:space="preserve">
-    <value>Steam</value>
-    <comment>@Invariant</comment>
-  </data>
-  <data name="&gt;&gt;gbSteam.Name" xml:space="preserve">
-    <value>gbSteam</value>
-  </data>
-  <data name="&gt;&gt;gbSteam.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gbSteam.Parent" xml:space="preserve">
-    <value>tpIntegration</value>
-  </data>
-  <data name="&gt;&gt;gbSteam.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="cbEditWithShareX.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>

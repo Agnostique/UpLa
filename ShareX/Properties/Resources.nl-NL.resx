@@ -169,9 +169,6 @@ Wil je ShareX opnieuw opstarten?</value>
   <data name="UploadTask_CreateShareURLTask_Share_URL___0__" xml:space="preserve">
     <value>Deel link ({0})</value>
   </data>
-  <data name="ApplicationSettingsForm_cbSteamShowInApp_CheckedChanged_For_settings_to_take_effect_ShareX_needs_to_be_reopened_from_Steam_" xml:space="preserve">
-    <value>Om de instellingen toe te passen moet ShareX vanuit Steam heropgestart worden.</value>
-  </data>
   <data name="UploadManager_UploadURL_URL_to_download_from_and_upload" xml:space="preserve">
     <value>URL om te downloaden en dan te uploaden</value>
   </data>

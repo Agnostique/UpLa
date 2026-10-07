@@ -240,9 +240,6 @@
   <data name="cbUseCustomScreenshotsPath.Text" xml:space="preserve">
     <value>Use a pasta de capturas de tela personalizadas:</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>Enquanto o programa estiver aberto, mostrar "Em aplicativo" na Steam</value>
-  </data>
   <data name="tpGeneral.Text" xml:space="preserve">
     <value>Geral</value>
   </data>

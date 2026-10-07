@@ -402,9 +402,6 @@
   <data name="lblProxyUsername.Text" xml:space="preserve">
     <value>اسم المستخدم:</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>عندما يكون ShareX قيد التشغيل، قم بعرضه من خلال "In-App" في Steam</value>
-  </data>
   <data name="lblUpdateChannel.Text" xml:space="preserve">
     <value>قناة التحديثات:</value>
   </data>

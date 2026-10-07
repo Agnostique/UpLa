@@ -225,9 +225,6 @@
   <data name="cbSilentRun.Text" xml:space="preserve">
     <value>Minimizar para a bandeja do sistema ao iniciar</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>Enquanto ShareX estiver aberto, mostrar "In-App" na Steam</value>
-  </data>
   <data name="cbTaskbarProgressEnabled.Text" xml:space="preserve">
     <value>Mostra progresso na barra de tarefas</value>
   </data>

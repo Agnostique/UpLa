@@ -37,11 +37,6 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-#if MicrosoftStore
-using Windows.ApplicationModel;
-using Windows.ApplicationModel.Activation;
-#endif
-
 namespace ShareX
 {
     internal static class Program
@@ -53,10 +48,6 @@ namespace ShareX
         public const ShareXBuild Build =
 #if RELEASE
             ShareXBuild.Release;
-#elif STEAM
-            ShareXBuild.Steam;
-#elif MicrosoftStore
-            ShareXBuild.MicrosoftStore;
 #elif DEBUG
             ShareXBuild.Debug;
 #else
@@ -119,7 +110,6 @@ namespace ShareX
         public static bool SilentRun { get; private set; }
         public static bool Sandbox { get; private set; }
         public static bool IsAdmin { get; private set; }
-        public static bool SteamFirstTimeConfig { get; private set; }
         public static bool IgnoreHotkeyWarning { get; private set; }
 
         internal static ApplicationConfig Settings { get; set; }
@@ -163,7 +153,6 @@ namespace ShareX
             AppName, PersonalPathConfigFileName);
 
         private static readonly string PortableCheckFilePath = FileHelpers.GetAbsolutePath("Portable");
-        public static readonly string SteamInAppFilePath = FileHelpers.GetAbsolutePath("Steam");
 
         private static string CustomPersonalPath { get; set; }
 
@@ -274,10 +263,6 @@ namespace ShareX
             CLI = new ShareXCLIManager(args);
             CLI.ParseCommands();
 
-#if STEAM
-            if (CheckUninstall()) return; // Steam will run ShareX with -Uninstall when uninstalling
-#endif
-
             SystemOptions.UpdateSystemOptions();
             UpdatePersonalPath();
 
@@ -334,13 +319,6 @@ namespace ShareX
             DebugHelper.WriteLine("Running as elevated process: " + IsAdmin);
 
             SilentRun = CLI.IsCommandExist("silent", "s");
-#if MicrosoftStore
-            SilentRun = SilentRun || AppInstance.GetActivatedEventArgs()?.Kind == ActivationKind.StartupTask;
-#endif
-
-#if STEAM
-            SteamFirstTimeConfig = CLI.IsCommandExist("SteamConfig");
-#endif
 
             IgnoreHotkeyWarning = CLI.IsCommandExist("NoHotkeys");
 
@@ -473,9 +451,7 @@ namespace ShareX
                 }
                 else
                 {
-#if !MicrosoftStore
                     MigratePersonalPathConfig();
-#endif
 
                     string customPersonalPath = ReadPersonalPathConfig();
 
@@ -526,7 +502,6 @@ namespace ShareX
 
         private static void RegisterExtensions()
         {
-#if !MicrosoftStore
             if (!Portable)
             {
                 // upla.com.tr: .sxcu files are not associated, so opening one cannot import a custom uploader.
@@ -536,7 +511,6 @@ namespace ShareX
                     IntegrationHelpers.CreateImageEffectExtension(true);
                 }
             }
-#endif
         }
 
         public static void UpdateHelpersSpecialFolders()
@@ -669,24 +643,6 @@ namespace ShareX
             }
         }
 
-        private static bool CheckUninstall()
-        {
-            if (CLI.IsCommandExist("uninstall"))
-            {
-                try
-                {
-                    IntegrationHelpers.Uninstall();
-                }
-                catch
-                {
-                }
-
-                return true;
-            }
-
-            return false;
-        }
-
         private static void DebugWriteFlags()
         {
             List<string> flags = new List<string>();
@@ -696,7 +652,6 @@ namespace ShareX
             if (Portable) flags.Add(nameof(Portable));
             if (SilentRun) flags.Add(nameof(SilentRun));
             if (Sandbox) flags.Add(nameof(Sandbox));
-            if (SteamFirstTimeConfig) flags.Add(nameof(SteamFirstTimeConfig));
             if (IgnoreHotkeyWarning) flags.Add(nameof(IgnoreHotkeyWarning));
             if (SystemOptions.DisableUpdateCheck) flags.Add(nameof(SystemOptions.DisableUpdateCheck));
             if (SystemOptions.DisableUpload) flags.Add(nameof(SystemOptions.DisableUpload));

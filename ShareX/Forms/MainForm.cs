@@ -210,10 +210,6 @@ namespace ShareX
             }
 
             // TODO: Translate
-#if STEAM
-            tsbDonate.Text = "ShareX website...";
-            tsbDonate.Image = Resources.globe;
-#endif
 
             ApplyUplaMainWindowCustomizations();
 
@@ -327,17 +323,7 @@ namespace ShareX
                 lvUploads.Items[lvUploads.Items.Count - 1].EnsureVisible();
             }
 
-            if (Program.SteamFirstTimeConfig)
-            {
-                using (FirstTimeConfigForm firstTimeConfigForm = new FirstTimeConfigForm())
-                {
-                    firstTimeConfigForm.ShowDialog();
-                }
-            }
-            else
-            {
-                this.ForceActivate();
-            }
+            this.ForceActivate();
         }
 
         private async Task InitHotkeys()
@@ -1814,11 +1800,7 @@ namespace ShareX
 
         private void tsbDonate_Click(object sender, EventArgs e)
         {
-#if STEAM
-            URLHelpers.OpenURL(Links.Website);
-#else
             URLHelpers.OpenURL(Links.Donate);
-#endif
         }
 
         private void tsbX_Click(object sender, EventArgs e)

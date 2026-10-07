@@ -445,9 +445,6 @@
   <data name="cbAutoCheckUpdate.Text" xml:space="preserve">
     <value>بررسی خودکار به‌روزرسانی‌ها</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>هنگامی که ShareX باز است، در Steam «درون‌برنامه» نمایش داده شود</value>
-  </data>
   <data name="lblSaveImageSubFolderPatternWindow.Text" xml:space="preserve">
     <value>الگوی زیرپوشه برای پنجره:</value>
   </data>

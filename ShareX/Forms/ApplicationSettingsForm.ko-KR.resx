@@ -300,9 +300,6 @@
   <data name="btnEditQuickTaskMenu.Text" xml:space="preserve">
     <value>간편 작업 메뉴 편집...</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>ShareX가 열려 있을 때 스팀에서 실행 중이라고 띄우기</value>
-  </data>
   <data name="btnCheckDevBuild.Text" xml:space="preserve">
     <value>dev build 설치...</value>
   </data>

@@ -282,9 +282,6 @@
   <data name="tpTheme.Text" xml:space="preserve">
     <value>Téma</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>While ShareX is megnyitás, show "In-App" in Steam</value>
-  </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
     <value>"Szerkesztés ShareX-szel" gomb megjelenítése a Windows Intéző helyi menüjében</value>
   </data>

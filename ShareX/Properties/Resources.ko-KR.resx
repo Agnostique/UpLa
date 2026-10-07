@@ -193,9 +193,6 @@ ShareX를 재시작할까요?</value>
   <data name="UploadTask_CreateShareURLTask_Share_URL___0__" xml:space="preserve">
     <value>URL 공유하기 ({0})</value>
   </data>
-  <data name="ApplicationSettingsForm_cbSteamShowInApp_CheckedChanged_For_settings_to_take_effect_ShareX_needs_to_be_reopened_from_Steam_" xml:space="preserve">
-    <value>설정을 적용하려면 스팀에서 ShareX를 다시 실행해야 합니다.</value>
-  </data>
   <data name="UploadManager_UploadURL_URL_to_download_from_and_upload" xml:space="preserve">
     <value>업로드 하기 위해 다운로드 받을 URL</value>
   </data>

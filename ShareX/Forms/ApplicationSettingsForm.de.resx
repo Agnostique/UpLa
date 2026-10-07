@@ -252,9 +252,6 @@
   <data name="lblLanguage.Text" xml:space="preserve">
     <value>Sprache:</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>"In-App" in Steam anzeigen, während ShareX geöffnet ist</value>
-  </data>
   <data name="cbShellContextMenu.Text" xml:space="preserve">
     <value>"Mit ShareX hochladen"-Eintrag im Kontextmenü anzeigen</value>
   </data>

@@ -246,9 +246,6 @@
   <data name="cbTrayIconProgressEnabled.Text" xml:space="preserve">
     <value>Tepsi simgesinde durum göster</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>ShareX açık iken Steam de "Uygulamada" olarak göster</value>
-  </data>
   <data name="tpGeneral.Text" xml:space="preserve">
     <value>Genel</value>
   </data>

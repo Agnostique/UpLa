@@ -282,9 +282,6 @@
   <data name="tpTheme.Text" xml:space="preserve">
     <value>Tema</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>Mientras ShareX esté abierto, mostrar "En la aplicación" en Steam</value>
-  </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
     <value>Mostrar el botón "Editar con ShareX" en el menú contextual del Explorador de Windows</value>
   </data>

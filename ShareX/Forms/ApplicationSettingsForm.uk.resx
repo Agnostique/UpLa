@@ -171,9 +171,6 @@
   <data name="tpTheme.Text" xml:space="preserve">
     <value>Тема</value>
   </data>
-  <data name="cbSteamShowInApp.Text" xml:space="preserve">
-    <value>При відкритому ShareX, показувати „У програмі“ у Steam</value>
-  </data>
   <data name="cbEditWithShareX.Text" xml:space="preserve">
     <value>Показувати кнопку „Змінити із ShareX“ у контекстному меню Провідника Windows</value>
   </data>

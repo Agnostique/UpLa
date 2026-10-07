@@ -62,8 +62,6 @@ namespace ShareX
             this.pgTheme = new System.Windows.Forms.PropertyGrid();
             this.eiTheme = new ShareX.HelpersLib.ExportImportControl();
             this.tpIntegration = new System.Windows.Forms.TabPage();
-            this.gbSteam = new System.Windows.Forms.GroupBox();
-            this.cbSteamShowInApp = new System.Windows.Forms.CheckBox();
             this.gbWindows = new System.Windows.Forms.GroupBox();
             this.cbEditWithShareX = new System.Windows.Forms.CheckBox();
             this.cbStartWithWindows = new System.Windows.Forms.CheckBox();
@@ -180,7 +178,6 @@ namespace ShareX
             this.tpGeneral.SuspendLayout();
             this.tpTheme.SuspendLayout();
             this.tpIntegration.SuspendLayout();
-            this.gbSteam.SuspendLayout();
             this.gbWindows.SuspendLayout();
             this.tpPaths.SuspendLayout();
             this.tpSettings.SuspendLayout();
@@ -453,24 +450,9 @@ namespace ShareX
             // tpIntegration
             // 
             this.tpIntegration.BackColor = System.Drawing.SystemColors.Window;
-            this.tpIntegration.Controls.Add(this.gbSteam);
             this.tpIntegration.Controls.Add(this.gbWindows);
             resources.ApplyResources(this.tpIntegration, "tpIntegration");
             this.tpIntegration.Name = "tpIntegration";
-            // 
-            // gbSteam
-            // 
-            this.gbSteam.Controls.Add(this.cbSteamShowInApp);
-            resources.ApplyResources(this.gbSteam, "gbSteam");
-            this.gbSteam.Name = "gbSteam";
-            this.gbSteam.TabStop = false;
-            // 
-            // cbSteamShowInApp
-            // 
-            resources.ApplyResources(this.cbSteamShowInApp, "cbSteamShowInApp");
-            this.cbSteamShowInApp.Name = "cbSteamShowInApp";
-            this.cbSteamShowInApp.UseVisualStyleBackColor = true;
-            this.cbSteamShowInApp.CheckedChanged += new System.EventHandler(this.cbSteamShowInApp_CheckedChanged);
             // 
             // gbWindows
             // 
@@ -1384,8 +1366,6 @@ namespace ShareX
             this.tpGeneral.PerformLayout();
             this.tpTheme.ResumeLayout(false);
             this.tpIntegration.ResumeLayout(false);
-            this.gbSteam.ResumeLayout(false);
-            this.gbSteam.PerformLayout();
             this.gbWindows.ResumeLayout(false);
             this.gbWindows.PerformLayout();
             this.tpPaths.ResumeLayout(false);
@@ -1501,9 +1481,7 @@ namespace ShareX
         private MenuButton btnLanguages;
         private System.Windows.Forms.ContextMenuStrip cmsLanguages;
         private System.Windows.Forms.GroupBox gbWindows;
-        private System.Windows.Forms.CheckBox cbSteamShowInApp;
         private System.Windows.Forms.TabPage tpIntegration;
-        private System.Windows.Forms.GroupBox gbSteam;
         private System.Windows.Forms.TabPage tpSettings;
         private System.Windows.Forms.Button btnImport;
         private System.Windows.Forms.Button btnExport;

@@ -350,9 +350,6 @@ Kérlek, válassz egy másik gyorsbillentyűt vagy zárd be a problémát okozó
   <data name="AboutForm_AboutForm_Language_nl_NL" xml:space="preserve">
     <value>Holland</value>
   </data>
-  <data name="ApplicationSettingsForm_cbSteamShowInApp_CheckedChanged_For_settings_to_take_effect_ShareX_needs_to_be_reopened_from_Steam_" xml:space="preserve">
-    <value>For beállítások to take effektus ShareX needs to be remegnyitásed from Steam.</value>
-  </data>
   <data name="ClipboardContentViewer_ClipboardContentViewer_Load_Clipboard_content__Text__Length___0__" xml:space="preserve">
     <value>Vágólap content: Szöveg (Length: {0})</value>
   </data>

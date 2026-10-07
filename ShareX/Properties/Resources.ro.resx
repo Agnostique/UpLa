@@ -215,9 +215,6 @@ Doriți să reporniți ShareX?</value>
   <data name="UploadTask_CreateShareURLTask_Share_URL___0__" xml:space="preserve">
     <value>URL de distribuire ({0})</value>
   </data>
-  <data name="ApplicationSettingsForm_cbSteamShowInApp_CheckedChanged_For_settings_to_take_effect_ShareX_needs_to_be_reopened_from_Steam_" xml:space="preserve">
-    <value>Pentru ca setările să aibă efect, ShareX trebuie redeschis din Steam.</value>
-  </data>
   <data name="UploadManager_UploadURL_URL_to_download_from_and_upload" xml:space="preserve">
     <value>URL pentru a descărca și încărca</value>
   </data>
