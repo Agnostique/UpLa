@@ -312,14 +312,21 @@ namespace ShareX.UploadersLib
             int code = GetErrorCode(json);
             string message = GetString(json, "error", "message");
 
+            if (IsOldKeyFormatMessage(message))
+            {
+                return new UplaKeyCheckResult() { Status = UplaKeyStatus.OldFormat, Message = message };
+            }
+
             switch (code)
             {
                 case 130:
                     return new UplaKeyCheckResult() { Status = UplaKeyStatus.Valid, Message = message };
                 case 100:
-                    return new UplaKeyCheckResult() { Status = IsOldKeyFormatMessage(message) ? UplaKeyStatus.OldFormat : UplaKeyStatus.Invalid, Message = message };
+                    return new UplaKeyCheckResult() { Status = UplaKeyStatus.Invalid, Message = message };
                 case 403:
                     return new UplaKeyCheckResult() { Status = UplaKeyStatus.NoUploadPermission, Message = message };
+                case 0 when IsInvalidKeyPrefixMessage(message):
+                    return new UplaKeyCheckResult() { Status = UplaKeyStatus.Invalid, Message = message };
             }
 
             if (string.IsNullOrEmpty(message))
@@ -333,10 +340,13 @@ namespace ShareX.UploadersLib
         // Error codes come from Chevereto 4.5.7. Messages may be translated to the site language, so the codes decide.
         private static string GetErrorMessage(int code, string message, HttpStatusCode? statusCode, bool isMember)
         {
+            // Chevereto reports the old (pre 4.4) key format and a wrong key prefix with code 0, not 100 (ApiKey::verify).
+            if (IsOldKeyFormatMessage(message)) return UplaStrings.KeyOldFormat;
+
             switch (code)
             {
+                case 0 when IsInvalidKeyPrefixMessage(message):
                 case 100:
-                    if (IsOldKeyFormatMessage(message)) return UplaStrings.KeyOldFormat;
                     return isMember ? UplaStrings.ErrorInvalidKey : UplaStrings.ErrorGuestUploadUnavailable;
                 case 101:
                     return UplaStrings.ErrorDuplicate;
@@ -381,9 +391,15 @@ namespace ShareX.UploadersLib
             return UplaStrings.ErrorUnexpectedResponse;
         }
 
+        // Both messages come from Chevereto's ApiKey::verify and are not translated.
         private static bool IsOldKeyFormatMessage(string message)
         {
             return ContainsText(message, "no longer supported");
+        }
+
+        private static bool IsInvalidKeyPrefixMessage(string message)
+        {
+            return ContainsText(message, "API key prefix");
         }
 
         private static bool ContainsText(string text, string value)

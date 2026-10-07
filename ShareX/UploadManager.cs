@@ -220,7 +220,9 @@ namespace ShareX
                     ProcessFilesUpload(files, taskSettings);
                 }
             }
-            catch (ExternalException e)
+            // upla.com.tr: only clipboard access errors (CLIPBRD_E_*) are worth a retry. Since .NET 10, GDI+ failures are
+            // ExternalException as well and would otherwise end up in this retry prompt.
+            catch (ExternalException e) when ((uint)e.ErrorCode >= 0x800401D0 && (uint)e.ErrorCode <= 0x800401DF)
             {
                 DebugHelper.WriteException(e);
 
