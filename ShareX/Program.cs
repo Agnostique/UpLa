@@ -123,7 +123,6 @@ namespace ShareX
         public static bool IsAdmin { get; private set; }
         public static bool SteamFirstTimeConfig { get; private set; }
         public static bool IgnoreHotkeyWarning { get; private set; }
-        public static bool PuushMode { get; private set; }
 
         internal static ApplicationConfig Settings { get; set; }
         internal static TaskSettings DefaultTaskSettings { get; set; }
@@ -350,7 +349,6 @@ namespace ShareX
 
             CreateParentFolders();
             RegisterExtensions();
-            CheckPuushMode();
             DebugWriteFlags();
 
             DebugHelper.WriteLine("Avalonia init started.");
@@ -700,13 +698,6 @@ namespace ShareX
             return false;
         }
 
-        private static bool CheckPuushMode()
-        {
-            string puushPath = FileHelpers.GetAbsolutePath("puush");
-            PuushMode = File.Exists(puushPath);
-            return PuushMode;
-        }
-
         private static void DebugWriteFlags()
         {
             List<string> flags = new List<string>();
@@ -721,7 +712,6 @@ namespace ShareX
             if (SystemOptions.DisableUpdateCheck) flags.Add(nameof(SystemOptions.DisableUpdateCheck));
             if (SystemOptions.DisableUpload) flags.Add(nameof(SystemOptions.DisableUpload));
             if (SystemOptions.DisableLogging) flags.Add(nameof(SystemOptions.DisableLogging));
-            if (PuushMode) flags.Add(nameof(PuushMode));
 
             string output = string.Join(", ", flags);
 

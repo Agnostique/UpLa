@@ -55,8 +55,6 @@ namespace ShareX
 
         private async void MainForm_HandleCreated(object sender, EventArgs e)
         {
-            RunPuushTasks();
-
             NativeMethods.UseImmersiveDarkMode(Handle, ShareXResources.IsDarkTheme);
 
             await UpdateControls();
@@ -1117,31 +1115,6 @@ namespace ShareX
             {
                 tsmiTrayToggleHotkeys.Text = Resources.MainForm_UpdateToggleHotkeyButton_Disable_hotkeys;
                 tsmiTrayToggleHotkeys.Image = Resources.keyboard__minus;
-            }
-        }
-
-        private void RunPuushTasks()
-        {
-            if (Program.PuushMode && Program.Settings.IsFirstTimeRun)
-            {
-                using (PuushLoginForm puushLoginForm = new PuushLoginForm())
-                {
-                    if (puushLoginForm.ShowDialog() == DialogResult.OK)
-                    {
-                        Program.DefaultTaskSettings.ImageDestination = ImageDestination.FileUploader;
-                        Program.DefaultTaskSettings.ImageFileDestination = FileDestination.Puush;
-                        Program.DefaultTaskSettings.TextDestination = TextDestination.FileUploader;
-                        Program.DefaultTaskSettings.TextFileDestination = FileDestination.Puush;
-                        Program.DefaultTaskSettings.FileDestination = FileDestination.Puush;
-
-                        SettingManager.WaitUploadersConfig();
-
-                        if (Program.UploadersConfig != null)
-                        {
-                            Program.UploadersConfig.PuushAPIKey = puushLoginForm.APIKey;
-                        }
-                    }
-                }
             }
         }
 
