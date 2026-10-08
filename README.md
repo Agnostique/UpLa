@@ -17,19 +17,9 @@ ShareX tabanlıdır ve GPL v3 ile lisanslanmıştır.
 Windows setup and portable builds are published on the [releases page](https://github.com/Agnostique/UpLa/releases)
 and linked from [upla.com.tr](https://upla.com.tr). Requirements: Windows 10 1607 or later, x64 or ARM64.
 
-## Code signing policy
-
-Free code signing provided by [SignPath.io](https://about.signpath.io), certificate by
-[SignPath Foundation](https://signpath.org).
-
-- Committers and reviewers: [Agnostique](https://github.com/Agnostique)
-- Approvers: [Agnostique](https://github.com/Agnostique)
-
-Releases are built by GitHub Actions from this repository, and every signing request is approved by hand. Only UpLa's
-own files are signed; bundled third-party programs such as FFmpeg are left as published by their authors.
-
-Privacy policy: UpLa does not transfer any information to other networked systems unless specifically requested by the
-user or the person installing or operating it. See [Privacy](#privacy) for every connection it makes.
+These builds are not code signed yet, so Windows may show "Windows protected your PC" when the setup is started for the
+first time ("More info" > "Run anyway"), and PCs with Smart App Control turned on do not run them. A Microsoft Store
+version, which Microsoft signs, is being prepared. All builds are made by GitHub Actions from this repository.
 
 ## How UpLa differs from ShareX
 
@@ -67,7 +57,7 @@ dotnet build --configuration Release -p:Platform=x64 --self-contained true -m:1 
 The app is built to `ShareX\bin\Release\win-x64\UpLa.exe`. Project and namespace names keep the ShareX names, which
 makes it easier to take changes from ShareX.
 
-Release builds need the upla.com.tr guest upload key, which is not in the repository. Create
+Release and Microsoft Store builds need the upla.com.tr guest upload key, which is not in the repository. Create
 `ShareX.UploadersLib\APIKeys\APIKeysLocal.cs` (it is git ignored):
 
 ```csharp
@@ -88,6 +78,12 @@ secret.
 
 The installer is built by `ShareX.Setup` with [Inno Setup 6](https://jrsoftware.org/isinfo.php). It downloads the
 FFmpeg build that screen recording uses and writes `Output\UpLa-<version>-setup-<platform>.exe`.
+
+The Microsoft Store package is built with the `MicrosoftStore` configuration and `ShareX.Setup -job MicrosoftStore`,
+which needs the Windows SDK (makeappx and makepri) and writes `Output\UpLa-<version>-MicrosoftStore-<platform>.msix`.
+FFmpeg is inside the package, and the Store build leaves out what a packaged app cannot do (Explorer menus, installing
+the recorder devices, downloading FFmpeg). The package identity in `ShareX.Setup\MicrosoftStore\AppxManifest.xml`
+must match the app's Partner Center product identity.
 
 ## Server add-on
 

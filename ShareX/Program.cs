@@ -37,6 +37,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+#if MicrosoftStore
+using Windows.ApplicationModel;
+using Windows.ApplicationModel.Activation;
+#endif
+
 namespace ShareX
 {
     internal static class Program
@@ -48,6 +53,8 @@ namespace ShareX
         public const ShareXBuild Build =
 #if RELEASE
             ShareXBuild.Release;
+#elif MicrosoftStore
+            ShareXBuild.MicrosoftStore;
 #elif DEBUG
             ShareXBuild.Debug;
 #else
@@ -319,6 +326,9 @@ namespace ShareX
             DebugHelper.WriteLine("Running as elevated process: " + IsAdmin);
 
             SilentRun = CLI.IsCommandExist("silent", "s");
+#if MicrosoftStore
+            SilentRun = SilentRun || AppInstance.GetActivatedEventArgs()?.Kind == ActivationKind.StartupTask;
+#endif
 
             IgnoreHotkeyWarning = CLI.IsCommandExist("NoHotkeys");
 
@@ -451,7 +461,9 @@ namespace ShareX
                 }
                 else
                 {
+#if !MicrosoftStore
                     MigratePersonalPathConfig();
+#endif
 
                     string customPersonalPath = ReadPersonalPathConfig();
 
@@ -502,6 +514,7 @@ namespace ShareX
 
         private static void RegisterExtensions()
         {
+#if !MicrosoftStore // The Store package declares its file types in AppxManifest.xml.
             if (!Portable)
             {
                 // upla.com.tr: .sxcu files are not associated, so opening one cannot import a custom uploader.
@@ -511,6 +524,7 @@ namespace ShareX
                     IntegrationHelpers.CreateImageEffectExtension(true);
                 }
             }
+#endif
         }
 
         public static void UpdateHelpersSpecialFolders()

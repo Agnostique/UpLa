@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Microsoft Store package of UpLa. Identity Name, Publisher and PublisherDisplayName must be copied exactly from
+     Partner Center > Product identity; until then they are placeholders and Partner Center rejects the package.
+     ShareX.Setup fills in {PLATFORM} and {VERSION}. -->
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:desktop2="http://schemas.microsoft.com/appx/manifest/desktop/windows10/2" IgnorableNamespaces="desktop2">
+  <Identity Name="UpLa.Placeholder" ProcessorArchitecture="{PLATFORM}" Publisher="CN=00000000-0000-0000-0000-000000000000" Version="{VERSION}" />
+  <Properties>
+    <DisplayName>UpLa</DisplayName>
+    <PublisherDisplayName>upla.com.tr</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Resources>
+    <Resource Language="tr-tr" />
+    <Resource Language="en-us" />
+    <Resource uap:Scale="100" />
+    <Resource uap:Scale="125" />
+    <Resource uap:Scale="150" />
+    <Resource uap:Scale="200" />
+    <Resource uap:Scale="400" />
+  </Resources>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.18362.0" MaxVersionTested="10.0.26100.0" />
+  </Dependencies>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+  </Capabilities>
+  <Applications>
+    <Application Id="UpLa" Executable="UpLa.exe" EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements DisplayName="UpLa" Description="Ekran görüntüsü ve ekran kaydı alır, upla.com.tr'ye yükler." BackgroundColor="transparent" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\LargeTile.png" Square71x71Logo="Assets\SmallTile.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square150x150Logo" />
+            <uap:ShowOn Tile="wide310x150Logo" />
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
+        </uap:DefaultTile>
+      </uap:VisualElements>
+      <Extensions>
+        <desktop:Extension Category="windows.startupTask" Executable="UpLa.exe" EntryPoint="Windows.FullTrustApplication">
+          <desktop:StartupTask TaskId="UpLa" Enabled="true" DisplayName="UpLa" />
+        </desktop:Extension>
+        <uap:Extension Category="windows.fileTypeAssociation">
+          <uap3:FileTypeAssociation Name="upla-image-effect" desktop2:UseUrl="false" Parameters='-ImageEffect "%1"'>
+            <uap:DisplayName>UpLa image effect</uap:DisplayName>
+            <uap:SupportedFileTypes>
+              <uap:FileType>.sxie</uap:FileType>
+            </uap:SupportedFileTypes>
+          </uap3:FileTypeAssociation>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+</Package>

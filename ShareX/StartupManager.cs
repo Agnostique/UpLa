@@ -28,10 +28,20 @@ using ShareX.HelpersLib;
 using System;
 using System.Windows.Forms;
 
+#if MicrosoftStore
+using Windows.ApplicationModel;
+#endif
+
 namespace ShareX
 {
     public static class StartupManager
     {
+#if MicrosoftStore
+        // The startup task declared in the Store package's AppxManifest.xml.
+        private const int StartupTargetIndex = 0;
+        private static readonly StartupTask packageTask = StartupTask.GetForCurrentPackageAsync().GetAwaiter().GetResult()[StartupTargetIndex];
+#endif
+
         public static string StartupTargetPath
         {
             get
@@ -44,6 +54,9 @@ namespace ShareX
         {
             get
             {
+#if MicrosoftStore
+                return (StartupState)packageTask.State;
+#else
                 if (ShortcutHelpers.CheckShortcut(Environment.SpecialFolder.Startup, Program.AppName, StartupTargetPath))
                 {
                     if (Registry.GetValue(@"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StartupApproved\StartupFolder",
@@ -60,9 +73,24 @@ namespace ShareX
                 {
                     return StartupState.Disabled;
                 }
+#endif
             }
             set
             {
+#if MicrosoftStore
+                if (value == StartupState.Enabled)
+                {
+                    packageTask.RequestEnableAsync().GetAwaiter().GetResult();
+                }
+                else if (value == StartupState.Disabled)
+                {
+                    packageTask.Disable();
+                }
+                else
+                {
+                    throw new NotSupportedException();
+                }
+#else
                 if (value == StartupState.Enabled || value == StartupState.Disabled)
                 {
                     ShortcutHelpers.SetShortcut(value == StartupState.Enabled, Environment.SpecialFolder.Startup, Program.AppName, StartupTargetPath, "-silent");
@@ -71,6 +99,7 @@ namespace ShareX
                 {
                     throw new NotSupportedException();
                 }
+#endif
             }
         }
     }

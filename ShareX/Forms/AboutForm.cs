@@ -45,6 +45,11 @@ namespace ShareX
             pLogo.BackColor = Color.FromArgb(35, 35, 35);
             cLogo.BackColor = Color.FromArgb(35, 35, 35);
 
+#if MicrosoftStore
+            uclUpdate.Visible = false;
+            lblBuild.Text = "Microsoft Store";
+            lblBuild.Visible = true;
+#else
             if (!SystemOptions.DisableUpdateCheck)
             {
                 uclUpdate.UpdateLoadingImage();
@@ -54,6 +59,7 @@ namespace ShareX
             {
                 uclUpdate.Visible = false;
             }
+#endif
 
             rtbInfo.AppendLine(ShareXResources.Name, FontStyle.Bold, 13);
             rtbInfo.AppendLine($@"{UplaStrings.AboutDescription}

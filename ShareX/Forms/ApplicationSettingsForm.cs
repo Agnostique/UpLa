@@ -118,6 +118,12 @@ namespace ShareX
             cbTrayLeftClickAction.SelectedIndex = (int)Program.Settings.TrayLeftClickAction;
             cbTrayMiddleClickAction.SelectedIndex = (int)Program.Settings.TrayMiddleClickAction;
 
+#if MicrosoftStore
+            cbAutoCheckUpdate.Visible = false;
+            lblUpdateChannel.Visible = false;
+            cbUpdateChannel.Visible = false;
+            btnCheckDevBuild.Visible = false;
+#else
             if (SystemOptions.DisableUpdateCheck)
             {
                 cbAutoCheckUpdate.Visible = false;
@@ -131,6 +137,7 @@ namespace ShareX
                 cbUpdateChannel.Enabled = Program.Settings.AutoCheckUpdate;
                 cbUpdateChannel.SelectedIndex = (int)Program.Settings.UpdateChannel;
             }
+#endif
 
             // Theme
             cbThemes.Items.AddRange(Program.Settings.Themes.ToArray());
@@ -139,9 +146,15 @@ namespace ShareX
             UpdateThemeControls();
 
             // Integration
+#if MicrosoftStore
+            cbShellContextMenu.Visible = false;
+            cbEditWithShareX.Visible = false;
+            cbSendToMenu.Visible = false;
+#else
             cbShellContextMenu.Checked = IntegrationHelpers.CheckShellContextMenuButton();
             cbEditWithShareX.Checked = IntegrationHelpers.CheckEditShellContextMenuButton();
             cbSendToMenu.Checked = IntegrationHelpers.CheckSendToMenuButton();
+#endif
 
             // Paths
             lastPersonalPath = Program.ReadPersonalPathConfig();

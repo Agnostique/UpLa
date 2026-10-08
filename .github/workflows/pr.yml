@@ -19,6 +19,7 @@ jobs:
         configuration:
           - Release
           - Debug
+          - MicrosoftStore
         platform:
           - x64
           - ARM64

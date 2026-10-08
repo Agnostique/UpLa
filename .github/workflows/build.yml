@@ -26,6 +26,7 @@ jobs:
         configuration:
           - Release
           - Debug
+          - MicrosoftStore
         platform:
           - x64
           - ARM64
@@ -129,6 +130,15 @@ jobs:
         with:
           name: Debug-${{ matrix.platform }}
           path: Output\UpLa-${{ env.APP_VERSION }}-debug-${{ env.PLATFORM }}.zip
+          if-no-files-found: error
+
+      # The Store signs this package; it is uploaded to Partner Center by hand and is not part of GitHub releases.
+      - name: Upload artifact (Microsoft Store)
+        if: matrix.configuration == 'MicrosoftStore'
+        uses: actions/upload-artifact@v7
+        with:
+          name: MicrosoftStore-${{ matrix.platform }}
+          path: Output\UpLa-${{ env.APP_VERSION }}-MicrosoftStore-${{ env.PLATFORM }}.msix
           if-no-files-found: error
 
   # Tags (v2.0.1 etc.) create a draft release with the x64 setup and portable zip; nothing is published automatically.

@@ -43,12 +43,15 @@ namespace ShareX.Setup
             CreateSetup = 1,
             CreatePortable = 1 << 1,
             CreateDebug = 1 << 2,
+            CreateMicrosoftStoreFolder = 1 << 3,
+            CompileAppx = 1 << 4,
             DownloadTools = 1 << 7,
             CreateChecksumFile = 1 << 8,
             OpenOutputDirectory = 1 << 9,
 
             Release = CreateSetup | CreatePortable | DownloadTools | OpenOutputDirectory,
-            Debug = CreateDebug | DownloadTools | OpenOutputDirectory
+            Debug = CreateDebug | DownloadTools | OpenOutputDirectory,
+            MicrosoftStore = CreateMicrosoftStoreFolder | CompileAppx | DownloadTools | OpenOutputDirectory
         }
 
         private static SetupJobs Job { get; set; } = SetupJobs.Release;
@@ -56,6 +59,9 @@ namespace ShareX.Setup
         private static string Platform { get; set; } = "x64";
 
         private static string ParentDir;
+        private static string WindowsKitsDir;
+        private static string MakeAppxPath => Path.Combine(WindowsKitsDir, "x64", "makeappx.exe");
+        private static string MakePriPath => Path.Combine(WindowsKitsDir, "x64", "makepri.exe");
         private static string Configuration;
         private static string AppVersion;
 
@@ -67,13 +73,16 @@ namespace ShareX.Setup
         private static string OutputDir => Path.Combine(ParentDir, "Output");
         private static string PortableOutputDir => Path.Combine(OutputDir, "UpLa-portable");
         private static string DebugOutputDir => Path.Combine(OutputDir, "UpLa-debug");
+        private static string MicrosoftStoreOutputDir => Path.Combine(OutputDir, "UpLa-MicrosoftStore");
 
         private static string SetupDir => Path.Combine(ParentDir, "ShareX.Setup");
         private static string InnoSetupDir => Path.Combine(SetupDir, "InnoSetup");
+        private static string MicrosoftStorePackageFilesDir => Path.Combine(SetupDir, "MicrosoftStore");
 
         private static string SetupPath => Path.Combine(OutputDir, $"UpLa-{AppVersion}-setup-{Platform}.exe");
         private static string PortableZipPath => Path.Combine(OutputDir, $"UpLa-{AppVersion}-portable-{Platform}.zip");
         private static string DebugZipPath => Path.Combine(OutputDir, $"UpLa-{AppVersion}-debug-{Platform}.zip");
+        private static string MicrosoftStorePackagePath => Path.Combine(OutputDir, $"UpLa-{AppVersion}-MicrosoftStore-{Platform}.msix");
         private static string FFmpegPath => Path.Combine(OutputDir, "ffmpeg.exe");
         private static string RecorderDevicesSetupPath => Path.Combine(OutputDir, $"recorder-devices-{RecorderDevicesVersion}-setup.exe");
 
@@ -119,7 +128,11 @@ namespace ShareX.Setup
             if (Job.HasFlag(SetupJobs.DownloadTools))
             {
                 DownloadFFmpeg();
-                DownloadRecorderDevices();
+
+                if (!Job.HasFlag(SetupJobs.CreateMicrosoftStoreFolder))
+                {
+                    DownloadRecorderDevices();
+                }
             }
 
             if (Job.HasFlag(SetupJobs.CreateSetup))
@@ -139,6 +152,16 @@ namespace ShareX.Setup
                 CreateFolder(BinDir, DebugOutputDir, SetupJobs.CreateDebug);
 
                 CreateZipFile(DebugOutputDir, DebugZipPath);
+            }
+
+            if (Job.HasFlag(SetupJobs.CreateMicrosoftStoreFolder))
+            {
+                CreateFolder(BinDir, MicrosoftStoreOutputDir, SetupJobs.CreateMicrosoftStoreFolder);
+
+                if (Job.HasFlag(SetupJobs.CompileAppx))
+                {
+                    CompileAppx(MicrosoftStoreOutputDir, MicrosoftStorePackagePath);
+                }
             }
 
             if (!Silent && Job.HasFlag(SetupJobs.OpenOutputDirectory))
@@ -212,6 +235,10 @@ namespace ShareX.Setup
             {
                 Configuration = "Debug";
             }
+            else if (Job.HasFlag(SetupJobs.CreateMicrosoftStoreFolder))
+            {
+                Configuration = "MicrosoftStore";
+            }
             else
             {
                 Configuration = "Release";
@@ -223,6 +250,42 @@ namespace ShareX.Setup
             AppVersion = versionInfo.ProductVersion;
 
             Console.WriteLine("Application version: " + AppVersion);
+
+            if (Job.HasFlag(SetupJobs.CompileAppx))
+            {
+                WindowsKitsDir = FindWindowsKitsDir();
+
+                Console.WriteLine("Windows Kits directory: " + WindowsKitsDir);
+            }
+        }
+
+        // The newest Windows SDK that has makeappx.exe.
+        private static string FindWindowsKitsDir()
+        {
+            string kitsRoot = RegistryHelpers.GetValueString(@"SOFTWARE\Microsoft\Windows Kits\Installed Roots", "KitsRoot10",
+                RegistryHive.LocalMachine, RegistryView.Registry32);
+
+            if (string.IsNullOrEmpty(kitsRoot))
+            {
+                kitsRoot = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86), "Windows Kits", "10");
+            }
+
+            string binDir = Path.Combine(kitsRoot, "bin");
+
+            if (Directory.Exists(binDir))
+            {
+                string sdkDir = Directory.GetDirectories(binDir, "10.*").
+                    Where(x => File.Exists(Path.Combine(x, "x64", "makeappx.exe")) && File.Exists(Path.Combine(x, "x64", "makepri.exe"))).
+                    OrderByDescending(x => Version.TryParse(Path.GetFileName(x), out Version version) ? version : new Version()).
+                    FirstOrDefault();
+
+                if (sdkDir != null)
+                {
+                    return sdkDir;
+                }
+            }
+
+            throw new Exception("Windows SDK with makeappx.exe and makepri.exe is missing: " + binDir);
         }
 
         private static void CompileSetup()
@@ -260,6 +323,69 @@ namespace ShareX.Setup
             }
         }
 
+        private static void CompileAppx(string contentDirectory, string packagePath)
+        {
+            Console.WriteLine("Creating resources.pri: " + contentDirectory);
+
+            // makepri indexes a folder that only has the Assets, so the resource names match the manifest's Assets\ paths.
+            string resourcesDirectory = contentDirectory + "-resources";
+
+            if (Directory.Exists(resourcesDirectory))
+            {
+                Directory.Delete(resourcesDirectory, true);
+            }
+
+            FileHelpers.CopyAll(Path.Combine(contentDirectory, "Assets"), Path.Combine(resourcesDirectory, "Assets"));
+
+            RunTool(MakePriPath, $"new /pr \"{resourcesDirectory}\" /cf \"{Path.Combine(MicrosoftStorePackageFilesDir, "priconfig.xml")}\" " +
+                $"/mn \"{Path.Combine(contentDirectory, "AppxManifest.xml")}\" /of \"{Path.Combine(contentDirectory, "resources.pri")}\" /o");
+
+            Directory.Delete(resourcesDirectory, true);
+
+            Console.WriteLine("Compiling package: " + packagePath);
+
+            RunTool(MakeAppxPath, $"pack /d \"{contentDirectory}\" /p \"{packagePath}\" /l /o");
+
+            Console.WriteLine("Package compiled: " + packagePath);
+
+            CreateChecksumFile(packagePath);
+        }
+
+        private static void RunTool(string fileName, string arguments)
+        {
+            using (Process process = Process.Start(new ProcessStartInfo(fileName, arguments) { UseShellExecute = false }))
+            {
+                process.WaitForExit();
+
+                if (process.ExitCode != 0)
+                {
+                    throw new Exception($"{Path.GetFileName(fileName)} failed with exit code {process.ExitCode}.");
+                }
+            }
+        }
+
+        // AppxManifest.xml with the platform and version, and the tile and icon images.
+        private static void CreateMicrosoftStorePackageFiles(string destination)
+        {
+            FileHelpers.CopyAll(Path.Combine(MicrosoftStorePackageFilesDir, "Assets"), Path.Combine(destination, "Assets"));
+
+            string manifest = File.ReadAllText(Path.Combine(MicrosoftStorePackageFilesDir, "AppxManifest.xml"));
+            manifest = manifest.Replace("{PLATFORM}", Platform).Replace("{VERSION}", GetMicrosoftStoreManifestVersion());
+            File.WriteAllText(Path.Combine(destination, "AppxManifest.xml"), manifest);
+
+            if (manifest.Contains("CN=00000000-0000-0000-0000-000000000000"))
+            {
+                Console.WriteLine("Warning: AppxManifest.xml still has the placeholder package identity, so Partner Center rejects this package.");
+            }
+        }
+
+        // The Store needs four version parts and keeps the fourth one for itself.
+        private static string GetMicrosoftStoreManifestVersion()
+        {
+            Version version = Version.Parse(AppVersion);
+            return $"{version.Major}.{version.Minor}.{Math.Max(version.Build, 0)}.0";
+        }
+
         private static void CreateFolder(string source, string destination, SetupJobs job)
         {
             Console.WriteLine("Creating folder: " + destination);
@@ -283,7 +409,8 @@ namespace ShareX.Setup
 
             FileHelpers.CopyFiles(Path.Combine(ParentDir, "Licenses"), Path.Combine(destination, "Licenses"), "*.txt");
 
-            if (File.Exists(RecorderDevicesSetupPath))
+            // Store apps must not install drivers (Store policy 10.2.4), so the recorder devices stay out of the package.
+            if (job != SetupJobs.CreateMicrosoftStoreFolder && File.Exists(RecorderDevicesSetupPath))
             {
                 FileHelpers.CopyFiles(RecorderDevicesSetupPath, destination);
             }
@@ -308,6 +435,10 @@ namespace ShareX.Setup
             if (job == SetupJobs.CreatePortable)
             {
                 FileHelpers.CreateEmptyFile(Path.Combine(destination, "Portable"));
+            }
+            else if (job == SetupJobs.CreateMicrosoftStoreFolder)
+            {
+                CreateMicrosoftStorePackageFiles(destination);
             }
 
             Console.WriteLine("Folder created: " + destination);

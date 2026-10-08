@@ -27,12 +27,17 @@ using ShareX.HelpersLib;
 using System;
 using System.ComponentModel;
 
+#if MicrosoftStore
+using Windows.ApplicationModel;
+#endif
+
 namespace ShareX
 {
     public enum ShareXBuild
     {
         Debug,
         Release,
+        MicrosoftStore,
         Unknown
     }
 
@@ -347,6 +352,7 @@ namespace ShareX
         Default, Light, Transparent
     }
 
+#if !MicrosoftStore
     public enum StartupState
     {
         Disabled,
@@ -355,6 +361,16 @@ namespace ShareX
         DisabledByPolicy,
         EnabledByPolicy
     }
+#else
+    public enum StartupState
+    {
+        Disabled = StartupTaskState.Disabled,
+        DisabledByUser = StartupTaskState.DisabledByUser,
+        Enabled = StartupTaskState.Enabled,
+        DisabledByPolicy = StartupTaskState.DisabledByPolicy,
+        EnabledByPolicy = StartupTaskState.EnabledByPolicy
+    }
+#endif
 
     public enum TaskViewMode // Localized
     {
