@@ -12,11 +12,30 @@ uygulamasıdır. Ekran görüntüsü ve ekran kaydı alır, bunları ya da bilgi
 yükler. Hesap olmadan misafir olarak kullanılabilir; üyeler uygulamadan giriş yaparak kendi hesaplarına yükler.
 ShareX tabanlıdır ve GPL v3 ile lisanslanmıştır.
 
+## Download
+
+Windows setup and portable builds are published on the [releases page](https://github.com/Agnostique/UpLa/releases)
+and linked from [upla.com.tr](https://upla.com.tr). Requirements: Windows 10 1607 or later, x64 or ARM64.
+
+## Code signing policy
+
+Free code signing provided by [SignPath.io](https://about.signpath.io), certificate by
+[SignPath Foundation](https://signpath.org).
+
+- Committers and reviewers: [Agnostique](https://github.com/Agnostique)
+- Approvers: [Agnostique](https://github.com/Agnostique)
+
+Releases are built by GitHub Actions from this repository, and every signing request is approved by hand. Only UpLa's
+own files are signed; bundled third-party programs such as FFmpeg are left as published by their authors.
+
+Privacy policy: UpLa does not transfer any information to other networked systems unless specifically requested by the
+user or the person installing or operating it. See [Privacy](#privacy) for every connection it makes.
+
 ## How UpLa differs from ShareX
 
 - Uploads go only to upla.com.tr: guest uploads, signing in with a username or email and password (with two-step
-  verification), and keys entered by hand. All other upload destinations, URL shorteners, sharing services and custom
-  uploaders were removed.
+  verification), and keys entered by hand. All other upload destinations, URL shorteners and custom uploaders were
+  removed.
 - Tools that are not about capturing and uploading were removed. Capture, screen recording, the image editor, image
   effects, pin to screen, OCR and the history are kept.
 - No telemetry, and no automatic update check.
