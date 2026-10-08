@@ -24,10 +24,16 @@ ShareX tabanlıdır ve GPL v3 ile lisanslanmıştır.
 
 ## Privacy
 
-- Files are sent only when you upload them, and only to upla.com.tr.
+UpLa does not send any information to other computers unless you ask it to:
+
+- Files are sent only when you upload them (or capture with "upload after capture" turned on), and only to
+  upla.com.tr.
 - Signing in sends your username or email and password to upla.com.tr over HTTPS. The password is never stored; the
   app keeps a key for this computer, encrypted for your Windows account. The computer name is shown to you on the
   website's "Connected devices" page.
+- Screen recording needs FFmpeg. If it is missing when you start a recording, UpLa downloads it once from
+  [GitHub](https://github.com/ShareX/FFmpeg/releases) and uses it only if its SHA-256 matches the expected value.
+- There is no telemetry and no automatic update check.
 
 ## Building
 
