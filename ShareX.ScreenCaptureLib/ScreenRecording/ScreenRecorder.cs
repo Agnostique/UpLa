@@ -131,6 +131,12 @@ namespace ShareX.ScreenCaptureLib
                 }
 
                 args.Append("\" ");
+
+                if (Options.MaxFileSize > 0)
+                {
+                    args.Append($"-fs {Options.MaxFileSize} ");
+                }
+
                 args.Append("-y ");
                 args.Append($"\"{output}\"");
 

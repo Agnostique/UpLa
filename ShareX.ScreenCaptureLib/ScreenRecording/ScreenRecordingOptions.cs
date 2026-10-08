@@ -44,6 +44,8 @@ namespace ShareX.ScreenCaptureLib
         public Rectangle CaptureArea { get; set; }
         public float Duration { get; set; }
         public bool DrawCursor { get; set; }
+        // FFmpeg stops writing the output when it reaches this size in bytes; 0 for no limit.
+        public long MaxFileSize { get; set; }
         public FFmpegOptions FFmpeg { get; set; } = new FFmpegOptions();
 
         public string GetFFmpegCommands()
@@ -328,6 +330,17 @@ namespace ShareX.ScreenCaptureLib
             {
                 string duration = isCustom ? "$duration$" : Duration.ToString("0.0", CultureInfo.InvariantCulture);
                 args.Append($"-t {duration} "); // duration limit
+            }
+
+            if (MaxFileSize > 0 && !IsLossless && !isCustom)
+            {
+                if (FFmpeg.Extension == "webm")
+                {
+                    // WEBM keeps up to 5 seconds in memory before writing it, which would all be written past the limit.
+                    args.Append("-cluster_time_limit 1000 ");
+                }
+
+                args.Append($"-fs {MaxFileSize} "); // file size limit
             }
 
             args.Append("-y "); // overwrite file

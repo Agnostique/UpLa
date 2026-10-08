@@ -38,6 +38,8 @@ user or the person installing or operating it. See [Privacy](#privacy) for every
   removed.
 - Tools that are not about capturing and uploading were removed. Capture, screen recording, the image editor, image
   effects, pin to screen, OCR and the history are kept.
+- Screen recordings that will be uploaded stop at the upload limit (20 MB for guests, 100 MB for members), so they
+  fit it. This can be turned off in the upla.com.tr settings.
 - No telemetry, and no automatic update check.
 - Settings of UpLa 1.0 (in `Documents\UpLa`) are taken over.
 

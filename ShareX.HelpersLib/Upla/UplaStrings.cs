@@ -137,8 +137,14 @@ namespace ShareX.HelpersLib
         public static string MaxWidth => T("Sunucuda en fazla genişlik (px, 0 = kapalı):", "Max width on server (px, 0 = off):");
         public static string MemberOnlyNote => T("Albüm ve etiketler yalnızca giriş yaptığınızda çalışır. Otomatik silme, upla.com.tr'de etkinse uygulanır.",
             "Album and tags only work when you are signed in. Auto delete is applied when it is enabled on upla.com.tr.");
-        public static string VideoNote => T("Ekran kayıtları (MP4, WEBM, MOV) da upla.com.tr'ye yüklenir; bunun için sunucuda video yüklemenin açık olması gerekir.",
-            "Screen recordings (MP4, WEBM, MOV) are uploaded to upla.com.tr too; video uploads must be enabled on the server.");
+        public static string VideoNote => T("Ekran kayıtları (MP4, WEBM) da upla.com.tr'ye yüklenir. Sınır misafirlerde 20 MB, giriş yapan üyelerde 100 MB.",
+            "Screen recordings (MP4, WEBM) are uploaded to upla.com.tr too. The limit is 20 MB for guests and 100 MB for signed in members.");
+        public static string StopRecordingAtUploadLimit => T("Yüklenecek ekran kayıtlarını yükleme sınırına gelince durdur",
+            "Stop screen recordings that will be uploaded at the upload limit");
+        public static string RecordingStoppedAtUploadLimit => T("Kayıt {0} yükleme sınırına ulaştığı için durduruldu ve yükleniyor.",
+            "The recording reached the {0} upload limit, so it was stopped and is being uploaded.");
+        public static string RecordingShortenedToUploadLimit => T("Kayıt {0} yükleme sınırını aştığı için sonu kısaltıldı.",
+            "The recording was longer than the {0} upload limit, so its end was cut.");
 
         // Upload errors
         public static string ErrorUnsupportedFileType => T("\"{0}\" türündeki dosyalar upla.com.tr'ye yüklenemez. Desteklenen türler: {1}.",

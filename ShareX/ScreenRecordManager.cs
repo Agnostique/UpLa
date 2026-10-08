@@ -27,6 +27,7 @@ using ShareX.HelpersLib;
 using ShareX.MediaLib;
 using ShareX.Properties;
 using ShareX.ScreenCaptureLib;
+using ShareX.UploadersLib;
 using System;
 using System.Drawing;
 using System.IO;
@@ -186,8 +187,10 @@ namespace ShareX
             string concatPath = "";
             string tempPath = "";
             bool abortRequested = false;
+            bool sizeLimitReached = false;
 
             float duration = taskSettings.CaptureSettings.ScreenRecordFixedDuration ? taskSettings.CaptureSettings.ScreenRecordDuration : 0;
+            long sizeLimit = GetRecordingSizeLimit(taskSettings, out string sizeLimitText);
 
             recordForm = new ScreenRecordForm(captureRectangle)
             {
@@ -273,7 +276,8 @@ namespace ShareX
                                 Duration = duration,
                                 OutputPath = path,
                                 CaptureArea = captureRectangle,
-                                DrawCursor = taskSettings.CaptureSettings.ScreenRecordShowCursor
+                                DrawCursor = taskSettings.CaptureSettings.ScreenRecordShowCursor,
+                                MaxFileSize = GetSegmentSizeLimit(sizeLimit, concatPath, taskSettings.CaptureSettings.ScreenRecordTwoPassEncoding)
                             };
 
                             screenRecorder?.Dispose();
@@ -286,6 +290,10 @@ namespace ShareX
                             if (recordForm.Status == ScreenRecordingStatus.Aborted)
                             {
                                 abortRequested = true;
+                            }
+                            else if (!options.IsLossless && IsSizeLimitReached(path, options.MaxFileSize))
+                            {
+                                sizeLimitReached = true;
                             }
                         }
 
@@ -312,6 +320,7 @@ namespace ShareX
                     recordForm.ChangeState(ScreenRecordState.Encoding);
 
                     path = ProcessTwoPassEncoding(path, metadata, taskSettings);
+                    sizeLimitReached = IsSizeLimitReached(path, sizeLimit);
                 }
 
                 if (recordForm != null)
@@ -339,6 +348,12 @@ namespace ShareX
                 FileHelpers.DeleteFile(tempPath);
             }).ContinueInCurrentContext(() =>
             {
+                if (!abortRequested && sizeLimitReached && !string.IsNullOrEmpty(path) && File.Exists(path))
+                {
+                    TaskHelpers.ShowNotificationTip(string.Format(taskSettings.CaptureSettings.ScreenRecordTwoPassEncoding ?
+                        UplaStrings.RecordingShortenedToUploadLimit : UplaStrings.RecordingStoppedAtUploadLimit, sizeLimitText));
+                }
+
                 if (!abortRequested && !string.IsNullOrEmpty(path) && File.Exists(path) && TaskHelpers.ShowAfterCaptureForm(taskSettings, out string customFileName, null, path))
                 {
                     if (!string.IsNullOrEmpty(customFileName))
@@ -359,6 +374,50 @@ namespace ShareX
                 abortRequested = false;
                 IsRecording = false;
             });
+        }
+
+        // upla.com.tr: a recording that will be uploaded stops at the upload limit (guests 20 MB, members 100 MB), so that
+        // it can be uploaded. Custom FFmpeg commands are left alone.
+        private static long GetRecordingSizeLimit(TaskSettings taskSettings, out string limitText)
+        {
+            limitText = null;
+
+            if (SystemOptions.DisableUpload || Program.Settings.DisableUpload ||
+                !taskSettings.AfterCaptureJob.HasFlag(AfterCaptureTasks.UploadImageToHost) ||
+                taskSettings.CaptureSettings.FFmpegOptions.UseCustomCommands)
+            {
+                return 0;
+            }
+
+            SettingManager.WaitUploadersConfig();
+            UploadersConfig config = Program.UploadersConfig;
+
+            if (config == null || !Upla.GetSettings(config).StopRecordingAtUploadLimit)
+            {
+                return 0;
+            }
+
+            bool isMember = Upla.HasPersonalAPIKey(config);
+            limitText = Upla.GetMaxUploadSizeText(isMember);
+            return Upla.GetRecordingSizeLimit(isMember);
+        }
+
+        // A recording resumed after a pause is joined to the part recorded before, so that part's size is used up already.
+        // Two-pass recordings first record losslessly; the limit applies to the encoded file then.
+        private static long GetSegmentSizeLimit(long sizeLimit, string concatPath, bool twoPass)
+        {
+            if (sizeLimit <= 0 || twoPass || !File.Exists(concatPath))
+            {
+                return sizeLimit;
+            }
+
+            return Math.Max(1, sizeLimit - new FileInfo(concatPath).Length);
+        }
+
+        // FFmpeg stops at the size limit and then closes the file, so a file that reached the limit is at least that large.
+        private static bool IsSizeLimitReached(string path, long maxFileSize)
+        {
+            return maxFileSize > 0 && !string.IsNullOrEmpty(path) && File.Exists(path) && new FileInfo(path).Length >= maxFileSize;
         }
 
         private static void ScreenRecorder_RecordingStarted()

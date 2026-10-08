@@ -369,6 +369,16 @@ namespace ShareX.UploadersLib
 
             AddRow(null, CreateLabel(UplaStrings.MemberOnlyNote, true));
             AddRow(null, CreateLabel(UplaStrings.VideoNote, true));
+
+            CheckBox cbStopRecording = new CheckBox()
+            {
+                Text = UplaStrings.StopRecordingAtUploadLimit,
+                AutoSize = true,
+                Checked = settings.StopRecordingAtUploadLimit
+            };
+            cbStopRecording.CheckedChanged += (sender, e) => settings.StopRecordingAtUploadLimit = cbStopRecording.Checked;
+            AddRow(null, cbStopRecording);
+
             AddRow(null, CreateLink(UplaStrings.APIDocumentation, Upla.APIDocumentationURL));
         }
 

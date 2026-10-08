@@ -64,6 +64,9 @@ namespace ShareX.UploadersLib
 
         public bool NSFW { get; set; } = false;
 
+        // Screen recordings that will be uploaded stop at the upload limit (guests 20 MB, members 100 MB).
+        public bool StopRecordingAtUploadLimit { get; set; } = true;
+
         // Server side resize of images wider than this, 0 to disable.
         public int MaxWidth { get; set; } = 0;
     }

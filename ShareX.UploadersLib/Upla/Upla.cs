@@ -46,6 +46,26 @@ namespace ShareX.UploadersLib
         public const long GuestMaxFileSize = 20L * 1024 * 1024;
         public const long MaxRequestSize = 100L * 1000 * 1000;
 
+        // Largest file one upload can send: the guest limit, or for members the request limit (upla.com.tr allows them 100 MB).
+        public static long GetMaxUploadSize(bool isMember)
+        {
+            return isMember ? MaxRequestSize : GuestMaxFileSize;
+        }
+
+        public static string GetMaxUploadSizeText(bool isMember)
+        {
+            return isMember ? $"{MaxRequestSize / 1000000} MB" : $"{GuestMaxFileSize / 1048576} MB";
+        }
+
+        // Size at which a screen recording that will be uploaded stops. After reaching its size limit FFmpeg still writes
+        // what it has buffered and closes the file, so room is left below the upload limit (measured with FFmpeg 8.1:
+        // up to about 0.6 MB with WEBM written in one second blocks, much less with MP4 and GIF).
+        public static long GetRecordingSizeLimit(bool isMember)
+        {
+            long limit = GetMaxUploadSize(isMember);
+            return limit - Math.Max(2L * 1024 * 1024, limit * 5 / 100);
+        }
+
         public static readonly string[] ImageExtensions = { "jpg", "jpeg", "png", "bmp", "gif", "webp" };
         // The video formats enabled on upla.com.tr (Chevereto 4.1+). mov is left out: browsers often cannot play it.
         public static readonly string[] VideoExtensions = { "mp4", "webm" };
