@@ -158,6 +158,13 @@ jobs:
           name: Portable-x64
           path: Output
 
+      # Copies without the version give the website a link that always downloads the latest release:
+      # https://github.com/<owner>/UpLa/releases/latest/download/UpLa-setup-x64.exe
+      - name: Add copies without version
+        run: |
+          Copy-Item "Output\UpLa-${{ env.APP_VERSION }}-setup-x64.exe" "Output\UpLa-setup-x64.exe"
+          Copy-Item "Output\UpLa-${{ env.APP_VERSION }}-portable-x64.zip" "Output\UpLa-portable-x64.zip"
+
       - name: Create release body file
         run: |
           $checksums = Get-ChildItem -Path "Output\" -Recurse -File
@@ -180,3 +187,5 @@ jobs:
           files: |
             Output/UpLa-${{ env.APP_VERSION }}-setup-x64.exe
             Output/UpLa-${{ env.APP_VERSION }}-portable-x64.zip
+            Output/UpLa-setup-x64.exe
+            Output/UpLa-portable-x64.zip
