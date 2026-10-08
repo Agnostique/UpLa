@@ -39,6 +39,7 @@ namespace ShareX.UploadersLib
         public const string PasswordForgotURL = WebsiteURL + "/account/password-forgot";
         public const string ConnectedDevicesURL = WebsiteURL + "/upla-app/devices";
         public const string APIDocumentationURL = WebsiteURL + "/api-v1";
+        public const string SourceCodeURL = "https://github.com/Agnostique/UpLa";
 
         // Guest uploads are limited to 20 MB on upla.com.tr. Member limits are decided by the server, but a
         // single request can never exceed Cloudflare's 100 MB request body limit.

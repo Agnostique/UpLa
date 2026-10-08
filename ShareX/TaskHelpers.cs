@@ -1357,6 +1357,15 @@ namespace ShareX
 
             string ffmpegPath = taskSettings.CaptureSettings.FFmpegOptions.FFmpegPath;
 
+            if (!File.Exists(ffmpegPath) && !taskSettings.CaptureSettings.FFmpegOptions.OverrideCLIPath)
+            {
+                // upla.com.tr: FFmpeg is downloaded instead of asking the user to get it; the download window reports errors.
+                using (UplaFFmpegDownloadForm form = new UplaFFmpegDownloadForm())
+                {
+                    return form.ShowDialog() == DialogResult.OK && File.Exists(taskSettings.CaptureSettings.FFmpegOptions.FFmpegPath);
+                }
+            }
+
             if (!File.Exists(ffmpegPath))
             {
                 MessageBox.Show(Resources.FFmpegDoesNotExistAtTheFollowingPath + "\r\n" + ffmpegPath,

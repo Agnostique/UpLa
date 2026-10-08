@@ -28,6 +28,7 @@ using ShareX.HelpersLib;
 using System;
 using System.Diagnostics;
 using System.IO;
+using System.Security.Cryptography;
 using System.Text.RegularExpressions;
 
 namespace ShareX.Setup
@@ -76,9 +77,10 @@ namespace ShareX.Setup
         private static string RecorderDevicesSetupPath => Path.Combine(OutputDir, $"recorder-devices-{RecorderDevicesVersion}-setup.exe");
 
         private const string InnoSetupCompilerPath = @"C:\Program Files (x86)\Inno Setup 6\ISCC.exe";
-        private const string FFmpegVersion = "8.1";
-        private static string FFmpegDownloadURL => $"https://github.com/ShareX/FFmpeg/releases/download/v{FFmpegVersion}/ffmpeg-{FFmpegVersion}-win-{Platform}.zip";
+        private static string FFmpegDownloadURL => UplaFFmpeg.GetDownloadURL(Platform);
         private const string RecorderDevicesVersion = "0.12.10";
+        // SHA-256 of the release asset, as published by GitHub.
+        private const string RecorderDevicesSHA256 = "aef431742e22e2e933d7ce505842d307f4091a8421576a3325ae737692808721";
         private static string RecorderDevicesDownloadURL = $"https://github.com/ShareX/RecorderDevices/releases/download/v{RecorderDevicesVersion}/recorder-devices-{RecorderDevicesVersion}-setup.exe";
 
         private static void Main(string[] args)
@@ -312,8 +314,8 @@ namespace ShareX.Setup
                 Console.WriteLine("Downloading: " + FFmpegDownloadURL);
                 WebHelpers.DownloadFileAsync(FFmpegDownloadURL, filePath).GetAwaiter().GetResult();
 
-                Console.WriteLine("Extracting: " + filePath);
-                ZipManager.Extract(filePath, OutputDir, false, entry => entry.Name.Equals("ffmpeg.exe", StringComparison.OrdinalIgnoreCase));
+                Console.WriteLine("Verifying and extracting: " + filePath);
+                UplaFFmpeg.InstallFromZip(filePath, UplaFFmpeg.GetSHA256(Platform), FFmpegPath);
             }
         }
 
@@ -326,6 +328,14 @@ namespace ShareX.Setup
 
                 Console.WriteLine("Downloading: " + RecorderDevicesDownloadURL);
                 WebHelpers.DownloadFileAsync(RecorderDevicesDownloadURL, filePath).GetAwaiter().GetResult();
+
+                string actualSHA256 = Convert.ToHexString(SHA256.HashData(File.ReadAllBytes(filePath)));
+
+                if (!actualSHA256.Equals(RecorderDevicesSHA256, StringComparison.OrdinalIgnoreCase))
+                {
+                    File.Delete(filePath);
+                    throw new InvalidDataException("Unexpected SHA-256 of " + fileName);
+                }
             }
         }
 

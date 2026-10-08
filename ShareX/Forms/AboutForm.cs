@@ -59,6 +59,7 @@ namespace ShareX
             rtbInfo.AppendLine($@"{UplaStrings.AboutDescription}
 
 {Resources.AboutForm_AboutForm_Website}: {Upla.WebsiteURL}
+{UplaStrings.AboutSourceCode}: {Upla.SourceCodeURL}
 {UplaStrings.AboutLicense}: GNU General Public License v3 - https://www.gnu.org/licenses/gpl-3.0.html
 ", FontStyle.Regular);
 

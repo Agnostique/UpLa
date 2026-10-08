@@ -182,6 +182,17 @@ namespace ShareX.HelpersLib
             "UpLa is the screenshot and upload app of upla.com.tr. It is based on ShareX, the free and open source program made by the ShareX Team, and is distributed under the GNU General Public License version 3 (GPL v3). UpLa is not an official ShareX release and is not supported by the ShareX Team.");
         public static string AboutLicense => T("Lisans", "License");
         public static string AboutShareXTeam => T("ShareX Ekibi", "ShareX Team");
+        public static string AboutSourceCode => T("Kaynak kod", "Source code");
+
+        // FFmpeg download for screen recording
+        public static string FFmpegDownloadInfo => T("Ekran kaydı için gereken FFmpeg indiriliyor (yaklaşık {0} MB). Bu yalnızca bir kez yapılır.",
+            "Downloading FFmpeg, which screen recording needs (about {0} MB). This is done only once.");
+        public static string FFmpegDownloadProgress => T("{0} / {1} MB indirildi", "{0} / {1} MB downloaded");
+        public static string FFmpegDownloadInstalling => T("Doğrulanıyor ve kuruluyor...", "Verifying and installing...");
+        public static string FFmpegDownloadFailed => T("FFmpeg indirilemedi: {0}\r\n\r\nİnternet bağlantınızı kontrol edip kaydı yeniden başlatın.",
+            "FFmpeg could not be downloaded: {0}\r\n\r\nCheck your internet connection and start the recording again.");
+        public static string FFmpegVerifyFailed => T("İndirilen FFmpeg dosyası beklenen dosya değil, kullanılmadı. Kaydı yeniden başlatarak tekrar deneyin.",
+            "The downloaded FFmpeg file is not the expected one and was not used. Start the recording again to retry.");
 
         // "PT5M", "PT1H", "P2D", "P1W", "P3M", "P1Y" -> "5 dakika", "1 saat", "2 gün"...
         public static string FormatDuration(string isoDuration)

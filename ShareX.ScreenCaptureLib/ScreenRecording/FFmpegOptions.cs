@@ -84,7 +84,7 @@ namespace ShareX.ScreenCaptureLib
                     return FileHelpers.GetAbsolutePath(CLIPath);
                 }
 
-                return FileHelpers.GetAbsolutePath("ffmpeg.exe");
+                return UplaFFmpeg.FindExisting() ?? UplaFFmpeg.AppFolderPath;
             }
         }
 
