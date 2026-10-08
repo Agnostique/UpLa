@@ -10,6 +10,7 @@ on:
       - "**/*.md"
       - "**/*.gitignore"
       - "**/*.gitattributes"
+  workflow_dispatch:
 
 permissions:
   contents: read
