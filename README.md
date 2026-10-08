@@ -10,7 +10,8 @@ UpLa is based on [ShareX](https://github.com/ShareX/ShareX) by the ShareX Team a
 **Türkçe:** UpLa, ücretsiz resim ve video barındırma sitesi [upla.com.tr](https://upla.com.tr)'nin Windows
 uygulamasıdır. Ekran görüntüsü ve ekran kaydı alır, bunları ya da bilgisayardaki resim ve videoları upla.com.tr'ye
 yükler. Hesap olmadan misafir olarak kullanılabilir; üyeler uygulamadan giriş yaparak kendi hesaplarına yükler.
-ShareX tabanlıdır ve GPL v3 ile lisanslanmıştır.
+ShareX tabanlıdır ve GPL v3 ile lisanslanmıştır. [Microsoft Store'dan](https://apps.microsoft.com/detail/9pphtn74p3cn)
+uyarı çıkmadan kurulur ve güncellemelerini Store'dan alır.
 
 ## Screenshots
 
@@ -28,14 +29,20 @@ Screen recorder settings:
 
 ## Download
 
-The setup and portable builds are published on the [releases page](https://github.com/Agnostique/UpLa/releases)
+<a href="https://apps.microsoft.com/detail/9pphtn74p3cn?mode=direct"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft"></a>
+
+The recommended way to install UpLa is the [Microsoft Store](https://apps.microsoft.com/detail/9pphtn74p3cn). Microsoft
+signs the Store version, so it installs without warnings, and it gets its updates from the Store. Requirements: Windows
+10 1903 or later, x64 or ARM64.
+
+The setup and portable builds are also published on the [releases page](https://github.com/Agnostique/UpLa/releases)
 and linked from [upla.com.tr](https://upla.com.tr/page/ekran-goruntusu). The latest setup is always at
 <https://github.com/Agnostique/UpLa/releases/latest/download/UpLa-setup-x64.exe>. Requirements: Windows 10 1607 or
 later, 64-bit.
 
-These builds are not code signed yet, so Windows may show "Windows protected your PC" when the setup is started for the
-first time ("More info" > "Run anyway"), and PCs with Smart App Control turned on do not run them. A Microsoft Store
-version, which Microsoft signs, is being prepared. All builds are made by GitHub Actions from this repository.
+The GitHub builds are not code signed, so Windows may show "Windows protected your PC" when the setup is started for
+the first time ("More info" > "Run anyway"), and PCs with Smart App Control turned on do not run them. All builds,
+including the Store packages, are made by GitHub Actions from this repository.
 
 ## How UpLa differs from ShareX
 
