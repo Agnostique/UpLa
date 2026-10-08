@@ -12,10 +12,26 @@ uygulamasıdır. Ekran görüntüsü ve ekran kaydı alır, bunları ya da bilgi
 yükler. Hesap olmadan misafir olarak kullanılabilir; üyeler uygulamadan giriş yaparak kendi hesaplarına yükler.
 ShareX tabanlıdır ve GPL v3 ile lisanslanmıştır.
 
+## Screenshots
+
+The main window with the capture hotkeys (Turkish interface):
+
+![UpLa main window](docs/screenshots/main-window.png)
+
+upla.com.tr settings: signing in, the link to copy, album, tags, auto delete and the screen recording limit:
+
+![upla.com.tr settings](docs/screenshots/upla-settings.png)
+
+Screen recorder settings:
+
+![Screen recorder settings](docs/screenshots/screen-recorder.png)
+
 ## Download
 
-Windows setup and portable builds are published on the [releases page](https://github.com/Agnostique/UpLa/releases)
-and linked from [upla.com.tr](https://upla.com.tr). Requirements: Windows 10 1607 or later, x64 or ARM64.
+The setup and portable builds are published on the [releases page](https://github.com/Agnostique/UpLa/releases)
+and linked from [upla.com.tr](https://upla.com.tr/page/ekran-goruntusu). The latest setup is always at
+<https://github.com/Agnostique/UpLa/releases/latest/download/UpLa-setup-x64.exe>. Requirements: Windows 10 1607 or
+later, 64-bit.
 
 These builds are not code signed yet, so Windows may show "Windows protected your PC" when the setup is started for the
 first time ("More info" > "Run anyway"), and PCs with Smart App Control turned on do not run them. A Microsoft Store
