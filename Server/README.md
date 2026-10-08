@@ -1,4 +1,7 @@
-# upla.com.tr server add-on: app sign-in
+# upla.com.tr server add-ons: app sign-in, views without bots
+
+This folder holds Chevereto route overrides for two independent things: the app sign-in (`upla-app.php`, most of this
+file) and view counts that ignore bots (see [Views without bots](#views-without-bots)).
 
 The UpLa desktop app lets members sign in with their upla.com.tr username (or email) and password. Chevereto 4.5.7 has no
 API for that, so this folder contains a small Chevereto **route override** that adds one. It does not modify any
@@ -125,3 +128,29 @@ It was tested with Chevereto 4.5.7 (free edition) on PHP 8.3 and MariaDB 10.11. 
 - In Chevereto 4.5.7 the 30-day `KEEP_LOGIN` cookie is created before the two-step verification code is entered, and the
   pending verification is only remembered in the PHP session. Check whether this applies to your Pro version.
 - Chevereto keys are shown only once and stored hashed (Argon2id); the app never sees a key other than its own.
+
+## Views without bots
+
+Chevereto counts an image, video, album or tag view whenever the item is not yet in the visitor's session list, and it
+does not tell bots from people. Crawlers and link previews keep no cookies, so each of their requests was a new view.
+On upla.com.tr in October 2026 about 88% of the image page requests came from bots (mostly PetalBot), and old images
+had thousands of views from crawlers alone.
+
+`image.php`, `video.php`, `album.php` and `tag.php` in `chevereto/app/legacy/routes/overrides/` wrap Chevereto's own
+routes. When the user agent is empty or belongs to a crawler, a link preview (WhatsApp, Telegram, Facebook and so on)
+or an HTTP library, the item is marked as already seen in that session before Chevereto's route runs. The page is
+served exactly the same, bots are not blocked, and only the view is not counted. People are counted as before; the
+pattern requires a separator after "bot", so phone names such as "CUBOT" stay people. The video route needs its own
+file because Chevereto's video route runs the core image route directly.
+
+Install: copy the four files next to `upla-app.php`. They load Chevereto's original route files, so core updates keep
+applying; check one image page as a bot and as a browser after each Chevereto update. Existing view counts are not
+changed. To undo, delete the four files.
+
+Check (the first two must not change `image_views` of the image, the third adds one):
+
+```sh
+curl -s -o /dev/null -A "Mozilla/5.0 (compatible; PetalBot)" https://upla.com.tr/i/<id>
+curl -s -o /dev/null -A "" https://upla.com.tr/i/<id>
+curl -s -o /dev/null -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/141.0 Safari/537.36" https://upla.com.tr/i/<id>
+```
