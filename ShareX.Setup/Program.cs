@@ -28,6 +28,7 @@ using ShareX.HelpersLib;
 using System;
 using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Security.Cryptography;
 using System.Text.RegularExpressions;
 
@@ -76,7 +77,22 @@ namespace ShareX.Setup
         private static string FFmpegPath => Path.Combine(OutputDir, "ffmpeg.exe");
         private static string RecorderDevicesSetupPath => Path.Combine(OutputDir, $"recorder-devices-{RecorderDevicesVersion}-setup.exe");
 
-        private const string InnoSetupCompilerPath = @"C:\Program Files (x86)\Inno Setup 6\ISCC.exe";
+        // Inno Setup installs to Program Files, or to %LOCALAPPDATA%\Programs when it is installed for the current user only.
+        private static string InnoSetupCompilerPath
+        {
+            get
+            {
+                string[] folders = new string[]
+                {
+                    Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86),
+                    Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles),
+                    Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Programs")
+                };
+
+                string[] paths = folders.Select(x => Path.Combine(x, "Inno Setup 6", "ISCC.exe")).ToArray();
+                return paths.FirstOrDefault(File.Exists) ?? paths[0];
+            }
+        }
         private static string FFmpegDownloadURL => UplaFFmpeg.GetDownloadURL(Platform);
         private const string RecorderDevicesVersion = "0.12.10";
         // SHA-256 of the release asset, as published by GitHub.
@@ -255,7 +271,8 @@ namespace ShareX.Setup
 
             Directory.CreateDirectory(destination);
 
-            FileHelpers.CopyFiles(source, destination, "*.exe");
+            // A build that was run may have downloaded ffmpeg.exe next to UpLa.exe; the verified copy below is used instead.
+            FileHelpers.CopyFiles(source, destination, "*.exe", new string[] { "ffmpeg.exe" });
             FileHelpers.CopyFiles(source, destination, "*.dll");
             FileHelpers.CopyFiles(source, destination, "*.json");
 
