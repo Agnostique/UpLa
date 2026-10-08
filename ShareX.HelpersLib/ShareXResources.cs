@@ -108,6 +108,15 @@ namespace ShareX.HelpersLib
             }
         }
 
+        // The colored app icon as an image; Icon may be the white tray icon, which disappears on light menus.
+        public static Bitmap GetAppImage(int size)
+        {
+            using (Icon appIcon = new Icon(Resources.ShareX_Icon, size, size))
+            {
+                return appIcon.ToBitmap();
+            }
+        }
+
         public static ShareXTheme Theme { get; set; } = ShareXTheme.DarkTheme;
 
         public static void ApplyTheme(Form form, bool closeOnEscape = false, bool setIcon = true)

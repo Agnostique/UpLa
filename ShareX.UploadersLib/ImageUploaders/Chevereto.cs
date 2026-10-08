@@ -25,7 +25,6 @@
 
 using Newtonsoft.Json;
 using ShareX.HelpersLib;
-using ShareX.UploadersLib.Properties;
 using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
@@ -37,7 +36,7 @@ namespace ShareX.UploadersLib.ImageUploaders
     {
         public override ImageDestination EnumValue { get; } = ImageDestination.Chevereto;
 
-        public override Image ServiceImage => Resources.Chevereto;
+        public override Image ServiceImage => Upla.Image;
 
         // upla.com.tr: Chevereto uploads always go to upla.com.tr, with the member's personal key or the shared guest key.
         public override bool CheckConfig(UploadersConfig config)

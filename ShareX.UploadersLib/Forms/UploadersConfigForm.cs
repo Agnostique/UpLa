@@ -75,6 +75,8 @@ namespace ShareX.UploadersLib
 
         private void InitializeControls()
         {
+            tpChevereto.Text = ImageDestination.Chevereto.GetLocalizedDescription(); // upla.com.tr
+
             if (!string.IsNullOrEmpty(Config.FilePath))
             {
                 Text += " - " + Config.FilePath;

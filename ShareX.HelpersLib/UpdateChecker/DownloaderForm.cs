@@ -42,6 +42,7 @@ namespace ShareX.HelpersLib
         public string FileName { get; set; }
         public string DownloadLocation { get; private set; }
         public string AcceptHeader { get; set; }
+        public string ExpectedSHA256 { get; set; }
         public bool AutoStartDownload { get; set; }
         public InstallType InstallType { get; set; }
         public bool AutoStartInstall { get; set; }
@@ -76,6 +77,8 @@ namespace ShareX.HelpersLib
             {
                 AcceptHeader = "application/octet-stream";
             }
+
+            ExpectedSHA256 = updateChecker.ExpectedSHA256;
         }
 
         private async void DownloaderForm_Shown(object sender, EventArgs e)
@@ -219,6 +222,15 @@ namespace ShareX.HelpersLib
                 {
                     bool downloadStatus = await fileDownloader.StartDownload();
 
+                    // upla.com.tr: the installer runs silently, so a file that is not the published one is never started.
+                    // Like a failed download: the file is deleted and the button stays "Cancel".
+                    if (downloadStatus && !IsExpectedFile(DownloadLocation, ExpectedSHA256))
+                    {
+                        FileHelpers.DeleteFile(DownloadLocation);
+                        ChangeStatus(UplaStrings.UpdateNotVerified);
+                        downloadStatus = false;
+                    }
+
                     if (downloadStatus)
                     {
                         ChangeStatus(Resources.DownloaderForm_fileDownloader_DownloadCompleted_Download_completed_);
@@ -235,6 +247,20 @@ namespace ShareX.HelpersLib
                 {
                     ChangeStatus(e.Message);
                 }
+            }
+        }
+
+        public static bool IsExpectedFile(string filePath, string expectedSHA256)
+        {
+            if (string.IsNullOrEmpty(expectedSHA256))
+            {
+                return true;
+            }
+
+            using (FileStream stream = File.OpenRead(filePath))
+            {
+                string hash = Convert.ToHexString(System.Security.Cryptography.SHA256.HashData(stream));
+                return hash.Equals(expectedSHA256, StringComparison.OrdinalIgnoreCase);
             }
         }
 

@@ -134,8 +134,10 @@ namespace ShareX
             else
             {
                 cbAutoCheckUpdate.Checked = Program.Settings.AutoCheckUpdate;
-                cbUpdateChannel.Enabled = Program.Settings.AutoCheckUpdate;
-                cbUpdateChannel.SelectedIndex = (int)Program.Settings.UpdateChannel;
+                // upla.com.tr: UpLa has one release channel, so ShareX's channels and dev builds are not offered.
+                lblUpdateChannel.Visible = false;
+                cbUpdateChannel.Visible = false;
+                btnCheckDevBuild.Visible = false;
             }
 #endif
 

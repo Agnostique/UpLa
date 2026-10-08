@@ -81,6 +81,8 @@ namespace ShareX
         public HotkeyType TrayMiddleClickAction = HotkeyType.ClipboardUploadWithContentViewer;
 
         public bool AutoCheckUpdate = true;
+        // upla.com.tr: time (UTC) of the last update check that reached GitHub; updates are checked once a day.
+        public DateTime LastUpdateCheck = DateTime.MinValue;
         public UpdateChannel UpdateChannel = UpdateChannel.Release;
         // TEMP: For backward compatibility
         public bool CheckPreReleaseUpdates = false;

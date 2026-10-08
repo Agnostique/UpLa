@@ -188,6 +188,7 @@ namespace ShareX.HelpersLib
                 if (asset != null)
                 {
                     FileName = asset.name;
+                    ExpectedSHA256 = GetSHA256(asset.digest);
 
                     if (isBrowserDownloadURL)
                     {
@@ -205,6 +206,19 @@ namespace ShareX.HelpersLib
             }
 
             return false;
+        }
+
+        // GitHub lists release assets with a "digest" such as "sha256:<hex>".
+        private static string GetSHA256(string digest)
+        {
+            const string prefix = "sha256:";
+
+            if (!string.IsNullOrEmpty(digest) && digest.StartsWith(prefix, StringComparison.OrdinalIgnoreCase) && digest.Length == prefix.Length + 64)
+            {
+                return digest.Substring(prefix.Length).ToLowerInvariant();
+            }
+
+            return null;
         }
 
         private GitHubAsset FindAsset(GitHubRelease release, string endsWith)
@@ -261,6 +275,7 @@ namespace ShareX.HelpersLib
             public DateTime created_at { get; set; }
             public DateTime updated_at { get; set; }
             public string browser_download_url { get; set; }
+            public string digest { get; set; }
         }
     }
 }

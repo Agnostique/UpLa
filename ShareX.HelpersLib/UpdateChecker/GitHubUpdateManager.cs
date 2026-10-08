@@ -80,10 +80,15 @@ namespace ShareX.HelpersLib
 
         private async Task CheckUpdate()
         {
-            if (AutoUpdateEnabled && !UpdateMessageBox.IsOpen)
+            if (AutoUpdateEnabled && !UpdateMessageBox.IsOpen && IsUpdateCheckDue())
             {
                 UpdateChecker updateChecker = CreateUpdateChecker();
                 await updateChecker.CheckUpdateAsync();
+
+                if (updateChecker.Status != UpdateStatus.UpdateCheckFailed)
+                {
+                    OnUpdateChecked();
+                }
 
                 if (UpdateMessageBox.Start(updateChecker, firstUpdateCheck) == DialogResult.No)
                 {
@@ -92,6 +97,17 @@ namespace ShareX.HelpersLib
 
                 firstUpdateCheck = false;
             }
+        }
+
+        // Lets a subclass check less often than UpdateCheckInterval, e.g. once a day across restarts.
+        protected virtual bool IsUpdateCheckDue()
+        {
+            return true;
+        }
+
+        // Called after an update check that reached the server.
+        protected virtual void OnUpdateChecked()
+        {
         }
 
         public virtual GitHubUpdateChecker CreateUpdateChecker()

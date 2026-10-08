@@ -24,33 +24,40 @@
 #endregion License Information (GPL v3)
 
 using ShareX.HelpersLib;
+using System;
 
 namespace ShareX
 {
+    // upla.com.tr: UpLa's own releases (github.com/Agnostique/UpLa, tags vX.Y.Z), checked at most once a day. ShareX's
+    // update channels and dev builds do not apply.
     internal class ShareXUpdateManager : GitHubUpdateManager
     {
+        public const string GitHubOwnerName = "Agnostique";
+        public const string GitHubRepoName = "UpLa";
+
+        private static readonly TimeSpan DailyCheck = TimeSpan.FromDays(1);
+
         public UpdateChannel UpdateChannel { get; set; }
 
         public override GitHubUpdateChecker CreateUpdateChecker()
         {
-            if (UpdateChannel == UpdateChannel.Dev)
+            return new GitHubUpdateChecker(GitHubOwnerName, GitHubRepoName)
             {
-                return new GitHubUpdateChecker("ShareX", "DevBuilds")
-                {
-                    IsDev = true,
-                    IsPortable = Program.Portable,
-                    IgnoreRevision = true
-                };
-            }
-            else
-            {
-                return new GitHubUpdateChecker("ShareX", "ShareX")
-                {
-                    IsPortable = Program.Portable,
-                    IncludePreRelease = UpdateChannel == UpdateChannel.PreRelease,
-                    IgnoreRevision = true
-                };
-            }
+                IsPortable = Program.Portable,
+                IgnoreRevision = true
+            };
+        }
+
+        // The timer still runs every hour, so a check that failed (no connection) is tried again soon.
+        protected override bool IsUpdateCheckDue()
+        {
+            DateTime lastCheck = Program.Settings.LastUpdateCheck;
+            return lastCheck > DateTime.UtcNow || DateTime.UtcNow - lastCheck >= DailyCheck;
+        }
+
+        protected override void OnUpdateChecked()
+        {
+            Program.Settings.LastUpdateCheck = DateTime.UtcNow;
         }
     }
 }

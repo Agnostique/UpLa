@@ -23,7 +23,6 @@
 
 #endregion License Information (GPL v3)
 
-using ShareX.UploadersLib.Properties;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -34,7 +33,7 @@ namespace ShareX.UploadersLib
     {
         public override FileDestination EnumValue { get; } = FileDestination.Chevereto;
 
-        public override Image ServiceImage => Resources.Chevereto;
+        public override Image ServiceImage => Upla.Image;
 
         public override bool CheckConfig(UploadersConfig config)
         {

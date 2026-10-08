@@ -64,6 +64,9 @@ namespace ShareX.HelpersLib
 
         public string DownloadURL { get; set; }
 
+        // SHA-256 (hex) the downloaded file must have; empty when the server does not tell it.
+        public string ExpectedSHA256 { get; set; }
+
         public void RefreshStatus()
         {
             if (CurrentVersion == null)

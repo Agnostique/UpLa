@@ -139,6 +139,8 @@ namespace ShareX.HelpersLib
             "Album and tags only work when you are signed in. Auto delete is applied when it is enabled on upla.com.tr.");
         public static string VideoNote => T("Ekran kayıtları (MP4, WEBM) da upla.com.tr'ye yüklenir. Sınır misafirlerde 20 MB, giriş yapan üyelerde 100 MB.",
             "Screen recordings (MP4, WEBM) are uploaded to upla.com.tr too. The limit is 20 MB for guests and 100 MB for signed in members.");
+        public static string UpdateNotVerified => T("İndirilen güncelleme doğrulanamadı (SHA-256 eşleşmedi), bu yüzden kurulmadı.",
+            "The downloaded update could not be verified (SHA-256 mismatch), so it was not installed.");
         public static string StopRecordingAtUploadLimit => T("Yüklenecek ekran kayıtlarını yükleme sınırına gelince durdur",
             "Stop screen recordings that will be uploaded at the upload limit");
         public static string RecordingStoppedAtUploadLimit => T("Kayıt {0} yükleme sınırına ulaştığı için durduruldu ve yükleniyor.",

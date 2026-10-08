@@ -24,7 +24,6 @@
 #endregion License Information (GPL v3)
 
 using ShareX.HelpersLib;
-using ShareX.UploadersLib.Properties;
 using System;
 using System.Windows.Forms;
 
@@ -37,7 +36,7 @@ namespace ShareX.UploadersLib
         // and "sign in again" when this computer's sign-in is no longer usable.
         public static void Update(ToolStripDropDownItem menu, UploadersConfig config, Action saveConfig, bool showUsernameOnly = false)
         {
-            menu.Image = Resources.Chevereto;
+            menu.Image = Upla.Image;
             menu.DropDownItems.Clear();
 
             if (config == null)

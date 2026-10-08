@@ -25,6 +25,7 @@
 
 using ShareX.HelpersLib;
 using System;
+using System.Drawing;
 using System.Linq;
 
 namespace ShareX.UploadersLib
@@ -65,6 +66,11 @@ namespace ShareX.UploadersLib
             long limit = GetMaxUploadSize(isMember);
             return limit - Math.Max(2L * 1024 * 1024, limit * 5 / 100);
         }
+
+        private static Image image;
+
+        // The upla.com.tr destination and account menu show UpLa's own icon.
+        public static Image Image => image ??= ShareXResources.GetAppImage(16);
 
         public static readonly string[] ImageExtensions = { "jpg", "jpeg", "png", "bmp", "gif", "webp" };
         // The video formats enabled on upla.com.tr (Chevereto 4.1+). mov is left out: browsers often cannot play it.

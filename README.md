@@ -46,7 +46,7 @@ version, which Microsoft signs, is being prepared. All builds are made by GitHub
   effects, pin to screen, OCR and the history are kept.
 - Screen recordings that will be uploaded stop at the upload limit (20 MB for guests, 100 MB for members), so they
   fit it. This can be turned off in the upla.com.tr settings.
-- No telemetry, and no automatic update check.
+- No telemetry. Updates come from this repository's releases: UpLa checks for a newer release once a day.
 - Settings of UpLa 1.0 (in `Documents\UpLa`) are taken over.
 
 ## Privacy
@@ -60,7 +60,11 @@ UpLa does not send any information to other computers unless you ask it to:
   website's "Connected devices" page.
 - Screen recording needs FFmpeg. If it is missing when you start a recording, UpLa downloads it once from
   [GitHub](https://github.com/ShareX/FFmpeg/releases) and uses it only if its SHA-256 matches the expected value.
-- There is no telemetry and no automatic update check.
+- Once a day UpLa asks GitHub (api.github.com) whether a newer UpLa release exists; GitHub sees your IP address. If
+  you accept an update, the setup is downloaded from GitHub and installed only when its SHA-256 matches the one GitHub
+  lists for it. "Automatically check for updates" in the application settings turns this off; the Microsoft Store
+  version gets its updates from the Store.
+- There is no telemetry.
 
 ## Building
 

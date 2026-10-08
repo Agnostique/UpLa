@@ -29,8 +29,10 @@ namespace ShareX.HelpersLib
     {
         public const string Website = "https://upla.com.tr";
 
+        // What changed in each UpLa release.
+        public const string Changelog = "https://github.com/Agnostique/UpLa/releases";
+
         // upla.com.tr has no pages for these. They lead to the website because ShareX's own pages are not about UpLa.
-        public const string Changelog = Website;
         public const string Donate = Website;
         public const string PrivacyPolicy = Website;
         public const string Discord = Website;
