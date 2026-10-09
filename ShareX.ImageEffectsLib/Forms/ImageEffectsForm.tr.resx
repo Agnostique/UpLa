@@ -142,7 +142,7 @@
     <value>Kapat</value>
   </data>
   <data name="btnUploadImage.Text" xml:space="preserve">
-    <value>Resimi yükle</value>
+    <value>Resmi yükle</value>
   </data>
   <data name="btnEffectAdd.ToolTip" xml:space="preserve">
     <value>Ekle</value>

@@ -199,7 +199,7 @@
     <value>HTML linkli resim</value>
   </data>
   <data name="HistoryItemManager_InitializeComponent_EditImage" xml:space="preserve">
-    <value>Resimi düzenle...</value>
+    <value>Resmi düzenle...</value>
   </data>
   <data name="HistoryManager_GetHistoryItems_Error" xml:space="preserve">
     <value>Hata</value>

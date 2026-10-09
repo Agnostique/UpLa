@@ -315,10 +315,10 @@ namespace ShareX.HistoryLib
                 }
 
                 ImageViewer.ShowImage(filteredImages.ToArray(), modifiedImageIndex);
-            } // TODO: Translate
+            }
             else if (FileHelpers.IsTextFile(hi.FilePath) || FileHelpers.IsVideoFile(hi.FilePath) ||
-                MessageBox.Show("Would you like to open this file?" + "\r\n\r\n" + hi.FilePath,
-                ShareXResources.Name + " - Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                MessageBox.Show(UplaStrings.OpenFileQuestion + "\r\n\r\n" + hi.FilePath,
+                UplaStrings.ConfirmationTitle, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 FileHelpers.OpenFile(hi.FilePath);
             }

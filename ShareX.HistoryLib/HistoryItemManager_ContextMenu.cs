@@ -23,6 +23,7 @@
 
 #endregion License Information (GPL v3)
 
+using ShareX.HelpersLib;
 using ShareX.HistoryLib.Properties;
 using System;
 using System.Drawing;
@@ -440,7 +441,7 @@ namespace ShareX.HistoryLib
             //
             tsmiFavorite.Name = "tsmiFavorite";
             tsmiFavorite.Size = new Size(127, 22);
-            tsmiFavorite.Text = "Favorite"; // TODO: Translate
+            tsmiFavorite.Text = UplaStrings.HistoryFavorite;
             tsmiFavorite.Click += tsmiFavorite_Click;
             tsmiFavorite.Image = Resources.star;
             //
@@ -448,7 +449,7 @@ namespace ShareX.HistoryLib
             //
             tsmiTag.Name = "tsmiTag";
             tsmiTag.Size = new Size(127, 22);
-            tsmiTag.Text = "Edit tag..."; // TODO: Translate
+            tsmiTag.Text = UplaStrings.HistoryEditTag;
             tsmiTag.Click += tsmiTag_Click;
             tsmiTag.Image = Resources.tag_hash;
             //
@@ -456,7 +457,7 @@ namespace ShareX.HistoryLib
             //
             tsmiEdit.Name = "tsmiEdit";
             tsmiEdit.Size = new Size(127, 22);
-            tsmiEdit.Text = "Edit item..."; // TODO: Translate
+            tsmiEdit.Text = UplaStrings.HistoryEditItem;
             tsmiEdit.Click += tsmiEdit_Click;
             tsmiEdit.Image = Resources.database__pencil;
             //
@@ -464,7 +465,7 @@ namespace ShareX.HistoryLib
             //
             tsmiRenameFile.Name = "tsmiRenameFile";
             tsmiRenameFile.Size = new Size(127, 22);
-            tsmiRenameFile.Text = "Rename file..."; // TODO: Translate
+            tsmiRenameFile.Text = UplaStrings.HistoryRenameFile;
             tsmiRenameFile.Click += tsmiRenameFile_Click;
             tsmiRenameFile.Image = Resources.document_rename;
             //
@@ -473,7 +474,7 @@ namespace ShareX.HistoryLib
             tsmiDelete.Name = "tsmiDelete";
             tsmiDelete.ShortcutKeyDisplayString = "Del";
             tsmiDelete.Size = new Size(127, 22);
-            tsmiDelete.Text = "Delete item..."; // TODO: Translate
+            tsmiDelete.Text = UplaStrings.HistoryDeleteItem;
             tsmiDelete.Click += tsmiDelete_Click;
             tsmiDelete.Image = Resources.database__minus;
             //
@@ -482,7 +483,7 @@ namespace ShareX.HistoryLib
             tsmiDeleteFile.Name = "tsmiDeleteFile";
             tsmiDeleteFile.ShortcutKeyDisplayString = "Shift+Del";
             tsmiDeleteFile.Size = new Size(127, 22);
-            tsmiDeleteFile.Text = "Delete file && item..."; // TODO: Translate
+            tsmiDeleteFile.Text = UplaStrings.HistoryDeleteFileAndItem;
             tsmiDeleteFile.Click += tsmiDeleteFile_Click;
             tsmiDeleteFile.Image = Resources.bin;
             //

@@ -113,8 +113,7 @@ namespace ShareX.HistoryLib
                 cmsHistory.Enabled = false;
             }
 
-            // TODO: Translate
-            tsmiFavorite.Text = HistoryItem != null && HistoryItem.Favorite ? "Unfavorite" : "Favorite";
+            tsmiFavorite.Text = HistoryItem != null && HistoryItem.Favorite ? UplaStrings.HistoryUnfavorite : UplaStrings.HistoryFavorite;
 
             return HistoryItem;
         }
@@ -623,8 +622,7 @@ namespace ShareX.HistoryLib
         public void EditTag()
         {
             string tag = HistoryItem.Tag;
-            // TODO: Translate
-            string newTag = InputBox.Show("Edit tag", tag);
+            string newTag = InputBox.Show(UplaStrings.HistoryEditTagTitle, tag);
             if (newTag != null && newTag != tag)
             {
                 HistoryItem.Tag = newTag;
@@ -649,8 +647,7 @@ namespace ShareX.HistoryLib
             {
                 string oldFileName = Path.GetFileNameWithoutExtension(HistoryItem.FilePath);
 
-                // TODO: Translate
-                string newFileName = InputBox.Show("Rename file", oldFileName);
+                string newFileName = InputBox.Show(UplaStrings.HistoryRenameFileTitle, oldFileName);
 
                 if (!string.IsNullOrEmpty(newFileName) && !oldFileName.Equals(newFileName, StringComparison.OrdinalIgnoreCase))
                 {
@@ -671,11 +668,7 @@ namespace ShareX.HistoryLib
         {
             if (SelectedItemCount > 0)
             {
-                // TODO: Translate
-                string itemText = SelectedItemCount > 1 ? "these items" : "this item";
-                string message = $"Do you really want to delete {itemText}?";
-
-                if (MessageBox.Show(message, ShareXResources.Name + " - Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show(UplaStrings.HistoryDeleteItemsConfirm(SelectedItemCount), UplaStrings.ConfirmationTitle, MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     HistoryItem[] historyItems = OnGetHistoryItems();
                     if (historyItems != null && historyItems.Length > 0)
@@ -690,11 +683,7 @@ namespace ShareX.HistoryLib
         {
             if (SelectedItemCount > 0)
             {
-                // TODO: Translate
-                string fileText = SelectedItemCount > 1 ? "these files" : "this file";
-                string message = $"Do you really want to delete {fileText}?";
-
-                if (MessageBox.Show(message, ShareXResources.Name + " - Confirmation", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show(UplaStrings.HistoryDeleteFilesConfirm(SelectedItemCount), UplaStrings.ConfirmationTitle, MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     HistoryItem[] historyItems = OnGetHistoryItems();
                     if (historyItems != null && historyItems.Length > 0)

@@ -178,7 +178,7 @@
     <value>Panodan yükle...</value>
   </data>
   <data name="tsmiUploadURL.Text" xml:space="preserve">
-    <value>Adresden indirip yükle...</value>
+    <value>Adresten indirip yükle...</value>
   </data>
   <data name="tsmiUploadDragDrop.Text" xml:space="preserve">
     <value>Sürükle bırak ile yükle...</value>
@@ -280,7 +280,7 @@
     <value>Dizin</value>
   </data>
   <data name="tsmiOpenThumbnailFile.Text" xml:space="preserve">
-    <value>Küçük resim dosya</value>
+    <value>Küçük resim dosyası</value>
   </data>
   <data name="tsmiCopy.Text" xml:space="preserve">
     <value>Kopyala</value>
@@ -304,7 +304,7 @@
     <value>Yazı</value>
   </data>
   <data name="tsmiCopyThumbnailFile.Text" xml:space="preserve">
-    <value>Küçük resim dosya</value>
+    <value>Küçük resim dosyası</value>
   </data>
   <data name="tsmiCopyThumbnailImage.Text" xml:space="preserve">
     <value>Küçük resim</value>
@@ -403,7 +403,7 @@
     <value>Panodan yükle...</value>
   </data>
   <data name="tsmiTrayUploadURL.Text" xml:space="preserve">
-    <value>Adresden indirip yükle...</value>
+    <value>Adresten indirip yükle...</value>
   </data>
   <data name="tsmiTrayUploadDragDrop.Text" xml:space="preserve">
     <value>Sürükle bırak ile yükle...</value>

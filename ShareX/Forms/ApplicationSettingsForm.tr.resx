@@ -334,7 +334,7 @@
     <value>Beyaz UpLa ikonu kullan</value>
   </data>
   <data name="lblCleanupKeepFileCount.Text" xml:space="preserve">
-    <value>Saklancak dosya sayısı:</value>
+    <value>Saklanacak dosya sayısı:</value>
   </data>
   <data name="lblExportImportNote.Text" xml:space="preserve">
     <value>Not: Dışarı aktarılan dosyayı kimseyle paylaşmayınız, çünkü hesap detayları ve yükleme girdileri gibi kişisel bilgiler içerebilir.</value>

@@ -181,7 +181,7 @@
     <value>Pencerenin başlığı</value>
   </data>
   <data name="AfterCaptureTasks_SendImageToPrinter" xml:space="preserve">
-    <value>Resimi yazdır</value>
+    <value>Resmi yazdır</value>
   </data>
   <data name="ShapeType_RegionRectangle" xml:space="preserve">
     <value>Dikdörtgen bölge</value>
@@ -223,7 +223,7 @@
     <value>Yükle</value>
   </data>
   <data name="AfterCaptureTasks_UploadImageToHost" xml:space="preserve">
-    <value>Resimi yükle</value>
+    <value>Resmi yükle</value>
   </data>
   <data name="ReplCodeMenuEntry_ix_Auto_increment_hexadecimal" xml:space="preserve">
     <value>Otomatik artan heksadesimal ({n} başa n kadar 0 ekler)</value>
@@ -262,7 +262,7 @@
     <value>Kaydetme</value>
   </data>
   <data name="AfterCaptureTasks_CopyImageToClipboard" xml:space="preserve">
-    <value>Resimi panoya kopyala</value>
+    <value>Resmi panoya kopyala</value>
   </data>
   <data name="PNGBitDepth_Bit32" xml:space="preserve">
     <value>32 bit</value>
@@ -443,7 +443,7 @@
     <value>Ekran kaydetme başlat/durdur</value>
   </data>
   <data name="AfterCaptureTasks_SaveImageToFile" xml:space="preserve">
-    <value>Resimi dosya olarak kaydet</value>
+    <value>Resmi dosya olarak kaydet</value>
   </data>
   <data name="ActionsCodeMenuEntry_OutputFilePath_File_path_without_extension____Output_file_name_extension_" xml:space="preserve">
     <value>Uzantısız dosya yolu + "Çıkış dosya uzantısı"</value>
@@ -720,7 +720,7 @@
     <value>Hiçbir şey yapma</value>
   </data>
   <data name="AfterCaptureTasks_SaveImageToFileWithDialog" xml:space="preserve">
-    <value>Resimi dosya olarak farklı kaydet...</value>
+    <value>Resmi dosya olarak farklı kaydet...</value>
   </data>
   <data name="ObjectListView_ObjectListView_Copy_name" xml:space="preserve">
     <value>İsmi kopyala</value>
@@ -846,7 +846,7 @@
     <value>Uyarı penceresini kapat</value>
   </data>
   <data name="ToastClickAction_AnnotateImage" xml:space="preserve">
-    <value>Resimi düzenle</value>
+    <value>Resmi düzenle</value>
   </data>
   <data name="ToastClickAction_CopyImageToClipboard" xml:space="preserve">
     <value>Resim kopyala</value>
@@ -927,7 +927,7 @@
     <value>Varsayılan</value>
   </data>
   <data name="ThumbnailViewClickAction_EditImage" xml:space="preserve">
-    <value>Resimi düzenle</value>
+    <value>Resmi düzenle</value>
   </data>
   <data name="ThumbnailViewClickAction_OpenFile" xml:space="preserve">
     <value>Dosya aç</value>

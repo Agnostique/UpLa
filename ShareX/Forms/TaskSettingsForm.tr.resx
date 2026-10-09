@@ -421,7 +421,7 @@
     <value>Fare sağ tuşuna basıldığında:</value>
   </data>
   <data name="cbImageAutoUseJPEG.Text" xml:space="preserve">
-    <value>Eğer resim dosya boyutu ayarlanan boyutdan fazlaysa JPEG kullan:</value>
+    <value>Eğer resim dosya boyutu ayarlanan boyuttan fazlaysa JPEG kullan:</value>
   </data>
   <data name="cbRegionCaptureIsFixedSize.Text" xml:space="preserve">
     <value>Sabit boyut bölge modu:</value>
@@ -484,7 +484,7 @@
     <value>saniye</value>
   </data>
   <data name="cbImageAutoJPEGQuality.Text" xml:space="preserve">
-    <value>JPEG kalitesini belirtilen resim boyutuna yakın gelicek şekilde otomatik ayarla</value>
+    <value>JPEG kalitesini belirtilen resim boyutuna yakın gelecek şekilde otomatik ayarla</value>
   </data>
   <data name="cbOverrideScreenshotsFolder.Text" xml:space="preserve">
     <value>Varsayılan ekran görüntüsü klasörünü değiştir</value>

@@ -36,6 +36,22 @@ namespace ShareX.HistoryLib.Forms
         public HistoryItemEditForm(HistoryItem historyItem)
         {
             InitializeComponent();
+            // The designer texts are English only.
+            Text = UplaStrings.HistoryItemEditTitle;
+            lblFileName.Text = UplaStrings.HistoryItemFileName;
+            lblFilePath.Text = UplaStrings.HistoryItemFilePath;
+            lblDateTime.Text = UplaStrings.HistoryItemDateTime;
+            lblType.Text = UplaStrings.HistoryItemType;
+            lblHost.Text = UplaStrings.HistoryItemHost;
+            lblURL.Text = UplaStrings.HistoryItemURL;
+            lblThumbnailURL.Text = UplaStrings.HistoryItemThumbnailURL;
+            lblDeletionURL.Text = UplaStrings.HistoryItemDeletionURL;
+            lblShortenedURL.Text = UplaStrings.HistoryItemShortenedURL;
+            lblTags.Text = UplaStrings.HistoryItemTags;
+            cName.HeaderText = UplaStrings.HistoryItemTagName;
+            cValue.HeaderText = UplaStrings.HistoryItemTagValue;
+            btnOK.Text = UplaStrings.OK;
+            btnCancel.Text = UplaStrings.Cancel;
             ShareXResources.ApplyTheme(this, true);
 
             this.HistoryItem = historyItem;

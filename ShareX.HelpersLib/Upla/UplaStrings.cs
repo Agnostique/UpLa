@@ -177,7 +177,7 @@ namespace ShareX.HelpersLib
 
         // First upload
         public static string FirstUploadTitle => T("upla.com.tr'ye otomatik yükleme", "Automatic upload to upla.com.tr");
-        public static string FirstUploadText => T("Ekran görüntüleriniz ve kayıtlarınız yakalandıktan sonra otomatik olarak upla.com.tr'ye yüklenir ve linke sahip herkesin görebileceği bir bağlantı oluşturulur.\r\n\r\nOtomatik yükleme açık kalsın mı?\r\n\r\nHayır derseniz bu dosya yüklenmez ve otomatik yükleme kapatılır; daha sonra \"Yakalama sonrası görevler\" menüsünden tekrar açabilirsiniz.",
+        public static string FirstUploadText => T("Ekran görüntüleriniz ve kayıtlarınız yakalandıktan sonra otomatik olarak upla.com.tr'ye yüklenir ve linke sahip herkesin görebileceği bir bağlantı oluşturulur.\r\n\r\nOtomatik yükleme açık kalsın mı?\r\n\r\nHayır derseniz bu dosya yüklenmez ve otomatik yükleme kapatılır; daha sonra \"Yakalama sonrası\" menüsünden tekrar açabilirsiniz.",
             "Your screenshots and recordings are uploaded to upla.com.tr automatically after capture, and a link that anyone who has it can open is created.\r\n\r\nKeep automatic upload on?\r\n\r\nIf you choose No, this file is not uploaded and automatic upload is turned off; you can turn it back on from the \"After capture tasks\" menu.");
 
         // Deletion links
@@ -201,6 +201,41 @@ namespace ShareX.HelpersLib
             "FFmpeg could not be downloaded: {0}\r\n\r\nCheck your internet connection and start the recording again.");
         public static string FFmpegVerifyFailed => T("İndirilen FFmpeg dosyası beklenen dosya değil, kullanılmadı. Kaydı yeniden başlatarak tekrar deneyin.",
             "The downloaded FFmpeg file is not the expected one and was not used. Start the recording again to retry.");
+
+        // Texts ShareX has only in English: opening a file from the task list or image history, the history menu and its dialogs
+        public static string OpenFileQuestion => T("Bu dosyayı açmak ister misiniz?", "Would you like to open this file?");
+        public static string ConfirmationTitle => ShareXResources.Name + " - " + T("Onay", "Confirmation");
+        public static string HistoryFavorite => T("Sık kullanılanlara ekle", "Favorite");
+        public static string HistoryUnfavorite => T("Sık kullanılanlardan çıkar", "Unfavorite");
+        public static string HistoryEditTag => T("Etiketi düzenle...", "Edit tag...");
+        public static string HistoryEditTagTitle => T("Etiketi düzenle", "Edit tag");
+        public static string HistoryEditItem => T("Öğeyi düzenle...", "Edit item...");
+        public static string HistoryRenameFile => T("Dosyayı yeniden adlandır...", "Rename file...");
+        public static string HistoryRenameFileTitle => T("Dosyayı yeniden adlandır", "Rename file");
+        public static string HistoryDeleteItem => T("Öğeyi sil...", "Delete item...");
+        public static string HistoryDeleteFileAndItem => T("Dosyayı ve öğeyi sil...", "Delete file && item...");
+        public static string HistoryDeleteItemsConfirm(int count) => count > 1 ?
+            T("Bu öğeleri gerçekten silmek istiyor musunuz?", "Do you really want to delete these items?") :
+            T("Bu öğeyi gerçekten silmek istiyor musunuz?", "Do you really want to delete this item?");
+        public static string HistoryDeleteFilesConfirm(int count) => count > 1 ?
+            T("Bu dosyaları gerçekten silmek istiyor musunuz?", "Do you really want to delete these files?") :
+            T("Bu dosyayı gerçekten silmek istiyor musunuz?", "Do you really want to delete this file?");
+
+        // History item editor
+        public static string HistoryItemEditTitle => ShareXResources.Name + " - " + T("Öğeyi düzenle", "Edit item");
+        public static string HistoryItemFileName => T("Dosya adı:", "File name:");
+        public static string HistoryItemFilePath => T("Dosya yolu:", "File path:");
+        public static string HistoryItemDateTime => T("Tarih ve saat:", "Date time:");
+        public static string HistoryItemType => T("Tür:", "Type:");
+        public static string HistoryItemHost => T("Sunucu:", "Host:");
+        public static string HistoryItemURL => T("Adres:", "URL:");
+        public static string HistoryItemThumbnailURL => T("Küçük resim adresi:", "Thumbnail URL:");
+        public static string HistoryItemDeletionURL => T("Silme adresi:", "Deletion URL:");
+        public static string HistoryItemShortenedURL => T("Kısaltılmış adres:", "Shortened URL:");
+        public static string HistoryItemTags => T("Etiketler:", "Tags:");
+        public static string HistoryItemTagName => T("Ad", "Name");
+        public static string HistoryItemTagValue => T("Değer", "Value");
+        public static string OK => T("Tamam", "OK");
 
         // "PT5M", "PT1H", "P2D", "P1W", "P3M", "P1Y" -> "5 dakika", "1 saat", "2 gün"...
         public static string FormatDuration(string isoDuration)
