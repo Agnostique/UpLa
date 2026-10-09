@@ -6,7 +6,7 @@
     <!-- Version stays the ShareX version this build is based on: settings files store it and upgrade checks compare
          it with ShareX versions. InformationalVersion is the UpLa version users see (Application.ProductVersion). -->
     <Version>21.0.0</Version>
-    <InformationalVersion>2.0.2</InformationalVersion>
+    <InformationalVersion>2.0.3</InformationalVersion>
     <EmbeddedResourceUseDependentUponConvention>true</EmbeddedResourceUseDependentUponConvention>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendPlatformToOutputPath>false</AppendPlatformToOutputPath>

@@ -593,7 +593,8 @@ namespace ShareX
                 foreach (ToolStripDropDownItem parent in parents)
                 {
                     ToolStripMenuItem tsmi = (ToolStripMenuItem)parent.DropDownItems[i];
-                    tsmi.Checked = value.HasFlag(1 << i);
+                    // The item's own task, not 1 << i: UpLa removed tasks, so the flags have gaps.
+                    tsmi.Checked = tsmi.Tag is Enum task && value.HasFlag(task);
                 }
             }
         }

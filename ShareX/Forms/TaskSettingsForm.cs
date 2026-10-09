@@ -593,6 +593,8 @@ namespace ShareX
         private void AddMultiEnumItemsContextMenu<T>(Action<T> selectedEnum, params ToolStripDropDown[] parents) where T : Enum
         {
             string[] enums = Helpers.GetLocalizedEnumDescriptions<T>().Skip(1).Select(x => x.Replace("&", "&&")).ToArray();
+            // Each item keeps its own task: UpLa removed tasks, so the flags have gaps and 1 << index is a different task.
+            T[] values = Helpers.GetEnums<T>().Skip(1).ToArray();
 
             foreach (ToolStripDropDown parent in parents)
             {
@@ -600,6 +602,7 @@ namespace ShareX
                 {
                     ToolStripMenuItem tsmi = new ToolStripMenuItem(enums[i]);
                     tsmi.Image = TaskHelpers.FindMenuIcon<T>(i + 1);
+                    tsmi.Tag = values[i];
 
                     int index = i;
 
@@ -611,7 +614,7 @@ namespace ShareX
                             tsmi2.Checked = !tsmi2.Checked;
                         }
 
-                        selectedEnum((T)Enum.ToObject(typeof(T), 1 << index));
+                        selectedEnum(values[index]);
 
                         UpdateTaskTabMenuNames();
                     };
@@ -628,7 +631,7 @@ namespace ShareX
                 foreach (ToolStripDropDown parent in parents)
                 {
                     ToolStripMenuItem tsmi = (ToolStripMenuItem)parent.Items[i];
-                    tsmi.Checked = value.HasFlag(1 << i);
+                    tsmi.Checked = tsmi.Tag is Enum task && value.HasFlag(task);
                 }
             }
         }
