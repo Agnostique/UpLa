@@ -51,6 +51,7 @@ namespace ShareX.HelpersLib
             "Remove the API key entered by hand from this computer? Later uploads are made as a guest.");
         public static string MyProfile => T("Profilim", "My profile");
         public static string ConnectedDevices => T("Bağlı cihazlar", "Connected devices");
+        public static string ReportAbuse => T("Kötüye kullanımı bildir", "Report abuse");
         public static string ForgotPassword => T("Şifremi unuttum", "Forgot password");
         public static string ManualAPIKey => T("API anahtarını elle gir (gelişmiş)", "Enter an API key by hand (advanced)");
         public static string SignInAgain => T("Tekrar giriş yap...", "Sign in again...");
@@ -133,7 +134,6 @@ namespace ShareX.HelpersLib
         public static string CategoryID => T("Kategori kimliği (0 = yok):", "Category ID (0 = none):");
         public static string AutoDelete => T("Otomatik silme:", "Auto delete:");
         public static string AutoDeleteNever => T("Kapalı", "Never");
-        public static string NSFW => T("Hassas içerik (NSFW) olarak işaretle", "Mark as NSFW");
         public static string MaxWidth => T("Sunucuda en fazla genişlik (px, 0 = kapalı):", "Max width on server (px, 0 = off):");
         public static string MemberOnlyNote => T("Albüm ve etiketler yalnızca giriş yaptığınızda çalışır. Otomatik silme, upla.com.tr'de etkinse uygulanır.",
             "Album and tags only work when you are signed in. Auto delete is applied when it is enabled on upla.com.tr.");

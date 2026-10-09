@@ -39,6 +39,8 @@ namespace ShareX.UploadersLib
         public const string SignUpURL = WebsiteURL + "/signup";
         public const string PasswordForgotURL = WebsiteURL + "/account/password-forgot";
         public const string ConnectedDevicesURL = WebsiteURL + "/upla-app/devices";
+        // The contact page explains how to report content that breaks the terms (abuse@upla.com.tr).
+        public const string ReportAbuseURL = WebsiteURL + "/page/contact";
         public const string APIDocumentationURL = WebsiteURL + "/api-v1";
         public const string SourceCodeURL = "https://github.com/Agnostique/UpLa";
 

@@ -62,8 +62,6 @@ namespace ShareX.UploadersLib
         // One of Upla.ExpirationPresets, empty for no automatic deletion.
         public string Expiration { get; set; } = "";
 
-        public bool NSFW { get; set; } = false;
-
         // Screen recordings that will be uploaded stop at the upload limit (guests 20 MB, members 100 MB).
         public bool StopRecordingAtUploadLimit { get; set; } = true;
 

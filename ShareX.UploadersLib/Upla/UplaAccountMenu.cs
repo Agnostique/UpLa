@@ -82,6 +82,10 @@ namespace ShareX.UploadersLib
                 menu.DropDownItems.Add(UplaStrings.SignInButton, null, (sender, e) => ShowSignIn(config, saveConfig, null));
                 menu.DropDownItems.Add(UplaStrings.SignUp, null, (sender, e) => URLHelpers.OpenURL(Upla.SignUpURL));
             }
+
+            // Microsoft Store policy for apps that share user content: a way to report content that breaks the rules.
+            menu.DropDownItems.Add(new ToolStripSeparator());
+            menu.DropDownItems.Add(UplaStrings.ReportAbuse, null, (sender, e) => URLHelpers.OpenURL(Upla.ReportAbuseURL));
         }
 
         public static bool ShowSignIn(UploadersConfig config, Action saveConfig, IWin32Window owner)

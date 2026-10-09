@@ -346,15 +346,6 @@ namespace ShareX.UploadersLib
                 settings.Expiration = cbExpiration.SelectedIndex > 0 ? Upla.ExpirationPresets[cbExpiration.SelectedIndex - 1] : "";
             AddRow(CreateLabel(UplaStrings.AutoDelete), cbExpiration);
 
-            CheckBox cbNSFW = new CheckBox()
-            {
-                Text = UplaStrings.NSFW,
-                AutoSize = true,
-                Checked = settings.NSFW
-            };
-            cbNSFW.CheckedChanged += (sender, e) => settings.NSFW = cbNSFW.Checked;
-            AddRow(null, cbNSFW);
-
             NumericUpDown nudMaxWidth = new NumericUpDown()
             {
                 Minimum = 0,

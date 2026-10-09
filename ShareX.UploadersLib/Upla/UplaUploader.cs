@@ -230,10 +230,7 @@ namespace ShareX.UploadersLib
                 args.Add("expiration", Settings.Expiration);
             }
 
-            if (Settings.NSFW)
-            {
-                args.Add("nsfw", "1");
-            }
+            // No "nsfw" flag: since October 2026 the terms of upla.com.tr do not allow adult content at all.
 
             // Chevereto fails the whole upload (error 610) when the resize width is larger than the image.
             if (Settings.MaxWidth > 0 && !Upla.IsVideoExtension(FileHelpers.GetFileNameExtension(fileName)) &&
