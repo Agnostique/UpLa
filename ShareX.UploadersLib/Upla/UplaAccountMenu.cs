@@ -67,9 +67,11 @@ namespace ShareX.UploadersLib
                     menu.DropDownItems.Add(new ToolStripSeparator());
                 }
 
-                if (!string.IsNullOrEmpty(settings.AccountURL))
+                string profileURL = Upla.GetProfileURL(settings.AccountURL);
+
+                if (!string.IsNullOrEmpty(profileURL))
                 {
-                    menu.DropDownItems.Add(UplaStrings.MyProfile, null, (sender, e) => URLHelpers.OpenURL(settings.AccountURL));
+                    menu.DropDownItems.Add(UplaStrings.MyProfile, null, (sender, e) => URLHelpers.OpenURL(profileURL));
                 }
 
                 menu.DropDownItems.Add(UplaStrings.ConnectedDevices, null, (sender, e) => URLHelpers.OpenURL(Upla.ConnectedDevicesURL));

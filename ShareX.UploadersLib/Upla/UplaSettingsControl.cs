@@ -178,7 +178,7 @@ namespace ShareX.UploadersLib
             btnSignOut = CreateButton(UplaStrings.SignOutButton);
             btnSignOut.Click += (sender, e) => UplaAccountMenu.SignOut(config, null, FindForm());
             llProfile = CreateLink(UplaStrings.MyProfile, null);
-            llProfile.LinkClicked += (sender, e) => URLHelpers.OpenURL(settings.AccountURL);
+            llProfile.LinkClicked += (sender, e) => URLHelpers.OpenURL(Upla.GetProfileURL(settings.AccountURL));
             llDevices = CreateLink(UplaStrings.ConnectedDevices, Upla.ConnectedDevicesURL);
             llSignUp = CreateLink(UplaStrings.SignUp, Upla.SignUpURL);
             llGuest = CreateLink(UplaStrings.ContinueAsGuest, null);
@@ -280,7 +280,7 @@ namespace ShareX.UploadersLib
             btnSignIn.Text = lost || expired ? UplaStrings.SignInAgain : UplaStrings.SignInButton;
             btnSignIn.Visible = !signedIn || expired;
             btnSignOut.Visible = signedIn || manualKey;
-            llProfile.Visible = signedIn && !string.IsNullOrEmpty(settings.AccountURL);
+            llProfile.Visible = signedIn && !string.IsNullOrEmpty(Upla.GetProfileURL(settings.AccountURL));
             llDevices.Visible = signedIn || lost;
             llSignUp.Visible = !signedIn && !manualKey && !lost;
             llGuest.Visible = lost;

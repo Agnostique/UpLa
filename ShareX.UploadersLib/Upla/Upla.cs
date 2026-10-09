@@ -168,9 +168,30 @@ namespace ShareX.UploadersLib
         {
             settings.AccountUsername = result.Username ?? "";
             settings.AccountName = result.Name ?? "";
-            settings.AccountURL = result.ProfileURL ?? "";
+            settings.AccountURL = GetProfileURL(result.ProfileURL);
             SignInExpired = false;
             RaiseAccountChanged();
+        }
+
+        // Until October 2026 upla.com.tr sent the profile link as a path ("/name"), which cannot be opened as a link and
+        // is still in the settings of members who signed in then. Only links on upla.com.tr are used, as full URLs.
+        public static string GetProfileURL(string url)
+        {
+            if (string.IsNullOrWhiteSpace(url))
+            {
+                return "";
+            }
+
+            Uri site = new Uri(WebsiteURL + "/");
+
+            if (Uri.TryCreate(site, url.Trim(), out Uri profile) &&
+                (profile.Scheme == Uri.UriSchemeHttps || profile.Scheme == Uri.UriSchemeHttp) &&
+                profile.Host.Equals(site.Host, StringComparison.OrdinalIgnoreCase))
+            {
+                return profile.AbsoluteUri;
+            }
+
+            return "";
         }
 
         public static void ClearAccount(UplaSettings settings)

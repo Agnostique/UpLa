@@ -79,10 +79,17 @@ return function (Handler $handler) {
         $respond($status, ['error' => ['code' => $code, 'message' => $message]] + $extra);
     };
     $publicUser = function (array $user): array {
+        // Chevereto 4.5 builds the profile link with get_base_url(), which is only a path ("/name"). Apps open it as a
+        // link, so it is always sent as a full URL (get_base_url with $public = true starts with the site's own URL).
+        $url = (string) ($user['url'] ?? '');
+        if ($url !== '' && preg_match('~^https?://~i', $url) !== 1) {
+            $url = get_base_url($url, true);
+        }
+
         return [
             'username' => (string) ($user['username'] ?? ''),
             'name' => (string) ($user['name'] ?? ''),
-            'url' => (string) ($user['url'] ?? ''),
+            'url' => $url,
         ];
     };
     $accountError = function (string $status) use ($fail): bool {
